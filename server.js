@@ -1,33 +1,27 @@
 // Servidor da Plataforma de Rateio de Custos — Dtel Telecom.
 //
-// Dois modos, escolhidos automaticamente conforme as variáveis de ambiente:
+// Modo único, igual ao já usado com sucesso no projeto de Dashboards de
+// Vendas Externas: lê a Base_Rateio_Custos_DTEL.xlsx direto da pasta
+// "dados-mensais" deste projeto. Local (intranet) e no ar (Render) funcionam
+// do mesmo jeito — a diferença é só de onde vem a pasta:
 //
-// 1) LOCAL/INTRANET (padrão, sem nenhuma variável de ambiente): lê a
-//    Base_Rateio_Custos_DTEL.xlsx direto da pasta "dados-mensais" deste
-//    computador. Fluxo de uso: mantenha este processo rodando
-//    (2_Ligar_Plataforma.bat) e, todo mês, apenas sobrescreva o arquivo
-//    dentro de "dados-mensais" — o site atualiza sozinho (cache de 60s).
-//
-// 2) ONLINE/DINÂMICO (quando ONEDRIVE_SHARE_URL está definida, ex: publicado
-//    no Railway): baixa a planilha de um link de compartilhamento do OneDrive
-//    ("qualquer pessoa com o link pode ver") a cada poucos minutos, do mesmo
-//    jeito já usado no projeto de Dashboards de Vendas Externas. Assim, o
-//    site sempre no ar (não depende do computador da Débora estar ligado) e
-//    atualiza sozinho quando a planilha do OneDrive muda — sem precisar
-//    reenviar arquivo nem clicar em nada.
+// - No seu computador: você sobrescreve o arquivo dentro de "dados-mensais"
+//   e o site local atualiza sozinho (cache de 60s).
+// - No ar (Render): você roda "ATUALIZAR E PUBLICAR.bat", que copia a
+//   planilha atualizada para dentro da pasta do projeto e já manda pro
+//   GitHub. O Render detecta o push e publica a versão nova em ~2 minutos.
+//   Não depende do seu computador ficar ligado depois disso.
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
 const cors = require('cors');
 const { extrairEstado, slugify, SECTOR_ICONS } = require('./extrair_dados');
-const { baixarPlanilhaOneDrive } = require('./onedrive');
 
 const app = express();
 app.use(cors());
 
 const PASTA_DADOS = path.join(__dirname, 'dados-mensais');
-const ONEDRIVE_SHARE_URL = process.env.ONEDRIVE_SHARE_URL || null;
-const CACHE_MS = parseInt(process.env.CACHE_MS || '', 10) || (ONEDRIVE_SHARE_URL ? 3 * 60 * 1000 : 60 * 1000);
+const CACHE_MS = parseInt(process.env.CACHE_MS || '', 10) || 60 * 1000;
 
 // ── Senha simples de acesso (opcional) ──────────────────────────────────────
 // Se SITE_PASSWORD estiver definida (ex: no Railway), pede usuário/senha via
@@ -47,7 +41,6 @@ if (SITE_PASSWORD) {
 }
 
 let _cache = { estado: null, ts: 0, erro: null };
-let _tmpDirAtual = null;
 
 async function getEstado() {
   const agora = Date.now();
@@ -55,17 +48,8 @@ async function getEstado() {
     return _cache;
   }
   try {
-    let pastaParaLer = PASTA_DADOS;
-    if (ONEDRIVE_SHARE_URL) {
-      pastaParaLer = await baixarPlanilhaOneDrive(ONEDRIVE_SHARE_URL);
-    }
-    const estado = extrairEstado(pastaParaLer);
+    const estado = extrairEstado(PASTA_DADOS);
     _cache = { estado, ts: agora, erro: null };
-    // limpa a pasta temporária anterior (se veio do OneDrive)
-    if (ONEDRIVE_SHARE_URL && _tmpDirAtual && _tmpDirAtual !== pastaParaLer) {
-      fs.rm(_tmpDirAtual, { recursive: true, force: true }, () => {});
-    }
-    if (ONEDRIVE_SHARE_URL) _tmpDirAtual = pastaParaLer;
   } catch (e) {
     _cache = { estado: _cache.estado, ts: agora, erro: e.message };
     if (!_cache.estado) throw e;
