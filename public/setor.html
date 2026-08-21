@@ -104,7 +104,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="http://localhost:3000/">&larr; Todos os setores</a>
+  <a class="voltar" href="/">&larr; Todos os setores</a>
   <div class="period-row" style="margin-top:0;">
     <span class="top-badge"><span class="dot"></span> Dados ao vivo — atualiza sozinho</span>
     <span class="status-txt" id="statusTxt">—</span>
@@ -200,9 +200,9 @@ const STATUS_STYLE = {
 
 // Endereço do servidor local — usado sempre, mesmo se este arquivo for
 // aberto direto da pasta (duplo-clique) em vez de pela rota /setor/<slug>.
-const API_BASE = "http://localhost:3000";
+const API_BASE = '';
 
-// O setor pode vir do caminho da URL (quando acessado via http://localhost:3000/setor/financeiro,
+// O setor pode vir do caminho da URL (quando acessado via /setor/financeiro,
 // o jeito normal) ou de um parâmetro ?setor=financeiro (caso o arquivo tenha sido aberto direto).
 function obterSlugDaUrl() {
   const doPath = window.location.pathname.match(/\/setor\/([^/?#]+)/);
