@@ -1,3 +1,6 @@
 node_modules/
 *.log
 *.bak
+
+# Arquivos auxiliares/históricos com dados sensíveis (folha de pagamento nominal) - nunca versionar
+arquivos-auxiliares/

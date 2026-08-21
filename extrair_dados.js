@@ -17,6 +17,7 @@ const SECTOR_ICONS = {
   comercial_corporativo: '🤝', administrativo: '🗃️',
   qualidade: '✅', juridico: '⚖️', marketing: '📣', tic: '🖧', coe: '🧩', fique_movel: '📱',
   lancamento: '📡', fusao: '🔗', diretoria_adm: '🗂️', cozinha: '🍳',
+  backoffice_comercial_varejo: '🧾', servicos_gerais: '🧹',
 };
 
 function slugify(nome) {

@@ -705,6 +705,22 @@
             "totalEncargos": 975.38,
             "custoTotal": 3952.46
           }
+        },
+        {
+          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor Da Engenharia Ftth E Obras Junior)",
+          "valor": 12573.89,
+          "encargos": {
+            "salarioBase": 7929.16,
+            "umDozeAvosFerias": 881.02,
+            "umDozeAvosDecimoTerceiro": 660.76,
+            "fgts": 634.33,
+            "inssPatronal": 1585.83,
+            "ratGilrat": 158.58,
+            "terceiros": 459.89,
+            "provisaoMultaRescisoria": 264.31,
+            "totalEncargos": 3102.94,
+            "custoTotal": 12573.89
+          }
         }
       ],
       "Junho/2026": [
@@ -1075,6 +1091,22 @@
             "totalEncargos": 1128,
             "custoTotal": 4570.94
           }
+        },
+        {
+          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor Da Engenharia Ftth E Obras Junior)",
+          "valor": 12994.21,
+          "encargos": {
+            "salarioBase": 8194.22,
+            "umDozeAvosFerias": 910.47,
+            "umDozeAvosDecimoTerceiro": 682.85,
+            "fgts": 655.54,
+            "inssPatronal": 1638.84,
+            "ratGilrat": 163.88,
+            "terceiros": 475.26,
+            "provisaoMultaRescisoria": 273.14,
+            "totalEncargos": 3206.67,
+            "custoTotal": 12994.21
+          }
         }
       ],
       "Julho/2026": [
@@ -1428,6 +1460,22 @@
             "provisaoMultaRescisoria": 62.59,
             "totalEncargos": 734.82,
             "custoTotal": 2977.66
+          }
+        },
+        {
+          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor De Engenharia Júnior)",
+          "valor": 7530.15,
+          "encargos": {
+            "salarioBase": 4748.55,
+            "umDozeAvosFerias": 527.62,
+            "umDozeAvosDecimoTerceiro": 395.71,
+            "fgts": 379.88,
+            "inssPatronal": 949.71,
+            "ratGilrat": 94.97,
+            "terceiros": 275.42,
+            "provisaoMultaRescisoria": 158.28,
+            "totalEncargos": 1858.27,
+            "custoTotal": 7530.15
           }
         }
       ]
@@ -6675,38 +6723,6 @@
           }
         },
         {
-          "nome": "Renata Thaysa Dos Santos Cunha (Supervisor Administrativo De Atendimento Júnior)",
-          "valor": 6207.53,
-          "encargos": {
-            "salarioBase": 3914.5,
-            "umDozeAvosFerias": 434.94,
-            "umDozeAvosDecimoTerceiro": 326.21,
-            "fgts": 313.16,
-            "inssPatronal": 782.9,
-            "ratGilrat": 78.29,
-            "terceiros": 227.04,
-            "provisaoMultaRescisoria": 130.48,
-            "totalEncargos": 1531.87,
-            "custoTotal": 6207.53
-          }
-        },
-        {
-          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
-          "valor": 3447.91,
-          "encargos": {
-            "salarioBase": 2174.27,
-            "umDozeAvosFerias": 241.59,
-            "umDozeAvosDecimoTerceiro": 181.19,
-            "fgts": 173.94,
-            "inssPatronal": 434.85,
-            "ratGilrat": 43.49,
-            "terceiros": 126.11,
-            "provisaoMultaRescisoria": 72.48,
-            "totalEncargos": 850.86,
-            "custoTotal": 3447.91
-          }
-        },
-        {
           "nome": "Kayron Fillipe Sales Da Silva (Auxiliar Administrativo (Jovem Aprendiz))",
           "valor": 1631.79,
           "encargos": {
@@ -6753,22 +6769,6 @@
             "totalEncargos": 707.62,
             "custoTotal": 2867.45
           }
-        },
-        {
-          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
-          "valor": 2844.54,
-          "encargos": {
-            "salarioBase": 1793.78,
-            "umDozeAvosFerias": 199.31,
-            "umDozeAvosDecimoTerceiro": 149.48,
-            "fgts": 143.5,
-            "inssPatronal": 358.76,
-            "ratGilrat": 35.88,
-            "terceiros": 104.04,
-            "provisaoMultaRescisoria": 59.79,
-            "totalEncargos": 701.97,
-            "custoTotal": 2844.54
-          }
         }
       ],
       "Junho/2026": [
@@ -6802,38 +6802,6 @@
             "provisaoMultaRescisoria": 109.89,
             "totalEncargos": 1290.13,
             "custoTotal": 5227.9
-          }
-        },
-        {
-          "nome": "Renata Thaysa Dos Santos Cunha (Supervisor Administrativo De Atendimento Júnior)",
-          "valor": 6516.71,
-          "encargos": {
-            "salarioBase": 4109.47,
-            "umDozeAvosFerias": 456.61,
-            "umDozeAvosDecimoTerceiro": 342.46,
-            "fgts": 328.76,
-            "inssPatronal": 821.89,
-            "ratGilrat": 82.19,
-            "terceiros": 238.35,
-            "provisaoMultaRescisoria": 136.98,
-            "totalEncargos": 1608.17,
-            "custoTotal": 6516.71
-          }
-        },
-        {
-          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
-          "valor": 3447.91,
-          "encargos": {
-            "salarioBase": 2174.27,
-            "umDozeAvosFerias": 241.59,
-            "umDozeAvosDecimoTerceiro": 181.19,
-            "fgts": 173.94,
-            "inssPatronal": 434.85,
-            "ratGilrat": 43.49,
-            "terceiros": 126.11,
-            "provisaoMultaRescisoria": 72.48,
-            "totalEncargos": 850.86,
-            "custoTotal": 3447.91
           }
         },
         {
@@ -6883,22 +6851,6 @@
             "totalEncargos": 785.95,
             "custoTotal": 3184.85
           }
-        },
-        {
-          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
-          "valor": 3797.56,
-          "encargos": {
-            "salarioBase": 2394.76,
-            "umDozeAvosFerias": 266.08,
-            "umDozeAvosDecimoTerceiro": 199.56,
-            "fgts": 191.58,
-            "inssPatronal": 478.95,
-            "ratGilrat": 47.9,
-            "terceiros": 138.9,
-            "provisaoMultaRescisoria": 79.83,
-            "totalEncargos": 937.15,
-            "custoTotal": 3797.56
-          }
         }
       ],
       "Julho/2026": [
@@ -6932,38 +6884,6 @@
             "provisaoMultaRescisoria": 149.44,
             "totalEncargos": 1754.37,
             "custoTotal": 7109.14
-          }
-        },
-        {
-          "nome": "Renata Thaysa Dos Santos Cunha (Supervisor Administrativo De Atendimento Junior)",
-          "valor": 5975.19,
-          "encargos": {
-            "salarioBase": 3767.99,
-            "umDozeAvosFerias": 418.67,
-            "umDozeAvosDecimoTerceiro": 314,
-            "fgts": 301.44,
-            "inssPatronal": 753.6,
-            "ratGilrat": 75.36,
-            "terceiros": 218.54,
-            "provisaoMultaRescisoria": 125.6,
-            "totalEncargos": 1474.54,
-            "custoTotal": 5975.19
-          }
-        },
-        {
-          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
-          "valor": 3447.91,
-          "encargos": {
-            "salarioBase": 2174.27,
-            "umDozeAvosFerias": 241.59,
-            "umDozeAvosDecimoTerceiro": 181.19,
-            "fgts": 173.94,
-            "inssPatronal": 434.85,
-            "ratGilrat": 43.49,
-            "terceiros": 126.11,
-            "provisaoMultaRescisoria": 72.48,
-            "totalEncargos": 850.86,
-            "custoTotal": 3447.91
           }
         },
         {
@@ -7029,43 +6949,11 @@
             "totalEncargos": 1042.18,
             "custoTotal": 4223.16
           }
-        },
-        {
-          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
-          "valor": 2844.54,
-          "encargos": {
-            "salarioBase": 1793.78,
-            "umDozeAvosFerias": 199.31,
-            "umDozeAvosDecimoTerceiro": 149.48,
-            "fgts": 143.5,
-            "inssPatronal": 358.76,
-            "ratGilrat": 35.88,
-            "terceiros": 104.04,
-            "provisaoMultaRescisoria": 59.79,
-            "totalEncargos": 701.97,
-            "custoTotal": 2844.54
-          }
         }
       ]
     },
     "nrc": {
       "Maio/2026": [
-        {
-          "nome": "AYRTON DA SILVA LIMA (Gerente De Relacionamento P)",
-          "valor": 13739.86,
-          "encargos": {
-            "salarioBase": 8664.43,
-            "umDozeAvosFerias": 962.71,
-            "umDozeAvosDecimoTerceiro": 722.04,
-            "fgts": 693.15,
-            "inssPatronal": 1732.89,
-            "ratGilrat": 173.29,
-            "terceiros": 502.54,
-            "provisaoMultaRescisoria": 288.81,
-            "totalEncargos": 3390.68,
-            "custoTotal": 13739.86
-          }
-        },
         {
           "nome": "ELISANGELA REGINA DA SILVA SOARES (Operador De Telemarketing)",
           "valor": 5673.06,
@@ -7724,22 +7612,6 @@
         }
       ],
       "Junho/2026": [
-        {
-          "nome": "AYRTON DA SILVA LIMA (Gerente De Relacionamento P)",
-          "valor": 8288.35,
-          "encargos": {
-            "salarioBase": 5226.68,
-            "umDozeAvosFerias": 580.74,
-            "umDozeAvosDecimoTerceiro": 435.56,
-            "fgts": 418.13,
-            "inssPatronal": 1045.34,
-            "ratGilrat": 104.53,
-            "terceiros": 303.15,
-            "provisaoMultaRescisoria": 174.22,
-            "totalEncargos": 2045.37,
-            "custoTotal": 8288.35
-          }
-        },
         {
           "nome": "WESLLEY DANIEL DE LIMA SOUZA (Analista De Dados)",
           "valor": 5324.41,
@@ -8446,22 +8318,6 @@
         }
       ],
       "Julho/2026": [
-        {
-          "nome": "AYRTON DA SILVA LIMA (Gerente De Relacionamento)",
-          "valor": 8880.36,
-          "encargos": {
-            "salarioBase": 5600,
-            "umDozeAvosFerias": 622.22,
-            "umDozeAvosDecimoTerceiro": 466.67,
-            "fgts": 448,
-            "inssPatronal": 1120,
-            "ratGilrat": 112,
-            "terceiros": 324.8,
-            "provisaoMultaRescisoria": 186.67,
-            "totalEncargos": 2191.47,
-            "custoTotal": 8880.36
-          }
-        },
         {
           "nome": "BIANCA NATALIA VIEIRA NEVES (Operador De Telemarketing Júnior)",
           "valor": 5161.63,
@@ -10627,22 +10483,6 @@
           }
         },
         {
-          "nome": "Cryslaine Fonseca Rosal (Engenheiro De Telecomunicação)",
-          "valor": 15413.76,
-          "encargos": {
-            "salarioBase": 9720,
-            "umDozeAvosFerias": 1080,
-            "umDozeAvosDecimoTerceiro": 810,
-            "fgts": 777.6,
-            "inssPatronal": 1944,
-            "ratGilrat": 194.4,
-            "terceiros": 563.76,
-            "provisaoMultaRescisoria": 324,
-            "totalEncargos": 3803.76,
-            "custoTotal": 15413.76
-          }
-        },
-        {
           "nome": "Jairo Rodrigues Silva Neto (Projetista Pleno)",
           "valor": 10189.45,
           "encargos": {
@@ -10656,22 +10496,6 @@
             "provisaoMultaRescisoria": 214.18,
             "totalEncargos": 2514.52,
             "custoTotal": 10189.45
-          }
-        },
-        {
-          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor Da Engenharia Ftth E Obras Junior)",
-          "valor": 12573.89,
-          "encargos": {
-            "salarioBase": 7929.16,
-            "umDozeAvosFerias": 881.02,
-            "umDozeAvosDecimoTerceiro": 660.76,
-            "fgts": 634.33,
-            "inssPatronal": 1585.83,
-            "ratGilrat": 158.58,
-            "terceiros": 459.89,
-            "provisaoMultaRescisoria": 264.31,
-            "totalEncargos": 3102.94,
-            "custoTotal": 12573.89
           }
         },
         {
@@ -10789,22 +10613,6 @@
           }
         },
         {
-          "nome": "Cryslaine Fonseca Rosal (Engenheiro De Telecomunicação)",
-          "valor": 15413.76,
-          "encargos": {
-            "salarioBase": 9720,
-            "umDozeAvosFerias": 1080,
-            "umDozeAvosDecimoTerceiro": 810,
-            "fgts": 777.6,
-            "inssPatronal": 1944,
-            "ratGilrat": 194.4,
-            "terceiros": 563.76,
-            "provisaoMultaRescisoria": 324,
-            "totalEncargos": 3803.76,
-            "custoTotal": 15413.76
-          }
-        },
-        {
           "nome": "Jairo Rodrigues Silva Neto (Projetista Pleno)",
           "valor": 8667.55,
           "encargos": {
@@ -10818,22 +10626,6 @@
             "provisaoMultaRescisoria": 182.19,
             "totalEncargos": 2138.95,
             "custoTotal": 8667.55
-          }
-        },
-        {
-          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor Da Engenharia Ftth E Obras Junior)",
-          "valor": 12994.21,
-          "encargos": {
-            "salarioBase": 8194.22,
-            "umDozeAvosFerias": 910.47,
-            "umDozeAvosDecimoTerceiro": 682.85,
-            "fgts": 655.54,
-            "inssPatronal": 1638.84,
-            "ratGilrat": 163.88,
-            "terceiros": 475.26,
-            "provisaoMultaRescisoria": 273.14,
-            "totalEncargos": 3206.67,
-            "custoTotal": 12994.21
           }
         },
         {
@@ -10903,22 +10695,6 @@
           }
         },
         {
-          "nome": "Cryslaine Fonseca Rosal (Engenheiro De Telecomunicacoes)",
-          "valor": 15413.76,
-          "encargos": {
-            "salarioBase": 9720,
-            "umDozeAvosFerias": 1080,
-            "umDozeAvosDecimoTerceiro": 810,
-            "fgts": 777.6,
-            "inssPatronal": 1944,
-            "ratGilrat": 194.4,
-            "terceiros": 563.76,
-            "provisaoMultaRescisoria": 324,
-            "totalEncargos": 3803.76,
-            "custoTotal": 15413.76
-          }
-        },
-        {
           "nome": "Jairo Rodrigues Silva Neto (Projetista Pleno)",
           "valor": 8024.97,
           "encargos": {
@@ -10948,22 +10724,6 @@
             "provisaoMultaRescisoria": 73.64,
             "totalEncargos": 864.53,
             "custoTotal": 3503.3
-          }
-        },
-        {
-          "nome": "Leonardo Vinicius De Santana Arcoverde (Supervisor De Engenharia Júnior)",
-          "valor": 7530.15,
-          "encargos": {
-            "salarioBase": 4748.55,
-            "umDozeAvosFerias": 527.62,
-            "umDozeAvosDecimoTerceiro": 395.71,
-            "fgts": 379.88,
-            "inssPatronal": 949.71,
-            "ratGilrat": 94.97,
-            "terceiros": 275.42,
-            "provisaoMultaRescisoria": 158.28,
-            "totalEncargos": 1858.27,
-            "custoTotal": 7530.15
           }
         },
         {
@@ -14815,22 +14575,6 @@
     "fusao": {
       "Maio/2026": [
         {
-          "nome": "JOSADARK JOSE DO NASCIMENTO (Coordenador Tecnico 2)",
-          "valor": 10952.8,
-          "encargos": {
-            "salarioBase": 6906.9,
-            "umDozeAvosFerias": 767.43,
-            "umDozeAvosDecimoTerceiro": 575.57,
-            "fgts": 552.55,
-            "inssPatronal": 1381.38,
-            "ratGilrat": 138.14,
-            "terceiros": 400.6,
-            "provisaoMultaRescisoria": 230.23,
-            "totalEncargos": 2702.9,
-            "custoTotal": 10952.8
-          }
-        },
-        {
           "nome": "DIEGO GUSTAVO DA SILVA (Tecnico Em Fibra Pleno)",
           "valor": 10089.94,
           "encargos": {
@@ -15006,22 +14750,6 @@
             "provisaoMultaRescisoria": 309.88,
             "totalEncargos": 3637.93,
             "custoTotal": 14741.79
-          }
-        },
-        {
-          "nome": "JOSADARK JOSE DO NASCIMENTO (Coordenador Tecnico 2)",
-          "valor": 11190.67,
-          "encargos": {
-            "salarioBase": 7056.9,
-            "umDozeAvosFerias": 784.1,
-            "umDozeAvosDecimoTerceiro": 588.07,
-            "fgts": 564.55,
-            "inssPatronal": 1411.38,
-            "ratGilrat": 141.14,
-            "terceiros": 409.3,
-            "provisaoMultaRescisoria": 235.23,
-            "totalEncargos": 2761.6,
-            "custoTotal": 11190.67
           }
         },
         {
@@ -16676,6 +16404,390 @@
             "provisaoMultaRescisoria": 167.67,
             "totalEncargos": 1968.49,
             "custoTotal": 7976.8
+          }
+        }
+      ]
+    },
+    "backoffice_comercial_varejo": {
+      "Maio/2026": [
+        {
+          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
+          "valor": 3447.91,
+          "encargos": {
+            "salarioBase": 2174.27,
+            "umDozeAvosFerias": 241.59,
+            "umDozeAvosDecimoTerceiro": 181.19,
+            "fgts": 173.94,
+            "inssPatronal": 434.85,
+            "ratGilrat": 43.49,
+            "terceiros": 126.11,
+            "provisaoMultaRescisoria": 72.48,
+            "totalEncargos": 850.86,
+            "custoTotal": 3447.91
+          }
+        },
+        {
+          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
+          "valor": 2844.54,
+          "encargos": {
+            "salarioBase": 1793.78,
+            "umDozeAvosFerias": 199.31,
+            "umDozeAvosDecimoTerceiro": 149.48,
+            "fgts": 143.5,
+            "inssPatronal": 358.76,
+            "ratGilrat": 35.88,
+            "terceiros": 104.04,
+            "provisaoMultaRescisoria": 59.79,
+            "totalEncargos": 701.97,
+            "custoTotal": 2844.54
+          }
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
+          "valor": 3447.91,
+          "encargos": {
+            "salarioBase": 2174.27,
+            "umDozeAvosFerias": 241.59,
+            "umDozeAvosDecimoTerceiro": 181.19,
+            "fgts": 173.94,
+            "inssPatronal": 434.85,
+            "ratGilrat": 43.49,
+            "terceiros": 126.11,
+            "provisaoMultaRescisoria": 72.48,
+            "totalEncargos": 850.86,
+            "custoTotal": 3447.91
+          }
+        },
+        {
+          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
+          "valor": 3797.56,
+          "encargos": {
+            "salarioBase": 2394.76,
+            "umDozeAvosFerias": 266.08,
+            "umDozeAvosDecimoTerceiro": 199.56,
+            "fgts": 191.58,
+            "inssPatronal": 478.95,
+            "ratGilrat": 47.9,
+            "terceiros": 138.9,
+            "provisaoMultaRescisoria": 79.83,
+            "totalEncargos": 937.15,
+            "custoTotal": 3797.56
+          }
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Liryel Camilly Santana Da Silva Carvalho (Backoffice Comercial Varejo)",
+          "valor": 3447.91,
+          "encargos": {
+            "salarioBase": 2174.27,
+            "umDozeAvosFerias": 241.59,
+            "umDozeAvosDecimoTerceiro": 181.19,
+            "fgts": 173.94,
+            "inssPatronal": 434.85,
+            "ratGilrat": 43.49,
+            "terceiros": 126.11,
+            "provisaoMultaRescisoria": 72.48,
+            "totalEncargos": 850.86,
+            "custoTotal": 3447.91
+          }
+        },
+        {
+          "nome": "Gabriela Da Silva Alves (Assistente Administrativo Cac Junior)",
+          "valor": 2844.54,
+          "encargos": {
+            "salarioBase": 1793.78,
+            "umDozeAvosFerias": 199.31,
+            "umDozeAvosDecimoTerceiro": 149.48,
+            "fgts": 143.5,
+            "inssPatronal": 358.76,
+            "ratGilrat": 35.88,
+            "terceiros": 104.04,
+            "provisaoMultaRescisoria": 59.79,
+            "totalEncargos": 701.97,
+            "custoTotal": 2844.54
+          }
+        }
+      ]
+    },
+    "servicos_gerais": {
+      "Maio/2026": [
+        {
+          "nome": "Rosa Maria Gomes Do Nascimento (Auxiliar De Serviços Gerais.)",
+          "valor": 3598.76,
+          "encargos": {
+            "salarioBase": 2269.4,
+            "umDozeAvosFerias": 252.155555555556,
+            "umDozeAvosDecimoTerceiro": 189.116666666667,
+            "fgts": 181.552,
+            "inssPatronal": 453.88,
+            "ratGilrat": 45.388,
+            "terceiros": 131.6252,
+            "provisaoMultaRescisoria": 75.6466666666667,
+            "totalEncargos": 888.091866666667,
+            "custoTotal": 3598.76408888889
+          }
+        },
+        {
+          "nome": "Valquiria Nogueira Da Silva Brito (Auxiliar De Serviços Gerais.)",
+          "valor": 2677.65,
+          "encargos": {
+            "salarioBase": 1688.54,
+            "umDozeAvosFerias": 187.615555555556,
+            "umDozeAvosDecimoTerceiro": 140.711666666667,
+            "fgts": 135.0832,
+            "inssPatronal": 337.708,
+            "ratGilrat": 33.7708,
+            "terceiros": 97.93532,
+            "provisaoMultaRescisoria": 56.2846666666667,
+            "totalEncargos": 660.781986666667,
+            "custoTotal": 2677.64920888889
+          }
+        },
+        {
+          "nome": "Maria Betania Silva Do Nascimento (Auxiliar De Serviços Gerais.)",
+          "valor": 3598.76,
+          "encargos": {
+            "salarioBase": 2269.4,
+            "umDozeAvosFerias": 252.155555555556,
+            "umDozeAvosDecimoTerceiro": 189.116666666667,
+            "fgts": 181.552,
+            "inssPatronal": 453.88,
+            "ratGilrat": 45.388,
+            "terceiros": 131.6252,
+            "provisaoMultaRescisoria": 75.6466666666667,
+            "totalEncargos": 888.091866666667,
+            "custoTotal": 3598.76408888889
+          }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 2890.95,
+          "encargos": {
+            "salarioBase": 1823.05,
+            "umDozeAvosFerias": 202.561111111111,
+            "umDozeAvosDecimoTerceiro": 151.920833333333,
+            "fgts": 145.844,
+            "inssPatronal": 364.61,
+            "ratGilrat": 36.461,
+            "terceiros": 105.7369,
+            "provisaoMultaRescisoria": 60.7683333333333,
+            "totalEncargos": 713.420233333333,
+            "custoTotal": 2890.95217777778
+          }
+        },
+        {
+          "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
+          "valor": 3704.36,
+          "encargos": {
+            "salarioBase": 2335.99,
+            "umDozeAvosFerias": 259.554444444444,
+            "umDozeAvosDecimoTerceiro": 194.665833333333,
+            "fgts": 186.8792,
+            "inssPatronal": 467.198,
+            "ratGilrat": 46.7198,
+            "terceiros": 135.48742,
+            "provisaoMultaRescisoria": 77.8663333333333,
+            "totalEncargos": 914.150753333333,
+            "custoTotal": 3704.36103111111
+          }
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Rosa Maria Gomes Do Nascimento (Auxiliar De Serviços Gerais.)",
+          "valor": 4280.65,
+          "encargos": {
+            "salarioBase": 2699.40402083333,
+            "umDozeAvosFerias": 299.933780092593,
+            "umDozeAvosDecimoTerceiro": 224.950335069445,
+            "fgts": 215.952321666667,
+            "inssPatronal": 539.880804166667,
+            "ratGilrat": 53.9880804166667,
+            "terceiros": 156.565433208333,
+            "provisaoMultaRescisoria": 89.9801340277778,
+            "totalEncargos": 1056.36677348611,
+            "custoTotal": 4280.65490948148
+          }
+        },
+        {
+          "nome": "Valquiria Nogueira Da Silva Brito (Auxiliar De Serviços Gerais.)",
+          "valor": 3957.14,
+          "encargos": {
+            "salarioBase": 2495.39441666667,
+            "umDozeAvosFerias": 277.266046296296,
+            "umDozeAvosDecimoTerceiro": 207.949534722222,
+            "fgts": 199.631553333333,
+            "inssPatronal": 499.078883333333,
+            "ratGilrat": 49.9078883333333,
+            "terceiros": 144.732876166667,
+            "provisaoMultaRescisoria": 83.1798138888889,
+            "totalEncargos": 976.531015055556,
+            "custoTotal": 3957.14101274074
+          }
+        },
+        {
+          "nome": "Maria Betania Silva Do Nascimento (Auxiliar De Serviços Gerais.)",
+          "valor": 4678.39,
+          "encargos": {
+            "salarioBase": 2950.22,
+            "umDozeAvosFerias": 327.802222222222,
+            "umDozeAvosDecimoTerceiro": 245.851666666667,
+            "fgts": 236.0176,
+            "inssPatronal": 590.044,
+            "ratGilrat": 59.0044,
+            "terceiros": 171.11276,
+            "provisaoMultaRescisoria": 98.3406666666667,
+            "totalEncargos": 1154.51942666667,
+            "custoTotal": 4678.39331555556
+          }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 11289.88,
+          "encargos": {
+            "salarioBase": 7119.46209114583,
+            "umDozeAvosFerias": 791.051343460648,
+            "umDozeAvosDecimoTerceiro": 593.288507595486,
+            "fgts": 569.556967291667,
+            "inssPatronal": 1423.89241822917,
+            "ratGilrat": 142.389241822917,
+            "terceiros": 412.928801286458,
+            "provisaoMultaRescisoria": 237.315403038194,
+            "totalEncargos": 2786.0828316684,
+            "custoTotal": 11289.8847738704
+          }
+        },
+        {
+          "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
+          "valor": 4493.85,
+          "encargos": {
+            "salarioBase": 2833.84786875,
+            "umDozeAvosFerias": 314.871985416667,
+            "umDozeAvosDecimoTerceiro": 236.1539890625,
+            "fgts": 226.7078295,
+            "inssPatronal": 566.76957375,
+            "ratGilrat": 56.676957375,
+            "terceiros": 164.3631763875,
+            "provisaoMultaRescisoria": 94.461595625,
+            "totalEncargos": 1108.9791326375,
+            "custoTotal": 4493.85297586667
+          }
+        },
+        {
+          "nome": "Marluce Maria De Oliveira (Auxiliar De Serviços Gerais Junior)",
+          "valor": 4607.3,
+          "encargos": {
+            "salarioBase": 2905.3875625,
+            "umDozeAvosFerias": 322.820840277778,
+            "umDozeAvosDecimoTerceiro": 242.115630208333,
+            "fgts": 232.431005,
+            "inssPatronal": 581.0775125,
+            "ratGilrat": 58.10775125,
+            "terceiros": 168.512478625,
+            "provisaoMultaRescisoria": 96.8462520833333,
+            "totalEncargos": 1136.97499945833,
+            "custoTotal": 4607.29903244444
+          }
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Maria Betania Silva Do Nascimento (Auxiliar De Serviços Gerais)",
+          "valor": 7702.47,
+          "encargos": {
+            "salarioBase": 4857.22,
+            "umDozeAvosFerias": 539.6911111111111,
+            "umDozeAvosDecimoTerceiro": 404.7683333333334,
+            "fgts": 388.5776,
+            "inssPatronal": 971.4440000000001,
+            "ratGilrat": 97.1444,
+            "terceiros": 281.71876000000003,
+            "provisaoMultaRescisoria": 161.90733333333336,
+            "totalEncargos": 1900.7920933333332,
+            "custoTotal": 7702.471537777778
+          }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 4936.68,
+          "encargos": {
+            "salarioBase": 3113.1,
+            "umDozeAvosFerias": 345.9,
+            "umDozeAvosDecimoTerceiro": 259.425,
+            "fgts": 249.048,
+            "inssPatronal": 622.62,
+            "ratGilrat": 62.262,
+            "terceiros": 180.5598,
+            "provisaoMultaRescisoria": 103.77,
+            "totalEncargos": 1218.2598,
+            "custoTotal": 4936.6848
+          }
+        },
+        {
+          "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
+          "valor": 3990.82,
+          "encargos": {
+            "salarioBase": 2516.63,
+            "umDozeAvosFerias": 279.6255555555556,
+            "umDozeAvosDecimoTerceiro": 209.71916666666667,
+            "fgts": 201.33040000000003,
+            "inssPatronal": 503.326,
+            "ratGilrat": 50.332600000000006,
+            "terceiros": 145.96454000000003,
+            "provisaoMultaRescisoria": 83.88766666666668,
+            "totalEncargos": 984.8412066666667,
+            "custoTotal": 3990.815928888889
+          }
+        },
+        {
+          "nome": "Marluce Maria De Oliveira (Auxiliar De Serviços Gerais Junior)",
+          "valor": 4029.08,
+          "encargos": {
+            "salarioBase": 2540.76,
+            "umDozeAvosFerias": 282.3066666666667,
+            "umDozeAvosDecimoTerceiro": 211.73000000000002,
+            "fgts": 203.26080000000002,
+            "inssPatronal": 508.15200000000004,
+            "ratGilrat": 50.815200000000004,
+            "terceiros": 147.36408000000003,
+            "provisaoMultaRescisoria": 84.69200000000001,
+            "totalEncargos": 994.2840800000001,
+            "custoTotal": 4029.0807466666674
+          }
+        },
+        {
+          "nome": "Rosa Maria Gomes Do Nascimento (Auxiliar De Serviços Gerais)",
+          "valor": 3598.76,
+          "encargos": {
+            "salarioBase": 2269.4,
+            "umDozeAvosFerias": 252.15555555555557,
+            "umDozeAvosDecimoTerceiro": 189.11666666666667,
+            "fgts": 181.55200000000002,
+            "inssPatronal": 453.88000000000005,
+            "ratGilrat": 45.388000000000005,
+            "terceiros": 131.6252,
+            "provisaoMultaRescisoria": 75.64666666666668,
+            "totalEncargos": 888.0918666666668,
+            "custoTotal": 3598.764088888889
+          }
+        },
+        {
+          "nome": "Valquiria Nogueira Da Silva (Auxiliar De Serviços Gerais)",
+          "valor": 3598.76,
+          "encargos": {
+            "salarioBase": 2269.4,
+            "umDozeAvosFerias": 252.15555555555557,
+            "umDozeAvosDecimoTerceiro": 189.11666666666667,
+            "fgts": 181.55200000000002,
+            "inssPatronal": 453.88000000000005,
+            "ratGilrat": 45.388000000000005,
+            "terceiros": 131.6252,
+            "provisaoMultaRescisoria": 75.64666666666668,
+            "totalEncargos": 888.0918666666668,
+            "custoTotal": 3598.764088888889
           }
         }
       ]
@@ -23814,31 +23926,19 @@
     "cac": {
       "Maio/2026": [
         {
-          "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
-          "valor": 30
-        },
-        {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+          "nome": "Chip do setor CAC (uso da equipe)",
           "valor": 30
         }
       ],
       "Junho/2026": [
         {
-          "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
-          "valor": 30
-        },
-        {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+          "nome": "Chip do setor CAC (uso da equipe)",
           "valor": 30
         }
       ],
       "Julho/2026": [
         {
-          "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
-          "valor": 30
-        },
-        {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+          "nome": "Chip do setor CAC (uso da equipe)",
           "valor": 30
         }
       ]
