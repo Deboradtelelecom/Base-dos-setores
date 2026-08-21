@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plataforma de Rateio de Custos — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); }
+  main { max-width:900px; margin:0 auto; padding:40px 24px 60px; }
+  h1 { font-size:22px; font-weight:800; color:#fff; margin:0 0 6px; }
+  p.sub { font-size:13px; color:var(--slate-500); margin:0 0 26px; }
+  .status { font-size:11px; font-family:var(--mono); color:var(--slate-500); margin-bottom:20px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
+  a.card { display:flex; align-items:center; gap:10px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; text-decoration:none; color:var(--slate-800); transition:border-color .15s, background .15s; }
+  a.card:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
+  a.card .icon { font-size:20px; }
+  a.card .nome { font-size:13px; font-weight:700; }
+  .erro { color:#f87171; font-size:12.5px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Plataforma de Rateio de Custos</h1>
+  <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos (dados ao vivo, direto da planilha).</p>
+  <div class="status" id="status">Carregando lista de setores…</div>
+  <div class="grid" id="grid"></div>
+</main>
+<script>
+// Endereço do servidor local — usado sempre, mesmo se este arquivo for
+// aberto direto da pasta (duplo-clique), não só quando servido pela rota /.
+const API_BASE = 'http://localhost:3000';
+
+async function carregar() {
+  const statusEl = document.getElementById('status');
+  const grid = document.getElementById('grid');
+  try {
+    const resp = await fetch(API_BASE + '/api/setores');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar setores.');
+    statusEl.textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
+    grid.innerHTML = '';
+
+    // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
+    // (são visões diferentes: uma agregada, outra por equipe de vendas em vez
+    // de setor) — mas a Débora prefere ver todos juntos, em ordem alfabética,
+    // em vez de destacados à parte. Entram na mesma lista, com link próprio.
+    const itens = data.setores.map((s) => ({
+      nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
+    }));
+    itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo' });
+    itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo' });
+    itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+
+    itens.forEach((s) => {
+      const a = document.createElement('a');
+      a.className = 'card';
+      a.href = s.href;
+      a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
+      grid.appendChild(a);
+    });
+  } catch (e) {
+    statusEl.innerHTML = '<span class="erro">Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')</span>';
+  }
+}
+carregar();
+</script>
+</body>
+</html>

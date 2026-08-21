@@ -1,0 +1,92 @@
+════════════════════════════════════════════════════════════════
+  Plataforma de Rateio de Custos — publicar online (Railway)
+  Reaproveita a MESMA conta de GitHub e Railway que você já usa
+  no projeto "Dashboards de Vendas Externas". Não precisa criar
+  conta nova em lugar nenhum.
+════════════════════════════════════════════════════════════════
+
+ANTES DE COMEÇAR — colocar a planilha no OneDrive
+──────────────────────────────────────────────────
+Hoje a Base_Rateio_Custos_DTEL.xlsx só existe em "C:\sistemas-custos".
+Para o site ficar sempre atualizado sem você precisar mandar arquivo,
+ela precisa estar numa pasta do OneDrive.
+
+1. Copie a pasta "dados-mensais" (ou pelo menos a Base_Rateio_Custos_DTEL.xlsx)
+   para dentro do OneDrive — por exemplo, dentro de
+   "OneDrive\Área de Trabalho\Rateio de custos".
+2. A partir de agora, quando eu (Claude) atualizar a planilha, vou te
+   devolver o arquivo pra você salvar NESSA pasta do OneDrive (no lugar
+   de C:\sistemas-custos) — o resto é automático.
+3. Clique com o botão direito na Base_Rateio_Custos_DTEL.xlsx dentro
+   dessa pasta do OneDrive → "Compartilhar" → mude para
+   "Qualquer pessoa com o link pode ver" → "Copiar link".
+4. Me envie esse link aqui na conversa (uma vez só). Eu uso ele na
+   configuração do Railway (passo 4 abaixo).
+
+PASSO 1 — Extrair esta pasta
+─────────────────────────────
+Extraia o arquivo "plataforma-rateio-dtel.zip" que te enviei em algum
+lugar do seu computador (pode ser dentro da mesma pasta "Base de vendas"
+que você já usa para o outro projeto, ou em outra pasta de sua preferência).
+
+PASSO 2 — Criar o repositório no GitHub (reaproveitando sua conta)
+─────────────────────────────────────────────────────────────────
+1. Acesse https://github.com e entre com sua conta já existente.
+2. Clique no "+" no canto superior direito → "New repository".
+3. Nome: dtel-plataforma-rateio
+4. Marque "Private" (para não ficar público).
+5. Clique em "Create repository".
+6. Copie o link que aparece (ex: https://github.com/SEU_USUARIO/dtel-plataforma-rateio.git)
+
+PASSO 3 — Subir os arquivos (Prompt de Comando, dentro da pasta extraída)
+──────────────────────────────────────────────────────────────────────────
+   git init
+   git remote add origin https://github.com/SEU_USUARIO/dtel-plataforma-rateio.git
+   git add .
+   git commit -m "Primeiro deploy"
+   git push -u origin main
+
+(Se pedir usuário/senha, use o mesmo token de acesso pessoal que você já
+usa no outro projeto — Settings → Developer Settings → Personal access
+tokens.)
+
+PASSO 4 — Criar o projeto no Railway (reaproveitando sua conta)
+──────────────────────────────────────────────────────────────
+1. Acesse https://railway.app e entre com sua conta já existente.
+2. "New Project" → "Deploy from GitHub repo".
+3. Selecione o repositório "dtel-plataforma-rateio".
+4. O Railway detecta o Procfile e faz o deploy automaticamente.
+5. Vá em "Variables" (Variáveis) e adicione:
+
+   ONEDRIVE_SHARE_URL = (o link que você copiou no passo 3 do início)
+   SITE_PASSWORD      = (uma senha simples de sua escolha, para os gestores)
+
+6. Clique em "Generate Domain" para obter o link permanente.
+
+PRONTO! Você terá um link tipo:
+  https://dtel-plataforma-rateio.up.railway.app
+
+Esse link pede usuário (pode ser qualquer coisa) e a senha que você
+definiu em SITE_PASSWORD — é só compartilhar os dois com os gestores.
+
+════════════════════════════════════════════════════════════════
+  USO NO DIA A DIA (depois de configurado)
+════════════════════════════════════════════════════════════════
+Quando a planilha for atualizada:
+1. Salve a Base_Rateio_Custos_DTEL.xlsx nova dentro da pasta do OneDrive
+   (a mesma de sempre, com o link compartilhado já configurado).
+2. Pronto — o site busca a versão nova automaticamente em até 3 minutos,
+   sem precisar mexer em nada no Railway nem me mandar arquivo de novo.
+
+Só é preciso repetir os passos 3/4 (git push) se eu atualizar o CÓDIGO
+da plataforma (por exemplo, uma nova página ou correção) — nesse caso eu
+te aviso e te mando os arquivos atualizados.
+
+════════════════════════════════════════════════════════════════
+  CUSTO
+════════════════════════════════════════════════════════════════
+Railway: Gratuito até 500 horas/mês (suficiente para uso contínuo,
+mesma franquia já usada pelo outro projeto).
+GitHub:  Gratuito para repositórios privados.
+
+Dúvidas? Pergunte ao Claude no Cowork!

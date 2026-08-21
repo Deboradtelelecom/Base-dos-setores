@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resumo dos Setores — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1020px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .top-badge { display:inline-flex; align-items:center; gap:8px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); color:var(--blue-accent); font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:6px 12px; border-radius:999px; font-family:var(--mono); margin-bottom:18px; }
+  .top-badge .dot { width:7px; height:7px; border-radius:50%; background:var(--good); animation:pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:640px; }
+
+  .period-row { display:flex; justify-content:space-between; align-items:center; margin:18px 0; gap:12px; flex-wrap:wrap; }
+  .period-selector { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
+  .period-selector-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
+  .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:22px; margin-bottom:18px; }
+  .section-card h3 { font-size:12.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 4px; }
+  .section-card .subtle { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 10px 0; border-bottom:1px solid var(--border); }
+  tbody td { padding:9px 10px 9px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
+  tbody td.nome { color:#fff; font-weight:600; }
+  tbody td.icon { width:26px; font-size:15px; }
+  tbody td.ref { color:var(--slate-400); font-size:11.5px; white-space:nowrap; }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); }
+  tr.item-clicavel { cursor:pointer; }
+  tr.item-clicavel:hover td { background:rgba(255,255,255,0.035); }
+  .criterio-tag { display:inline-block; font-size:10.5px; font-weight:600; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 8px; border-radius:999px; }
+  tfoot td { padding:12px 10px 0 0; font-weight:800; color:#fff; border-top:2px solid var(--border); font-family:var(--mono); }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="http://localhost:3000/">&larr; Todos os setores</a>
+  <div class="period-row" style="margin-top:0;">
+    <span class="top-badge"><span class="dot"></span> Dados ao vivo — atualiza sozinho</span>
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+  <div class="header-row">
+    <span class="icon">📋</span>
+    <div>
+      <h1>Resumo dos Setores</h1>
+      <p>Mesmo conteúdo da aba SETORES da planilha — critério de rateio, custo total do mês e custo unitário de cada setor, num único lugar.</p>
+    </div>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="period-row">
+      <div class="period-selector">
+        <span class="period-selector-label">Competência</span>
+        <select id="seletor-competencia" onchange="renderTudo()"></select>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3>Setores</h3>
+      <p class="subtle">Clique num setor para ver o detalhamento completo de custos.</p>
+      <table>
+        <thead>
+          <tr>
+            <th></th><th>Setor</th><th>Critério de Rateio</th><th style="text-align:right;">Custo Total do Mês (R$)</th><th style="text-align:right;">Custo Unitário (R$)</th>
+          </tr>
+        </thead>
+        <tbody id="setoresBody"></tbody>
+        <tfoot><tr><td colspan="3">Total Geral</td><td style="text-align:right;" id="totalGeralFooter">R$ 0</td><td></td></tr></tfoot>
+      </table>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos — quando a planilha for atualizada, este painel reflete os números novos sozinho, sem precisar recarregar a página manualmente. Painel apenas demonstrativo — a edição dos valores continua sendo feita na planilha original.</p>
+  </div>
+</main>
+<script>
+const API_BASE = 'http://localhost:3000';
+let DADOS = null;
+let MESES_DISPONIVEIS = [];
+
+function fmtBRL(n) {
+  return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function renderTudo() {
+  const mes = document.getElementById("seletor-competencia").value;
+  const body = document.getElementById("setoresBody");
+  body.innerHTML = "";
+  let totalGeral = 0;
+  DADOS.setores.forEach((s) => {
+    const h = s.historico.find(x => x.mes === mes);
+    const total = h ? h.total : 0;
+    const custoUnitario = h ? h.custoUnitario : 0;
+    totalGeral += total;
+    const tr = document.createElement("tr");
+    tr.className = "item-clicavel";
+    tr.onclick = () => { window.location.href = API_BASE + '/setor/' + s.slug; };
+    tr.innerHTML = `<td class="icon">${s.icone}</td><td class="nome">${s.nome}</td><td class="ref"><span class="criterio-tag">${s.criterioRateio}</span></td><td class="val">${fmtBRL(total)}</td><td class="val">${fmtBRL(custoUnitario)}</td>`;
+    body.appendChild(tr);
+  });
+  document.getElementById("totalGeralFooter").textContent = fmtBRL(totalGeral);
+}
+
+async function buscarDados() {
+  try {
+    const resp = await fetch(API_BASE + '/api/resumo-setores');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    DADOS = data;
+    MESES_DISPONIVEIS = data.mesesDisponiveis;
+    document.getElementById('statusTxt').textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
+
+    const sel = document.getElementById('seletor-competencia');
+    const valorAnterior = sel.value;
+    sel.innerHTML = '';
+    MESES_DISPONIVEIS.forEach((m, i) => {
+      const opt = document.createElement('option');
+      opt.value = m; opt.textContent = m;
+      if (valorAnterior ? m === valorAnterior : i === MESES_DISPONIVEIS.length - 1) opt.selected = true;
+      sel.appendChild(opt);
+    });
+
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = '';
+    renderTudo();
+  } catch (e) {
+    document.getElementById('erroBox').style.display = 'block';
+    document.getElementById('erroBox').textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscarDados();
+setInterval(buscarDados, 60000);
+</script>
+</body>
+</html>

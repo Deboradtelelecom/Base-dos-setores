@@ -1,0 +1,16 @@
+{
+  "name": "sistemas-custos-dtel",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "xlsx": "^0.18.5"
+  }
+}

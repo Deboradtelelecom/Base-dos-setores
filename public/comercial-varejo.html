@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comercial Varejo — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e; --warn: #f59e0b;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1080px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .top-badge { display:inline-flex; align-items:center; gap:8px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); color:var(--blue-accent); font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:6px 12px; border-radius:999px; font-family:var(--mono); margin-bottom:18px; }
+  .top-badge .dot { width:7px; height:7px; border-radius:50%; background:var(--good); animation:pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:680px; }
+
+  .period-row { display:flex; justify-content:space-between; align-items:center; margin:18px 0; gap:12px; flex-wrap:wrap; }
+  .period-selector { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
+  .period-selector-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
+  .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .kpi-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px; margin-bottom:18px; }
+  .kpi-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .kpi-card .label { font-size:10.5px; color:var(--slate-400); text-transform:uppercase; letter-spacing:.05em; font-family:var(--mono); margin-bottom:6px; }
+  .kpi-card .value { font-size:19px; font-weight:800; color:#fff; font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:22px; margin-bottom:18px; }
+  .section-card h3 { font-size:12.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 4px; }
+  .section-card .subtle { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
+
+  .table-wrap { overflow-x:auto; margin:0 -4px; padding:0 4px; }
+  .table-wrap::-webkit-scrollbar { height:6px; }
+  .table-wrap::-webkit-scrollbar-thumb { background:var(--border); border-radius:4px; }
+  table { width:100%; border-collapse:collapse; font-size:12px; }
+  thead th { text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-400); font-weight:700; padding:0 8px 10px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  tbody td { padding:8px 8px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
+  tbody td.nome { color:#fff; font-weight:700; }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  tbody td.num { text-align:right; font-family:var(--mono); white-space:nowrap; }
+  tbody td.tag { font-size:11px; }
+  .num-sub { display:block; font-size:10px; color:var(--slate-500); font-weight:400; margin-top:1px; }
+  .custo-venda-tag { display:inline-block; font-size:11px; font-weight:700; color:var(--good); background:rgba(34,197,94,.08); border:1px solid rgba(34,197,94,.25); padding:2px 8px; border-radius:999px; font-family:var(--mono); }
+  tr.equipe-clicavel { cursor:pointer; }
+  tr.equipe-clicavel:hover td { background:rgba(255,255,255,0.035); }
+  .empresa-tag { display:inline-block; font-size:10.5px; font-weight:600; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 8px; border-radius:999px; margin:2px 4px 2px 0; }
+  .sem-custo { color:var(--warn); font-style:italic; }
+  .origem-real { color:var(--good); }
+  .origem-estimado { color:var(--warn); }
+  tfoot td { padding:12px 10px 0 0; font-weight:800; color:#fff; border-top:2px solid var(--border); font-family:var(--mono); }
+
+  .detalhe-linha { display:none; }
+  .detalhe-linha.aberto { display:table-row; }
+  .detalhe-linha td { padding:0; border-bottom:1px solid var(--border-soft); }
+  .detalhe-wrap { padding:4px 10px 14px 26px; }
+  .item-detalhe { display:flex; justify-content:space-between; padding:5px 0; font-size:12px; border-bottom:1px dashed var(--border-soft); }
+  .item-detalhe:last-child { border-bottom:none; }
+  .item-detalhe .desc { color:var(--slate-700); }
+  .item-detalhe .desc .origem { display:block; font-size:10.5px; color:var(--slate-500); margin-top:1px; }
+  .item-detalhe .valor { font-family:var(--mono); color:#fff; font-weight:600; white-space:nowrap; padding-left:14px; }
+  .seta { display:inline-block; margin-right:6px; font-size:10px; color:var(--slate-500); transition:transform .15s; }
+  .seta.aberto { transform:rotate(90deg); }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="http://localhost:3000/">&larr; Todos os setores</a>
+  <div class="period-row" style="margin-top:0;">
+    <span class="top-badge"><span class="dot"></span> Dados ao vivo — atualiza sozinho</span>
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+  <div class="header-row">
+    <span class="icon">🛍️</span>
+    <div>
+      <h1>Comercial Varejo</h1>
+      <p>Equipe de vendas externas (PAP) — por Coordenador/Equipe, não por Setor administrativo. Custos rateados/reais alimentam a coluna "Custos Comerciais Diretos" do Resumo Reembolso.</p>
+    </div>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="period-row">
+      <div class="period-selector">
+        <span class="period-selector-label">Competência</span>
+        <select id="seletor-competencia" onchange="renderTudo()"></select>
+      </div>
+    </div>
+
+    <div class="kpi-row" id="kpiRow"></div>
+
+    <div class="section-card">
+      <h3>Composição das Equipes</h3>
+      <p class="subtle">Coordenador/Equipe e as empresas que atende, com o número de ativos por cargo. Não varia por mês. Clique numa equipe para ver os nomes (fonte: "Equipe de vendas pap.xlsx" — pode não coincidir exatamente com o Total Ativos, que vem de outra planilha).</p>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th></th><th>Coordenador/Equipe</th><th>Empresa(s)</th><th style="text-align:right;">Total Ativos</th></tr>
+        </thead>
+        <tbody id="equipesBody"></tbody>
+      </table>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3>Custo, Vendas e Receita por Equipe e Empresa</h3>
+      <p class="subtle">Vendas/Upgrade/Receita reais, cruzados por nome e empresa do vendedor, com o custo por venda de cada equipe+empresa. Clique numa linha para ver o detalhamento de custo e de receita daquele mês.</p>
+      <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Coordenador/Equipe</th><th>Empresa</th>
+            <th style="text-align:right;">Vendas / Upgrade</th>
+            <th style="text-align:right;">Custo Total</th>
+            <th style="text-align:right;">Custo por Venda</th>
+            <th style="text-align:right;">Receita Total</th>
+          </tr>
+        </thead>
+        <tbody id="resumoBody"></tbody>
+        <tfoot><tr>
+          <td colspan="2">Total do mês</td>
+          <td class="val" id="totalVendasUpgradeFooter"></td>
+          <td class="val" id="totalCustoFooter"></td>
+          <td class="val" id="totalCustoPorVendaFooter"></td>
+          <td class="val" id="totalReceitaFooter"></td>
+        </tr></tfoot>
+      </table>
+      </div>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. "Custo Total" em itálico amarelo ("sem custo atribuído") indica equipe+empresa sem nenhum item de custo rateado encontrado naquele mês — nesse caso o "Custo por Venda" também fica em branco (—), em vez de mostrar zero. "Custo por Venda" = Custo Total ÷ (Vendas + Upgrade) daquela equipe+empresa no mês. Se a tabela não couber na tela, arraste para o lado (rolagem horizontal). Painel apenas demonstrativo — a edição continua sendo feita na planilha original.
+  </div>
+</main>
+<script>
+const API_BASE = 'http://localhost:3000';
+let DADOS = null;
+let MESES_DISPONIVEIS = [];
+
+function fmtBRL(n) {
+  if (n === null || n === undefined) return '—';
+  return "R$ " + n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+function fmtNum(n) {
+  return (n || 0).toLocaleString('pt-BR');
+}
+
+function renderEquipes() {
+  const body = document.getElementById('equipesBody');
+  body.innerHTML = '';
+  DADOS.equipes.forEach((eq, idx) => {
+    const rowId = 'equipe-det-' + idx;
+    const tags = eq.empresas.map(e => `<span class="empresa-tag">${e.empresa}</span>`).join('');
+    const tr = document.createElement('tr');
+    tr.className = 'equipe-clicavel';
+    tr.onclick = () => toggleEquipeNomes(rowId, eq);
+    tr.innerHTML = `
+      <td><span class="seta" id="seta-${rowId}">▶</span></td>
+      <td class="nome">${eq.coordenador}</td>
+      <td>${tags}</td>
+      <td class="num">${fmtNum(eq.totalAtivos)}</td>`;
+    body.appendChild(tr);
+
+    const trDet = document.createElement('tr');
+    trDet.className = 'detalhe-linha';
+    trDet.id = rowId;
+    trDet.innerHTML = `<td colspan="4"><div class="detalhe-wrap" id="wrap-${rowId}"></div></td>`;
+    body.appendChild(trDet);
+  });
+}
+
+function toggleEquipeNomes(rowId, eq) {
+  const linha = document.getElementById(rowId);
+  const seta = document.getElementById('seta-' + rowId);
+  const abrindo = !linha.classList.contains('aberto');
+  linha.classList.toggle('aberto');
+  seta.classList.toggle('aberto');
+  if (!abrindo) return;
+  const wrap = document.getElementById('wrap-' + rowId);
+  if (!eq.nomes || !eq.nomes.length) {
+    wrap.innerHTML = '<div class="item-detalhe"><span class="desc">Sem lista de nomes disponível para esta equipe ainda.</span></div>';
+    return;
+  }
+  wrap.innerHTML = eq.nomes.map(p => {
+    let empresaHtml;
+    if (p.empresa && p.empresaConhecida) {
+      empresaHtml = `<span class="empresa-tag">${p.empresa}</span>`;
+    } else if (p.empresa) {
+      // empresa encontrada na folha, mas fora das empresas licenciadas conhecidas do rateio
+      empresaHtml = `<span class="empresa-tag" style="color:var(--warn); border-color:rgba(245,158,11,.35); background:rgba(245,158,11,.08);">${p.empresa}</span>`;
+    } else {
+      empresaHtml = `<span class="sem-custo">não encontrado na folha</span>`;
+    }
+    const aviso = p.correspondenciaAproximada
+      ? '<span class="origem" style="color:var(--warn);">correspondência aproximada na folha (grafia diferente)</span>' : '';
+    return `<div class="item-detalhe"><span class="desc">${p.nome}${aviso}</span><span class="valor">${empresaHtml}</span></div>`;
+  }).join('');
+}
+
+function renderResumoEEquipeCusto(mes) {
+  const body = document.getElementById('resumoBody');
+  body.innerHTML = '';
+  const linhas = DADOS.resumoEquipeEmpresa.filter(x => x.mes === mes);
+  let totCusto = 0, totVendas = 0, totUpgrade = 0, totRT = 0;
+  let idx = 0;
+  linhas.forEach((l) => {
+    idx++;
+    const rowId = 'det-' + idx;
+    const totalVU = l.vendas + l.upgrade;
+    const custoPorVenda = (l.custoTotal !== null && totalVU > 0) ? l.custoTotal / totalVU : null;
+    const custoTxt = l.custoTotal === null
+      ? '<span class="sem-custo">sem custo atribuído</span>'
+      : fmtBRL(l.custoTotal);
+    const custoPorVendaTxt = custoPorVenda === null
+      ? '—'
+      : `<span class="custo-venda-tag">${fmtBRL(custoPorVenda)}</span>`;
+    const tr = document.createElement('tr');
+    tr.className = 'equipe-clicavel';
+    tr.onclick = () => toggleDetalhe(rowId, l.coordenador, l.empresa, mes);
+    tr.innerHTML = `
+      <td class="nome"><span class="seta" id="seta-${rowId}">▶</span>${l.coordenador}</td>
+      <td><span class="empresa-tag">${l.empresa}</span></td>
+      <td class="num">${fmtNum(l.vendas)} <span style="color:var(--slate-500);">/</span> ${fmtNum(l.upgrade)}</td>
+      <td class="val">${custoTxt}</td>
+      <td class="num">${custoPorVendaTxt}</td>
+      <td class="val">${fmtBRL(l.receitaTotal)}</td>`;
+    body.appendChild(tr);
+
+    const trDet = document.createElement('tr');
+    trDet.className = 'detalhe-linha';
+    trDet.id = rowId;
+    trDet.innerHTML = `<td colspan="6"><div class="detalhe-wrap" id="wrap-${rowId}"></div></td>`;
+    body.appendChild(trDet);
+
+    if (l.custoTotal !== null) totCusto += l.custoTotal;
+    totVendas += l.vendas; totUpgrade += l.upgrade; totRT += l.receitaTotal;
+  });
+  const totVU = totVendas + totUpgrade;
+  document.getElementById('totalVendasUpgradeFooter').textContent = fmtNum(totVendas) + ' / ' + fmtNum(totUpgrade);
+  document.getElementById('totalCustoFooter').textContent = fmtBRL(totCusto);
+  document.getElementById('totalCustoPorVendaFooter').textContent = totVU > 0 ? fmtBRL(totCusto / totVU) : '—';
+  document.getElementById('totalReceitaFooter').textContent = fmtBRL(totRT);
+}
+
+function toggleDetalhe(rowId, coordenador, empresa, mes) {
+  const linha = document.getElementById(rowId);
+  const seta = document.getElementById('seta-' + rowId);
+  const abrindo = !linha.classList.contains('aberto');
+  linha.classList.toggle('aberto');
+  seta.classList.toggle('aberto');
+  if (!abrindo) return;
+  const wrap = document.getElementById('wrap-' + rowId);
+  const linhaResumo = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === coordenador && x.empresa === empresa && x.mes === mes);
+  const itens = DADOS.custosDiretos.filter(c => c.coordenador === coordenador && c.mes === mes);
+
+  let html = '';
+  if (linhaResumo) {
+    html += `<div class="item-detalhe"><span class="desc">Receita de Vendas</span><span class="valor">${fmtBRL(linhaResumo.receitaVendas)}</span></div>`;
+    html += `<div class="item-detalhe"><span class="desc">Receita de Upgrade</span><span class="valor">${fmtBRL(linhaResumo.receitaUpgrade)}</span></div>`;
+  }
+  if (!itens.length) {
+    html += '<div class="item-detalhe"><span class="desc">Nenhum item de custo rateado encontrado para esta equipe neste mês.</span></div>';
+  } else {
+    html += itens.map(it => {
+      const origemClasse = /real/i.test(it.origem) ? 'origem-real' : 'origem-estimado';
+      return `<div class="item-detalhe">
+        <span class="desc">${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem}</span></span>
+        <span class="valor">${fmtBRL(it.valor)}</span>
+      </div>`;
+    }).join('');
+  }
+  wrap.innerHTML = html;
+}
+
+function renderKpis(mes) {
+  const row = document.getElementById('kpiRow');
+  const linhas = DADOS.resumoEquipeEmpresa.filter(x => x.mes === mes);
+  const totCusto = linhas.reduce((s,x) => s + (x.custoTotal || 0), 0);
+  const totVendas = linhas.reduce((s,x) => s + x.vendas, 0);
+  const totUpgrade = linhas.reduce((s,x) => s + x.upgrade, 0);
+  const totReceita = linhas.reduce((s,x) => s + x.receitaTotal, 0);
+  const custoPorVenda = (totVendas + totUpgrade) > 0 ? totCusto / (totVendas + totUpgrade) : 0;
+  row.innerHTML = `
+    <div class="kpi-card"><div class="label">Custo Total do Mês</div><div class="value">${fmtBRL(totCusto)}</div></div>
+    <div class="kpi-card"><div class="label">Vendas + Upgrade</div><div class="value">${fmtNum(totVendas + totUpgrade)}</div></div>
+    <div class="kpi-card"><div class="label">Receita Total</div><div class="value">${fmtBRL(totReceita)}</div></div>
+    <div class="kpi-card"><div class="label">Custo por Venda</div><div class="value">${fmtBRL(custoPorVenda)}</div></div>
+  `;
+}
+
+function renderTudo() {
+  const mes = document.getElementById('seletor-competencia').value;
+  renderKpis(mes);
+  renderEquipes();
+  renderResumoEEquipeCusto(mes);
+}
+
+async function buscarDados() {
+  try {
+    const resp = await fetch(API_BASE + '/api/comercial-varejo');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    DADOS = data;
+    MESES_DISPONIVEIS = data.mesesDisponiveis;
+    document.getElementById('statusTxt').textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
+
+    const sel = document.getElementById('seletor-competencia');
+    const valorAnterior = sel.value;
+    sel.innerHTML = '';
+    MESES_DISPONIVEIS.forEach((m, i) => {
+      const opt = document.createElement('option');
+      opt.value = m; opt.textContent = m;
+      if (valorAnterior ? m === valorAnterior : i === MESES_DISPONIVEIS.length - 1) opt.selected = true;
+      sel.appendChild(opt);
+    });
+
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = '';
+    renderTudo();
+  } catch (e) {
+    document.getElementById('erroBox').style.display = 'block';
+    document.getElementById('erroBox').textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscarDados();
+setInterval(buscarDados, 60000);
+</script>
+</body>
+</html>

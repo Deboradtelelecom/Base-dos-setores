@@ -1,0 +1,3500 @@
+{
+  "folha_de_pagamento": {
+    "obras": [
+      {
+        "nome": "WILLIAM DA SILVA ANDRADE (Pedreiro)",
+        "valor": 10391.39
+      },
+      {
+        "nome": "MARCONDES JOSE DA SILVA (Pedreiro)",
+        "valor": 9374.23
+      },
+      {
+        "nome": "GESIMIEL GOMES DA SILVA (Encarregado De Obras)",
+        "valor": 8624.49
+      },
+      {
+        "nome": "ANTONIO RICARDO DA SILVA (Pedreiro)",
+        "valor": 7894.86
+      },
+      {
+        "nome": "ROMERO JOSE DOS SANTOS SILVA (Pedreiro Junior)",
+        "valor": 7012.98
+      },
+      {
+        "nome": "DAYVID PEDRO PEREIRA DOS REIS (Pintor)",
+        "valor": 6896.7
+      },
+      {
+        "nome": "CICERO GOMES DOS SANTOS (Pedreiro Junior)",
+        "valor": 6795.67
+      },
+      {
+        "nome": "JOSE DE ARIMATEA FERNANDES (Pedreiro)",
+        "valor": 6380.57
+      },
+      {
+        "nome": "JOSUE GONCALVES DE OLIVEIRA (Gesseiro)",
+        "valor": 5117.35
+      },
+      {
+        "nome": "SEVERINO DE SOUZA SILVA (Pedreiro)",
+        "valor": 5044.87
+      },
+      {
+        "nome": "JOAO RICARDO DA SILVA (Pedreiro)",
+        "valor": 4999.7
+      },
+      {
+        "nome": "ISAEL DE JESUS ALVES (Pedreiro)",
+        "valor": 4886.67
+      },
+      {
+        "nome": "ERIVAN MANOEL DE MOURA SANTANA (Ajudante De Obras)",
+        "valor": 4311.74
+      },
+      {
+        "nome": "AFONSO FELIPE DA SILVA (Pintor)",
+        "valor": 4276.37
+      },
+      {
+        "nome": "JOSENILDO DA SILVA ALVES (Ajudante De Obras)",
+        "valor": 4272.07
+      },
+      {
+        "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Ajudante De Obras)",
+        "valor": 4079.68
+      },
+      {
+        "nome": "CLEITON LIMA DA SILVA (Ajudante De Obras)",
+        "valor": 3919.76
+      },
+      {
+        "nome": "GABRIEL RAMON DA SILVA (Ajudante De Obras)",
+        "valor": 3812.12
+      },
+      {
+        "nome": "JOSE WILLAMS DOS SANTOS SILVA (Ajudante De Obras)",
+        "valor": 3786.93
+      },
+      {
+        "nome": "RUY HONORATO DE SANTANA (Ajudante De Obras)",
+        "valor": 3693.83
+      },
+      {
+        "nome": "JOAO CARLOS DA SILVA (Ajudante De Obras)",
+        "valor": 3418.37
+      },
+      {
+        "nome": "JOSE JACKSON DOS SANTOS (Ajudante De Obras)",
+        "valor": 2455.65
+      }
+    ],
+    "engenharia": [
+      {
+        "nome": "ANDRE AUGUSTO SOUZA DE LIRA (Engenheiro Civil)",
+        "valor": 14411.71
+      },
+      {
+        "nome": "CRYSLAINE FONSECA ROSAL (Engenheiro De Telecomunicacoes)",
+        "valor": 12711.6
+      },
+      {
+        "nome": "ALAN KLEBSON DO MONTE SILVA (Projetista Pleno)",
+        "valor": 7035.19
+      },
+      {
+        "nome": "JAIRO RODRIGUES SILVA NETO (Projetista Pleno)",
+        "valor": 6618.13
+      },
+      {
+        "nome": "LEONARDO VINICIUS DE SANTANA ARCOVERDSIETUAÇÃO: (Supervisor De Engenharia Júnior)",
+        "valor": 6210.05
+      },
+      {
+        "nome": "ANDERSON LUIZ PEIXOTO DA SILVEIRA JUNISOIRTUAÇÃO: (Projetista Junior)",
+        "valor": 5425.53
+      },
+      {
+        "nome": "LUIZ PEDRO DOS REIS (Ajudante De Obras)",
+        "valor": 5367.25
+      },
+      {
+        "nome": "LUCAS ANDRE DA SILVA ALVES (Auxiliar De Campo)",
+        "valor": 3481.4
+      },
+      {
+        "nome": "CLAUDIA SOARES DOS SANTOS SILVA (Assistente Administrativo Cac Junior)",
+        "valor": 3120.16
+      },
+      {
+        "nome": "JESSICA SAMARA DA SILVA (Tecnico De Edificações)",
+        "valor": 2889.14
+      },
+      {
+        "nome": "LUCAS VINICIUS GOMES FARAO (Auxiliar Administrativo Engenharia)",
+        "valor": 2196.03
+      },
+      {
+        "nome": "CELIO MARCIO DA SILVA (Porteiro)",
+        "valor": 1324.94
+      },
+      {
+        "nome": "LUAN VINICIUS NEVES DE SOUZA (Auxiliar Administrativo Engenharia.)",
+        "valor": 1324.94
+      },
+      {
+        "nome": "MOISES DA ROCHA SILVA (Auxiliar Tecnico De Lancamento)",
+        "valor": 70.66
+      }
+    ],
+    "logistica": [
+      {
+        "nome": "DEMETRIUS RIBEIRO DE AQUINO (Gerente Logistico Pleno)",
+        "valor": 11501.34
+      },
+      {
+        "nome": "ARMANDO JOSE BARBOSA (Assistente De Compras Senior)",
+        "valor": 6669.67
+      },
+      {
+        "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR (Motorista Sênior)",
+        "valor": 6593.25
+      },
+      {
+        "nome": "JOSE ALVES DE OLIVEIRA NETO (Motorista Sênior)",
+        "valor": 5730.71
+      },
+      {
+        "nome": "EDNALDO DE NABOIA ACIOLI JUNIOR (Chefe De Oficina)",
+        "valor": 5548.65
+      },
+      {
+        "nome": "RICARDO ANTONIO DA SILVA LIMA (Mecânico De Veículos Pleno)",
+        "valor": 5471.95
+      },
+      {
+        "nome": "JONATHAN BERNARDO DOS SANTOS SILVA (Assistente De Logistica Senior)",
+        "valor": 5267.81
+      },
+      {
+        "nome": "ANTONIO NASCIMENTO DE MELO (Assistente De Logistica Senior)",
+        "valor": 5144.6
+      },
+      {
+        "nome": "ALLAN DOS SANTOS E SILVA (Assistente De Logistica Senior)",
+        "valor": 4198.02
+      },
+      {
+        "nome": "ODAIR JACINTO DA SILVA (Eletricista De Veiculos)",
+        "valor": 4069.77
+      },
+      {
+        "nome": "MATHEUS VINICIUS SILVA DE ABREU (Balanceador)",
+        "valor": 3933.87
+      },
+      {
+        "nome": "NEILSON ALEXANDRE DA SILVA (Motorista Pleno)",
+        "valor": 3864.33
+      },
+      {
+        "nome": "HIAGO VICTOR DA SILVA OLIVEIRA (Auxiliar De Motorista)",
+        "valor": 3592.41
+      },
+      {
+        "nome": "JOSENILDO LUIZ DOS SANTOS (Ajudante De Obras)",
+        "valor": 2567.01
+      },
+      {
+        "nome": "VICTOR HUGO DA SILVA (Auxiliar De Logistica)",
+        "valor": 2487.2
+      },
+      {
+        "nome": "ANDERSON DA SILVA LIMA (Auxiliar De Motorista)",
+        "valor": 2473.22
+      },
+      {
+        "nome": "KAIO EDUARDO VICENTE DE LIMA (Auxiliar De Logistica)",
+        "valor": 2250.69
+      },
+      {
+        "nome": "LUAN KELVYN BARROS DA SILVA (Auxiliar De Logistica)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "PEDRO VITOR DOS SANTOS MENDES (Auxiliar De Logistica)",
+        "valor": 2119.91
+      }
+    ],
+    "financeiro": [
+      {
+        "nome": "ANNA MARY BARBOSA PIMENTEL (Supervisor Financeiro)",
+        "valor": 5379.2
+      },
+      {
+        "nome": "ANELISE LETICIA RIBEIRO XAVIER",
+        "valor": 4132.43
+      },
+      {
+        "nome": "JACIANE GOMES DO CARMO",
+        "valor": 3104.08
+      },
+      {
+        "nome": "WAGNA DE FREITAS SANTOS SANTANA",
+        "valor": 3104.08
+      },
+      {
+        "nome": "MARIA EDUARDA DOS SANTOS",
+        "valor": 3033.36
+      },
+      {
+        "nome": "ANA PAULA TAVARES SILVA DE SOUZA",
+        "valor": 2926.68
+      },
+      {
+        "nome": "JEISA BIANCA DA SILVA (Auxiliar Administrativo Financeiro)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "JOAO VITOR DE ARAUJO BEZERRA",
+        "valor": 1095.54
+      }
+    ],
+    "seguranca_do_trabalho": [
+      {
+        "nome": "ERINALDO LOPES DA COSTA (Engenheiro De Seguranca Do Trabalho)",
+        "valor": 14411.71
+      },
+      {
+        "nome": "ANDERSON FELIPE VAREJAO DE CASTRO (Técnico De Segurança Do Trabalho Pleno)",
+        "valor": 5300.03
+      },
+      {
+        "nome": "JEFFERSON DOS SANTOS SILVA (Técnico De Segurança Do Trabalho)",
+        "valor": 4684.68
+      },
+      {
+        "nome": "RODRIGO ANTONIO DE OLIVEIRA (Tec. Segurança Do Trabalho Jr)",
+        "valor": 4339.0
+      },
+      {
+        "nome": "ANNA KAROLINE BARBOSA PIMENTEL DE OLISVIETUIRAAÇÃO: (Tecnico De Enfermagem Do Trabalho)",
+        "valor": 2939.88
+      },
+      {
+        "nome": "NAYARA FERREIRA DA SILVA",
+        "valor": 2345.87
+      },
+      {
+        "nome": "MATEUS GOMES DE OLIVEIRA",
+        "valor": 2119.91
+      },
+      {
+        "nome": "ISABELLE DIAS ABRAÃO DE SOUZA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "KLINSMANN DAVID AMARAL DOS SANTOS",
+        "valor": 1095.54
+      }
+    ],
+    "manutencao_predial": [
+      {
+        "nome": "CLAUDIO DE MELO AMORIM (Supervisor De Eletrica)",
+        "valor": 10578.99
+      },
+      {
+        "nome": "WELLINGTON FERNANDO DE LIMA (Tecnico De Manutencao Predial Junior)",
+        "valor": 10372.98
+      },
+      {
+        "nome": "JAILTON ADOLFO DA SILVA (Auxiliar De Manutencao Predial)",
+        "valor": 9452.17
+      },
+      {
+        "nome": "JOSE ADELSON DOS SANTOS (Técnico De Refrigeração Junior)",
+        "valor": 7292.26
+      },
+      {
+        "nome": "GLAUCO MATHEUS DA CRUZ SILVA (Técnico De Manutenção Predial Senior)",
+        "valor": 7081.8
+      },
+      {
+        "nome": "ARTHUR DA SILVA FARIAS (Técnico De Manutenção Predial)",
+        "valor": 6877.63
+      },
+      {
+        "nome": "OTONIEL DA SILVA OLIVEIRA (Técnico De Refrigeração Junior)",
+        "valor": 6521.68
+      },
+      {
+        "nome": "ELIEL FRANCISCO DE LIMA (Técnico De Manutenção Predial Júnior)",
+        "valor": 6285.91
+      },
+      {
+        "nome": "MABSON ROBSON DA SILVA (Técnico De Manutenção Predial Júnior)",
+        "valor": 5713.31
+      },
+      {
+        "nome": "FRANCISCO SERGIO DE BARROS (Técnico De Manutenção Predial)",
+        "valor": 5623.29
+      },
+      {
+        "nome": "SEVERINO ANTONIO FRANCISCO JUNIOR (Auxiliar De Manutencao Predial)",
+        "valor": 5464.64
+      },
+      {
+        "nome": "ANDERSSON DE MELO MACENA (Técnico De Manutenção Predial)",
+        "valor": 4003.7
+      },
+      {
+        "nome": "JACIEL SEVERINO DA SILVA (Auxiliar De Manutencao Predial)",
+        "valor": 1743.7
+      }
+    ],
+    "estoque": [
+      {
+        "nome": "JOSE HELMITON GOMES DE LIMA",
+        "valor": 7509.22
+      },
+      {
+        "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA (Coordenador De Estoque Pleno)",
+        "valor": 6591.2
+      },
+      {
+        "nome": "JONATHAS JOSE DA SILVA (Estoquista Pleno)",
+        "valor": 6485.81
+      },
+      {
+        "nome": "FABIO DANIEL DA SILVA (Estoquista Senior)",
+        "valor": 4380.17
+      },
+      {
+        "nome": "ANDRE ANTONIO FERREIRA",
+        "valor": 4315.67
+      },
+      {
+        "nome": "DAYVISSON GUILHERME DE SANTANA FARIAS (Tecnico Eletronica De Manutencao Pleno)",
+        "valor": 4315.67
+      },
+      {
+        "nome": "VALDEREZ CAETANO DE SOUZA (Tecnico De Lancamento Senior)",
+        "valor": 4264.06
+      },
+      {
+        "nome": "TIAGO DE LIMA SENA (Estoquista Pleno)",
+        "valor": 4186.52
+      },
+      {
+        "nome": "RONILSON LUIZ DO NASCIMENTO (Tecnico Eletronico Em Manutencao Junior)",
+        "valor": 3886.22
+      },
+      {
+        "nome": "JOSE GEOVANE SANTOS SILVA (Estoquista Pleno)",
+        "valor": 3798.62
+      },
+      {
+        "nome": "KLAYTON RODRIGO DE FREITAS SILVA (Estoquista Junior)",
+        "valor": 3751.33
+      },
+      {
+        "nome": "BRUNO RAFAEL MENEZES DA SILVA (Tecnico Eletronico Em Manutencao Junior)",
+        "valor": 3640.91
+      },
+      {
+        "nome": "DANILO PEDRO PEREIRA DOS REIS (Estoquista Junior)",
+        "valor": 3302.96
+      },
+      {
+        "nome": "DANILO FERNANDO DA SILVA LIMA (Estoquista Junior)",
+        "valor": 3214.26
+      },
+      {
+        "nome": "CAUA VICTOR DE NASCIMENTO",
+        "valor": 1398.64
+      },
+      {
+        "nome": "EMERSON DE OLIVEIRA SANTOS",
+        "valor": 1095.54
+      }
+    ],
+    "gestao_de_atendimento": [
+      {
+        "nome": "ARLEN DUARTE DOS SANTOS (Backoffice De Atendimento Junior)",
+        "valor": 5862.85
+      },
+      {
+        "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+        "valor": 4927.69
+      },
+      {
+        "nome": "IRIS BEATRIZ SILVEIRA MARQUES (Backoffice De Atendimento Junior)",
+        "valor": 3951.71
+      },
+      {
+        "nome": "EVERTON EZEQUIEL DE LIMA ALMEIDA (Backoffice De Atendimento)",
+        "valor": 2848.69
+      },
+      {
+        "nome": "LIRYEL CAMILLY SANTANA DA SILVA CARVALSHIOTUAÇÃO: (Backoffice Comercial Varejo)",
+        "valor": 2843.46
+      },
+      {
+        "nome": "GABRIELA DA SILVA ALVES (Assistente Administrativo Cac Junior)",
+        "valor": 2345.87
+      },
+      {
+        "nome": "KAYRON FILLIPE SALES DA SILVA",
+        "valor": 1398.64
+      },
+      {
+        "nome": "LUCAS KAUA SILVA DOS SANTOS",
+        "valor": 1095.54
+      }
+    ],
+    "compras": [
+      {
+        "nome": "BRUNO DOUGLAS ALVES DA SILVA (Gerente De Compras)",
+        "valor": 10151.47
+      },
+      {
+        "nome": "OLIVER RHUAN DE MELO GOMES (Assistente De Compras Pleno)",
+        "valor": 4913.15
+      },
+      {
+        "nome": "CLEITON CARLOS DA SILVA AUGUSTO (Assistente De Compras)",
+        "valor": 2506.85
+      },
+      {
+        "nome": "PEDRO GHEORGHE DA SILVA SANTANA (Assistente De Compras)",
+        "valor": 2506.85
+      },
+      {
+        "nome": "VINICIUS SANTANA DE LIMA MIRANDA",
+        "valor": 1095.54
+      }
+    ],
+    "rh": [
+      {
+        "nome": "OSMAIRE BATISTA DE LIMA (Gerente De Gente E Gestão Pleno)",
+        "valor": 10324.34
+      },
+      {
+        "nome": "LUCAS ALEXANDRE DOS SANTOS (Assistente Administrativo De Rh Junior)",
+        "valor": 6185.92
+      },
+      {
+        "nome": "CAMILA VIRGULINO COSTA (Assistente Administrativo De Rh Pleno)",
+        "valor": 3946.66
+      },
+      {
+        "nome": "ISLA MIRELLY DA SILVA ANTONIO (Auxiliar Administrativo De Rh)",
+        "valor": 2381.46
+      },
+      {
+        "nome": "DARLLAN DOS SANTOS LIMA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "JOSE THIAGO OLIVEIRA DA SILVA",
+        "valor": 1095.54
+      }
+    ],
+    "dp": [
+      {
+        "nome": "CARLOS ALEXANDRE GOMES DE MOURA (Gerente De Dp Senior)",
+        "valor": 10324.34
+      },
+      {
+        "nome": "JONAS SOARES DE SANTANA (Analista De Departamento Pessoal Junior)",
+        "valor": 7933.52
+      },
+      {
+        "nome": "ROBSON DA SILVA BATISTA COSTA (Analista De Departamento Pessoal Junior)",
+        "valor": 6686.94
+      },
+      {
+        "nome": "EDENIZE ALVES XIMENES (Auxiliar De Dp)",
+        "valor": 3684.64
+      },
+      {
+        "nome": "TAMIRES DO NASCIMENTO OLIVEIRA (Assistente De Dp)",
+        "valor": 2985.64
+      },
+      {
+        "nome": "GIOVANNA EDUARDA RODRIGUES DO CARMO (Auxiliar De Dp)",
+        "valor": 2365.98
+      },
+      {
+        "nome": "CARLA JULIANNY DE OLIVEIRA SANTOS (Auxiliar De Dp)",
+        "valor": 2119.91
+      }
+    ],
+    "cac": [
+      {
+        "nome": "CONCEICAO JACIARA CASADO DE SOUZA (Assistente Administrativo Cac Junior)",
+        "valor": 2659.07
+      },
+      {
+        "nome": "NAILZA MOREIRA DA SILVA (Assistente Administrativo Cac Pleno)",
+        "valor": 2559.12
+      },
+      {
+        "nome": "KELLY SABRINA NUNES DUARTE (Operador De Telemarketing)",
+        "valor": 2146.06
+      }
+    ],
+    "contabilidade": [
+      {
+        "nome": "DANIELE PEDROZO FALCAO DA SILVA",
+        "valor": 4642.61
+      },
+      {
+        "nome": "IZABELE LETICIA DA SILVA (Assistente Administrativo Contabil)",
+        "valor": 2203.68
+      },
+      {
+        "nome": "RAQUEL JEDIDJA DE SOUZA GOMES (Auxiliar Administrativo Contbil)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "RUTHE GRAZIELLY DA SILVA FREITAS (Auxiliar Administrativo Contbil)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "MARYANALIA CARMO DA SILVA",
+        "valor": 1095.54
+      }
+    ],
+    "noc": [
+      {
+        "nome": "ORLANDO SOARES ALVES (Gerente De Redes Pleno)",
+        "valor": 11827.71
+      },
+      {
+        "nome": "JEFFERSON PATRICK BARRETO TAVARES (Gerente De Redes Junior)",
+        "valor": 11772.62
+      },
+      {
+        "nome": "RAFAEL MARINHO MACEDO (Gerente De Redes)",
+        "valor": 9755.94
+      },
+      {
+        "nome": "DYEGO ALMEIDA TELINO (Gerente De Redes)",
+        "valor": 9102.26
+      },
+      {
+        "nome": "EMANOEL RODOLFO DA SILVA (Analista De Rede E Comunicacao De Dados)",
+        "valor": 5521.23
+      }
+    ],
+    "qualidade": [
+      {
+        "nome": "ANDREZA LUANA BARBOSA DA SILVA (Nutricionista)",
+        "valor": 6578.4
+      },
+      {
+        "nome": "CLARA VITORIA DE SOUZA SANTOS (Analista De Qualidade)",
+        "valor": 2599.5
+      },
+      {
+        "nome": "CLEONILDO ANTONIO DOS SANTOS NETO (Supervisor De Qualidade)",
+        "valor": 5011.76
+      },
+      {
+        "nome": "DAYANE STEFANNI CLIMACO DE SANTANA (Supervisor De Qualidade)",
+        "valor": 4265.2
+      },
+      {
+        "nome": "DAYSE KASSIA DA SILVA OLIVEIRA (Assistente De Qualidade)",
+        "valor": 2688.91
+      },
+      {
+        "nome": "LUIS HENRIQUE PEREIRA BRANCO (Assistente De Qualidade E Processos)",
+        "valor": 2325.07
+      },
+      {
+        "nome": "MICHEL GLEYDSON DA SILVA MELO (Analista De Qualidade Junior)",
+        "valor": 3041.39
+      },
+      {
+        "nome": "YASMIM CAMILLY DE BARROS LIRA (Analista De Qualidade Junior)",
+        "valor": 3041.41
+      }
+    ],
+    "juridico": [
+      {
+        "nome": "MIKAELLE MARIA DE SOUZA SILVA (Auxiliar Jurídico)",
+        "valor": 2502.25
+      },
+      {
+        "nome": "SAMMUEL DEYVSON DA SILVA SANTOS (Auxiliar Juridico)",
+        "valor": 2502.25
+      }
+    ],
+    "marketing": [
+      {
+        "nome": "THAYS FREITAS DE SOUZA (Designer Pleno)",
+        "valor": 4453.27
+      },
+      {
+        "nome": "DAVI FERREIRA DA SILVA (Trade)",
+        "valor": 4219.75
+      },
+      {
+        "nome": "DAVID ARTHUR CAVALCANTE DA SILVA (Designer Pleno)",
+        "valor": 3834.76
+      },
+      {
+        "nome": "EMILLY LOPES ALVES",
+        "valor": 1095.54
+      },
+      {
+        "nome": "JEFFERSON DA SILVA ARRUDA (Diretor De Arte)",
+        "valor": 5045.35
+      },
+      {
+        "nome": "JOSE NIVERTON FARIAS DE AMORIM (Designer Júnior)",
+        "valor": 2701.29
+      },
+      {
+        "nome": "MAURICIO DE ALCANTARA MACIEL FILHO (Assistente Administrativo De Marketing Junior)",
+        "valor": 3076.63
+      },
+      {
+        "nome": "MAYKON ALVES DE OLIVEIRA (Designer Júnior)",
+        "valor": 3028.24
+      },
+      {
+        "nome": "MICHELLE KAREN DE OLIVEIRA (Social Mídia Pleno)",
+        "valor": 3307.51
+      },
+      {
+        "nome": "STIVINY JORGE SILVA DOS SANTOS (Assistente Administrativo De Marketing)",
+        "valor": 2471.69
+      },
+      {
+        "nome": "WESLEY JUNIOR DA SILVA FERREIRA (Social Mídia Pleno)",
+        "valor": 8384.35
+      },
+      {
+        "nome": "YASMIM XIMENES OLIVEIRA (Supervisora De Marketing)",
+        "valor": 4533.84
+      }
+    ],
+    "tic": [
+      {
+        "nome": "ALLYSON GUILHERME DOS SANTOS CAVALCANTE",
+        "valor": 1095.54
+      },
+      {
+        "nome": "FILIPE DA SILVA GONÇALVES (Analista De Sistema Sênior)",
+        "valor": 5357.01
+      },
+      {
+        "nome": "MARCOS ANTONIO DA SILVA SOBRINHO",
+        "valor": 1095.54
+      },
+      {
+        "nome": "THIAGO CAMPELO DA SILVA (Tecnico De Suporte De Ti)",
+        "valor": 3060.37
+      },
+      {
+        "nome": "THIAGO LUIZ DA SILVA MOTA (Técnico De Suporte De Ti)",
+        "valor": 3575.12
+      },
+      {
+        "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR (Supervisor De Tic Pleno)",
+        "valor": 8756.33
+      },
+      {
+        "nome": "WILLAMS BARBOSA DA SILVA (Analista De Ti)",
+        "valor": 3739.66
+      }
+    ],
+    "coe": [
+      {
+        "nome": "ANDRE LUIZ DO NASCIMENTO ALVES (Supervisor Coe Pleno)",
+        "valor": 7022.74
+      },
+      {
+        "nome": "DAIANE RODRIGUES DE ASSIS (Supervisor De Relacionamento)",
+        "valor": 2954.49
+      },
+      {
+        "nome": "FABIANA VALERIA DA SILVA (Despachante Senior)",
+        "valor": 4358.16
+      },
+      {
+        "nome": "LETÍCIA DE FRANÇA LIMA (Despachante)",
+        "valor": 3440.36
+      },
+      {
+        "nome": "MARCIA MARIA SILVA DA COSTA (Despachante Pleno)",
+        "valor": 6339.24
+      },
+      {
+        "nome": "MARCOS IGOR DE ARRUDA BARROS (Despachante Junior)",
+        "valor": 3069.32
+      },
+      {
+        "nome": "MARIA AMANDA DA SILVA LIMA (Despachante Pleno)",
+        "valor": 3254.78
+      },
+      {
+        "nome": "MARIA EDUARDA CONCEICAO DA SILVA (Despachante Pleno)",
+        "valor": 4576.93
+      },
+      {
+        "nome": "MAURICIO PEDRO DE OLIVEIRA JUNIOR (Analista De Dados Coe)",
+        "valor": 6192.59
+      },
+      {
+        "nome": "THULIO FERREIRA ANDRADE SILVA (Supervisor Coe)",
+        "valor": 6411.54
+      },
+      {
+        "nome": "TIAGO LYRA DA MOTA SILVA (Despachante Junior)",
+        "valor": 3229.3
+      },
+      {
+        "nome": "WELLYSON THOMAS DOS SANTOS (Despachante Pleno)",
+        "valor": 4104.41
+      },
+      {
+        "nome": "WILLAMES ARTUR DA CONCEICAO SILVA (Despachante)",
+        "valor": 2346.01
+      },
+      {
+        "nome": "WILLYANE MILENA DOS SANTOS AQUINO (Despachante Senior)",
+        "valor": 4032.4
+      }
+    ],
+    "fique_movel": [
+      {
+        "nome": "ISLA RAFAELLE LESSA DE ANDRADE (Supervisor De Vendas)",
+        "valor": 5183.0
+      },
+      {
+        "nome": "MARIA CLARA DA COSTA ALVES",
+        "valor": 1095.54
+      },
+      {
+        "nome": "RAFAEL DA SILVA GABRIEL (Supervisor De Vendas)",
+        "valor": 4953.86
+      }
+    ],
+    "lancamento": [
+      {
+        "nome": "ANDERSON FARIAS DA SILVA (Tecnico De Lancamento Senior)",
+        "valor": 12255.45
+      },
+      {
+        "nome": "CARLOS FERNANDO DE LIMA (Supervisor De Lancamento Junior)",
+        "valor": 12071.6
+      },
+      {
+        "nome": "MESSIAS LOPES DE OLIVEIRA (Tecnico De Lancamento Junior)",
+        "valor": 7609.21
+      },
+      {
+        "nome": "RENATO DAMASCENO DA SILVA (Tecnico De Lancamento Junior)",
+        "valor": 8559.81
+      },
+      {
+        "nome": "ALISSON BELO ALVES (Tecnico De Lancamento Junior)",
+        "valor": 5184.28
+      },
+      {
+        "nome": "CARLOS VINICIUS DE SOUZA FERREIRA (Auxiliar Tecnico De Lancamento)",
+        "valor": 3496.74
+      },
+      {
+        "nome": "DANIEL ANTONIO DA SILVA (Tecnico De Lancamento Senior)",
+        "valor": 7843.14
+      },
+      {
+        "nome": "DANIEL JOSE DOS SANTOS (Tecnico De Lancamento Junior)",
+        "valor": 4635.39
+      },
+      {
+        "nome": "DENILSON SOARES DA SILVA (Assistente Administrativo De Atendimento Junior)",
+        "valor": 3400.59
+      },
+      {
+        "nome": "EDVALDO DA SILVA COSTA (Auxiliar Tecnico De Lancamento)",
+        "valor": 3852.5
+      },
+      {
+        "nome": "GUILHERME FERREIRA SANTOS (Auxiliar Tecnico De Lancamento)",
+        "valor": 4755.39
+      },
+      {
+        "nome": "GUSTAVO DE JESUS ALVES FIDELI (Auxiliar Tecnico De Lancamento)",
+        "valor": 5866.49
+      },
+      {
+        "nome": "JORGE RODRIGO DA SILVA FRANÇA (Auxiliar De Instalador)",
+        "valor": 4050.2
+      },
+      {
+        "nome": "JOSE CARLOS DE LIRA CARNEIRO (Tecnico De Lancamento Pleno)",
+        "valor": 6822.9
+      },
+      {
+        "nome": "JOSE EDVALDO DE LICERA JUNIOR (Auxiliar Tecnico De Lancamento)",
+        "valor": 4051.67
+      },
+      {
+        "nome": "MARINALDO ANTONIO DE SANTANA (Auxiliar Tecnico De Lancamento)",
+        "valor": 6026.7
+      },
+      {
+        "nome": "NILTON JOSE DA SILVA (Auxiliar Tecnico De Lancamento)",
+        "valor": 4707.48
+      },
+      {
+        "nome": "RICARDO EUZEBIO DA SILVA (Auxiliar Tecnico De Lancamento)",
+        "valor": 3529.3
+      },
+      {
+        "nome": "SEVERINO DA SILVA SANTOS (Tecnico De Lancamento Pleno)",
+        "valor": 4347.43
+      },
+      {
+        "nome": "VAGNER JOSE DA SILVA MELO (Auxiliar Tecnico De Lancamento)",
+        "valor": 3823.07
+      },
+      {
+        "nome": "WEVERTON DE SANTANA SILVA (Auxiliar Tecnico De Lancamento)",
+        "valor": 5700.18
+      },
+      {
+        "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Tecnico De Lancamento Junior)",
+        "valor": 7783.91
+      }
+    ],
+    "fusao": [
+      {
+        "nome": "CLECIO ISRAEL DA SILVA (Tecnico Em Fibra)",
+        "valor": 8428.64
+      },
+      {
+        "nome": "JOSE ROBERTO DE SANTANA SILVA (Tecnico Em Fibra)",
+        "valor": 9164.25
+      },
+      {
+        "nome": "DIEGO GUSTAVO DA SILVA (Tecnico Em Fibra Pleno)",
+        "valor": 6455.54
+      },
+      {
+        "nome": "GILBERTO EUGENIO DOS SANTOS (Tecnico Em Fibra)",
+        "valor": 3332.01
+      },
+      {
+        "nome": "JOSE ERONILDO DE MELO SILVA (Tecnico Em Fibra Junior)",
+        "valor": 4141.6
+      },
+      {
+        "nome": "JOSE ROGERIO DE SOUZA (Tecnico Em Fibra Junior)",
+        "valor": 4674.09
+      },
+      {
+        "nome": "LUCIANO MANOEL DO NASCIMENTO (Tecnico Em Fibra)",
+        "valor": 4480.81
+      },
+      {
+        "nome": "VALDIR JOSE FELICIANO (Tecnico Em Fibra Pleno)",
+        "valor": 6161.42
+      }
+    ],
+    "retencao": [
+      {
+        "nome": "AMANDA CAMILLA SILVA DO NASCIMENTO (Operador De Telemarketing)",
+        "valor": 4492.98
+      },
+      {
+        "nome": "ADINAIR BATISTA DE OLIVEIRA (Operador De Telemarketing)",
+        "valor": 2313.56
+      },
+      {
+        "nome": "ALIDA AYNARA CONCEICAO DA SILVA (Operador De Telemarketing)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "DANIELLE VIRGULINO COSTA (Operador Telemarketing)",
+        "valor": 2325.87
+      },
+      {
+        "nome": "EHLAYNNE MENDES DE OLIVEIRA (Operador De Telemarketing)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "ELIANE LIMA DA CONCEICAO (Operador De Telemarketing)",
+        "valor": 2969.19
+      },
+      {
+        "nome": "ESTHER EDUARDA DE LIMA VILA NOVA (Operador De Telemarketing)",
+        "valor": 2660.4
+      },
+      {
+        "nome": "FERNANDA ANNIELLY DE LIMA SANTOS (Operador De Telemarketing)",
+        "valor": 2185.3
+      },
+      {
+        "nome": "JADSON WENDERSON DA SILVA CARVALHO (Operador De Telemarketing)",
+        "valor": 3691.65
+      },
+      {
+        "nome": "MERCIA DAMAZO VASCONCELOS (Operador Telemarketing)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "MICHELLE PACHECO DA SILVA (Operador De Telemarketing)",
+        "valor": 2530.24
+      },
+      {
+        "nome": "MIRTHIZ CRISTINA LIMA SILVA (Operador De Telemarketing)",
+        "valor": 2119.91
+      }
+    ],
+    "suporte_da_central": [
+      {
+        "nome": "ANA CAROLINE KETILYN DA SILVA (Operador De Telemarketing Junior)",
+        "valor": 4102.62
+      },
+      {
+        "nome": "ADRIANA DE MOURA SANTOS (Operador De Telemarketing Técnico Júnior)",
+        "valor": 4091.85
+      },
+      {
+        "nome": "ALISSON SANTINO DE OLIVEIRA (Operador Telemarketing)",
+        "valor": 2381.46
+      },
+      {
+        "nome": "ARTHUR LEONARDO DE SOUZA MELO (Operador De Telemarketing)",
+        "valor": 2299.74
+      },
+      {
+        "nome": "CASSIO MARQUES DA SILVA (Operador De Telemarketing)",
+        "valor": 2149.03
+      },
+      {
+        "nome": "DARLAN HENRIQUE ESTEVAO DE LIMA (Operador Telemarketing)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "DAVI JOAO DOS SANTOS (Operador De Telemarketing)",
+        "valor": 2488.9
+      },
+      {
+        "nome": "DAVID PHILIPPE DE OLIVEIRA SANTOS (Operador De Telemarketing)",
+        "valor": 2635.9
+      },
+      {
+        "nome": "DAYVID SANTOS FERREIRA (Operador De Telemarketing Júnior)",
+        "valor": 2385.1
+      },
+      {
+        "nome": "DIEGO FILIPE DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 2526.48
+      },
+      {
+        "nome": "EDILSON SOARES BULHOES (Operador De Telemarketing Júnior)",
+        "valor": 2792.55
+      },
+      {
+        "nome": "EDJA KELLY GOMES DE MELO (Operador De Telemarketing Técnico Júnior)",
+        "valor": 2461.09
+      },
+      {
+        "nome": "ELIAQUIM DAVI DOS SANTOS SILVA (Operador De Telemarketing)",
+        "valor": 2125.31
+      },
+      {
+        "nome": "ELIZAMA GOMES DE SANTANA SILVA (Operador De Telemarketing Técnico)",
+        "valor": 2208.24
+      },
+      {
+        "nome": "EVELLYN RAYSSA LIMA DE SOUSA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "GABRIEL JOSE DA SILVA (Operador De Telemarketing)",
+        "valor": 2280.97
+      },
+      {
+        "nome": "GABRIELE CICERA PEREIRA DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "JOSE LUIZ AUGUSTO DA SILVA NETO (Operador De Telemarketing)",
+        "valor": 2640.49
+      },
+      {
+        "nome": "KETIMA DE FREITAS ALBUQUERQUE (Operador De Telemarketing Técnico Júnior)",
+        "valor": 2398.92
+      },
+      {
+        "nome": "LEONARDO LIRA MOSCOSO DA VEIGA PESSOA (Operador De Telemarketing Técnico)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "LUCAS VINICIUS SOUSA DE ARAUJO (Backoffice Junior)",
+        "valor": 2415.22
+      },
+      {
+        "nome": "LUIZ GABRIEL DE SOUZA BARBOSA NASCIMENSITTUOAÇÃO: (Operador Telemarketing)",
+        "valor": 2266.69
+      },
+      {
+        "nome": "LUIZ SIMEONE CARNEIRO CORREA (Operador De Telemarketing)",
+        "valor": 2512.24
+      },
+      {
+        "nome": "MARCELO HENRIQUE GOMES RAMOS (Operador De Telemarketing)",
+        "valor": 2139.52
+      },
+      {
+        "nome": "MATHEUS FILIPE LIRA FERREIRA (Operador De Telemarketing Técnico)",
+        "valor": 2560.77
+      },
+      {
+        "nome": "MATHEUS VINICIUS DE MELO DIAS SILVA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "MIECIA OLIVEIRA DA SILVA SANTOS (Operador De Telemarketing Técnico)",
+        "valor": 3854.13
+      },
+      {
+        "nome": "NATHALIA GOMES DA SILVA (Backoffice Pleno)",
+        "valor": 5020.42
+      },
+      {
+        "nome": "RAFAELA IRINEU DOS SANTOS (Operador De Telemarketing Júnior)",
+        "valor": 2650.62
+      },
+      {
+        "nome": "SANDOVAL VITOR DE ALBUQUERQUE E SILVA (Operador De Telemarketing Técnico)",
+        "valor": 2623.14
+      },
+      {
+        "nome": "THAMYRIS MEIRELLY SILVA DA LUZ (Operador De Telemarketing Pleno)",
+        "valor": 2590.56
+      },
+      {
+        "nome": "WASHINGTON ALBUQUERQUE PESSOA JUNIOSRIT UAÇÃO: (Operador De Telemarketing)",
+        "valor": 2193.52
+      },
+      {
+        "nome": "YURI DOS SANTOS ARRUDA (Operador De Telemarketing Técnico)",
+        "valor": 2535.18
+      }
+    ],
+    "nrc": [
+      {
+        "nome": "ALINE RAQUEL DO CARMO COSTA (Operador De Telemarketing)",
+        "valor": 2250.69
+      },
+      {
+        "nome": "ANA SUELLEN RODRIGUES DA SILVA (Operador De Telemarketing)",
+        "valor": 2448.16
+      },
+      {
+        "nome": "ANIELLY DAYANNE DA SILVA SIQUEIRA (Operador De Telemarketing Júnior)",
+        "valor": 2687.23
+      },
+      {
+        "nome": "ARIMAEL PINHEIRO DE OLIVEIRA (Operador De Telemarketing)",
+        "valor": 2464.62
+      },
+      {
+        "nome": "AYRTON DA SILVA LIMA (Gerente De Relacionamento)",
+        "valor": 7323.56
+      },
+      {
+        "nome": "BIANCA NATALIA VIEIRA NEVES (Operador De Telemarketing Júnior)",
+        "valor": 4256.75
+      },
+      {
+        "nome": "BRENO ALVES DE SANTANA (Operador De Telemarketing)",
+        "valor": 2627.33
+      },
+      {
+        "nome": "DAVID TAVARES GOMES DE LIMA (Operador De Telemarketing)",
+        "valor": 2524.25
+      },
+      {
+        "nome": "DAYANA DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 2624.46
+      },
+      {
+        "nome": "DAYANE SANTOS DA SILVA (Operador De Telemarketing)",
+        "valor": 3028.81
+      },
+      {
+        "nome": "ELAYNE FERREIRA DA SILVA (Backoffice Senior)",
+        "valor": 3297.72
+      },
+      {
+        "nome": "ELISANGELA REGINA DA SILVA SOARES (Operador De Telemarketing)",
+        "valor": 2756.39
+      },
+      {
+        "nome": "ELLEN DAYANE DE SANTANA SANTOS (Operador De Telemarketing)",
+        "valor": 2347.45
+      },
+      {
+        "nome": "EMANUEL CRISTOVAO DE SANTANA SANTOS (Operador De Telemarketing)",
+        "valor": 2317.71
+      },
+      {
+        "nome": "EMANUEL SOUZA DE MELO (Operador De Telemarketing)",
+        "valor": 2667.2
+      },
+      {
+        "nome": "EMANUELI MARIANY DOS SANTOS VICENTE (Operador De Telemarketing)",
+        "valor": 2837.88
+      },
+      {
+        "nome": "ESMERALDO JOSE VERCOSA (Operador De Telemarketing)",
+        "valor": 2856.02
+      },
+      {
+        "nome": "ESTEFANNY RAIANE VITALINO DOS SANTOS (Operador De Telemarketing)",
+        "valor": 2418.08
+      },
+      {
+        "nome": "GUILHERME DE LIMA ALBUQUERQUE (Operador Telemarketing)",
+        "valor": 2244.15
+      },
+      {
+        "nome": "GUILHERME HENRIQUE DA SILVA MOURA (Operador De Telemarketing)",
+        "valor": 2616.86
+      },
+      {
+        "nome": "HIGOR MATHEUS SANTOS LIMA (Operador De Telemarketing)",
+        "valor": 2391.93
+      },
+      {
+        "nome": "ISABELLY RAYSSA DOS SANTOS (Operador De Telemarketing)",
+        "valor": 2296.46
+      },
+      {
+        "nome": "ISLA DE SANTANA SILVA (Backoffice Junior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "IZABELLA ALESSANDRA GOMES ALVES DA SILSVITAUAÇÃO: (Backoffice Junior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "JOAO CLEITON SANTOS SILVA (Operador De Telemarketing)",
+        "valor": 2412.77
+      },
+      {
+        "nome": "JOSE ARTHUR DA SILVA PEREIRA (Operador Telemarketing)",
+        "valor": 2217.99
+      },
+      {
+        "nome": "JOSE GABRIEL DE OLIVEIRA SILVA (Supervisor De Relacionamento Junior)",
+        "valor": 3439.46
+      },
+      {
+        "nome": "JOSE VITOR PEREIRA DA SILVA (Operador Telemarketing)",
+        "valor": 2142.69
+      },
+      {
+        "nome": "JUAN CARLOS DA SILVA (Operador De Telemarketing Técnico)",
+        "valor": 2773.73
+      },
+      {
+        "nome": "LAYS RAYANNE DA SILVA BISPO (Operador De Telemarketing)",
+        "valor": 2286.7
+      },
+      {
+        "nome": "MARIA INGRED CARMO DO MONTE (Operador De Telemarketing)",
+        "valor": 2623.4
+      },
+      {
+        "nome": "MARTHA VITORIA DA SILVA FERREIRA (Operador De Telemarketing)",
+        "valor": 2453.39
+      },
+      {
+        "nome": "MICKAEL ANTONIO DE ARAUJO SILVA (Supervisor Crc Junior)",
+        "valor": 3439.46
+      },
+      {
+        "nome": "NICOLLAS CAUA MARIO DA SILVA (Operador De Telemarketing)",
+        "valor": 3173.96
+      },
+      {
+        "nome": "RAYANE DE JESUS SILVA (Operador De Telemarketing)",
+        "valor": 2404.4
+      },
+      {
+        "nome": "RENATA EDUARDA DOS SANTOS SILVA (Operador De Telemarketing)",
+        "valor": 2711.42
+      },
+      {
+        "nome": "RENATA SILVA DE SANTANA (Backoffice Junior)",
+        "valor": 3941.86
+      },
+      {
+        "nome": "RIKELMY LIMA SILVA (Operador De Telemarketing)",
+        "valor": 3095.14
+      },
+      {
+        "nome": "SABRINA KELLY PEDROSA DA SILVA (Operador De Telemarketing)",
+        "valor": 2250.69
+      },
+      {
+        "nome": "TANIELMA OLIVEIRA DA SILVA (Supervisor Crc Junior)",
+        "valor": 3439.46
+      },
+      {
+        "nome": "THANANNE GISELLE GOMES E SILVA LIMA (Backoffice Pleno)",
+        "valor": 2590.56
+      },
+      {
+        "nome": "THAYSA FERNANDA DE LIMA FERREIRA (Operador Telemarketing)",
+        "valor": 2300.38
+      },
+      {
+        "nome": "VITORIA GABRIELE DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 2976.25
+      },
+      {
+        "nome": "WESLLEY DANIEL DE LIMA SOUZA (Analista De Dados)",
+        "valor": 3923.33
+      }
+    ],
+    "televendas": [
+      {
+        "nome": "ALINE SANDRELLY DA SILVA FALCAO (Operador De Telemarketing)",
+        "valor": 2678.07
+      },
+      {
+        "nome": "CARLA PATRICIA DO NASCIMENTO SILVA (Operador De Telemarketing Júnior)",
+        "valor": 10166.93
+      },
+      {
+        "nome": "DANUBIA FERREIRA DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 8800.82
+      },
+      {
+        "nome": "DAYANE ADRIELLY DA SILVA NASCIMENTO (Operador De Telemarketing)",
+        "valor": 7755.12
+      },
+      {
+        "nome": "LUCAS ANDRE DE SANTANA SILVA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "MAELSON WESLEY DE SANTANA SILVA (Operador De Telemarketing)",
+        "valor": 11155.08
+      },
+      {
+        "nome": "MAIARA DA SILVA BATISTA (Operador De Telemarketing)",
+        "valor": 12808.64
+      },
+      {
+        "nome": "TARSIS HANIEL LIMA DA SILVA (Operador De Telemarketing Júnior)",
+        "valor": 10357.86
+      },
+      {
+        "nome": "THARCILA DAIANA FERREIRA DE OLIVEIRA (Operador De Telemarketing Júnior)",
+        "valor": 10423.25
+      },
+      {
+        "nome": "THAYZE EMANOELLE ROSENDO DA SILVA (Operador De Telemarketing)",
+        "valor": 10340.6
+      }
+    ],
+    "suporte_orbix": [
+      {
+        "nome": "ARTHUR JEFFERSON DE MELO SANTANA (Operador Suporte Orbix Junior)",
+        "valor": 3010.79
+      },
+      {
+        "nome": "EVERSON BRUNO LORENA DA SILVA (Operador Suporte Orbix Pleno)",
+        "valor": 3230.46
+      },
+      {
+        "nome": "JOAO VITOR GOMES DE MOURA (Operador Suporte Orbix Pleno)",
+        "valor": 2830.36
+      },
+      {
+        "nome": "JOSE EDUARDO DO NASCIMENTO SANTOS (Operador Suporte Orbix Pleno)",
+        "valor": 2590.56
+      },
+      {
+        "nome": "PAULO HENRIQUE SILVA DOS ANJOS (Operador De Telemarketing Pleno)",
+        "valor": 2667.68
+      },
+      {
+        "nome": "TACIARA EDLA TEIXEIRA ALVES (Operador Suporte Orbix Pleno)",
+        "valor": 2841.91
+      },
+      {
+        "nome": "THAYSLA SILVA DO CARMO (Operador De Telemarketing Técnico)",
+        "valor": 2208.24
+      },
+      {
+        "nome": "VYCTOR EMANUEL DA SILVA BATISTA (Operador De Telemarketing Júnior)",
+        "valor": 2313.49
+      }
+    ],
+    "cobranca": [
+      {
+        "nome": "DIDIER PANIS LOPES BRANCO (Backoffice Junior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "FABIANA BESERRA DE BRITO GALVAO (Backoffice Junior)",
+        "valor": 2461.09
+      },
+      {
+        "nome": "GERLANIA MARIA NILO DA SILVA LINS (Operador De Telemarketing)",
+        "valor": 5304.2
+      },
+      {
+        "nome": "JULIANA DA SILVA PEREIRA (Supervisor Crc Junior)",
+        "valor": 3439.46
+      },
+      {
+        "nome": "KLARA EMELINY CAVALCANTI DE MEDEIROS (Backoffice Junior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "LUCAS GABRIEL TAVARES GOMES",
+        "valor": 1095.54
+      },
+      {
+        "nome": "MARIANNY VITÓRIA SILVA DE OLIVEIRA",
+        "valor": 1095.54
+      },
+      {
+        "nome": "RAFAEL DE LIMA ARAUJO (Backoffice Pleno)",
+        "valor": 2590.56
+      },
+      {
+        "nome": "RUTE MIRELLE DA SILVA LIRA (Operador De Telemarketing)",
+        "valor": 2369.5
+      },
+      {
+        "nome": "THAIS DOS SANTOS TENORIO (Operador De Telemarketing Júnior)",
+        "valor": 2284.44
+      },
+      {
+        "nome": "THAMIRES PONTES DE SANTANA (Operador De Teleatendimento)",
+        "valor": 2119.91
+      },
+      {
+        "nome": "THAYLANE SILVA DO CARMO (Operador De Telemarketing)",
+        "valor": 2460.58
+      },
+      {
+        "nome": "WANDIJA ALESANDRA DA SILVA SANTOS (Backoffice Junior)",
+        "valor": 2372.77
+      }
+    ]
+  },
+  "exames_medicos": {
+    "compras": {
+      "Maio/2026": [
+        {
+          "nome": "JOSE VITOR DO NASCIMENTO OLIVEIRA",
+          "valor": 38.0
+        }
+      ]
+    },
+    "estoque": {
+      "Maio/2026": [
+        {
+          "nome": "WILLAMS BAGGIO DA SILVA",
+          "valor": 46.0
+        },
+        {
+          "nome": "RUAN JOSE DA SILVA",
+          "valor": 65.0
+        },
+        {
+          "nome": "FLAVIANO FRANCISCO DA SILVA",
+          "valor": 65.0
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "WELLINGTON JOAQUIM DA SILVA",
+          "valor": 50.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "GLEISON GLEIDSON DA SILVA",
+          "valor": 65.0
+        },
+        {
+          "nome": "EMERSON DE OLIVEIRA SANTOS",
+          "valor": 35.0
+        }
+      ]
+    },
+    "oficina": {
+      "Maio/2026": [
+        {
+          "nome": "EDNALDO DE NABOIA ACIOLI JUNIOR",
+          "valor": 184.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "EDNALDO DE NABOIA ACIOLI JUNIOR",
+          "valor": 184.0
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Junho/2026": [
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 70.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "ISABELLE DIAS ABRAAO DE SOUZA",
+          "valor": 35.0
+        }
+      ]
+    },
+    "marketing": {
+      "Julho/2026": [
+        {
+          "nome": "EDMILSON JERONIMO DE OLIVEIRA FILHO",
+          "valor": 65.0
+        }
+      ]
+    },
+    "manutencao_predial": {
+      "Julho/2026": [
+        {
+          "nome": "ALUISIO MENDES DA SILVA JUNIOR",
+          "valor": 245.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA",
+          "valor": 245.0
+        },
+        {
+          "nome": "TIAGO ROBERTO DA SILVA SOARES",
+          "valor": 245.0
+        }
+      ]
+    },
+    "contabilidade": {
+      "Julho/2026": [
+        {
+          "nome": "INGRED FRANCIELLY GOMES DA SILVA",
+          "valor": 65.0
+        }
+      ]
+    },
+    "qualidade": {
+      "Julho/2026": [
+        {
+          "nome": "JANELITON JOSE DE LIMA JUNIOR",
+          "valor": 35.0
+        }
+      ]
+    }
+  },
+  "combustivel": {
+    "logistica": {
+      "Junho/2026": [
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 7895.49
+        },
+        {
+          "nome": "JOSE ALVES DE OLIVEIRA NETO",
+          "valor": 10287.47
+        },
+        {
+          "nome": "ARMANDO JOSE BARBOSA",
+          "valor": 3631.19
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 13533.33
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 1365.07
+        },
+        {
+          "nome": "DEMETRIUS RIBEIRO DE AQUINO",
+          "valor": 1091.34
+        },
+        {
+          "nome": "ALLAN DOS SANTOS SILVA",
+          "valor": 201.54
+        },
+        {
+          "nome": "EDNALDO DE NOBAIA ACIOLI JUNIOR",
+          "valor": 3139.34
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 6799.94
+        },
+        {
+          "nome": "JOSE ALVES DE OLIVEIRA NETO",
+          "valor": 11910.37
+        },
+        {
+          "nome": "ARMANDO JOSÉ BARBOSA",
+          "valor": 5992.73
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 22250.71
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 1716.98
+        },
+        {
+          "nome": "DEMETRIUS RIBEIRO DE AQUINO",
+          "valor": 1469.56
+        },
+        {
+          "nome": "ALLAN DOS SANTOS SILVA",
+          "valor": 159.48
+        },
+        {
+          "nome": "EDNALDO DE NOBAIA ACIOLI JUNIOR",
+          "valor": 3198.56
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 7104.22
+        },
+        {
+          "nome": "JOSE ALVES DE OLIVEIRA NETO",
+          "valor": 8904.08
+        },
+        {
+          "nome": "ARMANDO JOSE BARBOSA",
+          "valor": 4067.59
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 11051.51
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 1803.2
+        },
+        {
+          "nome": "DEMETRIUS RIBEIRO DE AQUINO",
+          "valor": 1499.86
+        },
+        {
+          "nome": "ALLAN DOS SANTOS SILVA",
+          "valor": 71.24
+        },
+        {
+          "nome": "EDNALDO DE NOBAIA ACIOLI JUNIOR",
+          "valor": 3130.91
+        }
+      ]
+    },
+    "manutencao_predial": {
+      "Junho/2026": [
+        {
+          "nome": "JOSE ADELSON DOS SANTOS",
+          "valor": 2039.35
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA",
+          "valor": 1890.24
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS",
+          "valor": 1073.63
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS",
+          "valor": 1455.12
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA",
+          "valor": 3152.92
+        },
+        {
+          "nome": "CLAUDIO DE MELO AMORIM",
+          "valor": 2255.35
+        },
+        {
+          "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
+          "valor": 130.25
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "JOSE ADELSON DOS SANTOS",
+          "valor": 3066.25
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA",
+          "valor": 2439.28
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS",
+          "valor": 1915.54
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA",
+          "valor": 4079.52
+        },
+        {
+          "nome": "CLAUDIO DE MELO AMORIM",
+          "valor": 2810.67
+        },
+        {
+          "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
+          "valor": 55.33
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "JOSE ADELSON DOS SANTOS",
+          "valor": 2885.41
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA",
+          "valor": 836.26
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS",
+          "valor": 294.15
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA",
+          "valor": 2489.92
+        },
+        {
+          "nome": "CLAUDIO DE MELO AMORIM",
+          "valor": 2371.99
+        },
+        {
+          "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
+          "valor": 0.0
+        }
+      ]
+    },
+    "obras": {
+      "Junho/2026": [
+        {
+          "nome": "DAYVID PEDRO PEREIRA DOS REIS",
+          "valor": 3166.06
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA",
+          "valor": 1405.65
+        },
+        {
+          "nome": "ROMERO JOSE DOS SANTOS SILVA",
+          "valor": 1035.6
+        },
+        {
+          "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 4425.44
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA",
+          "valor": 416.1
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "DAYVID PEDRO PEREIRA DOS REIS",
+          "valor": 4556.68
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA",
+          "valor": 3008.26
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS",
+          "valor": 312.7
+        },
+        {
+          "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 6097.51
+        },
+        {
+          "nome": "MARCONDES JOSÉ DA SILVA",
+          "valor": 304.05
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "DAYVID PEDRO PEREIRA DOS REIS",
+          "valor": 3436.6
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA",
+          "valor": 2542.15
+        },
+        {
+          "nome": "ROMERO JOSE DOS SANTOS SILVA",
+          "valor": 872.4
+        },
+        {
+          "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 3947.09
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA",
+          "valor": 205.5
+        }
+      ]
+    },
+    "marketing": {
+      "Junho/2026": [
+        {
+          "nome": "VINICIUS FREIRE VERCOSA DA SILVA",
+          "valor": 1306.39
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "VINICIUS FREIRE VERCOSA DA SILVA",
+          "valor": 2716.71
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "VINICIUS FREIRE VERCOSA DA SILVA",
+          "valor": 1223.23
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Junho/2026": [
+        {
+          "nome": "JEFFERSON DOS SANTOS SILVA",
+          "valor": 826.0
+        },
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 959.39
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
+          "valor": 549.33
+        },
+        {
+          "nome": "RODRIGO ANTONIO DE OLIVEIRA",
+          "valor": 1253.5
+        },
+        {
+          "nome": "ERINALDO LOPES DA COSTA",
+          "valor": 562.8
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "JEFFERSON DOS SANTOS SILVA",
+          "valor": 966.39
+        },
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 1232.0
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
+          "valor": 1168.87
+        },
+        {
+          "nome": "RODRIGO ANTONIO DE  OLIVEIRA",
+          "valor": 1224.06
+        },
+        {
+          "nome": "ERINALDO LOPES DA COSTA",
+          "valor": 1086.4
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "JEFFERSON DOS SANTOS SILVA",
+          "valor": 570.8
+        },
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 2169.16
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
+          "valor": 626.5
+        },
+        {
+          "nome": "RODRIGO ANTONIO DE OLIVEIRA",
+          "valor": 843.25
+        },
+        {
+          "nome": "ERINALDO LOPES DA COSTA",
+          "valor": 827.2
+        }
+      ]
+    },
+    "engenharia": {
+      "Junho/2026": [
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 97.72
+        },
+        {
+          "nome": "ANDERSON LUIZ PEIXOTO DA SILVEIRA JUNIOR",
+          "valor": 806.07
+        },
+        {
+          "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
+          "valor": 3611.18
+        },
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 1220.98
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 241.47
+        },
+        {
+          "nome": "ANDERSON LUIZ PEIXOTO DA SILVEIRA JUNIOR",
+          "valor": 524.73
+        },
+        {
+          "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
+          "valor": 5933.74
+        },
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 1724.53
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 102.75
+        },
+        {
+          "nome": "ANDERSON LUIZ PEIXOTO DA SILVEIRA JUNIOR",
+          "valor": 973.96
+        },
+        {
+          "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
+          "valor": 3889.88
+        },
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 1540.06
+        }
+      ]
+    },
+    "noc": {
+      "Junho/2026": [
+        {
+          "nome": "RAFAEL MARINHO MACEDO",
+          "valor": 1905.53
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "RAFAEL MARINHO MACEDO",
+          "valor": 2859.16
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "RAFAEL MARINHO MACEDO",
+          "valor": 1999.61
+        }
+      ]
+    },
+    "juridico": {
+      "Junho/2026": [
+        {
+          "nome": "JOELMYR FABIO LINS DA SILVA",
+          "valor": 1362.25
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "JOELMYR FABIO LINS DA SILVA",
+          "valor": 1878.14
+        }
+      ]
+    },
+    "controladoria": {
+      "Julho/2026": [
+        {
+          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
+          "valor": 1341.03
+        },
+        {
+          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
+          "valor": 496.21
+        }
+      ]
+    },
+    "compras": {
+      "Julho/2026": [
+        {
+          "nome": "BRUNO DOUGLAS ALVES DA SILVA",
+          "valor": 811.2
+        }
+      ]
+    },
+    "oficina": {
+      "Julho/2026": [
+        {
+          "nome": "OFICINA",
+          "valor": 55.05
+        }
+      ]
+    },
+    "lancamento": {
+      "Junho/2026": [
+        {
+          "nome": "DANIEL ANTONIO DA SILVA",
+          "valor": 3060.45
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS",
+          "valor": 2281.2
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS",
+          "valor": 7365.81
+        },
+        {
+          "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
+          "valor": 250.32
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "DANIEL ANTONIO DA SILVA",
+          "valor": 5104.42
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS",
+          "valor": 8207.67
+        },
+        {
+          "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
+          "valor": 385.28
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "DANIEL ANTONIO DA SILVA",
+          "valor": 3211.46
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS",
+          "valor": 4259.23
+        },
+        {
+          "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
+          "valor": 69.67
+        },
+        {
+          "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
+          "valor": 231.22
+        }
+      ]
+    },
+    "fusao": {
+      "Junho/2026": [
+        {
+          "nome": "VALDIR JOSE FELICIANO",
+          "valor": 1495.28
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA",
+          "valor": 2869.56
+        },
+        {
+          "nome": "JOSE ROGERIO SOUZA",
+          "valor": 2407.58
+        },
+        {
+          "nome": "JOSE ROBERTO DE SANTANA SILVA",
+          "valor": 853.93
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA",
+          "valor": 1130.49
+        },
+        {
+          "nome": "JOSADARK JOSE DO NASCIMENTO",
+          "valor": 1948.83
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "VALDIR JOSE FELICIANO",
+          "valor": 2066.55
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA",
+          "valor": 2258.14
+        },
+        {
+          "nome": "JOSÉ ROGERIO SOUZA",
+          "valor": 4153.05
+        },
+        {
+          "nome": "JOSE ROBERTO DE SANTANA SILVA",
+          "valor": 2851.66
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA",
+          "valor": 3099.21
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "VALDIR JOSE FELICIANO",
+          "valor": 2760.26
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA",
+          "valor": 2660.62
+        },
+        {
+          "nome": "JOSE ROGERIO SOUZA",
+          "valor": 2842.1
+        },
+        {
+          "nome": "JOSE ROBERTO DE SANTANA SILVA",
+          "valor": 2218.8
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA",
+          "valor": 2383.27
+        },
+        {
+          "nome": "JOSADARK JOSE DO NASCIMENTO",
+          "valor": 694.04
+        }
+      ]
+    }
+  },
+  "epi": {
+    "manutencao_predial": {
+      "Maio/2026": [
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA (Calça Dtel 44)",
+          "valor": 120.0
+        },
+        {
+          "nome": "MABSON ROBSON DA SILVA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ELIEL FRANCISCO DE LIMA (Calça Dtel 42)",
+          "valor": 120.0
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA (Bota Tecnico Preta/ Isolante - 43)",
+          "valor": 105.0
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA (Calça Dtel - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA (Oculos Msa Bluebird Incolor)",
+          "valor": 16.0
+        },
+        {
+          "nome": "MABSON ROBSON DA SILVA (Alicate De Corte 6')",
+          "valor": 30.0
+        },
+        {
+          "nome": "MABSON ROBSON DA SILVA (Chave Estrela)",
+          "valor": 16.99
+        },
+        {
+          "nome": "MABSON ROBSON DA SILVA (Chave De Fenda)",
+          "valor": 18.32
+        },
+        {
+          "nome": "JOSE ADELSON DOS SANTOS (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 18.0
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA (Capacete Verde M.S.A)",
+          "valor": 57.53
+        },
+        {
+          "nome": "FRANCISCO SERGIO DE BARROS (Luva - Nitrica Super Safety N-8)",
+          "valor": 3.0
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS (Estilete)",
+          "valor": 9.0
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS (Chave Estrela)",
+          "valor": 16.99
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS (Martelo Unha)",
+          "valor": 33.62
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS (Chave De Fenda)",
+          "valor": 18.32
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "FRANCISCO DE ASSIS JUNIOR (Calça Dtel 48)",
+          "valor": 250.0
+        },
+        {
+          "nome": "FRANCISCO DE ASSIS JUNIOR (Bota Tecnico Preta/ Isolante - 38)",
+          "valor": 240.0
+        },
+        {
+          "nome": "FRANCISCO DE ASSIS JUNIOR (Luva - Vaqueta Cano Curto)",
+          "valor": 16.0
+        },
+        {
+          "nome": "FRANCISCO DE ASSIS JUNIOR (Capacete Verde M.S.A)",
+          "valor": 34.0
+        },
+        {
+          "nome": "FRANCISCO DE ASSIS JUNIOR (Detector De Tensao)",
+          "valor": 57.53
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "ARTHUR DA SILVA FARIAS (Calça Dtel 44)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ANDERSSON DE MELO MACENA (Alicate Amperimetro)",
+          "valor": 130.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Bota Tecnico Preta/ Isolante - 38)",
+          "valor": 105.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Capacete Verde M.S.A)",
+          "valor": 57.53
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Calça Dtel 38)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Luva - Nitrica Super Safety N-8)",
+          "valor": 9.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Oculos Msa Bluebird Incolor)",
+          "valor": 16.0
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA (Mochila De Epi)",
+          "valor": 85.0
+        }
+      ]
+    },
+    "obras": {
+      "Maio/2026": [
+        {
+          "nome": "CLEITON LIMA DA SILVA (Bota De Obra 41)",
+          "valor": 55.0
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Capacete Verde M.S.A)",
+          "valor": 57.53
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Respirador Descartavel Pff3 (3M))",
+          "valor": 12.0
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Camisa Obra - G)",
+          "valor": 59.9
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Calça Obra - M)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Protetor Auricular)",
+          "valor": 5.56
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Respirador Descartavel Pff3 (3M))",
+          "valor": 12.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Luva - Nitrica Super Safety N-8)",
+          "valor": 3.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Respirador Descartavel Pff3 (3M))",
+          "valor": 12.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Calça Dtel 38)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ERIVAN MANOEL DE MOURA SANTANA (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Respirador Descartavel Pff3 (3M))",
+          "valor": 12.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Calça Dtel 46)",
+          "valor": 120.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA (Respirador Descartavel Pff3 (3M))",
+          "valor": 12.0
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA (Bota De Obra 42)",
+          "valor": 55.0
+        },
+        {
+          "nome": "ISAEL DE JESUS ALVES (Talabarte Em Y Mosq 55 Mm Elastico C/ Abs C/ Mosq 17 Mm Athe)",
+          "valor": 169.1
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA (Talabarte Em Y Mosq 55 Mm Elastico C/ Abs C/ Mosq 17 Mm Athe)",
+          "valor": 169.1
+        },
+        {
+          "nome": "GABRIEL DE SOUZA SILVA (Bota De Obra 44)",
+          "valor": 55.0
+        },
+        {
+          "nome": "JULIO MANOEL DOS SANTOS (Talabarte Em Y Mosq 55 Mm Elastico C/ Abs C/ Mosq 17 Mm Athe)",
+          "valor": 169.1
+        },
+        {
+          "nome": "JOSE JACKSON DOS SANTOS (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "RUY HONORATO DE SANTANA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "CLEITON LIMA DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "ANTONIO RICARDO DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "ISAEL DE JESUS ALVES (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "JOSUE GONÇALVES DE OLIVEIRA (Bota Tecnico Preta/ Isolante - 41)",
+          "valor": 105.0
+        },
+        {
+          "nome": "JOAO RICARDO DA SILVA (Bota De Obra 41)",
+          "valor": 55.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "CICERO GOMES DOS SANTOS (Calça Obra - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Calça Dtel 54)",
+          "valor": 120.0
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Calça Dtel Gg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "KAUA DEYVID DO NASCIMENTO SANTOS (Calça Obra - M)",
+          "valor": 240.0
+        }
+      ]
+    },
+    "logistica": {
+      "Maio/2026": [
+        {
+          "nome": "NEILSON ALEXANDRE DA SILVA (Balaclava Antechama)",
+          "valor": 28.0
+        },
+        {
+          "nome": "HIAGO VICTOR DA SILVA OLIVEIRA (Balaclava Antechama)",
+          "valor": 28.0
+        }
+      ]
+    },
+    "lancamento": {
+      "Maio/2026": [
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Luva - Nitrica Super Safety N-8)",
+          "valor": 36.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Luva - Nitrica Super Safety N-8)",
+          "valor": 36.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Bota Tecnico Preta/ Isolante - 42)",
+          "valor": 105.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Luva - Nitrica Super Safety N-8)",
+          "valor": 36.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Mochila De Epi)",
+          "valor": 85.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Calça Dtel 42)",
+          "valor": 240.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Suporte De Escada P/ Apoio Poste)",
+          "valor": 20.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Garrafa Termica 5 L)",
+          "valor": 108.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Rost Off Wurth Desengripante)",
+          "valor": 15.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Inseticida)",
+          "valor": 18.99
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "RICARDO EUZEBIO DA SILVA (Calça Dtel - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Suporte De Escada P/ Apoio Poste)",
+          "valor": 20.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "GUSTAVO DE JESUS ALVES FIDELI (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Calça Dtel Gg)",
+          "valor": 240.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Perneira Pvc Com Protecao Ca36902)",
+          "valor": 34.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Furadeira Universal)",
+          "valor": 219.9
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Bota Tecnico Preta/ Isolante - 43)",
+          "valor": 105.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 18.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Cinta De Amarracao Com Catraca - Completa)",
+          "valor": 28.9
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Perneira De Couro Raspado (Soldador))",
+          "valor": 74.82
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Perneira De Couro Raspado (Soldador))",
+          "valor": 74.82
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Suporte De Escada P/ Apoio Poste)",
+          "valor": 20.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Luva - Nitrica Super Safety N-10)",
+          "valor": 30.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Inseticida)",
+          "valor": 227.88
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Luva - Vaqueta Cano Curto)",
+          "valor": 34.0
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "RENATO DAMASCENO DA SILVA (Calça Dtel 40)",
+          "valor": 240.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Calça Dtel Gg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Luva - Nitrica Super Safety N-10)",
+          "valor": 30.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Rost Off Wurth Desengripante)",
+          "valor": 15.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Inseticida)",
+          "valor": 94.95
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Luva - Nitrica Super Safety N-8)",
+          "valor": 30.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Rost Off Wurth Desengripante)",
+          "valor": 30.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Garrafa Termica 5 L)",
+          "valor": 54.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Inseticida)",
+          "valor": 37.98
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Inseticida)",
+          "valor": 37.98
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Rost Off Wurth Desengripante)",
+          "valor": 30.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Bota Tecnico Preta/ Isolante - 41)",
+          "valor": 105.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Gandola Dtel - G)",
+          "valor": 250.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Calça Dtel 48)",
+          "valor": 240.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Bota Tecnico Preta/ Isolante - 44)",
+          "valor": 105.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Oculos Msa Bluebird Incolor)",
+          "valor": 16.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Luva - Vaqueta Cano Curto)",
+          "valor": 34.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Capacete Verde M.S.A)",
+          "valor": 57.53
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Detector De Tensao)",
+          "valor": 53.0
+        },
+        {
+          "nome": "RODOLFO LIMA DE MIRANDA (Mochila De Epi)",
+          "valor": 85.0
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "LAERCIO JOAQUIM DOS SANTOS SANTANA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Gandola Dtel - Gg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "RICARDO EUZEBIO DA SILVA (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "MESSIAS LOPES DE OLIVEIRA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Gandola Dtel - Gg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Gandola Dtel - Xg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "RENATO DAMASCENO DA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "EDVALDO DA SILVA COSTA (Gandola Dtel - Gg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Luva - Nitrica Super Safety N-8)",
+          "valor": 36.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (White Lub)",
+          "valor": 12.9
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Inseticida)",
+          "valor": 37.98
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Suporte De Escada P/ Apoio Poste)",
+          "valor": 20.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Detector De Tensao)",
+          "valor": 53.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Suporte De Escada P/ Apoio Poste)",
+          "valor": 80.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Luva - Nitrica Super Safety N-8)",
+          "valor": 36.0
+        },
+        {
+          "nome": "RENATO DAMASCENO DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "RENATO DAMASCENO DA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "RENATO DAMASCENO DA SILVA (Bota Tecnico Preta/ Isolante - 42)",
+          "valor": 105.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Chave Bap)",
+          "valor": 40.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Calça Dtel 42)",
+          "valor": 120.0
+        },
+        {
+          "nome": "MESSIAS LOPES DE OLIVEIRA (Calça Dtel 38)",
+          "valor": 120.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "ALISSON BELO ALVES (Bota Tecnico Preta/ Isolante - 40)",
+          "valor": 105.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Luva Nivel 5 40-2005R ( G ))",
+          "valor": 101.15
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Inseticida)",
+          "valor": 37.98
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Suporte De Escada P/ Apoio Poste)",
+          "valor": 40.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 18.0
+        },
+        {
+          "nome": "ALISSON BELO ALVES (Luva - Nitrica Super Safety N-10)",
+          "valor": 15.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Chave Bap)",
+          "valor": 40.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Protetor Solar Fps 30)",
+          "valor": 19.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Balaclava Uva Preta)",
+          "valor": 30.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "ANDERSON FARIAS DA SILVA (Calça Dtel - P)",
+          "valor": 120.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Calça Dtel 42)",
+          "valor": 240.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "CARLOS FERNANDO DE LIMA (Calça Dtel 40)",
+          "valor": 240.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Suporte De Escada P/ Apoio Poste)",
+          "valor": 80.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Luva - Nitrica Super Safety N-10)",
+          "valor": 36.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Inseticida)",
+          "valor": 37.98
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Luva - Nitrica Super Safety N-10)",
+          "valor": 3.0
+        },
+        {
+          "nome": "DANIEL ANTONIO DA SILVA (Calça Dtel Gg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Calça Dtel 38)",
+          "valor": 120.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Calça Dtel 36)",
+          "valor": 120.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "GUILHERME FERREIRA SANTOS (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GUSTAVO DE JESUS ALVES FIDELI (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "GUSTAVO DE JESUS ALVES FIDELI (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "GUSTAVO DE JESUS ALVES FIDELI (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Calça Dtel 38)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Bota Tecnico Preta/ Isolante - 40)",
+          "valor": 105.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "JORGE RODRIGO DA SILVA FRANCA (Calça Obsoleto ( Varios ))",
+          "valor": 15.0
+        },
+        {
+          "nome": "JOSE ADELSON DOS SANTOS (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JOSE ADELSON DOS SANTOS (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Calça Dtel 36)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 18.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Calça Dtel 36)",
+          "valor": 120.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Calça Dtel - P)",
+          "valor": 240.0
+        },
+        {
+          "nome": "JOSE CARLOS DE LIRA CARNEIRO (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 18.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Escada Tesoura Aluminio 7 Degraus)",
+          "valor": 250.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Chave Bap)",
+          "valor": 40.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "JOSE EDVALDO DE LICERA JUNIOR (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "MARINALDO ANTONIO DE SANTANA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Joelheira De Protecao Motocicleta)",
+          "valor": 90.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "NILTON JOSE DA SILVA (Oculos Msa Bluebird Cinza)",
+          "valor": 16.0
+        },
+        {
+          "nome": "RICARDO EUZEBIO DA SILVA (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Calça Dtel 42)",
+          "valor": 120.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Gandola Dtel - Gg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Corda 10Mmx14 / 07 Mts / Verde)",
+          "valor": 36.0
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS (Calça Dtel Gg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Alicate De Corte 6')",
+          "valor": 30.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Alicate Universal 8')",
+          "valor": 28.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Chave Estrela)",
+          "valor": 16.99
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Estilete)",
+          "valor": 9.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Gandola Dtel - Exg)",
+          "valor": 125.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Calça Dtel- Xg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Calça Dtel- Exg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "VAGNER JOSE DA SILVA MELO (Calça Dtel Gg)",
+          "valor": 120.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Tesoura De Chapa 10 ' Vonder)",
+          "valor": 37.0
+        },
+        {
+          "nome": "WEVERTON DE SANTANA SILVA (Balde De Lona)",
+          "valor": 50.0
+        }
+      ]
+    },
+    "fusao": {
+      "Maio/2026": [
+        {
+          "nome": "JOSE ROGERIO DE SOUZA (Calça Dtel - G)",
+          "valor": 240.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Lamina De Estilete)",
+          "valor": 2.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Pilha Aaa)",
+          "valor": 27.68
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Banco Plastico - 5 Pes)",
+          "valor": 49.8
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Guarda Sol Dtel 2.40 M)",
+          "valor": 610.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Luva - Nitrica Super Safety N-8)",
+          "valor": 6.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Capacete Verde M.S.A)",
+          "valor": 57.53
+        },
+        {
+          "nome": "JOSE ANDERSON DA SILVA (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Rost Off Wurth Desengripante)",
+          "valor": 15.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Inseticida)",
+          "valor": 18.99
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "GILBERTO EUGENIO DOS SANTOS (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "LUCIANO MANOEL DO NASCIMENTO (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ROBERTO DE SANTANA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ANDERSON DA SILVA (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ROGERIO DE SOUZA (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA (Gandola Dtel - P)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA (Cilindro De Gas Propano Map)",
+          "valor": 34.2
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA (Macarico Manual Pra Gas)",
+          "valor": 246.0
+        },
+        {
+          "nome": "JOSE ROGERIO DE SOUZA (Guarda Sol Dtel 2.40 M)",
+          "valor": 610.0
+        },
+        {
+          "nome": "JOSE ROGERIO DE SOUZA (Garrafa Termica 5 L)",
+          "valor": 54.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Cinto Pqd)",
+          "valor": 292.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Carneira - M.S.A C/Jungular)",
+          "valor": 29.1
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Inseticida)",
+          "valor": 18.99
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Sapata De Escada)",
+          "valor": 25.0
+        },
+        {
+          "nome": "CLECIO ISRAEL DA SILVA (Suporte De Escada P/ Apoio Poste)",
+          "valor": 20.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Cilindro De Gas Propano Map)",
+          "valor": 34.2
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Gandola Dtel - M)",
+          "valor": 125.0
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA (Balde De Lona)",
+          "valor": 50.0
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Lamina De Estilete)",
+          "valor": 2.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Pilha Aaa)",
+          "valor": 27.68
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Calça Dtel 40)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Calça Dtel 42)",
+          "valor": 120.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Garrafa Termica 5 L)",
+          "valor": 54.0
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA (Calça Dtel 46)",
+          "valor": 120.0
+        },
+        {
+          "nome": "GILBERTO EUGENIO DOS SANTOS (Gandola Dtel - G)",
+          "valor": 375.0
+        },
+        {
+          "nome": "GILBERTO EUGENIO DOS SANTOS (Calça Dtel - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "GILBERTO EUGENIO DOS SANTOS (Calça Dtel - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "LUCIANO MANOEL DO NASCIMENTO (Balde De Lona)",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUCIANO MANOEL DO NASCIMENTO (Calça Dtel 36)",
+          "valor": 120.0
+        },
+        {
+          "nome": "MARCELO JOSE DA SILVA (Cinta De Amarracao Com Catraca - Completa)",
+          "valor": 28.9
+        },
+        {
+          "nome": "MARCELO JOSE DA SILVA (Gandola Dtel - G)",
+          "valor": 125.0
+        },
+        {
+          "nome": "MARCELO JOSE DA SILVA (Calça Dtel - G)",
+          "valor": 120.0
+        },
+        {
+          "nome": "MARCELO JOSE DA SILVA (Bota Tecnico Preta/ Isolante - 44)",
+          "valor": 105.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Guarda Sol Dtel 2.40 M)",
+          "valor": 610.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Cilindro De Gas Propano Map)",
+          "valor": 34.2
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Calça Dtel 40)",
+          "valor": 240.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Talabarte Posicionamento Corda)",
+          "valor": 185.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Mochila De Ferramentas)",
+          "valor": 183.0
+        },
+        {
+          "nome": "VALDIR JOSE FELICIANO (Calça Dtel 40)",
+          "valor": 120.0
+        }
+      ]
+    }
+  }
+}
