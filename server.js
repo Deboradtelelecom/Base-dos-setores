@@ -6,7 +6,7 @@
 // do mesmo jeito — a diferença é só de onde vem a pasta:
 //
 // - No seu computador: você sobrescreve o arquivo dentro de "dados-mensais"
-//   e o site local atualiza sozinho (cache de 5 minutos).
+//   e o site local atualiza sozinho (cache de 3 minutos).
 // - No ar (Render): o "vigiar_e_publicar.js" (ou o "ATUALIZAR E PUBLICAR.bat"
 //   manualmente) manda a planilha atualizada pro GitHub. O Render detecta o
 //   push e publica a versão nova em ~2 minutos. Não depende do seu
@@ -21,7 +21,7 @@ const app = express();
 app.use(cors());
 
 const PASTA_DADOS = path.join(__dirname, 'dados-mensais');
-const CACHE_MS = parseInt(process.env.CACHE_MS || '', 10) || 5 * 60 * 1000;
+const CACHE_MS = parseInt(process.env.CACHE_MS || '', 10) || 3 * 60 * 1000;
 
 // ── Senha simples de acesso (opcional) ──────────────────────────────────────
 // Se SITE_PASSWORD estiver definida (ex: no Railway), pede usuário/senha via
