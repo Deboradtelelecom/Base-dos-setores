@@ -23,6 +23,12 @@
   a.card .icon { font-size:20px; }
   a.card .nome { font-size:13px; font-weight:700; }
   .erro { color:#f87171; font-size:12.5px; }
+  .busca-wrap { position:relative; margin-bottom:18px; }
+  .busca-wrap .lupa { position:absolute; left:14px; top:50%; transform:translateY(-50%); font-size:14px; color:var(--slate-500); pointer-events:none; }
+  #busca { width:100%; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:11px 14px 11px 38px; font-size:13.5px; color:var(--slate-800); outline:none; transition:border-color .15s; }
+  #busca:focus { border-color:var(--blue-accent); }
+  #busca::placeholder { color:var(--slate-400); }
+  .sem-resultado { color:var(--slate-500); font-size:12.5px; padding:6px 2px; }
 </style>
 </head>
 <body>
@@ -30,22 +36,53 @@
   <h1>Plataforma de Rateio de Custos</h1>
   <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos (dados ao vivo, direto da planilha).</p>
   <div class="status" id="status">Carregando lista de setores…</div>
+  <div class="busca-wrap">
+    <span class="lupa">🔎</span>
+    <input type="text" id="busca" placeholder="Buscar setor…" autocomplete="off">
+  </div>
   <div class="grid" id="grid"></div>
 </main>
 <script>
 // Endereço do servidor local — usado sempre, mesmo se este arquivo for
 // aberto direto da pasta (duplo-clique), não só quando servido pela rota /.
 const API_BASE = '';
+let TODOS_ITENS = [];
+
+// Remove acentos e caixa para permitir buscar "atendimento" e achar
+// "Atendimento" mesmo digitando sem acento/maiúscula.
+function normalizar(txt) {
+  return (txt || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+}
+
+function renderGrid(itens) {
+  const grid = document.getElementById('grid');
+  grid.innerHTML = '';
+  if (itens.length === 0) {
+    grid.innerHTML = '<div class="sem-resultado">Nenhum setor encontrado.</div>';
+    return;
+  }
+  itens.forEach((s) => {
+    const a = document.createElement('a');
+    a.className = 'card';
+    a.href = s.href;
+    a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
+    grid.appendChild(a);
+  });
+}
+
+function filtrar(termo) {
+  const t = normalizar(termo.trim());
+  if (!t) return renderGrid(TODOS_ITENS);
+  renderGrid(TODOS_ITENS.filter((s) => normalizar(s.nome).includes(t)));
+}
 
 async function carregar() {
   const statusEl = document.getElementById('status');
-  const grid = document.getElementById('grid');
   try {
     const resp = await fetch(API_BASE + '/api/setores');
     const data = await resp.json();
     if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar setores.');
     statusEl.textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
-    grid.innerHTML = '';
 
     // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
     // (são visões diferentes: uma agregada, outra por equipe de vendas em vez
@@ -54,21 +91,19 @@ async function carregar() {
     const itens = data.setores.map((s) => ({
       nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
     }));
+    itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento' });
     itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo' });
     itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
-    itens.forEach((s) => {
-      const a = document.createElement('a');
-      a.className = 'card';
-      a.href = s.href;
-      a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
-      grid.appendChild(a);
-    });
+    TODOS_ITENS = itens;
+    filtrar(document.getElementById('busca').value);
   } catch (e) {
     statusEl.innerHTML = '<span class="erro">Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')</span>';
   }
 }
+
+document.getElementById('busca').addEventListener('input', (e) => filtrar(e.target.value));
 carregar();
 </script>
 </body>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Central de Relacionamento — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e; --good-bg: rgba(34,197,94,0.12); --good-text: #4ade80; --good-border: rgba(34,197,94,0.35);
+    --warn: #f59e0b; --warn-bg: rgba(245,158,11,0.12); --warn-text: #fbbf24; --warn-border: rgba(245,158,11,0.35);
+    --crit: #ef4444; --crit-bg: rgba(239,68,68,0.12); --crit-text: #f87171; --crit-border: rgba(239,68,68,0.35);
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:920px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .top-badge { display:inline-flex; align-items:center; gap:8px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); color:var(--blue-accent); font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:6px 12px; border-radius:999px; font-family:var(--mono); margin-bottom:18px; }
+  .top-badge .dot { width:7px; height:7px; border-radius:50%; background:var(--good); animation:pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
+
+  .grupo-header { display:flex; align-items:center; gap:14px; margin-bottom:4px; }
+  .grupo-header .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .grupo-header h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .grupo-header p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; }
+
+  .tabs-wrap { margin:20px 0 22px; }
+  .tabs-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); margin-bottom:8px; display:block; }
+  .tabs { display:flex; flex-wrap:wrap; gap:8px; }
+  .tab-btn { display:flex; align-items:center; gap:7px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-700); font-size:12.5px; font-weight:700; border-radius:999px; padding:8px 14px; cursor:pointer; transition:border-color .15s, color .15s, background .15s; }
+  .tab-btn:hover { border-color:var(--blue-accent); color:var(--blue-accent); }
+  .tab-btn.ativo { background:var(--blue-soft); border-color:var(--blue-accent); color:var(--blue-accent); }
+  .tab-btn .tab-icon { font-size:14px; }
+
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:20px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; }
+  .criterio-tag { display:inline-block; margin-top:10px; font-size:11.5px; font-weight:600; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:2px 9px; border-radius:999px; }
+  .justificativa { font-size:12.5px; color:var(--slate-500); margin-top:10px; font-style:italic; max-width:640px; }
+
+  .period-row { display:flex; justify-content:space-between; align-items:center; margin:18px 0; gap:12px; flex-wrap:wrap; }
+  .period-selector { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
+  .period-selector-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
+  .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .kpi-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-bottom:22px; }
+  @media (max-width:760px) { .kpi-grid { grid-template-columns:1fr; } }
+  .card { background:var(--bg-panel); border:1px solid var(--border); border-left:4px solid var(--blue-accent); border-radius:14px; padding:18px 20px; display:flex; flex-direction:column; justify-content:space-between; }
+  .card.card-good { border-left-color:var(--good); }
+  .card.card-crit { border-left-color:var(--crit); }
+  .card .label { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); margin:0; }
+  .card .value { font-size:24px; font-weight:800; color:#fff; margin:9px 0 0; font-family:var(--mono); }
+  .card .value .unidade { font-size:12px; color:var(--slate-500); font-weight:400; }
+  .card .footnote { font-size:11.5px; color:var(--slate-500); border-top:1px solid var(--border-soft); padding-top:8px; margin-top:12px; }
+
+  .track-lg { width:100%; height:12px; background:var(--border); border-radius:999px; overflow:hidden; margin-top:8px; }
+  .fill { height:100%; border-radius:999px; }
+  .badge { display:inline-block; padding:3px 10px; border-radius:999px; font-size:11.5px; font-weight:700; border:1px solid; }
+  .badge-ok { background:var(--good-bg); color:var(--good-text); border-color:var(--good-border); }
+  .badge-warn { background:var(--warn-bg); color:var(--warn-text); border-color:var(--warn-border); }
+  .badge-crit { background:var(--crit-bg); color:var(--crit-text); border-color:var(--crit-border); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:22px; margin-bottom:18px; }
+  .section-card h3 { font-size:12.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 4px; }
+  .section-card .subtle { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
+
+  .two-col { display:grid; grid-template-columns:1.1fr 1fr; gap:16px; margin-bottom:18px; }
+  @media (max-width:760px) { .two-col { grid-template-columns:1fr; } }
+
+  .trend-row { display:flex; align-items:flex-end; gap:16px; height:110px; padding-top:8px; }
+  .trend-col { flex:1; display:flex; flex-direction:column; align-items:center; justify-content:flex-end; height:100%; cursor:pointer; }
+  .trend-bar { width:56%; border-radius:6px 6px 0 0; background:var(--border); min-height:2px; }
+  .trend-bar.current { background:var(--blue-accent); }
+  .trend-value { font-size:11px; font-weight:700; color:var(--slate-700); margin-bottom:4px; font-family:var(--mono); }
+  .trend-label { font-size:10.5px; color:var(--slate-500); margin-top:6px; }
+  .trend-label.current { color:var(--blue-accent); font-weight:800; }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 10px 0; border-bottom:1px solid var(--border); }
+  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
+  tbody td.cat { color:var(--slate-500); font-size:11.5px; white-space:nowrap; }
+  tbody td.ref { color:var(--slate-400); font-size:11.5px; white-space:nowrap; text-align:right; font-family:var(--mono); }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); }
+  tr.subtotal-row td { background:var(--blue-soft); font-weight:700; color:#fff; }
+  tfoot td { padding:12px 10px 0 0; font-weight:800; color:#fff; border-top:2px solid var(--border); font-family:var(--mono); }
+  .empty-msg { font-size:12.5px; color:var(--slate-400); font-style:italic; padding:8px 0; }
+
+  tr.item-clicavel { cursor:pointer; }
+  tr.item-clicavel:hover td { background:rgba(255,255,255,0.035); }
+  .detalhe-seta { color:var(--blue-accent); font-size:9px; margin-right:2px; }
+  tr.detalhe-subrow.hidden { display:none; }
+  tr.detalhe-subrow td { padding:0; border-bottom:1px solid var(--border-soft); }
+  .detalhe-caixa { background:rgba(0,0,0,0.25); border-left:2px solid var(--blue-accent); padding:10px 14px; margin:2px 0; }
+  .detalhe-titulo { display:block; font-size:9.5px; font-weight:700; color:var(--blue-accent); text-transform:uppercase; letter-spacing:.05em; margin-bottom:6px; }
+  .detalhe-linha-pessoa { display:flex; justify-content:space-between; align-items:center; padding:4px 0; border-bottom:1px solid rgba(255,255,255,0.05); font-size:11.5px; }
+  .detalhe-linha-pessoa:last-child { border-bottom:none; }
+  .detalhe-nome { color:var(--slate-500); }
+  .detalhe-valor { color:var(--blue-accent); font-family:var(--mono); font-weight:600; }
+  .encargos-tabela-wrap { overflow-x:auto; }
+  table.encargos-tabela { width:100%; border-collapse:collapse; font-size:10.8px; white-space:nowrap; }
+  table.encargos-tabela th { text-align:right; font-size:9.5px; text-transform:uppercase; letter-spacing:.03em; color:var(--slate-400); font-weight:700; padding:0 8px 6px; border-bottom:1px solid var(--border); }
+  table.encargos-tabela th:first-child, table.encargos-tabela td:first-child { text-align:left; }
+  table.encargos-tabela td { text-align:right; padding:5px 8px; border-bottom:1px solid rgba(255,255,255,0.05); color:var(--slate-700); font-family:var(--mono); }
+  table.encargos-tabela td:first-child { color:var(--slate-500); font-family:inherit; }
+  table.encargos-tabela td.tot, table.encargos-tabela th.tot { color:#fff; font-weight:700; }
+  table.encargos-tabela tbody tr:last-child td { border-bottom:none; }
+  table.encargos-tabela td.vazio { color:var(--slate-400); font-family:inherit; }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:var(--crit-bg); border:1px solid var(--crit-border); color:var(--crit-text); padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <div class="period-row" style="margin-top:0;">
+    <span class="top-badge"><span class="dot"></span> Dados ao vivo — atualiza sozinho</span>
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+
+  <div class="grupo-header">
+    <span class="icon">🔄</span>
+    <div>
+      <h1>Central de Relacionamento</h1>
+      <p>NRC, Cobrança, Retenção, Televendas, Suporte da Central e Suporte Orbix — um único link, escolha o sub-setor abaixo.</p>
+    </div>
+  </div>
+
+  <div class="tabs-wrap">
+    <span class="tabs-label">Sub-setores da Central de Relacionamento</span>
+    <div class="tabs" id="tabsSetores"></div>
+  </div>
+
+  <div class="header-row">
+    <span class="icon" id="setorIcone">•</span>
+    <div>
+      <h1 id="setorNomeH1">Carregando…</h1>
+      <p>Detalhamento de custos, histórico e composição por categoria — dados reais da Dtel Telecom.</p>
+    </div>
+  </div>
+  <span class="criterio-tag" id="setorCriterioTag">Critério de rateio: —</span>
+  <p class="justificativa" id="setorJustificativa"></p>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="period-row">
+      <div class="period-selector">
+        <span class="period-selector-label">Período de Competência:</span>
+        <select id="seletor-competencia" onchange="atualizarDadosPorPeriodo()"></select>
+      </div>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="card">
+        <div>
+          <p class="label">Custo Unitário do Setor</p>
+          <p class="value">R$ <span id="setorCustoUnitario">0,00</span> <span class="unidade">/ un</span></p>
+        </div>
+        <p class="footnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
+      </div>
+      <div class="card" id="setorTendenciaCard">
+        <div>
+          <p class="label">Tendência de Custo</p>
+          <p class="value" id="setorTendenciaValor" style="display:flex; align-items:center; gap:8px;">
+            <span id="setorTendenciaSeta"></span><span id="setorTendenciaPct">—</span>
+            <span style="font-size:12px; color:var(--slate-500); font-weight:400;">vs. mês ant.</span>
+          </p>
+        </div>
+        <p class="footnote" id="setorTendenciaDetalhe">—</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3>Consumo em relação à referência</h3>
+      <span class="badge" id="setorStatusBadge">—</span>
+      <div class="track-lg"><div class="fill" id="setorBarraFill" style="width:0%;"></div></div>
+    </div>
+
+    <div class="two-col">
+      <div class="section-card" style="margin-bottom:0;">
+        <h3>Histórico do Setor</h3>
+        <p class="subtle">Custo total por mês. Clique numa barra para mudar o mês exibido.</p>
+        <div class="trend-row" id="setorTrend"></div>
+      </div>
+      <div class="section-card" style="margin-bottom:0;">
+        <h3>Composição por Categoria</h3>
+        <p class="subtle" id="setorCategoriasSubtitle">—</p>
+        <div style="height:190px; position:relative;"><canvas id="setorCategorias"></canvas></div>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 id="setorDetalheTitulo">Detalhamento dos custos do setor</h3>
+      <p class="subtle">Agrupado por categoria — todos os itens de cada categoria juntos, com um único subtotal por categoria.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Categoria</th><th>Item de Custo</th><th style="text-align:right;">Qtd. / Valor Unit.</th><th style="text-align:right;">Total do Mês (R$)</th>
+          </tr>
+        </thead>
+        <tbody id="setorItensBody"></tbody>
+        <tfoot><tr><td colspan="3">Total do Setor</td><td style="text-align:right;" id="setorTotalFooter">R$ 0</td></tr></tfoot>
+      </table>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos — quando a planilha for atualizada, este painel reflete os números novos sozinho, sem precisar recarregar a página manualmente. Troque de setor pelas abas acima, sem sair desta página. Painel apenas demonstrativo — a edição dos valores continua sendo feita na planilha original.</p>
+  </div>
+</main>
+
+<script src="/chartjs_extracted.js"></script>
+<script>
+const MESES_ABREV = { "Maio/2026": "Mai/26", "Junho/2026": "Jun/26", "Julho/2026": "Jul/26" };
+const NOME_MES_NUM = {"Janeiro":"01","Fevereiro":"02","Março":"03","Abril":"04","Maio":"05","Junho":"06",
+                       "Julho":"07","Agosto":"08","Setembro":"09","Outubro":"10","Novembro":"11","Dezembro":"12"};
+
+const STATUS_STYLE = {
+  ok:      { color: "var(--good)", badgeClass: "badge-ok",   label: "Dentro da referência" },
+  atencao: { color: "var(--warn)", badgeClass: "badge-warn", label: "Atenção — acima da referência" },
+  critico: { color: "var(--crit)", badgeClass: "badge-crit", label: "Desvio crítico" },
+};
+
+// Endereço do servidor local.
+const API_BASE = '';
+
+// Os 6 setores reais que compõem a Central de Relacionamento (mesma equipe
+// agregada da folha, gestor Ayrton da Silva Lima) — cada um continua sendo
+// um setor rateado à parte na planilha, só a navegação aqui é unificada
+// num único link/página com abas.
+const SUBSETORES = [
+  { slug: "nrc", nome: "NRC" },
+  { slug: "cobranca", nome: "Cobrança" },
+  { slug: "retencao", nome: "Retenção" },
+  { slug: "televendas", nome: "Televendas" },
+  { slug: "suporte_da_central", nome: "Suporte da Central" },
+  { slug: "suporte_orbix", nome: "Suporte Orbix" },
+];
+
+// Slug atual pode vir de ?setor=cobranca (pra linkar direto numa aba
+// específica); senão começa no primeiro (NRC).
+function obterSlugInicial() {
+  const params = new URLSearchParams(window.location.search);
+  const s = params.get("setor");
+  if (s && SUBSETORES.some(x => x.slug === s)) return s;
+  return SUBSETORES[0].slug;
+}
+let SLUG = obterSlugInicial();
+let SETOR = null;
+let MESES_DISPONIVEIS = [];
+let selectedMonth = null;
+
+function fmtBRL(n) {
+  n = n || 0;
+  return "R$ " + n.toLocaleString("pt-BR", { maximumFractionDigits: 0 });
+}
+function fmtNum(n, dec) {
+  return (n || 0).toLocaleString("pt-BR", { maximumFractionDigits: dec === undefined ? 2 : dec });
+}
+function fmtHora(d) {
+  return d.toLocaleString("pt-BR", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+}
+
+function setorTotal(mes) {
+  const h = SETOR.historico.find(x => x.mes === mes);
+  return h ? h.total : 0;
+}
+function setorReferencia(mes) {
+  const outros = SETOR.historico.filter(x => x.mes !== mes);
+  if (!outros.length) return 0;
+  return outros.reduce((s, x) => s + x.total, 0) / outros.length;
+}
+function setorCustoUnitario(mes) {
+  const h = SETOR.historico.find(x => x.mes === mes);
+  return h ? (h.custoUnitario || 0) : 0;
+}
+function mesAnterior(mes) {
+  const idx = MESES_DISPONIVEIS.indexOf(mes);
+  if (idx <= 0) return null;
+  return MESES_DISPONIVEIS[idx - 1];
+}
+function setorTendencia(mes) {
+  const anterior = mesAnterior(mes);
+  if (!anterior) return null;
+  const atual = setorTotal(mes);
+  const ant = setorTotal(anterior);
+  if (!ant) return null;
+  return { anterior, atual, ant, variacaoPct: ((atual - ant) / ant) * 100 };
+}
+function setorPct(mes) {
+  const ref = setorReferencia(mes);
+  return ref > 0 ? setorTotal(mes) / ref : 1;
+}
+function setorStatus(mes) {
+  const pct = setorPct(mes);
+  if (pct > 1.15) return "critico";
+  if (pct > 1.05) return "atencao";
+  return "ok";
+}
+function mesParaValorSelect(mes) {
+  const [nome, ano] = mes.split("/");
+  return `${ano}-${NOME_MES_NUM[nome] || "01"}`;
+}
+let VALOR_SELECT_PARA_MES = {};
+function buildMonthSelector() {
+  VALOR_SELECT_PARA_MES = {};
+  MESES_DISPONIVEIS.forEach(mes => { VALOR_SELECT_PARA_MES[mesParaValorSelect(mes)] = mes; });
+  const sel = document.getElementById("seletor-competencia");
+  sel.innerHTML = "";
+  MESES_DISPONIVEIS.slice().reverse().forEach(mes => {
+    const opt = document.createElement("option");
+    opt.value = mesParaValorSelect(mes);
+    opt.textContent = mes.split("/")[0].toUpperCase() + " / " + mes.split("/")[1];
+    if (mes === selectedMonth) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+function atualizarDadosPorPeriodo() {
+  const sel = document.getElementById("seletor-competencia");
+  const mes = VALOR_SELECT_PARA_MES[sel.value];
+  if (mes) setMonth(mes);
+}
+function setMonth(mes) {
+  selectedMonth = mes;
+  const sel = document.getElementById("seletor-competencia");
+  if (sel) sel.value = mesParaValorSelect(mes);
+  renderTudo();
+}
+function renderTrend(container, historico, onPick) {
+  container.innerHTML = "";
+  const max = Math.max(1, ...historico.map(h => h.total));
+  historico.forEach((h) => {
+    const isCurrent = h.mes === selectedMonth;
+    const pct = (h.total / max) * 100;
+    const col = document.createElement("div");
+    col.className = "trend-col";
+    col.innerHTML = `
+      <div class="trend-value">${fmtBRL(h.total)}</div>
+      <div class="trend-bar${isCurrent ? ' current' : ''}" style="height:${pct}%"></div>
+      <div class="trend-label${isCurrent ? ' current' : ''}">${MESES_ABREV[h.mes] || h.mes}</div>`;
+    col.addEventListener("click", () => onPick(h.mes));
+    container.appendChild(col);
+  });
+}
+const _categoriaCharts = {};
+const rotuloDadosPlugin = {
+  id: "rotuloDadosPlugin",
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    const meta = chart.getDatasetMeta(0);
+    const dados = chart.data.datasets[0].data;
+    ctx.save();
+    ctx.fillStyle = "#e2e8f0";
+    ctx.font = "600 11.5px system-ui, sans-serif";
+    ctx.textAlign = "left";
+    ctx.textBaseline = "middle";
+    meta.data.forEach((bar, i) => {
+      ctx.fillText(fmtBRL(dados[i]), bar.x + 8, bar.y);
+    });
+    ctx.restore();
+  }
+};
+function renderCategoriaChart(canvasId, items) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  if (_categoriaCharts[canvasId]) { _categoriaCharts[canvasId].destroy(); }
+  if (!items.length) { return; }
+  const ctx = canvas.getContext("2d");
+  _categoriaCharts[canvasId] = new Chart(ctx, {
+    type: "bar",
+    data: { labels: items.map(i => i.categoria), datasets: [{ data: items.map(i => i.total), backgroundColor: "#4f9cf9", borderRadius: 4, maxBarThickness: 22 }] },
+    plugins: [rotuloDadosPlugin],
+    options: {
+      indexAxis: "y", responsive: true, maintainAspectRatio: false,
+      layout: { padding: { right: 60 } },
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: (item) => fmtBRL(item.raw) } } },
+      scales: {
+        x: { display: false },
+        y: { grid: { display: false }, ticks: { color: "#c3ccdc", font: { size: 12 } }, border: { color: "#1b2333" } }
+      }
+    }
+  });
+}
+function renderTudo() {
+  const mes = selectedMonth;
+  const pm = SETOR.porMes[mes] || { itens: [], categorias: [] };
+
+  document.getElementById("setorIcone").textContent = SETOR.icone || "•";
+  document.getElementById("setorNomeH1").textContent = SETOR.nome;
+  document.getElementById("setorCriterioTag").textContent = "Critério de rateio: " + SETOR.criterioRateio;
+  document.getElementById("setorJustificativa").textContent = SETOR.justificativa;
+  document.getElementById("setorDetalheTitulo").textContent = `Detalhamento dos custos do setor (${mes})`;
+  document.title = SETOR.nome + " — Central de Relacionamento — Dtel Telecom";
+
+  const total = setorTotal(mes);
+  const referencia = setorReferencia(mes);
+  const variacao = total - referencia;
+  const pct = setorPct(mes);
+  const status = setorStatus(mes);
+  const st = STATUS_STYLE[status];
+
+  document.getElementById("setorCustoUnitario").textContent = fmtNum(setorCustoUnitario(mes), 2);
+
+  const tendencia = setorTendencia(mes);
+  const setaEl = document.getElementById("setorTendenciaSeta");
+  const pctEl = document.getElementById("setorTendenciaPct");
+  const detalheEl = document.getElementById("setorTendenciaDetalhe");
+  const cardTendencia = document.getElementById("setorTendenciaCard");
+  if (!tendencia) {
+    setaEl.textContent = "";
+    pctEl.textContent = "—";
+    pctEl.style.color = "var(--slate-700)";
+    detalheEl.textContent = "Sem mês anterior disponível para comparação.";
+    cardTendencia.className = "card";
+  } else {
+    const estavel = Math.abs(tendencia.variacaoPct) < 0.05;
+    const subiu = tendencia.variacaoPct > 0;
+    setaEl.textContent = estavel ? "→" : (subiu ? "↑" : "↓");
+    pctEl.textContent = fmtNum(Math.abs(tendencia.variacaoPct), 1) + "%";
+    pctEl.style.color = estavel ? "var(--slate-700)" : (subiu ? "var(--crit-text)" : "var(--good-text)");
+    cardTendencia.className = "card" + (estavel ? "" : (subiu ? " card-crit" : " card-good"));
+    const diffAbs = Math.abs(tendencia.atual - tendencia.ant);
+    detalheEl.textContent = (estavel ? "➡️ Custo estável" : (subiu ? "📈 Alta de " : "📉 Queda de ")) +
+      (estavel ? "" : fmtBRL(diffAbs) + " ") + "em relação a " + (MESES_ABREV[tendencia.anterior] || tendencia.anterior) + ".";
+  }
+
+  const badge = document.getElementById("setorStatusBadge");
+  badge.textContent = st.label + " — " + (pct*100).toFixed(1) + "%";
+  badge.className = "badge " + st.badgeClass;
+
+  const fill = document.getElementById("setorBarraFill");
+  fill.style.width = Math.min(pct*100, 100) + "%";
+  fill.style.background = st.color;
+
+  renderTrend(document.getElementById("setorTrend"), SETOR.historico, setMonth);
+  document.getElementById("setorCategoriasSubtitle").textContent = mes + ".";
+  renderCategoriaChart("setorCategorias", pm.categorias.map(c => ({categoria: c.categoria, total: c.total})));
+
+  const body = document.getElementById("setorItensBody");
+  body.innerHTML = "";
+  if (!pm.itens.length) {
+    body.innerHTML = '<tr><td colspan="4" class="empty-msg">Sem custos lançados neste setor em ' + mes + '.</td></tr>';
+  } else {
+    const porCategoria = new Map();
+    pm.itens.forEach((it) => {
+      if (!porCategoria.has(it.categoria)) porCategoria.set(it.categoria, []);
+      porCategoria.get(it.categoria).push(it);
+    });
+    let detalheIdx = 0;
+    porCategoria.forEach((itensCat, catName) => {
+      let catAcc = 0;
+      itensCat.forEach((it) => {
+        catAcc += (parseFloat(it.total) || 0);
+        const qtdTxt = it.quantidade ? `${fmtNum(it.quantidade,0)} × ${fmtBRL(it.valorUnitario)}` : "—";
+        const temDetalhes = it.detalhes && it.detalhes.length > 0;
+        const myIdx = detalheIdx++;
+        const tr = document.createElement("tr");
+        if (temDetalhes) tr.className = "item-clicavel";
+        tr.innerHTML = `<td class="cat">${it.categoria}</td><td>${temDetalhes ? '<span class="detalhe-seta">▼</span> ' : ''}${it.item}</td><td class="ref">${qtdTxt}</td><td class="val">${fmtBRL(it.total)}</td>`;
+        if (temDetalhes) {
+          tr.addEventListener("click", () => {
+            const sub = document.getElementById(`detalhe-linha-${myIdx}`);
+            if (sub) sub.classList.toggle("hidden");
+          });
+        }
+        body.appendChild(tr);
+        if (temDetalhes) {
+          const trDet = document.createElement("tr");
+          trDet.id = `detalhe-linha-${myIdx}`;
+          trDet.className = "detalhe-subrow hidden";
+          const nPessoas = it.detalhes.length;
+          let rotuloPessoa = "colaborador", rotuloPessoaPlural = "colaboradores", rotuloPessoaHeader = "Colaborador";
+          if (/combust[ií]vel/i.test(it.item)) {
+            rotuloPessoa = "condutor"; rotuloPessoaPlural = "condutores"; rotuloPessoaHeader = "Condutor";
+          } else if (/material de/i.test(it.item)) {
+            rotuloPessoa = "item"; rotuloPessoaPlural = "itens"; rotuloPessoaHeader = "Item";
+          } else if (/^impressora$/i.test(it.item)) {
+            rotuloPessoa = "unidade"; rotuloPessoaPlural = "unidades"; rotuloPessoaHeader = "Unidade";
+          }
+          const temAlgumEncargo = it.detalhes.some(d => d.encargos);
+          let corpoDetalhe;
+          if (temAlgumEncargo) {
+            const colunas = [
+              ["Custo Trabalhista Total", e => e && e.salarioBase],
+              ["1/12 Férias", e => e && e.umDozeAvosFerias],
+              ["1/12 13º Sal.", e => e && e.umDozeAvosDecimoTerceiro],
+              ["FGTS", e => e && e.fgts],
+              ["INSS Patronal", e => e && e.inssPatronal],
+              ["RAT/GILRAT", e => e && e.ratGilrat],
+              ["Terceiros", e => e && e.terceiros],
+              ["Prov. Multa Rescis.", e => e && e.provisaoMultaRescisoria],
+              ["Total Encargos", e => e && e.totalEncargos],
+            ];
+            const linhasTabela = it.detalhes.map(d => {
+              const e = d.encargos;
+              const celulas = colunas.map(([, get]) => {
+                const v = get(e);
+                return v === undefined || v === null ? '<td class="vazio">—</td>' : `<td>${fmtBRL(v)}</td>`;
+              }).join("");
+              return `<tr><td>${d.nome}</td>${celulas}<td class="tot">${fmtBRL(d.valor)}</td></tr>`;
+            }).join("");
+            corpoDetalhe = `<div class="encargos-tabela-wrap"><table class="encargos-tabela">
+              <thead><tr><th>${rotuloPessoaHeader}</th>${colunas.map(([label]) => `<th>${label}</th>`).join("")}<th class="tot">Custo Total</th></tr></thead>
+              <tbody>${linhasTabela}</tbody>
+            </table></div>`;
+          } else if (rotuloPessoa === "item") {
+            corpoDetalhe = it.detalhes.map(d => `
+              <div class="detalhe-linha-pessoa">
+                <span class="detalhe-nome">• ${d.nome}</span>
+                <span class="detalhe-valor">${fmtNum(d.quantidade, d.quantidade % 1 ? 2 : 0)} un</span>
+              </div>`).join("");
+          } else {
+            corpoDetalhe = it.detalhes.map(d => `
+              <div class="detalhe-linha-pessoa">
+                <span class="detalhe-nome">• ${d.nome}</span>
+                <span class="detalhe-valor">${fmtBRL(d.valor)}</span>
+              </div>`).join("");
+          }
+          trDet.innerHTML = `<td colspan="4"><div class="detalhe-caixa">
+            <span class="detalhe-titulo">Composição analítica do lançamento (${nPessoas} ${nPessoas > 1 ? rotuloPessoaPlural : rotuloPessoa}):</span>
+            ${corpoDetalhe}
+          </div></td>`;
+          body.appendChild(trDet);
+        }
+      });
+      const trSub = document.createElement("tr");
+      trSub.className = "subtotal-row";
+      trSub.innerHTML = `<td colspan="3">Subtotal — ${catName}</td><td class="val">${fmtBRL(catAcc)}</td>`;
+      body.appendChild(trSub);
+    });
+  }
+  document.getElementById("setorTotalFooter").textContent = fmtBRL(total);
+}
+
+function renderTabs() {
+  const wrap = document.getElementById("tabsSetores");
+  wrap.innerHTML = "";
+  SUBSETORES.forEach((s) => {
+    const btn = document.createElement("button");
+    btn.className = "tab-btn" + (s.slug === SLUG ? " ativo" : "");
+    btn.innerHTML = `<span class="tab-icon">${s.icone || "•"}</span> ${s.nome}`;
+    btn.addEventListener("click", () => selecionarSetor(s.slug));
+    wrap.appendChild(btn);
+  });
+}
+
+function selecionarSetor(slug) {
+  if (slug === SLUG && SETOR) { return; }
+  SLUG = slug;
+  selectedMonth = null; // deixa buscarDados() escolher o mês mais recente do novo setor
+  const params = new URLSearchParams(window.location.search);
+  params.set("setor", slug);
+  history.replaceState(null, "", "?" + params.toString());
+  renderTabs();
+  buscarDados();
+}
+
+async function buscarDados(mostrarErro) {
+  try {
+    const resp = await fetch(API_BASE + '/api/custos/' + encodeURIComponent(SLUG));
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    SETOR = data;
+    MESES_DISPONIVEIS = data.mesesDisponiveis;
+    if (!selectedMonth) selectedMonth = MESES_DISPONIVEIS[MESES_DISPONIVEIS.length - 1];
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = 'block';
+    document.getElementById('statusTxt').textContent = 'Última atualização: ' + fmtHora(new Date()) + (data.avisoCache ? ' (aviso: ' + data.avisoCache + ')' : '');
+    buildMonthSelector();
+    renderTudo();
+  } catch (e) {
+    if (mostrarErro !== false) {
+      document.getElementById('erroBox').style.display = 'block';
+      document.getElementById('erroBox').textContent = 'Não foi possível carregar os dados agora: ' + e.message;
+    }
+    document.getElementById('statusTxt').textContent = 'Falha na última tentativa (' + fmtHora(new Date()) + ') — tentando de novo em instantes.';
+  }
+}
+
+// Busca os ícones reais de cada sub-setor em /api/setores (mesmos usados no
+// menu principal) antes de desenhar as abas — se não conseguir, usa "•".
+async function carregarIconesEIniciar() {
+  try {
+    const resp = await fetch(API_BASE + '/api/setores');
+    const data = await resp.json();
+    const porSlug = {};
+    (data.setores || []).forEach(s => { porSlug[s.slug] = s.icone; });
+    SUBSETORES.forEach(s => { s.icone = porSlug[s.slug] || "•"; });
+  } catch (e) {
+    // sem ícones, segue com o padrão "•"
+  }
+  renderTabs();
+  buscarDados();
+}
+
+carregarIconesEIniciar();
+setInterval(() => buscarDados(false), 60000); // re-busca a cada 60s, sem precisar recarregar a página
+</script>
+</body>
+</html>

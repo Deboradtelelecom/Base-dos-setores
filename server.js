@@ -157,6 +157,10 @@ app.get('/comercial-varejo', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'comercial-varejo.html'));
 });
 
+app.get('/central-relacionamento', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'central-relacionamento.html'));
+});
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
