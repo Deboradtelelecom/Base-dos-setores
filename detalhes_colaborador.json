@@ -23708,30 +23708,18 @@
         {
           "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
           "valor": 60
-        },
-        {
-          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
-          "valor": 30
         }
       ],
       "Junho/2026": [
         {
           "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
           "valor": 60
-        },
-        {
-          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
-          "valor": 30
         }
       ],
       "Julho/2026": [
         {
           "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
           "valor": 60
-        },
-        {
-          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
-          "valor": 30
         }
       ]
     },
@@ -24131,6 +24119,26 @@
         },
         {
           "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 30
+        }
+      ]
+    },
+    "controladoria": {
+      "Maio/2026": [
+        {
+          "nome": "Douglas de Carvalho Nogueira",
+          "valor": 30
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Douglas de Carvalho Nogueira",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Douglas de Carvalho Nogueira",
           "valor": 30
         }
       ]
