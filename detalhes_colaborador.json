@@ -23086,6 +23086,18 @@
           "valor": 90
         }
       ]
+    },
+    "backoffice_comercial_varejo": {
+      "Julho/2026": [
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 50
+        },
+        {
+          "nome": "Gabriela da Silva Alves",
+          "valor": 50
+        }
+      ]
     }
   },
   "impressoras": {
@@ -24075,6 +24087,26 @@
       "Julho/2026": [
         {
           "nome": "Douglas de Carvalho Nogueira",
+          "valor": 30
+        }
+      ]
+    },
+    "backoffice_comercial_varejo": {
+      "Maio/2026": [
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 30
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
           "valor": 30
         }
       ]
