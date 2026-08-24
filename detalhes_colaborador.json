@@ -15747,22 +15747,6 @@
           }
         },
         {
-          "nome": "Gabriel Lucas Soares Lima (Gerente De Redes)",
-          "valor": 9472.16,
-          "encargos": {
-            "salarioBase": 5973.19,
-            "umDozeAvosFerias": 663.69,
-            "umDozeAvosDecimoTerceiro": 497.77,
-            "fgts": 477.86,
-            "inssPatronal": 1194.64,
-            "ratGilrat": 119.46,
-            "terceiros": 346.45,
-            "provisaoMultaRescisoria": 199.11,
-            "totalEncargos": 2337.51,
-            "custoTotal": 9472.16
-          }
-        },
-        {
           "nome": "Severino Dionisio Lima Junior (Gerente Administrativo Pleno)",
           "valor": 22200.89,
           "encargos": {
@@ -15797,22 +15781,6 @@
           }
         },
         {
-          "nome": "Gabriel Lucas Soares Lima (Gerente De Redes)",
-          "valor": 11941.91,
-          "encargos": {
-            "salarioBase": 7530.63,
-            "umDozeAvosFerias": 836.74,
-            "umDozeAvosDecimoTerceiro": 627.55,
-            "fgts": 602.45,
-            "inssPatronal": 1506.13,
-            "ratGilrat": 150.61,
-            "terceiros": 436.78,
-            "provisaoMultaRescisoria": 251.02,
-            "totalEncargos": 2946.99,
-            "custoTotal": 11941.91
-          }
-        },
-        {
           "nome": "Severino Dionisio Lima Junior (Gerente Administrativo Pleno)",
           "valor": 22200.89,
           "encargos": {
@@ -15844,38 +15812,6 @@
             "provisaoMultaRescisoria": 103.61,
             "totalEncargos": 1216.34,
             "custoTotal": 4928.91
-          }
-        },
-        {
-          "nome": "Gabriel Lucas Soares Lima (Gerente De Relacionamento Pleno)",
-          "valor": 13025.64,
-          "encargos": {
-            "salarioBase": 8214.04,
-            "umDozeAvosFerias": 912.67,
-            "umDozeAvosDecimoTerceiro": 684.5,
-            "fgts": 657.12,
-            "inssPatronal": 1642.81,
-            "ratGilrat": 164.28,
-            "terceiros": 476.41,
-            "provisaoMultaRescisoria": 273.8,
-            "totalEncargos": 3214.43,
-            "custoTotal": 13025.64
-          }
-        },
-        {
-          "nome": "Rhuan Gabriel Cavalcante Felix (Auxiliar Administrativo ( Jovem Aprendiz)",
-          "valor": 1278.16,
-          "encargos": {
-            "salarioBase": 837.71,
-            "umDozeAvosFerias": 93.08,
-            "umDozeAvosDecimoTerceiro": 69.81,
-            "fgts": 16.75,
-            "inssPatronal": 167.54,
-            "ratGilrat": 16.75,
-            "terceiros": 48.59,
-            "provisaoMultaRescisoria": 27.92,
-            "totalEncargos": 277.56,
-            "custoTotal": 1278.16
           }
         },
         {
@@ -23142,7 +23078,7 @@
     "diretoria_operacional": {
       "Julho/2026": [
         {
-          "nome": "RHUAN GABRIEL CAVALCANTE FELIX",
+          "nome": "SEVERINO DIONISIO DE LIMA JUNIOR",
           "valor": 10
         },
         {
