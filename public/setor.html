@@ -19,6 +19,11 @@
   main { max-width:920px; margin:0 auto; padding:32px 28px 60px; }
   a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
   a.voltar:hover { color:var(--blue-accent); }
+  .setor-nav { display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:14px; }
+  .setor-nav button { display:flex; align-items:center; gap:6px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-700); font-size:12px; font-weight:700; font-family:var(--mono); border-radius:9px; padding:7px 12px; cursor:pointer; transition:border-color .15s, color .15s; }
+  .setor-nav button:hover:not(:disabled) { border-color:var(--blue-accent); color:var(--blue-accent); }
+  .setor-nav button:disabled { opacity:.35; cursor:default; }
+  .setor-nav .setor-nav-pos { font-size:11px; color:var(--slate-500); font-family:var(--mono); white-space:nowrap; }
   .top-badge { display:inline-flex; align-items:center; gap:8px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); color:var(--blue-accent); font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:6px 12px; border-radius:999px; font-family:var(--mono); margin-bottom:18px; }
   .top-badge .dot { width:7px; height:7px; border-radius:50%; background:var(--good); animation:pulse 1.6s infinite; }
   @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
@@ -105,6 +110,11 @@
 <body>
 <main>
   <a class="voltar" href="/">&larr; Todos os setores</a>
+  <div class="setor-nav" id="setorNav" style="display:none;">
+    <button id="btnSetorAnterior" title="Setor anterior">&larr; Anterior</button>
+    <span class="setor-nav-pos" id="setorNavPos">—</span>
+    <button id="btnSetorProximo" title="Próximo setor">Próximo &rarr;</button>
+  </div>
   <div class="period-row" style="margin-top:0;">
     <span class="top-badge"><span class="dot"></span> Dados ao vivo — atualiza sozinho</span>
     <span class="status-txt" id="statusTxt">—</span>
@@ -530,6 +540,32 @@ async function buscarDados(mostrarErro) {
 
 buscarDados();
 setInterval(() => buscarDados(false), 60000); // re-busca a cada 60s, sem precisar recarregar a página
+
+// Navegação entre setores (setas Anterior/Próximo) sem precisar voltar pro
+// menu e escolher de novo — usa a mesma lista/ordem de "/api/setores".
+async function iniciarNavegacaoSetores() {
+  if (!SLUG) return;
+  try {
+    const resp = await fetch(API_BASE + '/api/setores');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar lista de setores.');
+    const lista = data.setores || [];
+    const idx = lista.findIndex(s => s.slug === SLUG);
+    if (idx === -1 || lista.length < 2) return; // sem navegação possível
+    const anterior = lista[(idx - 1 + lista.length) % lista.length];
+    const proximo = lista[(idx + 1) % lista.length];
+    document.getElementById('btnSetorAnterior').onclick = () => { window.location.href = '/setor/' + encodeURIComponent(anterior.slug); };
+    document.getElementById('btnSetorProximo').onclick = () => { window.location.href = '/setor/' + encodeURIComponent(proximo.slug); };
+    document.getElementById('btnSetorAnterior').title = 'Setor anterior: ' + anterior.nome;
+    document.getElementById('btnSetorProximo').title = 'Próximo setor: ' + proximo.nome;
+    document.getElementById('setorNavPos').textContent = 'Setor ' + (idx + 1) + ' de ' + lista.length;
+    document.getElementById('setorNav').style.display = 'flex';
+  } catch (e) {
+    // Se a lista de setores não carregar, a página continua funcionando
+    // normalmente — só fica sem as setas de navegação.
+  }
+}
+iniciarNavegacaoSetores();
 </script>
 </body>
 </html>
