@@ -92,6 +92,7 @@ async function carregar() {
       nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
     }));
     itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento' });
+    itens.push({ nome: 'Engenharia (grupo)', icone: '🏗️', href: API_BASE + '/engenharia-grupo' });
     itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo' });
     itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));

@@ -161,6 +161,10 @@ app.get('/central-relacionamento', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'central-relacionamento.html'));
 });
 
+app.get('/engenharia-grupo', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'engenharia.html'));
+});
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
