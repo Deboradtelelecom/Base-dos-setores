@@ -20,6 +20,20 @@ const SECTOR_ICONS = {
   backoffice_comercial_varejo: '🧾', servicos_gerais: '🧹',
 };
 
+// Ordena "Maio/2026" < "Junho/2026" < "Julho/2026" de forma cronológica real
+// (não alfabética) — usado tanto pra lista de meses disponíveis quanto pro
+// histórico de cada setor, que precisa aparecer na mesma ordem no gráfico.
+const ORDEM_MESES = [
+  'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
+  'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro',
+];
+function compararMeses(a, b) {
+  const [na, aa] = a.split('/');
+  const [nb, ab] = b.split('/');
+  if (aa !== ab) return Number(aa) - Number(ab);
+  return ORDEM_MESES.indexOf(na) - ORDEM_MESES.indexOf(nb);
+}
+
 function slugify(nome) {
   return nome
     .normalize('NFKD')
@@ -299,16 +313,14 @@ function extrairEstado(pastaDados) {
     }
   });
 
-  const mesesDisponiveis = Array.from(mesesSet).sort((a, b) => {
-    // ordena Maio/2026 < Junho/2026 < Julho/2026 (cronológico real, não alfabético)
-    const ORDEM = [
-      'Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho',
-      'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro',
-    ];
-    const [na, aa] = a.split('/');
-    const [nb, ab] = b.split('/');
-    if (aa !== ab) return Number(aa) - Number(ab);
-    return ORDEM.indexOf(na) - ORDEM.indexOf(nb);
+  const mesesDisponiveis = Array.from(mesesSet).sort(compararMeses);
+
+  // O histórico de cada setor é montado na ordem em que as linhas aparecem
+  // na aba SETORES da planilha, que não é necessariamente cronológica —
+  // reordena aqui pra garantir que o gráfico de "Histórico do Setor" sempre
+  // mostre Maio → Junho → Julho, independente da ordem das linhas na planilha.
+  Object.values(STATE_REAL).forEach((setor) => {
+    setor.historico.sort((a, b) => compararMeses(a.mes, b.mes));
   });
 
   const comercialVarejo = wsComercialVarejo ? extrairComercialVarejo(wsComercialVarejo, detalhesColaborador) : null;
