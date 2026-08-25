@@ -315,7 +315,7 @@ async function buscarDados() {
     if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
     DADOS = data;
     MESES_DISPONIVEIS = data.mesesDisponiveis;
-    document.getElementById('statusTxt').textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
+    document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
 
     const sel = document.getElementById('seletor-competencia');
     const valorAnterior = sel.value;
@@ -336,7 +336,7 @@ async function buscarDados() {
   }
 }
 buscarDados();
-setInterval(buscarDados, 60000);
+setInterval(buscarDados, 300000); // re-busca a cada 5 min
 </script>
 </body>
 </html>

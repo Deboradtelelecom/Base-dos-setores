@@ -34,7 +34,7 @@
 <body>
 <main>
   <h1>Plataforma de Rateio de Custos</h1>
-  <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos (dados ao vivo, direto da planilha).</p>
+  <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos.</p>
   <div class="status" id="status">Carregando lista de setores…</div>
   <div class="busca-wrap">
     <span class="lupa">🔎</span>
@@ -82,7 +82,7 @@ async function carregar() {
     const resp = await fetch(API_BASE + '/api/setores');
     const data = await resp.json();
     if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar setores.');
-    statusEl.textContent = 'Fonte: ' + data.arquivoUsado + (data.avisoCache ? ' — aviso: ' + data.avisoCache : '');
+    statusEl.textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
 
     // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
     // (são visões diferentes: uma agregada, outra por equipe de vendas em vez

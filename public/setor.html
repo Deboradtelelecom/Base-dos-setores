@@ -539,7 +539,7 @@ async function buscarDados(mostrarErro) {
 }
 
 buscarDados();
-setInterval(() => buscarDados(false), 60000); // re-busca a cada 60s, sem precisar recarregar a página
+setInterval(() => buscarDados(false), 300000); // re-busca a cada 5 min, sem precisar recarregar a página
 
 // Navegação entre setores (setas Anterior/Próximo) sem precisar voltar pro
 // menu e escolher de novo — usa a mesma lista/ordem de "/api/setores".
