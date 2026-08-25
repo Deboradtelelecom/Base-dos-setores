@@ -9121,6 +9121,10 @@
             "totalEncargos": 634.35,
             "custoTotal": 2570.55
           }
+        },
+        {
+          "nome": "ALEX DE OLIVEIRA SOARES DA SILVA (Gerente Financeiro Senior) — valor de referência informal, fora do cálculo oficial de encargos",
+          "valor": 11277.96
         }
       ],
       "Junho/2026": [
@@ -9235,6 +9239,10 @@
             "totalEncargos": 634.35,
             "custoTotal": 2570.55
           }
+        },
+        {
+          "nome": "ALEX DE OLIVEIRA SOARES DA SILVA (Gerente Financeiro Senior) — valor de referência informal, fora do cálculo oficial de encargos",
+          "valor": 11277.96
         }
       ],
       "Julho/2026": [
@@ -9365,6 +9373,10 @@
             "totalEncargos": 277.56,
             "custoTotal": 1278.16
           }
+        },
+        {
+          "nome": "ALEX DE OLIVEIRA SOARES DA SILVA (Gerente Financeiro Senior) — valor de referência informal, fora do cálculo oficial de encargos",
+          "valor": 11277.96
         }
       ]
     },
@@ -22764,6 +22776,26 @@
         {
           "nome": "Maria Clara da Costa Alves",
           "valor": 10
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
+          "valor": 50
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
+          "valor": 50
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
+          "valor": 50
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
+          "valor": 50
         }
       ]
     },
