@@ -200,6 +200,13 @@ function extrairEstado(pastaDados) {
     if (/^telefonia m[oó]vel corporativa$/i.test(String(descricao || '').trim()) && !(Number(quantidade) > 0)) {
       return;
     }
+    // "Dynamics (f001796)" saiu do Comercial Corporativo e passou para o
+    // Administrativo por pedido da Débora (25/08/2026) — mesmo tratamento:
+    // linha zerada mantida na planilha (não quebra referências de outra aba),
+    // mas escondida do site pra não mostrar R$ 0 sem sentido pro gestor.
+    if (/^dynamics \(f001796\)$/i.test(String(descricao || '').trim()) && !(Number(quantidade) > 0)) {
+      return;
+    }
     mesesSet.add(mes);
     if (!STATE_REAL[chave].porMes[mes]) {
       STATE_REAL[chave].porMes[mes] = { _porCategoria: new Map() };
