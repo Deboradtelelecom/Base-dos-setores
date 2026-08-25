@@ -22444,6 +22444,10 @@
         {
           "nome": "Demetrius Ribeiro de Aquino",
           "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (frota@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22508,6 +22512,10 @@
         {
           "nome": "JEISA BIANCA DA SILVA",
           "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (apagar@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22552,6 +22560,14 @@
         {
           "nome": "Danilo Fernando da Silva Lima",
           "valor": 10
+        },
+        {
+          "nome": "E-mail do setor — CD 02 (cd02@dtel.psi.br)",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor — CD 01 (cd01vsa@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22576,6 +22592,10 @@
         {
           "nome": "DYEGO ALMEIDA TELINO",
           "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (noc@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22599,6 +22619,10 @@
         },
         {
           "nome": "Willames Maciel Silva",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (vagas@dtel.psi.br)",
           "valor": 50
         }
       ]
@@ -22639,6 +22663,10 @@
         },
         {
           "nome": "Allyson Guilherme dos Santos Cavalcante ",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (dispositivos@dtel.psi.br)",
           "valor": 50
         }
       ],
@@ -22796,6 +22824,14 @@
         {
           "nome": "Wadson Genuino Machado da Silva",
           "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (contabilidade@dtel.psi.br)",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (fiscal@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22884,6 +22920,14 @@
         {
           "nome": "EMILLY LOPES ALVES",
           "valor": 10
+        },
+        {
+          "nome": "E-mail do setor (financeiro.mkt@dtel.psi.br)",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (mkt@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -22996,6 +23040,18 @@
         {
           "nome": "Luan Vinícius Neves de Souza",
           "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (engenharia@dtel.psi.br)",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (estrutura@dtel.psi.br)",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (projetos@dtel.psi.br)",
+          "valor": 50
         }
       ]
     },
@@ -23019,6 +23075,10 @@
         },
         {
           "nome": "Oliver Rhuan de Melo Gomes",
+          "valor": 50
+        },
+        {
+          "nome": "E-mail do setor (compras@dtel.psi.br)",
           "valor": 50
         }
       ]

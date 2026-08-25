@@ -193,6 +193,13 @@ function extrairEstado(pastaDados) {
     if (!setorNome || !mes) return;
     const chave = slugify(String(setorNome));
     if (!STATE_REAL[chave]) return; // setor sem entrada em SETORES — ignora
+    // "Telefonia móvel corporativa" foi removida do custeio por pedido da
+    // Débora (25/08/2026) — mantém a linha na planilha (zerada, D/E vazios)
+    // pra não quebrar referências absolutas de outra aba, mas não exibe
+    // no site uma linha de R$ 0 sem sentido pro gestor.
+    if (/^telefonia m[oó]vel corporativa$/i.test(String(descricao || '').trim()) && !(Number(quantidade) > 0)) {
+      return;
+    }
     mesesSet.add(mes);
     if (!STATE_REAL[chave].porMes[mes]) {
       STATE_REAL[chave].porMes[mes] = { _porCategoria: new Map() };
