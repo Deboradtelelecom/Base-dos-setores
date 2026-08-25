@@ -168,8 +168,8 @@ async function carregar() {
         categoria: CATEGORIA_POR_SLUG[s.slug] || 'Administrativo e Financeiro',
       }));
     itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento', categoria: 'Comercial e Atendimento' });
-    itens.push({ nome: 'Engenharia (grupo)', icone: '🏗️', href: API_BASE + '/engenharia-grupo', categoria: 'Operações e Suporte Técnico' });
-    itens.push({ nome: 'Gestão de Atendimento (grupo)', icone: '🎧', href: API_BASE + '/gestao-atendimento', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Engenharia', icone: '🏗️', href: API_BASE + '/engenharia-grupo', categoria: 'Operações e Suporte Técnico' });
+    itens.push({ nome: 'Gestão de Atendimento', icone: '🎧', href: API_BASE + '/gestao-atendimento', categoria: 'Comercial e Atendimento' });
     itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
     itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo', categoria: 'Visão Geral' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
