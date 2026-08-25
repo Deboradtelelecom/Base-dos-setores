@@ -84,13 +84,25 @@ async function carregar() {
     if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar setores.');
     statusEl.textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
 
+    // Sub-setores que já aparecem agrupados dentro de "Central de
+    // Relacionamento" e "Engenharia (grupo)" — não entram mais como cards
+    // individuais na lista principal, pra não duplicar a mesma informação
+    // em dois lugares. Continuam acessíveis pelas abas dentro de cada página
+    // agrupada.
+    const SLUGS_AGRUPADOS = new Set([
+      'nrc', 'cobranca', 'retencao', 'televendas', 'suporte_da_central', 'suporte_orbix',
+      'engenharia', 'obras', 'manutencao_predial', 'cozinha', 'lancamento', 'fusao', 'servicos_gerais',
+    ]);
+
     // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
     // (são visões diferentes: uma agregada, outra por equipe de vendas em vez
     // de setor) — mas a Débora prefere ver todos juntos, em ordem alfabética,
     // em vez de destacados à parte. Entram na mesma lista, com link próprio.
-    const itens = data.setores.map((s) => ({
-      nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
-    }));
+    const itens = data.setores
+      .filter((s) => !SLUGS_AGRUPADOS.has(s.slug))
+      .map((s) => ({
+        nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
+      }));
     itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento' });
     itens.push({ nome: 'Engenharia (grupo)', icone: '🏗️', href: API_BASE + '/engenharia-grupo' });
     itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo' });
