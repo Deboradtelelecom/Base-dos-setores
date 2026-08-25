@@ -23216,6 +23216,10 @@
         {
           "nome": "Andre Augusto Souza de Lira",
           "valor": 30
+        },
+        {
+          "nome": "Lucas Andre da Silva Alves",
+          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -23242,6 +23246,10 @@
         {
           "nome": "Andre Augusto Souza de Lira",
           "valor": 30
+        },
+        {
+          "nome": "Lucas Andre da Silva Alves",
+          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -23267,6 +23275,10 @@
         },
         {
           "nome": "Andre Augusto Souza de Lira",
+          "valor": 30
+        },
+        {
+          "nome": "Lucas Andre da Silva Alves",
           "valor": 30
         }
       ]
@@ -23456,6 +23468,10 @@
         {
           "nome": "Neilson Alexandre da Silva",
           "valor": 30
+        },
+        {
+          "nome": "Demetrius Ribeiro de Aquino",
+          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -23482,6 +23498,10 @@
         {
           "nome": "Neilson Alexandre da Silva",
           "valor": 30
+        },
+        {
+          "nome": "Demetrius Ribeiro de Aquino",
+          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -23507,6 +23527,10 @@
         },
         {
           "nome": "Neilson Alexandre da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Demetrius Ribeiro de Aquino",
           "valor": 30
         }
       ]
@@ -23796,6 +23820,10 @@
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
           "valor": 30
+        },
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -23806,6 +23834,10 @@
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
           "valor": 30
+        },
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -23815,6 +23847,10 @@
         },
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
+          "valor": 30
+        },
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
           "valor": 30
         }
       ]
@@ -23920,6 +23956,10 @@
         {
           "nome": "Erinaldo Lopes da Costa",
           "valor": 30
+        },
+        {
+          "nome": "Luis Alexandre de Lima Passos",
+          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -23938,6 +23978,10 @@
         {
           "nome": "Erinaldo Lopes da Costa",
           "valor": 30
+        },
+        {
+          "nome": "Luis Alexandre de Lima Passos",
+          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -23955,6 +23999,10 @@
         },
         {
           "nome": "Erinaldo Lopes da Costa",
+          "valor": 30
+        },
+        {
+          "nome": "Luis Alexandre de Lima Passos",
           "valor": 30
         }
       ]
@@ -23964,17 +24012,29 @@
         {
           "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
           "valor": 30
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
+          "valor": 30
         }
       ],
       "Junho/2026": [
         {
           "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
           "valor": 30
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
+          "valor": 30
         }
       ],
       "Julho/2026": [
         {
           "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
+          "valor": 30
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
           "valor": 30
         }
       ]
@@ -23992,6 +24052,42 @@
         {
           "nome": "LETICIA DE FRANÇA LIMA",
           "valor": 30
+        },
+        {
+          "nome": "Mauricio Pedro de Oliveira Junior",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Eduarda Conceicao da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willames Artur da Conceicao Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Thulio Ferreira Andrade Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Amanda da Silva Lima",
+          "valor": 30
+        },
+        {
+          "nome": "Andre Luiz do Nascimento Alves",
+          "valor": 30
+        },
+        {
+          "nome": "Fabiana Valeria da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willyane Milena dos Santos Aquino",
+          "valor": 30
+        },
+        {
+          "nome": "Tiago Lyra da Mota Silva",
+          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -24006,6 +24102,46 @@
         {
           "nome": "LETICIA DE FRANÇA LIMA",
           "valor": 30
+        },
+        {
+          "nome": "Mauricio Pedro de Oliveira Junior",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Eduarda Conceicao da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willames Artur da Conceicao Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Thulio Ferreira Andrade Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Amanda da Silva Lima",
+          "valor": 30
+        },
+        {
+          "nome": "Andre Luiz do Nascimento Alves",
+          "valor": 30
+        },
+        {
+          "nome": "Fabiana Valeria da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willyane Milena dos Santos Aquino",
+          "valor": 30
+        },
+        {
+          "nome": "Tiago Lyra da Mota Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Marcos Igor de Arruda Barros",
+          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -24019,6 +24155,46 @@
         },
         {
           "nome": "LETICIA DE FRANÇA LIMA",
+          "valor": 30
+        },
+        {
+          "nome": "Mauricio Pedro de Oliveira Junior",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Eduarda Conceicao da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willames Artur da Conceicao Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Thulio Ferreira Andrade Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Amanda da Silva Lima",
+          "valor": 30
+        },
+        {
+          "nome": "Andre Luiz do Nascimento Alves",
+          "valor": 30
+        },
+        {
+          "nome": "Fabiana Valeria da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willyane Milena dos Santos Aquino",
+          "valor": 30
+        },
+        {
+          "nome": "Tiago Lyra da Mota Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Marcos Igor de Arruda Barros",
           "valor": 30
         }
       ]
