@@ -17422,6 +17422,32 @@
           "valor": 694.04
         }
       ]
+    },
+    "comercial_corporativo": {
+      "Maio/2026": [
+        {
+          "nome": "Paulo de Tarso Pereira de Melo",
+          "valor": 2083.99
+        },
+        {
+          "nome": "Adelmir Coelho Filho",
+          "valor": 1420.1
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Luiz Mario dos Santos",
+          "valor": 462.39
+        },
+        {
+          "nome": "Paulo de Tarso Pereira de Melo",
+          "valor": 1590.0
+        },
+        {
+          "nome": "Adelmir Coelho Filho",
+          "valor": 898.19
+        }
+      ]
     }
   },
   "epi": {
