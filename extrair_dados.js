@@ -93,14 +93,17 @@ function carregarDetalhesColaborador(pastaDados) {
           email_corporativo: dados.email_corporativo || {},
           impressoras: dados.impressoras || {},
           chip_movel: dados.chip_movel || {},
+          fardamento_novo: dados.fardamento_novo || {},
+          fardamento_substituicao: dados.fardamento_substituicao || {},
+          fardamento_devolucao: dados.fardamento_devolucao || {},
           equipe_pap_nomes: dados.equipe_pap_nomes || {},
         };
       } catch (e) {
-        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, equipe_pap_nomes: {} };
+        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {} };
       }
     }
   }
-  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, equipe_pap_nomes: {} };
+  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {} };
 }
 
 function extrairEstado(pastaDados) {
@@ -279,6 +282,27 @@ function extrairEstado(pastaDados) {
       detalhesColaborador.chip_movel[chave][mes].length
     ) {
       detalhes = detalhesColaborador.chip_movel[chave][mes];
+    } else if (
+      /(fardamento novo|novo fardamento)/i.test(nomeItemLimpo) &&
+      detalhesColaborador.fardamento_novo[chave] &&
+      detalhesColaborador.fardamento_novo[chave][mes] &&
+      detalhesColaborador.fardamento_novo[chave][mes].length
+    ) {
+      detalhes = detalhesColaborador.fardamento_novo[chave][mes];
+    } else if (
+      /fardamento substitui|substitui[çc][ãa]o.*fardamento/i.test(nomeItemLimpo) &&
+      detalhesColaborador.fardamento_substituicao[chave] &&
+      detalhesColaborador.fardamento_substituicao[chave][mes] &&
+      detalhesColaborador.fardamento_substituicao[chave][mes].length
+    ) {
+      detalhes = detalhesColaborador.fardamento_substituicao[chave][mes];
+    } else if (
+      /devolu[çc][ãa]o.*fardamento/i.test(nomeItemLimpo) &&
+      detalhesColaborador.fardamento_devolucao[chave] &&
+      detalhesColaborador.fardamento_devolucao[chave][mes] &&
+      detalhesColaborador.fardamento_devolucao[chave][mes].length
+    ) {
+      detalhes = detalhesColaborador.fardamento_devolucao[chave][mes];
     }
 
     bucket.get(categoria).push({

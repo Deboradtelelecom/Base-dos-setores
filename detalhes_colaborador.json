@@ -25101,5 +25101,214 @@
         "correspondenciaAproximada": false
       }
     ]
-  }
+  },
+  "fardamento_novo": {
+    "contabilidade": {
+      "Julho/2026": [
+        {
+          "nome": "Raquel Jedidja de Souza Gomes",
+          "valor": 136
+        },
+        {
+          "nome": "Maryanalia Carmo da Silva",
+          "valor": 90
+        }
+      ]
+    },
+    "televendas": {
+      "Julho/2026": [
+        {
+          "nome": "Dayane Adrielly da Silva Nascimento",
+          "valor": 136
+        }
+      ]
+    },
+    "manutencao_predial": {
+      "Julho/2026": [
+        {
+          "nome": "Severino Antônio Francisco Júnior",
+          "valor": 45
+        },
+        {
+          "nome": "Jailton Adolfo da Silva",
+          "valor": 45
+        }
+      ]
+    },
+    "engenharia": {
+      "Julho/2026": [
+        {
+          "nome": "Luan Vinicius Neves de Souza",
+          "valor": 136
+        }
+      ]
+    },
+    "logistica": {
+      "Julho/2026": [
+        {
+          "nome": "Luan Kelvyn Barros da Silva",
+          "valor": 136
+        }
+      ]
+    },
+    "estoque": {
+      "Julho/2026": [
+        {
+          "nome": "Willams Baggio da Silva",
+          "valor": 45
+        },
+        {
+          "nome": "Emerson de Oliveira Santos",
+          "valor": 90
+        }
+      ]
+    },
+    "gestao_de_atendimento": {
+      "Julho/2026": [
+        {
+          "nome": "Celio Marcio da Silva",
+          "valor": 45
+        },
+        {
+          "nome": "Lucas Kauã Silva Dos Santos",
+          "valor": 90
+        }
+      ]
+    },
+    "tic": {
+      "Julho/2026": [
+        {
+          "nome": "Allyson Guilherme Dos Santos Cavalcante",
+          "valor": 90
+        },
+        {
+          "nome": "Marcos Antônio da Silva Sobrinho",
+          "valor": 90
+        }
+      ]
+    },
+    "rh": {
+      "Julho/2026": [
+        {
+          "nome": "Darllan Dos Santos Lima",
+          "valor": 90
+        },
+        {
+          "nome": "José Thiago Oliveira da Silva",
+          "valor": 90
+        }
+      ]
+    },
+    "marketing": {
+      "Julho/2026": [
+        {
+          "nome": "Emilly Lopes Alves",
+          "valor": 90
+        }
+      ]
+    },
+    "suporte_da_central": {
+      "Julho/2026": [
+        {
+          "nome": "Évellyn Rayssa Lima de Sousa",
+          "valor": 90
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Julho/2026": [
+        {
+          "nome": "Isabelle Dias Abraão de Souza",
+          "valor": 90
+        },
+        {
+          "nome": "Klinsmann David Amaral Dos Santos",
+          "valor": 90
+        }
+      ]
+    },
+    "financeiro": {
+      "Julho/2026": [
+        {
+          "nome": "João Vitor de Araújo Bezerra",
+          "valor": 90
+        }
+      ]
+    },
+    "cobranca": {
+      "Julho/2026": [
+        {
+          "nome": "Lucas Gabriel Tavares Gomes",
+          "valor": 90
+        },
+        {
+          "nome": "Marianny Vitória Silva de Oliveira",
+          "valor": 90
+        }
+      ]
+    },
+    "fique_movel": {
+      "Julho/2026": [
+        {
+          "nome": "Maria Clara da Costa Alves",
+          "valor": 90
+        }
+      ]
+    },
+    "compras": {
+      "Julho/2026": [
+        {
+          "nome": "Vinicius Santana de Lima Miranda",
+          "valor": 90
+        }
+      ]
+    },
+    "comercial_corporativo": {
+      "Julho/2026": [
+        {
+          "nome": "Leonardo Alves Bezerra Sandres",
+          "valor": 90
+        }
+      ]
+    }
+  },
+  "fardamento_substituicao": {
+    "manutencao_predial": {
+      "Julho/2026": [
+        {
+          "nome": "Glauco Matheus da Cruz Silva",
+          "valor": 45
+        }
+      ]
+    },
+    "suporte_orbix": {
+      "Julho/2026": [
+        {
+          "nome": "Sostenes Matheus Lima e Silva",
+          "valor": 68
+        }
+      ]
+    },
+    "servicos_gerais": {
+      "Julho/2026": [
+        {
+          "nome": "Marluce Maria de Oliveira",
+          "valor": 120
+        },
+        {
+          "nome": "Marluce Maria de Oliveira",
+          "valor": 122.5
+        },
+        {
+          "nome": "Maria Jose Gomes de Moura",
+          "valor": 120
+        },
+        {
+          "nome": "Maria Jose Gomes de Moura",
+          "valor": 122.5
+        }
+      ]
+    }
+  },
+  "fardamento_devolucao": {}
 }
