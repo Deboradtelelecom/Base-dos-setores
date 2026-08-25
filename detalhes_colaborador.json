@@ -22417,6 +22417,26 @@
           "nome": "Sammuel Deyvson da Silva Santos",
           "valor": 50
         }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "Joelmyr Fabio",
+          "valor": 50
+        },
+        {
+          "nome": "Mikaelle Maria de Souza Silva",
+          "valor": 50
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Joelmyr Fabio",
+          "valor": 50
+        },
+        {
+          "nome": "Mikaelle Maria de Souza Silva",
+          "valor": 50
+        }
       ]
     },
     "gestao_de_atendimento": {
@@ -22747,6 +22767,34 @@
         },
         {
           "nome": "KELLY SABRINA NUNES DUARTE",
+          "valor": 50
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "Nailza Moreira da Silva",
+          "valor": 50
+        },
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 50
+        },
+        {
+          "nome": "Gabriel Bernardes Agostinho da Silva",
+          "valor": 50
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Nailza Moreira da Silva",
+          "valor": 50
+        },
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 50
+        },
+        {
+          "nome": "Gabriel Bernardes Agostinho da Silva",
           "valor": 50
         }
       ]
