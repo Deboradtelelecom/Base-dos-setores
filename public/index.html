@@ -14,16 +14,22 @@
   * { box-sizing:border-box; }
   body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); }
   main { max-width:900px; margin:0 auto; padding:40px 24px 60px; }
+  .topo { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; }
   h1 { font-size:22px; font-weight:800; color:#fff; margin:0 0 6px; }
   p.sub { font-size:13px; color:var(--slate-500); margin:0 0 26px; }
+  a.atalho-resumo { display:flex; align-items:center; gap:6px; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:9px 14px; text-decoration:none; color:var(--slate-800); font-size:12.5px; font-weight:700; white-space:nowrap; transition:border-color .15s, background .15s; }
+  a.atalho-resumo:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
   .status { font-size:11px; font-family:var(--mono); color:var(--slate-500); margin-bottom:20px; }
+  .contador { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
+  .categoria-titulo { font-size:12px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--slate-500); margin:22px 0 10px; }
+  .categoria-titulo:first-of-type { margin-top:0; }
   .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
   a.card { display:flex; align-items:center; gap:10px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; text-decoration:none; color:var(--slate-800); transition:border-color .15s, background .15s; }
   a.card:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
   a.card .icon { font-size:20px; }
   a.card .nome { font-size:13px; font-weight:700; }
   .erro { color:#f87171; font-size:12.5px; }
-  .busca-wrap { position:relative; margin-bottom:18px; }
+  .busca-wrap { position:relative; margin-bottom:14px; }
   .busca-wrap .lupa { position:absolute; left:14px; top:50%; transform:translateY(-50%); font-size:14px; color:var(--slate-500); pointer-events:none; }
   #busca { width:100%; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:11px 14px 11px 38px; font-size:13.5px; color:var(--slate-800); outline:none; transition:border-color .15s; }
   #busca:focus { border-color:var(--blue-accent); }
@@ -33,14 +39,20 @@
 </head>
 <body>
 <main>
-  <h1>Plataforma de Rateio de Custos</h1>
-  <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos.</p>
+  <div class="topo">
+    <div>
+      <h1>Plataforma de Rateio de Custos</h1>
+      <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos.</p>
+    </div>
+    <a class="atalho-resumo" href="/resumo"><span>📋</span><span>Resumo dos Setores</span></a>
+  </div>
   <div class="status" id="status">Carregando lista de setores…</div>
   <div class="busca-wrap">
     <span class="lupa">🔎</span>
     <input type="text" id="busca" placeholder="Buscar setor…" autocomplete="off">
   </div>
-  <div class="grid" id="grid"></div>
+  <div class="contador" id="contador"></div>
+  <div id="conteudo"></div>
 </main>
 <script>
 // Endereço do servidor local — usado sempre, mesmo se este arquivo for
@@ -54,27 +66,77 @@ function normalizar(txt) {
   return (txt || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
-function renderGrid(itens) {
-  const grid = document.getElementById('grid');
-  grid.innerHTML = '';
+// Agrupamento visual por categoria, só pra facilitar a leitura da lista —
+// não muda nenhum link nem nenhum dado, é puramente de organização da tela.
+// Dentro de cada categoria os cards continuam em ordem alfabética.
+const ORDEM_CATEGORIAS = ['Comercial e Atendimento', 'Operações e Suporte Técnico', 'Administrativo e Financeiro', 'Visão Geral'];
+
+function renderConteudo(itens) {
+  const conteudo = document.getElementById('conteudo');
+  conteudo.innerHTML = '';
+  document.getElementById('contador').textContent = itens.length === 1 ? '1 setor' : itens.length + ' setores';
   if (itens.length === 0) {
-    grid.innerHTML = '<div class="sem-resultado">Nenhum setor encontrado.</div>';
+    conteudo.innerHTML = '<div class="sem-resultado">Nenhum setor encontrado.</div>';
     return;
   }
-  itens.forEach((s) => {
-    const a = document.createElement('a');
-    a.className = 'card';
-    a.href = s.href;
-    a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
-    grid.appendChild(a);
+  ORDEM_CATEGORIAS.forEach((categoria) => {
+    const doGrupo = itens.filter((s) => s.categoria === categoria);
+    if (doGrupo.length === 0) return;
+    const titulo = document.createElement('div');
+    titulo.className = 'categoria-titulo';
+    titulo.textContent = categoria;
+    conteudo.appendChild(titulo);
+    const grid = document.createElement('div');
+    grid.className = 'grid';
+    doGrupo.forEach((s) => {
+      const a = document.createElement('a');
+      a.className = 'card';
+      a.href = s.href;
+      a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
+      grid.appendChild(a);
+    });
+    conteudo.appendChild(grid);
   });
 }
 
 function filtrar(termo) {
   const t = normalizar(termo.trim());
-  if (!t) return renderGrid(TODOS_ITENS);
-  renderGrid(TODOS_ITENS.filter((s) => normalizar(s.nome).includes(t)));
+  if (!t) return renderConteudo(TODOS_ITENS);
+  renderConteudo(TODOS_ITENS.filter((s) => normalizar(s.nome).includes(t)));
 }
+
+// Categoria de cada setor — mapeamento manual (por slug ou nome dos itens
+// especiais), pensado pro contexto de negócio da Dtel: quem atende
+// cliente/vende de um lado, quem executa operação/suporte técnico do outro,
+// e quem é estrutura administrativa/financeira interna.
+const CATEGORIA_POR_SLUG = {
+  cac: 'Comercial e Atendimento',
+  comercial_corporativo: 'Comercial e Atendimento',
+  gestao_de_atendimento: 'Comercial e Atendimento',
+  backoffice_comercial_varejo: 'Comercial e Atendimento',
+  marketing: 'Comercial e Atendimento',
+  fique_movel: 'Comercial e Atendimento',
+
+  coe: 'Operações e Suporte Técnico',
+  compras: 'Operações e Suporte Técnico',
+  estoque: 'Operações e Suporte Técnico',
+  logistica: 'Operações e Suporte Técnico',
+  noc: 'Operações e Suporte Técnico',
+  oficina: 'Operações e Suporte Técnico',
+  qualidade: 'Operações e Suporte Técnico',
+  seguranca_do_trabalho: 'Operações e Suporte Técnico',
+  tic: 'Operações e Suporte Técnico',
+
+  administrativo: 'Administrativo e Financeiro',
+  contabilidade: 'Administrativo e Financeiro',
+  controladoria: 'Administrativo e Financeiro',
+  dp: 'Administrativo e Financeiro',
+  diretoria_adm: 'Administrativo e Financeiro',
+  diretoria_operacional: 'Administrativo e Financeiro',
+  financeiro: 'Administrativo e Financeiro',
+  juridico: 'Administrativo e Financeiro',
+  rh: 'Administrativo e Financeiro',
+};
 
 async function carregar() {
   const statusEl = document.getElementById('status');
@@ -96,17 +158,18 @@ async function carregar() {
 
     // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
     // (são visões diferentes: uma agregada, outra por equipe de vendas em vez
-    // de setor) — mas a Débora prefere ver todos juntos, em ordem alfabética,
-    // em vez de destacados à parte. Entram na mesma lista, com link próprio.
+    // de setor) — mas a Débora prefere ver todos juntos, em ordem alfabética
+    // dentro de cada categoria, em vez de destacados à parte.
     const itens = data.setores
       .filter((s) => !SLUGS_AGRUPADOS.has(s.slug))
       .map((s) => ({
         nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
+        categoria: CATEGORIA_POR_SLUG[s.slug] || 'Administrativo e Financeiro',
       }));
-    itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento' });
-    itens.push({ nome: 'Engenharia (grupo)', icone: '🏗️', href: API_BASE + '/engenharia-grupo' });
-    itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo' });
-    itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo' });
+    itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Engenharia (grupo)', icone: '🏗️', href: API_BASE + '/engenharia-grupo', categoria: 'Operações e Suporte Técnico' });
+    itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo', categoria: 'Visão Geral' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
     TODOS_ITENS = itens;
