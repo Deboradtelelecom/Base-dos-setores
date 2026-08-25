@@ -19,11 +19,14 @@
   main { max-width:920px; margin:0 auto; padding:32px 28px 60px; }
   a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
   a.voltar:hover { color:var(--blue-accent); }
-  .setor-nav { display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:14px; }
-  .setor-nav button { display:flex; align-items:center; gap:6px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-700); font-size:12px; font-weight:700; font-family:var(--mono); border-radius:9px; padding:7px 12px; cursor:pointer; transition:border-color .15s, color .15s; }
-  .setor-nav button:hover:not(:disabled) { border-color:var(--blue-accent); color:var(--blue-accent); }
+  .setor-nav { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-bottom:18px; padding-bottom:14px; border-bottom:1px solid var(--border); }
+  .setor-nav button { display:flex; align-items:center; gap:6px; background:none; border:none; color:var(--slate-500); font-size:12.5px; font-weight:600; font-family:inherit; padding:0; cursor:pointer; transition:color .15s; }
+  .setor-nav button:hover:not(:disabled) { color:var(--blue-accent); }
   .setor-nav button:disabled { opacity:.35; cursor:default; }
-  .setor-nav .setor-nav-pos { font-size:11px; color:var(--slate-500); font-family:var(--mono); white-space:nowrap; }
+  .setor-nav button .seta { width:14px; height:14px; flex-shrink:0; }
+  .setor-nav button .nome-vizinho { font-size:11px; color:var(--slate-400); }
+  .setor-nav .setor-nav-pos { font-size:12.5px; font-weight:700; color:var(--slate-700); font-family:var(--mono); white-space:nowrap; }
+  .setor-nav .setor-nav-pos span { color:var(--blue-accent); }
   .top-badge { display:inline-flex; align-items:center; gap:8px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); color:var(--blue-accent); font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:6px 12px; border-radius:999px; font-family:var(--mono); margin-bottom:18px; }
   .top-badge .dot { width:7px; height:7px; border-radius:50%; background:var(--good); animation:pulse 1.6s infinite; }
   @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.35;} }
@@ -119,9 +122,15 @@
 <main>
   <a class="voltar" href="/">&larr; Todos os setores</a>
   <div class="setor-nav" id="setorNav" style="display:none;">
-    <button id="btnSetorAnterior" title="Setor anterior">&larr; Anterior</button>
-    <span class="setor-nav-pos" id="setorNavPos">—</span>
-    <button id="btnSetorProximo" title="Próximo setor">Próximo &rarr;</button>
+    <button id="btnSetorAnterior" title="Setor anterior">
+      <svg class="seta" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>
+      Anterior <span class="nome-vizinho" id="setorNavNomeAnterior"></span>
+    </button>
+    <div class="setor-nav-pos" id="setorNavPos">—</div>
+    <button id="btnSetorProximo" title="Próximo setor">
+      <span class="nome-vizinho" id="setorNavNomeProximo"></span> Próximo
+      <svg class="seta" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path></svg>
+    </button>
   </div>
   <div class="period-row" style="margin-top:0; justify-content:flex-end;">
     <span class="status-txt" id="statusTxt">—</span>
@@ -648,7 +657,9 @@ async function iniciarNavegacaoSetores() {
     document.getElementById('btnSetorProximo').onclick = () => { window.location.href = '/setor/' + encodeURIComponent(proximo.slug); };
     document.getElementById('btnSetorAnterior').title = 'Setor anterior: ' + anterior.nome;
     document.getElementById('btnSetorProximo').title = 'Próximo setor: ' + proximo.nome;
-    document.getElementById('setorNavPos').textContent = 'Setor ' + (idx + 1) + ' de ' + lista.length;
+    document.getElementById('setorNavNomeAnterior').textContent = '(' + anterior.nome + ')';
+    document.getElementById('setorNavNomeProximo').textContent = '(' + proximo.nome + ')';
+    document.getElementById('setorNavPos').innerHTML = 'Setor <span>' + (idx + 1) + '</span> de ' + lista.length;
     document.getElementById('setorNav').style.display = 'flex';
   } catch (e) {
     // Se a lista de setores não carregar, a página continua funcionando
