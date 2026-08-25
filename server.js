@@ -165,6 +165,10 @@ app.get('/engenharia-grupo', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'engenharia.html'));
 });
 
+app.get('/gestao-atendimento', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'gestao-atendimento.html'));
+});
+
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
