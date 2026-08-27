@@ -119,6 +119,7 @@ function extrairEstado(pastaDados) {
   const wsCustos = wb.Sheets['CUSTOS MENSAIS'];
   const wsParametros = wb.Sheets['PARÂMETROS'];
   const wsComercialVarejo = wb.Sheets['COMERCIAL VAREJO'];
+  const wsReembolsoGeral = wb.Sheets['REEMBOLSO GERAL'];
   if (!wsSetores || !wsCustos) {
     throw new Error("Abas 'SETORES' e/ou 'CUSTOS MENSAIS' não encontradas na planilha.");
   }
@@ -362,8 +363,36 @@ function extrairEstado(pastaDados) {
   });
 
   const comercialVarejo = wsComercialVarejo ? extrairComercialVarejo(wsComercialVarejo, detalhesColaborador) : null;
+  const reembolsoGeral = wsReembolsoGeral ? extrairReembolsoGeral(wsReembolsoGeral) : null;
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, arquivoUsado: path.basename(caminho) };
+}
+
+// Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso
+// Geral, outro sistema da Débora, que consolida reembolsos entre a Dtel e as
+// empresas licenciadas com uma linha por Mês/Setor/Empresa/Descrição). Aqui
+// só lemos e devolvemos a lista já pronta (Mês, Setor, Descrição, Empresa,
+// Quantidade, Valor Unitário, Valor Total, Observação) — cabeçalho fixo na
+// linha 4, dados a partir da linha 5 (ver comercial-varejo-vendas-ha-loja-pap
+// / plataformas-editaveis-rateio-financeiro no histórico do projeto).
+function extrairReembolsoGeral(ws) {
+  const linhas = XLSX.utils.sheet_to_json(ws, { header: 1, range: 4, defval: null });
+  const registros = [];
+  for (const r of linhas) {
+    const [mes, setor, descricao, empresa, quantidade, valorUnitario, valorTotal, observacao] = r;
+    if (!mes) continue;
+    registros.push({
+      mes: String(mes),
+      setor: setor || '',
+      descricao: descricao || '',
+      empresa: empresa || '',
+      quantidade: Number(quantidade) || 0,
+      valorUnitario: Number(valorUnitario) || 0,
+      valorTotal: Number(valorTotal) || 0,
+      observacao: observacao || '',
+    });
+  }
+  return registros;
 }
 
 // Aba "COMERCIAL VAREJO" — estrutura diferente das outras (não é por Setor,

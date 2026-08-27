@@ -210,9 +210,7 @@ function toggleEquipeNomes(rowId, eq) {
     } else {
       empresaHtml = `<span class="sem-custo">não encontrado na folha</span>`;
     }
-    const aviso = p.correspondenciaAproximada
-      ? '<span class="origem" style="color:var(--warn);">correspondência aproximada na folha (grafia diferente)</span>' : '';
-    return `<div class="item-detalhe"><span class="desc">${p.nome}${aviso}</span><span class="valor">${empresaHtml}</span></div>`;
+    return `<div class="item-detalhe"><span class="desc">${p.nome}</span><span class="valor">${empresaHtml}</span></div>`;
   }).join('');
 }
 

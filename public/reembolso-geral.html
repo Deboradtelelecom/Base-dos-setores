@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reembolso Geral — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e; --warn: #f59e0b;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1180px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:680px; }
+
+  .period-row { display:flex; justify-content:flex-end; align-items:center; margin:0 0 18px; gap:12px; flex-wrap:wrap; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .filtros { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:18px; }
+  .filtro { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
+  .filtro-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
+  .filtro select, .filtro input { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
+  .filtro input { cursor:text; font-weight:500; min-width:160px; }
+
+  .totais-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin-bottom:18px; }
+  .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
+  .total-card .val { font-size:17px; font-weight:800; color:#fff; font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 22px 22px; margin-bottom:18px; }
+  .grupo-setor { border-bottom:1px solid var(--border-soft); }
+  .grupo-setor:last-child { border-bottom:none; }
+  .grupo-header { display:flex; align-items:center; justify-content:space-between; padding:12px 0; cursor:pointer; }
+  .grupo-header:hover { opacity:.85; }
+  .grupo-header .esq { display:flex; align-items:center; gap:10px; }
+  .seta { display:inline-block; font-size:10px; color:var(--slate-500); transition:transform .15s; width:12px; }
+  .seta.aberto { transform:rotate(90deg); }
+  .grupo-nome { font-size:14px; font-weight:800; color:#fff; }
+  .grupo-count { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  .grupo-total { font-weight:700; color:#fff; font-family:var(--mono); font-size:13.5px; }
+
+  .grupo-corpo { display:none; padding-bottom:10px; overflow-x:auto; }
+  .grupo-corpo.aberto { display:block; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:820px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
+  tbody td.empresa-tag-cell { white-space:nowrap; }
+  .empresa-tag { display:inline-block; font-size:10.5px; font-weight:700; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 8px; border-radius:999px; white-space:nowrap; }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  tbody td.obs { color:var(--slate-500); font-size:11.5px; max-width:280px; }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+  .vazio { color:var(--slate-500); font-size:12.5px; padding:16px 0; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <div class="period-row">
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+  <div class="header-row">
+    <span class="icon">🔁</span>
+    <div>
+      <h1>Reembolso Geral</h1>
+      <p>Custos consolidados de reembolso entre a Dtel e as empresas licenciadas — extraído da Base Geral 2026, aba "Reembolso Geral", organizado por Setor e Empresa.</p>
+    </div>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="filtros">
+      <div class="filtro">
+        <span class="filtro-label">Competência</span>
+        <select id="fMes" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Setor</span>
+        <select id="fSetor" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Empresa</span>
+        <select id="fEmpresa" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Buscar</span>
+        <input id="fBusca" type="text" placeholder="descrição do custo…" oninput="renderTudo()">
+      </div>
+    </div>
+
+    <div class="totais-cards" id="totaisCards"></div>
+
+    <div class="section-card">
+      <div id="grupos"></div>
+      <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte original: Base Geral 2026.xlsx (aba Reembolso Geral) — esta tela é só de consulta; a edição continua sendo feita na planilha original. Clique no nome de um setor para abrir/fechar o detalhamento.</p>
+  </div>
+</main>
+<script>
+const API_BASE = '';
+let REGISTROS = [];
+let GRUPOS_ABERTOS = {};
+
+function fmtBRL(n) {
+  return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function popularSelect(id, valores, comTodos) {
+  const sel = document.getElementById(id);
+  const valorAnterior = sel.value;
+  sel.innerHTML = '';
+  if (comTodos) {
+    const opt = document.createElement('option');
+    opt.value = ''; opt.textContent = 'Todos';
+    sel.appendChild(opt);
+  }
+  valores.forEach((v) => {
+    const opt = document.createElement('option');
+    opt.value = v; opt.textContent = v;
+    sel.appendChild(opt);
+  });
+  if (valorAnterior && [...sel.options].some(o => o.value === valorAnterior)) {
+    sel.value = valorAnterior;
+  }
+}
+
+function toggleGrupo(setor) {
+  GRUPOS_ABERTOS[setor] = !GRUPOS_ABERTOS[setor];
+  renderTudo();
+}
+
+function renderTudo() {
+  const mes = document.getElementById('fMes').value;
+  const setorFiltro = document.getElementById('fSetor').value;
+  const empresaFiltro = document.getElementById('fEmpresa').value;
+  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
+
+  let filtrados = REGISTROS.filter(r => {
+    if (mes && r.mes !== mes) return false;
+    if (setorFiltro && r.setor !== setorFiltro) return false;
+    if (empresaFiltro && r.empresa !== empresaFiltro) return false;
+    if (busca && !(r.descricao || '').toLowerCase().includes(busca) && !(r.observacao || '').toLowerCase().includes(busca)) return false;
+    return true;
+  });
+
+  // Cards de totais
+  const totalGeral = filtrados.reduce((s, r) => s + (r.valorTotal || 0), 0);
+  const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
+  const setoresEnvolvidos = new Set(filtrados.map(r => r.setor).filter(Boolean));
+  document.getElementById('totaisCards').innerHTML = `
+    <div class="total-card"><div class="lbl">Total no filtro</div><div class="val">${fmtBRL(totalGeral)}</div></div>
+    <div class="total-card"><div class="lbl">Registros</div><div class="val">${filtrados.length}</div></div>
+    <div class="total-card"><div class="lbl">Setores</div><div class="val">${setoresEnvolvidos.size}</div></div>
+    <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
+  `;
+
+  // Agrupa por setor
+  const porSetor = {};
+  filtrados.forEach(r => {
+    const k = r.setor || '(sem setor)';
+    if (!porSetor[k]) porSetor[k] = [];
+    porSetor[k].push(r);
+  });
+  const setoresOrdenados = Object.keys(porSetor).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+
+  const gruposEl = document.getElementById('grupos');
+  document.getElementById('vazioMsg').style.display = setoresOrdenados.length ? 'none' : 'block';
+
+  gruposEl.innerHTML = setoresOrdenados.map((setor) => {
+    const itens = porSetor[setor].slice().sort((a, b) => (a.empresa || '').localeCompare(b.empresa || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
+    const totalSetor = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
+    const aberto = !!GRUPOS_ABERTOS[setor];
+    const linhas = itens.map(r => `
+      <tr>
+        <td>${r.mes || ''}</td>
+        <td class="empresa-tag-cell"><span class="empresa-tag">${r.empresa || '—'}</span></td>
+        <td>${r.descricao || ''}</td>
+        <td class="val">${r.quantidade ? r.quantidade.toLocaleString('pt-BR') : '—'}</td>
+        <td class="val">${fmtBRL(r.valorUnitario)}</td>
+        <td class="val">${fmtBRL(r.valorTotal)}</td>
+        <td class="obs">${r.observacao || ''}</td>
+      </tr>
+    `).join('');
+    return `
+      <div class="grupo-setor">
+        <div class="grupo-header" data-setor-toggle>
+          <div class="esq">
+            <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
+            <span class="grupo-nome">${setor}</span>
+            <span class="grupo-count">${itens.length} registro${itens.length === 1 ? '' : 's'}</span>
+          </div>
+          <span class="grupo-total">${fmtBRL(totalSetor)}</span>
+        </div>
+        <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
+          <table>
+            <thead><tr><th>Mês</th><th>Empresa</th><th>Descrição do Custo</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
+            <tbody>${linhas}</tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  // Não usamos onclick inline com o nome do setor interpolado (nomes com
+  // aspas/acentos podiam quebrar o atributo HTML e travar o clique) — em vez
+  // disso, guardamos o nome do setor num array na mesma ordem dos elementos
+  // e escutamos o clique via addEventListener.
+  const headers = gruposEl.querySelectorAll('[data-setor-toggle]');
+  headers.forEach((el, i) => {
+    el.addEventListener('click', () => toggleGrupo(setoresOrdenados[i]));
+  });
+}
+
+async function buscarDados() {
+  try {
+    const resp = await fetch(API_BASE + '/api/reembolso-geral');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    REGISTROS = data.registros || [];
+    document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
+
+    const meses = [...new Set(REGISTROS.map(r => r.mes))];
+    const setores = [...new Set(REGISTROS.map(r => r.setor).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+    const empresas = [...new Set(REGISTROS.map(r => r.empresa).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+    popularSelect('fMes', meses, true);
+    popularSelect('fSetor', setores, true);
+    popularSelect('fEmpresa', empresas, true);
+    if (!document.getElementById('fMes').value && meses.length) {
+      document.getElementById('fMes').value = meses[meses.length - 1];
+    }
+
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = '';
+    renderTudo();
+  } catch (e) {
+    document.getElementById('erroBox').style.display = 'block';
+    document.getElementById('erroBox').textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscarDados();
+setInterval(buscarDados, 300000); // re-busca a cada 5 min
+</script>
+</body>
+</html>

@@ -143,6 +143,26 @@ app.get('/api/comercial-varejo', async (req, res) => {
   }
 });
 
+// Aba "REEMBOLSO GERAL" — dados extraídos da Base Geral 2026.xlsx (outro
+// sistema da Débora, que consolida os reembolsos entre a Dtel e as empresas
+// licenciadas por Mês/Setor/Empresa). Devolve a lista completa; a página faz
+// os filtros e totais no navegador.
+app.get('/api/reembolso-geral', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    if (!estado.reembolsoGeral) {
+      return res.status(404).json({ erro: "Aba 'REEMBOLSO GERAL' não encontrada na planilha." });
+    }
+    res.json({
+      registros: estado.reembolsoGeral,
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -167,6 +187,10 @@ app.get('/engenharia-grupo', (req, res) => {
 
 app.get('/gestao-atendimento', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'gestao-atendimento.html'));
+});
+
+app.get('/reembolso-geral', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'reembolso-geral.html'));
 });
 
 app.get('/', (req, res) => {
