@@ -195,7 +195,7 @@ function renderTudo() {
         <td>${r.mes || ''}</td>
         <td class="empresa-tag-cell"><span class="empresa-tag">${r.empresa || '—'}</span></td>
         <td>${r.descricao || ''}</td>
-        <td class="val">${r.quantidade ? r.quantidade.toLocaleString('pt-BR') : '—'}</td>
+        <td class="val">${r.quantidade ? String(Math.round(r.quantidade)) : '—'}</td>
         <td class="val">${fmtBRL(r.valorUnitario)}</td>
         <td class="val">${fmtBRL(r.valorTotal)}</td>
         <td class="obs">${r.observacao || ''}</td>
