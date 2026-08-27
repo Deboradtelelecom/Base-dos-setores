@@ -72,6 +72,13 @@
   .seta { display:inline-block; margin-right:6px; font-size:10px; color:var(--slate-500); transition:transform .15s; }
   .seta.aberto { transform:rotate(90deg); }
 
+  .empresa-detalhe-grupo { border-bottom:1px dashed var(--border-soft); }
+  .empresa-detalhe-grupo:last-child { border-bottom:none; }
+  .item-detalhe.empresa-clicavel { cursor:pointer; border-bottom:none; padding:6px 0; }
+  .item-detalhe.empresa-clicavel:hover .desc { color:#fff; }
+  .empresa-itens { padding-left:18px; }
+  .empresa-itens .item-detalhe { padding-left:8px; }
+
   .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
   .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
 </style>
@@ -262,7 +269,7 @@ function toggleDetalhe(rowId, coordenador, empresa, mes) {
   seta.classList.toggle('aberto');
   if (!abrindo) return;
   const wrap = document.getElementById('wrap-' + rowId);
-  const linhaResumo = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === coordenador && x.empresa === empresa && x.mes === mes);
+  const linhaResumo = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === coordenador && x.mes === mes);
   const itens = DADOS.custosDiretos.filter(c => c.coordenador === coordenador && c.mes === mes);
 
   let html = '';
@@ -270,18 +277,45 @@ function toggleDetalhe(rowId, coordenador, empresa, mes) {
     html += `<div class="item-detalhe"><span class="desc">Receita de Vendas</span><span class="valor">${fmtBRL(linhaResumo.receitaVendas)}</span></div>`;
     html += `<div class="item-detalhe"><span class="desc">Receita de Upgrade</span><span class="valor">${fmtBRL(linhaResumo.receitaUpgrade)}</span></div>`;
   }
+
+  // Agrupa os itens de custo por empresa — cada empresa vira sua própria
+  // seta clicável, com a descrição dos custos dos colaboradores daquela
+  // empresa dentro do time do coordenador.
+  const empresas = [];
+  itens.forEach(it => { if (!empresas.includes(it.empresa)) empresas.push(it.empresa); });
+
   if (!itens.length) {
     html += '<div class="item-detalhe"><span class="desc">Nenhum item de custo rateado encontrado para esta equipe neste mês.</span></div>';
   } else {
-    html += itens.map(it => {
-      const origemClasse = /real/i.test(it.origem) ? 'origem-real' : 'origem-estimado';
-      return `<div class="item-detalhe">
-        <span class="desc">${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem}</span></span>
-        <span class="valor">${fmtBRL(it.valor)}</span>
+    html += empresas.map((emp, i) => {
+      const empId = rowId + '-emp-' + i;
+      const itensEmpresa = itens.filter(it => it.empresa === emp);
+      const totalEmpresa = itensEmpresa.reduce((s, it) => s + (it.valor || 0), 0);
+      const itensHtml = itensEmpresa.map(it => {
+        const origemClasse = /real/i.test(it.origem) ? 'origem-real' : 'origem-estimado';
+        return `<div class="item-detalhe">
+          <span class="desc">${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem}</span></span>
+          <span class="valor">${fmtBRL(it.valor)}</span>
+        </div>`;
+      }).join('');
+      return `<div class="empresa-detalhe-grupo">
+        <div class="item-detalhe empresa-clicavel" onclick="toggleEmpresaDetalhe('${empId}')">
+          <span class="desc"><span class="seta seta-empresa" id="seta-${empId}">▶</span><span class="empresa-tag">${emp}</span></span>
+          <span class="valor">${fmtBRL(totalEmpresa)}</span>
+        </div>
+        <div class="empresa-itens" id="itens-${empId}" style="display:none;">${itensHtml}</div>
       </div>`;
     }).join('');
   }
   wrap.innerHTML = html;
+}
+
+function toggleEmpresaDetalhe(empId) {
+  const seta = document.getElementById('seta-' + empId);
+  const itensWrap = document.getElementById('itens-' + empId);
+  const aberto = itensWrap.style.display !== 'none';
+  itensWrap.style.display = aberto ? 'none' : 'block';
+  seta.classList.toggle('aberto', !aberto);
 }
 
 function renderKpis(mes) {

@@ -410,7 +410,15 @@ function renderCategoriaChart(canvasId, porMes) {
   mesesDisponiveis.forEach((m) => {
     porMes[m].categorias.forEach((c) => { if (!categorias.includes(c.categoria)) categorias.push(c.categoria); });
   });
-  const datasets = categorias.map((cat, i) => {
+  // Só entram categorias com pelo menos um valor real em algum mês — categoria
+  // sem nenhum dado não aparece como uma linha "zerada" atrapalhando o gráfico.
+  const categoriasComValor = categorias.filter((cat) => {
+    return mesesDisponiveis.some((m) => {
+      const porCat = new Map((porMes[m].categorias || []).map((c) => [c.categoria, c.total]));
+      return (porCat.get(cat) || 0) > 0;
+    });
+  });
+  const datasets = categoriasComValor.map((cat, i) => {
     const cor = CAT_COR[i % CAT_COR.length];
     return {
       label: cat,
@@ -419,12 +427,14 @@ function renderCategoriaChart(canvasId, porMes) {
         return porCat.get(cat) || 0;
       }),
       borderColor: cor, backgroundColor: cor,
-      tension: 0.35, borderWidth: 2.5, pointRadius: 4, pointHoverRadius: 6, fill: false,
     };
   });
   const ctx = canvas.getContext("2d");
   _categoriaCharts[canvasId] = new Chart(ctx, {
-    type: "line",
+    // Voltou a ser gráfico de barras agrupadas (uma barra por mês, dentro de
+    // cada categoria) — é o formato comparativo que a Débora pediu de volta;
+    // a versão em linha dificultava comparar os meses lado a lado.
+    type: "bar",
     data: { labels: mesesDisponiveis.map((m) => MESES_ABREV[m] || m), datasets },
     options: {
       responsive: true, maintainAspectRatio: false,
@@ -434,7 +444,8 @@ function renderCategoriaChart(canvasId, porMes) {
       },
       scales: {
         x: { grid: { display: false }, ticks: { color: "#c3ccdc", font: { size: 12 } }, border: { color: "#1b2333" } },
-        y: { grid: { color: "rgba(255,255,255,0.06)" }, ticks: { color: "#8291ab", font: { size: 10 }, callback: (v) => fmtBRL(v) }, border: { color: "#1b2333" } }
+        // Sem linhas de grade no eixo Y — a Débora achou que atrapalhavam a leitura.
+        y: { grid: { display: false }, ticks: { color: "#8291ab", font: { size: 10 }, callback: (v) => fmtBRL(v) }, border: { color: "#1b2333" } }
       }
     }
   });
