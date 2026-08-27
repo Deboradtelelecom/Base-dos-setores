@@ -48,6 +48,9 @@
   .period-selector-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
   .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
   .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  .top-stat { display:flex; align-items:baseline; gap:6px; font-size:12px; color:var(--slate-500); }
+  .top-stat .top-stat-value { color:#fff; font-weight:800; font-size:15px; font-family:var(--mono); }
+  .top-stat .unidade { font-size:11px; color:var(--slate-500); font-weight:400; }
 
   .kpi-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-bottom:22px; }
   @media (max-width:760px) { .kpi-grid { grid-template-columns:1fr; } }
@@ -119,7 +122,8 @@
 <body>
 <main>
   <a class="voltar" href="/">&larr; Todos os setores</a>
-  <div class="period-row" style="margin-top:0; justify-content:flex-end;">
+  <div class="period-row" style="margin-top:0; justify-content:flex-end; align-items:center; gap:20px;">
+    <span class="top-stat">Custo Unitário do Setor: <span class="top-stat-value">R$ <span id="setorCustoUnitario">0,00</span></span> <span class="unidade">/ un</span></span>
     <span class="status-txt" id="statusTxt">—</span>
   </div>
 
@@ -157,12 +161,10 @@
     </div>
 
     <div class="kpi-grid">
-      <div class="card">
+      <div class="card" id="grupoCustoUnicoCard" style="display:none;">
         <div>
-          <p class="label">Custo Unitário do Setor</p>
-          <p class="value">R$ <span id="setorCustoUnitario">0,00</span> <span class="unidade">/ un</span></p>
-          <p class="label" id="grupoCustoUnicoLabel" style="margin-top:14px; display:none;">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
-          <p class="value" id="grupoCustoUnicoWrap" style="font-size:20px; display:none;">R$ 0,00 <span class="unidade">/ un</span></p>
+          <p class="label">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
+          <p class="value" id="grupoCustoUnicoWrap">R$ 0,00 <span class="unidade">/ un</span></p>
         </div>
         <p class="footnote" id="setorCustoUnitarioFootnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
       </div>
@@ -371,6 +373,10 @@ const rotuloDadosMultiPlugin = {
 // Recebe SETOR.porMes inteiro (todos os meses) e monta um gráfico de barras
 // agrupadas — uma barra por mês, dentro de cada categoria — para permitir o
 // comparativo entre os meses, em vez de mostrar só o mês selecionado.
+const CAT_COR = ["#4f9cf9", "#22c55e", "#f59e0b", "#ef4444", "#a78bfa", "#f472b6", "#2dd4bf", "#facc15", "#fb923c", "#60a5fa"];
+// Versão em linha de tendência (experimental, a pedido da Débora, pra comparar
+// com o gráfico de barras que existia antes): eixo X = meses, uma linha por
+// categoria, mostrando como o custo de cada categoria evoluiu mês a mês.
 function renderCategoriaChart(canvasId, porMes) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
@@ -381,30 +387,31 @@ function renderCategoriaChart(canvasId, porMes) {
   mesesDisponiveis.forEach((m) => {
     porMes[m].categorias.forEach((c) => { if (!categorias.includes(c.categoria)) categorias.push(c.categoria); });
   });
-  const datasets = mesesDisponiveis.map((m) => {
-    const porCat = new Map((porMes[m].categorias || []).map((c) => [c.categoria, c.total]));
+  const datasets = categorias.map((cat, i) => {
+    const cor = CAT_COR[i % CAT_COR.length];
     return {
-      label: MESES_ABREV[m] || m,
-      data: categorias.map((cat) => porCat.get(cat) || 0),
-      backgroundColor: MES_COR[m] || "#4f9cf9",
-      borderRadius: 4, maxBarThickness: 16,
+      label: cat,
+      data: mesesDisponiveis.map((m) => {
+        const porCat = new Map((porMes[m].categorias || []).map((c) => [c.categoria, c.total]));
+        return porCat.get(cat) || 0;
+      }),
+      borderColor: cor, backgroundColor: cor,
+      tension: 0.35, borderWidth: 2.5, pointRadius: 4, pointHoverRadius: 6, fill: false,
     };
   });
   const ctx = canvas.getContext("2d");
   _categoriaCharts[canvasId] = new Chart(ctx, {
-    type: "bar",
-    data: { labels: categorias, datasets },
-    plugins: [rotuloDadosMultiPlugin],
+    type: "line",
+    data: { labels: mesesDisponiveis.map((m) => MESES_ABREV[m] || m), datasets },
     options: {
-      indexAxis: "y", responsive: true, maintainAspectRatio: false,
-      layout: { padding: { right: 60 } },
+      responsive: true, maintainAspectRatio: false,
       plugins: {
-        legend: { display: mesesDisponiveis.length > 1, position: "top", labels: { color: "#c3ccdc", boxWidth: 12, font: { size: 11 } } },
+        legend: { display: true, position: "top", labels: { color: "#c3ccdc", boxWidth: 12, font: { size: 11 } } },
         tooltip: { callbacks: { label: (item) => (item.dataset.label + ": " + fmtBRL(item.raw)) } }
       },
       scales: {
-        x: { display: false },
-        y: { grid: { display: false }, ticks: { color: "#c3ccdc", font: { size: 12 } }, border: { color: "#1b2333" } }
+        x: { grid: { display: false }, ticks: { color: "#c3ccdc", font: { size: 12 } }, border: { color: "#1b2333" } },
+        y: { grid: { color: "rgba(255,255,255,0.06)" }, ticks: { color: "#8291ab", font: { size: 10 }, callback: (v) => fmtBRL(v) }, border: { color: "#1b2333" } }
       }
     }
   });
@@ -612,14 +619,13 @@ function grupoQuantidade(mes) {
   return 0;
 }
 function renderGrupoQuadro() {
-  const label = document.getElementById('grupoCustoUnicoLabel');
+  const card = document.getElementById('grupoCustoUnicoCard');
   const unicoWrap = document.getElementById('grupoCustoUnicoWrap');
   const footnote = document.getElementById('setorCustoUnitarioFootnote');
-  if (!label || !unicoWrap) return;
+  if (!card || !unicoWrap) return;
   const mes = selectedMonth;
-  if (!mes || !Object.keys(GRUPO_HISTORICO).length) { label.style.display = 'none'; unicoWrap.style.display = 'none'; return; }
-  label.style.display = '';
-  unicoWrap.style.display = '';
+  if (!mes || !Object.keys(GRUPO_HISTORICO).length) { card.style.display = 'none'; return; }
+  card.style.display = '';
   document.getElementById('grupoNomes').textContent = SUBSETORES.map(s => s.nome).join(', ');
   const total = grupoTotal(mes);
   const criterios = grupoCriteriosDistintos();
