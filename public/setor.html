@@ -171,7 +171,7 @@
           <p class="label">Custo Unitário do Setor</p>
           <p class="value">R$ <span id="setorCustoUnitario">0,00</span> <span class="unidade">/ un</span></p>
         </div>
-        <p class="footnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
+        <p class="footnote" id="setorCustoUnitarioFootnote">ℹ️ Total do mês diluído por clientes ativos.</p>
       </div>
       <div class="card" id="setorTendenciaCard">
         <div>
@@ -430,6 +430,8 @@ function renderTudo() {
   const st = STATUS_STYLE[status];
 
   document.getElementById("setorCustoUnitario").textContent = fmtNum(setorCustoUnitario(mes), 2);
+  const unidadeBase = (SETOR.criterioRateio || '').toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
+  document.getElementById("setorCustoUnitarioFootnote").textContent = "ℹ️ Total do mês diluído por " + unidadeBase + " ativos.";
 
   const tendencia = setorTendencia(mes);
   const setaEl = document.getElementById("setorTendenciaSeta");

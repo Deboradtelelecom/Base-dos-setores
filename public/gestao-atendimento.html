@@ -428,6 +428,8 @@ function renderTudo() {
   const st = STATUS_STYLE[status];
 
   document.getElementById("setorCustoUnitario").textContent = fmtNum(setorCustoUnitario(mes), 2);
+  const unidadeSetor = (SETOR.criterioRateio || '').toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
+  document.getElementById("setorCustoUnitarioFootnote").textContent = "ℹ️ Total do mês diluído por " + unidadeSetor + " ativos.";
 
   const tendencia = setorTendencia(mes);
   const setaEl = document.getElementById("setorTendenciaSeta");
@@ -621,15 +623,19 @@ function renderGrupoQuadro() {
   document.getElementById('grupoNomes').textContent = SUBSETORES.map(s => s.nome).join(', ');
   const total = grupoTotal(mes);
   const criterios = grupoCriteriosDistintos();
+  const unidadeSetor = (SETOR.criterioRateio || '').toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
+  let texto = 'ℹ️ Total do mês diluído por ' + unidadeSetor + ' ativos.';
   if (criterios.size > 1) {
     unicoWrap.textContent = 'Não aplicável';
-    footnote.textContent = 'ℹ️ Total do mês diluído por clientes ou colaboradores ativos. Custo único do grupo não calculado: os sub-setores usam critérios de rateio diferentes (' + Array.from(criterios).join(' e ') + ').';
+    texto += ' Custo único do grupo não calculado: os sub-setores usam critérios de rateio diferentes (' + Array.from(criterios).join(' e ') + ').';
   } else {
     const qtd = grupoQuantidade(mes);
     const custoUnico = qtd > 0 ? total / qtd : 0;
     unicoWrap.innerHTML = 'R$ ' + fmtNum(custoUnico, 2) + ' <span class="unidade">/ un</span>';
-    footnote.textContent = 'ℹ️ Total do mês diluído por clientes ou colaboradores ativos. O custo único do grupo soma o custo de todos os sub-setores e divide pela mesma base.';
+    const unidadeGrupo = Array.from(criterios)[0].toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
+    texto += ' O custo único do grupo soma o custo de todos os sub-setores e divide pela base de ' + unidadeGrupo + '.';
   }
+  footnote.textContent = texto;
 }
 
 function renderTabs() {
