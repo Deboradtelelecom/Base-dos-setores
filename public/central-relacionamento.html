@@ -48,6 +48,13 @@
   .period-selector-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
   .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
   .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  .export-row { display:flex; justify-content:flex-end; gap:10px; margin:0 0 16px; }
+  .btn-export { display:flex; align-items:center; gap:7px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:600; padding:8px 13px; border-radius:10px; cursor:pointer; transition:border-color .15s, background .15s; }
+  .btn-export:hover:not(:disabled) { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
+  .btn-export:disabled { opacity:.4; cursor:default; }
+  .btn-export svg { width:15px; height:15px; flex-shrink:0; }
+  .btn-export.excel svg { color:#22c55e; }
+  .btn-export.pdf svg { color:#ef4444; }
   .top-stat { display:flex; align-items:baseline; gap:6px; font-size:12px; color:var(--slate-500); }
   .top-stat .top-stat-value { color:#fff; font-weight:800; font-size:15px; font-family:var(--mono); }
   .top-stat .unidade { font-size:11px; color:var(--slate-500); font-weight:400; }
@@ -153,6 +160,16 @@
   <div id="erroBox" style="display:none;" class="erro-box"></div>
 
   <div id="conteudo" style="display:none;">
+    <div class="export-row">
+      <button class="btn-export excel" id="btnExportarPlanilha" title="Exporta todos os meses deste setor em Excel">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M8 8l8 8M16 8l-8 8"/></svg>
+        Exportar Planilha
+      </button>
+      <button class="btn-export pdf" id="btnGerarPdf" title="Gera um PDF com todos os meses deste setor">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path d="M6 2h9l5 5v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M15 2v5h5"/></svg>
+        Gerar PDF
+      </button>
+    </div>
     <div class="period-row">
       <div class="period-selector">
         <span class="period-selector-label">Período de Competência:</span>
@@ -218,6 +235,9 @@
 </main>
 
 <script src="/chartjs_extracted.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
 <script>
 const MESES_ABREV = { "Maio/2026": "Mai/26", "Junho/2026": "Jun/26", "Julho/2026": "Jul/26" };
 const NOME_MES_NUM = {"Janeiro":"01","Fevereiro":"02","Março":"03","Abril":"04","Maio":"05","Junho":"06",
@@ -708,6 +728,76 @@ async function carregarIconesEIniciar() {
   buscarDados();
   carregarGrupoDados();
 }
+
+
+// Nome de arquivo seguro (sem acento/espaço) pra usar nos exports.
+function nomeArquivoSeguro(nome) {
+  return (nome || 'setor').normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-zA-Z0-9]+/g, '_').replace(/^_+|_+$/g, '');
+}
+
+// Exporta TODOS os meses disponíveis do sub-setor ativo (não só o mês
+// selecionado na tela) — uma aba "Resumo" com o total/custo unitário de
+// cada mês, e uma aba por mês com o detalhamento item a item.
+function exportarPlanilha() {
+  if (!SETOR || typeof XLSX === 'undefined') return;
+  const wb = XLSX.utils.book_new();
+
+  const linhasResumo = [["Mês", "Total do Setor (R$)", "Custo Unitário (R$)"]];
+  SETOR.historico.forEach((h) => linhasResumo.push([h.mes, h.total || 0, h.custoUnitario || 0]));
+  XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(linhasResumo), "Resumo");
+
+  MESES_DISPONIVEIS.forEach((mes) => {
+    const pm = SETOR.porMes[mes] || { itens: [] };
+    const linhas = [["Categoria", "Item de Custo", "Quantidade", "Valor Unitário (R$)", "Total (R$)"]];
+    pm.itens.forEach((it) => linhas.push([
+      it.categoria, it.item, it.quantidade ?? "", it.valorUnitario ?? "", it.total || 0,
+    ]));
+    linhas.push(["", "", "", "Total do Mês", setorTotal(mes)]);
+    const nomeAba = mes.replace("/", "_").slice(0, 31);
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(linhas), nomeAba);
+  });
+
+  XLSX.writeFile(wb, `Custos_${nomeArquivoSeguro(SETOR.nome)}.xlsx`);
+}
+
+// Mesma lógica do export de planilha, mas em PDF — uma tabela por mês,
+// cada mês numa página nova.
+function exportarPdf() {
+  if (!SETOR || !window.jspdf) return;
+  const { jsPDF } = window.jspdf;
+  const doc = new jsPDF();
+
+  MESES_DISPONIVEIS.forEach((mes, idx) => {
+    if (idx > 0) doc.addPage();
+    doc.setFontSize(13);
+    doc.text(`Detalhamento de Custos — ${SETOR.nome}`, 14, 15);
+    doc.setFontSize(10);
+    doc.setTextColor(100);
+    doc.text(`${mes} — Total do mês: ${fmtBRL(setorTotal(mes))}`, 14, 21);
+    doc.setTextColor(0);
+
+    const pm = SETOR.porMes[mes] || { itens: [] };
+    const corpo = pm.itens.map((it) => [
+      it.categoria, it.item,
+      it.quantidade ? fmtNum(it.quantidade, 0) : "—",
+      it.valorUnitario ? fmtBRL(it.valorUnitario) : "—",
+      fmtBRL(it.total),
+    ]);
+    doc.autoTable({
+      startY: 27,
+      head: [["Categoria", "Item de Custo", "Qtd.", "Valor Unit.", "Total"]],
+      body: corpo,
+      styles: { fontSize: 8 },
+      headStyles: { fillColor: [30, 41, 59] },
+      columnStyles: { 2: { halign: 'right' }, 3: { halign: 'right' }, 4: { halign: 'right' } },
+    });
+  });
+
+  doc.save(`Custos_${nomeArquivoSeguro(SETOR.nome)}.pdf`);
+}
+
+document.getElementById('btnExportarPlanilha').addEventListener('click', exportarPlanilha);
+document.getElementById('btnGerarPdf').addEventListener('click', exportarPdf);
 
 carregarIconesEIniciar();
 setInterval(() => buscarDados(false), 300000); // re-busca a cada 5 min, sem precisar recarregar a página
