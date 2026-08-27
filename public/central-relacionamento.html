@@ -161,8 +161,10 @@
         <div>
           <p class="label">Custo Unitário do Setor</p>
           <p class="value">R$ <span id="setorCustoUnitario">0,00</span> <span class="unidade">/ un</span></p>
+          <p class="label" id="grupoCustoUnicoLabel" style="margin-top:14px; display:none;">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
+          <p class="value" id="grupoCustoUnicoWrap" style="font-size:20px; display:none;">R$ 0,00 <span class="unidade">/ un</span></p>
         </div>
-        <p class="footnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
+        <p class="footnote" id="setorCustoUnitarioFootnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
       </div>
       <div class="card" id="setorTendenciaCard">
         <div>
@@ -256,7 +258,7 @@ let selectedMonth = null;
 
 function fmtBRL(n) {
   n = n || 0;
-  return "R$ " + n.toLocaleString("pt-BR", { maximumFractionDigits: 0 });
+  return "R$ " + n.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 function fmtNum(n, dec) {
   return (n || 0).toLocaleString("pt-BR", { maximumFractionDigits: dec === undefined ? 2 : dec });
@@ -559,6 +561,78 @@ function renderTudo() {
     });
   }
   document.getElementById("setorTotalFooter").textContent = fmtBRL(total);
+  renderGrupoQuadro();
+}
+
+// ── Quadro do Grupo: custo total e custo único somando TODOS os sub-setores ─
+// juntos (não só o sub-setor da aba ativa). Busca o histórico de cada
+// sub-setor em paralelo, uma vez, e recalcula a cada troca de mês/aba.
+let GRUPO_HISTORICO = {}; // slug -> { historico, criterioRateio }
+async function carregarGrupoDados() {
+  try {
+    const resultados = await Promise.all(SUBSETORES.map(s =>
+      fetch(API_BASE + '/api/custos/' + encodeURIComponent(s.slug))
+        .then(r => r.json())
+        .then(d => ({ slug: s.slug, historico: d.historico || [], criterioRateio: d.criterioRateio || '' }))
+        .catch(() => ({ slug: s.slug, historico: [], criterioRateio: '' }))
+    ));
+    resultados.forEach(r => { GRUPO_HISTORICO[r.slug] = r; });
+  } catch (e) {
+    // sem dados do grupo, o quadro simplesmente não aparece
+  }
+  renderGrupoQuadro();
+}
+function grupoTotal(mes) {
+  return SUBSETORES.reduce((soma, s) => {
+    const hist = (GRUPO_HISTORICO[s.slug] || {}).historico || [];
+    const h = hist.find(x => x.mes === mes);
+    return soma + (h ? h.total : 0);
+  }, 0);
+}
+// Reconstrói a "quantidade" (clientes/colaboradores) de cada sub-setor a
+// partir de total ÷ custo unitário (a planilha não expõe a quantidade em
+// si pela API) e soma. Só faz sentido somar quando todos os sub-setores do
+// grupo usam o MESMO critério de rateio (Clientes ou Funcionários) — se
+// houver mistura, o custo único do grupo não é calculado.
+function grupoCriteriosDistintos() {
+  const criterios = new Set(SUBSETORES.map(s => (GRUPO_HISTORICO[s.slug] || {}).criterioRateio).filter(Boolean));
+  return criterios;
+}
+// Importante: quando todos os sub-setores usam o mesmo critério (Clientes
+// ou Funcionários), a "quantidade" embutida no custo unitário de cada um
+// já é a MESMA base da empresa toda (ex.: total de clientes ativos do
+// mês) — não é uma fatia específica daquele sub-setor. Por isso o cálculo
+// correto NÃO é somar a quantidade de cada sub-setor (isso multiplicaria
+// a base pelo nº de sub-setores); é usar essa mesma base UMA vez.
+function grupoQuantidade(mes) {
+  for (const s of SUBSETORES) {
+    const hist = (GRUPO_HISTORICO[s.slug] || {}).historico || [];
+    const h = hist.find(x => x.mes === mes);
+    if (h && h.custoUnitario > 0) { return h.total / h.custoUnitario; }
+  }
+  return 0;
+}
+function renderGrupoQuadro() {
+  const label = document.getElementById('grupoCustoUnicoLabel');
+  const unicoWrap = document.getElementById('grupoCustoUnicoWrap');
+  const footnote = document.getElementById('setorCustoUnitarioFootnote');
+  if (!label || !unicoWrap) return;
+  const mes = selectedMonth;
+  if (!mes || !Object.keys(GRUPO_HISTORICO).length) { label.style.display = 'none'; unicoWrap.style.display = 'none'; return; }
+  label.style.display = '';
+  unicoWrap.style.display = '';
+  document.getElementById('grupoNomes').textContent = SUBSETORES.map(s => s.nome).join(', ');
+  const total = grupoTotal(mes);
+  const criterios = grupoCriteriosDistintos();
+  if (criterios.size > 1) {
+    unicoWrap.textContent = 'Não aplicável';
+    footnote.textContent = 'ℹ️ Total do mês diluído por clientes ou colaboradores ativos. Custo único do grupo não calculado: os sub-setores usam critérios de rateio diferentes (' + Array.from(criterios).join(' e ') + ').';
+  } else {
+    const qtd = grupoQuantidade(mes);
+    const custoUnico = qtd > 0 ? total / qtd : 0;
+    unicoWrap.innerHTML = 'R$ ' + fmtNum(custoUnico, 2) + ' <span class="unidade">/ un</span>';
+    footnote.textContent = 'ℹ️ Total do mês diluído por clientes ou colaboradores ativos. O custo único do grupo soma o custo de todos os sub-setores e divide pela mesma base.';
+  }
 }
 
 function renderTabs() {
@@ -620,10 +694,12 @@ async function carregarIconesEIniciar() {
   }
   renderTabs();
   buscarDados();
+  carregarGrupoDados();
 }
 
 carregarIconesEIniciar();
 setInterval(() => buscarDados(false), 300000); // re-busca a cada 5 min, sem precisar recarregar a página
+setInterval(() => carregarGrupoDados(), 300000);
 </script>
 </body>
 </html>

@@ -257,7 +257,7 @@ let selectedMonth = null;
 
 function fmtBRL(n) {
   n = n || 0;
-  return "R$ " + n.toLocaleString("pt-BR", { maximumFractionDigits: 0 });
+  return "R$ " + n.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
 function fmtNum(n, dec) {
   return (n || 0).toLocaleString("pt-BR", { maximumFractionDigits: dec === undefined ? 2 : dec });
