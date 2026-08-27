@@ -370,20 +370,29 @@ function extrairEstado(pastaDados) {
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso
 // Geral, outro sistema da Débora, que consolida reembolsos entre a Dtel e as
-// empresas licenciadas com uma linha por Mês/Setor/Empresa/Descrição). Aqui
-// só lemos e devolvemos a lista já pronta (Mês, Setor, Descrição, Empresa,
-// Quantidade, Valor Unitário, Valor Total, Observação) — cabeçalho fixo na
-// linha 4, dados a partir da linha 5 (ver comercial-varejo-vendas-ha-loja-pap
-// / plataformas-editaveis-rateio-financeiro no histórico do projeto).
+// empresas licenciadas com uma linha por Mês/Setor/Empresa/Descrição). Os
+// setores foram cruzados com os setores já existentes em CUSTOS MENSAIS
+// quando a correspondência era clara (mesmo domínio, sem ambiguidade) — a
+// coluna 'Setor' já vem com o nome padrão da Plataforma nesses casos, e
+// 'Setor original (Base Geral)' guarda o nome como veio na fonte, só quando
+// diferente. Setores/itens sem correspondente direto (ex.: Administrativo/
+// taxa de administração, Licitação, Frota, Comercial ambíguo entre
+// Corporativo/Varejo, alocações "Adm..." por cliente) permaneceram com o
+// nome original, por pedido explícito da Débora — não foram forçados a
+// encaixar em nenhum setor existente. Cabeçalho fixo na linha 4, dados a
+// partir da linha 5 (ver plataformas-editaveis-rateio-financeiro no
+// histórico do projeto).
 function extrairReembolsoGeral(ws) {
   const linhas = XLSX.utils.sheet_to_json(ws, { header: 1, range: 4, defval: null });
   const registros = [];
   for (const r of linhas) {
-    const [mes, setor, descricao, empresa, quantidade, valorUnitario, valorTotal, observacao] = r;
+    const [mes, setor, setorOriginal, descricao, empresa, quantidade, valorUnitario, valorTotal, observacao] = r;
     if (!mes) continue;
     registros.push({
       mes: String(mes),
       setor: setor || '',
+      setorOriginal: setorOriginal || '',
+      cruzado: !!setorOriginal,
       descricao: descricao || '',
       empresa: empresa || '',
       quantidade: Number(quantidade) || 0,
