@@ -131,18 +131,18 @@
           <tr>
             <th>Coordenador/Equipe</th><th>Empresa</th>
             <th style="text-align:right;">Vendas / Upgrade</th>
-            <th style="text-align:right;">Custo Total</th>
-            <th style="text-align:right;">Custo por Venda</th>
             <th style="text-align:right;">Receita Total</th>
+            <th style="text-align:right;">Custo por Venda</th>
+            <th style="text-align:right;">Custo Total</th>
           </tr>
         </thead>
         <tbody id="resumoBody"></tbody>
         <tfoot><tr>
           <td colspan="2">Total do mês</td>
           <td class="val" id="totalVendasUpgradeFooter"></td>
-          <td class="val" id="totalCustoFooter"></td>
-          <td class="val" id="totalCustoPorVendaFooter"></td>
           <td class="val" id="totalReceitaFooter"></td>
+          <td class="val" id="totalCustoPorVendaFooter"></td>
+          <td class="val" id="totalCustoFooter"></td>
         </tr></tfoot>
       </table>
       </div>
@@ -238,9 +238,9 @@ function renderResumoEEquipeCusto(mes) {
       <td class="nome"><span class="seta" id="seta-${rowId}">▶</span>${l.coordenador}</td>
       <td><span class="empresa-tag">${l.empresa}</span></td>
       <td class="num">${fmtNum(l.vendas)} <span style="color:var(--slate-500);">/</span> ${fmtNum(l.upgrade)}</td>
-      <td class="val">${custoTxt}</td>
+      <td class="val">${fmtBRL(l.receitaTotal)}</td>
       <td class="num">${custoPorVendaTxt}</td>
-      <td class="val">${fmtBRL(l.receitaTotal)}</td>`;
+      <td class="val">${custoTxt}</td>`;
     body.appendChild(tr);
 
     const trDet = document.createElement('tr');
