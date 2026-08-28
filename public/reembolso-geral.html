@@ -181,10 +181,23 @@ function renderTudo() {
   const empresasOrdenadas = Object.keys(porEmpresa).sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
   const gruposEl = document.getElementById('grupos');
-  document.getElementById('vazioMsg').style.display = empresasOrdenadas.length ? 'none' : 'block';
 
-  gruposEl.innerHTML = empresasOrdenadas.map((empresa) => {
-    const itens = porEmpresa[empresa].slice().sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
+  // Itens sem valor lançado (Total = R$0,00) são suprimidos aqui — só na
+  // apresentação, os dados continuam intactos por trás (na planilha/JSON),
+  // então voltam a aparecer sozinhos se ganharem valor real num mês futuro.
+  const empresasComItens = empresasOrdenadas
+    .map((empresa) => ({
+      empresa,
+      itens: porEmpresa[empresa]
+        .filter((r) => (parseFloat(r.valorTotal) || 0) !== 0)
+        .slice()
+        .sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR')),
+    }))
+    .filter((g) => g.itens.length > 0);
+
+  document.getElementById('vazioMsg').style.display = empresasComItens.length ? 'none' : 'block';
+
+  gruposEl.innerHTML = empresasComItens.map(({ empresa, itens }) => {
     const totalEmpresa = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
     const aberto = !!GRUPOS_ABERTOS[empresa];
     const linhas = itens.map(r => `
@@ -228,8 +241,9 @@ function renderTudo() {
   // disso, guardamos o nome da empresa num array na mesma ordem dos elementos
   // e escutamos o clique via addEventListener.
   const headers = gruposEl.querySelectorAll('[data-setor-toggle]');
+  const nomesEmpresasRenderizadas = empresasComItens.map(g => g.empresa);
   headers.forEach((el, i) => {
-    el.addEventListener('click', () => toggleGrupo(empresasOrdenadas[i]));
+    el.addEventListener('click', () => toggleGrupo(nomesEmpresasRenderizadas[i]));
   });
 }
 
