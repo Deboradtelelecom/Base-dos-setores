@@ -542,11 +542,17 @@ function renderTudo() {
 
   const body = document.getElementById("setorItensBody");
   body.innerHTML = "";
-  if (!pm.itens.length) {
+  // Só mostra, na tela, itens com valor no mês — itens zerados (sem custo
+  // lançado ainda) ficam escondidos da tabela, mas continuam existindo nos
+  // dados por trás, pra aparecer sozinhos assim que tiverem valor num mês
+  // seguinte (pedido da Débora, 28/08/2026, aplicado em todos os setores e
+  // meses — só na apresentação, a planilha original não muda).
+  const itensComValor = pm.itens.filter((it) => (parseFloat(it.total) || 0) !== 0);
+  if (!itensComValor.length) {
     body.innerHTML = '<tr><td colspan="4" class="empty-msg">Sem custos lançados neste setor em ' + mes + '.</td></tr>';
   } else {
     const porCategoria = new Map();
-    pm.itens.forEach((it) => {
+    itensComValor.forEach((it) => {
       if (!porCategoria.has(it.categoria)) porCategoria.set(it.categoria, []);
       porCategoria.get(it.categoria).push(it);
     });
