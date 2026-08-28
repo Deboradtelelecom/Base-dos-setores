@@ -109,7 +109,7 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte original: Base Geral 2026.xlsx (aba Reembolso Geral) — esta tela é só de consulta; a edição continua sendo feita na planilha original. Clique no nome de um setor para abrir/fechar o detalhamento. Setores marcados <span class="badge-cruzado" style="padding:1px 6px;">cruzado com Custos Mensais</span> foram renomeados para o mesmo nome usado no restante da Plataforma, por terem correspondência clara; os marcados <span class="badge-nao-cruzado" style="padding:1px 6px;">não consta em Custos Mensais</span> não têm um setor equivalente lá (ou a correspondência era ambígua) e permaneceram com o nome original da Base Geral, sem forçar um vínculo.</p>
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte original: Base Geral 2026.xlsx (aba Reembolso Geral) — esta tela é só de consulta; a edição continua sendo feita na planilha original. Os registros são separados por empresa (clique no nome de uma empresa para abrir/fechar o detalhamento) e, dentro de cada empresa, as descrições dos custos ficam empilhadas por setor. Setores marcados <span class="badge-cruzado" style="padding:1px 6px;">cruzado</span> foram renomeados para o mesmo nome usado no restante da Plataforma, por terem correspondência clara; os marcados <span class="badge-nao-cruzado" style="padding:1px 6px;">não consta</span> não têm um setor equivalente em Custos Mensais (ou a correspondência era ambígua) e permaneceram com o nome original da Base Geral, sem forçar um vínculo.</p>
   </div>
 </main>
 <script>
@@ -170,30 +170,32 @@ function renderTudo() {
     <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
   `;
 
-  // Agrupa por setor
-  const porSetor = {};
+  // Agrupa por empresa — dentro de cada empresa, as descrições dos custos
+  // ficam empilhadas uma abaixo da outra (ordenadas por setor e descrição).
+  const porEmpresa = {};
   filtrados.forEach(r => {
-    const k = r.setor || '(sem setor)';
-    if (!porSetor[k]) porSetor[k] = [];
-    porSetor[k].push(r);
+    const k = r.empresa || '(sem empresa)';
+    if (!porEmpresa[k]) porEmpresa[k] = [];
+    porEmpresa[k].push(r);
   });
-  const setoresOrdenados = Object.keys(porSetor).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+  const empresasOrdenadas = Object.keys(porEmpresa).sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
   const gruposEl = document.getElementById('grupos');
-  document.getElementById('vazioMsg').style.display = setoresOrdenados.length ? 'none' : 'block';
+  document.getElementById('vazioMsg').style.display = empresasOrdenadas.length ? 'none' : 'block';
 
-  gruposEl.innerHTML = setoresOrdenados.map((setor) => {
-    const itens = porSetor[setor].slice().sort((a, b) => (a.empresa || '').localeCompare(b.empresa || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
-    const totalSetor = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
-    const aberto = !!GRUPOS_ABERTOS[setor];
-    const cruzado = itens.some(r => r.cruzado);
-    const badgeCruzamento = cruzado
-      ? `<span class="badge-cruzado">cruzado com Custos Mensais</span>`
-      : `<span class="badge-nao-cruzado">não consta em Custos Mensais</span>`;
+  gruposEl.innerHTML = empresasOrdenadas.map((empresa) => {
+    const itens = porEmpresa[empresa].slice().sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
+    const totalEmpresa = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
+    const aberto = !!GRUPOS_ABERTOS[empresa];
     const linhas = itens.map(r => `
       <tr>
         <td>${r.mes || ''}</td>
-        <td class="empresa-tag-cell"><span class="empresa-tag">${r.empresa || '—'}</span></td>
+        <td class="empresa-tag-cell">
+          ${r.setor || '—'}
+          ${r.cruzado
+            ? '<span class="badge-cruzado" style="margin-left:6px;">cruzado</span>'
+            : '<span class="badge-nao-cruzado" style="margin-left:6px;">não consta</span>'}
+        </td>
         <td>${r.descricao || ''}</td>
         <td class="val">${r.quantidade ? String(Math.round(r.quantidade)) : '—'}</td>
         <td class="val">${fmtBRL(r.valorUnitario)}</td>
@@ -206,15 +208,14 @@ function renderTudo() {
         <div class="grupo-header" data-setor-toggle>
           <div class="esq">
             <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
-            <span class="grupo-nome">${setor}</span>
+            <span class="grupo-nome">${empresa}</span>
             <span class="grupo-count">${itens.length} registro${itens.length === 1 ? '' : 's'}</span>
-            ${badgeCruzamento}
           </div>
-          <span class="grupo-total">${fmtBRL(totalSetor)}</span>
+          <span class="grupo-total">${fmtBRL(totalEmpresa)}</span>
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Mês</th><th>Empresa</th><th>Descrição do Custo</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
+            <thead><tr><th>Mês</th><th>Setor</th><th>Descrição do Custo</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -222,13 +223,13 @@ function renderTudo() {
     `;
   }).join('');
 
-  // Não usamos onclick inline com o nome do setor interpolado (nomes com
+  // Não usamos onclick inline com o nome da empresa interpolado (nomes com
   // aspas/acentos podiam quebrar o atributo HTML e travar o clique) — em vez
-  // disso, guardamos o nome do setor num array na mesma ordem dos elementos
+  // disso, guardamos o nome da empresa num array na mesma ordem dos elementos
   // e escutamos o clique via addEventListener.
   const headers = gruposEl.querySelectorAll('[data-setor-toggle]');
   headers.forEach((el, i) => {
-    el.addEventListener('click', () => toggleGrupo(setoresOrdenados[i]));
+    el.addEventListener('click', () => toggleGrupo(empresasOrdenadas[i]));
   });
 }
 
