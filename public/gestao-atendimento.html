@@ -390,13 +390,42 @@ const rotuloDadosMultiPlugin = {
     ctx.restore();
   }
 };
-// Recebe SETOR.porMes inteiro (todos os meses) e monta um gráfico de barras
-// agrupadas — uma barra por mês, dentro de cada categoria — para permitir o
-// comparativo entre os meses, em vez de mostrar só o mês selecionado.
+// Rótulo de dados para o gráfico de tendência (linha) da Composição por
+// Categoria — um valor por ponto, na cor da própria linha, alternando
+// acima/abaixo do ponto (dataset par/ímpar) pra reduzir sobreposição quando
+// duas linhas passam perto uma da outra (28/08/2026, a pedido da Débora).
+const rotuloLinhaPlugin = {
+  id: "rotuloLinhaPlugin",
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    ctx.save();
+    ctx.font = "600 9px system-ui, sans-serif";
+    chart.data.datasets.forEach((ds, di) => {
+      const meta = chart.getDatasetMeta(di);
+      if (meta.hidden) return;
+      const acima = di % 2 === 0;
+      ctx.fillStyle = ds.borderColor || "#e2e8f0";
+      ctx.textBaseline = acima ? "bottom" : "top";
+      const n = meta.data.length;
+      meta.data.forEach((ponto, i) => {
+        const val = ds.data[i];
+        if (!val) return;
+        const offsetY = acima ? -6 : 6;
+        // Primeiro ponto: rótulo alinhado à direita do ponto (evita bater no
+        // eixo Y). Último ponto: alinhado à esquerda (evita cortar na borda).
+        // Pontos do meio: centralizados.
+        ctx.textAlign = i === 0 ? "left" : (i === n - 1 ? "right" : "center");
+        const offsetX = i === 0 ? 16 : (i === n - 1 ? -16 : 0);
+        ctx.fillText(fmtBRL(val), ponto.x + offsetX, ponto.y + offsetY);
+      });
+    });
+    ctx.restore();
+  }
+};
+// Recebe SETOR.porMes inteiro (todos os meses) e monta um gráfico de
+// tendência (linha) — uma linha por categoria, eixo X = meses — para permitir
+// o comparativo entre os meses, em vez de mostrar só o mês selecionado.
 const CAT_COR = ["#4f9cf9", "#22c55e", "#f59e0b", "#ef4444", "#a78bfa", "#f472b6", "#2dd4bf", "#facc15", "#fb923c", "#60a5fa"];
-// Versão em linha de tendência (experimental, a pedido da Débora, pra comparar
-// com o gráfico de barras que existia antes): eixo X = meses, uma linha por
-// categoria, mostrando como o custo de cada categoria evoluiu mês a mês.
 function renderCategoriaChart(canvasId, porMes) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
@@ -424,25 +453,32 @@ function renderCategoriaChart(canvasId, porMes) {
         return porCat.get(cat) || 0;
       }),
       borderColor: cor, backgroundColor: cor,
+      tension: 0.35, fill: false, borderWidth: 2.5,
+      pointRadius: 4, pointHoverRadius: 6,
+      pointBackgroundColor: cor, pointBorderColor: "#0b0f19", pointBorderWidth: 2,
     };
   });
   const ctx = canvas.getContext("2d");
   _categoriaCharts[canvasId] = new Chart(ctx, {
-    // Voltou a ser gráfico de barras agrupadas (uma barra por mês, dentro de
-    // cada categoria) — é o formato comparativo que a Débora pediu de volta;
-    // a versão em linha dificultava comparar os meses lado a lado.
-    type: "bar",
+    // Gráfico de tendência (linha) — uma linha por categoria, eixo X = meses,
+    // com rótulo de dados em cada ponto (a pedido da Débora, 28/08/2026).
+    // Os rótulos alternam acima/abaixo do ponto (dataset par/ímpar) pra reduzir
+    // sobreposição quando várias linhas passam perto uma da outra.
+    type: "line",
     data: { labels: mesesDisponiveis.map((m) => MESES_ABREV[m] || m), datasets },
+    plugins: [rotuloLinhaPlugin],
     options: {
       responsive: true, maintainAspectRatio: false,
+      layout: { padding: { top: 18, bottom: 6, left: 10, right: 44 } },
       plugins: {
         legend: { display: true, position: "top", labels: { color: "#c3ccdc", boxWidth: 12, font: { size: 11 } } },
         tooltip: { callbacks: { label: (item) => (item.dataset.label + ": " + fmtBRL(item.raw)) } }
       },
       scales: {
         x: { grid: { display: false }, ticks: { color: "#c3ccdc", font: { size: 12 } }, border: { color: "#1b2333" } },
-        // Sem linhas de grade no eixo Y — a Débora achou que atrapalhavam a leitura.
-        y: { grid: { display: false }, ticks: { color: "#8291ab", font: { size: 10 }, callback: (v) => fmtBRL(v) }, border: { color: "#1b2333" } }
+        // Eixo Y totalmente oculto (sem números, sem linha) — a pedido da
+        // Débora, já que os valores aparecem como rótulo em cada ponto da linha.
+        y: { display: false }
       }
     }
   });
