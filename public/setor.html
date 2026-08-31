@@ -558,7 +558,29 @@ function renderTudo() {
           const trDet = document.createElement("tr");
           trDet.id = `detalhe-linha-${myIdx}`;
           trDet.className = "detalhe-subrow hidden";
-          const nPessoas = it.detalhes.length;
+          const temAlgumEncargo = it.detalhes.some(d => d.encargos);
+          // Quando o mesmo nome aparece mais de uma vez no detalhamento (ex.:
+          // 2 lançamentos de fardamento pro mesmo colaborador no mesmo mês),
+          // unifica numa única linha somando os valores — não faz sentido
+          // mostrar a mesma pessoa duas vezes com valores parciais. Não se
+          // aplica ao detalhamento de Folha (com encargos), onde cada linha
+          // já é uma pessoa única com sua composição própria de encargos.
+          let detalhesAgrupados = it.detalhes;
+          if (!temAlgumEncargo) {
+            const porNome = new Map();
+            it.detalhes.forEach((d) => {
+              const chave = (d.nome || '').trim();
+              if (!porNome.has(chave)) {
+                porNome.set(chave, Object.assign({}, d));
+              } else {
+                const acc = porNome.get(chave);
+                if (typeof d.valor === 'number') acc.valor = (acc.valor || 0) + d.valor;
+                if (typeof d.quantidade === 'number') acc.quantidade = (acc.quantidade || 0) + d.quantidade;
+              }
+            });
+            detalhesAgrupados = Array.from(porNome.values());
+          }
+          const nPessoas = detalhesAgrupados.length;
           let rotuloPessoa = "colaborador", rotuloPessoaPlural = "colaboradores", rotuloPessoaHeader = "Colaborador";
           if (/combust[ií]vel/i.test(it.item)) {
             rotuloPessoa = "condutor"; rotuloPessoaPlural = "condutores"; rotuloPessoaHeader = "Condutor";
@@ -567,7 +589,6 @@ function renderTudo() {
           } else if (/^impressora$/i.test(it.item)) {
             rotuloPessoa = "unidade"; rotuloPessoaPlural = "unidades"; rotuloPessoaHeader = "Unidade";
           }
-          const temAlgumEncargo = it.detalhes.some(d => d.encargos);
           let corpoDetalhe;
           if (temAlgumEncargo) {
             const colunas = [
@@ -594,13 +615,13 @@ function renderTudo() {
               <tbody>${linhasTabela}</tbody>
             </table></div>`;
           } else if (rotuloPessoa === "item") {
-            corpoDetalhe = it.detalhes.map(d => `
+            corpoDetalhe = detalhesAgrupados.map(d => `
               <div class="detalhe-linha-pessoa">
                 <span class="detalhe-nome">• ${d.nome}</span>
                 <span class="detalhe-valor">${fmtNum(d.quantidade, d.quantidade % 1 ? 2 : 0)} un</span>
               </div>`).join("");
           } else {
-            corpoDetalhe = it.detalhes.map(d => `
+            corpoDetalhe = detalhesAgrupados.map(d => `
               <div class="detalhe-linha-pessoa">
                 <span class="detalhe-nome">• ${d.nome}</span>
                 <span class="detalhe-valor">${fmtBRL(d.valor)}</span>
