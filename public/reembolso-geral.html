@@ -58,6 +58,16 @@
   tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
   tbody td.obs { color:var(--slate-500); font-size:11.5px; max-width:280px; }
 
+  .chart-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
+  .chart-titulo { font-size:14px; font-weight:800; color:#fff; }
+  .chart-legenda { display:flex; gap:14px; }
+  .leg-item { display:flex; align-items:center; gap:6px; font-size:11.5px; color:var(--slate-500); font-family:var(--mono); }
+  .leg-dot { width:9px; height:9px; border-radius:3px; display:inline-block; }
+  .leg-dot.direto { background:var(--blue-accent); }
+  .leg-dot.indireto { background:var(--warn); }
+  .chart-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
+  .chart-wrap { position:relative; height:340px; }
+
   .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
   .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
   .vazio { color:var(--slate-500); font-size:12.5px; padding:16px 0; text-align:center; }
@@ -102,6 +112,18 @@
     <div class="totais-cards" id="totaisCards"></div>
 
     <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Custos Diretos x Indiretos por Empresa</span>
+        <span class="chart-legenda">
+          <span class="leg-item"><span class="leg-dot direto"></span>Direto</span>
+          <span class="leg-item"><span class="leg-dot indireto"></span>Indireto</span>
+        </span>
+      </div>
+      <p class="chart-nota">Direto: Instalação, Frota, Uso mútuo de Postes, DP/RH/Segurança do Trabalho (por funcionário), Configuração, C.O.E., Vendas entre equipes/setor de vendas, Consultas de crédito, E-mail Dtel, Equipamentos de Segurança, Vendas do site Mundiale, Manutenção predial. O restante (Licitação, Fardamentos, Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade, Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento, Jurídico, Logística, NOC, Relacionamento, despesas de consultor/coordenador do Comercial, entre outros) entra como indireto. Reflete os filtros de Competência/Setor/Busca acima.</p>
+      <div class="chart-wrap"><canvas id="chartDiretoIndireto"></canvas></div>
+    </div>
+
+    <div class="section-card">
       <div id="grupos"></div>
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
@@ -109,10 +131,12 @@
     <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte original: Base Geral 2026.xlsx (aba Reembolso Geral) — esta tela é só de consulta; a edição continua sendo feita na planilha original. Os registros são separados por empresa (clique no nome de uma empresa para abrir/fechar o detalhamento) e, dentro de cada empresa, as descrições dos custos ficam empilhadas por setor.</p>
   </div>
 </main>
+<script src="/chartjs_extracted.js"></script>
 <script>
 const API_BASE = '';
 let REGISTROS = [];
 let GRUPOS_ABERTOS = {};
+let CHART_DIRETO_INDIRETO = null;
 
 function fmtBRL(n) {
   return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -236,6 +260,65 @@ function renderTudo() {
   const nomesEmpresasRenderizadas = empresasComItens.map(g => g.empresa);
   headers.forEach((el, i) => {
     el.addEventListener('click', () => toggleGrupo(nomesEmpresasRenderizadas[i]));
+  });
+
+  renderChartDiretoIndireto(filtrados);
+}
+
+// Gráfico "Custos Diretos x Indiretos por Empresa" — soma, por empresa, os
+// registros já classificados em extrair_dados.js (campo categoriaCusto,
+// critério confirmado com a Débora em 31/08/2026). Usa o mesmo array já
+// filtrado por Competência/Setor/Empresa/Busca do resto da tela, então
+// acompanha os filtros normalmente.
+function renderChartDiretoIndireto(filtrados) {
+  const porEmpresa = {}; // empresa -> {direto, indireto}
+  filtrados.forEach((r) => {
+    const empresa = r.empresa || '(sem empresa)';
+    if (!porEmpresa[empresa]) porEmpresa[empresa] = { direto: 0, indireto: 0 };
+    if (r.categoriaCusto === 'direto') porEmpresa[empresa].direto += (r.valorTotal || 0);
+    else porEmpresa[empresa].indireto += (r.valorTotal || 0);
+  });
+  const empresas = Object.keys(porEmpresa)
+    .filter((e) => porEmpresa[e].direto !== 0 || porEmpresa[e].indireto !== 0)
+    .sort((a, b) => a.localeCompare(b, 'pt-BR'));
+
+  const ctx = document.getElementById('chartDiretoIndireto').getContext('2d');
+  const dadosDireto = empresas.map((e) => Number(porEmpresa[e].direto.toFixed(2)));
+  const dadosIndireto = empresas.map((e) => Number(porEmpresa[e].indireto.toFixed(2)));
+
+  if (CHART_DIRETO_INDIRETO) CHART_DIRETO_INDIRETO.destroy();
+  CHART_DIRETO_INDIRETO = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: empresas,
+      datasets: [
+        { label: 'Direto', data: dadosDireto, backgroundColor: 'rgba(79,156,249,0.75)', borderRadius: 4, maxBarThickness: 46 },
+        { label: 'Indireto', data: dadosIndireto, backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 46 },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctxItem) => `${ctxItem.dataset.label}: ${fmtBRL(ctxItem.raw)}`,
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { color: '#8291ab', font: { size: 11 } }, grid: { display: false } },
+        y: {
+          ticks: {
+            color: '#8291ab',
+            font: { size: 10.5 },
+            callback: (v) => fmtBRL(v),
+          },
+          grid: { color: 'rgba(255,255,255,0.06)' },
+        },
+      },
+    },
   });
 }
 

@@ -387,6 +387,44 @@ function extrairEstado(pastaDados) {
 // valores dela NÃO são somados em nenhum total de CUSTOS MENSAIS/SETORES,
 // não afetam o rateio nem o RESUMO REEMBOLSO. Cabeçalho fixo na linha 4,
 // dados a partir da linha 5.
+// Classificação Custo Direto x Custo Indireto para o gráfico "Custos por
+// Empresa" do Reembolso Geral — critério confirmado com a Débora em
+// 31/08/2026 (ver doc do projeto, seção "Gráfico de Custos Diretos x
+// Indiretos por Empresa"). Só entram como DIRETO os itens explicitamente
+// listados por ela; tudo o mais (Licitação, Comissão Totum, Fardamentos,
+// Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade,
+// Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento,
+// Jurídico, Logística, NOC, Relacionamento, despesas de consultor/
+// coordenador/van do Comercial, Km rodado/Serviços prestados de Segurança do
+// Trabalho etc.) é INDIRETO — confirmado explicitamente por ela, inclusive
+// para os itens que ela citou por nome como devendo continuar indiretos.
+function classificarCustoDireto(setorBruto, descricaoBruta) {
+  const setor = String(setorBruto || '').trim();
+  const desc = String(descricaoBruta || '').trim();
+  if (setor === 'Instalação') return true;
+  if (setor === 'Frota') return true; // todas as 6 subcategorias (confirmado 31/08/2026)
+  if (setor === 'Manutenção Predial') return true;
+  if (setor === 'Engenharia' && (desc === 'Uso mútuo de Postes' || /^manuten[çc][ãa]o predial$/i.test(desc))) return true;
+  if (setor === 'DP' && /^custo do departamento de dp$/i.test(desc)) return true;
+  if (setor === 'RH' && /^custo do departamento de rh$/i.test(desc)) return true; // não inclui Fardamentos/Treinamentos
+  if (setor === 'Segurança do Trabalho' && (/^custo do departamento de seguran[çc]a do trabalho$/i.test(desc) || /^equipamentos de seguran[çc]a$/i.test(desc))) return true;
+  if (setor === 'Configuração') return true;
+  if (setor === 'COE') return true;
+  if (setor === 'TIC' && /^e-?mail dtel$/i.test(desc)) return true;
+  if (setor === 'Marketing' && /vendas do site mundiale/i.test(desc)) return true;
+  if (setor === 'Comercial') {
+    if (/^vendas da equipe/i.test(desc)) return true; // vendas entre equipes/empresas
+    if (/^custo do setor de vendas corporativo$/i.test(desc)) return true;
+    if (/consultas e an[aá]lises de cr[eé]dito/i.test(desc)) return true;
+  }
+  // "Custo do gestor Michelangelo" já cai dentro de Instalação (linha
+  // "Gestão Regional MICHELANGELO"), sem precisar de regra própria.
+  // Chip móvel corporativo: não existe nenhuma linha na aba REEMBOLSO GERAL
+  // (só existe em CUSTOS MENSAIS/PARÂMETROS, rateado por %) — Débora
+  // confirmou deixar de fora deste gráfico, para não misturar fontes.
+  return false;
+}
+
 function extrairReembolsoGeral(ws, nomesSetoresReais) {
   const linhas = XLSX.utils.sheet_to_json(ws, { header: 1, range: 4, defval: null });
   const registros = [];
@@ -403,6 +441,7 @@ function extrairReembolsoGeral(ws, nomesSetoresReais) {
       valorUnitario: Number(valorUnitario) || 0,
       valorTotal: Number(valorTotal) || 0,
       observacao: observacao || '',
+      categoriaCusto: classificarCustoDireto(setor, descricao) ? 'direto' : 'indireto',
     });
   }
   return registros;
