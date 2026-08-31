@@ -25344,5 +25344,71 @@
       ]
     }
   },
-  "fardamento_devolucao": {}
+  "fardamento_devolucao": {},
+  "combustivel_equipe_varejo": {
+    "TIAGO|Soares e Silva|Julho/2026": [
+      {
+        "nome": "Jefferson de Freitas Santos",
+        "valor": 3272.39
+      },
+      {
+        "nome": "Katherine Silva de Andrade",
+        "valor": 1664.21
+      },
+      {
+        "nome": "Camila Cordeiro da Silva",
+        "valor": 2055.72
+      },
+      {
+        "nome": "Adriel Ekstainy Ferreira da Motta",
+        "valor": 1432.15
+      },
+      {
+        "nome": "Manoel Lopes de Araujo Neto",
+        "valor": 530.69
+      }
+    ],
+    "TIAGO|DX2|Julho/2026": [
+      {
+        "nome": "Tiago de Araujo Silva",
+        "valor": 1619.89
+      }
+    ],
+    "LUCAS BONIFÁCIO|DTEL|Maio/2026": [
+      {
+        "nome": "Nedson Cirilo Targino Gomes",
+        "valor": 1265.26
+      }
+    ],
+    "LUCAS BONIFÁCIO|DTEL|Junho/2026": [
+      {
+        "nome": "Nedson Cirilo Targino Gomes",
+        "valor": 1081.14
+      }
+    ],
+    "LUCAS BONIFÁCIO|DTEL|Julho/2026": [
+      {
+        "nome": "Nedson Cirilo Targino Gomes",
+        "valor": 799.48
+      }
+    ],
+    "MICHELANGELO|Voicenet|Maio/2026": [
+      {
+        "nome": "Jefferson Nascimento de Oliveira",
+        "valor": 1287.4
+      }
+    ],
+    "MICHELANGELO|Voicenet|Junho/2026": [
+      {
+        "nome": "Jefferson Nascimento de Oliveira",
+        "valor": 696.8
+      }
+    ],
+    "MICHELANGELO|Voicenet|Julho/2026": [
+      {
+        "nome": "Jefferson Nascimento de Oliveira",
+        "valor": 819.89
+      }
+    ]
+  }
 }

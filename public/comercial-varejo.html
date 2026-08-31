@@ -289,12 +289,25 @@ function toggleDetalhe(rowId, coordenador, empresa, mes) {
       const empId = rowId + '-emp-' + i;
       const itensEmpresa = itens.filter(it => it.empresa === emp);
       const totalEmpresa = itensEmpresa.reduce((s, it) => s + (it.valor || 0), 0);
-      const itensHtml = itensEmpresa.map(it => {
+      const itensHtml = itensEmpresa.map((it, j) => {
         const origemClasse = /real/i.test(it.origem) ? 'origem-real' : 'origem-estimado';
-        return `<div class="item-detalhe">
-          <span class="desc">${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem}</span></span>
-          <span class="valor">${fmtBRL(it.valor)}</span>
-        </div>`;
+        const temCondutores = it.despesa === 'Consumo de combustível' && Array.isArray(it.detalheNomes) && it.detalheNomes.length > 0;
+        const condId = empId + '-cb-' + j;
+        if (!temCondutores) {
+          return `<div class="item-detalhe">
+            <span class="desc">${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem}</span></span>
+            <span class="valor">${fmtBRL(it.valor)}</span>
+          </div>`;
+        }
+        const condutoresHtml = it.detalheNomes.map(p => `<div class="item-detalhe">
+              <span class="desc">${p.nome}</span>
+              <span class="valor">${fmtBRL(p.valor)}</span>
+            </div>`).join('');
+        return `<div class="item-detalhe empresa-clicavel" onclick="event.stopPropagation(); toggleEmpresaDetalhe('${condId}')">
+            <span class="desc"><span class="seta seta-empresa" id="seta-${condId}">▶</span>${it.despesa}<span class="origem ${origemClasse}">${it.categoria} — ${it.origem} — quem abasteceu</span></span>
+            <span class="valor">${fmtBRL(it.valor)}</span>
+          </div>
+          <div class="empresa-itens" id="itens-${condId}" style="display:none;">${condutoresHtml}</div>`;
       }).join('');
       return `<div class="empresa-detalhe-grupo">
         <div class="item-detalhe empresa-clicavel" onclick="toggleEmpresaDetalhe('${empId}')">

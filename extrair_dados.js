@@ -97,13 +97,14 @@ function carregarDetalhesColaborador(pastaDados) {
           fardamento_substituicao: dados.fardamento_substituicao || {},
           fardamento_devolucao: dados.fardamento_devolucao || {},
           equipe_pap_nomes: dados.equipe_pap_nomes || {},
+          combustivel_equipe_varejo: dados.combustivel_equipe_varejo || {},
         };
       } catch (e) {
-        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {} };
+        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {} };
       }
     }
   }
-  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {} };
+  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {} };
 }
 
 function extrairEstado(pastaDados) {
@@ -497,6 +498,11 @@ function extrairComercialVarejo(ws, detalhesColaborador) {
       }
       if (!mes) continue;
       const [ , empresa, categoria, despesa, coordenador, quantidade, valorUnitario, valor, origem ] = r;
+      let detalheNomes = null;
+      if (despesa === 'Consumo de combustível' && detalhesColaborador && detalhesColaborador.combustivel_equipe_varejo) {
+        const chave = `${coordenador || ''}|${empresa || ''}|${mes}`;
+        detalheNomes = detalhesColaborador.combustivel_equipe_varejo[chave] || null;
+      }
       custosDiretos.push({
         mes: String(mes),
         empresa: empresa || '',
@@ -507,6 +513,7 @@ function extrairComercialVarejo(ws, detalhesColaborador) {
         valorUnitario: Number(valorUnitario) || 0,
         valor: Number(valor) || 0,
         origem: origem || '',
+        detalheNomes,
       });
     }
   }
