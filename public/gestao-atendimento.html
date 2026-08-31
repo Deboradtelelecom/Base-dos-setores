@@ -726,9 +726,24 @@ function renderGrupoQuadro() {
   const unicoWrap = document.getElementById('grupoCustoUnicoWrap');
   const footnote = document.getElementById('setorCustoUnitarioFootnote');
   if (!card || !unicoWrap) return;
+  // Só faz sentido mostrar o card de "grupo" (soma de todos os sub-setores)
+  // na aba do núcleo — nas abas dos demais sub-setores, o "Custo Unitário
+  // do Setor" já exibido no topo da página é o número relevante daquele
+  // sub-setor específico; repetir o card de grupo lá só confundia.
+  const cardTendencia = document.getElementById('setorTendenciaCard');
+  if (SLUG !== SUBSETORES[0].slug) {
+    card.style.display = 'none';
+    if (cardTendencia) cardTendencia.style.gridColumn = '1 / -1';
+    return;
+  }
   const mes = selectedMonth;
-  if (!mes || !Object.keys(GRUPO_HISTORICO).length) { card.style.display = 'none'; return; }
+  if (!mes || !Object.keys(GRUPO_HISTORICO).length) {
+    card.style.display = 'none';
+    if (cardTendencia) cardTendencia.style.gridColumn = '1 / -1';
+    return;
+  }
   card.style.display = '';
+  if (cardTendencia) cardTendencia.style.gridColumn = '';
   document.getElementById('grupoNomes').textContent = SUBSETORES.map(s => s.nome).join(', ');
   const total = grupoTotal(mes);
   const criterios = grupoCriteriosDistintos();
