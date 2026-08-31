@@ -180,7 +180,7 @@
     <div class="kpi-grid">
       <div class="card" id="grupoCustoUnicoCard" style="display:none;">
         <div>
-          <p class="label">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
+          <p class="label" id="grupoCustoUnicoLabel">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
           <div class="value" id="grupoCustoUnicoWrap">R$ 0,00 <span class="unidade">/ un</span></div>
         </div>
         <p class="footnote" id="setorCustoUnitarioFootnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
@@ -749,25 +749,31 @@ function renderGrupoQuadro() {
   const card = document.getElementById('grupoCustoUnicoCard');
   const unicoWrap = document.getElementById('grupoCustoUnicoWrap');
   const footnote = document.getElementById('setorCustoUnitarioFootnote');
+  const label = document.getElementById('grupoCustoUnicoLabel');
   if (!card || !unicoWrap) return;
-  // Só faz sentido mostrar o card de "grupo" (soma de todos os sub-setores)
-  // na aba do núcleo — nas abas dos demais sub-setores, o "Custo Unitário
-  // do Setor" já exibido no topo da página é o número relevante daquele
-  // sub-setor específico; repetir o card de grupo lá só confundia.
   const cardTendencia = document.getElementById('setorTendenciaCard');
+  const mes = selectedMonth;
+  card.style.display = '';
+  if (cardTendencia) cardTendencia.style.gridColumn = '';
+  // Na aba dos demais sub-setores (não o núcleo), o "Custo Único do Grupo"
+  // (soma de todos os sub-setores) não é o número relevante ali — o card
+  // passa a mostrar, no lugar, o Custo Unitário do próprio sub-setor
+  // selecionado, como um card de verdade (não só a frase pequena no topo
+  // da página, que continua existindo mas é discreta demais sozinha).
   if (SLUG !== SUBSETORES[0].slug) {
-    card.style.display = 'none';
-    if (cardTendencia) cardTendencia.style.gridColumn = '1 / -1';
+    if (label) label.textContent = 'Custo Unitário do Setor (' + (SETOR ? SETOR.nome : '') + ')';
+    const custoSetor = mes ? setorCustoUnitario(mes) : 0;
+    unicoWrap.innerHTML = 'R$ ' + fmtNum(custoSetor, 2) + ' <span class="unidade">/ un</span>';
+    const unidadeSetor = (SETOR && (SETOR.criterioRateio || '').toLowerCase() === 'funcionários') ? 'colaboradores' : 'clientes';
+    footnote.textContent = 'ℹ️ Total do mês diluído por ' + unidadeSetor + ' ativos deste sub-setor.';
     return;
   }
-  const mes = selectedMonth;
+  if (label) label.innerHTML = 'Custo Único do Grupo (<span id="grupoNomes"></span>)';
   if (!mes || !Object.keys(GRUPO_HISTORICO).length) {
     card.style.display = 'none';
     if (cardTendencia) cardTendencia.style.gridColumn = '1 / -1';
     return;
   }
-  card.style.display = '';
-  if (cardTendencia) cardTendencia.style.gridColumn = '';
   document.getElementById('grupoNomes').textContent = SUBSETORES.map(s => s.nome).join(', ');
   const total = grupoTotal(mes);
   const criterios = grupoCriteriosDistintos();
