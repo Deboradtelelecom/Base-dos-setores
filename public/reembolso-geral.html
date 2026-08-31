@@ -138,6 +138,31 @@ let REGISTROS = [];
 let GRUPOS_ABERTOS = {};
 let CHART_DIRETO_INDIRETO = null;
 
+// Rótulo de dados para o gráfico de barras agrupadas (Direto/Indireto por
+// empresa) — desenha o valor em cima de cada barra, na cor do próprio
+// dataset. Usado junto com o eixo Y oculto (31/08/2026, a pedido da Débora).
+const rotuloBarrasDiretoIndiretoPlugin = {
+  id: 'rotuloBarrasDiretoIndiretoPlugin',
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    ctx.save();
+    ctx.font = '600 10px system-ui, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'bottom';
+    chart.data.datasets.forEach((ds, di) => {
+      const meta = chart.getDatasetMeta(di);
+      if (meta.hidden) return;
+      ctx.fillStyle = di === 0 ? '#8fc2ff' : '#fbbf5e';
+      meta.data.forEach((bar, i) => {
+        const val = ds.data[i];
+        if (!val) return;
+        ctx.fillText(fmtBRL(val), bar.x, bar.y - 4);
+      });
+    });
+    ctx.restore();
+  },
+};
+
 function fmtBRL(n) {
   return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
 }
@@ -296,9 +321,11 @@ function renderChartDiretoIndireto(filtrados) {
         { label: 'Indireto', data: dadosIndireto, backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 46 },
       ],
     },
+    plugins: [rotuloBarrasDiretoIndiretoPlugin],
     options: {
       responsive: true,
       maintainAspectRatio: false,
+      layout: { padding: { top: 22 } },
       plugins: {
         legend: { display: false },
         tooltip: {
@@ -309,14 +336,9 @@ function renderChartDiretoIndireto(filtrados) {
       },
       scales: {
         x: { ticks: { color: '#8291ab', font: { size: 11 } }, grid: { display: false } },
-        y: {
-          ticks: {
-            color: '#8291ab',
-            font: { size: 10.5 },
-            callback: (v) => fmtBRL(v),
-          },
-          grid: { color: 'rgba(255,255,255,0.06)' },
-        },
+        // Eixo Y sem números (o valor já aparece como rótulo em cima de cada
+        // barra) — a pedido da Débora (31/08/2026).
+        y: { display: false, grid: { display: false } },
       },
     },
   });
