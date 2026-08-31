@@ -181,7 +181,7 @@
       <div class="card" id="grupoCustoUnicoCard" style="display:none;">
         <div>
           <p class="label">Custo Único do Grupo (<span id="grupoNomes"></span>)</p>
-          <p class="value" id="grupoCustoUnicoWrap">R$ 0,00 <span class="unidade">/ un</span></p>
+          <div class="value" id="grupoCustoUnicoWrap">R$ 0,00 <span class="unidade">/ un</span></div>
         </div>
         <p class="footnote" id="setorCustoUnitarioFootnote">ℹ️ Total do mês diluído por clientes ou colaboradores ativos.</p>
       </div>
@@ -665,8 +665,8 @@ async function carregarGrupoDados() {
   }
   renderGrupoQuadro();
 }
-function grupoTotal(mes) {
-  return SUBSETORES.reduce((soma, s) => {
+function grupoTotal(mes, subsetores) {
+  return (subsetores || SUBSETORES).reduce((soma, s) => {
     const hist = (GRUPO_HISTORICO[s.slug] || {}).historico || [];
     const h = hist.find(x => x.mes === mes);
     return soma + (h ? h.total : 0);
@@ -687,13 +687,43 @@ function grupoCriteriosDistintos() {
 // mês) — não é uma fatia específica daquele sub-setor. Por isso o cálculo
 // correto NÃO é somar a quantidade de cada sub-setor (isso multiplicaria
 // a base pelo nº de sub-setores); é usar essa mesma base UMA vez.
-function grupoQuantidade(mes) {
-  for (const s of SUBSETORES) {
+function grupoQuantidade(mes, subsetores) {
+  for (const s of (subsetores || SUBSETORES)) {
     const hist = (GRUPO_HISTORICO[s.slug] || {}).historico || [];
     const h = hist.find(x => x.mes === mes);
     if (h && h.custoUnitario > 0) { return h.total / h.custoUnitario; }
   }
   return 0;
+}
+// Quando os sub-setores do grupo não usam todos o mesmo critério de rateio
+// (ex.: alguns por Clientes, outros por Funcionários), não dá pra somar
+// tudo numa única conta — mas dá pra agrupar os sub-setores por critério e
+// mostrar um custo único por sub-grupo (um valor por Cliente, outro por
+// Funcionário), em vez de simplesmente não mostrar nada.
+function renderGrupoQuadroMisto(mes, criterios, unicoWrap) {
+  const grupos = {}; // criterio -> [subsetor,...]
+  SUBSETORES.forEach((s) => {
+    const cr = (GRUPO_HISTORICO[s.slug] || {}).criterioRateio || '';
+    if (!cr) return;
+    if (!grupos[cr]) grupos[cr] = [];
+    grupos[cr].push(s);
+  });
+  let html = '<div style="display:flex; flex-direction:column; gap:10px; margin-top:2px;">';
+  const partesFootnote = [];
+  Object.keys(grupos).forEach((cr) => {
+    const subs = grupos[cr];
+    const totalCr = grupoTotal(mes, subs);
+    const qtdCr = grupoQuantidade(mes, subs);
+    const custoUnicoCr = qtdCr > 0 ? totalCr / qtdCr : 0;
+    const unidadeCr = cr.toLowerCase() === 'funcionários' ? 'colaborador' : 'cliente';
+    html += '<div><span style="font-size:20px; font-weight:800; font-family:var(--mono);">R$ '
+      + fmtNum(custoUnicoCr, 2) + '</span> <span class="unidade">/ ' + unidadeCr + '</span>'
+      + '<div style="font-size:11px; color:var(--slate-500); margin-top:2px;">' + subs.map((s) => s.nome).join(', ') + '</div></div>';
+    partesFootnote.push('R$ ' + fmtNum(custoUnicoCr, 2) + '/' + unidadeCr + ' (' + subs.map((s) => s.nome).join(', ') + ')');
+  });
+  html += '</div>';
+  unicoWrap.innerHTML = html;
+  return ' Os sub-setores usam critérios de rateio diferentes, então o grupo é dividido em dois totais: ' + partesFootnote.join('; ') + '.';
 }
 function renderGrupoQuadro() {
   const card = document.getElementById('grupoCustoUnicoCard');
@@ -709,8 +739,7 @@ function renderGrupoQuadro() {
   const unidadeSetor = (SETOR.criterioRateio || '').toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
   let texto = 'ℹ️ Total do mês diluído por ' + unidadeSetor + ' ativos.';
   if (criterios.size > 1) {
-    unicoWrap.textContent = 'Não aplicável';
-    texto += ' Custo único do grupo não calculado: os sub-setores usam critérios de rateio diferentes (' + Array.from(criterios).join(' e ') + ').';
+    texto += renderGrupoQuadroMisto(mes, criterios, unicoWrap);
   } else {
     const qtd = grupoQuantidade(mes);
     const custoUnico = qtd > 0 ? total / qtd : 0;
