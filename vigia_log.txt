@@ -1107,3 +1107,50 @@ Another git process seems to be running in this repository, or the lock file may
 [04/09/2026, 08:21:12] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
 [04/09/2026, 08:21:13] Alteração detectada em: detalhes_colaborador.json — publicando em 20s se não houver mais mudanças...
 [04/09/2026, 08:21:13] Alteração detectada em: detalhes_colaborador.json — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:21:33] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 08:21:33] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 08:22:00] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx (checagem periódica) — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:22:00] Alteração detectada em: detalhes_colaborador.json (checagem periódica) — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:22:20] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 08:22:20] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 08:24:09] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:24:29] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 08:24:29] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 08:39:24] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:39:24] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:39:24] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:39:24] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:39:44] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 08:39:44] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 08:40:00] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx (checagem periódica) — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 08:40:20] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 08:40:20] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 09:14:13] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 09:14:13] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 09:14:15] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 09:14:35] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 09:14:35] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
+[04/09/2026, 09:15:01] Alteração detectada em: Base_Rateio_Custos_DTEL.xlsx (checagem periódica) — publicando em 20s se não houver mais mudanças...
+[04/09/2026, 09:15:21] ERRO ao publicar automaticamente: fatal: Unable to create 'C:/Users/user/Downloads/dtel-plataforma-rateio/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, or the lock file may be stale
+
+[04/09/2026, 09:15:21] Se for erro de lock (index.lock) ou de rede, tente rodar o "ATUALIZAR E PUBLICAR.bat" manualmente uma vez.
