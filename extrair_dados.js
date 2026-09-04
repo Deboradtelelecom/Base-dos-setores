@@ -399,6 +399,19 @@ function extrairEstado(pastaDados) {
 // coordenador/van do Comercial, Km rodado/Serviços prestados de Segurança do
 // Trabalho etc.) é INDIRETO — confirmado explicitamente por ela, inclusive
 // para os itens que ela citou por nome como devendo continuar indiretos.
+// "Reembolso por receita recebida" (Administrativo) é a taxa de administração
+// de 6% + 1% de uso de marca (7% sobre a receita da empresa licenciada) —
+// entrada de RECEITA para a Dtel, não um custo. Débora pediu (04/09/2026)
+// para mostrar isso num gráfico à parte, sem misturar com o gráfico de
+// Custos Diretos x Indiretos (que soma só despesas/custos). Classificado
+// antes de qualquer outra regra para não cair em "indireto" por engano.
+function classificarCategoriaCusto(setorBruto, descricaoBruta) {
+  const setor = String(setorBruto || '').trim();
+  const desc = String(descricaoBruta || '').trim();
+  if (setor === 'Administrativo' && /^reembolso por receita recebida$/i.test(desc)) return 'receita';
+  return classificarCustoDireto(setor, desc) ? 'direto' : 'indireto';
+}
+
 function classificarCustoDireto(setorBruto, descricaoBruta) {
   const setor = String(setorBruto || '').trim();
   const desc = String(descricaoBruta || '').trim();
@@ -442,7 +455,7 @@ function extrairReembolsoGeral(ws, nomesSetoresReais) {
       valorUnitario: Number(valorUnitario) || 0,
       valorTotal: Number(valorTotal) || 0,
       observacao: observacao || '',
-      categoriaCusto: classificarCustoDireto(setor, descricao) ? 'direto' : 'indireto',
+      categoriaCusto: classificarCategoriaCusto(setor, descricao),
     });
   }
   return registros;
