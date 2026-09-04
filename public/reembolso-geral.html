@@ -24,6 +24,9 @@
 
   .period-row { display:flex; justify-content:flex-end; align-items:center; margin:0 0 18px; gap:12px; flex-wrap:wrap; }
   .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  .btn-exportar { display:inline-flex; align-items:center; gap:6px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-800); font-size:11.5px; font-weight:700; font-family:var(--mono); border-radius:8px; padding:7px 12px; cursor:pointer; transition:border-color .15s, color .15s; }
+  .btn-exportar:hover { border-color:var(--blue-accent); color:var(--blue-accent); }
+  .btn-exportar:disabled { opacity:.5; cursor:default; }
 
   .filtros { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:18px; }
   .filtro { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
@@ -77,6 +80,7 @@
 <main>
   <a class="voltar" href="/">&larr; Todos os setores</a>
   <div class="period-row">
+    <button class="btn-exportar" id="btnExportar" onclick="exportarExcel()">⬇ Baixar em Excel</button>
     <span class="status-txt" id="statusTxt">—</span>
   </div>
   <div class="header-row">
@@ -132,11 +136,13 @@
   </div>
 </main>
 <script src="/chartjs_extracted.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const API_BASE = '';
 let REGISTROS = [];
 let GRUPOS_ABERTOS = {};
 let CHART_DIRETO_INDIRETO = null;
+let ULTIMO_FILTRADOS = [];
 
 // Rótulo de dados para o gráfico de barras agrupadas (Direto/Indireto por
 // empresa) — desenha o valor em cima de cada barra, na cor do próprio
@@ -204,6 +210,7 @@ function renderTudo() {
     if (busca && !(r.descricao || '').toLowerCase().includes(busca) && !(r.observacao || '').toLowerCase().includes(busca)) return false;
     return true;
   });
+  ULTIMO_FILTRADOS = filtrados;
 
   // Cards de totais
   const totalGeral = filtrados.reduce((s, r) => s + (r.valorTotal || 0), 0);
@@ -342,6 +349,65 @@ function renderChartDiretoIndireto(filtrados) {
       },
     },
   });
+}
+
+// Exporta para Excel exatamente o que está na tela — respeita os filtros de
+// Competência/Setor/Empresa/Busca já aplicados (mesmo array usado na tabela
+// e no gráfico), e só os itens com valor lançado (mesma supressão de itens
+// zerados já usada na apresentação).
+function exportarExcel() {
+  const btn = document.getElementById('btnExportar');
+  if (typeof XLSX === 'undefined') {
+    alert('Não foi possível carregar a biblioteca de exportação (sem conexão com a internet?). Tente novamente.');
+    return;
+  }
+  const itens = (ULTIMO_FILTRADOS || []).filter((r) => (parseFloat(r.valorTotal) || 0) !== 0);
+  if (!itens.length) {
+    alert('Nenhum registro para exportar com os filtros atuais.');
+    return;
+  }
+
+  const linhas = itens
+    .slice()
+    .sort((a, b) =>
+      (a.empresa || '').localeCompare(b.empresa || '', 'pt-BR') ||
+      (a.setor || '').localeCompare(b.setor || '', 'pt-BR') ||
+      (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR')
+    )
+    .map((r) => ({
+      'Mês': r.mes || '',
+      'Empresa': r.empresa || '',
+      'Setor': r.setor || '',
+      'Descrição do Custo': r.descricao || '',
+      'Qtd': r.quantidade || '',
+      'Valor Unitário': Number(r.valorUnitario) || 0,
+      'Valor Total': Number(r.valorTotal) || 0,
+      'Observação': r.observacao || '',
+    }));
+
+  const totalGeral = linhas.reduce((s, r) => s + r['Valor Total'], 0);
+  linhas.push({ 'Mês': '', 'Empresa': '', 'Setor': '', 'Descrição do Custo': '', 'Qtd': '', 'Valor Unitário': '', 'Valor Total': totalGeral, 'Observação': 'TOTAL GERAL DO FILTRO' });
+
+  const ws = XLSX.utils.json_to_sheet(linhas);
+  ws['!cols'] = [{ wch: 12 }, { wch: 20 }, { wch: 18 }, { wch: 46 }, { wch: 8 }, { wch: 14 }, { wch: 14 }, { wch: 34 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, 'Reembolso Geral');
+
+  const mes = document.getElementById('fMes').value;
+  const setor = document.getElementById('fSetor').value;
+  const empresa = document.getElementById('fEmpresa').value;
+  const partesNome = ['Reembolso_Geral'];
+  if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
+  if (setor) partesNome.push(setor.replace(/[^\w-]+/g, '_'));
+  if (empresa) partesNome.push(empresa.replace(/[^\w-]+/g, '_'));
+  const nomeArquivo = partesNome.join('_') + '.xlsx';
+
+  if (btn) { btn.disabled = true; btn.textContent = 'Gerando...'; }
+  try {
+    XLSX.writeFile(wb, nomeArquivo);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = '⬇ Baixar em Excel'; }
+  }
 }
 
 async function buscarDados() {
