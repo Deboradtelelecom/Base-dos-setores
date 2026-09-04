@@ -1,30 +1,42 @@
 // Vigia automático da Plataforma de Rateio de Custos — Dtel Telecom.
 //
 // Fica de olho nos arquivos de dados (planilha + detalhes por colaborador +
-// código do parser) e, sempre que detecta uma alteração salva, espera um
-// tempo curto (pra dar tempo do Excel terminar de salvar todos os arquivos
-// temporários dele) e então faz automaticamente:
+// código do parser) e nas páginas do site (pasta public/) e, sempre que
+// detecta uma alteração salva, espera um tempo curto (pra dar tempo do
+// Excel terminar de salvar todos os arquivos temporários dele) e então faz
+// automaticamente:
 //   git add  -> git commit -> git push origin master
 // Isso substitui o clique manual no "ATUALIZAR E PUBLICAR.bat": a partir do
 // momento em que este vigia está rodando, basta salvar a planilha no Excel
-// que, em ~20 segundos, a atualização já é enviada pro GitHub — e o Render
-// publica sozinho no site (~2 minutos depois disso).
+// (ou qualquer página em public/) que, em ~20 segundos, a atualização já é
+// enviada pro GitHub — e o Render publica sozinho no site (~2 minutos
+// depois disso).
 //
 // Este script NÃO precisa ficar sendo reiniciado: ele continua rodando e
 // publicando quantas vezes forem necessárias, até a janela ser fechada.
+//
+// NOTA (27/08/2026): antes desta versão, a pasta public/ (as páginas .html
+// do site) não estava na lista de arquivos vigiados — só entrava no
+// "git add" quando outro arquivo vigiado (ex.: server.js) disparava uma
+// publicação. Isso fez com que atualizações de interface (gráficos, telas
+// de setor etc.) ficassem paradas no computador sem ir pro ar, às vezes por
+// horas, até que por coincidência algum outro arquivo mudasse. Corrigido
+// vigiando também a pasta public/ inteira (qualquer arquivo dentro dela).
 
 const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
 const PASTA = __dirname;
+const PASTA_PUBLIC = path.join(PASTA, 'public');
 
-// Arquivos que, ao mudar, disparam uma publicação automática.
+// Arquivos individuais que, ao mudar, disparam uma publicação automática.
 const ARQUIVOS_VIGIADOS = [
   path.join(PASTA, 'dados-mensais', 'Base_Rateio_Custos_DTEL.xlsx'),
   path.join(PASTA, 'detalhes_colaborador.json'),
   path.join(PASTA, 'extrair_dados.js'),
   path.join(PASTA, 'server.js'),
+  path.join(PASTA, 'Base_de_Conhecimento_Setores_DTEL.xlsx'),
 ];
 
 // Caminhos passados pro "git add" (cobre a pasta inteira de dados-mensais,
@@ -35,6 +47,7 @@ const CAMINHOS_GIT_ADD = [
   'extrair_dados.js',
   'server.js',
   'public',
+  'Base_de_Conhecimento_Setores_DTEL.xlsx',
 ];
 
 const DEBOUNCE_MS = 20 * 1000; // espera 20s de silêncio antes de publicar
@@ -78,7 +91,11 @@ function agendarPublicacao(origem) {
   timer = setTimeout(publicar, DEBOUNCE_MS);
 }
 
-log('Vigia iniciado. Observando: ' + ARQUIVOS_VIGIADOS.map((f) => path.basename(f)).join(', '));
+log(
+  'Vigia iniciado. Observando: ' +
+    ARQUIVOS_VIGIADOS.map((f) => path.basename(f)).join(', ') +
+    ', e toda a pasta public/ (páginas do site)'
+);
 
 ARQUIVOS_VIGIADOS.forEach((arquivo) => {
   if (!fs.existsSync(arquivo)) {
@@ -92,11 +109,42 @@ ARQUIVOS_VIGIADOS.forEach((arquivo) => {
   }
 });
 
+// Vigia a pasta public/ inteira (qualquer .html/.js/.css dentro dela) —
+// pega tanto arquivo editado quanto arquivo novo criado ali dentro.
+if (fs.existsSync(PASTA_PUBLIC)) {
+  try {
+    fs.watch(PASTA_PUBLIC, { persistent: true }, (eventType, filename) => {
+      agendarPublicacao('public/' + (filename || '(arquivo)'));
+    });
+  } catch (e) {
+    log('Não foi possível vigiar a pasta public/: ' + e.message);
+  }
+} else {
+  log('AVISO: pasta public/ não encontrada, ignorando por enquanto.');
+}
+
 // Vigia extra por polling (rede/drives às vezes perdem eventos do fs.watch) —
 // confere a cada 60s se algum arquivo mudou de tamanho/data desde a última
-// checagem, como uma rede de segurança.
+// checagem, como uma rede de segurança. Inclui também os arquivos dentro de
+// public/, não só os 5 arquivos individuais de dados/código.
 let ultimoEstado = {};
-ARQUIVOS_VIGIADOS.forEach((arquivo) => {
+
+function listarArquivosPublic() {
+  try {
+    return fs
+      .readdirSync(PASTA_PUBLIC)
+      .filter((f) => fs.statSync(path.join(PASTA_PUBLIC, f)).isFile())
+      .map((f) => path.join(PASTA_PUBLIC, f));
+  } catch (e) {
+    return [];
+  }
+}
+
+function arquivosVigiadosPorPolling() {
+  return ARQUIVOS_VIGIADOS.concat(listarArquivosPublic());
+}
+
+arquivosVigiadosPorPolling().forEach((arquivo) => {
   try {
     const st = fs.statSync(arquivo);
     ultimoEstado[arquivo] = st.mtimeMs + ':' + st.size;
@@ -106,7 +154,7 @@ ARQUIVOS_VIGIADOS.forEach((arquivo) => {
 });
 
 setInterval(() => {
-  ARQUIVOS_VIGIADOS.forEach((arquivo) => {
+  arquivosVigiadosPorPolling().forEach((arquivo) => {
     try {
       const st = fs.statSync(arquivo);
       const chave = st.mtimeMs + ':' + st.size;

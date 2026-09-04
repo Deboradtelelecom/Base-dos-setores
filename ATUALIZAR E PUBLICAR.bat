@@ -11,7 +11,7 @@ echo.
 cd /d "%~dp0"
 
 echo Passo 1: Enviando os dados atualizados para o GitHub...
-git add dados-mensais detalhes_colaborador.json extrair_dados.js server.js public
+git add dados-mensais detalhes_colaborador.json extrair_dados.js server.js public Base_de_Conhecimento_Setores_DTEL.xlsx
 git commit -m "Atualiza planilha %date% %time:~0,5%"
 git push origin master
 

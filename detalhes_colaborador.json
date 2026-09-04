@@ -16797,12 +16797,7 @@
       ]
     },
     "seguranca_do_trabalho": {
-      "Junho/2026": [
-        {
-          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
-          "valor": 70
-        }
-      ],
+      "Junho/2026": [],
       "Julho/2026": [
         {
           "nome": "ISABELLE DIAS ABRAAO DE SOUZA",
@@ -17132,10 +17127,6 @@
           "valor": 826
         },
         {
-          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
-          "valor": 959.39
-        },
-        {
           "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
           "valor": 549.33
         },
@@ -17154,10 +17145,6 @@
           "valor": 966.39
         },
         {
-          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
-          "valor": 1232
-        },
-        {
           "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
           "valor": 1168.87
         },
@@ -17174,10 +17161,6 @@
         {
           "nome": "JEFFERSON DOS SANTOS SILVA",
           "valor": 570.8
-        },
-        {
-          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
-          "valor": 2169.16
         },
         {
           "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
@@ -23056,10 +23039,6 @@
           "valor": 50
         },
         {
-          "nome": "Luis Alexandre de Lima Passos",
-          "valor": 50
-        },
-        {
           "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
           "valor": 50
         },
@@ -24070,10 +24049,6 @@
         {
           "nome": "Erinaldo Lopes da Costa",
           "valor": 30
-        },
-        {
-          "nome": "Luis Alexandre de Lima Passos",
-          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -24092,10 +24067,6 @@
         {
           "nome": "Erinaldo Lopes da Costa",
           "valor": 30
-        },
-        {
-          "nome": "Luis Alexandre de Lima Passos",
-          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -24113,10 +24084,6 @@
         },
         {
           "nome": "Erinaldo Lopes da Costa",
-          "valor": 30
-        },
-        {
-          "nome": "Luis Alexandre de Lima Passos",
           "valor": 30
         }
       ]
