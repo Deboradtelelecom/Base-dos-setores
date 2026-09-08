@@ -7940,6 +7940,39 @@
         "heNoturna100": 0,
         "total": 137.67,
         "dsr": 20.4
+      },
+      {
+        "nome": "Bruno Goncalves De Souza",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Voicenet",
+        "he100": 183.34,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 183.34,
+        "dsr": 35.26
+      },
+      {
+        "nome": "Willcsson Jorge Costa Penafort",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "he100": 180.96,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 180.96,
+        "dsr": 34.8
+      },
+      {
+        "nome": "Ana Gabryelle Dias Da Silva Soares",
+        "cargo": "Axuliar Administrativo De Atendimento",
+        "empresa": "Voicenet",
+        "he100": 117.85,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 117.85,
+        "dsr": 22.66
       }
     ],
     "Agosto/2026": [
@@ -28571,43 +28604,6 @@
         "heNoturna100": 0,
         "total": 224.75,
         "dsr": 56.19
-      }
-    ]
-  },
-  "Recife": {
-    "Julho/2026": [
-      {
-        "nome": "Bruno Goncalves De Souza",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "Voicenet",
-        "he100": 183.34,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 183.34,
-        "dsr": 35.26
-      },
-      {
-        "nome": "Willcsson Jorge Costa Penafort",
-        "cargo": "Instalador Reparador",
-        "empresa": "Voicenet",
-        "he100": 180.96,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 180.96,
-        "dsr": 34.8
-      },
-      {
-        "nome": "Ana Gabryelle Dias Da Silva Soares",
-        "cargo": "Axuliar Administrativo De Atendimento",
-        "empresa": "Voicenet",
-        "he100": 117.85,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 117.85,
-        "dsr": 22.66
       }
     ]
   },
