@@ -10768,6 +10768,17 @@
         "heNoturna100": 0.0,
         "total": 900.85,
         "dsr": 216.2
+      },
+      {
+        "nome": "Thaynna De Lima Araujo",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 99.53,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 99.53,
+        "dsr": 23.89
       }
     ]
   },
@@ -28457,17 +28468,6 @@
         "heNoturna100": 0.0,
         "total": 550.77,
         "dsr": 132.18
-      },
-      {
-        "nome": "Thaynna De Lima Araujo",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 99.53,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 99.53,
-        "dsr": 23.89
       }
     ]
   },
