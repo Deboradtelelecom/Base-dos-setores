@@ -16157,6 +16157,22 @@
             "totalEncargos": 1130.2,
             "custoTotal": 4579.85
           }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 2890.95,
+          "encargos": {
+            "salarioBase": 1823.05,
+            "umDozeAvosFerias": 202.561111111111,
+            "umDozeAvosDecimoTerceiro": 151.920833333333,
+            "fgts": 145.844,
+            "inssPatronal": 364.61,
+            "ratGilrat": 36.461,
+            "terceiros": 105.7369,
+            "provisaoMultaRescisoria": 60.7683333333333,
+            "totalEncargos": 713.420233333333,
+            "custoTotal": 2890.95217777778
+          }
         }
       ],
       "Junho/2026": [
@@ -16271,6 +16287,22 @@
             "totalEncargos": 1968.49,
             "custoTotal": 7976.8
           }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 11289.88,
+          "encargos": {
+            "salarioBase": 7119.46209114583,
+            "umDozeAvosFerias": 791.051343460648,
+            "umDozeAvosDecimoTerceiro": 593.288507595486,
+            "fgts": 569.556967291667,
+            "inssPatronal": 1423.89241822917,
+            "ratGilrat": 142.389241822917,
+            "terceiros": 412.928801286458,
+            "provisaoMultaRescisoria": 237.315403038194,
+            "totalEncargos": 2786.0828316684,
+            "custoTotal": 11289.8847738704
+          }
         }
       ],
       "Julho/2026": [
@@ -16352,6 +16384,22 @@
             "provisaoMultaRescisoria": 167.67,
             "totalEncargos": 1968.49,
             "custoTotal": 7976.8
+          }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 4936.68,
+          "encargos": {
+            "salarioBase": 3113.1,
+            "umDozeAvosFerias": 345.9,
+            "umDozeAvosDecimoTerceiro": 259.425,
+            "fgts": 249.048,
+            "inssPatronal": 622.62,
+            "ratGilrat": 62.262,
+            "terceiros": 180.5598,
+            "provisaoMultaRescisoria": 103.77,
+            "totalEncargos": 1218.2598,
+            "custoTotal": 4936.6848
           }
         }
       ]
@@ -16511,22 +16559,6 @@
           }
         },
         {
-          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
-          "valor": 2890.95,
-          "encargos": {
-            "salarioBase": 1823.05,
-            "umDozeAvosFerias": 202.561111111111,
-            "umDozeAvosDecimoTerceiro": 151.920833333333,
-            "fgts": 145.844,
-            "inssPatronal": 364.61,
-            "ratGilrat": 36.461,
-            "terceiros": 105.7369,
-            "provisaoMultaRescisoria": 60.7683333333333,
-            "totalEncargos": 713.420233333333,
-            "custoTotal": 2890.95217777778
-          }
-        },
-        {
           "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
           "valor": 3704.36,
           "encargos": {
@@ -16593,22 +16625,6 @@
           }
         },
         {
-          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
-          "valor": 11289.88,
-          "encargos": {
-            "salarioBase": 7119.46209114583,
-            "umDozeAvosFerias": 791.051343460648,
-            "umDozeAvosDecimoTerceiro": 593.288507595486,
-            "fgts": 569.556967291667,
-            "inssPatronal": 1423.89241822917,
-            "ratGilrat": 142.389241822917,
-            "terceiros": 412.928801286458,
-            "provisaoMultaRescisoria": 237.315403038194,
-            "totalEncargos": 2786.0828316684,
-            "custoTotal": 11289.8847738704
-          }
-        },
-        {
           "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
           "valor": 4493.85,
           "encargos": {
@@ -16656,22 +16672,6 @@
             "provisaoMultaRescisoria": 161.90733333333336,
             "totalEncargos": 1900.7920933333332,
             "custoTotal": 7702.471537777778
-          }
-        },
-        {
-          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
-          "valor": 4936.68,
-          "encargos": {
-            "salarioBase": 3113.1,
-            "umDozeAvosFerias": 345.9,
-            "umDozeAvosDecimoTerceiro": 259.425,
-            "fgts": 249.048,
-            "inssPatronal": 622.62,
-            "ratGilrat": 62.262,
-            "terceiros": 180.5598,
-            "provisaoMultaRescisoria": 103.77,
-            "totalEncargos": 1218.2598,
-            "custoTotal": 4936.6848
           }
         },
         {
