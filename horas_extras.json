@@ -929,6 +929,17 @@
         "heNoturna100": 0.0,
         "total": 936.22,
         "dsr": 224.73
+      },
+      {
+        "nome": "Andreza Luana Barbosa Da Silva",
+        "cargo": "Nutricionista",
+        "empresa": "DTEL",
+        "he100": 420.2,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 4.5,
+        "total": 424.7,
+        "dsr": 102.68
       }
     ]
   },
@@ -28601,19 +28612,7 @@
     ]
   },
   "Qualidade": {
-    "Agosto/2026": [
-      {
-        "nome": "Andreza Luana Barbosa Da Silva",
-        "cargo": "Nutricionista",
-        "empresa": "DTEL",
-        "he100": 420.2,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 4.5,
-        "total": 424.7,
-        "dsr": 102.68
-      }
-    ]
+    "Agosto/2026": []
   },
   "TIC": {
     "Agosto/2026": [
