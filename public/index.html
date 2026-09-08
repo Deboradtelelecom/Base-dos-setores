@@ -173,6 +173,7 @@ async function carregar() {
     itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
     itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo', categoria: 'Visão Geral' });
     itens.push({ nome: 'Reembolso Geral', icone: '🔁', href: API_BASE + '/reembolso-geral', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Horas Extras', icone: '⏱️', href: API_BASE + '/horas-extras', categoria: 'Visão Geral' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
     TODOS_ITENS = itens;

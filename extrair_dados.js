@@ -107,6 +107,39 @@ function carregarDetalhesColaborador(pastaDados) {
   return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {} };
 }
 
+// "Horas Extras" — quadro à parte (04/09/2026), pedido da Débora: "todos os
+// setores que receberam horas extras", com a lista de colaboradores por
+// equipe. Fonte: aba "Detalhamento" das Base_Despesa_Trabalhista_MMAAAA.xlsx
+// (Maio/Junho/Julho 2026) — colunas de hora extra variam de nome mês a mês
+// (ex.: "HORA EXTRA 100%" em Maio/Junho, "HORAS EXTRAS 100%" em Julho), já
+// normalizadas na extração para 4 tipos fixos: 100%, 50%, Noturna 50%,
+// Noturna 100%. Ficaram de fora, por decisão explícita: os códigos
+// "INFORMAL" (referência, não fazem parte do custo oficial — mesmo padrão já
+// usado para excluir "PROVENTOS INFORMAL" do Custo Total) e o "Reflexo de
+// Horas Extras sobre DSR" (é um encargo derivado, não a hora extra em si).
+// Agrupado por EQUIPE (o campo real da folha, não um "setor" da Plataforma)
+// porque a maior parte da hora extra vem de equipes de campo/instalação/
+// vendas que não têm setor correspondente nos 39 setores de CUSTOS MENSAIS —
+// agrupar por EQUIPE evita fabricar um vínculo que não existe. Arquivo
+// gerado por script (não editável à mão) — para atualizar, reprocessar as 3
+// planilhas de despesa trabalhista do mês.
+function carregarHorasExtras(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'horas_extras.json'),
+    path.join(pastaDados, 'horas_extras.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
 function extrairEstado(pastaDados) {
   const caminho = encontrarArquivoBase(pastaDados);
   if (!caminho) {
@@ -370,8 +403,9 @@ function extrairEstado(pastaDados) {
   // criado/renomeado). Não altera nenhum valor — é só pra sinalizar na tela.
   const nomesSetoresReais = new Set(Object.values(STATE_REAL).map((s) => s.nome));
   const reembolsoGeral = wsReembolsoGeral ? extrairReembolsoGeral(wsReembolsoGeral, nomesSetoresReais) : null;
+  const horasExtras = carregarHorasExtras(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso

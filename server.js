@@ -163,6 +163,22 @@ app.get('/api/reembolso-geral', async (req, res) => {
   }
 });
 
+// Quadro "Horas Extras" — extraído das Base_Despesa_Trabalhista_MMAAAA.xlsx
+// (aba Detalhamento), agrupado por EQUIPE (Maio/Junho/Julho 2026). Devolve o
+// objeto completo; a página faz o filtro de Competência/Busca no navegador.
+app.get('/api/horas-extras', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    res.json({
+      equipes: estado.horasExtras || {},
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -191,6 +207,10 @@ app.get('/gestao-atendimento', (req, res) => {
 
 app.get('/reembolso-geral', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'reembolso-geral.html'));
+});
+
+app.get('/horas-extras', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'horas-extras.html'));
 });
 
 app.get('/', (req, res) => {
