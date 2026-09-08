@@ -1786,6 +1786,28 @@
         "heNoturna100": 0.0,
         "total": 1439.95,
         "dsr": 345.59
+      },
+      {
+        "nome": "Gabriel Gomes Dos Santos",
+        "cargo": "Auxiliar Tecnico De Lancamento",
+        "empresa": "DTEL",
+        "he100": 194.08,
+        "he50": 154.64,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 348.72,
+        "dsr": 83.69
+      },
+      {
+        "nome": "Moises Da Rocha Silva",
+        "cargo": "Auxiliar Tecnico De Lancamento",
+        "empresa": "DTEL",
+        "he100": 454.98,
+        "he50": 403.06,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 858.04,
+        "dsr": 205.93
       }
     ]
   },
@@ -8745,6 +8767,72 @@
         "heNoturna100": 0.0,
         "total": 1096.86,
         "dsr": 210.93
+      },
+      {
+        "nome": "Bruno Mendes Da Silva",
+        "cargo": "Auxiliar De Estoque",
+        "empresa": "DTEL",
+        "he100": 128.3,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 128.3,
+        "dsr": 30.79
+      },
+      {
+        "nome": "Joao Matheus Dos Santos Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 660.14,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 660.14,
+        "dsr": 158.43
+      },
+      {
+        "nome": "Leandro Benicio Soares",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 560.01,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 560.01,
+        "dsr": 134.4
+      },
+      {
+        "nome": "Bruno Goncalves De Souza",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Voicenet",
+        "he100": 187.48,
+        "he50": 262.4,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 449.88,
+        "dsr": 86.52
+      },
+      {
+        "nome": "Jose Ricardo Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "he100": 366.72,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 366.72,
+        "dsr": 70.52
+      },
+      {
+        "nome": "Willcsson Jorge Costa Penafort",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "he100": 378.15,
+        "he50": 355.07,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 733.22,
+        "dsr": 141.0
       }
     ]
   },
@@ -19596,6 +19684,17 @@
         "heNoturna100": 0.0,
         "total": 197.46,
         "dsr": 47.39
+      },
+      {
+        "nome": "Ravel Da Silva Souza",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "he100": 199.29,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 199.29,
+        "dsr": 47.83
       }
     ]
   },
@@ -26659,6 +26758,39 @@
         "heNoturna100": 0.0,
         "total": 189.58,
         "dsr": 45.5
+      },
+      {
+        "nome": "Cecilia Maria De Souza",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 175.19,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 175.19,
+        "dsr": 42.05
+      },
+      {
+        "nome": "Rebecca Fantiny Correia Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 175.19,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 175.19,
+        "dsr": 42.05
+      },
+      {
+        "nome": "Victor Feliphe Leao De Souza",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 166.39,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 166.39,
+        "dsr": 39.93
       }
     ]
   },
@@ -28193,28 +28325,6 @@
         "dsr": 34.62
       },
       {
-        "nome": "Bruno Mendes Da Silva",
-        "cargo": "Auxiliar De Estoque",
-        "empresa": "DTEL",
-        "he100": 128.3,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 128.3,
-        "dsr": 30.79
-      },
-      {
-        "nome": "Cecilia Maria De Souza",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 175.19,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 175.19,
-        "dsr": 42.05
-      },
-      {
         "nome": "Dannubya Joana Gomes De Albuquerque",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
@@ -28224,17 +28334,6 @@
         "heNoturna100": 0.0,
         "total": 154.21,
         "dsr": 37.01
-      },
-      {
-        "nome": "Gabriel Gomes Dos Santos",
-        "cargo": "Auxiliar Tecnico De Lancamento",
-        "empresa": "DTEL",
-        "he100": 194.08,
-        "he50": 154.64,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 348.72,
-        "dsr": 83.69
       },
       {
         "nome": "Guilherme Jose Soares Gonçalves",
@@ -28257,17 +28356,6 @@
         "heNoturna100": 0.0,
         "total": 152.89,
         "dsr": 36.69
-      },
-      {
-        "nome": "Joao Matheus Dos Santos Nascimento",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 660.14,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 660.14,
-        "dsr": 158.43
       },
       {
         "nome": "Jose Josias Da Silva Correia",
@@ -28303,28 +28391,6 @@
         "dsr": 32.5
       },
       {
-        "nome": "Leandro Benicio Soares",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 560.01,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 560.01,
-        "dsr": 134.4
-      },
-      {
-        "nome": "Moises Da Rocha Silva",
-        "cargo": "Auxiliar Tecnico De Lancamento",
-        "empresa": "DTEL",
-        "he100": 454.98,
-        "he50": 403.06,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 858.04,
-        "dsr": 205.93
-      },
-      {
         "nome": "Paulo Sergio Da Silva Nascimento",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
@@ -28345,28 +28411,6 @@
         "heNoturna100": 0.0,
         "total": 196.28,
         "dsr": 47.11
-      },
-      {
-        "nome": "Ravel Da Silva Souza",
-        "cargo": "Auxiliar Administrativo De Atendimento",
-        "empresa": "DTEL",
-        "he100": 199.29,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 199.29,
-        "dsr": 47.83
-      },
-      {
-        "nome": "Rebecca Fantiny Correia Da Silva",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 175.19,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 175.19,
-        "dsr": 42.05
       },
       {
         "nome": "Thaynna De Lima Araujo",
@@ -28402,17 +28446,6 @@
         "dsr": 139.85
       },
       {
-        "nome": "Victor Feliphe Leao De Souza",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 166.39,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 166.39,
-        "dsr": 39.93
-      },
-      {
         "nome": "William Jose Da Silva Santos",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
@@ -28422,39 +28455,6 @@
         "heNoturna100": 0.0,
         "total": 794.71,
         "dsr": 190.73
-      },
-      {
-        "nome": "Bruno Goncalves De Souza",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "Voicenet",
-        "he100": 187.48,
-        "he50": 262.4,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 449.88,
-        "dsr": 86.52
-      },
-      {
-        "nome": "Jose Ricardo Da Silva Santos",
-        "cargo": "Instalador Reparador",
-        "empresa": "Voicenet",
-        "he100": 366.72,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 366.72,
-        "dsr": 70.52
-      },
-      {
-        "nome": "Willcsson Jorge Costa Penafort",
-        "cargo": "Instalador Reparador",
-        "empresa": "Voicenet",
-        "he100": 378.15,
-        "he50": 355.07,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 733.22,
-        "dsr": 141.0
       }
     ]
   },
