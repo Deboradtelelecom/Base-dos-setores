@@ -79,7 +79,7 @@
     <span class="icon">⏱️</span>
     <div>
       <h1>Horas Extras</h1>
-      <p>Hora extra paga por equipe — extraído da folha trabalhista (Detalhamento de Encargos), Maio a Julho de 2026. Clique no nome da equipe para ver a lista de colaboradores.</p>
+      <p>Hora extra paga por equipe — extraído da folha trabalhista (Detalhamento de Encargos), Maio a Agosto de 2026. Clique no nome da equipe para ver a lista de colaboradores.</p>
     </div>
   </div>
 
@@ -115,7 +115,7 @@
       <div class="chart-header">
         <span class="chart-titulo">Tendência de Horas Extras por Mês</span>
       </div>
-      <p class="chart-nota">Total de hora extra (100% + 50% + Noturna 50% + Noturna 100%) por mês, Maio a Julho de 2026 — sempre com os 3 meses lado a lado, para comparar a evolução do gasto (não é afetado pelo filtro de Competência acima, só pelo de Busca).</p>
+      <p class="chart-nota">Total de hora extra (100% + 50% + Noturna 50% + Noturna 100%) por mês, Maio a Agosto de 2026 — sempre com os 4 meses lado a lado, para comparar a evolução do gasto (não é afetado pelo filtro de Competência acima, só pelo de Busca).</p>
       <div class="chart-wrap" style="height:280px;"><canvas id="chartTendenciaMensal"></canvas></div>
     </div>
 
@@ -301,7 +301,7 @@ function renderTudo() {
 }
 
 function renderChartTendenciaMensal() {
-  const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026'];
+  const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
   const porMes = {};
   registrosFiltradosPorBusca().forEach((r) => {
     porMes[r.mes] = (porMes[r.mes] || 0) + (r.total || 0);
@@ -419,7 +419,7 @@ async function buscarDados() {
 
     const meses = new Set();
     Object.values(EQUIPES).forEach((porMes) => Object.keys(porMes).forEach((m) => meses.add(m)));
-    const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026'];
+    const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
     const mesesOrdenados = [...meses].sort((a, b) => ORDEM.indexOf(a) - ORDEM.indexOf(b));
     popularSelect('fMes', mesesOrdenados, true);
 
