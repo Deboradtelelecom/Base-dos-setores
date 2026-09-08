@@ -11962,6 +11962,17 @@
         "heNoturna100": 0,
         "total": 59.85,
         "dsr": 14.96
+      },
+      {
+        "nome": "Carlos Vinicius Da Silva Lima",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 410.22,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 410.22,
+        "dsr": 102.56
       }
     ],
     "Julho/2026": [
@@ -19671,6 +19682,17 @@
         "heNoturna100": 0,
         "total": 129.15,
         "dsr": 32.29
+      },
+      {
+        "nome": "Vikione Stephany Maria Batista Da Silva",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "he100": 280.67,
+        "he50": 401.86,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 682.53,
+        "dsr": 170.63
       }
     ],
     "Agosto/2026": [
@@ -21001,6 +21023,17 @@
         "heNoturna100": 0,
         "total": 129.34,
         "dsr": 25.87
+      },
+      {
+        "nome": "Eduardo Karisson Maximino De Matos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "PLANETA NET",
+        "he100": 465.98,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 465.98,
+        "dsr": 93.2
       }
     ]
   },
@@ -28464,44 +28497,6 @@
         "dsr": 35.0
       }
     ]
-  },
-  "(Sem Equipe)": {
-    "Junho/2026": [
-      {
-        "nome": "Vikione Stephany Maria Batista Da Silva",
-        "cargo": "Auxiliar Administrativo",
-        "empresa": "DTEL",
-        "he100": 280.67,
-        "he50": 401.86,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 682.53,
-        "dsr": 170.63
-      },
-      {
-        "nome": "Eduardo Karisson Maximino De Matos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "PLANETA NET",
-        "he100": 465.98,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 465.98,
-        "dsr": 93.2
-      },
-      {
-        "nome": "Carlos Vinicius Da Silva Lima",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 410.22,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 410.22,
-        "dsr": 102.56
-      }
-    ],
-    "Agosto/2026": []
   },
   "NOC": {
     "Junho/2026": [
