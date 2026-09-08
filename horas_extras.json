@@ -3200,6 +3200,16 @@
     "heNoturna50": 0,
     "heNoturna100": 0,
     "total": 201.1
+   },
+   {
+    "nome": "Danrley Do Nascimento Silva",
+    "cargo": "Tecnico Em Fibra Júnior",
+    "empresa": "DMAIS",
+    "he100": 1246.52,
+    "he50": 1788.36,
+    "heNoturna50": 732.23,
+    "heNoturna100": 0,
+    "total": 3767.1
    }
   ],
   "Junho/2026": [
@@ -3262,6 +3272,16 @@
     "heNoturna50": 0,
     "heNoturna100": 0,
     "total": 743.66
+   },
+   {
+    "nome": "Danrley Do Nascimento Silva",
+    "cargo": "Tecnico Em Fibra Júnior",
+    "empresa": "DMAIS",
+    "he100": 527.77,
+    "he50": 1822.92,
+    "heNoturna50": 743.39,
+    "heNoturna100": 0,
+    "total": 3094.08
    }
   ],
   "Julho/2026": [
@@ -3324,6 +3344,16 @@
     "heNoturna50": 0,
     "heNoturna100": 0,
     "total": 188.39
+   },
+   {
+    "nome": "Danrley Do Nascimento Silva",
+    "cargo": "Tecnico Em Fibra Junior",
+    "empresa": "DTEL TELECOM LTDA",
+    "he100": 505.7,
+    "he50": 1617.79,
+    "heNoturna50": 0,
+    "heNoturna100": 0,
+    "total": 2123.49
    }
   ]
  },
@@ -6796,16 +6826,6 @@
  "Instalação Paulo Cesar": {
   "Maio/2026": [
    {
-    "nome": "Danrley Do Nascimento Silva",
-    "cargo": "Tecnico Em Fibra Júnior",
-    "empresa": "DMAIS",
-    "he100": 1246.52,
-    "he50": 1788.36,
-    "heNoturna50": 732.23,
-    "heNoturna100": 0,
-    "total": 3767.1
-   },
-   {
     "nome": "Gilson Alfredo Teixeira Branco",
     "cargo": "Instalador Reparador Pleno",
     "empresa": "ORBIX",
@@ -7317,16 +7337,6 @@
    }
   ],
   "Junho/2026": [
-   {
-    "nome": "Danrley Do Nascimento Silva",
-    "cargo": "Tecnico Em Fibra Júnior",
-    "empresa": "DMAIS",
-    "he100": 527.77,
-    "he50": 1822.92,
-    "heNoturna50": 743.39,
-    "heNoturna100": 0,
-    "total": 3094.08
-   },
    {
     "nome": "Lucas Da Silva Santos",
     "cargo": "Instalador Reparador Pleno",
@@ -7849,16 +7859,6 @@
    }
   ],
   "Julho/2026": [
-   {
-    "nome": "Danrley Do Nascimento Silva",
-    "cargo": "Tecnico Em Fibra Junior",
-    "empresa": "DTEL TELECOM LTDA",
-    "he100": 505.7,
-    "he50": 1617.79,
-    "heNoturna50": 0,
-    "heNoturna100": 0,
-    "total": 2123.49
-   },
    {
     "nome": "Macedonio Da Silva Cavalcanti Neto",
     "cargo": "Supervisor Tecnico Pleno",
