@@ -20857,6 +20857,52 @@
         "total": 582.7,
         "dsr": 139.85
       }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Ravel Monteiro De Souza",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "PLANETA NET",
+        "he100": 384.87,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 384.87,
+        "dsr": 76.97
+      },
+      {
+        "nome": "Eduardo Victor Batista Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 383.36,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 383.36,
+        "dsr": 95.84
+      },
+      {
+        "nome": "Diego Henrique Martins Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 169.99,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 169.99,
+        "dsr": 42.5
+      },
+      {
+        "nome": "Niedson Guilherme Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "PLANETA NET",
+        "he100": 0,
+        "he50": 129.34,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 129.34,
+        "dsr": 25.87
+      }
     ]
   },
   "COE": {
@@ -28387,50 +28433,6 @@
         "heNoturna100": 0,
         "total": 410.22,
         "dsr": 102.56
-      },
-      {
-        "nome": "Ravel Monteiro De Souza",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "PLANETA NET",
-        "he100": 384.87,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 384.87,
-        "dsr": 76.97
-      },
-      {
-        "nome": "Eduardo Victor Batista Da Silva",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 383.36,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 383.36,
-        "dsr": 95.84
-      },
-      {
-        "nome": "Diego Henrique Martins Da Silva",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 169.99,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 169.99,
-        "dsr": 42.5
-      },
-      {
-        "nome": "Niedson Guilherme Dos Santos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "PLANETA NET",
-        "he100": 0,
-        "he50": 129.34,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 129.34,
-        "dsr": 25.87
       }
     ],
     "Agosto/2026": [
