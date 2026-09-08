@@ -771,6 +771,17 @@
         "heNoturna100": 0,
         "total": 561.98,
         "dsr": 140.49
+      },
+      {
+        "nome": "Maria Jose Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais Pleno",
+        "empresa": "DTEL",
+        "he100": 197.72,
+        "he50": 2183.84,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 2381.55,
+        "dsr": 595.39
       }
     ],
     "Julho/2026": [
@@ -839,6 +850,17 @@
         "heNoturna100": 0,
         "total": 515.67,
         "dsr": 76.4
+      },
+      {
+        "nome": "Maria Jose Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais Pleno",
+        "empresa": "DTEL",
+        "he100": 0,
+        "he50": 555.52,
+        "heNoturna50": 3.34,
+        "heNoturna100": 0,
+        "total": 558.86,
+        "dsr": 82.79
       }
     ],
     "Agosto/2026": [
@@ -896,6 +918,17 @@
         "heNoturna100": 0.0,
         "total": 208.19,
         "dsr": 50.12
+      },
+      {
+        "nome": "Maria Jose Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais Pleno",
+        "empresa": "DTEL",
+        "he100": 239.13,
+        "he50": 697.09,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 936.22,
+        "dsr": 224.73
       }
     ]
   },
@@ -21547,17 +21580,6 @@
     ],
     "Junho/2026": [
       {
-        "nome": "Maria Jose Da Silva",
-        "cargo": "Auxiliar De Serviços Gerais Pleno",
-        "empresa": "DTEL",
-        "he100": 197.72,
-        "he50": 2183.84,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 2381.55,
-        "dsr": 595.39
-      },
-      {
         "nome": "Fabiano Araujo Ferreira",
         "cargo": "Auxiliar De Serviços Gerais.",
         "empresa": "DTEL",
@@ -21681,17 +21703,6 @@
         "dsr": 219.42
       },
       {
-        "nome": "Maria Jose Da Silva",
-        "cargo": "Auxiliar De Serviços Gerais Pleno",
-        "empresa": "DTEL",
-        "he100": 0,
-        "he50": 555.52,
-        "heNoturna50": 3.34,
-        "heNoturna100": 0,
-        "total": 558.86,
-        "dsr": 82.79
-      },
-      {
         "nome": "Fabiana Barbosa Dos Santos",
         "cargo": "Auxiliar De Serviços Gerais",
         "empresa": "DTEL",
@@ -21791,17 +21802,6 @@
         "heNoturna100": 0.0,
         "total": 212.63,
         "dsr": 51.03
-      },
-      {
-        "nome": "Maria Jose Da Silva",
-        "cargo": "Auxiliar De Serviços Gerais Pleno",
-        "empresa": "DTEL",
-        "he100": 239.13,
-        "he50": 697.09,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 936.22,
-        "dsr": 224.73
       },
       {
         "nome": "Maria Jose Gomes De Moura",
