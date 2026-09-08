@@ -64,6 +64,11 @@
   .chart-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
   .chart-wrap { position:relative; height:360px; }
 
+  .btn-excel { display:inline-flex; align-items:center; gap:6px; background:rgba(34,197,94,0.12); border:1px solid rgba(34,197,94,0.35); color:var(--good); font-size:11.5px; font-weight:700; border-radius:9px; padding:7px 13px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
+  .btn-excel:hover { background:rgba(34,197,94,0.2); }
+  .btn-excel-mini { display:inline-flex; align-items:center; gap:4px; background:rgba(34,197,94,0.1); border:1px solid rgba(34,197,94,0.3); color:var(--good); font-size:10px; font-weight:700; border-radius:7px; padding:4px 9px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
+  .btn-excel-mini:hover { background:rgba(34,197,94,0.18); }
+
   .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
   .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
   .vazio { color:var(--slate-500); font-size:12.5px; padding:16px 0; text-align:center; }
@@ -99,6 +104,7 @@
         <span class="filtro-label">Buscar</span>
         <input id="fBusca" type="text" placeholder="equipe ou colaborador…" oninput="renderTudo()">
       </div>
+      <button class="btn-excel" id="btnBaixarExcel" onclick="baixarExcel()">⬇ Baixar Excel</button>
     </div>
 
     <div class="totais-cards" id="totaisCards"></div>
@@ -107,7 +113,7 @@
       <div class="chart-header">
         <span class="chart-titulo">Top 10 Equipes por Hora Extra</span>
       </div>
-      <p class="chart-nota">Soma de Hora Extra 100% + 50% + Noturna 50% + Noturna 100%, por equipe. Não inclui os códigos "informal" (referência, fora do custo oficial) nem o Reflexo de Horas Extras sobre DSR. Reflete o filtro de Competência/Busca acima.</p>
+      <p class="chart-nota">Soma de Hora Extra 100% + 50% + Noturna 50% + Noturna 100%, por equipe. Não inclui os códigos "informal" (referência, fora do custo oficial) nem o Reflexo de Horas Extras sobre DSR (esse valor aparece à parte, numa coluna própria nas tabelas abaixo, sem entrar no Total). Reflete o filtro de Competência/Busca acima.</p>
       <div class="chart-wrap"><canvas id="chartTopEquipes"></canvas></div>
     </div>
 
@@ -124,10 +130,11 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Detalhamento), agrupado pela EQUIPE de cada colaborador na folha — não pelos setores da Plataforma, porque boa parte da hora extra vem de equipes de campo/instalação/vendas que não têm setor correspondente em CUSTOS MENSAIS. O filtro de Empresa já foi padronizado: as diferentes grafias da mesma empresa (nome abreviado x razão social completa) foram unificadas, e Speed, Goonet, Dmais, Orbix, MJ Ventura e Dtel Filial Alagoas entram todas como "DTEL", conforme confirmado pela Débora. "Planeta Net", "Litoral Net" e "Souza e Oliveira" continuam separadas por não terem correspondência confirmada com nenhuma das empresas licenciadas conhecidas. Esta tela é só de consulta.</p>
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Detalhamento), agrupado pela EQUIPE de cada colaborador na folha — não pelos setores da Plataforma, porque boa parte da hora extra vem de equipes de campo/instalação/vendas que não têm setor correspondente em CUSTOS MENSAIS. O filtro de Empresa já foi padronizado: as diferentes grafias da mesma empresa (nome abreviado x razão social completa) foram unificadas, e Speed, Goonet, Dmais, Orbix, MJ Ventura e Dtel Filial Alagoas entram todas como "DTEL", conforme confirmado pela Débora. "Planeta Net", "Litoral Net" e "Souza e Oliveira" continuam separadas por não terem correspondência confirmada com nenhuma das empresas licenciadas conhecidas. A coluna "DSR s/ HE" é o Reflexo de Horas Extras (diurna e noturna) sobre o Descanso Semanal Remunerado — um encargo derivado da hora extra, mostrado à parte e não somado no Total. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquele gestor/equipe (todos os meses dele, ignorando o filtro de Competência). Esta tela é só de consulta.</p>
   </div>
 </main>
 <script src="/chartjs_extracted.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const API_BASE = '';
 let EQUIPES = {}; // equipe -> mes -> [colaboradores]
@@ -268,22 +275,26 @@ function renderTudo() {
         <td class="val ${!r.he50 ? 'zero' : ''}">${fmtBRL(r.he50)}</td>
         <td class="val ${!r.heNoturna50 ? 'zero' : ''}">${fmtBRL(r.heNoturna50)}</td>
         <td class="val ${!r.heNoturna100 ? 'zero' : ''}">${fmtBRL(r.heNoturna100)}</td>
+        <td class="val ${!r.dsr ? 'zero' : ''}">${fmtBRL(r.dsr)}</td>
         <td class="total">${fmtBRL(r.total)}</td>
       </tr>
     `).join('');
     return `
       <div class="grupo-setor">
-        <div class="grupo-header" data-equipe-toggle>
-          <div class="esq">
+        <div class="grupo-header">
+          <div class="esq" data-equipe-toggle>
             <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
             <span class="grupo-nome">${equipe}</span>
             <span class="grupo-count">${itens.length} lançamento${itens.length === 1 ? '' : 's'}</span>
           </div>
-          <span class="grupo-total">${fmtBRL(totalEquipe)}</span>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span class="grupo-total">${fmtBRL(totalEquipe)}</span>
+            <button class="btn-excel-mini" data-equipe-excel onclick="event.stopPropagation(); baixarExcelEquipe('${equipe.replace(/'/g, "\\'")}')">⬇ Excel</button>
+          </div>
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>HE 100%</th><th>HE 50%</th><th>HE Noturna 50%</th><th>HE Noturna 100%</th><th>Total</th></tr></thead>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>HE 100%</th><th>HE 50%</th><th>HE Noturna 50%</th><th>HE Noturna 100%</th><th>DSR s/ HE</th><th>Total</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -407,6 +418,51 @@ function renderChartTopEquipes(porEquipe) {
       },
     },
   });
+}
+
+// Monta a matriz de linhas (com cabeçalho) pronta pro XLSX, a partir de uma
+// lista de registros já achatados {equipe, mes, nome, cargo, empresa, he100,
+// he50, heNoturna50, heNoturna100, dsr, total}.
+function montarLinhasExcel(registros) {
+  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'HE 100%', 'HE 50%', 'HE Noturna 50%', 'HE Noturna 100%', 'DSR s/ HE', 'Total'];
+  const linhas = registros.map(r => [
+    r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.mes || '',
+    Number((r.he100 || 0).toFixed(2)), Number((r.he50 || 0).toFixed(2)),
+    Number((r.heNoturna50 || 0).toFixed(2)), Number((r.heNoturna100 || 0).toFixed(2)),
+    Number((r.dsr || 0).toFixed(2)), Number((r.total || 0).toFixed(2)),
+  ]);
+  const totalGeral = registros.reduce((s, r) => s + (r.total || 0), 0);
+  const dsrGeral = registros.reduce((s, r) => s + (r.dsr || 0), 0);
+  linhas.push(['', '', '', '', '', '', '', '', '', '', '']);
+  linhas.push(['TOTAL', '', '', '', '', '', '', '', '', Number(dsrGeral.toFixed(2)), Number(totalGeral.toFixed(2))]);
+  return [cab, ...linhas];
+}
+
+function exportarXlsx(matriz, nomeArquivo, nomeAba) {
+  const ws = XLSX.utils.aoa_to_sheet(matriz);
+  ws['!cols'] = [{ wch: 26 }, { wch: 32 }, { wch: 26 }, { wch: 20 }, { wch: 12 }, { wch: 11 }, { wch: 11 }, { wch: 13 }, { wch: 14 }, { wch: 11 }, { wch: 13 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, nomeAba.substring(0, 31));
+  XLSX.writeFile(wb, nomeArquivo);
+}
+
+// Botão "Baixar Excel" do topo: exporta tudo que está no filtro atual
+// (Competência + Empresa + Busca), igual ao que a tela está mostrando.
+function baixarExcel() {
+  const registros = registrosFiltrados();
+  if (!registros.length) { alert('Nenhum registro para exportar nesse filtro.'); return; }
+  const matriz = montarLinhasExcel(registros);
+  const mes = document.getElementById('fMes').value || 'todos-os-meses';
+  exportarXlsx(matriz, `Horas Extras - ${mes.replace('/', '-')}.xlsx`, 'Horas Extras');
+}
+
+// Botão "Excel" de cada equipe/gestor: exporta só aquela equipe, com todos os
+// meses dela (ignora o filtro de Competência, respeita Empresa/Busca).
+function baixarExcelEquipe(equipe) {
+  const registros = registrosFiltradosPorBusca().filter(r => r.equipe === equipe);
+  if (!registros.length) { alert('Nenhum registro para exportar dessa equipe.'); return; }
+  const matriz = montarLinhasExcel(registros);
+  exportarXlsx(matriz, `Horas Extras - ${equipe}.xlsx`, equipe);
 }
 
 async function buscarDados() {
