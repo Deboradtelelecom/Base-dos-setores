@@ -760,6 +760,17 @@
         "heNoturna100": 0,
         "total": 261.32,
         "dsr": 65.33
+      },
+      {
+        "nome": "Claudia Soares Dos Santos Silva",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "he100": 142.01,
+        "he50": 419.97,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 561.98,
+        "dsr": 140.49
       }
     ],
     "Julho/2026": [
@@ -817,6 +828,17 @@
         "heNoturna100": 0,
         "total": 289.81,
         "dsr": 42.93
+      },
+      {
+        "nome": "Claudia Soares Dos Santos Silva",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "he100": 0,
+        "he50": 513.25,
+        "heNoturna50": 2.42,
+        "heNoturna100": 0,
+        "total": 515.67,
+        "dsr": 76.4
       }
     ],
     "Agosto/2026": [
@@ -863,6 +885,17 @@
         "heNoturna100": 16.84,
         "total": 2225.4,
         "dsr": 534.09
+      },
+      {
+        "nome": "Claudia Soares Dos Santos Silva",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "he100": 0.0,
+        "he50": 208.19,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 208.19,
+        "dsr": 50.12
       }
     ]
   },
@@ -18095,17 +18128,6 @@
         "dsr": 242.25
       },
       {
-        "nome": "Claudia Soares Dos Santos Silva",
-        "cargo": "Assistente Administrativo Cac Junior",
-        "empresa": "DTEL",
-        "he100": 142.01,
-        "he50": 419.97,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 561.98,
-        "dsr": 140.49
-      },
-      {
         "nome": "Lucas Andre Da Silva Alves",
         "cargo": "Auxiliar De Campo",
         "empresa": "DTEL",
@@ -18161,17 +18183,6 @@
         "heNoturna100": 0,
         "total": 631.38,
         "dsr": 93.54
-      },
-      {
-        "nome": "Claudia Soares Dos Santos Silva",
-        "cargo": "Assistente Administrativo Cac Junior",
-        "empresa": "DTEL",
-        "he100": 0,
-        "he50": 513.25,
-        "heNoturna50": 2.42,
-        "heNoturna100": 0,
-        "total": 515.67,
-        "dsr": 76.4
       },
       {
         "nome": "Anderson Luiz Peixoto Da Silveira Junisoirtuação:",
@@ -18240,17 +18251,6 @@
         "heNoturna100": 0.0,
         "total": 762.48,
         "dsr": 183.0
-      },
-      {
-        "nome": "Claudia Soares Dos Santos Silva",
-        "cargo": "Assistente Administrativo Cac Junior",
-        "empresa": "DTEL",
-        "he100": 0.0,
-        "he50": 208.19,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 208.19,
-        "dsr": 50.12
       },
       {
         "nome": "Jairo Rodrigues Silva Neto",
