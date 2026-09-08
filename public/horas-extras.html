@@ -108,6 +108,14 @@
     </div>
 
     <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Tendência de Horas Extras por Mês</span>
+      </div>
+      <p class="chart-nota">Total de hora extra (100% + 50% + Noturna 50% + Noturna 100%) por mês, Maio a Julho de 2026 — sempre com os 3 meses lado a lado, para comparar a evolução do gasto (não é afetado pelo filtro de Competência acima, só pelo de Busca).</p>
+      <div class="chart-wrap" style="height:280px;"><canvas id="chartTendenciaMensal"></canvas></div>
+    </div>
+
+    <div class="section-card">
       <div id="grupos"></div>
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
@@ -121,6 +129,7 @@ const API_BASE = '';
 let EQUIPES = {}; // equipe -> mes -> [colaboradores]
 let GRUPOS_ABERTOS = {};
 let CHART_TOP_EQUIPES = null;
+let CHART_TENDENCIA_MENSAL = null;
 
 // Rótulo de dados para o gráfico horizontal "Top 10 Equipes por Hora Extra"
 // — escreve o valor logo à direita de cada barra.
@@ -183,6 +192,24 @@ function registrosFiltrados() {
   Object.keys(EQUIPES).forEach((equipe) => {
     Object.keys(EQUIPES[equipe]).forEach((m) => {
       if (mes && m !== mes) return;
+      EQUIPES[equipe][m].forEach((c) => {
+        if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
+        out.push({ equipe, mes: m, ...c });
+      });
+    });
+  });
+  return out;
+}
+
+// Mesma lógica de registrosFiltrados(), mas ignorando o filtro de
+// Competência (sempre traz os 3 meses) — usado só pelo gráfico de
+// Tendência, que precisa comparar os meses lado a lado mesmo quando a
+// Débora filtrou um mês específico no resto da tela.
+function registrosFiltradosPorBusca() {
+  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
+  const out = [];
+  Object.keys(EQUIPES).forEach((equipe) => {
+    Object.keys(EQUIPES[equipe]).forEach((m) => {
       EQUIPES[equipe][m].forEach((c) => {
         if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
         out.push({ equipe, mes: m, ...c });
@@ -260,6 +287,74 @@ function renderTudo() {
   });
 
   renderChartTopEquipes(porEquipe);
+  renderChartTendenciaMensal();
+}
+
+function renderChartTendenciaMensal() {
+  const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026'];
+  const porMes = {};
+  registrosFiltradosPorBusca().forEach((r) => {
+    porMes[r.mes] = (porMes[r.mes] || 0) + (r.total || 0);
+  });
+  const meses = ORDEM.filter((m) => m in porMes || Object.keys(EQUIPES).some((eq) => EQUIPES[eq][m]));
+  const dados = meses.map((m) => Number((porMes[m] || 0).toFixed(2)));
+  const rotulos = meses.map((m) => m.split('/')[0]);
+
+  const ctx = document.getElementById('chartTendenciaMensal').getContext('2d');
+  if (CHART_TENDENCIA_MENSAL) CHART_TENDENCIA_MENSAL.destroy();
+  CHART_TENDENCIA_MENSAL = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: rotulos,
+      datasets: [
+        {
+          label: 'Hora extra',
+          data: dados,
+          borderColor: 'rgba(245,158,11,1)',
+          backgroundColor: 'rgba(245,158,11,0.15)',
+          pointBackgroundColor: 'rgba(245,158,11,1)',
+          pointRadius: 5,
+          pointHoverRadius: 6,
+          borderWidth: 2.5,
+          fill: true,
+          tension: 0.25,
+        },
+      ],
+    },
+    plugins: [{
+      id: 'rotuloLinhaPlugin',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        ctx.save();
+        ctx.font = '600 11px system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'bottom';
+        ctx.fillStyle = '#fbbf5e';
+        chart.getDatasetMeta(0).data.forEach((point, i) => {
+          const val = chart.data.datasets[0].data[i];
+          ctx.fillText(fmtBRL(val), point.x, point.y - 10);
+        });
+        ctx.restore();
+      },
+    }],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { top: 24 } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctxItem) => fmtBRL(ctxItem.raw),
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { color: '#c3ccdc', font: { size: 12 } }, grid: { display: false } },
+        y: { display: false, grid: { display: false } },
+      },
+    },
+  });
 }
 
 function renderChartTopEquipes(porEquipe) {
