@@ -13000,6 +13000,17 @@
         "heNoturna100": 0.0,
         "total": 1542.15,
         "dsr": 370.12
+      },
+      {
+        "nome": "William Jose Da Silva Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 425.13,
+        "he50": 324.62,
+        "heNoturna50": 44.96,
+        "heNoturna100": 0.0,
+        "total": 794.71,
+        "dsr": 190.73
       }
     ]
   },
@@ -20724,6 +20735,127 @@
         "heNoturna100": 0.0,
         "total": 795.5,
         "dsr": 190.92
+      },
+      {
+        "nome": "Aldeir Alves Da Silva Junior",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 179.94,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 179.94,
+        "dsr": 43.19
+      },
+      {
+        "nome": "Amanda Maria Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 144.23,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 144.23,
+        "dsr": 34.62
+      },
+      {
+        "nome": "Dannubya Joana Gomes De Albuquerque",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 154.21,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 154.21,
+        "dsr": 37.01
+      },
+      {
+        "nome": "Izabela Soares De Souza",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 152.89,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 152.89,
+        "dsr": 36.69
+      },
+      {
+        "nome": "Jose Josias Da Silva Correia",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 177.58,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 177.58,
+        "dsr": 42.62
+      },
+      {
+        "nome": "Jose Socrates Da Silva Alves",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 354.71,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 354.71,
+        "dsr": 85.13
+      },
+      {
+        "nome": "Julia Maria Clemente De Andrade Sousa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "he100": 135.41,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 135.41,
+        "dsr": 32.5
+      },
+      {
+        "nome": "Paulo Sergio Da Silva Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 339.7,
+        "he50": 284.8,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 624.5,
+        "dsr": 149.88
+      },
+      {
+        "nome": "Rafael Jose Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 196.28,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 196.28,
+        "dsr": 47.11
+      },
+      {
+        "nome": "Thiago Pedro Quirino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 363.73,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 363.73,
+        "dsr": 87.3
+      },
+      {
+        "nome": "Valmir Da Silva Borges",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 582.7,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 582.7,
+        "dsr": 139.85
       }
     ]
   },
@@ -28303,39 +28435,6 @@
     ],
     "Agosto/2026": [
       {
-        "nome": "Aldeir Alves Da Silva Junior",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 179.94,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 179.94,
-        "dsr": 43.19
-      },
-      {
-        "nome": "Amanda Maria Da Silva",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 144.23,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 144.23,
-        "dsr": 34.62
-      },
-      {
-        "nome": "Dannubya Joana Gomes De Albuquerque",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 154.21,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 154.21,
-        "dsr": 37.01
-      },
-      {
         "nome": "Guilherme Jose Soares Gonçalves",
         "cargo": "Instalador",
         "empresa": "DTEL",
@@ -28347,72 +28446,6 @@
         "dsr": 132.18
       },
       {
-        "nome": "Izabela Soares De Souza",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 152.89,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 152.89,
-        "dsr": 36.69
-      },
-      {
-        "nome": "Jose Josias Da Silva Correia",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 177.58,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 177.58,
-        "dsr": 42.62
-      },
-      {
-        "nome": "Jose Socrates Da Silva Alves",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 354.71,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 354.71,
-        "dsr": 85.13
-      },
-      {
-        "nome": "Julia Maria Clemente De Andrade Sousa",
-        "cargo": "Vendedor Externo",
-        "empresa": "DTEL",
-        "he100": 135.41,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 135.41,
-        "dsr": 32.5
-      },
-      {
-        "nome": "Paulo Sergio Da Silva Nascimento",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 339.7,
-        "he50": 284.8,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 624.5,
-        "dsr": 149.88
-      },
-      {
-        "nome": "Rafael Jose Da Silva",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 196.28,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 196.28,
-        "dsr": 47.11
-      },
-      {
         "nome": "Thaynna De Lima Araujo",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
@@ -28422,39 +28455,6 @@
         "heNoturna100": 0.0,
         "total": 99.53,
         "dsr": 23.89
-      },
-      {
-        "nome": "Thiago Pedro Quirino Da Silva",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 363.73,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 363.73,
-        "dsr": 87.3
-      },
-      {
-        "nome": "Valmir Da Silva Borges",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 582.7,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 582.7,
-        "dsr": 139.85
-      },
-      {
-        "nome": "William Jose Da Silva Santos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 425.13,
-        "he50": 324.62,
-        "heNoturna50": 44.96,
-        "heNoturna100": 0.0,
-        "total": 794.71,
-        "dsr": 190.73
       }
     ]
   },

@@ -126,6 +126,14 @@
     </div>
 
     <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Total por Gestor/Equipe, por Mês</span>
+      </div>
+      <p class="chart-nota">Uma barra horizontal por mês (Maio a Agosto), lado a lado, para cada equipe/gestor — pra comparar rápido quem cresceu ou caiu de um mês pro outro. Ordenado pela soma dos 4 meses (maior primeiro). Não é afetado pelo filtro de Competência acima, só pelos de Empresa/Busca.</p>
+      <div class="chart-wrap" id="chartPorGestorWrap" style="height:900px;"><canvas id="chartPorGestorMes"></canvas></div>
+    </div>
+
+    <div class="section-card">
       <div id="grupos"></div>
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
@@ -141,6 +149,7 @@ let EQUIPES = {}; // equipe -> mes -> [colaboradores]
 let GRUPOS_ABERTOS = {};
 let CHART_TOP_EQUIPES = null;
 let CHART_TENDENCIA_MENSAL = null;
+let CHART_POR_GESTOR_MES = null;
 
 // Rótulo de dados para o gráfico horizontal "Top 10 Equipes por Hora Extra"
 // — escreve o valor logo à direita de cada barra.
@@ -309,6 +318,7 @@ function renderTudo() {
 
   renderChartTopEquipes(porEquipe);
   renderChartTendenciaMensal();
+  renderChartPorGestorMes();
 }
 
 function renderChartTendenciaMensal() {
@@ -414,6 +424,71 @@ function renderChartTopEquipes(porEquipe) {
       },
       scales: {
         x: { suggestedMax: maiorValor * 1.18, ticks: { color: '#8291ab', font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.06)' } },
+        y: { ticks: { color: '#c3ccdc', font: { size: 11 } }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+// Barra horizontal agrupada: uma equipe/gestor por linha, com 4 barras lado a
+// lado (uma por mês) — não é afetado pelo filtro de Competência (sempre traz
+// os 4 meses), só por Empresa/Busca, igual à Tendência Mensal.
+const CORES_MES_GESTOR = {
+  'Maio/2026': 'rgba(79,156,249,0.85)',
+  'Junho/2026': 'rgba(34,197,94,0.85)',
+  'Julho/2026': 'rgba(245,158,11,0.85)',
+  'Agosto/2026': 'rgba(236,72,153,0.85)',
+};
+const ORDEM_MESES_GESTOR = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
+
+function renderChartPorGestorMes() {
+  const registros = registrosFiltradosPorBusca();
+  const porEquipeMes = {};
+  registros.forEach((r) => {
+    if (!porEquipeMes[r.equipe]) porEquipeMes[r.equipe] = {};
+    porEquipeMes[r.equipe][r.mes] = (porEquipeMes[r.equipe][r.mes] || 0) + (r.total || 0);
+  });
+
+  const equipes = Object.keys(porEquipeMes).sort((a, b) => {
+    const totalA = Object.values(porEquipeMes[a]).reduce((s, v) => s + v, 0);
+    const totalB = Object.values(porEquipeMes[b]).reduce((s, v) => s + v, 0);
+    return totalB - totalA;
+  });
+
+  const mesesPresentes = ORDEM_MESES_GESTOR.filter((m) => equipes.some((eq) => porEquipeMes[eq][m]));
+
+  const datasets = mesesPresentes.map((mes) => ({
+    label: mes.split('/')[0],
+    data: equipes.map((eq) => Number((porEquipeMes[eq][mes] || 0).toFixed(2))),
+    backgroundColor: CORES_MES_GESTOR[mes] || 'rgba(148,163,184,0.85)',
+    borderRadius: 3,
+    maxBarThickness: 14,
+  }));
+
+  // altura dinâmica: cada equipe precisa de espaço pras N barras do grupo + respiro
+  const alturaPorEquipe = Math.max(30, mesesPresentes.length * 12 + 14);
+  document.getElementById('chartPorGestorWrap').style.height = Math.max(320, equipes.length * alturaPorEquipe) + 'px';
+
+  const ctx = document.getElementById('chartPorGestorMes').getContext('2d');
+  if (CHART_POR_GESTOR_MES) CHART_POR_GESTOR_MES.destroy();
+  CHART_POR_GESTOR_MES = new Chart(ctx, {
+    type: 'bar',
+    data: { labels: equipes, datasets },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 20 } },
+      plugins: {
+        legend: { display: true, position: 'top', labels: { color: '#c3ccdc', font: { size: 11 }, boxWidth: 12 } },
+        tooltip: {
+          callbacks: {
+            label: (ctxItem) => `${ctxItem.dataset.label}: ${fmtBRL(ctxItem.raw)}`,
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { color: '#8291ab', font: { size: 11 } }, grid: { color: 'rgba(255,255,255,0.06)' } },
         y: { ticks: { color: '#c3ccdc', font: { size: 11 } }, grid: { display: false } },
       },
     },
