@@ -8943,6 +8943,17 @@
         "heNoturna100": 0.0,
         "total": 733.22,
         "dsr": 141.0
+      },
+      {
+        "nome": "Guilherme Jose Soares Gonçalves",
+        "cargo": "Instalador",
+        "empresa": "DTEL",
+        "he100": 550.77,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 550.77,
+        "dsr": 132.18
       }
     ]
   },
@@ -28490,19 +28501,7 @@
         "dsr": 102.56
       }
     ],
-    "Agosto/2026": [
-      {
-        "nome": "Guilherme Jose Soares Gonçalves",
-        "cargo": "Instalador",
-        "empresa": "DTEL",
-        "he100": 550.77,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 550.77,
-        "dsr": 132.18
-      }
-    ]
+    "Agosto/2026": []
   },
   "NOC": {
     "Junho/2026": [
