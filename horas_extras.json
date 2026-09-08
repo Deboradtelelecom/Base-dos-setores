@@ -3411,17 +3411,6 @@
         "dsr": 30.57
       },
       {
-        "nome": "Esther Eduarda De Lima Vila Nova",
-        "cargo": "Operador De Telemarketing",
-        "empresa": "DTEL",
-        "he100": 121.43,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 121.43,
-        "dsr": 30.36
-      },
-      {
         "nome": "Mirthiz Cristina Lima Silva",
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
@@ -4018,17 +4007,6 @@
         "heNoturna100": 0.0,
         "total": 126.27,
         "dsr": 30.3
-      },
-      {
-        "nome": "Esther Eduarda De Lima Vila Nova",
-        "cargo": "Despachante",
-        "empresa": "DTEL",
-        "he100": 405.09,
-        "he50": 340.74,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 745.83,
-        "dsr": 179.0
       },
       {
         "nome": "Everson Bruno Lorena Da Silva",
@@ -20950,6 +20928,17 @@
         "heNoturna100": 0,
         "total": 150.84,
         "dsr": 37.71
+      },
+      {
+        "nome": "Esther Eduarda De Lima Vila Nova",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "he100": 121.43,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 121.43,
+        "dsr": 30.36
       }
     ],
     "Julho/2026": [
@@ -21251,6 +21240,17 @@
         "heNoturna100": 0.0,
         "total": 1007.61,
         "dsr": 241.83
+      },
+      {
+        "nome": "Esther Eduarda De Lima Vila Nova",
+        "cargo": "Despachante",
+        "empresa": "DTEL",
+        "he100": 405.09,
+        "he50": 340.74,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 745.83,
+        "dsr": 179.0
       }
     ]
   },
