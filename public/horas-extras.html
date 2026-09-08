@@ -92,6 +92,10 @@
         <select id="fMes" onchange="renderTudo()"></select>
       </div>
       <div class="filtro">
+        <span class="filtro-label">Empresa</span>
+        <select id="fEmpresa" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
         <span class="filtro-label">Buscar</span>
         <input id="fBusca" type="text" placeholder="equipe ou colaborador…" oninput="renderTudo()">
       </div>
@@ -120,7 +124,7 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Detalhamento), agrupado pela EQUIPE de cada colaborador na folha — não pelos setores da Plataforma, porque boa parte da hora extra vem de equipes de campo/instalação/vendas que não têm setor correspondente em CUSTOS MENSAIS. Esta tela é só de consulta.</p>
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Detalhamento), agrupado pela EQUIPE de cada colaborador na folha — não pelos setores da Plataforma, porque boa parte da hora extra vem de equipes de campo/instalação/vendas que não têm setor correspondente em CUSTOS MENSAIS. O filtro de Empresa usa o nome exatamente como consta na planilha de origem — em Maio/Junho o nome vem abreviado (ex.: "DTEL") e em Julho como razão social completa (ex.: "DTEL TELECOM LTDA"), por isso a mesma empresa pode aparecer 2 vezes na lista; não unifiquei os nomes para não presumir que duas grafias diferentes (ex.: "LITORAL NET", "SOARES & SILVA MACEIO") são sempre a mesma empresa sem confirmar. Esta tela é só de consulta.</p>
   </div>
 </main>
 <script src="/chartjs_extracted.js"></script>
@@ -187,12 +191,14 @@ function toggleGrupo(equipe) {
 // registros {equipe, mes, ...colaborador}, aplicando o filtro de Competência.
 function registrosFiltrados() {
   const mes = document.getElementById('fMes').value;
+  const empresa = document.getElementById('fEmpresa').value;
   const busca = document.getElementById('fBusca').value.trim().toLowerCase();
   const out = [];
   Object.keys(EQUIPES).forEach((equipe) => {
     Object.keys(EQUIPES[equipe]).forEach((m) => {
       if (mes && m !== mes) return;
       EQUIPES[equipe][m].forEach((c) => {
+        if (empresa && c.empresa !== empresa) return;
         if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
         out.push({ equipe, mes: m, ...c });
       });
@@ -206,11 +212,13 @@ function registrosFiltrados() {
 // Tendência, que precisa comparar os meses lado a lado mesmo quando a
 // Débora filtrou um mês específico no resto da tela.
 function registrosFiltradosPorBusca() {
+  const empresa = document.getElementById('fEmpresa').value;
   const busca = document.getElementById('fBusca').value.trim().toLowerCase();
   const out = [];
   Object.keys(EQUIPES).forEach((equipe) => {
     Object.keys(EQUIPES[equipe]).forEach((m) => {
       EQUIPES[equipe][m].forEach((c) => {
+        if (empresa && c.empresa !== empresa) return;
         if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
         out.push({ equipe, mes: m, ...c });
       });
@@ -224,10 +232,12 @@ function renderTudo() {
 
   const totalGeral = filtrados.reduce((s, r) => s + (r.total || 0), 0);
   const equipesEnvolvidas = new Set(filtrados.map(r => r.equipe));
+  const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
   document.getElementById('totaisCards').innerHTML = `
     <div class="total-card"><div class="lbl">Total no filtro</div><div class="val">${fmtBRL(totalGeral)}</div></div>
     <div class="total-card"><div class="lbl">Lançamentos</div><div class="val">${filtrados.length}</div></div>
     <div class="total-card"><div class="lbl">Equipes</div><div class="val">${equipesEnvolvidas.size}</div></div>
+    <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
   `;
 
   const porEquipe = {};
@@ -412,6 +422,10 @@ async function buscarDados() {
     const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026'];
     const mesesOrdenados = [...meses].sort((a, b) => ORDEM.indexOf(a) - ORDEM.indexOf(b));
     popularSelect('fMes', mesesOrdenados, true);
+
+    const empresas = new Set();
+    Object.values(EQUIPES).forEach((porMes) => Object.values(porMes).forEach((lista) => lista.forEach((c) => { if (c.empresa) empresas.add(c.empresa); })));
+    popularSelect('fEmpresa', [...empresas].sort((a, b) => a.localeCompare(b, 'pt-BR')), true);
 
     document.getElementById('erroBox').style.display = 'none';
     document.getElementById('conteudo').style.display = '';
