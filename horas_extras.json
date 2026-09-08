@@ -20821,6 +20821,17 @@
         "heNoturna100": 0,
         "total": 170.69,
         "dsr": 25.29
+      },
+      {
+        "nome": "Luiz Mario Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 176.14,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 176.14,
+        "dsr": 26.09
       }
     ],
     "Agosto/2026": [
@@ -20977,6 +20988,17 @@
         "heNoturna100": 0.0,
         "total": 582.7,
         "dsr": 139.85
+      },
+      {
+        "nome": "Luiz Mario Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 775.19,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 775.19,
+        "dsr": 186.05
       }
     ],
     "Junho/2026": [
@@ -21034,6 +21056,17 @@
         "heNoturna100": 0,
         "total": 465.98,
         "dsr": 93.2
+      },
+      {
+        "nome": "Luiz Mario Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 171.04,
+        "he50": 0,
+        "heNoturna50": 0,
+        "heNoturna100": 0,
+        "total": 171.04,
+        "dsr": 42.76
       }
     ]
   },
@@ -27107,30 +27140,6 @@
         "heNoturna100": 0,
         "total": 409.71,
         "dsr": 102.43
-      },
-      {
-        "nome": "Luiz Mario Dos Santos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 171.04,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 171.04,
-        "dsr": 42.76
-      }
-    ],
-    "Julho/2026": [
-      {
-        "nome": "Luiz Mario Dos Santos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 176.14,
-        "he50": 0,
-        "heNoturna50": 0,
-        "heNoturna100": 0,
-        "total": 176.14,
-        "dsr": 26.09
       }
     ],
     "Agosto/2026": [
@@ -27144,17 +27153,6 @@
         "heNoturna100": 0.0,
         "total": 452.13,
         "dsr": 108.51
-      },
-      {
-        "nome": "Luiz Mario Dos Santos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 775.19,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 775.19,
-        "dsr": 186.05
       },
       {
         "nome": "Paulo De Tarso Pereira De Melo",
