@@ -175,6 +175,7 @@ async function carregar() {
     itens.push({ nome: 'Reembolso Geral', icone: '🔁', href: API_BASE + '/reembolso-geral', categoria: 'Visão Geral' });
     itens.push({ nome: 'Horas Extras', icone: '⏱️', href: API_BASE + '/horas-extras', categoria: 'Visão Geral' });
     itens.push({ nome: 'Férias', icone: '🏖️', href: API_BASE + '/ferias', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Colaboradores', icone: '🧑‍💼', href: API_BASE + '/colaboradores', categoria: 'Visão Geral' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
     TODOS_ITENS = itens;

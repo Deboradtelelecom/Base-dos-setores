@@ -196,6 +196,22 @@ app.get('/api/ferias', async (req, res) => {
   }
 });
 
+// Quadro "Colaboradores" — ativos (folha mais recente) + desligados
+// (Base_Rescisões_2026.xlsx). Devolve o objeto completo; a página faz os
+// filtros (Equipe/Empresa/Status/Mês desligamento/Busca) no navegador.
+app.get('/api/colaboradores', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    res.json({
+      equipes: estado.colaboradores || {},
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -232,6 +248,10 @@ app.get('/horas-extras', (req, res) => {
 
 app.get('/ferias', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'ferias.html'));
+});
+
+app.get('/colaboradores', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'colaboradores.html'));
 });
 
 app.get('/', (req, res) => {
