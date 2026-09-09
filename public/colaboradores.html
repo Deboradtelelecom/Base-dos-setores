@@ -113,20 +113,6 @@
     <div class="totais-cards" id="totaisCards"></div>
 
     <div class="section-card">
-      <div class="chart-header">
-        <span class="chart-titulo">Resumo por Equipe</span>
-        <button class="btn-excel-mini" onclick="baixarExcelResumoEquipe()">⬇ Excel</button>
-      </div>
-      <p class="chart-nota">Número de colaboradores ativos por equipe, ordenado do maior para o menor. Reflete o filtro de Empresa/Busca acima.</p>
-      <div style="overflow-x:auto;">
-        <table id="tabelaResumoEquipe">
-          <thead><tr><th>Equipe</th><th>Ativos</th></tr></thead>
-          <tbody id="tabelaResumoEquipeCorpo"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="section-card">
       <div id="grupos"></div>
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
@@ -171,20 +157,6 @@ function registrosFiltrados() {
   const out = [];
   Object.keys(EQUIPES).forEach((equipe) => {
     if (equipeSel && equipe !== equipeSel) return;
-    EQUIPES[equipe].forEach((c) => {
-      if (empresa && c.empresa !== empresa) return;
-      if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
-      out.push({ equipe, ...c });
-    });
-  });
-  return out;
-}
-
-function registrosFiltradosBase() {
-  const empresa = document.getElementById('fEmpresa').value;
-  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
-  const out = [];
-  Object.keys(EQUIPES).forEach((equipe) => {
     EQUIPES[equipe].forEach((c) => {
       if (empresa && c.empresa !== empresa) return;
       if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
@@ -254,31 +226,6 @@ function renderTudo() {
   headers.forEach((el, i) => {
     el.addEventListener('click', () => toggleGrupo(equipesOrdenadas[i]));
   });
-
-  renderResumoEquipe();
-}
-
-function dadosResumoEquipe() {
-  const registros = registrosFiltradosBase();
-  const porEquipe = {};
-  registros.forEach((r) => {
-    porEquipe[r.equipe] = (porEquipe[r.equipe] || 0) + 1;
-  });
-  return Object.keys(porEquipe).map((equipe) => ({ equipe, ativos: porEquipe[equipe] }))
-    .sort((a, b) => b.ativos - a.ativos);
-}
-
-function renderResumoEquipe() {
-  const linhas = dadosResumoEquipe();
-  document.getElementById('tabelaResumoEquipeCorpo').innerHTML = linhas.map(l => `
-    <tr><td>${l.equipe}</td><td class="total">${l.ativos}</td></tr>
-  `).join('');
-}
-
-function baixarExcelResumoEquipe() {
-  const linhas = dadosResumoEquipe();
-  const matriz = [['Equipe', 'Ativos'], ...linhas.map(l => [l.equipe, l.ativos])];
-  exportarXlsx(matriz, 'Colaboradores - Resumo por Equipe.xlsx', 'Resumo por Equipe');
 }
 
 function montarLinhasExcel(registros) {
