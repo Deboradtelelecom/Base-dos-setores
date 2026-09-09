@@ -169,15 +169,37 @@ function carregarFerias(pastaDados) {
   return {};
 }
 
-// Quadro "Colaboradores" — ativos (Detalhamento da folha mais recente, com
-// CPF e Data de Admissão) + desligados (Base_Rescisões_2026.xlsx, Dez/2025 a
-// Ago/2026, cruzada por nome com a EQUIPE/CARGO da folha). CPF já vem
-// mascarado do script de geração. Arquivo gerado por script (não editável à
-// mão) — para atualizar, reprocessar a folha do mês + a base de rescisões.
+// Quadro "Colaboradores" — só ativos (Detalhamento da folha mais recente,
+// com CPF e Data de Admissão). Desligados ficam num quadro separado
+// (carregarDesligados, abaixo) — a Débora pediu pra não misturar os dois na
+// mesma tela. CPF já vem mascarado do script de geração. Arquivo gerado por
+// script (não editável à mão) — para atualizar, reprocessar a folha do mês.
 function carregarColaboradores(pastaDados) {
   const candidatosPaths = [
     path.join(__dirname, 'colaboradores.json'),
     path.join(pastaDados, 'colaboradores.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
+// Quadro "Desligados" — Base_Rescisões_2026.xlsx (Dez/2025 a Ago/2026),
+// cruzada por nome com a EQUIPE/CARGO que a pessoa tinha na folha de
+// pagamento. CPF já vem mascarado do script de geração. Arquivo gerado por
+// script (não editável à mão) — para atualizar, reprocessar a base de
+// rescisões + a folha do mês (para o cruzamento de equipe/cargo/CPF).
+function carregarDesligados(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'desligados.json'),
+    path.join(pastaDados, 'desligados.json'),
   ];
   for (const p of candidatosPaths) {
     if (fs.existsSync(p)) {
@@ -457,8 +479,9 @@ function extrairEstado(pastaDados) {
   const horasExtras = carregarHorasExtras(pastaDados);
   const ferias = carregarFerias(pastaDados);
   const colaboradores = carregarColaboradores(pastaDados);
+  const desligados = carregarDesligados(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso

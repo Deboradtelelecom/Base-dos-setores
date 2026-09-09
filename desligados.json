@@ -1,0 +1,1950 @@
+{
+  "Relacionamento": [
+    {
+      "nome": "Aline Gabriela Da Silva",
+      "cargo": "Estagiário Administrativo",
+      "empresa": "DTEL",
+      "cpf": "129.***.***-17",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "31/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Anderson Rafael Silva Freire",
+      "cargo": "Operador De Telemarketing Técnico",
+      "empresa": "DTEL",
+      "cpf": "133.***.***-50",
+      "dataAdmissao": "01/06/2023",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Anielly Dayanne Da Silva Siqueira",
+      "cargo": "Operador De Telemarketing Júnior",
+      "empresa": "DTEL",
+      "cpf": "129.***.***-51",
+      "dataAdmissao": "16/07/2024",
+      "dataAfastamento": "06/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Bianca Camylle Do Nascimento Barbosa",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "117.***.***-52",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Davi Aleixo Da Silva Barros",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "128.***.***-24",
+      "dataAdmissao": "05/09/2024",
+      "dataAfastamento": "13/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Elias Jose Da Silva Junior",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "717.***.***-73",
+      "dataAdmissao": "04/04/2023",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Emanuela Maria Dos Santos",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "107.***.***-95",
+      "dataAdmissao": "01/06/2023",
+      "dataAfastamento": "22/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Erika Lima Dos Santos",
+      "cargo": "Auxiliar Administrativo De Engenharia",
+      "empresa": "DTEL",
+      "cpf": "701.***.***-25",
+      "dataAdmissao": "24/10/2025",
+      "dataAfastamento": "08/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Esmeraldo Jose Vercosa",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "155.***.***-73",
+      "dataAdmissao": "22/10/2025",
+      "dataAfastamento": "21/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Jose Luiz Augusto Da Silva Neto",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "170.***.***-10",
+      "dataAdmissao": "22/10/2025",
+      "dataAfastamento": "21/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Leticia Vitoria De Macena Silva",
+      "cargo": "Estagiario De Relacionamento",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "19/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Maria Ingred Carmo Do Monte",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "133.***.***-60",
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "31/12/2025",
+      "competenciaAviso": "12/2025",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Maria Victorya Silva Nepomuceno",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "119.***.***-88",
+      "dataAdmissao": "12/08/2024",
+      "dataAfastamento": "29/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Matheus Vinicius De Lima E Silva",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "128.***.***-09",
+      "dataAdmissao": "20/05/2024",
+      "dataAfastamento": "01/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Poliana Oliveira Da Silva",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "148.***.***-40",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "14/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Rayane De Jesus Silva",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "155.***.***-51",
+      "dataAdmissao": "15/10/2025",
+      "dataAfastamento": "31/12/2025",
+      "competenciaAviso": "12/2025",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Renata Eduarda Dos Santos Silva",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "077.***.***-10",
+      "dataAdmissao": "22/10/2025",
+      "dataAfastamento": "21/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Estágio"
+    },
+    {
+      "nome": "Reynan Lucas De Lima Gomes",
+      "cargo": "Operador De Telemarketing",
+      "empresa": "DTEL",
+      "cpf": "099.***.***-52",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "26/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Wagner De Melo Silva",
+      "cargo": "Backoffice Pleno",
+      "empresa": "DTEL",
+      "cpf": "112.***.***-03",
+      "dataAdmissao": "03/04/2019",
+      "dataAfastamento": "05/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Lançamento": [
+    {
+      "nome": "Jefferson Lira Da Silva",
+      "cargo": "Auxiliar  De Lançamento",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "03/09/2025",
+      "dataAfastamento": "30/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Jose Carlos Da Silva Santos",
+      "cargo": "Técnico De Lançamento Júnior",
+      "empresa": "DTEL",
+      "cpf": "119.***.***-26",
+      "dataAdmissao": "16/10/2023",
+      "dataAfastamento": "08/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Rodolfo Lima De Miranda",
+      "cargo": "Auxiliar  De Lançamento",
+      "empresa": "DTEL",
+      "cpf": "126.***.***-78",
+      "dataAdmissao": "16/03/2026",
+      "dataAfastamento": "29/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    }
+  ],
+  "Fusão": [
+    {
+      "nome": "Joao Guilherme Silva Das Neves",
+      "cargo": "Tecnico Em Fibra",
+      "empresa": "DTEL",
+      "cpf": "135.***.***-96",
+      "dataAdmissao": "08/07/2024",
+      "dataAfastamento": "08/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Jose Anderson Da Silva",
+      "cargo": "Tecnico Em Fibra",
+      "empresa": "DTEL",
+      "cpf": "105.***.***-41",
+      "dataAdmissao": "08/07/2024",
+      "dataAfastamento": "29/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Instalação Jose Julio": [
+    {
+      "nome": "Erick Roberio Da Silva",
+      "cargo": "Instalador Reparador Jr",
+      "empresa": "DTEL",
+      "cpf": "109.***.***-32",
+      "dataAdmissao": "01/08/2015",
+      "dataAfastamento": "17/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Joao Victor Vieira De Barros",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "136.***.***-22",
+      "dataAdmissao": "11/05/2023",
+      "dataAfastamento": "22/04/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Magniael Vicente Da Silva",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "107.***.***-80",
+      "dataAdmissao": "28/06/2021",
+      "dataAfastamento": "08/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Victor Vinicius De Franca Santana",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "123.***.***-14",
+      "dataAdmissao": "08/11/2021",
+      "dataAfastamento": "28/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Wilson Costa De Oliveira Junior",
+      "cargo": "Instalador Reparador Junior",
+      "empresa": "DTEL",
+      "cpf": "071.***.***-48",
+      "dataAdmissao": "08/11/2021",
+      "dataAfastamento": "07/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Obras": [
+    {
+      "nome": "Gabriel De Souza Silva",
+      "cargo": "Ajudante De Pedreiro",
+      "empresa": "DTEL",
+      "cpf": "164.***.***-85",
+      "dataAdmissao": "05/09/2025",
+      "dataAfastamento": "07/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Ivan Carlos Da Silva",
+      "cargo": "Ajudante De Pedreiro",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "05/09/2025",
+      "dataAfastamento": "20/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Julio Manoel Dos Santos",
+      "cargo": "Ajudante De Pedreiro",
+      "empresa": "DTEL",
+      "cpf": "102.***.***-16",
+      "dataAdmissao": "20/11/2023",
+      "dataAfastamento": "15/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Vendas PAP Tarcizio": [
+    {
+      "nome": "Bruna Maria Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Souza & Silva",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "30/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Cristiane Maria Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Solon Araújo",
+      "cpf": "715.***.***-64",
+      "dataAdmissao": "17/04/2024",
+      "dataAfastamento": "31/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Elaine Barbosa Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "088.***.***-45",
+      "dataAdmissao": "26/02/2026",
+      "dataAfastamento": "25/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Joao Dionisio Martins Neto",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "099.***.***-64",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "06/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Jose Gabriel Dos Santos Dias",
+      "cargo": "Executivo De Contas",
+      "empresa": "Solon Araújo",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "28/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Julio Cesar Sales Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Souza & Silva",
+      "cpf": "144.***.***-93",
+      "dataAdmissao": "16/03/2026",
+      "dataAfastamento": "10/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Lucas Abel Goulart",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "170.***.***-40",
+      "dataAdmissao": "04/12/2025",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Marketing": [
+    {
+      "nome": "Vinicius Freire Vercosa Da Silva",
+      "cargo": "Trade",
+      "empresa": "DTEL",
+      "cpf": "135.***.***-92",
+      "dataAdmissao": "10/02/2026",
+      "dataAfastamento": "30/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Instalação Roberto Barros": [
+    {
+      "nome": "Aline Menezes De Souza",
+      "cargo": "Auxiliar Administrativo De Atendimento",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "24/11/2025",
+      "dataAfastamento": "21/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Dayane Vanessa Da Silva Ataide",
+      "cargo": "Auxiliar Administrativo De Atendimento",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "24/11/2025",
+      "dataAfastamento": "21/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Instalação Michelangelo": [
+    {
+      "nome": "Alan Jones Souza Farias",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "069.***.***-03",
+      "dataAdmissao": "01/06/2026",
+      "dataAfastamento": "29/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Alef Francisco Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "23/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Camila Celia Rocha Oliveira",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "118.***.***-40",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "20/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Carla Fernanda De Lima",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "074.***.***-51",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "05/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Carlos Roberto De Lima",
+      "cargo": "Executivo De Contas",
+      "empresa": "Voicenet",
+      "cpf": null,
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Celio Jose Nunes Santiago",
+      "cargo": "Supervisor Aumoxarifado",
+      "empresa": "DTEL",
+      "cpf": "247.***.***-68",
+      "dataAdmissao": "01/11/2013",
+      "dataAfastamento": "15/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Denise Kelline Maria De Santana",
+      "cargo": "Executivo De Contas",
+      "empresa": "DTEL",
+      "cpf": "112.***.***-03",
+      "dataAdmissao": "01/09/2025",
+      "dataAfastamento": "12/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Edivaldo Santos De Lima",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Voicenet",
+      "cpf": "077.***.***-40",
+      "dataAdmissao": "01/06/2026",
+      "dataAfastamento": "16/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Fabio Barbosa Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Voicenet",
+      "cpf": "042.***.***-85",
+      "dataAdmissao": "04/10/2023",
+      "dataAfastamento": "16/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Flaviano Francisco Da Silva",
+      "cargo": "Estoquista Junior",
+      "empresa": "DTEL",
+      "cpf": "066.***.***-66",
+      "dataAdmissao": "01/07/2020",
+      "dataAfastamento": "13/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Gleison Gleidson Da Silva",
+      "cargo": "Auxiliar De Estoque Junior",
+      "empresa": "DTEL",
+      "cpf": "162.***.***-12",
+      "dataAdmissao": "03/11/2022",
+      "dataAfastamento": "15/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Gleybson Felipe Souza De Oliveira",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Voicenet",
+      "cpf": "702.***.***-83",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "05/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Hugo Florencio De Almeida",
+      "cargo": "Instalador Reparador Pleno",
+      "empresa": "DTEL",
+      "cpf": "099.***.***-05",
+      "dataAdmissao": "20/11/2020",
+      "dataAfastamento": "08/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Iranilson Alves Ferreira",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "049.***.***-61",
+      "dataAdmissao": "22/11/2021",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Ismael Santana De Araujo",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Voicenet",
+      "cpf": "013.***.***-66",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "05/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Jose Carlos Dos Santos",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Voicenet",
+      "cpf": "688.***.***-91",
+      "dataAdmissao": "14/07/2020",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Luan Lucas Rodrigues Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "715.***.***-08",
+      "dataAdmissao": "01/04/2024",
+      "dataAfastamento": "02/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Marcio Da Silva Galdino",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "041.***.***-97",
+      "dataAdmissao": "21/08/2023",
+      "dataAfastamento": "07/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Paulo Henrique Fortunato Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "048.***.***-64",
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Rafael Sanzio Da Silva Barreto",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "051.***.***-25",
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "05/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Relrisson Rodrigues De Oliveira",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "117.***.***-01",
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "20/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Renan Rafael Do Nascimento",
+      "cargo": "Supervisor De Vendas",
+      "empresa": "Voicenet",
+      "cpf": "069.***.***-85",
+      "dataAdmissao": "08/10/2020",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Roberia Maria Da Silva Oliveira",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "109.***.***-03",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "05/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Sergio Ricardo Pereira De Assuncao",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "021.***.***-52",
+      "dataAdmissao": "15/06/2026",
+      "dataAfastamento": "29/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Severino Manoel Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Voicenet",
+      "cpf": "132.***.***-05",
+      "dataAdmissao": "11/05/2023",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Thaynara Souza Barbosa",
+      "cargo": "Auxiliar Administrativo De Atendimento",
+      "empresa": "DTEL",
+      "cpf": "121.***.***-50",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "28/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Thiago Ferreira De Lima",
+      "cargo": "Vendedor Externo",
+      "empresa": "Voicenet",
+      "cpf": null,
+      "dataAdmissao": "07/04/2025",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Vitoria Leticia Da Paz Clemente",
+      "cargo": "Vendedor Externo",
+      "empresa": "Voicenet",
+      "cpf": null,
+      "dataAdmissao": "24/11/2025",
+      "dataAfastamento": "04/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Vivianne Cristina Alves De Amorim",
+      "cargo": "Vendedor Externo",
+      "empresa": "Voicenet",
+      "cpf": "130.***.***-70",
+      "dataAdmissao": "04/08/2025",
+      "dataAfastamento": "04/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Wellianno Guimaraes Estima",
+      "cargo": "Auxiliar Administrativo De Estoque",
+      "empresa": "DTEL",
+      "cpf": "099.***.***-90",
+      "dataAdmissao": "16/03/2026",
+      "dataAfastamento": "29/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Vendas Corporativo": [
+    {
+      "nome": "Flauberto Henrique Leite Zaidan",
+      "cargo": "Consultor (A) Negocios",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "19/12/2024",
+      "dataAfastamento": "13/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Gustavo Bernardo Da Silva",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "719.***.***-00",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Instalação Gabriel Soares": [
+    {
+      "nome": "Jonathas Da Silva Coelho",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "053.***.***-94",
+      "dataAdmissao": "16/03/2026",
+      "dataAfastamento": "13/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Paulo Sergio Da Silva Nascimento",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "960.***.***-04",
+      "dataAdmissao": "06/07/2026",
+      "dataAfastamento": "19/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Instalação Marcos Litoral": [
+    {
+      "nome": "Emmanoel Matias Dos Anjos",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "072.***.***-36",
+      "dataAdmissao": "02/01/2023",
+      "dataAfastamento": "05/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Gileade Alberlando Jose Da Cunha Silva",
+      "cargo": "Tecnico Em Fibra",
+      "empresa": "DTEL",
+      "cpf": "123.***.***-28",
+      "dataAdmissao": "02/01/2023",
+      "dataAfastamento": "21/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Jose Robson Da Silva",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "071.***.***-55",
+      "dataAdmissao": "11/05/2026",
+      "dataAfastamento": "08/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Luis Carlos Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "099.409.474-117",
+      "dataAdmissao": "02/03/2026",
+      "dataAfastamento": "20/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Luis Carlos Rodrigues Da Silva Junior",
+      "cargo": "Instalador Reparador Jr",
+      "empresa": "DTEL",
+      "cpf": "106.***.***-03",
+      "dataAdmissao": "04/07/2022",
+      "dataAfastamento": "24/02/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Marcelo Da Silva Campos",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "07/07/2025",
+      "dataAfastamento": "02/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Com Justa Causa"
+    }
+  ],
+  "Instalação Marcos Bezerros": [
+    {
+      "nome": "Luiz Gustavo Silva Rocha",
+      "cargo": "Supervisor Tecnico",
+      "empresa": "DTEL",
+      "cpf": "170.***.***-19",
+      "dataAdmissao": "01/02/2023",
+      "dataAfastamento": "05/05/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Engenharia": [
+    {
+      "nome": "Murilo Medeiros Lima",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "139.***.***-36",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Instalação Lucas Bonifacio": [
+    {
+      "nome": "Alcimar Valerio Da Silva Lucena",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "07/04/2025",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Alexandre Do Amor Divino Souza",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "30/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Djalma Da Silva Ferreira Junior",
+      "cargo": "Executivo De Contas",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "12/01/2026",
+      "dataAfastamento": "25/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Everton Mateus De Souza Sercundo",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "707.***.***-33",
+      "dataAdmissao": "12/01/2026",
+      "dataAfastamento": "02/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Jadson Alves Da Silveira",
+      "cargo": "Instalador Reparador",
+      "empresa": "DTEL",
+      "cpf": "134.***.***-05",
+      "dataAdmissao": "02/12/2024",
+      "dataAfastamento": "27/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Jaqueline Barbosa De Melo",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "069.***.***-08",
+      "dataAdmissao": "01/06/2026",
+      "dataAfastamento": "15/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Joao Lucas Araujo Tenorio Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "12/01/2026",
+      "dataAfastamento": "06/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Josivaldo Ferreira Da Silva",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "DTEL",
+      "cpf": "081.***.***-17",
+      "dataAdmissao": "17/03/2025",
+      "dataAfastamento": "26/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Roberta Vitoria Silva Botelho",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "16/06/2025",
+      "dataAfastamento": "01/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Samuel Feijo De Melo Junior",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "114.***.***-30",
+      "dataAdmissao": "11/05/2026",
+      "dataAfastamento": "27/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    }
+  ],
+  "Trade Connect": [
+    {
+      "nome": "Gabriela Victoria Cruz Nascimento",
+      "cargo": "Backoffice Comercial",
+      "empresa": "DTEL",
+      "cpf": "164.***.***-01",
+      "dataAdmissao": "11/08/2025",
+      "dataAfastamento": "10/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Estágio"
+    }
+  ],
+  "Cozinha": [
+    {
+      "nome": "Ednilson Jose Da Silva",
+      "cargo": "Auxiliar De Cozinha",
+      "empresa": "DTEL",
+      "cpf": "712.***.***-91",
+      "dataAdmissao": "18/05/2026",
+      "dataAfastamento": "13/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Jose Mariano Camelo Filho",
+      "cargo": "Cozinheiro",
+      "empresa": "DTEL",
+      "cpf": "823.***.***-20",
+      "dataAdmissao": "05/02/2026",
+      "dataAfastamento": "13/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Vendas PAP Elthon": [
+    {
+      "nome": "Alexandre Frazao Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "008.***.***-24",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "16/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Crisllainy Maria Do Monte Souza",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "118.***.***-89",
+      "dataAdmissao": "04/08/2025",
+      "dataAfastamento": "18/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Evellyn Soares Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "123.***.***-74",
+      "dataAdmissao": "15/06/2026",
+      "dataAfastamento": "17/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Grazielly Karla Ferreira Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "179.***.***-27",
+      "dataAdmissao": "15/06/2026",
+      "dataAfastamento": "31/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Ivoleda Marinho Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "042.***.***-21",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "08/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Jaqueline Da Silva Lourenço",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "113.***.***-46",
+      "dataAdmissao": "01/06/2026",
+      "dataAfastamento": "05/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Jose Allan Da Silva Ribeiro",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "100.***.***-28",
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "28/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Lais Mavila Da Silva Pereira",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "133.***.***-56",
+      "dataAdmissao": "01/06/2026",
+      "dataAfastamento": "31/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Lucas Da Silva Soares",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "706.***.***-08",
+      "dataAdmissao": "24/11/2025",
+      "dataAfastamento": "01/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Matheus Florencio Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "07/07/2025",
+      "dataAfastamento": "12/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Myllenna Kelly De Santana Amorim",
+      "cargo": "Executivo De Contas",
+      "empresa": "DTEL",
+      "cpf": "133.***.***-16",
+      "dataAdmissao": "04/08/2025",
+      "dataAfastamento": "01/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Configuração": [
+    {
+      "nome": "Kaio Matheus Ferreira De Assis",
+      "cargo": "Operador De Redes Pleno",
+      "empresa": "DTEL",
+      "cpf": "122.***.***-55",
+      "dataAdmissao": "19/11/2020",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "TIC": [
+    {
+      "nome": "Jose Kayo Matheus Ferreira E Silva",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "151.***.***-62",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Matheus Da Silva Alves",
+      "cargo": "Técnico De Suporte De Ti",
+      "empresa": "DTEL",
+      "cpf": "140.***.***-29",
+      "dataAdmissao": "09/01/2023",
+      "dataAfastamento": "01/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Manutenção Predial": [
+    {
+      "nome": "Alan Silva De Melo",
+      "cargo": "Auxiliar De Manutenção Predial",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "03/02/2025",
+      "dataAfastamento": "11/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Andre Vicente Ferreira",
+      "cargo": "Tecnico De Refrigeração",
+      "empresa": "DTEL",
+      "cpf": "045.***.***-20",
+      "dataAdmissao": "11/03/2024",
+      "dataAfastamento": "02/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Francisco De Assis Junior",
+      "cargo": "Auxiliar De Manutenção Predial",
+      "empresa": "DTEL",
+      "cpf": "059.***.***-42",
+      "dataAdmissao": "23/03/2026",
+      "dataAfastamento": "25/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Gestão de Atendimento": [
+    {
+      "nome": "Tercio Anderson Moreira Soares",
+      "cargo": "Backoffice De Atendimento Junior",
+      "empresa": "DTEL",
+      "cpf": "131.***.***-80",
+      "dataAdmissao": "25/11/2020",
+      "dataAfastamento": "15/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Financeiro": [
+    {
+      "nome": "Alexandra Rayanne Da Silva Araujo Cunha",
+      "cargo": "Assistente Administrativo Financeiro",
+      "empresa": "DTEL",
+      "cpf": "136.***.***-56",
+      "dataAdmissao": "07/10/2024",
+      "dataAfastamento": "27/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Seg. Trabalho": [
+    {
+      "nome": "Mateus Gomes De Oliveira",
+      "cargo": "Auxiliar Administrativo De Segurança Do Trabalho",
+      "empresa": "DTEL",
+      "cpf": "717.***.***-17",
+      "dataAdmissao": "23/07/2025",
+      "dataAfastamento": "08/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Rodrigo Antonio De Oliveira",
+      "cargo": "Tec. Segurança Do Trabalho Jr",
+      "empresa": "DTEL",
+      "cpf": "115.***.***-22",
+      "dataAdmissao": "22/04/2026",
+      "dataAfastamento": "31/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Sanderley Felix Da Silva",
+      "cargo": "Tecnico De Segurança Do Trabalho Senior",
+      "empresa": "DTEL",
+      "cpf": "038.***.***-59",
+      "dataAdmissao": "26/10/2023",
+      "dataAfastamento": "08/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ],
+  "Estoque": [
+    {
+      "nome": "Anderson Gabriel De Oliveira Andrade",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "129.***.***-00",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "COE": [
+    {
+      "nome": "Daiane Rodrigues De Assis",
+      "cargo": "Supervisor De Relacionamento",
+      "empresa": "DTEL",
+      "cpf": "097.***.***-94",
+      "dataAdmissao": "12/06/2023",
+      "dataAfastamento": "05/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Marcia Maria Silva Da Costa",
+      "cargo": "Despachante Pleno",
+      "empresa": "DTEL",
+      "cpf": "119.***.***-26",
+      "dataAdmissao": "04/10/2021",
+      "dataAfastamento": "06/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Marcos Igor De Arruda Barros",
+      "cargo": "Despachante Junior",
+      "empresa": "DTEL",
+      "cpf": "453.***.***-30",
+      "dataAdmissao": "02/05/2022",
+      "dataAfastamento": "25/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Radames Josuel Rodrigues Dos Santos Junior",
+      "cargo": "Despachante Jr",
+      "empresa": "DTEL",
+      "cpf": "150.***.***-01",
+      "dataAdmissao": "03/10/2022",
+      "dataAfastamento": "20/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Instalação Paulo Cesar": [
+    {
+      "nome": "Jose Mikael Santana Santos",
+      "cargo": "Instalador Reparador Pleno",
+      "empresa": "DTEL",
+      "cpf": "715.***.***-75",
+      "dataAdmissao": "15/12/2022",
+      "dataAfastamento": "25/03/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Jose Weber Franklin De Carvalho",
+      "cargo": "Tecnico Em Fibra Pleno",
+      "empresa": "DTEL",
+      "cpf": "089.***.***-42",
+      "dataAdmissao": "08/04/2024",
+      "dataAfastamento": "04/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Pedro Victor Luz Nascimento",
+      "cargo": "Instalador Reparador Jr",
+      "empresa": "DTEL",
+      "cpf": "124.***.***-47",
+      "dataAdmissao": "17/05/2021",
+      "dataAfastamento": "29/03/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Vinicius Gomes Da Silva Paz",
+      "cargo": "Auxiliar De Projetista",
+      "empresa": "DTEL",
+      "cpf": "126.***.***-66",
+      "dataAdmissao": "07/08/2023",
+      "dataAfastamento": "18/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Itinerante": [
+    {
+      "nome": "Ailton Cupertino De Almeida Filho",
+      "cargo": "Instalador Reparador Pleno",
+      "empresa": "DTEL",
+      "cpf": "110.***.***-82",
+      "dataAdmissao": "11/05/2023",
+      "dataAfastamento": "05/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Compras": [
+    {
+      "nome": "Jose Vitor Do Nascimento Oliveira",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "15/04/2025",
+      "dataAfastamento": "06/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    }
+  ],
+  "Instalação Litoral Net": [
+    {
+      "nome": "Alex Junio Luiz Da Silva",
+      "cargo": "Supervisor Tecnico",
+      "empresa": "Solon Araújo",
+      "cpf": "104.***.***-24",
+      "dataAdmissao": "18/06/2021",
+      "dataAfastamento": "17/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Kerollayne Roberta Do Nascimento",
+      "cargo": "Auxiliar Administrativo De Atendimento",
+      "empresa": "Solon Araújo",
+      "cpf": "099.***.***-65",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "02/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Solon Severo De Araujo Filho",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Solon Araújo",
+      "cpf": "113.***.***-16",
+      "dataAdmissao": "02/01/2023",
+      "dataAfastamento": "04/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Wagner Wictor Ribeiro Araujo",
+      "cargo": "Auxiliar De Instalador",
+      "empresa": "Solon Araújo",
+      "cpf": null,
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "07/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Contabilidade": [
+    {
+      "nome": "Ingred Francielly Gomes Da Silva",
+      "cargo": "Auxiliar Administrativo (Jovem Aprendiz)",
+      "empresa": "DTEL",
+      "cpf": "154.***.***-33",
+      "dataAdmissao": "08/04/2025",
+      "dataAfastamento": "26/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    }
+  ],
+  "Instalação Vitor Lins": [
+    {
+      "nome": "Fabiano Santos Alves Bezerra",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Lins",
+      "cpf": "126.***.***-08",
+      "dataAdmissao": "21/07/2025",
+      "dataAfastamento": "22/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "NOC": [
+    {
+      "nome": "Dyego Almeida Telino",
+      "cargo": "Gerente De Redes",
+      "empresa": "DTEL",
+      "cpf": "071.***.***-88",
+      "dataAdmissao": "25/03/2024",
+      "dataAfastamento": "06/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Vendas PAP Tiago": [
+    {
+      "nome": "Adriel Ekstainy Ferreira Da Motta",
+      "cargo": "Executivo De Contas",
+      "empresa": "Soares & Silva",
+      "cpf": "083.***.***-73",
+      "dataAdmissao": "06/04/2026",
+      "dataAfastamento": "04/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Allef Pablo Santos De Lima",
+      "cargo": "Vendedor Externo",
+      "empresa": "DX2",
+      "cpf": "114.***.***-01",
+      "dataAdmissao": "06/04/2026",
+      "dataAfastamento": "14/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Anderson Da Silva Lopes",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "15/09/2025",
+      "dataAfastamento": "11/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Anderson Vieira Da Silva",
+      "cargo": "Executivo De Contas",
+      "empresa": "DTEL",
+      "cpf": "101.***.***-38",
+      "dataAdmissao": "02/03/2026",
+      "dataAfastamento": "30/05/2026",
+      "competenciaAviso": "05/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Andrews Kaik Araujo Caravaggio",
+      "cargo": "Vendedor Externo",
+      "empresa": "DX2",
+      "cpf": "156.***.***-47",
+      "dataAdmissao": "12/01/2026",
+      "dataAfastamento": "01/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Aryelle Lima De Oliveira",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "17/03/2025",
+      "dataAfastamento": "19/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "David Lima Dos Santos Costa",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "04/12/2025",
+      "dataAfastamento": "03/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Elaine Cristina Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "047.***.***-55",
+      "dataAdmissao": "18/08/2025",
+      "dataAfastamento": "22/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Fabiana Da Silva Antunes",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "056.***.***-76",
+      "dataAdmissao": "15/09/2025",
+      "dataAfastamento": "22/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Fabio Giorgio Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "04/12/2025",
+      "dataAfastamento": "03/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Gustavo Henrique Santana De Melo",
+      "cargo": "Vendedor Externo",
+      "empresa": "DX2",
+      "cpf": "121.***.***-27",
+      "dataAdmissao": "01/09/2025",
+      "dataAfastamento": "15/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Jose Randson Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "04/12/2025",
+      "dataAfastamento": "03/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Katherine Silva De Andrade",
+      "cargo": "Executivo De Contas",
+      "empresa": "Soares & Silva",
+      "cpf": "072.***.***-10",
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "28/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Lais Silva Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "134.***.***-00",
+      "dataAdmissao": "16/01/2024",
+      "dataAfastamento": "23/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Leilane Karine Cavalcante Lima",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "04/12/2025",
+      "dataAfastamento": "03/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Lenini Da Silva Matos",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "021.***.***-40",
+      "dataAdmissao": "20/09/2024",
+      "dataAfastamento": "10/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Com Justa Causa"
+    },
+    {
+      "nome": "Maria Gilmara Barbosa De Oliveira",
+      "cargo": "Vendedor Externo",
+      "empresa": "DX2",
+      "cpf": "031.***.***-08",
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "15/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Maria Tais Tavares De Amorim",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "082.***.***-50",
+      "dataAdmissao": "16/03/2026",
+      "dataAfastamento": "13/06/2026",
+      "competenciaAviso": "06/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Mikaella Oliveira Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "113.***.***-39",
+      "dataAdmissao": "06/07/2026",
+      "dataAfastamento": "23/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Millena Amanda Da Silva Oliveira",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "141.***.***-37",
+      "dataAdmissao": "06/07/2026",
+      "dataAfastamento": "19/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Neilton Candido Da Cunha",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Silva",
+      "cpf": "099.***.***-78",
+      "dataAdmissao": "02/03/2026",
+      "dataAfastamento": "15/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Renan Vasconcelos Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DX2",
+      "cpf": "707.***.***-58",
+      "dataAdmissao": "11/05/2026",
+      "dataAfastamento": "28/07/2026",
+      "competenciaAviso": "07/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    }
+  ],
+  "Instalação Willian": [
+    {
+      "nome": "Ewerton Suevanyo Santos De Melo",
+      "cargo": "Instalador Reparador",
+      "empresa": "DX2",
+      "cpf": "105.***.***-23",
+      "dataAdmissao": "04/07/2023",
+      "dataAfastamento": "05/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Mikael Pereira De Melo",
+      "cargo": "Instalador Reparador Junior",
+      "empresa": "DX2",
+      "cpf": "148.***.***-24",
+      "dataAdmissao": "07/05/2024",
+      "dataAfastamento": "24/08/2026",
+      "competenciaAviso": "08/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Romulo Jefferson Cavalcanti Torres",
+      "cargo": "Instalador Reparador",
+      "empresa": null,
+      "cpf": "129.***.***-40",
+      "dataAdmissao": "04/07/2022",
+      "dataAfastamento": "02/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Instalação Alagoas": [
+    {
+      "nome": "Cicero Roberto De Oliveira Silva",
+      "cargo": "Instalador Reparador",
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "02/06/2025",
+      "dataAfastamento": "09/03/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Maria Jose Curvelo De Melo",
+      "cargo": "Assistente Administrativo De Atendimento Junior",
+      "empresa": "Soares & Silva",
+      "cpf": "127.***.***-08",
+      "dataAdmissao": "01/02/2022",
+      "dataAfastamento": "18/04/2026",
+      "competenciaAviso": "03/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Equipe Não Identificada": [
+    {
+      "nome": "Dayvson Luiz Silva Do Nascimento",
+      "cargo": "Despachante Jr",
+      "empresa": "DTEL",
+      "cpf": "138.***.***-98",
+      "dataAdmissao": "17/05/2021",
+      "dataAfastamento": "06/01/2026",
+      "competenciaAviso": "12/2025",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Edinalva Maria Da Silva",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "15/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Hendril Matheus Santos Figueredo",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "02/02/2026",
+      "dataAfastamento": "05/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Hilton Teixeira Da Silva",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "06/04/2026",
+      "dataAfastamento": "23/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Rescisão Indireta"
+    },
+    {
+      "nome": "Igor Fellipe Dos Santos",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "01/12/2025",
+      "dataAfastamento": "28/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Demissão"
+    },
+    {
+      "nome": "Jeferson Da Silva Barbosa",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "23/02/2026",
+      "dataAfastamento": "27/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Jose Galdino De Melo Filho",
+      "cargo": null,
+      "empresa": "Soares & Silva",
+      "cpf": null,
+      "dataAdmissao": "20/01/2022",
+      "dataAfastamento": "06/04/2026",
+      "competenciaAviso": "04/2026",
+      "tipoRescisao": "Ped. Empregado"
+    },
+    {
+      "nome": "Rosangela Da Costa Souza",
+      "cargo": "Despachante Pleno",
+      "empresa": "DTEL",
+      "cpf": "092.***.***-46",
+      "dataAdmissao": "04/04/2019",
+      "dataAfastamento": "07/03/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Thiago Guilherme Torres De Vasconcelos",
+      "cargo": null,
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "01/04/2015",
+      "dataAfastamento": "02/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Vendas Pap Cezar": [
+    {
+      "nome": "Andre Rafael Do Nascimento Lobo",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Beatriz Vitoria Gomes Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Lins",
+      "cpf": null,
+      "dataAdmissao": "15/10/2025",
+      "dataAfastamento": "05/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Camilly Vitoria Soares Dos Santos",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "07/10/2024",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Cezar Luiz De Andrade Melo",
+      "cargo": "Coordenador Comercial",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "10/03/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Cristina Ramos Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "091.***.***-26",
+      "dataAdmissao": "19/12/2022",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Edilson Olimpio De Moraes",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "12/01/2026",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Evilyn Maiara Da Silva Martins",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Lins",
+      "cpf": null,
+      "dataAdmissao": "21/07/2025",
+      "dataAfastamento": "05/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Larissa Reis Bezerra",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": "085.***.***-80",
+      "dataAdmissao": "04/08/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Maria Eloiza Alves Da Silva",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "22/04/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Moises Magalhaes Conceicao Junior",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "10/11/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Rescisão por Acordo"
+    },
+    {
+      "nome": "Natalyanne Gomes De Souza Lima",
+      "cargo": "Vendedor Externo",
+      "empresa": "Soares & Lins",
+      "cpf": null,
+      "dataAdmissao": "15/10/2025",
+      "dataAfastamento": "05/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Tatiany Maria Ferreira Santana",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "13/10/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    },
+    {
+      "nome": "Thamala Maria De Santana Gonçalves",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "19/05/2025",
+      "dataAfastamento": "29/01/2026",
+      "competenciaAviso": "01/2026",
+      "tipoRescisao": "Sem Justa Causa"
+    }
+  ],
+  "Vendas Pap Pedro": [
+    {
+      "nome": "Fernanda Da Silva Nascimento",
+      "cargo": "Vendedor Externo",
+      "empresa": "DTEL",
+      "cpf": null,
+      "dataAdmissao": "21/11/2024",
+      "dataAfastamento": "10/02/2026",
+      "competenciaAviso": "02/2026",
+      "tipoRescisao": "Ped. Empregado"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Colaboradores — Dtel Telecom</title>
+<title>Desligados — Dtel Telecom</title>
 <style>
   :root {
     --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
@@ -17,8 +17,8 @@
   main { max-width:1180px; margin:0 auto; padding:32px 28px 60px; }
   a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
   a.voltar:hover { color:var(--blue-accent); }
-  a.link-relacionado { display:inline-flex; align-items:center; gap:5px; font-size:11.5px; color:var(--bad); text-decoration:none; font-family:var(--mono); background:rgba(248,113,113,0.1); border:1px solid rgba(248,113,113,0.3); border-radius:8px; padding:6px 11px; }
-  a.link-relacionado:hover { background:rgba(248,113,113,0.18); }
+  a.link-relacionado { display:inline-flex; align-items:center; gap:5px; font-size:11.5px; color:var(--good); text-decoration:none; font-family:var(--mono); background:rgba(34,197,94,0.1); border:1px solid rgba(34,197,94,0.3); border-radius:8px; padding:6px 11px; }
+  a.link-relacionado:hover { background:rgba(34,197,94,0.18); }
   .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
   .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
   .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
@@ -37,7 +37,7 @@
   .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
   .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
   .total-card .val { font-size:17px; font-weight:800; color:#fff; font-family:var(--mono); }
-  .total-card .val.good { color:var(--good); }
+  .total-card .val.bad { color:var(--bad); }
 
   .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 22px 22px; margin-bottom:18px; }
   .grupo-setor { border-bottom:1px solid var(--border-soft); }
@@ -53,18 +53,20 @@
 
   .grupo-corpo { display:none; padding-bottom:10px; overflow-x:auto; }
   .grupo-corpo.aberto { display:block; }
-  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:600px; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:700px; }
   thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
   tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
   tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
-  tbody td.total { text-align:right; font-weight:800; color:var(--good); font-family:var(--mono); white-space:nowrap; }
+  tbody td.total { text-align:right; font-weight:800; color:var(--bad); font-family:var(--mono); white-space:nowrap; }
   tbody td.cargo { color:var(--slate-500); font-size:11.5px; white-space:nowrap; }
   tbody td.mono { color:var(--slate-500); font-size:11.5px; white-space:nowrap; font-family:var(--mono); }
   .empresa-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
+  .tipo-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--bad); background:rgba(248,113,113,0.12); border:1px solid rgba(248,113,113,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
 
   .chart-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
   .chart-titulo { font-size:14px; font-weight:800; color:#fff; }
   .chart-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
+  .chart-wrap { position:relative; height:300px; }
 
   .btn-excel { display:inline-flex; align-items:center; gap:6px; background:rgba(34,197,94,0.12); border:1px solid rgba(34,197,94,0.35); color:var(--good); font-size:11.5px; font-weight:700; border-radius:9px; padding:7px 13px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
   .btn-excel:hover { background:rgba(34,197,94,0.2); }
@@ -81,13 +83,13 @@
   <a class="voltar" href="/">&larr; Todos os setores</a>
   <div class="period-row">
     <span class="status-txt" id="statusTxt">—</span>
-    <a class="link-relacionado" href="/desligados">🔴 Ver Desligados &rarr;</a>
+    <a class="link-relacionado" href="/colaboradores">🟢 Ver Colaboradores Ativos &rarr;</a>
   </div>
   <div class="header-row">
-    <span class="icon">🧑‍💼</span>
+    <span class="icon">🔴</span>
     <div>
-      <h1>Colaboradores</h1>
-      <p>Colaboradores ativos por equipe — extraído da folha de pagamento de Agosto/2026 (mês mais recente processado), com CPF e Data de Admissão. Clique no nome da equipe para ver a lista.</p>
+      <h1>Desligados</h1>
+      <p>Colaboradores desligados por equipe — extraído da Base de Rescisões (Dez/2025 a Ago/2026). Clique no nome da equipe para ver a lista.</p>
     </div>
   </div>
 
@@ -104,6 +106,14 @@
         <select id="fEmpresa" onchange="renderTudo()"></select>
       </div>
       <div class="filtro">
+        <span class="filtro-label">Mês desligamento</span>
+        <select id="fMes" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Tipo rescisão</span>
+        <select id="fTipo" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
         <span class="filtro-label">Buscar</span>
         <input id="fBusca" type="text" placeholder="equipe ou colaborador…" oninput="renderTudo()">
       </div>
@@ -114,13 +124,29 @@
 
     <div class="section-card">
       <div class="chart-header">
+        <span class="chart-titulo">Desligamentos por Mês</span>
+      </div>
+      <p class="chart-nota">Número de desligamentos por competência do aviso prévio, Dez/2025 a Ago/2026 — sempre com todos os meses lado a lado (não é afetado pelo filtro de Mês desligamento/Tipo acima, só pelos de Equipe/Empresa/Busca).</p>
+      <div class="chart-wrap"><canvas id="chartDesligamentosMes"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Desligamentos por Tipo de Rescisão</span>
+      </div>
+      <p class="chart-nota">Contagem por tipo de rescisão, refletindo o filtro atual (Equipe/Empresa/Mês desligamento/Busca).</p>
+      <div class="chart-wrap"><canvas id="chartTipoRescisao"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
         <span class="chart-titulo">Resumo por Equipe</span>
         <button class="btn-excel-mini" onclick="baixarExcelResumoEquipe()">⬇ Excel</button>
       </div>
-      <p class="chart-nota">Número de colaboradores ativos por equipe, ordenado do maior para o menor. Reflete o filtro de Empresa/Busca acima.</p>
+      <p class="chart-nota">Número de desligados por equipe, ordenado do maior para o menor. Não é afetado pelo filtro de Mês desligamento/Tipo acima, só pelos de Empresa/Busca.</p>
       <div style="overflow-x:auto;">
         <table id="tabelaResumoEquipe">
-          <thead><tr><th>Equipe</th><th>Ativos</th></tr></thead>
+          <thead><tr><th>Equipe</th><th>Desligados</th></tr></thead>
           <tbody id="tabelaResumoEquipeCorpo"></tbody>
         </table>
       </div>
@@ -131,13 +157,18 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: aba "Detalhamento" da Base_Despesa_Trabalhista_082026.xlsx (Agosto/2026, mês mais recente processado), que já traz CPF e Data de Admissão por colaborador. Exclui quem está com Situação "Demitido" nessa planilha e quem já está na lista de <a href="/desligados" style="color:var(--blue-accent);">Desligados</a> (base de rescisões separada, mais precisa para esse dado). CPF mostrado mascarado (3 primeiros + 2 últimos dígitos) — pessoas diferentes podem coincidir no CPF mascarado por mostrar só 5 dígitos; isso não é erro de duplicidade, é só o mascaramento. Esse quadro usa a folha de Agosto/2026 como base — colaboradores admitidos depois não aparecem até reprocessar com um mês mais novo. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquela equipe. Esta tela é só de consulta.</p>
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Rescisões_2026.xlsx (planilha específica de rescisões, mais precisa que a folha mensal para esse dado), cobrindo Dez/2025 a Ago/2026. Essa fonte não tem "Setor" nem "Cargo" prontos — foram cruzados pelo nome com a equipe/cargo que a pessoa tinha na folha de pagamento (Maio a Agosto/2026) no último mês em que apareceu ativa; quem saiu antes de Maio/2026 ou nunca apareceu nessas 4 planilhas fica em "Equipe Não Identificada". CPF mostrado mascarado (3 primeiros + 2 últimos dígitos). Na Base de Rescisões, 89 dos 187 desligados não tinham CPF preenchido — 41 foram recuperados cruzando com a folha de pagamento; os 48 restantes (provavelmente desligados antes de Maio/2026) ficam em branco. Esse quadro <strong>não passou pela reconciliação fina de gestor</strong> que existe em Horas Extras/Férias/Colaboradores (Cesar=Paulo Cesar, Gabriel Lima=Gabriel Soares etc.) — por isso algumas equipes de desligados mais antigos podem aparecer com rótulos como "Vendas Pap Cezar"/"Vendas Pap Pedro", que talvez correspondam a uma equipe atual com outro nome; avise se notar isso. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquela equipe. Esta tela é só de consulta.</p>
   </div>
 </main>
+<script src="/chartjs_extracted.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const API_BASE = '';
-let EQUIPES = {}; // equipe -> [colaboradores ativos]
+let EQUIPES = {}; // equipe -> [desligados]
+let GRUPOS_ABERTOS = {};
+let CHART_DESLIGAMENTOS_MES = null;
+let CHART_TIPO_RESCISAO = null;
+const ORDEM_MESES = ['12/2025','01/2026','02/2026','03/2026','04/2026','05/2026','06/2026','07/2026','08/2026'];
 
 function popularSelect(id, valores, comTodos) {
   const sel = document.getElementById(id);
@@ -158,13 +189,32 @@ function popularSelect(id, valores, comTodos) {
   }
 }
 
-let GRUPOS_ABERTOS = {};
 function toggleGrupo(equipe) {
   GRUPOS_ABERTOS[equipe] = !GRUPOS_ABERTOS[equipe];
   renderTudo();
 }
 
 function registrosFiltrados() {
+  const equipeSel = document.getElementById('fEquipe').value;
+  const empresa = document.getElementById('fEmpresa').value;
+  const mes = document.getElementById('fMes').value;
+  const tipo = document.getElementById('fTipo').value;
+  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
+  const out = [];
+  Object.keys(EQUIPES).forEach((equipe) => {
+    if (equipeSel && equipe !== equipeSel) return;
+    EQUIPES[equipe].forEach((c) => {
+      if (empresa && c.empresa !== empresa) return;
+      if (mes && c.competenciaAviso !== mes) return;
+      if (tipo && c.tipoRescisao !== tipo) return;
+      if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
+      out.push({ equipe, ...c });
+    });
+  });
+  return out;
+}
+
+function registrosFiltradosBase() {
   const equipeSel = document.getElementById('fEquipe').value;
   const empresa = document.getElementById('fEmpresa').value;
   const busca = document.getElementById('fBusca').value.trim().toLowerCase();
@@ -180,27 +230,13 @@ function registrosFiltrados() {
   return out;
 }
 
-function registrosFiltradosBase() {
-  const empresa = document.getElementById('fEmpresa').value;
-  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
-  const out = [];
-  Object.keys(EQUIPES).forEach((equipe) => {
-    EQUIPES[equipe].forEach((c) => {
-      if (empresa && c.empresa !== empresa) return;
-      if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
-      out.push({ equipe, ...c });
-    });
-  });
-  return out;
-}
-
 function renderTudo() {
   const filtrados = registrosFiltrados();
 
   const equipesEnvolvidas = new Set(filtrados.map(r => r.equipe));
   const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
   document.getElementById('totaisCards').innerHTML = `
-    <div class="total-card"><div class="lbl">Colaboradores no filtro</div><div class="val good">${filtrados.length}</div></div>
+    <div class="total-card"><div class="lbl">Desligados no filtro</div><div class="val bad">${filtrados.length}</div></div>
     <div class="total-card"><div class="lbl">Equipes</div><div class="val">${equipesEnvolvidas.size}</div></div>
     <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
   `;
@@ -225,6 +261,9 @@ function renderTudo() {
         <td>${r.empresa ? `<span class="empresa-tag">${r.empresa}</span>` : '—'}</td>
         <td class="mono">${r.cpf || '—'}</td>
         <td class="mono">${r.dataAdmissao || '—'}</td>
+        <td class="mono">${r.dataAfastamento || '—'}</td>
+        <td class="mono">${r.competenciaAviso || '—'}</td>
+        <td>${r.tipoRescisao ? `<span class="tipo-tag">${r.tipoRescisao}</span>` : '—'}</td>
       </tr>
     `).join('');
     return `
@@ -233,7 +272,7 @@ function renderTudo() {
           <div class="esq" data-equipe-toggle>
             <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
             <span class="grupo-nome">${equipe}</span>
-            <span class="grupo-count">${itens.length} colaborador${itens.length === 1 ? '' : 'es'}</span>
+            <span class="grupo-count">${itens.length} desligado${itens.length === 1 ? '' : 's'}</span>
           </div>
           <div style="display:flex; align-items:center; gap:12px;">
             <span class="grupo-total">${itens.length}</span>
@@ -242,7 +281,7 @@ function renderTudo() {
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>CPF</th><th>Admissão</th></tr></thead>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>CPF</th><th>Admissão</th><th>Afastamento</th><th>Competência</th><th>Tipo Rescisão</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -255,7 +294,126 @@ function renderTudo() {
     el.addEventListener('click', () => toggleGrupo(equipesOrdenadas[i]));
   });
 
+  renderChartDesligamentosMes();
+  renderChartTipoRescisao(filtrados);
   renderResumoEquipe();
+}
+
+function renderChartDesligamentosMes() {
+  const base = registrosFiltradosBase();
+  const porMes = {};
+  base.forEach((r) => {
+    const m = r.competenciaAviso || '—';
+    porMes[m] = (porMes[m] || 0) + 1;
+  });
+  const meses = ORDEM_MESES.filter((m) => porMes[m]);
+  const dados = meses.map((m) => porMes[m] || 0);
+  const rotulos = meses.map((m) => {
+    const [mm, aa] = m.split('/');
+    const nomes = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+    return nomes[parseInt(mm,10)] + '/' + aa.slice(2);
+  });
+
+  const ctx = document.getElementById('chartDesligamentosMes').getContext('2d');
+  if (CHART_DESLIGAMENTOS_MES) CHART_DESLIGAMENTOS_MES.destroy();
+  CHART_DESLIGAMENTOS_MES = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: rotulos,
+      datasets: [{
+        label: 'Desligamentos',
+        data: dados,
+        backgroundColor: 'rgba(248,113,113,0.55)',
+        borderColor: 'rgba(248,113,113,1)',
+        borderWidth: 1.5,
+        borderRadius: 5,
+        maxBarThickness: 46,
+      }],
+    },
+    plugins: [{
+      id: 'rotuloBarraVerticalPlugin',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        ctx.save();
+        ctx.font = '600 11px system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.fillStyle = '#f87171';
+        chart.data.datasets.forEach((ds, di) => {
+          const meta = chart.getDatasetMeta(di);
+          meta.data.forEach((bar, i) => {
+            const val = ds.data[i];
+            if (!val) return;
+            ctx.fillText(String(val), bar.x, bar.y - 6);
+          });
+        });
+        ctx.restore();
+      },
+    }],
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#8291ab', font: { size: 11 } } },
+        y: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#8291ab', font: { size: 11 } } },
+      },
+    },
+  });
+}
+
+function renderChartTipoRescisao(filtrados) {
+  const porTipo = {};
+  filtrados.forEach((r) => {
+    const t = r.tipoRescisao || 'Não informado';
+    porTipo[t] = (porTipo[t] || 0) + 1;
+  });
+  const tipos = Object.keys(porTipo).sort((a, b) => porTipo[b] - porTipo[a]);
+  const dados = tipos.map((t) => porTipo[t]);
+
+  const ctx = document.getElementById('chartTipoRescisao').getContext('2d');
+  if (CHART_TIPO_RESCISAO) CHART_TIPO_RESCISAO.destroy();
+  CHART_TIPO_RESCISAO = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: tipos,
+      datasets: [{
+        label: 'Desligamentos',
+        data: dados,
+        backgroundColor: 'rgba(79,156,249,0.55)',
+        borderColor: 'rgba(79,156,249,1)',
+        borderWidth: 1.5,
+        borderRadius: 5,
+      }],
+    },
+    plugins: [{
+      id: 'rotuloBarraHorizontalPlugin2',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        ctx.save();
+        ctx.font = '600 10.5px system-ui, sans-serif';
+        ctx.textAlign = 'left';
+        ctx.textBaseline = 'middle';
+        ctx.fillStyle = '#7fb4fb';
+        chart.data.datasets.forEach((ds, di) => {
+          const meta = chart.getDatasetMeta(di);
+          meta.data.forEach((bar, i) => {
+            const val = ds.data[i];
+            if (!val) return;
+            ctx.fillText(String(val), bar.x + 6, bar.y);
+          });
+        });
+        ctx.restore();
+      },
+    }],
+    options: {
+      indexAxis: 'y',
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { beginAtZero: true, grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#8291ab', font: { size: 11 } } },
+        y: { grid: { display: false }, ticks: { color: '#c3ccdc', font: { size: 11.5 } } },
+      },
+    },
+  });
 }
 
 function dadosResumoEquipe() {
@@ -264,27 +422,28 @@ function dadosResumoEquipe() {
   registros.forEach((r) => {
     porEquipe[r.equipe] = (porEquipe[r.equipe] || 0) + 1;
   });
-  return Object.keys(porEquipe).map((equipe) => ({ equipe, ativos: porEquipe[equipe] }))
-    .sort((a, b) => b.ativos - a.ativos);
+  return Object.keys(porEquipe).map((equipe) => ({ equipe, desligados: porEquipe[equipe] }))
+    .sort((a, b) => b.desligados - a.desligados);
 }
 
 function renderResumoEquipe() {
   const linhas = dadosResumoEquipe();
   document.getElementById('tabelaResumoEquipeCorpo').innerHTML = linhas.map(l => `
-    <tr><td>${l.equipe}</td><td class="total">${l.ativos}</td></tr>
+    <tr><td>${l.equipe}</td><td class="total">${l.desligados}</td></tr>
   `).join('');
 }
 
 function baixarExcelResumoEquipe() {
   const linhas = dadosResumoEquipe();
-  const matriz = [['Equipe', 'Ativos'], ...linhas.map(l => [l.equipe, l.ativos])];
-  exportarXlsx(matriz, 'Colaboradores - Resumo por Equipe.xlsx', 'Resumo por Equipe');
+  const matriz = [['Equipe', 'Desligados'], ...linhas.map(l => [l.equipe, l.desligados])];
+  exportarXlsx(matriz, 'Desligados - Resumo por Equipe.xlsx', 'Resumo por Equipe');
 }
 
 function montarLinhasExcel(registros) {
-  const cab = ['Equipe', 'Colaborador', 'Cargo', 'Empresa', 'CPF', 'Admissão'];
+  const cab = ['Equipe', 'Colaborador', 'Cargo', 'Empresa', 'CPF', 'Admissão', 'Afastamento', 'Competência', 'Tipo Rescisão'];
   const linhas = registros.map(r => [
     r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.cpf || '', r.dataAdmissao || '',
+    r.dataAfastamento || '', r.competenciaAviso || '', r.tipoRescisao || '',
   ]);
   return [cab, ...linhas];
 }
@@ -298,13 +457,13 @@ function exportarXlsx(matriz, nomeArquivo, nomeAba) {
 
 function baixarExcel() {
   const matriz = montarLinhasExcel(registrosFiltrados());
-  exportarXlsx(matriz, 'Colaboradores - Filtro atual.xlsx', 'Colaboradores');
+  exportarXlsx(matriz, 'Desligados - Filtro atual.xlsx', 'Desligados');
 }
 
 function baixarExcelEquipe(equipe) {
   const registros = (EQUIPES[equipe] || []).map(c => ({ equipe, ...c }));
   const matriz = montarLinhasExcel(registros);
-  exportarXlsx(matriz, `Colaboradores - ${equipe}.xlsx`, equipe.slice(0, 31));
+  exportarXlsx(matriz, `Desligados - ${equipe}.xlsx`, equipe.slice(0, 31));
 }
 
 async function carregar() {
@@ -312,18 +471,22 @@ async function carregar() {
   const erroBox = document.getElementById('erroBox');
   const conteudo = document.getElementById('conteudo');
   try {
-    const resp = await fetch(API_BASE + '/api/colaboradores');
+    const resp = await fetch(API_BASE + '/api/desligados');
     const data = await resp.json();
-    if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar colaboradores.');
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar desligados.');
     EQUIPES = data.equipes || {};
     statusEl.textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : 'Atualizado';
 
     const todosRegistros = Object.keys(EQUIPES).flatMap(eq => EQUIPES[eq].map(c => ({ equipe: eq, ...c })));
     const equipes = [...new Set(todosRegistros.map(r => r.equipe))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
     const empresas = [...new Set(todosRegistros.map(r => r.empresa).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
+    const meses = ORDEM_MESES.filter(m => todosRegistros.some(r => r.competenciaAviso === m));
+    const tipos = [...new Set(todosRegistros.map(r => r.tipoRescisao).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
 
     popularSelect('fEquipe', equipes, true);
     popularSelect('fEmpresa', empresas, true);
+    popularSelect('fMes', meses, true);
+    popularSelect('fTipo', tipos, true);
 
     conteudo.style.display = 'block';
     erroBox.style.display = 'none';

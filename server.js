@@ -196,14 +196,30 @@ app.get('/api/ferias', async (req, res) => {
   }
 });
 
-// Quadro "Colaboradores" — ativos (folha mais recente) + desligados
-// (Base_Rescisões_2026.xlsx). Devolve o objeto completo; a página faz os
-// filtros (Equipe/Empresa/Status/Mês desligamento/Busca) no navegador.
+// Quadro "Colaboradores" — só ativos (folha mais recente, com CPF e Data de
+// Admissão). Devolve o objeto completo; a página faz os filtros
+// (Equipe/Empresa/Busca) no navegador.
 app.get('/api/colaboradores', async (req, res) => {
   try {
     const { estado, erro } = await getEstado();
     res.json({
       equipes: estado.colaboradores || {},
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
+// Quadro "Desligados" — Base_Rescisões_2026.xlsx (Dez/2025 a Ago/2026).
+// Devolve o objeto completo; a página faz os filtros
+// (Equipe/Empresa/Mês desligamento/Tipo/Busca) no navegador.
+app.get('/api/desligados', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    res.json({
+      equipes: estado.desligados || {},
       arquivoUsado: estado.arquivoUsado,
       avisoCache: erro || null,
     });
@@ -252,6 +268,10 @@ app.get('/ferias', (req, res) => {
 
 app.get('/colaboradores', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'colaboradores.html'));
+});
+
+app.get('/desligados', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'desligados.html'));
 });
 
 app.get('/', (req, res) => {
