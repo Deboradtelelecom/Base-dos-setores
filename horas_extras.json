@@ -718,7 +718,7 @@
         "dsr": 488.06
       },
       {
-        "nome": "Helder Guedes Do Nascimento Almeida Alcoforado",
+        "nome": "Helder Guedes Do Nascimento Almeida",
         "cargo": "Auxiliar De Cozinha",
         "empresa": "DTEL",
         "he100": 322.31,
@@ -797,7 +797,7 @@
         "dsr": 210.43
       },
       {
-        "nome": "Helder Guedes Do Nascimento Almeida Sailtucaoçfãoor:Atdraobalhando",
+        "nome": "Helder Guedes Do Nascimento Almeida",
         "cargo": "Auxiliar De Cozinha",
         "empresa": "DTEL",
         "he100": 0,
@@ -876,7 +876,7 @@
         "dsr": 733.46
       },
       {
-        "nome": "Helder Guedes Do Nascimento Almeida Aslitcuoaçfãoor:Addeomitido",
+        "nome": "Helder Guedes Do Nascimento Almeida",
         "cargo": "Auxiliar De Cozinha",
         "empresa": "DTEL",
         "he100": 167.94,
@@ -5446,6 +5446,17 @@
         "heNoturna100": 0.0,
         "total": 3554.54,
         "dsr": 853.09
+      },
+      {
+        "nome": "Cleiton Luciano Da Silva Santos",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "he100": 955.49,
+        "he50": 1794.07,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 2749.56,
+        "dsr": 659.89
       }
     ]
   },
@@ -12617,17 +12628,6 @@
         "dsr": 78.15
       },
       {
-        "nome": "Eduardo Karisson Maximino De Matos",
-        "cargo": "Auxiliar De Instalador",
-        "empresa": "DTEL",
-        "he100": 776.52,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 776.52,
-        "dsr": 186.36
-      },
-      {
         "nome": "Emerson Henrique Silva De Carvalho",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
@@ -13101,17 +13101,6 @@
         "dsr": 182.12
       },
       {
-        "nome": "Vikione Stephany Maria Batista Da Silva",
-        "cargo": "Auxiliar Administrativo Atendimento",
-        "empresa": "DTEL",
-        "he100": 222.24,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 222.24,
-        "dsr": 53.34
-      },
-      {
         "nome": "Walisson Rodrigues Bispo",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
@@ -13145,15 +13134,15 @@
         "dsr": 370.12
       },
       {
-        "nome": "William Jose Da Silva Santos",
-        "cargo": "Auxiliar De Instalador",
+        "nome": "Angelo De Oliveira",
+        "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
-        "he100": 425.13,
-        "he50": 324.62,
-        "heNoturna50": 44.96,
+        "he100": 368.42,
+        "he50": 441.87,
+        "heNoturna50": 0.0,
         "heNoturna100": 0.0,
-        "total": 794.71,
-        "dsr": 190.73
+        "total": 810.29,
+        "dsr": 194.47
       }
     ]
   },
@@ -16858,17 +16847,6 @@
         "dsr": 197.56
       },
       {
-        "nome": "Cleiton Luciano Da Silva Santos",
-        "cargo": "Tecnico Em Fibra Junior",
-        "empresa": "DTEL",
-        "he100": 955.49,
-        "he50": 1794.07,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 2749.56,
-        "dsr": 659.89
-      },
-      {
         "nome": "Dayana Mabel Bezerra De Sá",
         "cargo": "",
         "empresa": "DTEL",
@@ -18131,6 +18109,17 @@
         "heNoturna100": 0.0,
         "total": 1012.28,
         "dsr": 242.95
+      },
+      {
+        "nome": "Luiz Pedro Dos Reis",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "he100": 291.98,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 291.98,
+        "dsr": 70.08
       }
     ]
   },
@@ -18405,17 +18394,6 @@
         "heNoturna100": 0.0,
         "total": 38.08,
         "dsr": 9.14
-      },
-      {
-        "nome": "Luiz Pedro Dos Reis",
-        "cargo": "Ajudante De Obras",
-        "empresa": "DTEL",
-        "he100": 291.98,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 291.98,
-        "dsr": 70.08
       }
     ]
   },
@@ -19807,26 +19785,15 @@
         "dsr": 40.85
       },
       {
-        "nome": "Thatyanne Waleska Ramos",
+        "nome": "Vikione Stephany Maria Batista Da Silva",
         "cargo": "Auxiliar Administrativo Atendimento",
         "empresa": "DTEL",
-        "he100": 197.46,
+        "he100": 222.24,
         "he50": 0.0,
         "heNoturna50": 0.0,
         "heNoturna100": 0.0,
-        "total": 197.46,
-        "dsr": 47.39
-      },
-      {
-        "nome": "Ravel Da Silva Souza",
-        "cargo": "Auxiliar Administrativo De Atendimento",
-        "empresa": "DTEL",
-        "he100": 199.29,
-        "he50": 0.0,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 199.29,
-        "dsr": 47.83
+        "total": 222.24,
+        "dsr": 53.34
       }
     ]
   },
@@ -20999,6 +20966,39 @@
         "heNoturna100": 0.0,
         "total": 775.19,
         "dsr": 186.05
+      },
+      {
+        "nome": "Eduardo Karisson Maximino De Matos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 776.52,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 776.52,
+        "dsr": 186.36
+      },
+      {
+        "nome": "Thatyanne Waleska Ramos",
+        "cargo": "Auxiliar Administrativo Atendimento",
+        "empresa": "DTEL",
+        "he100": 197.46,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 197.46,
+        "dsr": 47.39
+      },
+      {
+        "nome": "Ravel Da Silva Souza",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "he100": 199.29,
+        "he50": 0.0,
+        "heNoturna50": 0.0,
+        "heNoturna100": 0.0,
+        "total": 199.29,
+        "dsr": 47.83
       }
     ],
     "Junho/2026": [
@@ -22616,17 +22616,6 @@
     ],
     "Agosto/2026": [
       {
-        "nome": "Angelo De Oliveira",
-        "cargo": "Instalador Reparador Junior",
-        "empresa": "DTEL",
-        "he100": 368.42,
-        "he50": 441.87,
-        "heNoturna50": 0.0,
-        "heNoturna100": 0.0,
-        "total": 810.29,
-        "dsr": 194.47
-      },
-      {
         "nome": "Astrogildo Pereira Lopes Junior",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
@@ -23753,6 +23742,19 @@
         "heNoturna100": 0,
         "total": 206.14,
         "dsr": 30.54
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "William Jose Da Silva Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "he100": 425.13,
+        "he50": 324.62,
+        "heNoturna50": 44.96,
+        "heNoturna100": 0.0,
+        "total": 794.71,
+        "dsr": 190.73
       }
     ]
   },
@@ -28598,9 +28600,6 @@
         "dsr": 56.19
       }
     ]
-  },
-  "Qualidade": {
-    "Agosto/2026": []
   },
   "TIC": {
     "Agosto/2026": [
