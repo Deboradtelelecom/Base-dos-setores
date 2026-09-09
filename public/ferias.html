@@ -146,7 +146,7 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Custo Trabalhista), filtrando quem teve Situação do Extrato contendo "Férias" no mês, agrupado pela EQUIPE de cada colaborador na folha. <strong>Nível de detalhe varia por mês</strong>: Julho e Agosto trazem o período exato (data de início e fim) na coluna "Período"; Maio e Junho só têm o tipo de férias (Quebradas/Trabalhadas), sem data exata — a fonte de origem desses 2 meses não tinha essa informação. <strong>Valor de Férias e Descontos</strong> vêm da aba Detalhamento da mesma planilha, mas o cálculo muda por mês conforme o nível de detalhe da fonte: em <strong>Julho/Agosto</strong> é a soma das rubricas específicas de férias (dias, 1/3 constitucional, abono, vencidas etc.), separando os descontos em <strong>Desc. INSS</strong>, <strong>Desc. IRRF</strong> e <strong>Outros Desc.</strong> (pensão alimentícia, plano de saúde/odontológico, empréstimo consignado etc.) por palavra-chave no nome de cada rubrica; em <strong>Maio/Junho</strong> a fonte só traz 3 colunas agregadas (Férias, Férias Abono, Líquido Férias Recebido), então só dá pra calcular o Total de Descontos (bruto menos líquido recebido) — sem separar por tipo, por isso essas 3 colunas ficam "—" nesses 2 meses. Em todos os casos é uma classificação/cálculo de melhor esforço a partir da planilha — se algum valor parecer estranho, avise que a gente confere linha a linha. O filtro de Empresa segue a mesma padronização usada no quadro de Horas Extras. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquela equipe (todos os meses dela, ignorando o filtro de Competência). Esta tela é só de consulta.</p>
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Custo Trabalhista), filtrando quem teve Situação do Extrato contendo "Férias" no mês, agrupado pela EQUIPE de cada colaborador na folha. <strong>Nível de detalhe varia por mês</strong>: Julho e Agosto trazem o período exato (data de início e fim) na coluna "Período"; Maio e Junho só têm o tipo de férias (Quebradas/Trabalhadas), sem data exata — a fonte de origem desses 2 meses não tinha essa informação. <strong>Detalhamento do Valor de Férias (09/09/2026, corrigido)</strong>: adicionadas as colunas "Dias de Férias", "1/3 Constitucional" e "Abono Pecuniário", que somadas formam o "Valor de Férias" — mostrando como se chegou nesse valor final, não só o total. Ao montar essas colunas foi encontrado e corrigido um erro no cálculo anterior do Valor de Férias de Julho e Agosto (nos 240 lançamentos desses 2 meses o valor estava superestimado — em alguns casos maior até que o provento bruto do mês inteiro da pessoa; a causa foi uma classificação incompleta das rubricas de férias na aba Detalhamento). Os valores de Desconto (INSS/IRRF/Outros) já estavam corretos e não mudaram. Maio e Junho foram conferidos e não tinham esse problema (valores mantidos). <strong>Metodologia por mês</strong>: em <strong>Julho/Agosto</strong>, cada uma das ~40 rubricas de férias/abono da aba Detalhamento é classificada por palavra-chave no nome — contém "1/3" vai para 1/3 Constitucional, contém "Abono" vai para Abono Pecuniário, as demais (dias, proporcionais, vencidas, diferenças, médias) vão para Dias de Férias — e a soma das 3 é o Valor de Férias; os Descontos seguem separados em <strong>Desc. INSS</strong>, <strong>Desc. IRRF</strong> e <strong>Outros Desc.</strong> (pensão alimentícia, plano de saúde/odontológico, empréstimo consignado etc.), também por palavra-chave. Em <strong>Maio/Junho</strong> a fonte só traz 3 colunas agregadas (Férias, Férias Abono, Líquido Férias Recebido): Dias de Férias = coluna Férias, Abono Pecuniário = coluna Férias Abono, 1/3 Constitucional fica "—" (não dá pra separar), e o Total de Descontos é bruto menos líquido recebido, sem separar por tipo (por isso Desc. INSS/IRRF/Outros ficam "—" nesses 2 meses). Em todos os casos é uma classificação de melhor esforço a partir do nome das rubricas na planilha — se algum valor parecer estranho, avise que a gente confere linha a linha. O filtro de Empresa segue a mesma padronização usada no quadro de Horas Extras. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquela equipe (todos os meses dela, ignorando o filtro de Competência). Esta tela é só de consulta.</p>
   </div>
 </main>
 <script src="/chartjs_extracted.js"></script>
@@ -295,6 +295,9 @@ function renderTudo() {
         <td>${r.mes || ''}</td>
         <td><span class="situacao-tag">${r.situacao || ''}</span></td>
         <td class="periodo">${r.periodo || '—'}</td>
+        <td class="periodo">${r.diasFerias != null ? fmtBRL(r.diasFerias) : '—'}</td>
+        <td class="periodo">${r.tercoConstitucional != null ? fmtBRL(r.tercoConstitucional) : '—'}</td>
+        <td class="periodo">${r.abonoPecuniario != null ? fmtBRL(r.abonoPecuniario) : '—'}</td>
         <td class="periodo">${r.valorFerias != null ? fmtBRL(r.valorFerias) : '—'}</td>
         <td class="periodo">${r.descontoInss != null ? fmtBRL(r.descontoInss) : '—'}</td>
         <td class="periodo">${r.descontoIrrf != null ? fmtBRL(r.descontoIrrf) : '—'}</td>
@@ -317,7 +320,7 @@ function renderTudo() {
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>Situação</th><th>Período</th><th>Valor de Férias</th><th>Desc. INSS</th><th>Desc. IRRF</th><th>Outros Desc.</th><th>Total Descontos</th></tr></thead>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>Situação</th><th>Período</th><th>Dias de Férias</th><th>1/3 Constitucional</th><th>Abono Pecuniário</th><th>Valor de Férias</th><th>Desc. INSS</th><th>Desc. IRRF</th><th>Outros Desc.</th><th>Total Descontos</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -509,9 +512,12 @@ function baixarExcelPorGestorMes() {
 // situacao, periodo, valorFerias, descontoInss, descontoIrrf, descontoOutros,
 // descontosFerias}.
 function montarLinhasExcel(registros) {
-  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'Situação', 'Período', 'Valor de Férias', 'Desconto INSS', 'Desconto IRRF', 'Outros Descontos', 'Total Descontos'];
+  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'Situação', 'Período', 'Dias de Férias', '1/3 Constitucional', 'Abono Pecuniário', 'Valor de Férias', 'Desconto INSS', 'Desconto IRRF', 'Outros Descontos', 'Total Descontos'];
   const linhas = registros.map(r => [
     r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.mes || '', r.situacao || '', r.periodo || '',
+    r.diasFerias != null ? r.diasFerias : '',
+    r.tercoConstitucional != null ? r.tercoConstitucional : '',
+    r.abonoPecuniario != null ? r.abonoPecuniario : '',
     r.valorFerias != null ? r.valorFerias : '',
     r.descontoInss != null ? r.descontoInss : '',
     r.descontoIrrf != null ? r.descontoIrrf : '',
@@ -523,7 +529,7 @@ function montarLinhasExcel(registros) {
 
 function exportarXlsx(matriz, nomeArquivo, nomeAba) {
   const ws = XLSX.utils.aoa_to_sheet(matriz);
-  ws['!cols'] = [{ wch: 26 }, { wch: 32 }, { wch: 26 }, { wch: 16 }, { wch: 12 }, { wch: 18 }, { wch: 26 }];
+  ws['!cols'] = [{ wch: 26 }, { wch: 32 }, { wch: 26 }, { wch: 16 }, { wch: 12 }, { wch: 18 }, { wch: 26 }, { wch: 14 }, { wch: 16 }, { wch: 16 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, nomeAba.substring(0, 31));
   XLSX.writeFile(wb, nomeArquivo);
