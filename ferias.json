@@ -7,8 +7,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2456.48,
+        "descontosFerias": 196.76
       },
       {
         "nome": "Arthur Leonardo De Souza Melo",
@@ -16,8 +16,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2192.97,
+        "descontosFerias": 749.2
       },
       {
         "nome": "Ayrton Da Silva Lima",
@@ -25,8 +25,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7860.42,
+        "descontosFerias": 2340.71
       }
     ],
     "Junho/2026": [
@@ -36,8 +36,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2373.37,
+        "descontosFerias": 189.28
       },
       {
         "nome": "Everson Bruno Lorena Da Silva",
@@ -45,8 +45,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3333.59,
+        "descontosFerias": 468.01
       },
       {
         "nome": "Thais Dos Santos Tenorio",
@@ -54,8 +54,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2496.73,
+        "descontosFerias": 379.77
       },
       {
         "nome": "Wandija Alesandra Da Silva Santos",
@@ -63,8 +63,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2374.53,
+        "descontosFerias": 568.33
       }
     ],
     "Julho/2026": [
@@ -242,8 +242,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5544.24,
+        "descontosFerias": 2043.15
       },
       {
         "nome": "Gleison Gleidson Da Silva",
@@ -251,8 +251,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2119.85,
+        "descontosFerias": 742.92
       },
       {
         "nome": "Leandro Jose Dos Santos",
@@ -260,8 +260,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4629.71,
+        "descontosFerias": 629.05
       },
       {
         "nome": "Silmara Camila Ramos Cabral",
@@ -269,8 +269,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2726.52,
+        "descontosFerias": 637.15
       },
       {
         "nome": "Katielle Marques De Lira",
@@ -278,8 +278,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2415.23,
+        "descontosFerias": 744.5
       }
     ],
     "Junho/2026": [
@@ -289,8 +289,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7399.01,
+        "descontosFerias": 876.75
       },
       {
         "nome": "Sabrina De Ramos Correia",
@@ -298,8 +298,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3509.14,
+        "descontosFerias": 380.8
       },
       {
         "nome": "Jonathan Da Silva Santos",
@@ -307,8 +307,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7525.34,
+        "descontosFerias": 1975.22
       },
       {
         "nome": "Marilia Gabriela Alves De Alustau",
@@ -316,8 +316,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2445.95,
+        "descontosFerias": 861.72
       },
       {
         "nome": "Jose Pereira Sa Neto",
@@ -325,8 +325,8 @@
         "empresa": "Voicenet",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4078.48,
+        "descontosFerias": 557.39
       }
     ],
     "Julho/2026": [
@@ -504,8 +504,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7128.88,
+        "descontosFerias": 1781.32
       },
       {
         "nome": "Dener Paulo Do Monte",
@@ -513,8 +513,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7056.08,
+        "descontosFerias": 2390.38
       }
     ],
     "Julho/2026": [
@@ -566,8 +566,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4161.77,
+        "descontosFerias": 767.01
       },
       {
         "nome": "Jose Geyvisson Silva De Oliveira",
@@ -575,8 +575,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4092.37,
+        "descontosFerias": 559.06
       },
       {
         "nome": "Jose Renato Rodrigues Da Silva",
@@ -584,8 +584,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7656.96,
+        "descontosFerias": 2473.89
       },
       {
         "nome": "Maria Ivanilda Da Silva Carolino",
@@ -593,8 +593,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2168.56,
+        "descontosFerias": 660.7
       },
       {
         "nome": "Jose Guilherme Bezerra De Lima",
@@ -602,8 +602,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3887.08,
+        "descontosFerias": 355.03
       }
     ],
     "Junho/2026": [
@@ -613,8 +613,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3867.21,
+        "descontosFerias": 532.04
       },
       {
         "nome": "Ana Sophia Muniz Silva",
@@ -622,8 +622,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3182.97,
+        "descontosFerias": 915.9
       },
       {
         "nome": "Matheus Marinho Xavier Diniz",
@@ -631,8 +631,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2340.92,
+        "descontosFerias": 420.5
       },
       {
         "nome": "Anderson Fernando Da Silva Lima",
@@ -640,8 +640,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4520.88,
+        "descontosFerias": 613.81
       },
       {
         "nome": "Leandro Jose Da Silva",
@@ -649,8 +649,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4302.13,
+        "descontosFerias": 584.23
       }
     ],
     "Julho/2026": [
@@ -774,8 +774,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2147.12,
+        "descontosFerias": 248.25
       }
     ],
     "Junho/2026": [
@@ -785,8 +785,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2201.55,
+        "descontosFerias": 368.39
       },
       {
         "nome": "Maykon Alves De Oliveira",
@@ -794,8 +794,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 1474.35,
+        "descontosFerias": 305.15
       }
     ],
     "Julho/2026": [
@@ -838,8 +838,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5711.03,
+        "descontosFerias": 1072.22
       }
     ],
     "Junho/2026": [
@@ -849,8 +849,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2161.33,
+        "descontosFerias": 769.13
       }
     ],
     "Julho/2026": [
@@ -884,8 +884,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3521.29,
+        "descontosFerias": 490.53
       },
       {
         "nome": "Danyelle Pereira De Araujo Souza",
@@ -893,8 +893,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3113.8,
+        "descontosFerias": 372.27
       },
       {
         "nome": "Leonardo Bonifacio Silva De Almeida",
@@ -902,8 +902,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5538.37,
+        "descontosFerias": 739.21
       },
       {
         "nome": "Jose Ricardo Ferreira Junior",
@@ -911,8 +911,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4081.48,
+        "descontosFerias": 1095.55
       },
       {
         "nome": "Josivaldo Ferreira Da Silva",
@@ -920,8 +920,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3703.86,
+        "descontosFerias": 197.91
       },
       {
         "nome": "Williams Douglas Santos Da Silva",
@@ -929,8 +929,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3687.13,
+        "descontosFerias": 196.9
       }
     ],
     "Junho/2026": [
@@ -940,8 +940,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5073.35,
+        "descontosFerias": 1981.4
       },
       {
         "nome": "Alana Carla Pereira De Melo",
@@ -949,8 +949,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3843.37,
+        "descontosFerias": 750.71
       },
       {
         "nome": "David Marlyon Silva",
@@ -958,8 +958,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3996.49,
+        "descontosFerias": 547.55
       },
       {
         "nome": "Jessica Alves De Oliveira",
@@ -967,8 +967,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4242.72,
+        "descontosFerias": 1348.69
       },
       {
         "nome": "Erick Wagner Francisco De Melo",
@@ -976,8 +976,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3936.06,
+        "descontosFerias": 880.5
       },
       {
         "nome": "Lucas Augusto Andrade Silva",
@@ -985,8 +985,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3566.37,
+        "descontosFerias": 940.47
       }
     ],
     "Julho/2026": [
@@ -1119,8 +1119,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3684.57,
+        "descontosFerias": 1389.81
       },
       {
         "nome": "Danilo Pedro Pereira Dos Reis",
@@ -1128,8 +1128,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3256.53,
+        "descontosFerias": 731.49
       }
     ],
     "Junho/2026": [
@@ -1139,8 +1139,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3736.17,
+        "descontosFerias": 1002.8
       },
       {
         "nome": "Tiago De Lima Sena",
@@ -1148,8 +1148,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4172.09,
+        "descontosFerias": 226.0
       }
     ],
     "Julho/2026": [
@@ -1210,8 +1210,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4238.8,
+        "descontosFerias": 1370.2
       }
     ],
     "Junho/2026": [
@@ -1221,8 +1221,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2208.39,
+        "descontosFerias": 369.01
       },
       {
         "nome": "Dayse Kassia Da Silva Oliveira",
@@ -1230,8 +1230,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2426.81,
+        "descontosFerias": 464.62
       },
       {
         "nome": "Janeliton Jose De Lima Junior",
@@ -1239,8 +1239,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2650.29,
+        "descontosFerias": 931.04
       }
     ],
     "Julho/2026": [
@@ -1292,8 +1292,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4663.68,
+        "descontosFerias": 1285.44
       }
     ],
     "Junho/2026": [
@@ -1303,8 +1303,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3533.05,
+        "descontosFerias": 342.93
       }
     ],
     "Julho/2026": [
@@ -1347,8 +1347,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3359.63,
+        "descontosFerias": 471.13
       },
       {
         "nome": "Naedson Jose Da Silva",
@@ -1356,8 +1356,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4280.58,
+        "descontosFerias": 642.4
       }
     ],
     "Junho/2026": [
@@ -1367,8 +1367,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3595.83,
+        "descontosFerias": 499.47
       },
       {
         "nome": "Keila Thais Lima Santos",
@@ -1376,8 +1376,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3706.01,
+        "descontosFerias": 512.7
       },
       {
         "nome": "Lucas Joao Da Silva",
@@ -1385,8 +1385,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 6417.97,
+        "descontosFerias": 1104.63
       },
       {
         "nome": "Roberto Barros Monteiro Junior",
@@ -1394,8 +1394,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 6591.52,
+        "descontosFerias": 1687.55
       },
       {
         "nome": "Jose Edimilton Da Silva",
@@ -1403,8 +1403,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4016.77,
+        "descontosFerias": 549.99
       },
       {
         "nome": "Wangleyson Egito Cesar De Melo",
@@ -1412,8 +1412,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4005.61,
+        "descontosFerias": 2243.49
       }
     ],
     "Julho/2026": [
@@ -1537,8 +1537,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3028.04,
+        "descontosFerias": 847.92
       }
     ],
     "Junho/2026": [
@@ -1548,8 +1548,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3909.57,
+        "descontosFerias": 537.12
       }
     ],
     "Julho/2026": [
@@ -1583,8 +1583,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2261.08,
+        "descontosFerias": 446.94
       }
     ],
     "Junho/2026": [
@@ -1594,8 +1594,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2714.51,
+        "descontosFerias": 348.32
       }
     ],
     "Julho/2026": [
@@ -1629,8 +1629,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2897.99,
+        "descontosFerias": 415.88
       },
       {
         "nome": "Douglas Almeida Dantas",
@@ -1638,8 +1638,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3728.3,
+        "descontosFerias": 515.37
       },
       {
         "nome": "Jonas Matheus Feitoza De Souza",
@@ -1647,8 +1647,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5139.91,
+        "descontosFerias": 1310.95
       },
       {
         "nome": "Renan Pierre Santos Tomaz",
@@ -1656,8 +1656,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4032.03,
+        "descontosFerias": 708.86
       }
     ],
     "Junho/2026": [
@@ -1667,8 +1667,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5570.89,
+        "descontosFerias": 1789.28
       },
       {
         "nome": "Clodoaldo Gomes Da Rocha",
@@ -1676,8 +1676,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4427.08,
+        "descontosFerias": 600.68
       },
       {
         "nome": "Pedro Henrique Ramos Dos Santos",
@@ -1685,8 +1685,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5228.77,
+        "descontosFerias": 1127.55
       },
       {
         "nome": "Walisson Rodrigues Bispo",
@@ -1694,8 +1694,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3481.67,
+        "descontosFerias": 485.77
       },
       {
         "nome": "Marcos Vinicius Gomes Santiago",
@@ -1703,8 +1703,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3530.77,
+        "descontosFerias": 312.28
       },
       {
         "nome": "Werlisson Valdemir Dos Santos",
@@ -1712,8 +1712,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3412.29,
+        "descontosFerias": 298.06
       }
     ],
     "Julho/2026": [
@@ -1891,8 +1891,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 9613.38,
+        "descontosFerias": 2630.69
       }
     ],
     "Junho/2026": [
@@ -1902,8 +1902,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 12280.44,
+        "descontosFerias": 3327.18
       }
     ]
   },
@@ -1915,8 +1915,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3378.09,
+        "descontosFerias": 473.35
       }
     ],
     "Junho/2026": [
@@ -1926,8 +1926,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2944.65,
+        "descontosFerias": 747.03
       },
       {
         "nome": "Emmanoel Matias Dos Anjos",
@@ -1935,8 +1935,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2986.09,
+        "descontosFerias": 441.5
       },
       {
         "nome": "Zaquel Laurindo De França",
@@ -1944,8 +1944,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4385.95,
+        "descontosFerias": 826.24
       }
     ],
     "Julho/2026": [
@@ -1979,8 +1979,8 @@
         "empresa": "DX2",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4825.79,
+        "descontosFerias": 656.5
       }
     ],
     "Junho/2026": [
@@ -1990,8 +1990,8 @@
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4079.32,
+        "descontosFerias": 415.02
       }
     ],
     "Julho/2026": [
@@ -2088,8 +2088,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3901.69,
+        "descontosFerias": 878.32
       },
       {
         "nome": "Gabriel Vinicius Tenorio Da Silva",
@@ -2097,8 +2097,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3648.23,
+        "descontosFerias": 389.15
       },
       {
         "nome": "Jose Steves Da Silva Barros",
@@ -2106,8 +2106,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5808.68,
+        "descontosFerias": 1443.16
       },
       {
         "nome": "Luiz Henrique Gomes De Oliveira",
@@ -2115,8 +2115,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4594.08,
+        "descontosFerias": 1083.01
       }
     ],
     "Junho/2026": [
@@ -2126,8 +2126,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4600.1,
+        "descontosFerias": 1242.9
       },
       {
         "nome": "Felipe Alves De Almeida Silva",
@@ -2135,8 +2135,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4764.16,
+        "descontosFerias": 464.3
       }
     ],
     "Julho/2026": [
@@ -2188,8 +2188,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3835.74,
+        "descontosFerias": 543.45
       },
       {
         "nome": "Petrucia Maria Ramos Neves",
@@ -2197,8 +2197,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2937.05,
+        "descontosFerias": 241.03
       },
       {
         "nome": "Joseilton Miguel Da Silva",
@@ -2206,8 +2206,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4191.09,
+        "descontosFerias": 845.3
       },
       {
         "nome": "Luiz Fernando Emiliano Da Silva",
@@ -2215,8 +2215,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3571.52,
+        "descontosFerias": 317.17
       }
     ],
     "Junho/2026": [
@@ -2226,8 +2226,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3719.84,
+        "descontosFerias": 1282.41
       },
       {
         "nome": "Eduardo De Souza",
@@ -2235,8 +2235,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4528.77,
+        "descontosFerias": 630.11
       },
       {
         "nome": "Marcia Adrielle De Araujo",
@@ -2244,8 +2244,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2752.48,
+        "descontosFerias": 402.79
       },
       {
         "nome": "Marconi Jose Missias",
@@ -2253,8 +2253,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3709.25,
+        "descontosFerias": 1239.21
       },
       {
         "nome": "Victor Vinicius De Franca Santana.",
@@ -2262,8 +2262,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3571.59,
+        "descontosFerias": 1304.37
       }
     ],
     "Julho/2026": [
@@ -2441,8 +2441,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2623.31,
+        "descontosFerias": 950.58
       }
     ],
     "Junho/2026": [
@@ -2452,8 +2452,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4337.28,
+        "descontosFerias": 588.45
       },
       {
         "nome": "Tullyana Leticia Barbosa Sena",
@@ -2461,8 +2461,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2497.99,
+        "descontosFerias": 200.49
       },
       {
         "nome": "Madson Israel Da Silva Araujo",
@@ -2470,8 +2470,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2337.65,
+        "descontosFerias": 803.85
       }
     ],
     "Julho/2026": [
@@ -2532,8 +2532,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3722.28,
+        "descontosFerias": 545.03
       },
       {
         "nome": "Renan Gabriel Ferreira",
@@ -2541,8 +2541,8 @@
         "empresa": "Soares & Lins",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4669.37,
+        "descontosFerias": 445.95
       }
     ],
     "Junho/2026": [
@@ -2552,8 +2552,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3117.79,
+        "descontosFerias": 1168.86
       },
       {
         "nome": "Ronald Barbosa Da Silva Mendes",
@@ -2561,8 +2561,8 @@
         "empresa": "Soares & Lins",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3375.64,
+        "descontosFerias": 507.85
       }
     ],
     "Julho/2026": [
@@ -2614,8 +2614,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2947.55,
+        "descontosFerias": 242.29
       }
     ],
     "Agosto/2026": [
@@ -2647,8 +2647,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3671.89,
+        "descontosFerias": 508.6
       },
       {
         "nome": "Edgar Nelson Lima Dos Santos",
@@ -2656,8 +2656,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4094.54,
+        "descontosFerias": 559.32
       },
       {
         "nome": "Maria Cristina Soares Da Silva",
@@ -2665,8 +2665,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2650.25,
+        "descontosFerias": 439.16
       },
       {
         "nome": "Matheus Allan Souza De Andrade",
@@ -2674,8 +2674,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3935.99,
+        "descontosFerias": 1080.09
       }
     ],
     "Junho/2026": [
@@ -2685,8 +2685,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4488.25,
+        "descontosFerias": 1111.08
       },
       {
         "nome": "Daniel Jose Da Silva Filho",
@@ -2694,8 +2694,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4156.28,
+        "descontosFerias": 566.73
       },
       {
         "nome": "Natalia Barros Da Silva",
@@ -2703,8 +2703,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2203.7,
+        "descontosFerias": 174.01
       },
       {
         "nome": "Renilson Farias Feitosa",
@@ -2712,8 +2712,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4754.08,
+        "descontosFerias": 1472.41
       },
       {
         "nome": "Victor Rafael Dos Santos Ferreira",
@@ -2721,8 +2721,8 @@
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3679.21,
+        "descontosFerias": 330.09
       }
     ],
     "Julho/2026": [
@@ -2837,8 +2837,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3727.61,
+        "descontosFerias": 515.29
       },
       {
         "nome": "Jamerson Dos Santos Inacio",
@@ -2846,8 +2846,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4155.09,
+        "descontosFerias": 1008.93
       },
       {
         "nome": "Luiz Alberto Alves Pedrosa Novaes",
@@ -2855,8 +2855,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3403.21,
+        "descontosFerias": 1006.51
       }
     ],
     "Junho/2026": [
@@ -2866,8 +2866,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3608.12,
+        "descontosFerias": 1193.49
       },
       {
         "nome": "Douglas Ornilio Da Silva",
@@ -2875,8 +2875,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 8024.3,
+        "descontosFerias": 2095.76
       },
       {
         "nome": "Fernando Queiroz Ferreira",
@@ -2884,8 +2884,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3780.72,
+        "descontosFerias": 987.95
       }
     ],
     "Julho/2026": [
@@ -3000,8 +3000,8 @@
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2362.16,
+        "descontosFerias": 188.27
       }
     ],
     "Junho/2026": [
@@ -3011,8 +3011,8 @@
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3420.01,
+        "descontosFerias": 478.38
       },
       {
         "nome": "Jaziel Pedro Da Silva Rodrigues",
@@ -3020,8 +3020,8 @@
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2260.48,
+        "descontosFerias": 179.12
       },
       {
         "nome": "Josania Silva Das Neves",
@@ -3029,8 +3029,8 @@
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4047.41,
+        "descontosFerias": 553.66
       },
       {
         "nome": "Leandro Jose Lins Da Silva",
@@ -3038,8 +3038,8 @@
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3194.88,
+        "descontosFerias": 451.36
       }
     ],
     "Julho/2026": [
@@ -3100,8 +3100,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4211.13,
+        "descontosFerias": 393.92
       },
       {
         "nome": "Joao Carlos Da Silva",
@@ -3109,8 +3109,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3779.75,
+        "descontosFerias": 699.21
       }
     ],
     "Junho/2026": [
@@ -3120,8 +3120,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5073.48,
+        "descontosFerias": 511.78
       },
       {
         "nome": "Josenildo Da Silva Alves",
@@ -3129,8 +3129,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3539.8,
+        "descontosFerias": 188.06
       }
     ],
     "Julho/2026": [
@@ -3200,8 +3200,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3190.91,
+        "descontosFerias": 271.49
       },
       {
         "nome": "Neilson Alexandre Da Silva",
@@ -3209,8 +3209,8 @@
         "empresa": "DTEL",
         "situacao": "Férias",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3570.04,
+        "descontosFerias": 316.99
       }
     ],
     "Junho/2026": [
@@ -3220,8 +3220,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 10648.32,
+        "descontosFerias": 3252.24
       },
       {
         "nome": "Ednaldo De Naboia Acioli Junior",
@@ -3229,8 +3229,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5891.67,
+        "descontosFerias": 919.26
       }
     ],
     "Julho/2026": [
@@ -3264,8 +3264,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4742.37,
+        "descontosFerias": 1432.01
       },
       {
         "nome": "Severino Da Silva Santos",
@@ -3273,8 +3273,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5397.75,
+        "descontosFerias": 847.61
       },
       {
         "nome": "Laercio Joaquim Dos Santos Santana",
@@ -3282,8 +3282,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 7107.27,
+        "descontosFerias": 1505.78
       }
     ],
     "Julho/2026": [
@@ -3371,8 +3371,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 1987.99,
+        "descontosFerias": 692.77
       },
       {
         "nome": "Rafael Da Silva Gabriel",
@@ -3380,8 +3380,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 1813.15,
+        "descontosFerias": 333.44
       }
     ],
     "Julho/2026": [
@@ -3413,8 +3413,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5317.88,
+        "descontosFerias": 1328.02
       },
       {
         "nome": "Jose Eronildo De Melo Silva",
@@ -3422,8 +3422,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 5812.64,
+        "descontosFerias": 1125.7
       },
       {
         "nome": "Jose Roberto De Santana Silva",
@@ -3431,8 +3431,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 11691.92,
+        "descontosFerias": 3818.25
       }
     ],
     "Julho/2026": [
@@ -3493,8 +3493,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4079.16,
+        "descontosFerias": 265.99
       }
     ],
     "Julho/2026": [
@@ -3528,8 +3528,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4144.27,
+        "descontosFerias": 1152.49
       }
     ],
     "Agosto/2026": [
@@ -3552,8 +3552,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2394.76,
+        "descontosFerias": 684.08
       },
       {
         "nome": "Iris Beatriz Silveira Marques",
@@ -3561,8 +3561,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3526.19,
+        "descontosFerias": 733.51
       }
     ],
     "Julho/2026": [
@@ -3596,8 +3596,8 @@
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2453.39,
+        "descontosFerias": 196.48
       },
       {
         "nome": "Tiago De Araujo Silva",
@@ -3605,8 +3605,8 @@
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 9338.66,
+        "descontosFerias": 2375.75
       },
       {
         "nome": "Carlos Alberto Da Silva Nascimento",
@@ -3614,8 +3614,8 @@
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 3393.67,
+        "descontosFerias": 1312.21
       }
     ]
   },
@@ -3627,8 +3627,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 9033.78,
+        "descontosFerias": 2403.83
       }
     ],
     "Julho/2026": [
@@ -3671,8 +3671,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 2239.11,
+        "descontosFerias": 222.76
       }
     ],
     "Julho/2026": [
@@ -3706,8 +3706,8 @@
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
         "periodo": null,
-        "valorFerias": null,
-        "descontosFerias": null
+        "valorFerias": 4387.53,
+        "descontosFerias": 1251.16
       }
     ],
     "Julho/2026": [
