@@ -139,20 +139,6 @@
     </div>
 
     <div class="section-card">
-      <div class="chart-header">
-        <span class="chart-titulo">Resumo por Equipe</span>
-        <button class="btn-excel-mini" onclick="baixarExcelResumoEquipe()">⬇ Excel</button>
-      </div>
-      <p class="chart-nota">Número de desligados por equipe, ordenado do maior para o menor. Não é afetado pelo filtro de Mês desligamento/Tipo acima, só pelos de Empresa/Busca.</p>
-      <div style="overflow-x:auto;">
-        <table id="tabelaResumoEquipe">
-          <thead><tr><th>Equipe</th><th>Desligados</th></tr></thead>
-          <tbody id="tabelaResumoEquipeCorpo"></tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="section-card">
       <div id="grupos"></div>
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
@@ -296,7 +282,6 @@ function renderTudo() {
 
   renderChartDesligamentosMes();
   renderChartTipoRescisao(filtrados);
-  renderResumoEquipe();
 }
 
 function renderChartDesligamentosMes() {
@@ -414,29 +399,6 @@ function renderChartTipoRescisao(filtrados) {
       },
     },
   });
-}
-
-function dadosResumoEquipe() {
-  const registros = registrosFiltradosBase();
-  const porEquipe = {};
-  registros.forEach((r) => {
-    porEquipe[r.equipe] = (porEquipe[r.equipe] || 0) + 1;
-  });
-  return Object.keys(porEquipe).map((equipe) => ({ equipe, desligados: porEquipe[equipe] }))
-    .sort((a, b) => b.desligados - a.desligados);
-}
-
-function renderResumoEquipe() {
-  const linhas = dadosResumoEquipe();
-  document.getElementById('tabelaResumoEquipeCorpo').innerHTML = linhas.map(l => `
-    <tr><td>${l.equipe}</td><td class="total">${l.desligados}</td></tr>
-  `).join('');
-}
-
-function baixarExcelResumoEquipe() {
-  const linhas = dadosResumoEquipe();
-  const matriz = [['Equipe', 'Desligados'], ...linhas.map(l => [l.equipe, l.desligados])];
-  exportarXlsx(matriz, 'Desligados - Resumo por Equipe.xlsx', 'Resumo por Equipe');
 }
 
 function montarLinhasExcel(registros) {
