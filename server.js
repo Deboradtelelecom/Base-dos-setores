@@ -179,6 +179,23 @@ app.get('/api/horas-extras', async (req, res) => {
   }
 });
 
+// Quadro "Férias" — extraído das Base_Despesa_Trabalhista_MMAAAA.xlsx (aba
+// Custo Trabalhista, SITUAÇÃO contendo "FÉRIAS"), agrupado por EQUIPE (Maio a
+// Agosto 2026). Devolve o objeto completo; a página faz o filtro de
+// Competência/Busca no navegador.
+app.get('/api/ferias', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    res.json({
+      equipes: estado.ferias || {},
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -211,6 +228,10 @@ app.get('/reembolso-geral', (req, res) => {
 
 app.get('/horas-extras', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'horas-extras.html'));
+});
+
+app.get('/ferias', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'ferias.html'));
 });
 
 app.get('/', (req, res) => {

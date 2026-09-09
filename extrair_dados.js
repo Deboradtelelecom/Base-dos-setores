@@ -140,6 +140,35 @@ function carregarHorasExtras(pastaDados) {
   return {};
 }
 
+// "Férias" — quadro à parte (09/09/2026), pedido da Débora: "preciso de um
+// quadro apenas com férias". Fonte: aba "Custo Trabalhista" das
+// Base_Despesa_Trabalhista_MMAAAA.xlsx (Maio a Agosto 2026, pasta
+// arquivos-auxiliares — cópias originais, mais completas que as reprocessadas
+// em entrada_base_setores), filtrando SITUAÇÃO (EXTRATO) que contém "FÉRIAS".
+// Maio/Junho só têm o rótulo qualitativo (ex.: "Férias Quebradas", "Férias
+// Trabalhadas"), sem data — Julho/Agosto têm a coluna "PERÍODO DE FÉRIAS NO
+// MÊS" com datas exatas. Agrupado por EQUIPE (mesmo campo real da folha usado
+// no quadro de Horas Extras), com nomes de Empresa e alguns rótulos de
+// Equipe padronizados na extração para bater com a mesma convenção usada lá.
+// Arquivo gerado por script (não editável à mão) — para atualizar, reprocessar
+// as 4 planilhas de despesa trabalhista do mês.
+function carregarFerias(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'ferias.json'),
+    path.join(pastaDados, 'ferias.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
 function extrairEstado(pastaDados) {
   const caminho = encontrarArquivoBase(pastaDados);
   if (!caminho) {
@@ -404,8 +433,9 @@ function extrairEstado(pastaDados) {
   const nomesSetoresReais = new Set(Object.values(STATE_REAL).map((s) => s.nome));
   const reembolsoGeral = wsReembolsoGeral ? extrairReembolsoGeral(wsReembolsoGeral, nomesSetoresReais) : null;
   const horasExtras = carregarHorasExtras(pastaDados);
+  const ferias = carregarFerias(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso

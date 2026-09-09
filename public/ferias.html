@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Férias — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e; --warn: #f59e0b;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1180px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:680px; }
+
+  .period-row { display:flex; justify-content:flex-end; align-items:center; margin:0 0 18px; gap:12px; flex-wrap:wrap; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .filtros { display:flex; flex-wrap:wrap; gap:10px; margin-bottom:18px; }
+  .filtro { display:flex; align-items:center; gap:8px; background:var(--bg-panel); border:1px solid var(--border); border-radius:11px; padding:7px 12px; }
+  .filtro-label { font-size:10.5px; font-weight:700; color:var(--slate-400); text-transform:uppercase; letter-spacing:.06em; font-family:var(--mono); white-space:nowrap; }
+  .filtro select, .filtro input { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
+  .filtro input { cursor:text; font-weight:500; min-width:160px; }
+
+  .totais-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:10px; margin-bottom:18px; }
+  .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
+  .total-card .val { font-size:17px; font-weight:800; color:#fff; font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 22px 22px; margin-bottom:18px; }
+  .grupo-setor { border-bottom:1px solid var(--border-soft); }
+  .grupo-setor:last-child { border-bottom:none; }
+  .grupo-header { display:flex; align-items:center; justify-content:space-between; padding:12px 0; cursor:pointer; }
+  .grupo-header:hover { opacity:.85; }
+  .grupo-header .esq { display:flex; align-items:center; gap:10px; }
+  .seta { display:inline-block; font-size:10px; color:var(--slate-500); transition:transform .15s; width:12px; }
+  .seta.aberto { transform:rotate(90deg); }
+  .grupo-nome { font-size:14px; font-weight:800; color:#fff; }
+  .grupo-count { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  .grupo-total { font-weight:700; color:#fff; font-family:var(--mono); font-size:13.5px; }
+
+  .grupo-corpo { display:none; padding-bottom:10px; overflow-x:auto; }
+  .grupo-corpo.aberto { display:block; }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:720px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  tbody td.val.zero { color:var(--slate-500); font-weight:400; }
+  tbody td.total { text-align:right; font-weight:800; color:var(--good); font-family:var(--mono); white-space:nowrap; }
+  tbody td.cargo { color:var(--slate-500); font-size:11.5px; white-space:nowrap; }
+  tbody td.periodo { color:var(--slate-500); font-size:11.5px; white-space:nowrap; }
+  .empresa-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
+  .situacao-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--warn); background:rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
+
+  .chart-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
+  .chart-titulo { font-size:14px; font-weight:800; color:#fff; }
+  .chart-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
+  .chart-wrap { position:relative; height:360px; }
+
+  .btn-excel { display:inline-flex; align-items:center; gap:6px; background:rgba(34,197,94,0.12); border:1px solid rgba(34,197,94,0.35); color:var(--good); font-size:11.5px; font-weight:700; border-radius:9px; padding:7px 13px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
+  .btn-excel:hover { background:rgba(34,197,94,0.2); }
+  .btn-excel-mini { display:inline-flex; align-items:center; gap:4px; background:rgba(34,197,94,0.1); border:1px solid rgba(34,197,94,0.3); color:var(--good); font-size:10px; font-weight:700; border-radius:7px; padding:4px 9px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
+  .btn-excel-mini:hover { background:rgba(34,197,94,0.18); }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+  .vazio { color:var(--slate-500); font-size:12.5px; padding:16px 0; text-align:center; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <div class="period-row">
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+  <div class="header-row">
+    <span class="icon">🏖️</span>
+    <div>
+      <h1>Férias</h1>
+      <p>Colaboradores em férias por equipe — extraído da folha trabalhista (Situação do Extrato), Maio a Agosto de 2026. Clique no nome da equipe para ver a lista de colaboradores.</p>
+    </div>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="filtros">
+      <div class="filtro">
+        <span class="filtro-label">Competência</span>
+        <select id="fMes" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Empresa</span>
+        <select id="fEmpresa" onchange="renderTudo()"></select>
+      </div>
+      <div class="filtro">
+        <span class="filtro-label">Buscar</span>
+        <input id="fBusca" type="text" placeholder="equipe ou colaborador…" oninput="renderTudo()">
+      </div>
+      <button class="btn-excel" id="btnBaixarExcel" onclick="baixarExcel()">⬇ Baixar Excel</button>
+    </div>
+
+    <div class="totais-cards" id="totaisCards"></div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Top 10 Equipes com Mais Pessoas em Férias</span>
+      </div>
+      <p class="chart-nota">Número de lançamentos de férias por equipe (uma pessoa pode aparecer mais de uma vez se tirou férias em mais de um mês). Reflete o filtro de Competência/Busca acima.</p>
+      <div class="chart-wrap"><canvas id="chartTopEquipes"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Tendência de Férias por Mês</span>
+      </div>
+      <p class="chart-nota">Número de colaboradores em férias por mês, Maio a Agosto de 2026 — sempre com os 4 meses lado a lado (não é afetado pelo filtro de Competência acima, só pelo de Busca).</p>
+      <div class="chart-wrap" style="height:280px;"><canvas id="chartTendenciaMensal"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Total por Gestor/Equipe, por Mês</span>
+        <button class="btn-excel-mini" onclick="baixarExcelPorGestorMes()">⬇ Excel</button>
+      </div>
+      <p class="chart-nota">Um gestor/equipe por linha, com o número de pessoas em férias em cada mês lado a lado (Maio a Agosto) e o total geral na última coluna. Ordenado pelo total geral (maior primeiro). Não é afetado pelo filtro de Competência acima, só pelos de Empresa/Busca.</p>
+      <div style="overflow-x:auto;">
+        <table id="tabelaPorGestorMes">
+          <thead><tr id="tabelaPorGestorMesCabecalho"></tr></thead>
+          <tbody id="tabelaPorGestorMesCorpo"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <div id="grupos"></div>
+      <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx (aba Custo Trabalhista), filtrando quem teve Situação do Extrato contendo "Férias" no mês, agrupado pela EQUIPE de cada colaborador na folha. <strong>Nível de detalhe varia por mês</strong>: Julho e Agosto trazem o período exato (data de início e fim) na coluna "Período"; Maio e Junho só têm o tipo de férias (Quebradas/Trabalhadas), sem data exata — a fonte de origem desses 2 meses não tinha essa informação. O filtro de Empresa segue a mesma padronização usada no quadro de Horas Extras. "Baixar Excel" no topo exporta tudo que está no filtro atual; o botão "Excel" de cada equipe exporta só aquela equipe (todos os meses dela, ignorando o filtro de Competência). Esta tela é só de consulta.</p>
+  </div>
+</main>
+<script src="/chartjs_extracted.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+const API_BASE = '';
+let EQUIPES = {}; // equipe -> mes -> [colaboradores]
+let GRUPOS_ABERTOS = {};
+let CHART_TOP_EQUIPES = null;
+let CHART_TENDENCIA_MENSAL = null;
+
+// Rótulo de dados para o gráfico horizontal "Top 10 Equipes com Mais Pessoas
+// em Férias" — escreve o valor logo à direita de cada barra.
+const rotuloBarraHorizontalPlugin = {
+  id: 'rotuloBarraHorizontalPlugin',
+  afterDatasetsDraw(chart) {
+    const { ctx } = chart;
+    ctx.save();
+    ctx.font = '600 10.5px system-ui, sans-serif';
+    ctx.textAlign = 'left';
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = '#fbbf5e';
+    chart.data.datasets.forEach((ds, di) => {
+      const meta = chart.getDatasetMeta(di);
+      if (meta.hidden) return;
+      meta.data.forEach((bar, i) => {
+        const val = ds.data[i];
+        if (!val) return;
+        ctx.fillText(String(val), bar.x + 6, bar.y);
+      });
+    });
+    ctx.restore();
+  },
+};
+
+function popularSelect(id, valores, comTodos) {
+  const sel = document.getElementById(id);
+  const valorAnterior = sel.value;
+  sel.innerHTML = '';
+  if (comTodos) {
+    const opt = document.createElement('option');
+    opt.value = ''; opt.textContent = 'Todos';
+    sel.appendChild(opt);
+  }
+  valores.forEach((v) => {
+    const opt = document.createElement('option');
+    opt.value = v; opt.textContent = v;
+    sel.appendChild(opt);
+  });
+  if (valorAnterior && [...sel.options].some(o => o.value === valorAnterior)) {
+    sel.value = valorAnterior;
+  }
+}
+
+function toggleGrupo(equipe) {
+  GRUPOS_ABERTOS[equipe] = !GRUPOS_ABERTOS[equipe];
+  renderTudo();
+}
+
+// Achata EQUIPES (equipe -> mes -> [colaboradores]) num array único de
+// registros {equipe, mes, ...colaborador}, aplicando o filtro de Competência.
+function registrosFiltrados() {
+  const mes = document.getElementById('fMes').value;
+  const empresa = document.getElementById('fEmpresa').value;
+  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
+  const out = [];
+  Object.keys(EQUIPES).forEach((equipe) => {
+    Object.keys(EQUIPES[equipe]).forEach((m) => {
+      if (mes && m !== mes) return;
+      EQUIPES[equipe][m].forEach((c) => {
+        if (empresa && c.empresa !== empresa) return;
+        if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
+        out.push({ equipe, mes: m, ...c });
+      });
+    });
+  });
+  return out;
+}
+
+// Mesma lógica de registrosFiltrados(), mas ignorando o filtro de
+// Competência (sempre traz os 4 meses) — usado pelos gráficos/tabela que
+// precisam comparar os meses lado a lado mesmo quando a Débora filtrou um
+// mês específico no resto da tela.
+function registrosFiltradosPorBusca() {
+  const empresa = document.getElementById('fEmpresa').value;
+  const busca = document.getElementById('fBusca').value.trim().toLowerCase();
+  const out = [];
+  Object.keys(EQUIPES).forEach((equipe) => {
+    Object.keys(EQUIPES[equipe]).forEach((m) => {
+      EQUIPES[equipe][m].forEach((c) => {
+        if (empresa && c.empresa !== empresa) return;
+        if (busca && !equipe.toLowerCase().includes(busca) && !(c.nome || '').toLowerCase().includes(busca)) return;
+        out.push({ equipe, mes: m, ...c });
+      });
+    });
+  });
+  return out;
+}
+
+function renderTudo() {
+  const filtrados = registrosFiltrados();
+
+  const equipesEnvolvidas = new Set(filtrados.map(r => r.equipe));
+  const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
+  const pessoasUnicas = new Set(filtrados.map(r => r.nome).filter(Boolean));
+  document.getElementById('totaisCards').innerHTML = `
+    <div class="total-card"><div class="lbl">Lançamentos no filtro</div><div class="val">${filtrados.length}</div></div>
+    <div class="total-card"><div class="lbl">Colaboradores únicos</div><div class="val">${pessoasUnicas.size}</div></div>
+    <div class="total-card"><div class="lbl">Equipes</div><div class="val">${equipesEnvolvidas.size}</div></div>
+    <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
+  `;
+
+  const porEquipe = {};
+  filtrados.forEach((r) => {
+    if (!porEquipe[r.equipe]) porEquipe[r.equipe] = [];
+    porEquipe[r.equipe].push(r);
+  });
+  const equipesOrdenadas = Object.keys(porEquipe).sort((a, b) => porEquipe[b].length - porEquipe[a].length);
+
+  const gruposEl = document.getElementById('grupos');
+  document.getElementById('vazioMsg').style.display = equipesOrdenadas.length ? 'none' : 'block';
+
+  const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
+  gruposEl.innerHTML = equipesOrdenadas.map((equipe) => {
+    const itens = porEquipe[equipe].slice().sort((a, b) => ORDEM.indexOf(a.mes) - ORDEM.indexOf(b.mes) || (a.nome || '').localeCompare(b.nome || '', 'pt-BR'));
+    const aberto = !!GRUPOS_ABERTOS[equipe];
+    const linhas = itens.map(r => `
+      <tr>
+        <td>${r.nome || ''}</td>
+        <td class="cargo">${r.cargo || '—'}</td>
+        <td>${r.empresa ? `<span class="empresa-tag">${r.empresa}</span>` : '—'}</td>
+        <td>${r.mes || ''}</td>
+        <td><span class="situacao-tag">${r.situacao || ''}</span></td>
+        <td class="periodo">${r.periodo || '—'}</td>
+      </tr>
+    `).join('');
+    return `
+      <div class="grupo-setor">
+        <div class="grupo-header">
+          <div class="esq" data-equipe-toggle>
+            <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
+            <span class="grupo-nome">${equipe}</span>
+            <span class="grupo-count">${itens.length} lançamento${itens.length === 1 ? '' : 's'}</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:12px;">
+            <span class="grupo-total">${itens.length}</span>
+            <button class="btn-excel-mini" data-equipe-excel onclick="event.stopPropagation(); baixarExcelEquipe('${equipe.replace(/'/g, "\\'")}')">⬇ Excel</button>
+          </div>
+        </div>
+        <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
+          <table>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>Situação</th><th>Período</th></tr></thead>
+            <tbody>${linhas}</tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  const headers = gruposEl.querySelectorAll('[data-equipe-toggle]');
+  headers.forEach((el, i) => {
+    el.addEventListener('click', () => toggleGrupo(equipesOrdenadas[i]));
+  });
+
+  renderChartTopEquipes(porEquipe);
+  renderChartTendenciaMensal();
+  renderChartPorGestorMes();
+}
+
+function renderChartTendenciaMensal() {
+  const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
+  const porMes = {};
+  registrosFiltradosPorBusca().forEach((r) => {
+    porMes[r.mes] = (porMes[r.mes] || 0) + 1;
+  });
+  const meses = ORDEM.filter((m) => m in porMes || Object.keys(EQUIPES).some((eq) => EQUIPES[eq][m]));
+  const dados = meses.map((m) => porMes[m] || 0);
+  const rotulos = meses.map((m) => m.split('/')[0]);
+
+  const ctx = document.getElementById('chartTendenciaMensal').getContext('2d');
+  if (CHART_TENDENCIA_MENSAL) CHART_TENDENCIA_MENSAL.destroy();
+  CHART_TENDENCIA_MENSAL = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: rotulos,
+      datasets: [
+        {
+          label: 'Pessoas em férias',
+          data: dados,
+          borderColor: 'rgba(245,158,11,1)',
+          backgroundColor: 'rgba(245,158,11,0.15)',
+          pointBackgroundColor: 'rgba(245,158,11,1)',
+          pointRadius: 5,
+          pointHoverRadius: 6,
+          borderWidth: 2.5,
+          fill: true,
+          tension: 0.25,
+        },
+      ],
+    },
+    plugins: [{
+      id: 'rotuloLinhaPlugin',
+      afterDatasetsDraw(chart) {
+        const { ctx } = chart;
+        ctx.save();
+        ctx.font = '600 11px system-ui, sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'bottom';
+        ctx.fillStyle = '#fbbf5e';
+        chart.getDatasetMeta(0).data.forEach((point, i) => {
+          const val = chart.data.datasets[0].data[i];
+          ctx.fillText(String(val), point.x, point.y - 10);
+        });
+        ctx.restore();
+      },
+    }],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { top: 24 } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctxItem) => ctxItem.raw + ' pessoa' + (ctxItem.raw === 1 ? '' : 's'),
+          },
+        },
+      },
+      scales: {
+        x: { ticks: { color: '#c3ccdc', font: { size: 12 } }, grid: { display: false } },
+        y: { display: false, grid: { display: false } },
+      },
+    },
+  });
+}
+
+function renderChartTopEquipes(porEquipe) {
+  const totais = Object.keys(porEquipe).map((equipe) => ({
+    equipe,
+    total: porEquipe[equipe].length,
+  }));
+  totais.sort((a, b) => b.total - a.total);
+  const top = totais.slice(0, 10);
+
+  const maiorValor = top.length ? Math.max(...top.map((t) => t.total)) : 0;
+
+  const ctx = document.getElementById('chartTopEquipes').getContext('2d');
+  if (CHART_TOP_EQUIPES) CHART_TOP_EQUIPES.destroy();
+  CHART_TOP_EQUIPES = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: top.map((t) => t.equipe),
+      datasets: [
+        { label: 'Pessoas em férias', data: top.map((t) => t.total), backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 32 },
+      ],
+    },
+    plugins: [rotuloBarraHorizontalPlugin],
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { right: 40 } },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: (ctxItem) => ctxItem.raw + ' pessoa' + (ctxItem.raw === 1 ? '' : 's'),
+          },
+        },
+      },
+      scales: {
+        x: { suggestedMax: maiorValor * 1.18, ticks: { color: '#8291ab', font: { size: 11 }, precision: 0 }, grid: { color: 'rgba(255,255,255,0.06)' } },
+        y: { ticks: { color: '#c3ccdc', font: { size: 11 } }, grid: { display: false } },
+      },
+    },
+  });
+}
+
+// Tabela — um gestor/equipe por linha, com a contagem de cada mês lado a
+// lado (mesmo modelo visual do quadro de Horas Extras). Não é afetado pelo
+// filtro de Competência (sempre traz os 4 meses), só por Empresa/Busca,
+// igual à Tendência Mensal.
+const ORDEM_MESES_GESTOR = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
+
+function dadosPorGestorMes() {
+  const registros = registrosFiltradosPorBusca();
+  const porEquipeMes = {};
+  registros.forEach((r) => {
+    if (!porEquipeMes[r.equipe]) porEquipeMes[r.equipe] = {};
+    porEquipeMes[r.equipe][r.mes] = (porEquipeMes[r.equipe][r.mes] || 0) + 1;
+  });
+
+  const mesesPresentes = ORDEM_MESES_GESTOR.filter((m) => Object.values(porEquipeMes).some((porMes) => porMes[m]));
+
+  const equipes = Object.keys(porEquipeMes)
+    .map((equipe) => {
+      const porMes = porEquipeMes[equipe];
+      const total = Object.values(porMes).reduce((s, v) => s + v, 0);
+      return { equipe, porMes, total };
+    })
+    .sort((a, b) => b.total - a.total);
+
+  return { equipes, mesesPresentes };
+}
+
+function renderChartPorGestorMes() {
+  const { equipes, mesesPresentes } = dadosPorGestorMes();
+
+  const cabecalho = document.getElementById('tabelaPorGestorMesCabecalho');
+  cabecalho.innerHTML = `<th>Gestor/Equipe</th>${mesesPresentes.map(m => `<th>${m.split('/')[0]}</th>`).join('')}<th>Total</th>`;
+
+  const corpo = document.getElementById('tabelaPorGestorMesCorpo');
+  corpo.innerHTML = equipes.map(({ equipe, porMes, total }) => `
+    <tr>
+      <td>${equipe}</td>
+      ${mesesPresentes.map(m => `<td class="val ${!porMes[m] ? 'zero' : ''}">${porMes[m] || 0}</td>`).join('')}
+      <td class="total">${total}</td>
+    </tr>
+  `).join('');
+
+  if (!equipes.length) {
+    corpo.innerHTML = `<tr><td colspan="${mesesPresentes.length + 2}" class="vazio">Nenhum registro encontrado para esse filtro.</td></tr>`;
+  }
+}
+
+function baixarExcelPorGestorMes() {
+  const { equipes, mesesPresentes } = dadosPorGestorMes();
+  if (!equipes.length) { alert('Nenhum registro para exportar nesse filtro.'); return; }
+  const cab = ['Gestor/Equipe', ...mesesPresentes.map(m => m.split('/')[0]), 'Total'];
+  const linhas = equipes.map(({ equipe, porMes, total }) => [
+    equipe, ...mesesPresentes.map(m => porMes[m] || 0), total,
+  ]);
+  const totalGeral = equipes.reduce((s, e) => s + e.total, 0);
+  linhas.push(new Array(cab.length).fill(''));
+  linhas.push(['TOTAL', ...mesesPresentes.map(m => equipes.reduce((s, e) => s + (e.porMes[m] || 0), 0)), totalGeral]);
+  exportarXlsx([cab, ...linhas], 'Ferias - Total por Gestor e Mes.xlsx', 'Por Gestor e Mês');
+}
+
+// Monta a matriz de linhas (com cabeçalho) pronta pro XLSX, a partir de uma
+// lista de registros já achatados {equipe, mes, nome, cargo, empresa,
+// situacao, periodo}.
+function montarLinhasExcel(registros) {
+  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'Situação', 'Período'];
+  const linhas = registros.map(r => [
+    r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.mes || '', r.situacao || '', r.periodo || '',
+  ]);
+  return [cab, ...linhas];
+}
+
+function exportarXlsx(matriz, nomeArquivo, nomeAba) {
+  const ws = XLSX.utils.aoa_to_sheet(matriz);
+  ws['!cols'] = [{ wch: 26 }, { wch: 32 }, { wch: 26 }, { wch: 16 }, { wch: 12 }, { wch: 18 }, { wch: 26 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, nomeAba.substring(0, 31));
+  XLSX.writeFile(wb, nomeArquivo);
+}
+
+// Botão "Baixar Excel" do topo: exporta tudo que está no filtro atual
+// (Competência + Empresa + Busca), igual ao que a tela está mostrando.
+function baixarExcel() {
+  const registros = registrosFiltrados();
+  if (!registros.length) { alert('Nenhum registro para exportar nesse filtro.'); return; }
+  const matriz = montarLinhasExcel(registros);
+  const mes = document.getElementById('fMes').value || 'todos-os-meses';
+  exportarXlsx(matriz, `Ferias - ${mes.replace('/', '-')}.xlsx`, 'Férias');
+}
+
+// Botão "Excel" de cada equipe/gestor: exporta só aquela equipe, com todos os
+// meses dela (ignora o filtro de Competência, respeita Empresa/Busca).
+function baixarExcelEquipe(equipe) {
+  const registros = registrosFiltradosPorBusca().filter(r => r.equipe === equipe);
+  if (!registros.length) { alert('Nenhum registro para exportar dessa equipe.'); return; }
+  const matriz = montarLinhasExcel(registros);
+  exportarXlsx(matriz, `Ferias - ${equipe}.xlsx`, equipe);
+}
+
+async function buscarDados() {
+  try {
+    const resp = await fetch(API_BASE + '/api/ferias');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    EQUIPES = data.equipes || {};
+    document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
+
+    const meses = new Set();
+    Object.values(EQUIPES).forEach((porMes) => Object.keys(porMes).forEach((m) => meses.add(m)));
+    const ORDEM = ['Maio/2026', 'Junho/2026', 'Julho/2026', 'Agosto/2026'];
+    const mesesOrdenados = [...meses].sort((a, b) => ORDEM.indexOf(a) - ORDEM.indexOf(b));
+    popularSelect('fMes', mesesOrdenados, true);
+
+    const empresas = new Set();
+    Object.values(EQUIPES).forEach((porMes) => Object.values(porMes).forEach((lista) => lista.forEach((c) => { if (c.empresa) empresas.add(c.empresa); })));
+    popularSelect('fEmpresa', [...empresas].sort((a, b) => a.localeCompare(b, 'pt-BR')), true);
+
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = '';
+    renderTudo();
+  } catch (e) {
+    document.getElementById('erroBox').style.display = 'block';
+    document.getElementById('erroBox').textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscarDados();
+setInterval(buscarDados, 300000); // re-busca a cada 5 min
+</script>
+</body>
+</html>

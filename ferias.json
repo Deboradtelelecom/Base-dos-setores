@@ -1,0 +1,3144 @@
+{
+  "Relacionamento": {
+    "Maio/2026": [
+      {
+        "nome": "Elisangela Regina Da Silva Soares",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Arthur Leonardo De Souza Melo",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Ayrton Da Silva Lima",
+        "cargo": "Gerente De Relacionamento P",
+        "empresa": "DTEL",
+        "situacao": "Férias Trabalhadas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Darlan Henrique Estevao De Lima",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Everson Bruno Lorena Da Silva",
+        "cargo": "Operador Suporte Orbix Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Thais Dos Santos Tenorio",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Wandija Alesandra Da Silva Santos",
+        "cargo": "Backoffice Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Amanda Camilla Silva Do Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Ana Caroline Ketilyn Da Silva",
+        "cargo": "Operador De Telemarketing Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Adriana De Moura Santos",
+        "cargo": "Operador De Telemarketing Técnico Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Bianca Natalia Vieira Neves",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Gerlania Maria Nilo Da Silva Lins",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Miecia Oliveira Da Silva Santos",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Nathalia Gomes Da Silva",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Renata Silva De Santana",
+        "cargo": "Backoffice Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Ana Caroline Ketilyn Da Silva",
+        "cargo": "Operador De Telemarketing Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Arthur Jefferson De Melo Santana",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 23/08/2026",
+        "periodo": "04/08/2026 A 23/08/2026"
+      },
+      {
+        "nome": "Carla Patricia Do Nascimento Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias 14/08/2026 A 02/09/2026",
+        "periodo": "14/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Didier Panis Lopes Branco",
+        "cargo": "Backoffice Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 30/08/2026 A 18/09/2026",
+        "periodo": "30/08/2026 A 18/09/2026"
+      },
+      {
+        "nome": "Kayne Karolayne Da Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias 25/08/2026 A 23/09/2026",
+        "periodo": "25/08/2026 A 23/09/2026"
+      },
+      {
+        "nome": "Leonardo Lira Moscoso Da Veiga Pessoa",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Lucas Vinicius Sousa De Araujo",
+        "cargo": "Backoffice Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 14/08/2026 A 02/09/2026",
+        "periodo": "14/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Martha Vitoria Da Silva Ferreira",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Thananne Giselle Gomes E Silva Lima",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Weslley Daniel De Lima Souza",
+        "cargo": "Analista De Dados",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Instalação Michelangelo": {
+    "Maio/2026": [
+      {
+        "nome": "Flavio Jose Dos Santos Junior",
+        "cargo": "Supervisor Tecnico Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Gleison Gleidson Da Silva",
+        "cargo": "Auxiliar De Estoque Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Leandro Jose Dos Santos",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Silmara Camila Ramos Cabral",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Katielle Marques De Lira",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Danrley Do Nascimento Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Sabrina De Ramos Correia",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jonathan Da Silva Santos",
+        "cargo": "Supervisor Técnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Marilia Gabriela Alves De Alustau",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Pereira Sa Neto",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "Voicenet",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Sênior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Elionaldo Damasceno Souza Sobrinho",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Hanna Thaylani Alves De Franca",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Eziel Alves De Melo Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Alison Renan Alves De Azeredo Coutinho",
+        "cargo": "Executivo De Contas",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Arthur Altino Paiva De Lima",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Sênior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Elionaldo Damasceno Souza Sobrinho",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Hanna Thaylani Alves De Franca",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Marcelo Queiroz Calheiros De Oliveiras Miteualoção:",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Eziel Alves De Melo Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Alison Renan Alves De Azeredo Coutinho",
+        "cargo": "Executivo De Contas",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Ewerton Bezerra Pereira Das Merces",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Gustavo Rodrigues Soares Da Silva",
+        "cargo": "Supervisor Tecnico Junior",
+        "empresa": "Voicenet",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Estrutura": {
+    "Maio/2026": [
+      {
+        "nome": "Joel Da Silva Arruda",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Dener Paulo Do Monte",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Anderson De Souza Lima",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Elvis Douglas Da Silva",
+        "cargo": "Auxiliar Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Anderson De Souza Lima",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Elvis Douglas Da Silva",
+        "cargo": "Auxiliar Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Instalação Marcos Bezerros": {
+    "Maio/2026": [
+      {
+        "nome": "Roberval De Santana Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Geyvisson Silva De Oliveira",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Renato Rodrigues Da Silva",
+        "cargo": "Supervisor Técnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Maria Ivanilda Da Silva Carolino",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Guilherme Bezerra De Lima",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Alan Gabriel Brito Alves",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Ana Sophia Muniz Silva",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Matheus Marinho Xavier Diniz",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Anderson Fernando Da Silva Lima",
+        "cargo": "Tecnico De Rede Ii - Planeta Net",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Leandro Jose Da Silva",
+        "cargo": "Tecnico De Rede Ii - Planeta Net",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Antonio Marcos Da Silva",
+        "cargo": "Ger Regional Tecnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Danilo Antonio Cavalcanti Bezerra",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Henrique Do Nascimento Tasende",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Raiane Samara Da Silva Santos",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Antonio Marcos Da Silva",
+        "cargo": "Ger Regional Tecnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Danilo Antonio Cavalcanti Bezerra",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Erik Henrique Durval Pontes",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Henrique Do Nascimento Tasende",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jefferson Antonio Bezerra Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Jefferson Cristiano Da Silva",
+        "cargo": "Supervisor Tecnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Karlla De Franca Silva",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Raiane Samara Da Silva Santos",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Marketing": {
+    "Maio/2026": [
+      {
+        "nome": "Yasmim Ximenes Oliveira",
+        "cargo": "Supervisor De Marketing",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Yasmim Ximenes Oliveira",
+        "cargo": "Supervisor De Marketing",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Maykon Alves De Oliveira",
+        "cargo": "Designer Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Thays Freitas De Souza",
+        "cargo": "Designer Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 20/07/2026",
+        "periodo": "06/07/2026 A 20/07/2026"
+      },
+      {
+        "nome": "Wesley Junior Da Silva Ferreira",
+        "cargo": "Social Mídia Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Wesley Junior Da Silva Ferreira",
+        "cargo": "Social Mídia Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Engenharia": {
+    "Maio/2026": [
+      {
+        "nome": "Alan Klebson Do Monte Silva",
+        "cargo": "Projetista Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Lucas Vinicius Gomes Farao",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Luiz Pedro Dos Reis",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Claudia Soares Dos Santos Silva",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 17/08/2026 A 15/09/2026",
+        "periodo": "17/08/2026 A 15/09/2026"
+      }
+    ]
+  },
+  "Instalação Lucas Bonifacio": {
+    "Maio/2026": [
+      {
+        "nome": "Anderson Barbosa Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Danyelle Pereira De Araujo Souza",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Leonardo Bonifacio Silva De Almeida",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Ricardo Ferreira Junior",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Josivaldo Ferreira Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Williams Douglas Santos Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Edvaldo Jose Benedito Junior",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Trabalhadas",
+        "periodo": null
+      },
+      {
+        "nome": "Alana Carla Pereira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "David Marlyon Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jessica Alves De Oliveira",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Erick Wagner Francisco De Melo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Lucas Augusto Andrade Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Josafa Silva Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 25/07/2026",
+        "periodo": "06/07/2026 A 25/07/2026"
+      },
+      {
+        "nome": "Mauro Lucas Rocha Calixto",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Nagysson Breno Napoleao Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Alberes Carlos Do Monte Dias",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Bruna Lima Da Silva",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "situacao": "Férias 17/08/2026 A 15/09/2026",
+        "periodo": "17/08/2026 A 15/09/2026"
+      },
+      {
+        "nome": "Mauro Lucas Rocha Calixto",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Nadson Bruno Napoleao Da Silva",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Nagysson Breno Napoleao Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Rodrigo Fernandes Rodrigues",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Estoque": {
+    "Maio/2026": [
+      {
+        "nome": "Andre Antonio Ferreira",
+        "cargo": "Tecnico Eletronica De Manutençao Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Danilo Pedro Pereira Dos Reis",
+        "cargo": "Estoquista Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Bruno Rafael Menezes Da Silva",
+        "cargo": "Tecnico Eletronico De Manutençao Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Tiago De Lima Sena",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Jose Helmiton Gomes De Lima",
+        "cargo": "Tecnico Eletronico Em Manutenção Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Jose Helmiton Gomes De Lima",
+        "cargo": "Tecnico Eletronico Em Manutenção Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Valderez Caetano De Souza",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      }
+    ]
+  },
+  "Qualidade": {
+    "Maio/2026": [
+      {
+        "nome": "Dayane Stefanni Climaco De Santana",
+        "cargo": "Supervisor De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Cleonildo Antonio Dos Santos Neto",
+        "cargo": "Supervisor De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Dayse Kassia Da Silva Oliveira",
+        "cargo": "Assistente De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Janeliton Jose De Lima Junior",
+        "cargo": "Analista De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Cleonildo Antonio Dos Santos Neto",
+        "cargo": "Supervisor De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias 20/07/2026 A 03/08/2026",
+        "periodo": "20/07/2026 A 03/08/2026"
+      },
+      {
+        "nome": "Dayse Kassia Da Silva Oliveira",
+        "cargo": "Assistente De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias 08/06/2026 A 07/07/2026",
+        "periodo": "08/06/2026 A 07/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Cleonildo Antonio Dos Santos Neto",
+        "cargo": "Supervisor De Qualidade",
+        "empresa": "DTEL",
+        "situacao": "Férias 20/07/2026 A 03/08/2026",
+        "periodo": "20/07/2026 A 03/08/2026"
+      },
+      {
+        "nome": "Michel Gleydson Da Silva Melo",
+        "cargo": "Analista De Qualidade Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      }
+    ]
+  },
+  "Configuração": {
+    "Maio/2026": [
+      {
+        "nome": "Douglas Soares Da Silva",
+        "cargo": "Supervisor De Suporte Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Lucas Roberto Queiros Oliveira",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Allan Gabriel Pinto Da Silva Rego",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Allan Gabriel Pinto Da Silva Rego",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Wallisson Dhonatan Alves Dos Santos",
+        "cargo": "Operador De Redes",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      }
+    ]
+  },
+  "Instalação Roberto Barros": {
+    "Maio/2026": [
+      {
+        "nome": "Leonardo Miguel Melo Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Naedson Jose Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jadson Gabriel Silva Dos Anjos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Keila Thais Lima Santos",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Lucas Joao Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Roberto Barros Monteiro Junior",
+        "cargo": "Ger. Regional Tecnico",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Edimilton Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Wangleyson Egito Cesar De Melo",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Walker Jackson Silva Dos Anjos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jonatas Henrique Silva Do Carmo",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Luiz Henrique Barros Albuquerque",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Robson Da Silva Monteiro",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Bruno Cezar Silva Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Walker Jackson Silva Dos Anjos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Christines Mateus Nascimento Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Danilo Hericles Santana De Lima",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Jonatas Henrique Silva Do Carmo",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Luiz Henrique Barros Albuquerque",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Robson Da Silva Monteiro",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Bruno Cezar Silva Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "COE": {
+    "Maio/2026": [
+      {
+        "nome": "Marcos Igor De Arruda Barros",
+        "cargo": "Despachante Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Maria Amanda Da Silva Lima",
+        "cargo": "Despachante Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Marcia Maria Silva Da Costa",
+        "cargo": "Despachante Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Marcia Maria Silva Da Costa",
+        "cargo": "Despachante Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Serviços Gerais": {
+    "Maio/2026": [
+      {
+        "nome": "Marluce Maria De Oliveira",
+        "cargo": "Auxiliar De Serviços Gerais Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Maria Jose Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Maria Betania Silva Do Nascimento",
+        "cargo": "Auxiliar De Serviços Gerais",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Maria Betania Silva Do Nascimento",
+        "cargo": "Auxiliar De Serviços Gerais",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Instalação Paulo Cesar": {
+    "Maio/2026": [
+      {
+        "nome": "Millana Da Cunha Lima",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Douglas Almeida Dantas",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jonas Matheus Feitoza De Souza",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Renan Pierre Santos Tomaz",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Gabriel Feitoza De Souza",
+        "cargo": "Técnico De Lançamento Sênior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Clodoaldo Gomes Da Rocha",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Pedro Henrique Ramos Dos Santos",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Walisson Rodrigues Bispo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Marcos Vinicius Gomes Santiago",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Werlisson Valdemir Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Weslayne Franca Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Geyson Ferreira De Oliveira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Renato De Lima Santana",
+        "cargo": "Supervisor Tecnico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 25/07/2026",
+        "periodo": "06/07/2026 A 25/07/2026"
+      },
+      {
+        "nome": "Silvio Dyjavan Guimaraes Ferreira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Thiago Lucas Correia Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Andrielliton Moura De Santana",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Ewerton Araujo Teixeira",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Jackson Antonio Batista Dos Santos",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Jesaias Paulo Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Marcelo Das Neves Olimpio Jose",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Weslayne Franca Da Silva",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Geyson Ferreira De Oliveira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Silvio Dyjavan Guimaraes Ferreira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Thiago Lucas Correia Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "NOC": {
+    "Maio/2026": [
+      {
+        "nome": "Rafael Marinho Macedo",
+        "cargo": "Gerente De Redes",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jefferson Patrick Barreto Tavares",
+        "cargo": "Gerente De Redes Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Trabalhadas",
+        "periodo": null
+      }
+    ]
+  },
+  "Instalação Marcos Litoral": {
+    "Maio/2026": [
+      {
+        "nome": "Deyvisson Weslley Santos De Souza",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Georgea Amanda Ferreira Da Rocha Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Emmanoel Matias Dos Anjos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Zaquel Laurindo De França",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Lucas Cassio Da Silva Ferreira",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Allyson Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Instalação Willian": {
+    "Maio/2026": [
+      {
+        "nome": "Jose Carlos Santos De Lima",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DX2",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Ewerton Araujo Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DX2",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Ewerton Suevanyo Santos De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Leticia Araujo De Aguiar",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DX2",
+        "situacao": "Férias 13/07/2026 A 11/08/2026",
+        "periodo": "13/07/2026 A 11/08/2026"
+      },
+      {
+        "nome": "Mikael Pereira De Melo",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DX2",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Ewerton Suevanyo Santos De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Kleber Souza De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "situacao": "Férias 10/08/2026 A 08/09/2026",
+        "periodo": "10/08/2026 A 08/09/2026"
+      },
+      {
+        "nome": "Leticia Araujo De Aguiar",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DX2",
+        "situacao": "Férias 13/07/2026 A 11/08/2026",
+        "periodo": "13/07/2026 A 11/08/2026"
+      },
+      {
+        "nome": "Mikael Pereira De Melo",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DX2",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Vitor Mateus Do Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DX2",
+        "situacao": "Férias 10/08/2026 A 08/09/2026",
+        "periodo": "10/08/2026 A 08/09/2026"
+      },
+      {
+        "nome": "Willian Eustaquio Lima Da Silva",
+        "cargo": "Cooerdenador De Empresas Junior",
+        "empresa": "DX2",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      }
+    ]
+  },
+  "Itinerante": {
+    "Maio/2026": [
+      {
+        "nome": "Eduarda Yasmim Silva Medeiros",
+        "cargo": "Despachante Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Gabriel Vinicius Tenorio Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Steves Da Silva Barros",
+        "cargo": "Instalador Reparador Sênior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Luiz Henrique Gomes De Oliveira",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jurice Borges Dos Santos Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Felipe Alves De Almeida Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Rai Ramos Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Matheus Nogueira Lins De Souza Ferraz",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Ailton Cupertino De Almeida Filho",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Rai Ramos Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Instalação Jose Julio": {
+    "Maio/2026": [
+      {
+        "nome": "Joseilson Miguel Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Petrucia Maria Ramos Neves",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Joseilton Miguel Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Luiz Fernando Emiliano Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jose Augusto Alberik De Franca",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Eduardo De Souza",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Marcia Adrielle De Araujo",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Marconi Jose Missias",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Victor Vinicius De Franca Santana.",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Silvania Lins Santos Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Carlos Andre De Oliveira",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Wilson Costa De Oliveira Junior",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Fernando Angelo Lima Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jonathan Igor Silva De Sa",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jose Cicero De Vasconcelos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jose Julio Barbosa Do Carmo Junior",
+        "cargo": "Gerente Administrativo Instalacao Junio",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Cleibson Luciano Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Dayana Mabel Bezerra De Sá",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Lucas Rodrigo Nunes Caitano",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Ramon Floriano De Sena Peixoto",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Silvania Lins Santos Da Silva",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Carlos Andre De Oliveira",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Wilson Costa De Oliveira Junior",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Fernando Angelo Lima Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jonathan Igor Silva De Sa",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jose Cicero De Vasconcelos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jose Julio Barbosa Do Carmo Junior",
+        "cargo": "Gerente Administrativo Instalacao Junio",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Vendas PAP Tarcizio": {
+    "Maio/2026": [
+      {
+        "nome": "Mariana Ferreira Viana Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Joseane Maria Lins E Silva",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Tullyana Leticia Barbosa Sena",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Madson Israel Da Silva Araujo",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Raliane Alves Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Thyalison Da Silva Aciole",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Raliane Alves Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jaciara Maria Silva De Santana",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Thyalison Da Silva Aciole",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Instalação Vitor Lins": {
+    "Maio/2026": [
+      {
+        "nome": "Rafael Freitas Moraes De Araujo",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Renan Gabriel Ferreira",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Soares & Lins",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Sandra Vieira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Ronald Barbosa Da Silva Mendes",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Lins",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Marcia Mychelle Da Silva Bezerra",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 25/07/2026",
+        "periodo": "06/07/2026 A 25/07/2026"
+      },
+      {
+        "nome": "Lucas Borges Batista Firmino",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Lins",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Manoela Camila Da Silva",
+        "cargo": "Auxiliar Administrativo Atendimento",
+        "empresa": "Soares & Lins",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Thiago Vinicius Dos Santos Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Lins",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Vendas PAP Elthon": {
+    "Maio/2026": [
+      {
+        "nome": "Rayanne Meneses De Carvalho",
+        "cargo": "Executivo De Contas",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Clecia Maria Alves",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Jean Pereira Da Silva",
+        "cargo": "Executivo De Contas",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Instalação Litoral Net": {
+    "Maio/2026": [
+      {
+        "nome": "Alisson Jose Sirqueira Souza",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Edgar Nelson Lima Dos Santos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Maria Cristina Soares Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Matheus Allan Souza De Andrade",
+        "cargo": "Instalador Reparador",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Aldair Jose De Siqueira Souza",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Daniel Jose Da Silva Filho",
+        "cargo": "Instalador Reparador",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Natalia Barros Da Silva",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Renilson Farias Feitosa",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Victor Rafael Dos Santos Ferreira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Jonatas Pedro Damascena",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Medlyn Rayssa Lima Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Moises Elias Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Natalia Barros Da Silva",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 15/06/2026 A 14/07/2026",
+        "periodo": "15/06/2026 A 14/07/2026"
+      },
+      {
+        "nome": "Renilson Farias Feitosa",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Edna Maria Da Silva Chalaca",
+        "cargo": "Gerente",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Jonatas Pedro Damascena",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Karina Vanessa Da Silva",
+        "cargo": null,
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Medlyn Rayssa Lima Oliveira",
+        "cargo": null,
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Moises Elias Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 15/07/2026 A 13/08/2026",
+        "periodo": "15/07/2026 A 13/08/2026"
+      },
+      {
+        "nome": "Renilson Farias Feitosa",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Solon Araújo",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Instalação Alagoas": {
+    "Maio/2026": [
+      {
+        "nome": "Geziel Silva De Jesus",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jamerson Dos Santos Inacio",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Luiz Alberto Alves Pedrosa Novaes",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Aletacio Da Silva Oliveira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Douglas Ornilio Da Silva",
+        "cargo": "Gerente Regional",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Fernando Queiroz Ferreira",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Aletacio Da Silva Oliveira",
+        "cargo": "Motofretista",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 03/06/2026 A 02/07/2026",
+        "periodo": "03/06/2026 A 02/07/2026"
+      },
+      {
+        "nome": "Fernando Queiroz Ferreira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 03/06/2026 A 02/07/2026",
+        "periodo": "03/06/2026 A 02/07/2026"
+      },
+      {
+        "nome": "Jose Lucas Silva De Morais",
+        "cargo": "Supervisor Tecnico Júnior",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Willams Xavier Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Edivan Barros Perciano Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Erinaldo Dos Santos Filho",
+        "cargo": "Auxiliar Técnico Em Fibra",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      },
+      {
+        "nome": "Fabio Reinaldo Dos Santos Dantas",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Flavia Janielle Da Silva",
+        "cargo": null,
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Jose Lucas Silva De Morais",
+        "cargo": "Supervisor Tecnico Júnior",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Monique Oliveira Da Silva",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Willams Xavier Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Instalação Alex": {
+    "Maio/2026": [
+      {
+        "nome": "Dedja Maria Do Carmo Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Cleyton De Almeida De Souza Lima",
+        "cargo": "Instalador Reparador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jaziel Pedro Da Silva Rodrigues",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Josania Silva Das Neves",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Leandro Jose Lins Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Ewerton Edvaldo Laurindo Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jaziel Pedro Da Silva Rodrigues",
+        "cargo": "Axuliar Administrativo De Atendimento",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias 15/06/2026 A 14/07/2026",
+        "periodo": "15/06/2026 A 14/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Carlos Cicero Belem Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      },
+      {
+        "nome": "Ewerton Edvaldo Laurindo Dos Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Jhonatas Wesley Neves Guedes",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Souza & Silva",
+        "situacao": "Férias 03/08/2026 A 01/09/2026",
+        "periodo": "03/08/2026 A 01/09/2026"
+      }
+    ]
+  },
+  "Obras": {
+    "Maio/2026": [
+      {
+        "nome": "Gabriel Ramon Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Joao Carlos Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Isael De Jesus Alves",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Josenildo Da Silva Alves",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Marcondes Jose Da Silva",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "William Da Silva Andrade",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Antonio Ricardo Da Silva",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Marcondes Jose Da Silva",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "Luiz Pedro Dos Reis",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      },
+      {
+        "nome": "William Da Silva Andrade",
+        "cargo": "Pedreiro",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Logistica": {
+    "Maio/2026": [
+      {
+        "nome": "Josenildo Luiz Dos Santos",
+        "cargo": "Servente De Obra",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      },
+      {
+        "nome": "Neilson Alexandre Da Silva",
+        "cargo": "Motorista Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias",
+        "periodo": null
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Demetrius Ribeiro De Aquino",
+        "cargo": "Ger. Regional Logístico Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Trabalhadas",
+        "periodo": null
+      },
+      {
+        "nome": "Ednaldo De Naboia Acioli Junior",
+        "cargo": "Chefe De Oficina",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logistica Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 22/07/2026 A 20/08/2026",
+        "periodo": "22/07/2026 A 20/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logistica Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 22/07/2026 A 20/08/2026",
+        "periodo": "22/07/2026 A 20/08/2026"
+      }
+    ]
+  },
+  "Lançamento": {
+    "Junho/2026": [
+      {
+        "nome": "Daniel Jose Dos Santos",
+        "cargo": "Técnico De Lançamento Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Severino Da Silva Santos",
+        "cargo": "Técnico De Lançamento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Laercio Joaquim Dos Santos Santana",
+        "cargo": "Técnico De Lançamento Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 11/08/2026",
+        "periodo": "13/07/2026 A 11/08/2026"
+      },
+      {
+        "nome": "Carlos Fernando De Lima",
+        "cargo": "Supervisor De Lancamento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Messias Lopes De Oliveira",
+        "cargo": "Tecnico De Lancamento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Renato Damasceno Da Silva",
+        "cargo": "Tecnico De Lancamento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Laercio Joaquim Dos Santos Santana",
+        "cargo": "Tecnico De Lancamento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 11/08/2026",
+        "periodo": "13/07/2026 A 11/08/2026"
+      },
+      {
+        "nome": "Daniel Antonio Da Silva",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Jose Carlos De Lira Carneiro",
+        "cargo": "Tecnico De Lancamento Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Fique Móvel": {
+    "Junho/2026": [
+      {
+        "nome": "Isla Rafaelle Lessa De Andrade",
+        "cargo": "Supervisor De Vendas Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Rafael Da Silva Gabriel",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Isla Rafaelle Lessa De Andrade",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 20/07/2026",
+        "periodo": "06/07/2026 A 20/07/2026"
+      },
+      {
+        "nome": "Rafael Da Silva Gabriel",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "situacao": "Férias 16/07/2026 A 30/07/2026",
+        "periodo": "16/07/2026 A 30/07/2026"
+      }
+    ]
+  },
+  "Fusão": {
+    "Junho/2026": [
+      {
+        "nome": "Jose Anderson Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Eronildo De Melo Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Jose Roberto De Santana Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Clecio Israel Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Josadark Jose Do Nascimento",
+        "cargo": "Coordenador Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Jose Roberto De Santana Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Gilberto Eugenio Dos Santos",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "situacao": "Férias 10/08/2026 A 08/09/2026",
+        "periodo": "10/08/2026 A 08/09/2026"
+      },
+      {
+        "nome": "Jose Rogerio De Souza",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 17/08/2026 A 15/09/2026",
+        "periodo": "17/08/2026 A 15/09/2026"
+      }
+    ]
+  },
+  "RH": {
+    "Junho/2026": [
+      {
+        "nome": "Camila Virgulino Costa",
+        "cargo": "Assistente Administrativo De Rh Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Lucas Alexandre Dos Santos",
+        "cargo": "Assistente Administrativo De Rh Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Lucas Alexandre Dos Santos",
+        "cargo": "Assistente Administrativo De Rh Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Diretoria": {
+    "Junho/2026": [
+      {
+        "nome": "Debora Carla Dos Santos Silva",
+        "cargo": "Assistente Executivo Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Almir Soares De Oliveira",
+        "cargo": "Analista De Dados Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Gestão de Atendimento": {
+    "Junho/2026": [
+      {
+        "nome": "Gabriela Da Silva Alves",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Iris Beatriz Silveira Marques",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Arlen Duarte Dos Santos",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Arlen Duarte Dos Santos",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Vendas PAP Tiago": {
+    "Junho/2026": [
+      {
+        "nome": "Thairone Sousa De Melo",
+        "cargo": "Vendedor Externo",
+        "empresa": "DX2",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Tiago De Araujo Silva",
+        "cargo": "Coordenador De Vendas Varejo Junior",
+        "empresa": "DX2",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      },
+      {
+        "nome": "Carlos Alberto Da Silva Nascimento",
+        "cargo": "Vendedor Externo",
+        "empresa": "Soares & Silva",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ]
+  },
+  "Vendas Corporativo": {
+    "Junho/2026": [
+      {
+        "nome": "Pedro Antonio Grego Lins",
+        "cargo": "Consultor (A) Negocios",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Andrea Raphaelle Alexandre Dos Santossit Uea Sçiãlov:A",
+        "cargo": "Analista Comercial Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Andrea Raphaelle Alexandre Dos Santossi Teu Asçiãlov:A",
+        "cargo": "Analista Comercial Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Bartolomeu Domingos De Melo",
+        "cargo": "Consultor De Negocios",
+        "empresa": "DTEL",
+        "situacao": "Férias 10/08/2026 A 29/08/2026",
+        "periodo": "10/08/2026 A 29/08/2026"
+      }
+    ]
+  },
+  "Compras": {
+    "Junho/2026": [
+      {
+        "nome": "Cleiton Carlos Da Silva Augusto",
+        "cargo": "Assistente De Compras",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Oliver Rhuan De Melo Gomes",
+        "cargo": "Assistente De Compras Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Oliver Rhuan De Melo Gomes",
+        "cargo": "Assistente De Compras Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ]
+  },
+  "Manutenção Predial": {
+    "Junho/2026": [
+      {
+        "nome": "Francisco Sergio De Barros",
+        "cargo": "Tecnico De Manutenção Predial",
+        "empresa": "DTEL",
+        "situacao": "Férias Quebradas",
+        "periodo": null
+      }
+    ],
+    "Julho/2026": [
+      {
+        "nome": "Jailton Adolfo Da Silva",
+        "cargo": "Auxiliar De Manutencao Predial",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      },
+      {
+        "nome": "Wellington Fernando De Lima",
+        "cargo": "Tecnico De Manutencao Predial Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 01/07/2026 A 30/07/2026",
+        "periodo": "01/07/2026 A 30/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Andersson De Melo Macena",
+        "cargo": "Técnico De Manutenção Predial",
+        "empresa": "DTEL",
+        "situacao": "Férias 17/08/2026 A 05/09/2026",
+        "periodo": "17/08/2026 A 05/09/2026"
+      }
+    ]
+  },
+  "Financeiro": {
+    "Julho/2026": [
+      {
+        "nome": "Anelise Leticia Ribeiro Xavier",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Anelise Leticia Ribeiro Xavier",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 04/08/2026",
+        "periodo": "06/07/2026 A 04/08/2026"
+      },
+      {
+        "nome": "Wagna De Freitas Santos Santana",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "situacao": "Férias 11/08/2026 A 30/08/2026",
+        "periodo": "11/08/2026 A 30/08/2026"
+      }
+    ]
+  },
+  "Departamento Pessoal": {
+    "Julho/2026": [
+      {
+        "nome": "Edenize Alves Ximenes",
+        "cargo": "Auxiliar De Dp",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 27/07/2026",
+        "periodo": "13/07/2026 A 27/07/2026"
+      },
+      {
+        "nome": "Tamires Do Nascimento Oliveira",
+        "cargo": "Assistente De Dp",
+        "empresa": "DTEL",
+        "situacao": "Férias 20/07/2026 A 18/08/2026",
+        "periodo": "20/07/2026 A 18/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Carlos Alexandre Gomes De Moura",
+        "cargo": "Gerente De Dp Senior",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Tamires Do Nascimento Oliveira",
+        "cargo": "Assistente De Dp",
+        "empresa": "DTEL",
+        "situacao": "Férias 20/07/2026 A 18/08/2026",
+        "periodo": "20/07/2026 A 18/08/2026"
+      }
+    ]
+  },
+  "TIC": {
+    "Julho/2026": [
+      {
+        "nome": "Wayne Palmeira De Castro Junior",
+        "cargo": "Supervisor De Tic Pleno",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 25/07/2026",
+        "periodo": "06/07/2026 A 25/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Willams Barbosa Da Silva",
+        "cargo": "Analista De Ti",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Dev": {
+    "Julho/2026": [
+      {
+        "nome": "Bruno Santos Da Silva",
+        "cargo": "Desenvolvedor Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 06/07/2026 A 25/07/2026",
+        "periodo": "06/07/2026 A 25/07/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Antonio Roberto Dias Frutuoso Junior",
+        "cargo": "Desenvolvedor Junior",
+        "empresa": "DTEL",
+        "situacao": "Férias 17/08/2026 A 05/09/2026",
+        "periodo": "17/08/2026 A 05/09/2026"
+      }
+    ]
+  },
+  "Instalação Helder": {
+    "Julho/2026": [
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Bruno Barbosa Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Vitoria Raposo Marques Da Silva",
+        "cargo": null,
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      },
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "situacao": "Férias 13/07/2026 A 01/08/2026",
+        "periodo": "13/07/2026 A 01/08/2026"
+      }
+    ]
+  },
+  "Contabilidade": {
+    "Agosto/2026": [
+      {
+        "nome": "Daniele Pedrozo Falcao Da Silva",
+        "cargo": "Assistente Administrativo Contábil Senio",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  },
+  "Sócios": {
+    "Agosto/2026": [
+      {
+        "nome": "Leyvson Vitor Da Silva Lins",
+        "cargo": "Gerente De Instalacao I",
+        "empresa": "DTEL",
+        "situacao": "Férias 04/08/2026 A 02/09/2026",
+        "periodo": "04/08/2026 A 02/09/2026"
+      }
+    ]
+  }
+}
