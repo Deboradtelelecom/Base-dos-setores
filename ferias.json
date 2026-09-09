@@ -75,7 +75,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 4785.73,
-        "descontosFerias": 508.26
+        "descontosFerias": 508.26,
+        "descontoInss": 239.4,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 268.86
       },
       {
         "nome": "Ana Caroline Ketilyn Da Silva",
@@ -84,7 +87,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 4535.95,
-        "descontosFerias": 154.99
+        "descontosFerias": 154.99,
+        "descontoInss": 126.13,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 28.86
       },
       {
         "nome": "Adriana De Moura Santos",
@@ -93,7 +99,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 3809.32,
-        "descontosFerias": 1553.76
+        "descontosFerias": 1553.76,
+        "descontoInss": 195.38,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1358.38
       },
       {
         "nome": "Bianca Natalia Vieira Neves",
@@ -102,7 +111,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 5067.51,
-        "descontosFerias": 448.22
+        "descontosFerias": 448.22,
+        "descontoInss": 240.12,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       },
       {
         "nome": "Gerlania Maria Nilo Da Silva Lins",
@@ -111,7 +123,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 3919.07,
-        "descontosFerias": 2449.8
+        "descontosFerias": 2449.8,
+        "descontoInss": 229.61,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2220.19
       },
       {
         "nome": "Miecia Oliveira Da Silva Santos",
@@ -120,7 +135,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 3956.22,
-        "descontosFerias": 411.48
+        "descontosFerias": 411.48,
+        "descontoInss": 173.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 238.48
       },
       {
         "nome": "Nathalia Gomes Da Silva",
@@ -129,7 +147,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 4479.63,
-        "descontosFerias": 1718.8
+        "descontosFerias": 1718.8,
+        "descontoInss": 220.05,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1498.75
       },
       {
         "nome": "Renata Silva De Santana",
@@ -138,7 +159,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 3991.97,
-        "descontosFerias": 1071.17
+        "descontosFerias": 1071.17,
+        "descontoInss": 187.56,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 883.61
       }
     ],
     "Agosto/2026": [
@@ -149,7 +173,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 155.08,
-        "descontosFerias": 7.67
+        "descontosFerias": 7.67,
+        "descontoInss": 6.15,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1.52
       },
       {
         "nome": "Arthur Jefferson De Melo Santana",
@@ -158,7 +185,10 @@
         "situacao": "Férias 04/08/2026 A 23/08/2026",
         "periodo": "04/08/2026 A 23/08/2026",
         "valorFerias": 4311.19,
-        "descontosFerias": 140.84
+        "descontosFerias": 140.84,
+        "descontoInss": 140.84,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Carla Patricia Do Nascimento Silva",
@@ -167,7 +197,10 @@
         "situacao": "Férias 14/08/2026 A 02/09/2026",
         "periodo": "14/08/2026 A 02/09/2026",
         "valorFerias": 4922.45,
-        "descontosFerias": 2024.21
+        "descontosFerias": 2024.21,
+        "descontoInss": 213.37,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1810.84
       },
       {
         "nome": "Didier Panis Lopes Branco",
@@ -176,7 +209,10 @@
         "situacao": "Férias 30/08/2026 A 18/09/2026",
         "periodo": "30/08/2026 A 18/09/2026",
         "valorFerias": 1873.21,
-        "descontosFerias": 14.23
+        "descontosFerias": 14.23,
+        "descontoInss": 14.23,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Kayne Karolayne Da Silva",
@@ -185,7 +221,10 @@
         "situacao": "Férias 25/08/2026 A 23/09/2026",
         "periodo": "25/08/2026 A 23/09/2026",
         "valorFerias": 1135.64,
-        "descontosFerias": 49.45
+        "descontosFerias": 49.45,
+        "descontoInss": 49.45,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Leonardo Lira Moscoso Da Veiga Pessoa",
@@ -194,7 +233,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4223.1,
-        "descontosFerias": 181.97
+        "descontosFerias": 181.97,
+        "descontoInss": 181.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Lucas Vinicius Sousa De Araujo",
@@ -203,7 +245,10 @@
         "situacao": "Férias 14/08/2026 A 02/09/2026",
         "periodo": "14/08/2026 A 02/09/2026",
         "valorFerias": 4568.21,
-        "descontosFerias": 130.81
+        "descontosFerias": 130.81,
+        "descontoInss": 130.81,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Martha Vitoria Da Silva Ferreira",
@@ -212,7 +257,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4434.39,
-        "descontosFerias": 194.02
+        "descontosFerias": 194.02,
+        "descontoInss": 194.02,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Thananne Giselle Gomes E Silva Lima",
@@ -221,7 +269,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4654.59,
-        "descontosFerias": 409.45
+        "descontosFerias": 409.45,
+        "descontoInss": 215.22,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Weslley Daniel De Lima Souza",
@@ -230,7 +281,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6954.85,
-        "descontosFerias": 552.77
+        "descontosFerias": 552.77,
+        "descontoInss": 358.54,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       }
     ]
   },
@@ -337,7 +391,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6352.52,
-        "descontosFerias": 508.7
+        "descontosFerias": 508.7,
+        "descontoInss": 328.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Elionaldo Damasceno Souza Sobrinho",
@@ -346,7 +403,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 10360.51,
-        "descontosFerias": 739.63
+        "descontosFerias": 739.63,
+        "descontoInss": 513.07,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 226.56
       },
       {
         "nome": "Hanna Thaylani Alves De Franca",
@@ -355,7 +415,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4954.42,
-        "descontosFerias": 263.39
+        "descontosFerias": 263.39,
+        "descontoInss": 263.39,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Pedro Vitor Da Silva Santos",
@@ -364,7 +427,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5067.74,
-        "descontosFerias": 2068.75
+        "descontosFerias": 2068.75,
+        "descontoInss": 328.78,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1739.97
       },
       {
         "nome": "Eziel Alves De Melo Dos Santos",
@@ -373,7 +439,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5652.25,
-        "descontosFerias": 2517.1
+        "descontosFerias": 2517.1,
+        "descontoInss": 407.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2109.75
       },
       {
         "nome": "Alison Renan Alves De Azeredo Coutinho",
@@ -382,7 +451,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4820.19,
-        "descontosFerias": 1582.63
+        "descontosFerias": 1582.63,
+        "descontoInss": 265.62,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1317.01
       },
       {
         "nome": "Julio Cesar Santos De Lira",
@@ -391,7 +463,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 6015.72,
-        "descontosFerias": 2441.38
+        "descontosFerias": 2441.38,
+        "descontoInss": 285.94,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2155.44
       }
     ],
     "Agosto/2026": [
@@ -402,7 +477,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6833.91,
-        "descontosFerias": 437.22
+        "descontosFerias": 437.22,
+        "descontoInss": 437.22,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Clovis Mendes Da Silva",
@@ -411,7 +489,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 977.45,
-        "descontosFerias": 87.75
+        "descontosFerias": 87.75,
+        "descontoInss": 60.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Elionaldo Damasceno Souza Sobrinho",
@@ -420,7 +501,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 358.85,
-        "descontosFerias": 37.82
+        "descontosFerias": 37.82,
+        "descontoInss": 25.9,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 11.92
       },
       {
         "nome": "Hanna Thaylani Alves De Franca",
@@ -429,7 +513,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 762.09,
-        "descontosFerias": 37.28
+        "descontosFerias": 37.28,
+        "descontoInss": 37.28,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Marcelo Queiroz Calheiros De Oliveiras Miteualoção:",
@@ -438,7 +525,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 4088.03,
-        "descontosFerias": 886.48
+        "descontosFerias": 886.48,
+        "descontoInss": 131.64,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 754.84
       },
       {
         "nome": "Pedro Vitor Da Silva Santos",
@@ -447,7 +537,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 779.71,
-        "descontosFerias": 278.26
+        "descontosFerias": 278.26,
+        "descontoInss": 47.3,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 230.96
       },
       {
         "nome": "Eziel Alves De Melo Dos Santos",
@@ -456,7 +549,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 855.99,
-        "descontosFerias": 407.34
+        "descontosFerias": 407.34,
+        "descontoInss": 62.73,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 344.61
       },
       {
         "nome": "Alison Renan Alves De Azeredo Coutinho",
@@ -465,7 +561,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 741.39,
-        "descontosFerias": 246.01
+        "descontosFerias": 246.01,
+        "descontoInss": 43.39,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 202.62
       },
       {
         "nome": "Ewerton Bezerra Pereira Das Merces",
@@ -474,7 +573,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 6402.82,
-        "descontosFerias": 474.93
+        "descontosFerias": 474.93,
+        "descontoInss": 266.83,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       },
       {
         "nome": "Gustavo Rodrigues Soares Da Silva",
@@ -483,7 +585,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 12222.93,
-        "descontosFerias": 1134.14
+        "descontosFerias": 1134.14,
+        "descontoInss": 669.11,
+        "descontoIrrf": 256.93,
+        "descontoOutros": 208.1
       },
       {
         "nome": "Julio Cesar Santos De Lira",
@@ -492,7 +597,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 196.3,
-        "descontosFerias": 129.84
+        "descontosFerias": 129.84,
+        "descontoInss": 16.41,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 113.43
       }
     ]
   },
@@ -525,7 +633,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 8593.02,
-        "descontosFerias": 1520.36
+        "descontosFerias": 1520.36,
+        "descontoInss": 758.02,
+        "descontoIrrf": 568.83,
+        "descontoOutros": 193.51
       },
       {
         "nome": "Elvis Douglas Da Silva",
@@ -534,7 +645,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7840.15,
-        "descontosFerias": 1056.08
+        "descontosFerias": 1056.08,
+        "descontoInss": 649.35,
+        "descontoIrrf": 226.38,
+        "descontoOutros": 180.35
       }
     ],
     "Agosto/2026": [
@@ -545,7 +659,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1321.85,
-        "descontosFerias": 248.67
+        "descontosFerias": 248.67,
+        "descontoInss": 131.38,
+        "descontoIrrf": 87.51,
+        "descontoOutros": 29.78
       },
       {
         "nome": "Elvis Douglas Da Silva",
@@ -554,7 +671,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1206.03,
-        "descontosFerias": 172.43
+        "descontosFerias": 172.43,
+        "descontoInss": 109.85,
+        "descontoIrrf": 34.83,
+        "descontoOutros": 27.75
       }
     ]
   },
@@ -661,7 +781,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 11399.32,
-        "descontosFerias": 2427.0
+        "descontosFerias": 2427.0,
+        "descontoInss": 836.19,
+        "descontoIrrf": 1049.75,
+        "descontoOutros": 541.06
       },
       {
         "nome": "Danilo Antonio Cavalcanti Bezerra",
@@ -670,7 +793,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5211.19,
-        "descontosFerias": 1723.85
+        "descontosFerias": 1723.85,
+        "descontoInss": 367.48,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1356.37
       },
       {
         "nome": "Henrique Do Nascimento Tasende",
@@ -679,7 +805,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5184.9,
-        "descontosFerias": 1439.92
+        "descontosFerias": 1439.92,
+        "descontoInss": 285.29,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1154.63
       },
       {
         "nome": "Raiane Samara Da Silva Santos",
@@ -688,7 +817,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5762.72,
-        "descontosFerias": 1112.32
+        "descontosFerias": 1112.32,
+        "descontoInss": 313.65,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 798.67
       }
     ],
     "Agosto/2026": [
@@ -699,7 +831,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 3873.9,
-        "descontosFerias": 393.0
+        "descontosFerias": 393.0,
+        "descontoInss": 148.26,
+        "descontoIrrf": 161.5,
+        "descontoOutros": 83.24
       },
       {
         "nome": "Danilo Antonio Cavalcanti Bezerra",
@@ -708,7 +843,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 801.85,
-        "descontosFerias": 262.34
+        "descontosFerias": 262.34,
+        "descontoInss": 53.68,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.66
       },
       {
         "nome": "Erik Henrique Durval Pontes",
@@ -717,7 +855,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6934.0,
-        "descontosFerias": 691.18
+        "descontosFerias": 691.18,
+        "descontoInss": 482.77,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.41
       },
       {
         "nome": "Henrique Do Nascimento Tasende",
@@ -726,7 +867,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 797.74,
-        "descontosFerias": 277.55
+        "descontosFerias": 277.55,
+        "descontoInss": 45.47,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 232.08
       },
       {
         "nome": "Jefferson Antonio Bezerra Lira",
@@ -735,7 +879,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6124.24,
-        "descontosFerias": 2047.43
+        "descontosFerias": 2047.43,
+        "descontoInss": 450.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1597.22
       },
       {
         "nome": "Jefferson Cristiano Da Silva",
@@ -744,7 +891,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 11361.72,
-        "descontosFerias": 1611.97
+        "descontosFerias": 1611.97,
+        "descontoInss": 853.72,
+        "descontoIrrf": 758.25,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Karlla De Franca Silva",
@@ -753,7 +903,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4521.71,
-        "descontosFerias": 194.11
+        "descontosFerias": 194.11,
+        "descontoInss": 194.11,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Raiane Samara Da Silva Santos",
@@ -762,7 +915,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 886.6,
-        "descontosFerias": 168.35
+        "descontosFerias": 168.35,
+        "descontoInss": 45.48,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 122.87
       }
     ]
   },
@@ -806,7 +962,10 @@
         "situacao": "Férias 06/07/2026 A 20/07/2026",
         "periodo": "06/07/2026 A 20/07/2026",
         "valorFerias": 3368.78,
-        "descontosFerias": 452.57
+        "descontosFerias": 452.57,
+        "descontoInss": 183.71,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 268.86
       },
       {
         "nome": "Wesley Junior Da Silva Ferreira",
@@ -815,7 +974,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 8343.17,
-        "descontosFerias": 353.53
+        "descontosFerias": 353.53,
+        "descontoInss": 339.1,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 14.43
       }
     ],
     "Agosto/2026": [
@@ -826,7 +988,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 288.27,
-        "descontosFerias": 20.06
+        "descontosFerias": 20.06,
+        "descontoInss": 19.3,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.76
       }
     ]
   },
@@ -861,7 +1026,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 5097.86,
-        "descontosFerias": 357.66
+        "descontosFerias": 357.66,
+        "descontoInss": 159.96,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 197.7
       }
     ],
     "Agosto/2026": [
@@ -872,7 +1040,10 @@
         "situacao": "Férias 17/08/2026 A 15/09/2026",
         "periodo": "17/08/2026 A 15/09/2026",
         "valorFerias": 2482.13,
-        "descontosFerias": 346.45
+        "descontosFerias": 346.45,
+        "descontoInss": 130.75,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 215.7
       }
     ]
   },
@@ -997,7 +1168,10 @@
         "situacao": "Férias 06/07/2026 A 25/07/2026",
         "periodo": "06/07/2026 A 25/07/2026",
         "valorFerias": 5382.07,
-        "descontosFerias": 2581.47
+        "descontosFerias": 2581.47,
+        "descontoInss": 366.23,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2215.24
       },
       {
         "nome": "Mauro Lucas Rocha Calixto",
@@ -1006,7 +1180,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7052.75,
-        "descontosFerias": 453.62
+        "descontosFerias": 453.62,
+        "descontoInss": 453.62,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Nagysson Breno Napoleao Da Silva",
@@ -1015,7 +1192,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7397.06,
-        "descontosFerias": 802.1
+        "descontosFerias": 802.1,
+        "descontoInss": 550.53,
+        "descontoIrrf": 58.06,
+        "descontoOutros": 193.51
       },
       {
         "nome": "Amanda Almeida Dantas",
@@ -1024,7 +1204,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 2503.41,
-        "descontosFerias": 756.14
+        "descontosFerias": 756.14,
+        "descontoInss": 130.54,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 625.6
       },
       {
         "nome": "Alisson Barros Ferreira Dos Santos",
@@ -1033,7 +1216,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4351.98,
-        "descontosFerias": 1541.19
+        "descontosFerias": 1541.19,
+        "descontoInss": 262.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1278.98
       }
     ],
     "Agosto/2026": [
@@ -1044,7 +1230,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 6664.53,
-        "descontosFerias": 287.24
+        "descontosFerias": 287.24,
+        "descontoInss": 287.24,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Bruna Lima Da Silva",
@@ -1053,7 +1242,10 @@
         "situacao": "Férias 17/08/2026 A 15/09/2026",
         "periodo": "17/08/2026 A 15/09/2026",
         "valorFerias": 2314.08,
-        "descontosFerias": 100.23
+        "descontosFerias": 100.23,
+        "descontoInss": 100.23,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Mauro Lucas Rocha Calixto",
@@ -1062,7 +1254,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1084.98,
-        "descontosFerias": 73.71
+        "descontosFerias": 73.71,
+        "descontoInss": 73.71,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Nadson Bruno Napoleao Da Silva",
@@ -1071,7 +1266,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 8601.02,
-        "descontosFerias": 918.56
+        "descontosFerias": 918.56,
+        "descontoInss": 645.9,
+        "descontoIrrf": 78.43,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Nagysson Breno Napoleao Da Silva",
@@ -1080,7 +1278,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1137.84,
-        "descontosFerias": 121.7
+        "descontosFerias": 121.7,
+        "descontoInss": 82.99,
+        "descontoIrrf": 8.93,
+        "descontoOutros": 29.78
       },
       {
         "nome": "Rodrigo Fernandes Rodrigues",
@@ -1089,7 +1290,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4888.58,
-        "descontosFerias": 223.21
+        "descontosFerias": 223.21,
+        "descontoInss": 223.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Amanda Almeida Dantas",
@@ -1098,7 +1302,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 1914.32,
-        "descontosFerias": 580.64
+        "descontosFerias": 580.64,
+        "descontoInss": 102.26,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 478.38
       },
       {
         "nome": "Alisson Barros Ferreira Dos Santos",
@@ -1107,7 +1314,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 669.48,
-        "descontosFerias": 231.32
+        "descontosFerias": 231.32,
+        "descontoInss": 34.56,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 196.76
       }
     ]
   },
@@ -1160,7 +1370,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 7072.48,
-        "descontosFerias": 227.75
+        "descontosFerias": 227.75,
+        "descontoInss": 227.75,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jose Helmiton Gomes De Lima",
@@ -1169,7 +1382,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 7900.97,
-        "descontosFerias": 495.26
+        "descontosFerias": 495.26,
+        "descontoInss": 283.13,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 212.13
       }
     ],
     "Agosto/2026": [
@@ -1180,7 +1396,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 242.4,
-        "descontosFerias": 11.55
+        "descontosFerias": 11.55,
+        "descontoInss": 11.55,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jose Helmiton Gomes De Lima",
@@ -1189,7 +1408,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 264.82,
-        "descontosFerias": 29.06
+        "descontosFerias": 29.06,
+        "descontoInss": 17.9,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 11.16
       },
       {
         "nome": "Valderez Caetano De Souza",
@@ -1198,7 +1420,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 7670.29,
-        "descontosFerias": 608.26
+        "descontosFerias": 608.26,
+        "descontoInss": 354.59,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 253.67
       }
     ]
   },
@@ -1251,7 +1476,10 @@
         "situacao": "Férias 20/07/2026 A 03/08/2026",
         "periodo": "20/07/2026 A 03/08/2026",
         "valorFerias": 3197.28,
-        "descontosFerias": 365.51
+        "descontosFerias": 365.51,
+        "descontoInss": 186.88,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 178.63
       },
       {
         "nome": "Dayse Kassia Da Silva Oliveira",
@@ -1260,7 +1488,10 @@
         "situacao": "Férias 08/06/2026 A 07/07/2026",
         "periodo": "08/06/2026 A 07/07/2026",
         "valorFerias": 1024.12,
-        "descontosFerias": 111.1
+        "descontosFerias": 111.1,
+        "descontoInss": 47.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 63.13
       }
     ],
     "Agosto/2026": [
@@ -1271,7 +1502,10 @@
         "situacao": "Férias 20/07/2026 A 03/08/2026",
         "periodo": "20/07/2026 A 03/08/2026",
         "valorFerias": 799.34,
-        "descontosFerias": 97.66
+        "descontosFerias": 97.66,
+        "descontoInss": 53.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 44.66
       },
       {
         "nome": "Michel Gleydson Da Silva Melo",
@@ -1280,7 +1514,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 5667.92,
-        "descontosFerias": 777.3
+        "descontosFerias": 777.3,
+        "descontoInss": 181.43,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 595.87
       }
     ]
   },
@@ -1315,7 +1552,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5368.63,
-        "descontosFerias": 272.37
+        "descontosFerias": 272.37,
+        "descontoInss": 272.37,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -1326,7 +1566,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 826.01,
-        "descontosFerias": 41.11
+        "descontosFerias": 41.11,
+        "descontoInss": 41.11,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Wallisson Dhonatan Alves Dos Santos",
@@ -1335,7 +1578,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 4532.45,
-        "descontosFerias": 147.2
+        "descontosFerias": 147.2,
+        "descontoInss": 132.01,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 15.19
       }
     ]
   },
@@ -1424,7 +1670,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5545.46,
-        "descontosFerias": 1885.06
+        "descontosFerias": 1885.06,
+        "descontoInss": 365.92,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1519.14
       },
       {
         "nome": "Jonatas Henrique Silva Do Carmo",
@@ -1433,7 +1682,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7062.85,
-        "descontosFerias": 460.45
+        "descontosFerias": 460.45,
+        "descontoInss": 460.45,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Luiz Henrique Barros Albuquerque",
@@ -1442,7 +1694,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5597.15,
-        "descontosFerias": 548.65
+        "descontosFerias": 548.65,
+        "descontoInss": 368.3,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Robson Da Silva Monteiro",
@@ -1451,7 +1706,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7134.74,
-        "descontosFerias": 2981.48
+        "descontosFerias": 2981.48,
+        "descontoInss": 537.68,
+        "descontoIrrf": 102.0,
+        "descontoOutros": 2341.8
       },
       {
         "nome": "Bruno Cezar Silva Dos Santos",
@@ -1460,7 +1718,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4675.82,
-        "descontosFerias": 1763.91
+        "descontosFerias": 1763.91,
+        "descontoInss": 324.98,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1438.93
       }
     ],
     "Agosto/2026": [
@@ -1471,7 +1732,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 853.29,
-        "descontosFerias": 291.47
+        "descontosFerias": 291.47,
+        "descontoInss": 57.75,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 233.72
       },
       {
         "nome": "Christines Mateus Nascimento Da Silva",
@@ -1480,7 +1744,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5836.23,
-        "descontosFerias": 332.21
+        "descontosFerias": 332.21,
+        "descontoInss": 332.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Danilo Hericles Santana De Lima",
@@ -1489,7 +1756,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6597.66,
-        "descontosFerias": 389.44
+        "descontosFerias": 389.44,
+        "descontoInss": 389.44,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jonatas Henrique Silva Do Carmo",
@@ -1498,7 +1768,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1086.51,
-        "descontosFerias": 55.19
+        "descontosFerias": 55.19,
+        "descontoInss": 55.19,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Luiz Henrique Barros Albuquerque",
@@ -1507,7 +1780,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 861.03,
-        "descontosFerias": 72.98
+        "descontosFerias": 72.98,
+        "descontoInss": 45.23,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Robson Da Silva Monteiro",
@@ -1516,7 +1792,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1097.63,
-        "descontosFerias": 548.68
+        "descontosFerias": 548.68,
+        "descontoInss": 85.15,
+        "descontoIrrf": 15.69,
+        "descontoOutros": 447.84
       },
       {
         "nome": "Bruno Cezar Silva Dos Santos",
@@ -1525,7 +1804,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 719.39,
-        "descontosFerias": 270.85
+        "descontosFerias": 270.85,
+        "descontoInss": 49.47,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 221.38
       }
     ]
   },
@@ -1560,7 +1842,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5543.5,
-        "descontosFerias": 1658.99
+        "descontosFerias": 1658.99,
+        "descontoInss": 340.32,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1318.67
       }
     ],
     "Agosto/2026": [
@@ -1571,7 +1856,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4041.42,
-        "descontosFerias": 278.74
+        "descontosFerias": 278.74,
+        "descontoInss": 57.52,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 221.22
       }
     ]
   },
@@ -1606,7 +1894,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 4887.12,
-        "descontosFerias": 1577.84
+        "descontosFerias": 1577.84,
+        "descontoInss": 184.74,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1393.1
       }
     ],
     "Agosto/2026": [
@@ -1617,7 +1908,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 160.2,
-        "descontosFerias": 98.62
+        "descontosFerias": 98.62,
+        "descontoInss": 9.3,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 89.32
       }
     ]
   },
@@ -1724,7 +2018,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4743.73,
-        "descontosFerias": 205.83
+        "descontosFerias": 205.83,
+        "descontoInss": 205.83,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Geyson Ferreira De Oliveira",
@@ -1733,7 +2030,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5333.59,
-        "descontosFerias": 510.56
+        "descontosFerias": 510.56,
+        "descontoInss": 330.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Jefferson Germano Da Silva Ribeiro",
@@ -1742,7 +2042,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 6087.15,
-        "descontosFerias": 2431.4
+        "descontosFerias": 2431.4,
+        "descontoInss": 298.3,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2133.1
       },
       {
         "nome": "Jose Weber Franklin De Carvalho",
@@ -1751,7 +2054,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 7503.38,
-        "descontosFerias": 3041.16
+        "descontosFerias": 3041.16,
+        "descontoInss": 375.78,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2665.38
       },
       {
         "nome": "Renato De Lima Santana",
@@ -1760,7 +2066,10 @@
         "situacao": "Férias 06/07/2026 A 25/07/2026",
         "periodo": "06/07/2026 A 25/07/2026",
         "valorFerias": 8467.46,
-        "descontosFerias": 844.78
+        "descontosFerias": 844.78,
+        "descontoInss": 636.68,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       },
       {
         "nome": "Silvio Dyjavan Guimaraes Ferreira",
@@ -1769,7 +2078,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 7211.09,
-        "descontosFerias": 503.51
+        "descontosFerias": 503.51,
+        "descontoInss": 305.81,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 197.7
       },
       {
         "nome": "Thiago Lucas Correia Da Silva",
@@ -1778,7 +2090,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6056.65,
-        "descontosFerias": 549.69
+        "descontosFerias": 549.69,
+        "descontoInss": 369.34,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       }
     ],
     "Agosto/2026": [
@@ -1789,7 +2104,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 7244.71,
-        "descontosFerias": 532.74
+        "descontosFerias": 532.74,
+        "descontoInss": 324.64,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       },
       {
         "nome": "Ewerton Araujo Teixeira",
@@ -1798,7 +2116,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 7803.57,
-        "descontosFerias": 328.88
+        "descontosFerias": 328.88,
+        "descontoInss": 328.88,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jackson Antonio Batista Dos Santos",
@@ -1807,7 +2128,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 7820.87,
-        "descontosFerias": 498.35
+        "descontosFerias": 498.35,
+        "descontoInss": 498.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jesaias Paulo Da Silva",
@@ -1816,7 +2140,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 7177.24,
-        "descontosFerias": 684.33
+        "descontosFerias": 684.33,
+        "descontoInss": 490.1,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Marcelo Das Neves Olimpio Jose",
@@ -1825,7 +2152,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 7417.63,
-        "descontosFerias": 322.68
+        "descontosFerias": 322.68,
+        "descontoInss": 322.68,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Weslayne Franca Da Silva",
@@ -1834,7 +2164,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 729.75,
-        "descontosFerias": 33.99
+        "descontosFerias": 33.99,
+        "descontoInss": 33.99,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Geyson Ferreira De Oliveira",
@@ -1843,7 +2176,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 820.7,
-        "descontosFerias": 76.25
+        "descontosFerias": 76.25,
+        "descontoInss": 48.5,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Jefferson Germano Da Silva Ribeiro",
@@ -1852,7 +2188,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 197.31,
-        "descontosFerias": 100.6
+        "descontosFerias": 100.6,
+        "descontoInss": 12.26,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 88.34
       },
       {
         "nome": "Jose Weber Franklin De Carvalho",
@@ -1861,7 +2200,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 2089.73,
-        "descontosFerias": 114.82
+        "descontosFerias": 114.82,
+        "descontoInss": 15.82,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 99.0
       },
       {
         "nome": "Silvio Dyjavan Guimaraes Ferreira",
@@ -1870,7 +2212,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 250.11,
-        "descontosFerias": 23.69
+        "descontosFerias": 23.69,
+        "descontoInss": 13.29,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 10.4
       },
       {
         "nome": "Thiago Lucas Correia Da Silva",
@@ -1879,7 +2224,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 931.65,
-        "descontosFerias": 84.66
+        "descontosFerias": 84.66,
+        "descontoInss": 56.91,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       }
     ]
   },
@@ -1956,7 +2304,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 5898.77,
-        "descontosFerias": 299.74
+        "descontosFerias": 299.74,
+        "descontoInss": 299.74,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -1967,7 +2318,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6822.82,
-        "descontosFerias": 669.17
+        "descontosFerias": 669.17,
+        "descontoInss": 460.76,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.41
       }
     ]
   },
@@ -2002,7 +2356,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5189.61,
-        "descontosFerias": 2431.06
+        "descontosFerias": 2431.06,
+        "descontoInss": 344.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2086.09
       },
       {
         "nome": "Leticia Araujo De Aguiar",
@@ -2011,7 +2368,10 @@
         "situacao": "Férias 13/07/2026 A 11/08/2026",
         "periodo": "13/07/2026 A 11/08/2026",
         "valorFerias": 2855.2,
-        "descontosFerias": 122.2
+        "descontosFerias": 122.2,
+        "descontoInss": 122.2,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Mikael Pereira De Melo",
@@ -2020,7 +2380,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6109.07,
-        "descontosFerias": 2413.15
+        "descontosFerias": 2413.15,
+        "descontoInss": 481.83,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1931.32
       }
     ],
     "Agosto/2026": [
@@ -2031,7 +2394,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1376.29,
-        "descontosFerias": 382.76
+        "descontosFerias": 382.76,
+        "descontoInss": 54.83,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 327.93
       },
       {
         "nome": "Kleber Souza De Melo",
@@ -2040,7 +2406,10 @@
         "situacao": "Férias 10/08/2026 A 08/09/2026",
         "periodo": "10/08/2026 A 08/09/2026",
         "valorFerias": 5370.12,
-        "descontosFerias": 1192.55
+        "descontosFerias": 1192.55,
+        "descontoInss": 367.19,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 825.36
       },
       {
         "nome": "Leticia Araujo De Aguiar",
@@ -2049,7 +2418,10 @@
         "situacao": "Férias 13/07/2026 A 11/08/2026",
         "periodo": "13/07/2026 A 11/08/2026",
         "valorFerias": 1653.06,
-        "descontosFerias": 70.18
+        "descontosFerias": 70.18,
+        "descontoInss": 70.18,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Mikael Pereira De Melo",
@@ -2058,7 +2430,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 2617.45,
-        "descontosFerias": 355.63
+        "descontosFerias": 355.63,
+        "descontoInss": 58.49,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 297.14
       },
       {
         "nome": "Vitor Mateus Do Nascimento",
@@ -2067,7 +2442,10 @@
         "situacao": "Férias 10/08/2026 A 08/09/2026",
         "periodo": "10/08/2026 A 08/09/2026",
         "valorFerias": 4823.64,
-        "descontosFerias": 436.49
+        "descontosFerias": 436.49,
+        "descontoInss": 283.88,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 152.61
       },
       {
         "nome": "Willian Eustaquio Lima Da Silva",
@@ -2076,7 +2454,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 11598.62,
-        "descontosFerias": 2293.96
+        "descontosFerias": 2293.96,
+        "descontoInss": 791.8,
+        "descontoIrrf": 625.12,
+        "descontoOutros": 877.04
       }
     ]
   },
@@ -2147,7 +2528,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 7010.27,
-        "descontosFerias": 655.42
+        "descontosFerias": 655.42,
+        "descontoInss": 475.07,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       }
     ],
     "Agosto/2026": [
@@ -2158,7 +2542,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 8382.12,
-        "descontosFerias": 444.93
+        "descontosFerias": 444.93,
+        "descontoInss": 444.93,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Ailton Cupertino De Almeida Filho",
@@ -2167,7 +2554,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 2343.25,
-        "descontosFerias": 100.67
+        "descontosFerias": 100.67,
+        "descontoInss": 72.92,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Rai Ramos Dos Santos",
@@ -2176,7 +2566,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1078.26,
-        "descontosFerias": 108.34
+        "descontosFerias": 108.34,
+        "descontoInss": 80.59,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       }
     ]
   },
@@ -2274,7 +2667,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5874.35,
-        "descontosFerias": 287.32
+        "descontosFerias": 287.32,
+        "descontoInss": 287.32,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Carlos Andre De Oliveira",
@@ -2283,7 +2679,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 11467.56,
-        "descontosFerias": 848.61
+        "descontosFerias": 848.61,
+        "descontoInss": 421.12,
+        "descontoIrrf": 215.36,
+        "descontoOutros": 212.13
       },
       {
         "nome": "Wilson Costa De Oliveira Junior",
@@ -2292,7 +2691,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5785.93,
-        "descontosFerias": 538.12
+        "descontosFerias": 538.12,
+        "descontoInss": 357.77,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Fernando Angelo Lima Da Silva",
@@ -2301,7 +2703,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5287.85,
-        "descontosFerias": 494.49
+        "descontosFerias": 494.49,
+        "descontoInss": 300.98,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 193.51
       },
       {
         "nome": "Jonathan Igor Silva De Sa",
@@ -2310,7 +2715,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6117.23,
-        "descontosFerias": 529.61
+        "descontosFerias": 529.61,
+        "descontoInss": 349.26,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Jose Cicero De Vasconcelos",
@@ -2319,7 +2727,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5914.82,
-        "descontosFerias": 524.79
+        "descontosFerias": 524.79,
+        "descontoInss": 344.44,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Jose Julio Barbosa Do Carmo Junior",
@@ -2328,7 +2739,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 11597.17,
-        "descontosFerias": 2236.18
+        "descontosFerias": 2236.18,
+        "descontoInss": 836.8,
+        "descontoIrrf": 845.16,
+        "descontoOutros": 554.22
       }
     ],
     "Agosto/2026": [
@@ -2339,7 +2753,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5628.94,
-        "descontosFerias": 497.91
+        "descontosFerias": 497.91,
+        "descontoInss": 303.68,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Dayana Mabel Bezerra De Sá",
@@ -2348,7 +2765,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5207.96,
-        "descontosFerias": 258.35
+        "descontosFerias": 258.35,
+        "descontoInss": 258.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Lucas Rodrigo Nunes Caitano",
@@ -2357,7 +2777,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5777.2,
-        "descontosFerias": 539.2
+        "descontosFerias": 539.2,
+        "descontoInss": 344.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Ramon Floriano De Sena Peixoto",
@@ -2366,7 +2789,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6634.97,
-        "descontosFerias": 420.0
+        "descontosFerias": 420.0,
+        "descontoInss": 420.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Silvania Lins Santos Da Silva",
@@ -2375,7 +2801,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 903.9,
-        "descontosFerias": 42.12
+        "descontosFerias": 42.12,
+        "descontoInss": 42.12,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Carlos Andre De Oliveira",
@@ -2384,7 +2813,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 674.43,
-        "descontosFerias": 41.57
+        "descontosFerias": 41.57,
+        "descontoInss": 19.08,
+        "descontoIrrf": 11.33,
+        "descontoOutros": 11.16
       },
       {
         "nome": "Wilson Costa De Oliveira Junior",
@@ -2393,7 +2825,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 3853.22,
-        "descontosFerias": 82.11
+        "descontosFerias": 82.11,
+        "descontoInss": 54.36,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Fernando Angelo Lima Da Silva",
@@ -2402,7 +2837,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 813.56,
-        "descontosFerias": 76.07
+        "descontosFerias": 76.07,
+        "descontoInss": 46.29,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 29.78
       },
       {
         "nome": "Jonathan Igor Silva De Sa",
@@ -2411,7 +2849,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 941.12,
-        "descontosFerias": 85.54
+        "descontosFerias": 85.54,
+        "descontoInss": 57.79,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Jose Cicero De Vasconcelos",
@@ -2420,7 +2861,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 909.86,
-        "descontosFerias": 84.28
+        "descontosFerias": 84.28,
+        "descontoInss": 56.53,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Jose Julio Barbosa Do Carmo Junior",
@@ -2429,7 +2873,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1783.78,
-        "descontosFerias": 380.48
+        "descontosFerias": 380.48,
+        "descontoInss": 165.19,
+        "descontoIrrf": 130.02,
+        "descontoOutros": 85.27
       }
     ]
   },
@@ -2482,7 +2929,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4788.4,
-        "descontosFerias": 255.68
+        "descontosFerias": 255.68,
+        "descontoInss": 229.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 26.33
       },
       {
         "nome": "Thyalison Da Silva Aciole",
@@ -2491,7 +2941,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4022.87,
-        "descontosFerias": 170.76
+        "descontosFerias": 170.76,
+        "descontoInss": 170.76,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -2502,7 +2955,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 736.66,
-        "descontosFerias": 38.12
+        "descontosFerias": 38.12,
+        "descontoInss": 34.07,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 4.05
       },
       {
         "nome": "Jaciara Maria Silva De Santana",
@@ -2511,7 +2967,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5284.57,
-        "descontosFerias": 285.37
+        "descontosFerias": 285.37,
+        "descontoInss": 271.19,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 14.18
       },
       {
         "nome": "Thyalison Da Silva Aciole",
@@ -2520,7 +2979,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 618.8,
-        "descontosFerias": 27.45
+        "descontosFerias": 27.45,
+        "descontoInss": 27.45,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ]
   },
@@ -2573,7 +3035,10 @@
         "situacao": "Férias 06/07/2026 A 25/07/2026",
         "periodo": "06/07/2026 A 25/07/2026",
         "valorFerias": 4866.93,
-        "descontosFerias": 1595.14
+        "descontosFerias": 1595.14,
+        "descontoInss": 216.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1378.17
       },
       {
         "nome": "Lucas Borges Batista Firmino",
@@ -2582,7 +3047,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 5668.91,
-        "descontosFerias": 479.94
+        "descontosFerias": 479.94,
+        "descontoInss": 296.13,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 183.81
       }
     ],
     "Agosto/2026": [
@@ -2593,7 +3061,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4473.42,
-        "descontosFerias": 389.43
+        "descontosFerias": 389.43,
+        "descontoInss": 217.87,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 171.56
       },
       {
         "nome": "Thiago Vinicius Dos Santos Silva",
@@ -2602,7 +3073,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5808.24,
-        "descontosFerias": 513.8
+        "descontosFerias": 513.8,
+        "descontoInss": 342.24,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 171.56
       }
     ]
   },
@@ -2626,7 +3100,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 4479.97,
-        "descontosFerias": 194.88
+        "descontosFerias": 194.88,
+        "descontoInss": 194.88,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Jean Pereira Da Silva",
@@ -2635,7 +3112,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 8182.18,
-        "descontosFerias": 511.46
+        "descontosFerias": 511.46,
+        "descontoInss": 511.46,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ]
   },
@@ -2733,7 +3213,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5652.31,
-        "descontosFerias": 1863.88
+        "descontosFerias": 1863.88,
+        "descontoInss": 405.62,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1458.26
       },
       {
         "nome": "Medlyn Rayssa Lima Oliveira",
@@ -2742,7 +3225,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 2895.44,
-        "descontosFerias": 273.11
+        "descontosFerias": 273.11,
+        "descontoInss": 137.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 135.14
       },
       {
         "nome": "Moises Elias Da Silva Junior",
@@ -2751,7 +3237,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 3763.01,
-        "descontosFerias": 1242.62
+        "descontosFerias": 1242.62,
+        "descontoInss": 273.08,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 969.54
       },
       {
         "nome": "Natalia Barros Da Silva",
@@ -2760,7 +3249,10 @@
         "situacao": "Férias 15/06/2026 A 14/07/2026",
         "periodo": "15/06/2026 A 14/07/2026",
         "valorFerias": 1946.44,
-        "descontosFerias": 81.05
+        "descontosFerias": 81.05,
+        "descontoInss": 81.05,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Renilson Farias Feitosa",
@@ -2769,7 +3261,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6104.58,
-        "descontosFerias": 2756.19
+        "descontosFerias": 2756.19,
+        "descontoInss": 428.38,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2327.81
       }
     ],
     "Agosto/2026": [
@@ -2780,7 +3275,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 10934.53,
-        "descontosFerias": 1964.57
+        "descontosFerias": 1964.57,
+        "descontoInss": 782.61,
+        "descontoIrrf": 549.1,
+        "descontoOutros": 632.86
       },
       {
         "nome": "Jonatas Pedro Damascena",
@@ -2789,7 +3287,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 885.76,
-        "descontosFerias": 277.12
+        "descontosFerias": 277.12,
+        "descontoInss": 59.91,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 217.21
       },
       {
         "nome": "Karina Vanessa Da Silva",
@@ -2798,7 +3299,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 5345.94,
-        "descontosFerias": 261.87
+        "descontosFerias": 261.87,
+        "descontoInss": 261.87,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Medlyn Rayssa Lima Oliveira",
@@ -2807,7 +3311,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 2254.64,
-        "descontosFerias": 208.43
+        "descontosFerias": 208.43,
+        "descontoInss": 105.09,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 103.34
       },
       {
         "nome": "Moises Elias Da Silva Junior",
@@ -2816,7 +3323,10 @@
         "situacao": "Férias 15/07/2026 A 13/08/2026",
         "periodo": "15/07/2026 A 13/08/2026",
         "valorFerias": 2931.3,
-        "descontosFerias": 944.86
+        "descontosFerias": 944.86,
+        "descontoInss": 203.44,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 741.42
       },
       {
         "nome": "Renilson Farias Feitosa",
@@ -2825,7 +3335,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 956.39,
-        "descontosFerias": 432.86
+        "descontosFerias": 432.86,
+        "descontoInss": 74.72,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 358.14
       }
     ]
   },
@@ -2896,7 +3409,10 @@
         "situacao": "Férias 03/06/2026 A 02/07/2026",
         "periodo": "03/06/2026 A 02/07/2026",
         "valorFerias": 417.82,
-        "descontosFerias": 133.17
+        "descontosFerias": 133.17,
+        "descontoInss": 28.87,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 104.3
       },
       {
         "nome": "Fernando Queiroz Ferreira",
@@ -2905,7 +3421,10 @@
         "situacao": "Férias 03/06/2026 A 02/07/2026",
         "periodo": "03/06/2026 A 02/07/2026",
         "valorFerias": 427.05,
-        "descontosFerias": 73.29
+        "descontosFerias": 73.29,
+        "descontoInss": 30.24,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 43.05
       },
       {
         "nome": "Jose Lucas Silva De Morais",
@@ -2914,7 +3433,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 8415.35,
-        "descontosFerias": 2585.28
+        "descontosFerias": 2585.28,
+        "descontoInss": 669.87,
+        "descontoIrrf": 134.73,
+        "descontoOutros": 1780.68
       },
       {
         "nome": "Willams Xavier Da Silva",
@@ -2923,7 +3445,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 6363.89,
-        "descontosFerias": 418.3
+        "descontosFerias": 418.3,
+        "descontoInss": 247.88,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 170.42
       }
     ],
     "Agosto/2026": [
@@ -2934,7 +3459,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 6620.91,
-        "descontosFerias": 452.79
+        "descontosFerias": 452.79,
+        "descontoInss": 273.4,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 179.39
       },
       {
         "nome": "Erinaldo Dos Santos Filho",
@@ -2943,7 +3471,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 6047.92,
-        "descontosFerias": 1847.77
+        "descontosFerias": 1847.77,
+        "descontoInss": 274.86,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1572.91
       },
       {
         "nome": "Fabio Reinaldo Dos Santos Dantas",
@@ -2952,7 +3483,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 6010.35,
-        "descontosFerias": 509.64
+        "descontosFerias": 509.64,
+        "descontoInss": 336.23,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 173.41
       },
       {
         "nome": "Flavia Janielle Da Silva",
@@ -2961,7 +3495,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 4303.64,
-        "descontosFerias": 1621.35
+        "descontosFerias": 1621.35,
+        "descontoInss": 222.67,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1398.68
       },
       {
         "nome": "Jose Lucas Silva De Morais",
@@ -2970,7 +3507,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 1294.45,
-        "descontosFerias": 400.36
+        "descontosFerias": 400.36,
+        "descontoInss": 105.67,
+        "descontoIrrf": 20.73,
+        "descontoOutros": 273.96
       },
       {
         "nome": "Monique Oliveira Da Silva",
@@ -2979,7 +3519,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 5316.87,
-        "descontosFerias": 1304.45
+        "descontosFerias": 1304.45,
+        "descontoInss": 274.73,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1029.72
       },
       {
         "nome": "Willams Xavier Da Silva",
@@ -2988,7 +3531,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 221.1,
-        "descontosFerias": 23.54
+        "descontosFerias": 23.54,
+        "descontoInss": 14.57,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 8.97
       }
     ]
   },
@@ -3050,7 +3596,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4974.64,
-        "descontosFerias": 450.35
+        "descontosFerias": 450.35,
+        "descontoInss": 270.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 180.35
       },
       {
         "nome": "Jaziel Pedro Da Silva Rodrigues",
@@ -3059,7 +3608,10 @@
         "situacao": "Férias 15/06/2026 A 14/07/2026",
         "periodo": "15/06/2026 A 14/07/2026",
         "valorFerias": 2017.61,
-        "descontosFerias": 87.84
+        "descontosFerias": 87.84,
+        "descontoInss": 87.84,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -3070,7 +3622,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 6186.11,
-        "descontosFerias": 565.74
+        "descontosFerias": 565.74,
+        "descontoInss": 364.58,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 201.16
       },
       {
         "nome": "Ewerton Edvaldo Laurindo Dos Santos",
@@ -3079,7 +3634,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 765.17,
-        "descontosFerias": 66.44
+        "descontosFerias": 66.44,
+        "descontoInss": 38.69,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 27.75
       },
       {
         "nome": "Jhonatas Wesley Neves Guedes",
@@ -3088,7 +3646,10 @@
         "situacao": "Férias 03/08/2026 A 01/09/2026",
         "periodo": "03/08/2026 A 01/09/2026",
         "valorFerias": 4929.06,
-        "descontosFerias": 2501.51
+        "descontosFerias": 2501.51,
+        "descontoInss": 320.26,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2181.25
       }
     ]
   },
@@ -3141,7 +3702,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 8571.44,
-        "descontosFerias": 601.51
+        "descontosFerias": 601.51,
+        "descontoInss": 403.81,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 197.7
       },
       {
         "nome": "William Da Silva Andrade",
@@ -3150,7 +3714,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 7643.68,
-        "descontosFerias": 2742.28
+        "descontosFerias": 2742.28,
+        "descontoInss": 397.42,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2344.86
       },
       {
         "nome": "Antonio Ricardo Da Silva",
@@ -3159,7 +3726,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 8363.11,
-        "descontosFerias": 977.63
+        "descontosFerias": 977.63,
+        "descontoInss": 613.77,
+        "descontoIrrf": 184.47,
+        "descontoOutros": 179.39
       }
     ],
     "Agosto/2026": [
@@ -3170,7 +3740,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 290.55,
-        "descontosFerias": 29.5
+        "descontosFerias": 29.5,
+        "descontoInss": 19.1,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 10.4
       },
       {
         "nome": "Luiz Pedro Dos Reis",
@@ -3179,7 +3752,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 170.9,
-        "descontosFerias": 19.84
+        "descontosFerias": 19.84,
+        "descontoInss": 9.44,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 10.4
       },
       {
         "nome": "William Da Silva Andrade",
@@ -3188,7 +3764,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 245.35,
-        "descontosFerias": 141.3
+        "descontosFerias": 141.3,
+        "descontoInss": 17.89,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 123.41
       }
     ]
   },
@@ -3241,7 +3820,10 @@
         "situacao": "Férias 22/07/2026 A 20/08/2026",
         "periodo": "22/07/2026 A 20/08/2026",
         "valorFerias": 2584.36,
-        "descontosFerias": 852.16
+        "descontosFerias": 852.16,
+        "descontoInss": 161.68,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 690.48
       }
     ],
     "Agosto/2026": [
@@ -3252,7 +3834,10 @@
         "situacao": "Férias 22/07/2026 A 20/08/2026",
         "periodo": "22/07/2026 A 20/08/2026",
         "valorFerias": 5168.58,
-        "descontosFerias": 1694.46
+        "descontosFerias": 1694.46,
+        "descontoInss": 313.5,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1380.96
       }
     ]
   },
@@ -3294,7 +3879,10 @@
         "situacao": "Férias 13/07/2026 A 11/08/2026",
         "periodo": "13/07/2026 A 11/08/2026",
         "valorFerias": 5550.26,
-        "descontosFerias": 2282.76
+        "descontosFerias": 2282.76,
+        "descontoInss": 482.58,
+        "descontoIrrf": 240.24,
+        "descontoOutros": 1559.94
       },
       {
         "nome": "Carlos Fernando De Lima",
@@ -3303,7 +3891,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 11300.73,
-        "descontosFerias": 2430.29
+        "descontosFerias": 2430.29,
+        "descontoInss": 870.64,
+        "descontoIrrf": 863.42,
+        "descontoOutros": 696.23
       },
       {
         "nome": "Messias Lopes De Oliveira",
@@ -3312,7 +3903,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 6431.78,
-        "descontosFerias": 3070.71
+        "descontosFerias": 3070.71,
+        "descontoInss": 452.46,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2618.25
       },
       {
         "nome": "Renato Damasceno Da Silva",
@@ -3321,7 +3915,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 6739.42,
-        "descontosFerias": 3110.05
+        "descontosFerias": 3110.05,
+        "descontoInss": 517.01,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2593.04
       },
       {
         "nome": "Laercio Joaquim Dos Santos Santana",
@@ -3330,7 +3927,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 8180.9,
-        "descontosFerias": 773.52
+        "descontosFerias": 773.52,
+        "descontoInss": 565.42,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       }
     ],
     "Agosto/2026": [
@@ -3341,7 +3941,10 @@
         "situacao": "Férias 13/07/2026 A 11/08/2026",
         "periodo": "13/07/2026 A 11/08/2026",
         "valorFerias": 3213.32,
-        "descontosFerias": 1333.64
+        "descontosFerias": 1333.64,
+        "descontoInss": 291.43,
+        "descontoIrrf": 139.09,
+        "descontoOutros": 903.12
       },
       {
         "nome": "Daniel Antonio Da Silva",
@@ -3350,7 +3953,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 9317.93,
-        "descontosFerias": 1289.75
+        "descontosFerias": 1289.75,
+        "descontoInss": 655.92,
+        "descontoIrrf": 439.6,
+        "descontoOutros": 194.23
       },
       {
         "nome": "Jose Carlos De Lira Carneiro",
@@ -3359,7 +3965,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 7928.42,
-        "descontosFerias": 845.45
+        "descontosFerias": 845.45,
+        "descontoInss": 637.04,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.41
       }
     ]
   },
@@ -3392,7 +4001,10 @@
         "situacao": "Férias 06/07/2026 A 20/07/2026",
         "periodo": "06/07/2026 A 20/07/2026",
         "valorFerias": 3136.51,
-        "descontosFerias": 831.06
+        "descontosFerias": 831.06,
+        "descontoInss": 206.76,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 624.3
       },
       {
         "nome": "Rafael Da Silva Gabriel",
@@ -3401,7 +4013,10 @@
         "situacao": "Férias 16/07/2026 A 30/07/2026",
         "periodo": "16/07/2026 A 30/07/2026",
         "valorFerias": 3343.53,
-        "descontosFerias": 414.87
+        "descontosFerias": 414.87,
+        "descontoInss": 191.58,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 223.29
       }
     ]
   },
@@ -3443,7 +4058,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 8100.24,
-        "descontosFerias": 1951.31
+        "descontosFerias": 1951.31,
+        "descontoInss": 594.84,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 1356.47
       },
       {
         "nome": "Josadark Jose Do Nascimento",
@@ -3452,7 +4070,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 14421.51,
-        "descontosFerias": 6218.62
+        "descontosFerias": 6218.62,
+        "descontoInss": 996.47,
+        "descontoIrrf": 1143.54,
+        "descontoOutros": 4078.61
       },
       {
         "nome": "Jose Roberto De Santana Silva",
@@ -3461,7 +4082,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 7636.08,
-        "descontosFerias": 3543.97
+        "descontosFerias": 3543.97,
+        "descontoInss": 644.7,
+        "descontoIrrf": 183.83,
+        "descontoOutros": 2715.44
       }
     ],
     "Agosto/2026": [
@@ -3472,7 +4096,10 @@
         "situacao": "Férias 10/08/2026 A 08/09/2026",
         "periodo": "10/08/2026 A 08/09/2026",
         "valorFerias": 6758.35,
-        "descontosFerias": 992.64
+        "descontosFerias": 992.64,
+        "descontoInss": 556.79,
+        "descontoIrrf": 283.24,
+        "descontoOutros": 152.61
       },
       {
         "nome": "Jose Rogerio De Souza",
@@ -3481,7 +4108,10 @@
         "situacao": "Férias 17/08/2026 A 15/09/2026",
         "periodo": "17/08/2026 A 15/09/2026",
         "valorFerias": 4539.58,
-        "descontosFerias": 886.84
+        "descontosFerias": 886.84,
+        "descontoInss": 410.6,
+        "descontoIrrf": 190.6,
+        "descontoOutros": 285.64
       }
     ]
   },
@@ -3505,7 +4135,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 6185.62,
-        "descontosFerias": 206.76
+        "descontosFerias": 206.76,
+        "descontoInss": 206.76,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -3516,7 +4149,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 212.57,
-        "descontosFerias": 13.01
+        "descontosFerias": 13.01,
+        "descontoInss": 13.01,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ]
   },
@@ -3540,7 +4176,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 7575.42,
-        "descontosFerias": 394.21
+        "descontosFerias": 394.21,
+        "descontoInss": 394.21,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ]
   },
@@ -3573,7 +4212,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6037.59,
-        "descontosFerias": 851.23
+        "descontosFerias": 851.23,
+        "descontoInss": 324.96,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 526.27
       }
     ],
     "Agosto/2026": [
@@ -3584,7 +4226,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 928.79,
-        "descontosFerias": 126.83
+        "descontosFerias": 126.83,
+        "descontoInss": 45.87,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 80.96
       }
     ]
   },
@@ -3639,7 +4284,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 5445.08,
-        "descontosFerias": 456.57
+        "descontosFerias": 456.57,
+        "descontoInss": 249.89,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 206.68
       }
     ],
     "Agosto/2026": [
@@ -3650,7 +4298,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 837.66,
-        "descontosFerias": 72.08
+        "descontosFerias": 72.08,
+        "descontoInss": 40.28,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 31.8
       },
       {
         "nome": "Bartolomeu Domingos De Melo",
@@ -3659,7 +4310,10 @@
         "situacao": "Férias 10/08/2026 A 29/08/2026",
         "periodo": "10/08/2026 A 29/08/2026",
         "valorFerias": 24671.82,
-        "descontosFerias": 5604.08
+        "descontosFerias": 5604.08,
+        "descontoInss": 1976.14,
+        "descontoIrrf": 3003.64,
+        "descontoOutros": 624.3
       }
     ]
   },
@@ -3683,7 +4337,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 6048.87,
-        "descontosFerias": 495.91
+        "descontosFerias": 495.91,
+        "descontoInss": 302.4,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 193.51
       }
     ],
     "Agosto/2026": [
@@ -3694,7 +4351,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 930.54,
-        "descontosFerias": 82.35
+        "descontosFerias": 82.35,
+        "descontoInss": 52.57,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 29.78
       }
     ]
   },
@@ -3718,7 +4378,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 7613.66,
-        "descontosFerias": 2654.08
+        "descontosFerias": 2654.08,
+        "descontoInss": 592.35,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 2061.73
       },
       {
         "nome": "Wellington Fernando De Lima",
@@ -3727,7 +4390,10 @@
         "situacao": "Férias 01/07/2026 A 30/07/2026",
         "periodo": "01/07/2026 A 30/07/2026",
         "valorFerias": 9688.12,
-        "descontosFerias": 1713.16
+        "descontosFerias": 1713.16,
+        "descontoInss": 754.22,
+        "descontoIrrf": 334.64,
+        "descontoOutros": 624.3
       }
     ],
     "Agosto/2026": [
@@ -3738,7 +4404,10 @@
         "situacao": "Férias 17/08/2026 A 05/09/2026",
         "periodo": "17/08/2026 A 05/09/2026",
         "valorFerias": 6594.11,
-        "descontosFerias": 416.69
+        "descontosFerias": 416.69,
+        "descontoInss": 249.22,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 167.47
       }
     ]
   },
@@ -3751,7 +4420,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 4867.27,
-        "descontosFerias": 462.94
+        "descontosFerias": 462.94,
+        "descontoInss": 229.93,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 233.01
       }
     ],
     "Agosto/2026": [
@@ -3762,7 +4434,10 @@
         "situacao": "Férias 06/07/2026 A 04/08/2026",
         "periodo": "06/07/2026 A 04/08/2026",
         "valorFerias": 748.69,
-        "descontosFerias": 72.61
+        "descontosFerias": 72.61,
+        "descontoInss": 36.76,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 35.85
       },
       {
         "nome": "Wagna De Freitas Santos Santana",
@@ -3771,7 +4446,10 @@
         "situacao": "Férias 11/08/2026 A 30/08/2026",
         "periodo": "11/08/2026 A 30/08/2026",
         "valorFerias": 5604.93,
-        "descontosFerias": 376.77
+        "descontosFerias": 376.77,
+        "descontoInss": 168.67,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 208.1
       }
     ]
   },
@@ -3784,7 +4462,10 @@
         "situacao": "Férias 13/07/2026 A 27/07/2026",
         "periodo": "13/07/2026 A 27/07/2026",
         "valorFerias": 2328.26,
-        "descontosFerias": 420.37
+        "descontosFerias": 420.37,
+        "descontoInss": 121.13,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 299.24
       },
       {
         "nome": "Tamires Do Nascimento Oliveira",
@@ -3793,7 +4474,10 @@
         "situacao": "Férias 20/07/2026 A 18/08/2026",
         "periodo": "20/07/2026 A 18/08/2026",
         "valorFerias": 1747.28,
-        "descontosFerias": 343.99
+        "descontosFerias": 343.99,
+        "descontoInss": 88.19,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 255.8
       }
     ],
     "Agosto/2026": [
@@ -3804,7 +4488,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 17011.43,
-        "descontosFerias": 3219.37
+        "descontosFerias": 3219.37,
+        "descontoInss": 941.71,
+        "descontoIrrf": 1666.63,
+        "descontoOutros": 611.03
       },
       {
         "nome": "Tamires Do Nascimento Oliveira",
@@ -3813,7 +4500,10 @@
         "situacao": "Férias 20/07/2026 A 18/08/2026",
         "periodo": "20/07/2026 A 18/08/2026",
         "valorFerias": 2620.99,
-        "descontosFerias": 514.28
+        "descontosFerias": 514.28,
+        "descontoInss": 130.59,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 383.69
       }
     ]
   },
@@ -3826,7 +4516,10 @@
         "situacao": "Férias 06/07/2026 A 25/07/2026",
         "periodo": "06/07/2026 A 25/07/2026",
         "valorFerias": 8916.96,
-        "descontosFerias": 1093.2
+        "descontosFerias": 1093.2,
+        "descontoInss": 453.71,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 639.49
       }
     ],
     "Agosto/2026": [
@@ -3837,7 +4530,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6661.68,
-        "descontosFerias": 547.42
+        "descontosFerias": 547.42,
+        "descontoInss": 353.19,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       }
     ]
   },
@@ -3850,7 +4546,10 @@
         "situacao": "Férias 06/07/2026 A 25/07/2026",
         "periodo": "06/07/2026 A 25/07/2026",
         "valorFerias": 5419.94,
-        "descontosFerias": 188.0
+        "descontosFerias": 188.0,
+        "descontoInss": 188.0,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ],
     "Agosto/2026": [
@@ -3861,7 +4560,10 @@
         "situacao": "Férias 17/08/2026 A 05/09/2026",
         "periodo": "17/08/2026 A 05/09/2026",
         "valorFerias": 5365.99,
-        "descontosFerias": 162.29
+        "descontosFerias": 162.29,
+        "descontoInss": 162.29,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       }
     ]
   },
@@ -3874,7 +4576,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 5636.14,
-        "descontosFerias": 1031.84
+        "descontosFerias": 1031.84,
+        "descontoInss": 233.94,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 797.9
       }
     ],
     "Agosto/2026": [
@@ -3885,7 +4590,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 6657.3,
-        "descontosFerias": 445.54
+        "descontosFerias": 445.54,
+        "descontoInss": 445.54,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Vitoria Raposo Marques Da Silva",
@@ -3894,7 +4602,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 5720.03,
-        "descontosFerias": 284.45
+        "descontosFerias": 284.45,
+        "descontoInss": 284.45,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 0.0
       },
       {
         "nome": "Luiz Fernando Pergentino Da Silva",
@@ -3903,7 +4614,10 @@
         "situacao": "Férias 13/07/2026 A 01/08/2026",
         "periodo": "13/07/2026 A 01/08/2026",
         "valorFerias": 190.5,
-        "descontosFerias": 51.71
+        "descontosFerias": 51.71,
+        "descontoInss": 9.71,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 42.0
       }
     ]
   },
@@ -3916,7 +4630,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 7850.59,
-        "descontosFerias": 1054.65
+        "descontosFerias": 1054.65,
+        "descontoInss": 471.97,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 582.68
       }
     ]
   },
@@ -3929,7 +4646,10 @@
         "situacao": "Férias 04/08/2026 A 02/09/2026",
         "periodo": "04/08/2026 A 02/09/2026",
         "valorFerias": 8802.12,
-        "descontosFerias": 694.59
+        "descontosFerias": 694.59,
+        "descontoInss": 500.36,
+        "descontoIrrf": 0.0,
+        "descontoOutros": 194.23
       }
     ]
   }
