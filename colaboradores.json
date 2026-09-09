@@ -57,22 +57,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Amanda Camilla Silva Do Nascimento",
-      "cargo": "Operador De Telemarketing",
-      "empresa": "DTEL",
-      "cpf": "111.***.***-26",
-      "dataAdmissao": "01/04/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Ana Caroline Ketilyn Da Silva",
-      "cargo": "Operador De Telemarketing Junior",
-      "empresa": "DTEL",
-      "cpf": "712.***.***-10",
-      "dataAdmissao": "01/04/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Ana Caroline Ketilyn Da Silva",
       "cargo": "Operador De Telemarketing Júnior",
       "empresa": "DTEL",
@@ -1180,22 +1164,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Anderson Farias Da Silva",
-      "cargo": "Tecnico De Lancamento Senior",
-      "empresa": "DTEL",
-      "cpf": "716.***.***-75",
-      "dataAdmissao": "20/02/2020",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Carlos Fernando De Lima",
-      "cargo": "Supervisor De Lancamento Junior",
-      "empresa": "DTEL",
-      "cpf": "081.***.***-58",
-      "dataAdmissao": "01/09/2015",
-      "status": "Ativo"
-    },
-    {
       "nome": "Carlos Fernando De Lima",
       "cargo": "Supervisor De Lançamento Junior",
       "empresa": "DTEL",
@@ -1300,27 +1268,11 @@
       "status": "Ativo"
     },
     {
-      "nome": "Laercio Joaquim Dos Santos Santana",
-      "cargo": "Tecnico De Lancamento Junior",
-      "empresa": "DTEL",
-      "cpf": "719.***.***-31",
-      "dataAdmissao": "17/06/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Marinaldo Antonio De Santana",
       "cargo": "Auxiliar Tecnico De Lancamento",
       "empresa": "DTEL",
       "cpf": "719.***.***-98",
       "dataAdmissao": "16/03/2026",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Messias Lopes De Oliveira",
-      "cargo": "Tecnico De Lancamento Junior",
-      "empresa": "DTEL",
-      "cpf": "028.***.***-09",
-      "dataAdmissao": "10/05/2024",
       "status": "Ativo"
     },
     {
@@ -1431,14 +1383,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Clecio Israel Da Silva",
-      "cargo": "Tecnico Em Fibra",
-      "empresa": "DTEL",
-      "cpf": "112.***.***-41",
-      "dataAdmissao": "20/10/2023",
-      "status": "Ativo"
-    },
-    {
       "nome": "Cleiton Luciano Da Silva Santos",
       "cargo": "Tecnico Em Fibra Junior",
       "empresa": "DTEL",
@@ -1479,27 +1423,11 @@
       "status": "Ativo"
     },
     {
-      "nome": "Josadark Jose Do Nascimento",
-      "cargo": "Coordenador Pleno",
-      "empresa": "DTEL",
-      "cpf": "031.***.***-41",
-      "dataAdmissao": "01/12/2014",
-      "status": "Ativo"
-    },
-    {
       "nome": "Jose Eronildo De Melo Silva",
       "cargo": "Tecnico Em Fibra Junior",
       "empresa": "DTEL",
       "cpf": "082.***.***-79",
       "dataAdmissao": "08/07/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Jose Roberto De Santana Silva",
-      "cargo": "Tecnico Em Fibra",
-      "empresa": "DTEL",
-      "cpf": "056.***.***-23",
-      "dataAdmissao": "17/05/2021",
       "status": "Ativo"
     },
     {
@@ -1673,14 +1601,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Isla Rafaelle Lessa De Andrade",
-      "cargo": "Supervisor De Vendas",
-      "empresa": "DTEL",
-      "cpf": "115.***.***-28",
-      "dataAdmissao": "16/09/2020",
-      "status": "Ativo"
-    },
-    {
       "nome": "Maria Clara Da Costa Alves",
       "cargo": "Auxiliar Administrativo ( Jovem Aprendiz)",
       "empresa": "DTEL",
@@ -1739,14 +1659,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Carlos Andre De Oliveira",
-      "cargo": "Supervisor Tecnico",
-      "empresa": "DTEL",
-      "cpf": "098.***.***-26",
-      "dataAdmissao": "25/07/2011",
-      "status": "Ativo"
-    },
-    {
       "nome": "Cleibson Luciano Da Silva Santos",
       "cargo": "Instalador Reparador",
       "empresa": "DTEL",
@@ -1795,14 +1707,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Fernando Angelo Lima Da Silva",
-      "cargo": "Instalador Reparador",
-      "empresa": "DTEL",
-      "cpf": "121.***.***-26",
-      "dataAdmissao": "03/06/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Jaciele Ferreira Da Silva",
       "cargo": "Auxiliar Administrativo Atendimento",
       "empresa": "DTEL",
@@ -1816,14 +1720,6 @@
       "empresa": "DTEL",
       "cpf": "120.***.***-64",
       "dataAdmissao": "02/04/2018",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Jonathan Igor Silva De Sa",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "110.***.***-06",
-      "dataAdmissao": "11/05/2023",
       "status": "Ativo"
     },
     {
@@ -1851,14 +1747,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Jose Cicero De Vasconcelos",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "063.***.***-60",
-      "dataAdmissao": "15/08/2016",
-      "status": "Ativo"
-    },
-    {
       "nome": "Jose Francisco Pereira Neto",
       "cargo": "Instalador Reparador",
       "empresa": "DTEL",
@@ -1869,14 +1757,6 @@
     {
       "nome": "Jose Julio Barbosa Do Carmo Junior",
       "cargo": "Gerente Administrativo De Instalação Jun",
-      "empresa": "DTEL",
-      "cpf": "066.***.***-60",
-      "dataAdmissao": "01/08/2016",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Jose Julio Barbosa Do Carmo Junior",
-      "cargo": "Gerente Administrativo Instalacao Junio",
       "empresa": "DTEL",
       "cpf": "066.***.***-60",
       "dataAdmissao": "01/08/2016",
@@ -2108,14 +1988,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Antonio Ricardo Da Silva",
-      "cargo": "Pedreiro",
-      "empresa": "DTEL",
-      "cpf": "774.***.***-72",
-      "dataAdmissao": "19/02/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Cicero Gomes Dos Santos",
       "cargo": "Pedreiro Junior",
       "empresa": "DTEL",
@@ -2252,14 +2124,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Marcondes Jose Da Silva",
-      "cargo": "Pedreiro",
-      "empresa": "DTEL",
-      "cpf": "031.***.***-88",
-      "dataAdmissao": "02/09/2020",
-      "status": "Ativo"
-    },
-    {
       "nome": "Romero Jose Dos Santos Silva",
       "cargo": "Pedreiro Junior",
       "empresa": "DTEL",
@@ -2281,14 +2145,6 @@
       "empresa": "DTEL",
       "cpf": "095.***.***-06",
       "dataAdmissao": "20/05/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "William Da Silva Andrade",
-      "cargo": "Pedreiro",
-      "empresa": "DTEL",
-      "cpf": "703.***.***-65",
-      "dataAdmissao": "25/08/2023",
       "status": "Ativo"
     },
     {
@@ -2479,14 +2335,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Raliane Alves Da Silva",
-      "cargo": "Vendedor Externo",
-      "empresa": "DTEL",
-      "cpf": "137.***.***-67",
-      "dataAdmissao": "18/04/2023",
-      "status": "Ativo"
-    },
-    {
       "nome": "Ranyelle Vanessa Da Silva Carvalho",
       "cargo": "Vendedor Externo",
       "empresa": "DTEL",
@@ -2508,14 +2356,6 @@
       "empresa": "DTEL",
       "cpf": "067.***.***-08",
       "dataAdmissao": "13/06/2020",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Thyalison Da Silva Aciole",
-      "cargo": "Vendedor Externo",
-      "empresa": "DTEL",
-      "cpf": "091.***.***-18",
-      "dataAdmissao": "22/04/2025",
       "status": "Ativo"
     },
     {
@@ -2742,14 +2582,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Thays Freitas De Souza",
-      "cargo": "Designer Pleno",
-      "empresa": "DTEL",
-      "cpf": "103.***.***-32",
-      "dataAdmissao": "18/08/2020",
-      "status": "Ativo"
-    },
-    {
       "nome": "Wesley Junior Da Silva Ferreira",
       "cargo": "Social Mídia Pleno",
       "empresa": "DTEL",
@@ -2784,14 +2616,6 @@
       "empresa": "DTEL",
       "cpf": "080.***.***-33",
       "dataAdmissao": "15/09/2020",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Bruno Cezar Silva Dos Santos",
-      "cargo": "Auxiliar De Instalador",
-      "empresa": "DTEL",
-      "cpf": "093.***.***-45",
-      "dataAdmissao": "07/04/2025",
       "status": "Ativo"
     },
     {
@@ -2971,14 +2795,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Walker Jackson Silva Dos Anjos",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "118.***.***-48",
-      "dataAdmissao": "04/09/2020",
-      "status": "Ativo"
-    },
-    {
       "nome": "Wangleyson Egito Cesar De Melo",
       "cargo": "Instalador Reparador Junior",
       "empresa": "DTEL",
@@ -3032,14 +2848,6 @@
       "empresa": "DTEL",
       "cpf": "123.***.***-39",
       "dataAdmissao": "17/08/2026",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Alison Renan Alves De Azeredo Coutinho",
-      "cargo": "Executivo De Contas",
-      "empresa": "DTEL",
-      "cpf": "075.***.***-38",
-      "dataAdmissao": "19/05/2025",
       "status": "Ativo"
     },
     {
@@ -3240,14 +3048,6 @@
       "empresa": "Voicenet",
       "cpf": "056.***.***-94",
       "dataAdmissao": "03/06/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Eziel Alves De Melo Dos Santos",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "063.***.***-31",
-      "dataAdmissao": "11/03/2024",
       "status": "Ativo"
     },
     {
@@ -5181,22 +4981,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Alisson Barros Ferreira Dos Santos",
-      "cargo": "Vendedor Externo",
-      "empresa": "DTEL",
-      "cpf": "076.***.***-40",
-      "dataAdmissao": "07/05/2025",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Amanda Almeida Dantas",
-      "cargo": "Assistente Administrativo De Atendiment",
-      "empresa": "DTEL",
-      "cpf": "080.***.***-98",
-      "dataAdmissao": "16/07/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Amanda Almeida Dantas",
       "cargo": "Assistente Administrativo De Atendiment",
       "empresa": "DTEL",
@@ -6782,14 +6566,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Wellington Fernando De Lima",
-      "cargo": "Tecnico De Manutencao Predial Junior",
-      "empresa": "DTEL",
-      "cpf": "096.***.***-90",
-      "dataAdmissao": "01/09/2012",
-      "status": "Ativo"
-    },
-    {
       "nome": "Alan Silva De Melo",
       "cargo": "Auxiliar De Manutenção Predial",
       "empresa": "DTEL",
@@ -7115,14 +6891,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Anderson De Souza Lima",
-      "cargo": "Tecnico Em Fibra",
-      "empresa": "DTEL",
-      "cpf": "075.***.***-09",
-      "dataAdmissao": "01/07/2020",
-      "status": "Ativo"
-    },
-    {
       "nome": "Cleibson Ferreira Da Silva Brito",
       "cargo": "Tecnico Em Fibra Pleno",
       "empresa": "DTEL",
@@ -7136,14 +6904,6 @@
       "empresa": "DTEL",
       "cpf": "110.***.***-35",
       "dataAdmissao": "09/05/2019",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Elvis Douglas Da Silva",
-      "cargo": "Auxiliar Tecnico Em Fibra",
-      "empresa": "DTEL",
-      "cpf": "085.***.***-65",
-      "dataAdmissao": "12/06/2023",
       "status": "Ativo"
     },
     {
@@ -7797,14 +7557,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Geyson Ferreira De Oliveira",
-      "cargo": "Auxiliar De Instalador",
-      "empresa": "DTEL",
-      "cpf": "079.***.***-82",
-      "dataAdmissao": "07/05/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Gilson Alfredo Teixeira Branco",
       "cargo": "Instalador Reparador Pleno",
       "empresa": "DTEL",
@@ -7858,14 +7610,6 @@
       "empresa": "DTEL",
       "cpf": "124.***.***-55",
       "dataAdmissao": "11/05/2023",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Jefferson Germano Da Silva Ribeiro",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "109.***.***-05",
-      "dataAdmissao": "01/07/2020",
       "status": "Ativo"
     },
     {
@@ -8029,14 +7773,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Nadjael Felix De Lima",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "080.***.***-54",
-      "dataAdmissao": "11/05/2023",
-      "status": "Ativo"
-    },
-    {
       "nome": "Pablo Vinicius Luz Nascimento",
       "cargo": "Auxiliar Tecnico Em Fibra",
       "empresa": "DTEL",
@@ -8066,14 +7802,6 @@
       "empresa": "DTEL",
       "cpf": "095.***.***-10",
       "dataAdmissao": "08/04/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Renato De Lima Santana",
-      "cargo": "Supervisor Tecnico Pleno",
-      "empresa": "DTEL",
-      "cpf": "099.***.***-09",
-      "dataAdmissao": "01/03/2013",
       "status": "Ativo"
     },
     {
@@ -8125,27 +7853,11 @@
       "status": "Ativo"
     },
     {
-      "nome": "Silvio Dyjavan Guimaraes Ferreira",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "017.***.***-08",
-      "dataAdmissao": "01/02/2022",
-      "status": "Ativo"
-    },
-    {
       "nome": "Thiago Jose De Souza Silva",
       "cargo": "Auxiliar De Instalador",
       "empresa": "DTEL",
       "cpf": "175.***.***-08",
       "dataAdmissao": "16/03/2026",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Thiago Lucas Correia Da Silva",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "107.***.***-30",
-      "dataAdmissao": "27/04/2021",
       "status": "Ativo"
     },
     {
@@ -8267,14 +7979,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Bruno Santos Da Silva",
-      "cargo": "Desenvolvedor Junior",
-      "empresa": "DTEL",
-      "cpf": "134.***.***-65",
-      "dataAdmissao": "21/10/2024",
-      "status": "Ativo"
-    },
-    {
       "nome": "Luiz Eduardo Pereira De Lima",
       "cargo": "Desenvolvedor Junior",
       "empresa": "DTEL",
@@ -8373,14 +8077,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Jose Fabio Da Silva",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "056.***.***-30",
-      "dataAdmissao": "11/05/2023",
-      "status": "Ativo"
-    },
-    {
       "nome": "Jose Steves Da Silva Barros",
       "cargo": "Instalador Reparador Senior",
       "empresa": "DTEL",
@@ -8434,14 +8130,6 @@
       "empresa": "DTEL",
       "cpf": "110.***.***-05",
       "dataAdmissao": "07/03/2019",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Rai Ramos Dos Santos",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "DTEL",
-      "cpf": "114.***.***-38",
-      "dataAdmissao": "01/04/2024",
       "status": "Ativo"
     },
     {
@@ -8551,14 +8239,6 @@
       "empresa": "DTEL",
       "cpf": "113.***.***-10",
       "dataAdmissao": "02/09/2025",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Luiz Fernando Pergentino Da Silva",
-      "cargo": "Auxiliar De Instalador",
-      "empresa": "DTEL",
-      "cpf": "151.***.***-77",
-      "dataAdmissao": "17/03/2025",
       "status": "Ativo"
     },
     {
@@ -8702,14 +8382,6 @@
       "empresa": "DTEL",
       "cpf": "135.***.***-57",
       "dataAdmissao": "04/11/2024",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Bruno Ferreira Da Silva",
-      "cargo": "Instalador Reparador Junior",
-      "empresa": "Solon Araújo",
-      "cpf": "131.***.***-11",
-      "dataAdmissao": "04/07/2022",
       "status": "Ativo"
     },
     {
@@ -9195,14 +8867,6 @@
       "status": "Ativo"
     },
     {
-      "nome": "Rodrigo Pedrosa De Aguiar",
-      "cargo": "Diretor",
-      "empresa": "Solon Araújo",
-      "cpf": "025.***.***-93",
-      "dataAdmissao": "01/08/2025",
-      "status": "Ativo"
-    },
-    {
       "nome": "Solon Severo De Araujo Neto",
       "cargo": "Socio Administrador",
       "empresa": "Solon Araújo",
@@ -9505,14 +9169,6 @@
       "empresa": "Soares & Lins",
       "cpf": "081.***.***-36",
       "dataAdmissao": "24/03/2025",
-      "status": "Ativo"
-    },
-    {
-      "nome": "Marcia Mychelle Da Silva Bezerra",
-      "cargo": null,
-      "empresa": "DTEL",
-      "cpf": "085.***.***-29",
-      "dataAdmissao": "19/08/2015",
       "status": "Ativo"
     },
     {
