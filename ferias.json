@@ -6,21 +6,27 @@
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Arthur Leonardo De Souza Melo",
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Ayrton Da Silva Lima",
         "cargo": "Gerente De Relacionamento P",
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -29,28 +35,36 @@
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Everson Bruno Lorena Da Silva",
         "cargo": "Operador Suporte Orbix Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Thais Dos Santos Tenorio",
         "cargo": "Operador De Telemarketing Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Wandija Alesandra Da Silva Santos",
         "cargo": "Backoffice Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -59,56 +73,72 @@
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 4785.73,
+        "descontosFerias": 508.26
       },
       {
         "nome": "Ana Caroline Ketilyn Da Silva",
         "cargo": "Operador De Telemarketing Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 4535.95,
+        "descontosFerias": 154.99
       },
       {
         "nome": "Adriana De Moura Santos",
         "cargo": "Operador De Telemarketing Técnico Júnior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 3809.32,
+        "descontosFerias": 1553.76
       },
       {
         "nome": "Bianca Natalia Vieira Neves",
         "cargo": "Operador De Telemarketing Júnior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 5067.51,
+        "descontosFerias": 448.22
       },
       {
         "nome": "Gerlania Maria Nilo Da Silva Lins",
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 3919.07,
+        "descontosFerias": 2449.8
       },
       {
         "nome": "Miecia Oliveira Da Silva Santos",
         "cargo": "Operador De Telemarketing Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 3956.22,
+        "descontosFerias": 411.48
       },
       {
         "nome": "Nathalia Gomes Da Silva",
         "cargo": "Backoffice Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 4479.63,
+        "descontosFerias": 1718.8
       },
       {
         "nome": "Renata Silva De Santana",
         "cargo": "Backoffice Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 3991.97,
+        "descontosFerias": 1071.17
       }
     ],
     "Agosto/2026": [
@@ -117,70 +147,90 @@
         "cargo": "Operador De Telemarketing Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 155.08,
+        "descontosFerias": 7.67
       },
       {
         "nome": "Arthur Jefferson De Melo Santana",
         "cargo": "Operador Suporte Orbix Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 23/08/2026",
-        "periodo": "04/08/2026 A 23/08/2026"
+        "periodo": "04/08/2026 A 23/08/2026",
+        "valorFerias": 4311.19,
+        "descontosFerias": 140.84
       },
       {
         "nome": "Carla Patricia Do Nascimento Silva",
         "cargo": "Operador De Telemarketing Júnior",
         "empresa": "DTEL",
         "situacao": "Férias 14/08/2026 A 02/09/2026",
-        "periodo": "14/08/2026 A 02/09/2026"
+        "periodo": "14/08/2026 A 02/09/2026",
+        "valorFerias": 4922.45,
+        "descontosFerias": 2024.21
       },
       {
         "nome": "Didier Panis Lopes Branco",
         "cargo": "Backoffice Junior",
         "empresa": "DTEL",
         "situacao": "Férias 30/08/2026 A 18/09/2026",
-        "periodo": "30/08/2026 A 18/09/2026"
+        "periodo": "30/08/2026 A 18/09/2026",
+        "valorFerias": 1873.21,
+        "descontosFerias": 14.23
       },
       {
         "nome": "Kayne Karolayne Da Silva",
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias 25/08/2026 A 23/09/2026",
-        "periodo": "25/08/2026 A 23/09/2026"
+        "periodo": "25/08/2026 A 23/09/2026",
+        "valorFerias": 1135.64,
+        "descontosFerias": 49.45
       },
       {
         "nome": "Leonardo Lira Moscoso Da Veiga Pessoa",
         "cargo": "Operador De Telemarketing Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4223.1,
+        "descontosFerias": 181.97
       },
       {
         "nome": "Lucas Vinicius Sousa De Araujo",
         "cargo": "Backoffice Junior",
         "empresa": "DTEL",
         "situacao": "Férias 14/08/2026 A 02/09/2026",
-        "periodo": "14/08/2026 A 02/09/2026"
+        "periodo": "14/08/2026 A 02/09/2026",
+        "valorFerias": 4568.21,
+        "descontosFerias": 130.81
       },
       {
         "nome": "Martha Vitoria Da Silva Ferreira",
         "cargo": "Operador De Telemarketing",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4434.39,
+        "descontosFerias": 194.02
       },
       {
         "nome": "Thananne Giselle Gomes E Silva Lima",
         "cargo": "Backoffice Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4654.59,
+        "descontosFerias": 409.45
       },
       {
         "nome": "Weslley Daniel De Lima Souza",
         "cargo": "Analista De Dados",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6954.85,
+        "descontosFerias": 552.77
       }
     ]
   },
@@ -191,35 +241,45 @@
         "cargo": "Supervisor Tecnico Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Gleison Gleidson Da Silva",
         "cargo": "Auxiliar De Estoque Junior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Leandro Jose Dos Santos",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Silmara Camila Ramos Cabral",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Katielle Marques De Lira",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -228,35 +288,45 @@
         "cargo": "Tecnico Em Fibra Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Sabrina De Ramos Correia",
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jonathan Da Silva Santos",
         "cargo": "Supervisor Técnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Marilia Gabriela Alves De Alustau",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Pereira Sa Neto",
         "cargo": "Instalador Reparador Jr",
         "empresa": "Voicenet",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -265,49 +335,63 @@
         "cargo": "Motorista Sênior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6352.52,
+        "descontosFerias": 508.7
       },
       {
         "nome": "Elionaldo Damasceno Souza Sobrinho",
         "cargo": "Supervisor Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 10360.51,
+        "descontosFerias": 739.63
       },
       {
         "nome": "Hanna Thaylani Alves De Franca",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4954.42,
+        "descontosFerias": 263.39
       },
       {
         "nome": "Pedro Vitor Da Silva Santos",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5067.74,
+        "descontosFerias": 2068.75
       },
       {
         "nome": "Eziel Alves De Melo Dos Santos",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5652.25,
+        "descontosFerias": 2517.1
       },
       {
         "nome": "Alison Renan Alves De Azeredo Coutinho",
         "cargo": "Executivo De Contas",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4820.19,
+        "descontosFerias": 1582.63
       },
       {
         "nome": "Julio Cesar Santos De Lira",
         "cargo": "Instalador Reparador",
         "empresa": "Voicenet",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 6015.72,
+        "descontosFerias": 2441.38
       }
     ],
     "Agosto/2026": [
@@ -316,77 +400,99 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6833.91,
+        "descontosFerias": 437.22
       },
       {
         "nome": "Clovis Mendes Da Silva",
         "cargo": "Motorista Sênior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 977.45,
+        "descontosFerias": 87.75
       },
       {
         "nome": "Elionaldo Damasceno Souza Sobrinho",
         "cargo": "Supervisor Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 358.85,
+        "descontosFerias": 37.82
       },
       {
         "nome": "Hanna Thaylani Alves De Franca",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 762.09,
+        "descontosFerias": 37.28
       },
       {
         "nome": "Marcelo Queiroz Calheiros De Oliveiras Miteualoção:",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 4088.03,
+        "descontosFerias": 886.48
       },
       {
         "nome": "Pedro Vitor Da Silva Santos",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 779.71,
+        "descontosFerias": 278.26
       },
       {
         "nome": "Eziel Alves De Melo Dos Santos",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 855.99,
+        "descontosFerias": 407.34
       },
       {
         "nome": "Alison Renan Alves De Azeredo Coutinho",
         "cargo": "Executivo De Contas",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 741.39,
+        "descontosFerias": 246.01
       },
       {
         "nome": "Ewerton Bezerra Pereira Das Merces",
         "cargo": "Instalador Reparador",
         "empresa": "Voicenet",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 6402.82,
+        "descontosFerias": 474.93
       },
       {
         "nome": "Gustavo Rodrigues Soares Da Silva",
         "cargo": "Supervisor Tecnico Junior",
         "empresa": "Voicenet",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 12222.93,
+        "descontosFerias": 1134.14
       },
       {
         "nome": "Julio Cesar Santos De Lira",
         "cargo": "Instalador Reparador",
         "empresa": "Voicenet",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 196.3,
+        "descontosFerias": 129.84
       }
     ]
   },
@@ -397,14 +503,18 @@
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Dener Paulo Do Monte",
         "cargo": "Tecnico Em Fibra Júnior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -413,14 +523,18 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 8593.02,
+        "descontosFerias": 1520.36
       },
       {
         "nome": "Elvis Douglas Da Silva",
         "cargo": "Auxiliar Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7840.15,
+        "descontosFerias": 1056.08
       }
     ],
     "Agosto/2026": [
@@ -429,14 +543,18 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1321.85,
+        "descontosFerias": 248.67
       },
       {
         "nome": "Elvis Douglas Da Silva",
         "cargo": "Auxiliar Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1206.03,
+        "descontosFerias": 172.43
       }
     ]
   },
@@ -447,35 +565,45 @@
         "cargo": "Tecnico Em Fibra Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Geyvisson Silva De Oliveira",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Renato Rodrigues Da Silva",
         "cargo": "Supervisor Técnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Maria Ivanilda Da Silva Carolino",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Guilherme Bezerra De Lima",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -484,35 +612,45 @@
         "cargo": "Operador De Redes Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Ana Sophia Muniz Silva",
         "cargo": "Backoffice Administrativo Regional",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Matheus Marinho Xavier Diniz",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Anderson Fernando Da Silva Lima",
         "cargo": "Tecnico De Rede Ii - Planeta Net",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Leandro Jose Da Silva",
         "cargo": "Tecnico De Rede Ii - Planeta Net",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -521,28 +659,36 @@
         "cargo": "Ger Regional Tecnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 11399.32,
+        "descontosFerias": 2427.0
       },
       {
         "nome": "Danilo Antonio Cavalcanti Bezerra",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5211.19,
+        "descontosFerias": 1723.85
       },
       {
         "nome": "Henrique Do Nascimento Tasende",
         "cargo": "Operador De Redes Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5184.9,
+        "descontosFerias": 1439.92
       },
       {
         "nome": "Raiane Samara Da Silva Santos",
         "cargo": "Operador De Redes Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5762.72,
+        "descontosFerias": 1112.32
       }
     ],
     "Agosto/2026": [
@@ -551,56 +697,72 @@
         "cargo": "Ger Regional Tecnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 3873.9,
+        "descontosFerias": 393.0
       },
       {
         "nome": "Danilo Antonio Cavalcanti Bezerra",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 801.85,
+        "descontosFerias": 262.34
       },
       {
         "nome": "Erik Henrique Durval Pontes",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6934.0,
+        "descontosFerias": 691.18
       },
       {
         "nome": "Henrique Do Nascimento Tasende",
         "cargo": "Operador De Redes Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 797.74,
+        "descontosFerias": 277.55
       },
       {
         "nome": "Jefferson Antonio Bezerra Lira",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6124.24,
+        "descontosFerias": 2047.43
       },
       {
         "nome": "Jefferson Cristiano Da Silva",
         "cargo": "Supervisor Tecnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 11361.72,
+        "descontosFerias": 1611.97
       },
       {
         "nome": "Karlla De Franca Silva",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4521.71,
+        "descontosFerias": 194.11
       },
       {
         "nome": "Raiane Samara Da Silva Santos",
         "cargo": "Operador De Redes Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 886.6,
+        "descontosFerias": 168.35
       }
     ]
   },
@@ -611,7 +773,9 @@
         "cargo": "Supervisor De Marketing",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -620,14 +784,18 @@
         "cargo": "Supervisor De Marketing",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Maykon Alves De Oliveira",
         "cargo": "Designer Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -636,14 +804,18 @@
         "cargo": "Designer Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 20/07/2026",
-        "periodo": "06/07/2026 A 20/07/2026"
+        "periodo": "06/07/2026 A 20/07/2026",
+        "valorFerias": 3368.78,
+        "descontosFerias": 452.57
       },
       {
         "nome": "Wesley Junior Da Silva Ferreira",
         "cargo": "Social Mídia Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 8343.17,
+        "descontosFerias": 353.53
       }
     ],
     "Agosto/2026": [
@@ -652,7 +824,9 @@
         "cargo": "Social Mídia Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 288.27,
+        "descontosFerias": 20.06
       }
     ]
   },
@@ -663,7 +837,9 @@
         "cargo": "Projetista Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -672,7 +848,9 @@
         "cargo": "Auxiliar Administrativo",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -681,7 +859,9 @@
         "cargo": "Ajudante De Obras",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 5097.86,
+        "descontosFerias": 357.66
       }
     ],
     "Agosto/2026": [
@@ -690,7 +870,9 @@
         "cargo": "Assistente Administrativo Cac Junior",
         "empresa": "DTEL",
         "situacao": "Férias 17/08/2026 A 15/09/2026",
-        "periodo": "17/08/2026 A 15/09/2026"
+        "periodo": "17/08/2026 A 15/09/2026",
+        "valorFerias": 2482.13,
+        "descontosFerias": 346.45
       }
     ]
   },
@@ -701,42 +883,54 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Danyelle Pereira De Araujo Souza",
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Leonardo Bonifacio Silva De Almeida",
         "cargo": "Supervisor Tecnico",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Ricardo Ferreira Junior",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Josivaldo Ferreira Da Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Williams Douglas Santos Da Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -745,42 +939,54 @@
         "cargo": "Tecnico Em Fibra Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Alana Carla Pereira De Melo",
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "David Marlyon Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jessica Alves De Oliveira",
         "cargo": "Vendedor Externo Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Erick Wagner Francisco De Melo",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Lucas Augusto Andrade Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -789,35 +995,45 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 25/07/2026",
-        "periodo": "06/07/2026 A 25/07/2026"
+        "periodo": "06/07/2026 A 25/07/2026",
+        "valorFerias": 5382.07,
+        "descontosFerias": 2581.47
       },
       {
         "nome": "Mauro Lucas Rocha Calixto",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7052.75,
+        "descontosFerias": 453.62
       },
       {
         "nome": "Nagysson Breno Napoleao Da Silva",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7397.06,
+        "descontosFerias": 802.1
       },
       {
         "nome": "Amanda Almeida Dantas",
         "cargo": "Assistente Administrativo De Atendiment",
         "empresa": "DTEL",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 2503.41,
+        "descontosFerias": 756.14
       },
       {
         "nome": "Alisson Barros Ferreira Dos Santos",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4351.98,
+        "descontosFerias": 1541.19
       }
     ],
     "Agosto/2026": [
@@ -826,56 +1042,72 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 6664.53,
+        "descontosFerias": 287.24
       },
       {
         "nome": "Bruna Lima Da Silva",
         "cargo": "Assistente Administrativo De Atendiment",
         "empresa": "DTEL",
         "situacao": "Férias 17/08/2026 A 15/09/2026",
-        "periodo": "17/08/2026 A 15/09/2026"
+        "periodo": "17/08/2026 A 15/09/2026",
+        "valorFerias": 2314.08,
+        "descontosFerias": 100.23
       },
       {
         "nome": "Mauro Lucas Rocha Calixto",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1084.98,
+        "descontosFerias": 73.71
       },
       {
         "nome": "Nadson Bruno Napoleao Da Silva",
         "cargo": "Supervisor Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 8601.02,
+        "descontosFerias": 918.56
       },
       {
         "nome": "Nagysson Breno Napoleao Da Silva",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1137.84,
+        "descontosFerias": 121.7
       },
       {
         "nome": "Rodrigo Fernandes Rodrigues",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4888.58,
+        "descontosFerias": 223.21
       },
       {
         "nome": "Amanda Almeida Dantas",
         "cargo": "Assistente Administrativo De Atendiment",
         "empresa": "DTEL",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 1914.32,
+        "descontosFerias": 580.64
       },
       {
         "nome": "Alisson Barros Ferreira Dos Santos",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 669.48,
+        "descontosFerias": 231.32
       }
     ]
   },
@@ -886,14 +1118,18 @@
         "cargo": "Tecnico Eletronica De Manutençao Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Danilo Pedro Pereira Dos Reis",
         "cargo": "Estoquista Junior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -902,14 +1138,18 @@
         "cargo": "Tecnico Eletronico De Manutençao Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Tiago De Lima Sena",
         "cargo": "Estoquista Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -918,14 +1158,18 @@
         "cargo": "Estoquista Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 7072.48,
+        "descontosFerias": 227.75
       },
       {
         "nome": "Jose Helmiton Gomes De Lima",
         "cargo": "Tecnico Eletronico Em Manutenção Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 7900.97,
+        "descontosFerias": 495.26
       }
     ],
     "Agosto/2026": [
@@ -934,21 +1178,27 @@
         "cargo": "Estoquista Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 242.4,
+        "descontosFerias": 11.55
       },
       {
         "nome": "Jose Helmiton Gomes De Lima",
         "cargo": "Tecnico Eletronico Em Manutenção Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 264.82,
+        "descontosFerias": 29.06
       },
       {
         "nome": "Valderez Caetano De Souza",
         "cargo": "Tecnico De Lancamento Senior",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 7670.29,
+        "descontosFerias": 608.26
       }
     ]
   },
@@ -959,7 +1209,9 @@
         "cargo": "Supervisor De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -968,21 +1220,27 @@
         "cargo": "Supervisor De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Dayse Kassia Da Silva Oliveira",
         "cargo": "Assistente De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Janeliton Jose De Lima Junior",
         "cargo": "Analista De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -991,14 +1249,18 @@
         "cargo": "Supervisor De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias 20/07/2026 A 03/08/2026",
-        "periodo": "20/07/2026 A 03/08/2026"
+        "periodo": "20/07/2026 A 03/08/2026",
+        "valorFerias": 3197.28,
+        "descontosFerias": 365.51
       },
       {
         "nome": "Dayse Kassia Da Silva Oliveira",
         "cargo": "Assistente De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias 08/06/2026 A 07/07/2026",
-        "periodo": "08/06/2026 A 07/07/2026"
+        "periodo": "08/06/2026 A 07/07/2026",
+        "valorFerias": 1024.12,
+        "descontosFerias": 111.1
       }
     ],
     "Agosto/2026": [
@@ -1007,14 +1269,18 @@
         "cargo": "Supervisor De Qualidade",
         "empresa": "DTEL",
         "situacao": "Férias 20/07/2026 A 03/08/2026",
-        "periodo": "20/07/2026 A 03/08/2026"
+        "periodo": "20/07/2026 A 03/08/2026",
+        "valorFerias": 799.34,
+        "descontosFerias": 97.66
       },
       {
         "nome": "Michel Gleydson Da Silva Melo",
         "cargo": "Analista De Qualidade Junior",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 5667.92,
+        "descontosFerias": 777.3
       }
     ]
   },
@@ -1025,7 +1291,9 @@
         "cargo": "Supervisor De Suporte Técnico",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1034,7 +1302,9 @@
         "cargo": "Operador De Redes Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1043,7 +1313,9 @@
         "cargo": "Operador De Redes Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5368.63,
+        "descontosFerias": 272.37
       }
     ],
     "Agosto/2026": [
@@ -1052,14 +1324,18 @@
         "cargo": "Operador De Redes Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 826.01,
+        "descontosFerias": 41.11
       },
       {
         "nome": "Wallisson Dhonatan Alves Dos Santos",
         "cargo": "Operador De Redes",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 4532.45,
+        "descontosFerias": 147.2
       }
     ]
   },
@@ -1070,14 +1346,18 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Naedson Jose Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1086,42 +1366,54 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Keila Thais Lima Santos",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Lucas Joao Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Roberto Barros Monteiro Junior",
         "cargo": "Ger. Regional Tecnico",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Edimilton Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Wangleyson Egito Cesar De Melo",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1130,35 +1422,45 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5545.46,
+        "descontosFerias": 1885.06
       },
       {
         "nome": "Jonatas Henrique Silva Do Carmo",
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7062.85,
+        "descontosFerias": 460.45
       },
       {
         "nome": "Luiz Henrique Barros Albuquerque",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5597.15,
+        "descontosFerias": 548.65
       },
       {
         "nome": "Robson Da Silva Monteiro",
         "cargo": "Supervisor Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7134.74,
+        "descontosFerias": 2981.48
       },
       {
         "nome": "Bruno Cezar Silva Dos Santos",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4675.82,
+        "descontosFerias": 1763.91
       }
     ],
     "Agosto/2026": [
@@ -1167,49 +1469,63 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 853.29,
+        "descontosFerias": 291.47
       },
       {
         "nome": "Christines Mateus Nascimento Da Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5836.23,
+        "descontosFerias": 332.21
       },
       {
         "nome": "Danilo Hericles Santana De Lima",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6597.66,
+        "descontosFerias": 389.44
       },
       {
         "nome": "Jonatas Henrique Silva Do Carmo",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1086.51,
+        "descontosFerias": 55.19
       },
       {
         "nome": "Luiz Henrique Barros Albuquerque",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 861.03,
+        "descontosFerias": 72.98
       },
       {
         "nome": "Robson Da Silva Monteiro",
         "cargo": "Supervisor Técnico",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1097.63,
+        "descontosFerias": 548.68
       },
       {
         "nome": "Bruno Cezar Silva Dos Santos",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 719.39,
+        "descontosFerias": 270.85
       }
     ]
   },
@@ -1220,7 +1536,9 @@
         "cargo": "Despachante Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1229,7 +1547,9 @@
         "cargo": "Despachante Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1238,7 +1558,9 @@
         "cargo": "Despachante Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5543.5,
+        "descontosFerias": 1658.99
       }
     ],
     "Agosto/2026": [
@@ -1247,7 +1569,9 @@
         "cargo": "Despachante Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4041.42,
+        "descontosFerias": 278.74
       }
     ]
   },
@@ -1258,7 +1582,9 @@
         "cargo": "Auxiliar De Serviços Gerais Junior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1267,7 +1593,9 @@
         "cargo": "Auxiliar De Serviços Gerais Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1276,7 +1604,9 @@
         "cargo": "Auxiliar De Serviços Gerais",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 4887.12,
+        "descontosFerias": 1577.84
       }
     ],
     "Agosto/2026": [
@@ -1285,7 +1615,9 @@
         "cargo": "Auxiliar De Serviços Gerais",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 160.2,
+        "descontosFerias": 98.62
       }
     ]
   },
@@ -1296,28 +1628,36 @@
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Douglas Almeida Dantas",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jonas Matheus Feitoza De Souza",
         "cargo": "Tecnico Em Fibra Pleno",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Renan Pierre Santos Tomaz",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1326,42 +1666,54 @@
         "cargo": "Técnico De Lançamento Sênior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Clodoaldo Gomes Da Rocha",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Pedro Henrique Ramos Dos Santos",
         "cargo": "Supervisor Tecnico",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Walisson Rodrigues Bispo",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Marcos Vinicius Gomes Santiago",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Werlisson Valdemir Dos Santos",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1370,49 +1722,63 @@
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4743.73,
+        "descontosFerias": 205.83
       },
       {
         "nome": "Geyson Ferreira De Oliveira",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5333.59,
+        "descontosFerias": 510.56
       },
       {
         "nome": "Jefferson Germano Da Silva Ribeiro",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 6087.15,
+        "descontosFerias": 2431.4
       },
       {
         "nome": "Jose Weber Franklin De Carvalho",
         "cargo": "Tecnico Em Fibra Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 7503.38,
+        "descontosFerias": 3041.16
       },
       {
         "nome": "Renato De Lima Santana",
         "cargo": "Supervisor Tecnico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 25/07/2026",
-        "periodo": "06/07/2026 A 25/07/2026"
+        "periodo": "06/07/2026 A 25/07/2026",
+        "valorFerias": 8467.46,
+        "descontosFerias": 844.78
       },
       {
         "nome": "Silvio Dyjavan Guimaraes Ferreira",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 7211.09,
+        "descontosFerias": 503.51
       },
       {
         "nome": "Thiago Lucas Correia Da Silva",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6056.65,
+        "descontosFerias": 549.69
       }
     ],
     "Agosto/2026": [
@@ -1421,77 +1787,99 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 7244.71,
+        "descontosFerias": 532.74
       },
       {
         "nome": "Ewerton Araujo Teixeira",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 7803.57,
+        "descontosFerias": 328.88
       },
       {
         "nome": "Jackson Antonio Batista Dos Santos",
         "cargo": "Tecnico Em Fibra Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 7820.87,
+        "descontosFerias": 498.35
       },
       {
         "nome": "Jesaias Paulo Da Silva",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 7177.24,
+        "descontosFerias": 684.33
       },
       {
         "nome": "Marcelo Das Neves Olimpio Jose",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 7417.63,
+        "descontosFerias": 322.68
       },
       {
         "nome": "Weslayne Franca Da Silva",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 729.75,
+        "descontosFerias": 33.99
       },
       {
         "nome": "Geyson Ferreira De Oliveira",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 820.7,
+        "descontosFerias": 76.25
       },
       {
         "nome": "Jefferson Germano Da Silva Ribeiro",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 197.31,
+        "descontosFerias": 100.6
       },
       {
         "nome": "Jose Weber Franklin De Carvalho",
         "cargo": "Tecnico Em Fibra Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 2089.73,
+        "descontosFerias": 114.82
       },
       {
         "nome": "Silvio Dyjavan Guimaraes Ferreira",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 250.11,
+        "descontosFerias": 23.69
       },
       {
         "nome": "Thiago Lucas Correia Da Silva",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 931.65,
+        "descontosFerias": 84.66
       }
     ]
   },
@@ -1502,7 +1890,9 @@
         "cargo": "Gerente De Redes",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1511,7 +1901,9 @@
         "cargo": "Gerente De Redes Junior",
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ]
   },
@@ -1522,7 +1914,9 @@
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1531,21 +1925,27 @@
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Emmanoel Matias Dos Anjos",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Zaquel Laurindo De França",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1554,7 +1954,9 @@
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 5898.77,
+        "descontosFerias": 299.74
       }
     ],
     "Agosto/2026": [
@@ -1563,7 +1965,9 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6822.82,
+        "descontosFerias": 669.17
       }
     ]
   },
@@ -1574,7 +1978,9 @@
         "cargo": "Instalador Reparador Jr",
         "empresa": "DX2",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1583,7 +1989,9 @@
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1592,21 +2000,27 @@
         "cargo": "Instalador Reparador",
         "empresa": "DX2",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5189.61,
+        "descontosFerias": 2431.06
       },
       {
         "nome": "Leticia Araujo De Aguiar",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "DX2",
         "situacao": "Férias 13/07/2026 A 11/08/2026",
-        "periodo": "13/07/2026 A 11/08/2026"
+        "periodo": "13/07/2026 A 11/08/2026",
+        "valorFerias": 2855.2,
+        "descontosFerias": 122.2
       },
       {
         "nome": "Mikael Pereira De Melo",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DX2",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6109.07,
+        "descontosFerias": 2413.15
       }
     ],
     "Agosto/2026": [
@@ -1615,42 +2029,54 @@
         "cargo": "Instalador Reparador",
         "empresa": "DX2",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1376.29,
+        "descontosFerias": 382.76
       },
       {
         "nome": "Kleber Souza De Melo",
         "cargo": "Instalador Reparador",
         "empresa": "DX2",
         "situacao": "Férias 10/08/2026 A 08/09/2026",
-        "periodo": "10/08/2026 A 08/09/2026"
+        "periodo": "10/08/2026 A 08/09/2026",
+        "valorFerias": 5370.12,
+        "descontosFerias": 1192.55
       },
       {
         "nome": "Leticia Araujo De Aguiar",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "DX2",
         "situacao": "Férias 13/07/2026 A 11/08/2026",
-        "periodo": "13/07/2026 A 11/08/2026"
+        "periodo": "13/07/2026 A 11/08/2026",
+        "valorFerias": 1653.06,
+        "descontosFerias": 70.18
       },
       {
         "nome": "Mikael Pereira De Melo",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DX2",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 2617.45,
+        "descontosFerias": 355.63
       },
       {
         "nome": "Vitor Mateus Do Nascimento",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DX2",
         "situacao": "Férias 10/08/2026 A 08/09/2026",
-        "periodo": "10/08/2026 A 08/09/2026"
+        "periodo": "10/08/2026 A 08/09/2026",
+        "valorFerias": 4823.64,
+        "descontosFerias": 436.49
       },
       {
         "nome": "Willian Eustaquio Lima Da Silva",
         "cargo": "Cooerdenador De Empresas Junior",
         "empresa": "DX2",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 11598.62,
+        "descontosFerias": 2293.96
       }
     ]
   },
@@ -1661,28 +2087,36 @@
         "cargo": "Despachante Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Gabriel Vinicius Tenorio Da Silva",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Steves Da Silva Barros",
         "cargo": "Instalador Reparador Sênior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Luiz Henrique Gomes De Oliveira",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1691,14 +2125,18 @@
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Felipe Alves De Almeida Silva",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1707,7 +2145,9 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 7010.27,
+        "descontosFerias": 655.42
       }
     ],
     "Agosto/2026": [
@@ -1716,21 +2156,27 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 8382.12,
+        "descontosFerias": 444.93
       },
       {
         "nome": "Ailton Cupertino De Almeida Filho",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 2343.25,
+        "descontosFerias": 100.67
       },
       {
         "nome": "Rai Ramos Dos Santos",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1078.26,
+        "descontosFerias": 108.34
       }
     ]
   },
@@ -1741,28 +2187,36 @@
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Petrucia Maria Ramos Neves",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Joseilton Miguel Da Silva",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Luiz Fernando Emiliano Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1771,35 +2225,45 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Eduardo De Souza",
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Marcia Adrielle De Araujo",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Marconi Jose Missias",
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Victor Vinicius De Franca Santana.",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1808,49 +2272,63 @@
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5874.35,
+        "descontosFerias": 287.32
       },
       {
         "nome": "Carlos Andre De Oliveira",
         "cargo": "Supervisor Tecnico",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 11467.56,
+        "descontosFerias": 848.61
       },
       {
         "nome": "Wilson Costa De Oliveira Junior",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5785.93,
+        "descontosFerias": 538.12
       },
       {
         "nome": "Fernando Angelo Lima Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5287.85,
+        "descontosFerias": 494.49
       },
       {
         "nome": "Jonathan Igor Silva De Sa",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6117.23,
+        "descontosFerias": 529.61
       },
       {
         "nome": "Jose Cicero De Vasconcelos",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5914.82,
+        "descontosFerias": 524.79
       },
       {
         "nome": "Jose Julio Barbosa Do Carmo Junior",
         "cargo": "Gerente Administrativo Instalacao Junio",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 11597.17,
+        "descontosFerias": 2236.18
       }
     ],
     "Agosto/2026": [
@@ -1859,77 +2337,99 @@
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5628.94,
+        "descontosFerias": 497.91
       },
       {
         "nome": "Dayana Mabel Bezerra De Sá",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5207.96,
+        "descontosFerias": 258.35
       },
       {
         "nome": "Lucas Rodrigo Nunes Caitano",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5777.2,
+        "descontosFerias": 539.2
       },
       {
         "nome": "Ramon Floriano De Sena Peixoto",
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6634.97,
+        "descontosFerias": 420.0
       },
       {
         "nome": "Silvania Lins Santos Da Silva",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 903.9,
+        "descontosFerias": 42.12
       },
       {
         "nome": "Carlos Andre De Oliveira",
         "cargo": "Supervisor Tecnico",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 674.43,
+        "descontosFerias": 41.57
       },
       {
         "nome": "Wilson Costa De Oliveira Junior",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 3853.22,
+        "descontosFerias": 82.11
       },
       {
         "nome": "Fernando Angelo Lima Da Silva",
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 813.56,
+        "descontosFerias": 76.07
       },
       {
         "nome": "Jonathan Igor Silva De Sa",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 941.12,
+        "descontosFerias": 85.54
       },
       {
         "nome": "Jose Cicero De Vasconcelos",
         "cargo": "Instalador Reparador Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 909.86,
+        "descontosFerias": 84.28
       },
       {
         "nome": "Jose Julio Barbosa Do Carmo Junior",
         "cargo": "Gerente Administrativo Instalacao Junio",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1783.78,
+        "descontosFerias": 380.48
       }
     ]
   },
@@ -1940,7 +2440,9 @@
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -1949,21 +2451,27 @@
         "cargo": "Supervisor De Vendas",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Tullyana Leticia Barbosa Sena",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Madson Israel Da Silva Araujo",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -1972,14 +2480,18 @@
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4788.4,
+        "descontosFerias": 255.68
       },
       {
         "nome": "Thyalison Da Silva Aciole",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4022.87,
+        "descontosFerias": 170.76
       }
     ],
     "Agosto/2026": [
@@ -1988,21 +2500,27 @@
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 736.66,
+        "descontosFerias": 38.12
       },
       {
         "nome": "Jaciara Maria Silva De Santana",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5284.57,
+        "descontosFerias": 285.37
       },
       {
         "nome": "Thyalison Da Silva Aciole",
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 618.8,
+        "descontosFerias": 27.45
       }
     ]
   },
@@ -2013,14 +2531,18 @@
         "cargo": "Instalador Reparador Jr",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Renan Gabriel Ferreira",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Soares & Lins",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2029,14 +2551,18 @@
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Ronald Barbosa Da Silva Mendes",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Lins",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2045,14 +2571,18 @@
         "cargo": "Assistente Administrativo De Atendimento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 25/07/2026",
-        "periodo": "06/07/2026 A 25/07/2026"
+        "periodo": "06/07/2026 A 25/07/2026",
+        "valorFerias": 4866.93,
+        "descontosFerias": 1595.14
       },
       {
         "nome": "Lucas Borges Batista Firmino",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Lins",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 5668.91,
+        "descontosFerias": 479.94
       }
     ],
     "Agosto/2026": [
@@ -2061,14 +2591,18 @@
         "cargo": "Auxiliar Administrativo Atendimento",
         "empresa": "Soares & Lins",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4473.42,
+        "descontosFerias": 389.43
       },
       {
         "nome": "Thiago Vinicius Dos Santos Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Lins",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5808.24,
+        "descontosFerias": 513.8
       }
     ]
   },
@@ -2079,7 +2613,9 @@
         "cargo": "Executivo De Contas",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Agosto/2026": [
@@ -2088,14 +2624,18 @@
         "cargo": "Vendedor Externo",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 4479.97,
+        "descontosFerias": 194.88
       },
       {
         "nome": "Jean Pereira Da Silva",
         "cargo": "Executivo De Contas",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 8182.18,
+        "descontosFerias": 511.46
       }
     ]
   },
@@ -2106,28 +2646,36 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Edgar Nelson Lima Dos Santos",
         "cargo": "Instalador Reparador Jr",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Maria Cristina Soares Da Silva",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Matheus Allan Souza De Andrade",
         "cargo": "Instalador Reparador",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2136,35 +2684,45 @@
         "cargo": "Instalador Reparador Jr",
         "empresa": "Solon Araújo",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Daniel Jose Da Silva Filho",
         "cargo": "Instalador Reparador",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Natalia Barros Da Silva",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Renilson Farias Feitosa",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Victor Rafael Dos Santos Ferreira",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Solon Araújo",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2173,35 +2731,45 @@
         "cargo": "Instalador Reparador Junior",
         "empresa": "Solon Araújo",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5652.31,
+        "descontosFerias": 1863.88
       },
       {
         "nome": "Medlyn Rayssa Lima Oliveira",
         "cargo": "Assistente Administrativo De Atendimento Junior",
         "empresa": "Solon Araújo",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 2895.44,
+        "descontosFerias": 273.11
       },
       {
         "nome": "Moises Elias Da Silva Junior",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Solon Araújo",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 3763.01,
+        "descontosFerias": 1242.62
       },
       {
         "nome": "Natalia Barros Da Silva",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "Solon Araújo",
         "situacao": "Férias 15/06/2026 A 14/07/2026",
-        "periodo": "15/06/2026 A 14/07/2026"
+        "periodo": "15/06/2026 A 14/07/2026",
+        "valorFerias": 1946.44,
+        "descontosFerias": 81.05
       },
       {
         "nome": "Renilson Farias Feitosa",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Solon Araújo",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6104.58,
+        "descontosFerias": 2756.19
       }
     ],
     "Agosto/2026": [
@@ -2210,42 +2778,54 @@
         "cargo": "Gerente",
         "empresa": "Solon Araújo",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 10934.53,
+        "descontosFerias": 1964.57
       },
       {
         "nome": "Jonatas Pedro Damascena",
         "cargo": "Instalador Reparador Junior",
         "empresa": "Solon Araújo",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 885.76,
+        "descontosFerias": 277.12
       },
       {
         "nome": "Karina Vanessa Da Silva",
         "cargo": null,
         "empresa": "Solon Araújo",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 5345.94,
+        "descontosFerias": 261.87
       },
       {
         "nome": "Medlyn Rayssa Lima Oliveira",
         "cargo": null,
         "empresa": "Solon Araújo",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 2254.64,
+        "descontosFerias": 208.43
       },
       {
         "nome": "Moises Elias Da Silva Junior",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Solon Araújo",
         "situacao": "Férias 15/07/2026 A 13/08/2026",
-        "periodo": "15/07/2026 A 13/08/2026"
+        "periodo": "15/07/2026 A 13/08/2026",
+        "valorFerias": 2931.3,
+        "descontosFerias": 944.86
       },
       {
         "nome": "Renilson Farias Feitosa",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Solon Araújo",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 956.39,
+        "descontosFerias": 432.86
       }
     ]
   },
@@ -2256,21 +2836,27 @@
         "cargo": "Instalador Reparador",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jamerson Dos Santos Inacio",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Luiz Alberto Alves Pedrosa Novaes",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2279,21 +2865,27 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Douglas Ornilio Da Silva",
         "cargo": "Gerente Regional",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Fernando Queiroz Ferreira",
         "cargo": "Instalador Reparador",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2302,28 +2894,36 @@
         "cargo": "Motofretista",
         "empresa": "Soares & Silva",
         "situacao": "Férias 03/06/2026 A 02/07/2026",
-        "periodo": "03/06/2026 A 02/07/2026"
+        "periodo": "03/06/2026 A 02/07/2026",
+        "valorFerias": 417.82,
+        "descontosFerias": 133.17
       },
       {
         "nome": "Fernando Queiroz Ferreira",
         "cargo": "Instalador Reparador Junior",
         "empresa": "Soares & Silva",
         "situacao": "Férias 03/06/2026 A 02/07/2026",
-        "periodo": "03/06/2026 A 02/07/2026"
+        "periodo": "03/06/2026 A 02/07/2026",
+        "valorFerias": 427.05,
+        "descontosFerias": 73.29
       },
       {
         "nome": "Jose Lucas Silva De Morais",
         "cargo": "Supervisor Tecnico Júnior",
         "empresa": "Soares & Silva",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 8415.35,
+        "descontosFerias": 2585.28
       },
       {
         "nome": "Willams Xavier Da Silva",
         "cargo": "Instalador Reparador Junior",
         "empresa": "Soares & Silva",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 6363.89,
+        "descontosFerias": 418.3
       }
     ],
     "Agosto/2026": [
@@ -2332,49 +2932,63 @@
         "cargo": "Instalador Reparador",
         "empresa": "Soares & Silva",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 6620.91,
+        "descontosFerias": 452.79
       },
       {
         "nome": "Erinaldo Dos Santos Filho",
         "cargo": "Auxiliar Técnico Em Fibra",
         "empresa": "Soares & Silva",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 6047.92,
+        "descontosFerias": 1847.77
       },
       {
         "nome": "Fabio Reinaldo Dos Santos Dantas",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Soares & Silva",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 6010.35,
+        "descontosFerias": 509.64
       },
       {
         "nome": "Flavia Janielle Da Silva",
         "cargo": null,
         "empresa": "Soares & Silva",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 4303.64,
+        "descontosFerias": 1621.35
       },
       {
         "nome": "Jose Lucas Silva De Morais",
         "cargo": "Supervisor Tecnico Júnior",
         "empresa": "Soares & Silva",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 1294.45,
+        "descontosFerias": 400.36
       },
       {
         "nome": "Monique Oliveira Da Silva",
         "cargo": "Backoffice Administrativo Regional",
         "empresa": "Soares & Silva",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 5316.87,
+        "descontosFerias": 1304.45
       },
       {
         "nome": "Willams Xavier Da Silva",
         "cargo": "Instalador Reparador Junior",
         "empresa": "Soares & Silva",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 221.1,
+        "descontosFerias": 23.54
       }
     ]
   },
@@ -2385,7 +2999,9 @@
         "cargo": "Assistente Administrativo De Atendimento",
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2394,28 +3010,36 @@
         "cargo": "Instalador Reparador",
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jaziel Pedro Da Silva Rodrigues",
         "cargo": "Auxiliar Administrativo De Atendimento",
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Josania Silva Das Neves",
         "cargo": "Instalador Reparador Pleno",
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Leandro Jose Lins Da Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Souza & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2424,14 +3048,18 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "Souza & Silva",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4974.64,
+        "descontosFerias": 450.35
       },
       {
         "nome": "Jaziel Pedro Da Silva Rodrigues",
         "cargo": "Axuliar Administrativo De Atendimento",
         "empresa": "Souza & Silva",
         "situacao": "Férias 15/06/2026 A 14/07/2026",
-        "periodo": "15/06/2026 A 14/07/2026"
+        "periodo": "15/06/2026 A 14/07/2026",
+        "valorFerias": 2017.61,
+        "descontosFerias": 87.84
       }
     ],
     "Agosto/2026": [
@@ -2440,21 +3068,27 @@
         "cargo": "Instalador Reparador",
         "empresa": "Souza & Silva",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 6186.11,
+        "descontosFerias": 565.74
       },
       {
         "nome": "Ewerton Edvaldo Laurindo Dos Santos",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Souza & Silva",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 765.17,
+        "descontosFerias": 66.44
       },
       {
         "nome": "Jhonatas Wesley Neves Guedes",
         "cargo": "Auxiliar De Instalador",
         "empresa": "Souza & Silva",
         "situacao": "Férias 03/08/2026 A 01/09/2026",
-        "periodo": "03/08/2026 A 01/09/2026"
+        "periodo": "03/08/2026 A 01/09/2026",
+        "valorFerias": 4929.06,
+        "descontosFerias": 2501.51
       }
     ]
   },
@@ -2465,14 +3099,18 @@
         "cargo": "Ajudante De Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Joao Carlos Da Silva",
         "cargo": "Ajudante De Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2481,14 +3119,18 @@
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Josenildo Da Silva Alves",
         "cargo": "Ajudante De Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2497,21 +3139,27 @@
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 8571.44,
+        "descontosFerias": 601.51
       },
       {
         "nome": "William Da Silva Andrade",
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 7643.68,
+        "descontosFerias": 2742.28
       },
       {
         "nome": "Antonio Ricardo Da Silva",
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 8363.11,
+        "descontosFerias": 977.63
       }
     ],
     "Agosto/2026": [
@@ -2520,21 +3168,27 @@
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 290.55,
+        "descontosFerias": 29.5
       },
       {
         "nome": "Luiz Pedro Dos Reis",
         "cargo": "Ajudante De Obras",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 170.9,
+        "descontosFerias": 19.84
       },
       {
         "nome": "William Da Silva Andrade",
         "cargo": "Pedreiro",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 245.35,
+        "descontosFerias": 141.3
       }
     ]
   },
@@ -2545,14 +3199,18 @@
         "cargo": "Servente De Obra",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Neilson Alexandre Da Silva",
         "cargo": "Motorista Junior",
         "empresa": "DTEL",
         "situacao": "Férias",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Junho/2026": [
@@ -2561,14 +3219,18 @@
         "cargo": "Ger. Regional Logístico Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Trabalhadas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Ednaldo De Naboia Acioli Junior",
         "cargo": "Chefe De Oficina",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2577,7 +3239,9 @@
         "cargo": "Assistente De Logistica Senior",
         "empresa": "DTEL",
         "situacao": "Férias 22/07/2026 A 20/08/2026",
-        "periodo": "22/07/2026 A 20/08/2026"
+        "periodo": "22/07/2026 A 20/08/2026",
+        "valorFerias": 2584.36,
+        "descontosFerias": 852.16
       }
     ],
     "Agosto/2026": [
@@ -2586,7 +3250,9 @@
         "cargo": "Assistente De Logistica Senior",
         "empresa": "DTEL",
         "situacao": "Férias 22/07/2026 A 20/08/2026",
-        "periodo": "22/07/2026 A 20/08/2026"
+        "periodo": "22/07/2026 A 20/08/2026",
+        "valorFerias": 5168.58,
+        "descontosFerias": 1694.46
       }
     ]
   },
@@ -2597,21 +3263,27 @@
         "cargo": "Técnico De Lançamento Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Severino Da Silva Santos",
         "cargo": "Técnico De Lançamento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Laercio Joaquim Dos Santos Santana",
         "cargo": "Técnico De Lançamento Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2620,35 +3292,45 @@
         "cargo": "Tecnico De Lancamento Senior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 11/08/2026",
-        "periodo": "13/07/2026 A 11/08/2026"
+        "periodo": "13/07/2026 A 11/08/2026",
+        "valorFerias": 5550.26,
+        "descontosFerias": 2282.76
       },
       {
         "nome": "Carlos Fernando De Lima",
         "cargo": "Supervisor De Lancamento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 11300.73,
+        "descontosFerias": 2430.29
       },
       {
         "nome": "Messias Lopes De Oliveira",
         "cargo": "Tecnico De Lancamento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 6431.78,
+        "descontosFerias": 3070.71
       },
       {
         "nome": "Renato Damasceno Da Silva",
         "cargo": "Tecnico De Lancamento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 6739.42,
+        "descontosFerias": 3110.05
       },
       {
         "nome": "Laercio Joaquim Dos Santos Santana",
         "cargo": "Tecnico De Lancamento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 8180.9,
+        "descontosFerias": 773.52
       }
     ],
     "Agosto/2026": [
@@ -2657,21 +3339,27 @@
         "cargo": "Tecnico De Lancamento Senior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 11/08/2026",
-        "periodo": "13/07/2026 A 11/08/2026"
+        "periodo": "13/07/2026 A 11/08/2026",
+        "valorFerias": 3213.32,
+        "descontosFerias": 1333.64
       },
       {
         "nome": "Daniel Antonio Da Silva",
         "cargo": "Tecnico De Lancamento Senior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 9317.93,
+        "descontosFerias": 1289.75
       },
       {
         "nome": "Jose Carlos De Lira Carneiro",
         "cargo": "Tecnico De Lancamento Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 7928.42,
+        "descontosFerias": 845.45
       }
     ]
   },
@@ -2682,14 +3370,18 @@
         "cargo": "Supervisor De Vendas Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Rafael Da Silva Gabriel",
         "cargo": "Supervisor De Vendas",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2698,14 +3390,18 @@
         "cargo": "Supervisor De Vendas",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 20/07/2026",
-        "periodo": "06/07/2026 A 20/07/2026"
+        "periodo": "06/07/2026 A 20/07/2026",
+        "valorFerias": 3136.51,
+        "descontosFerias": 831.06
       },
       {
         "nome": "Rafael Da Silva Gabriel",
         "cargo": "Supervisor De Vendas",
         "empresa": "DTEL",
         "situacao": "Férias 16/07/2026 A 30/07/2026",
-        "periodo": "16/07/2026 A 30/07/2026"
+        "periodo": "16/07/2026 A 30/07/2026",
+        "valorFerias": 3343.53,
+        "descontosFerias": 414.87
       }
     ]
   },
@@ -2716,21 +3412,27 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Eronildo De Melo Silva",
         "cargo": "Tecnico Em Fibra Júnior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Jose Roberto De Santana Silva",
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2739,21 +3441,27 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 8100.24,
+        "descontosFerias": 1951.31
       },
       {
         "nome": "Josadark Jose Do Nascimento",
         "cargo": "Coordenador Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 14421.51,
+        "descontosFerias": 6218.62
       },
       {
         "nome": "Jose Roberto De Santana Silva",
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 7636.08,
+        "descontosFerias": 3543.97
       }
     ],
     "Agosto/2026": [
@@ -2762,14 +3470,18 @@
         "cargo": "Tecnico Em Fibra",
         "empresa": "DTEL",
         "situacao": "Férias 10/08/2026 A 08/09/2026",
-        "periodo": "10/08/2026 A 08/09/2026"
+        "periodo": "10/08/2026 A 08/09/2026",
+        "valorFerias": 6758.35,
+        "descontosFerias": 992.64
       },
       {
         "nome": "Jose Rogerio De Souza",
         "cargo": "Tecnico Em Fibra Junior",
         "empresa": "DTEL",
         "situacao": "Férias 17/08/2026 A 15/09/2026",
-        "periodo": "17/08/2026 A 15/09/2026"
+        "periodo": "17/08/2026 A 15/09/2026",
+        "valorFerias": 4539.58,
+        "descontosFerias": 886.84
       }
     ]
   },
@@ -2780,7 +3492,9 @@
         "cargo": "Assistente Administrativo De Rh Pleno",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2789,7 +3503,9 @@
         "cargo": "Assistente Administrativo De Rh Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 6185.62,
+        "descontosFerias": 206.76
       }
     ],
     "Agosto/2026": [
@@ -2798,7 +3514,9 @@
         "cargo": "Assistente Administrativo De Rh Junior",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 212.57,
+        "descontosFerias": 13.01
       }
     ]
   },
@@ -2809,7 +3527,9 @@
         "cargo": "Assistente Executivo Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Agosto/2026": [
@@ -2818,7 +3538,9 @@
         "cargo": "Analista De Dados Junior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 7575.42,
+        "descontosFerias": 394.21
       }
     ]
   },
@@ -2829,14 +3551,18 @@
         "cargo": "Assistente Administrativo Cac Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Iris Beatriz Silveira Marques",
         "cargo": "Backoffice De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2845,7 +3571,9 @@
         "cargo": "Backoffice De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6037.59,
+        "descontosFerias": 851.23
       }
     ],
     "Agosto/2026": [
@@ -2854,7 +3582,9 @@
         "cargo": "Backoffice De Atendimento Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 928.79,
+        "descontosFerias": 126.83
       }
     ]
   },
@@ -2865,21 +3595,27 @@
         "cargo": "Vendedor Externo",
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Tiago De Araujo Silva",
         "cargo": "Coordenador De Vendas Varejo Junior",
         "empresa": "DX2",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       },
       {
         "nome": "Carlos Alberto Da Silva Nascimento",
         "cargo": "Vendedor Externo",
         "empresa": "Soares & Silva",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ]
   },
@@ -2890,7 +3626,9 @@
         "cargo": "Consultor (A) Negocios",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2899,7 +3637,9 @@
         "cargo": "Analista Comercial Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 5445.08,
+        "descontosFerias": 456.57
       }
     ],
     "Agosto/2026": [
@@ -2908,14 +3648,18 @@
         "cargo": "Analista Comercial Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 837.66,
+        "descontosFerias": 72.08
       },
       {
         "nome": "Bartolomeu Domingos De Melo",
         "cargo": "Consultor De Negocios",
         "empresa": "DTEL",
         "situacao": "Férias 10/08/2026 A 29/08/2026",
-        "periodo": "10/08/2026 A 29/08/2026"
+        "periodo": "10/08/2026 A 29/08/2026",
+        "valorFerias": 24671.82,
+        "descontosFerias": 5604.08
       }
     ]
   },
@@ -2926,7 +3670,9 @@
         "cargo": "Assistente De Compras",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2935,7 +3681,9 @@
         "cargo": "Assistente De Compras Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 6048.87,
+        "descontosFerias": 495.91
       }
     ],
     "Agosto/2026": [
@@ -2944,7 +3692,9 @@
         "cargo": "Assistente De Compras Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 930.54,
+        "descontosFerias": 82.35
       }
     ]
   },
@@ -2955,7 +3705,9 @@
         "cargo": "Tecnico De Manutenção Predial",
         "empresa": "DTEL",
         "situacao": "Férias Quebradas",
-        "periodo": null
+        "periodo": null,
+        "valorFerias": null,
+        "descontosFerias": null
       }
     ],
     "Julho/2026": [
@@ -2964,14 +3716,18 @@
         "cargo": "Auxiliar De Manutencao Predial",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 7613.66,
+        "descontosFerias": 2654.08
       },
       {
         "nome": "Wellington Fernando De Lima",
         "cargo": "Tecnico De Manutencao Predial Junior",
         "empresa": "DTEL",
         "situacao": "Férias 01/07/2026 A 30/07/2026",
-        "periodo": "01/07/2026 A 30/07/2026"
+        "periodo": "01/07/2026 A 30/07/2026",
+        "valorFerias": 9688.12,
+        "descontosFerias": 1713.16
       }
     ],
     "Agosto/2026": [
@@ -2980,7 +3736,9 @@
         "cargo": "Técnico De Manutenção Predial",
         "empresa": "DTEL",
         "situacao": "Férias 17/08/2026 A 05/09/2026",
-        "periodo": "17/08/2026 A 05/09/2026"
+        "periodo": "17/08/2026 A 05/09/2026",
+        "valorFerias": 6594.11,
+        "descontosFerias": 416.69
       }
     ]
   },
@@ -2991,7 +3749,9 @@
         "cargo": "Assistente Administrativo Financeiro Jun",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 4867.27,
+        "descontosFerias": 462.94
       }
     ],
     "Agosto/2026": [
@@ -3000,14 +3760,18 @@
         "cargo": "Assistente Administrativo Financeiro Jun",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 04/08/2026",
-        "periodo": "06/07/2026 A 04/08/2026"
+        "periodo": "06/07/2026 A 04/08/2026",
+        "valorFerias": 748.69,
+        "descontosFerias": 72.61
       },
       {
         "nome": "Wagna De Freitas Santos Santana",
         "cargo": "Assistente Administrativo Financeiro Jun",
         "empresa": "DTEL",
         "situacao": "Férias 11/08/2026 A 30/08/2026",
-        "periodo": "11/08/2026 A 30/08/2026"
+        "periodo": "11/08/2026 A 30/08/2026",
+        "valorFerias": 5604.93,
+        "descontosFerias": 376.77
       }
     ]
   },
@@ -3018,14 +3782,18 @@
         "cargo": "Auxiliar De Dp",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 27/07/2026",
-        "periodo": "13/07/2026 A 27/07/2026"
+        "periodo": "13/07/2026 A 27/07/2026",
+        "valorFerias": 2328.26,
+        "descontosFerias": 420.37
       },
       {
         "nome": "Tamires Do Nascimento Oliveira",
         "cargo": "Assistente De Dp",
         "empresa": "DTEL",
         "situacao": "Férias 20/07/2026 A 18/08/2026",
-        "periodo": "20/07/2026 A 18/08/2026"
+        "periodo": "20/07/2026 A 18/08/2026",
+        "valorFerias": 1747.28,
+        "descontosFerias": 343.99
       }
     ],
     "Agosto/2026": [
@@ -3034,14 +3802,18 @@
         "cargo": "Gerente De Dp Senior",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 17011.43,
+        "descontosFerias": 3219.37
       },
       {
         "nome": "Tamires Do Nascimento Oliveira",
         "cargo": "Assistente De Dp",
         "empresa": "DTEL",
         "situacao": "Férias 20/07/2026 A 18/08/2026",
-        "periodo": "20/07/2026 A 18/08/2026"
+        "periodo": "20/07/2026 A 18/08/2026",
+        "valorFerias": 2620.99,
+        "descontosFerias": 514.28
       }
     ]
   },
@@ -3052,7 +3824,9 @@
         "cargo": "Supervisor De Tic Pleno",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 25/07/2026",
-        "periodo": "06/07/2026 A 25/07/2026"
+        "periodo": "06/07/2026 A 25/07/2026",
+        "valorFerias": 8916.96,
+        "descontosFerias": 1093.2
       }
     ],
     "Agosto/2026": [
@@ -3061,7 +3835,9 @@
         "cargo": "Analista De Ti",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6661.68,
+        "descontosFerias": 547.42
       }
     ]
   },
@@ -3072,7 +3848,9 @@
         "cargo": "Desenvolvedor Junior",
         "empresa": "DTEL",
         "situacao": "Férias 06/07/2026 A 25/07/2026",
-        "periodo": "06/07/2026 A 25/07/2026"
+        "periodo": "06/07/2026 A 25/07/2026",
+        "valorFerias": 5419.94,
+        "descontosFerias": 188.0
       }
     ],
     "Agosto/2026": [
@@ -3081,7 +3859,9 @@
         "cargo": "Desenvolvedor Junior",
         "empresa": "DTEL",
         "situacao": "Férias 17/08/2026 A 05/09/2026",
-        "periodo": "17/08/2026 A 05/09/2026"
+        "periodo": "17/08/2026 A 05/09/2026",
+        "valorFerias": 5365.99,
+        "descontosFerias": 162.29
       }
     ]
   },
@@ -3092,7 +3872,9 @@
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 5636.14,
+        "descontosFerias": 1031.84
       }
     ],
     "Agosto/2026": [
@@ -3101,21 +3883,27 @@
         "cargo": "Instalador Reparador",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 6657.3,
+        "descontosFerias": 445.54
       },
       {
         "nome": "Vitoria Raposo Marques Da Silva",
         "cargo": null,
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 5720.03,
+        "descontosFerias": 284.45
       },
       {
         "nome": "Luiz Fernando Pergentino Da Silva",
         "cargo": "Auxiliar De Instalador",
         "empresa": "DTEL",
         "situacao": "Férias 13/07/2026 A 01/08/2026",
-        "periodo": "13/07/2026 A 01/08/2026"
+        "periodo": "13/07/2026 A 01/08/2026",
+        "valorFerias": 190.5,
+        "descontosFerias": 51.71
       }
     ]
   },
@@ -3126,7 +3914,9 @@
         "cargo": "Assistente Administrativo Contábil Senio",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 7850.59,
+        "descontosFerias": 1054.65
       }
     ]
   },
@@ -3137,7 +3927,9 @@
         "cargo": "Gerente De Instalacao I",
         "empresa": "DTEL",
         "situacao": "Férias 04/08/2026 A 02/09/2026",
-        "periodo": "04/08/2026 A 02/09/2026"
+        "periodo": "04/08/2026 A 02/09/2026",
+        "valorFerias": 8802.12,
+        "descontosFerias": 694.59
       }
     ]
   }
