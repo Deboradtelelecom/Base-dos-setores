@@ -28724,16 +28724,6 @@
      "nome": "Mikaelle Maria de Souza Silva",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Mikaelle Maria De Souza Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Sammuel Deyvson Da Silva Santos",
-     "valor": 50
-    }
    ]
   },
   "gestao_de_atendimento": {
@@ -28762,76 +28752,6 @@
      "nome": "Deygena Rosa de Lima",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Amanda Soares De Farias",
-     "valor": 50
-    },
-    {
-     "nome": "Arlen Duarte Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Bruna Heloysa De Almeida Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Celio Marcio Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Everton Ezequiel De Lima Almeida",
-     "valor": 50
-    },
-    {
-     "nome": "Gabriel Bernardes Agostinho Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Hugo Esteves Martins De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Iris Beatriz Silveira Marques",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Victor Mendes De Andrade Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Kayron Fillipe Sales Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Kelly Sabrina Nunes Duarte",
-     "valor": 50
-    },
-    {
-     "nome": "Lindivania Silva De Lucena",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Kaua Silva Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Mariana Maria Cancio",
-     "valor": 50
-    },
-    {
-     "nome": "Matheus Vinicius De Melo Dias Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Milena Soares Da Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Vikione Stephany Maria Batista Da Silva",
-     "valor": 50
-    }
    ]
   },
   "logistica": {
@@ -28846,72 +28766,6 @@
     },
     {
      "nome": "E-mail do setor (frota@dtel.psi.br)",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Allan Dos Santos E Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Anderson Da Silva Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Antonio Nascimento De Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Armando Jose Barbosa",
-     "valor": 50
-    },
-    {
-     "nome": "Hiago Victor Da Silva Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Jonathan Bernardo Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Alves De Oliveira Neto",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Edivaldo De Oliveira Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Josenildo Luiz Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Kaio Eduardo Vicente De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Luan Kelvyn Barros Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Neilson Alexandre Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Pedro Vitor Dos Santos Mendes",
-     "valor": 50
-    },
-    {
-     "nome": "Victor Hugo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Victor Luis Phillipe De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Elias Jose De Freitas",
      "valor": 50
     }
    ]
@@ -28944,52 +28798,6 @@
     },
     {
      "nome": "LUIS HENRIQUE PEREIRA BRANCO",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Andreza Luana Barbosa Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Clara Vitoria De Souza Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Cleonildo Antonio Dos Santos Neto",
-     "valor": 50
-    },
-    {
-     "nome": "Dayane Stefanni Climaco De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Dayse Kassia Da Silva Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Giovana Lais Silva Dos Anjos",
-     "valor": 50
-    },
-    {
-     "nome": "Leticia Ribeiro Gomes Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Luis Henrique Pereira Branco",
-     "valor": 50
-    },
-    {
-     "nome": "Michel Gleydson Da Silva Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Thiago De Andrade Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Yasmim Camilly De Barros Lira",
      "valor": 50
     }
    ]
@@ -29026,40 +28834,6 @@
     },
     {
      "nome": "E-mail do setor (apagar@dtel.psi.br)",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Ana Paula Tavares Silva De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Anelise Leticia Ribeiro Xavier",
-     "valor": 50
-    },
-    {
-     "nome": "Anna Mary Barbosa Pimentel",
-     "valor": 50
-    },
-    {
-     "nome": "Jaciane Gomes Do Carmo",
-     "valor": 50
-    },
-    {
-     "nome": "Jeisa Bianca Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Vitor De Araujo Bezerra",
-     "valor": 50
-    },
-    {
-     "nome": "Maria Eduarda Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Wagna De Freitas Santos Santana",
      "valor": 50
     }
    ]
@@ -29114,72 +28888,6 @@
      "nome": "E-mail do setor — CD 01 (cd01vsa@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Andre Antonio Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Bruno Rafael Menezes Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Caua Victor De Nascimento",
-     "valor": 50
-    },
-    {
-     "nome": "Danilo Fernando Da Silva Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Danilo Pedro Pereira Dos Reis",
-     "valor": 50
-    },
-    {
-     "nome": "Dayvisson Guilherme De Santana Farias",
-     "valor": 50
-    },
-    {
-     "nome": "Emerson De Oliveira Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Fabio Daniel Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jonatha Rafael Figueredo De Sousa",
-     "valor": 50
-    },
-    {
-     "nome": "Jonathas Jose Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Geovane Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Helmiton Gomes De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Klayton Rodrigo De Freitas Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Ronilson Luiz Do Nascimento",
-     "valor": 50
-    },
-    {
-     "nome": "Tiago De Lima Sena",
-     "valor": 50
-    },
-    {
-     "nome": "Valderez Caetano De Souza",
-     "valor": 50
-    }
    ]
   },
   "noc": {
@@ -29208,20 +28916,6 @@
      "nome": "E-mail do setor (noc@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Jefferson Patrick Barreto Tavares",
-     "valor": 50
-    },
-    {
-     "nome": "Orlando Soares Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Rafael Marinho Macedo",
-     "valor": 50
-    }
    ]
   },
   "rh": {
@@ -29248,32 +28942,6 @@
     },
     {
      "nome": "E-mail do setor (vagas@dtel.psi.br)",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Camila Virgulino Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Darllan Dos Santos Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Isla Mirelly Da Silva Antonio",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Thiago Oliveira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Alexandre Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Osmaire Batista De Lima",
      "valor": 50
     }
    ]
@@ -29376,36 +29044,6 @@
      "nome": "Thiago Campelo da Silva ",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Allyson Guilherme Dos Santos Cavalcanstitueação:",
-     "valor": 50
-    },
-    {
-     "nome": "Filipe Da Silva Gonçalves",
-     "valor": 50
-    },
-    {
-     "nome": "Marcos Antonio Da Silva Sobrinho",
-     "valor": 50
-    },
-    {
-     "nome": "Thiago Campelo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Thiago Luiz Da Silva Mota",
-     "valor": 50
-    },
-    {
-     "nome": "Wayne Palmeira De Castro Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Willams Barbosa Da Silva",
-     "valor": 50
-    }
    ]
   },
   "cac": {
@@ -29446,28 +29084,6 @@
      "nome": "Gabriel Bernardes Agostinho da Silva",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Claudia Soares Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Conceicao Jaciara Casado De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Djanete Soares Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Emanoel Rodolfo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Nailza Moreira Da Silva",
-     "valor": 50
-    }
    ]
   },
   "diretoria_adm": {
@@ -29478,16 +29094,6 @@
     },
     {
      "nome": "Sostenes Matheus Lima e Silva",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Almir Soares De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Sostenes Matheus Lima E Silva",
      "valor": 50
     }
    ]
@@ -29526,20 +29132,6 @@
      "nome": "Rafael da Silva Gabriel",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Isla Rafaelle Lessa De Andrade",
-     "valor": 50
-    },
-    {
-     "nome": "Maria Clara Da Costa Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Rafael Da Silva Gabriel",
-     "valor": 50
-    }
    ]
   },
   "coe": {
@@ -29576,52 +29168,6 @@
      "nome": "Eduarda Yasmim Silva Medeiros",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Andre Luiz Do Nascimento Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Fabiana Valeria Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Letícia De França Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Maria Amanda Da Silva Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Maria Eduarda Conceicao Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Mauricio Pedro De Oliveira Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Thulio Ferreira Andrade Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Tiago Lyra Da Mota Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Wellyson Thomas Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Willames Artur Da Conceicao Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Willyane Milena Dos Santos Aquino",
-     "valor": 50
-    }
    ]
   },
   "contabilidade": {
@@ -29654,32 +29200,6 @@
      "nome": "E-mail do setor (fiscal@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Daniela Olindina Rodrigues Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Daniele Pedrozo Falcao Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Luiz Otavio Dos Santos Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Maryanalia Carmo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Raquel Jedidja De Souza Gomes",
-     "valor": 50
-    },
-    {
-     "nome": "Ruthe Grazielly Da Silva Freitas",
-     "valor": 50
-    }
    ]
   },
   "dp": {
@@ -29710,44 +29230,6 @@
     },
     {
      "nome": "GIOVANNA EDUARDA RODRIGUES DO CARMO",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Carla Julianny De Oliveira Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Carlos Alexandre Gomes De Moura",
-     "valor": 50
-    },
-    {
-     "nome": "Edenize Alves Ximenes",
-     "valor": 50
-    },
-    {
-     "nome": "Giovanna Eduarda Rodrigues Do Carmo",
-     "valor": 50
-    },
-    {
-     "nome": "Jonas Soares De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Robson Da Silva Batista Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Samylla Gomes Freitas",
-     "valor": 50
-    },
-    {
-     "nome": "Tamires Do Nascimento Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Vitoria Fernanda Nascimento Silva",
      "valor": 50
     }
    ]
@@ -29814,76 +29296,6 @@
      "nome": "E-mail do setor (mkt@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Thays Freitas De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Auanny Rayssa Ferreira Lira",
-     "valor": 50
-    },
-    {
-     "nome": "Bianca Eloiza Macena De Almeida",
-     "valor": 50
-    },
-    {
-     "nome": "Davi Ferreira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "David Arthur Cavalcante Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Edmilson Jeronimo De Oliveira Filho",
-     "valor": 50
-    },
-    {
-     "nome": "Emilly Lopes Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Jefferson Da Silva Arruda",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Niverton Farias De Amorim",
-     "valor": 50
-    },
-    {
-     "nome": "Ketillyn Vitoria De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Mauricio De Alcantara Maciel Filho",
-     "valor": 50
-    },
-    {
-     "nome": "Maykon Alves De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Michelle Karen De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Stiviny Jorge Silva Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Suelen Raiane Da Silva Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Wesley Junior Da Silva Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Yasmim Ximenes Oliveira",
-     "valor": 50
-    }
    ]
   },
   "seguranca_do_trabalho": {
@@ -29910,40 +29322,6 @@
     },
     {
      "nome": "Mateus Gomes de Oliveira",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Anderson Felipe Varejao De Castro",
-     "valor": 50
-    },
-    {
-     "nome": "Anna Karoline Barbosa Pimentel De Olivseitiuraação:",
-     "valor": 50
-    },
-    {
-     "nome": "Erinaldo Lopes Da Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Isabelle Dias Abraão De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Jefferson Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Klinsmann David Amaral Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Mateus Gomes De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Nayara Ferreira Da Silva",
      "valor": 50
     }
    ]
@@ -29976,176 +29354,6 @@
     },
     {
      "nome": "Weslley Daniel de Lima Souza",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Aline Raquel Do Carmo Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Ana Suellen Rodrigues Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Arimael Pinheiro De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Bianca Natalia Vieira Neves",
-     "valor": 50
-    },
-    {
-     "nome": "Breno Alves De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "David Tavares Gomes De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Dayana Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Dayane Santos Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Elayne Ferreira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Elisangela Regina Da Silva Soares",
-     "valor": 50
-    },
-    {
-     "nome": "Ellen Dayane De Santana Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Emanuel Cristovao De Santana Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Emanuel Souza De Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Emanueli Mariany Dos Santos Vicente",
-     "valor": 50
-    },
-    {
-     "nome": "Esmeraldo Jose Vercosa",
-     "valor": 50
-    },
-    {
-     "nome": "Estefanny Raiane Vitalino Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Guilherme De Lima Albuquerque",
-     "valor": 50
-    },
-    {
-     "nome": "Guilherme Henrique Da Silva Moura",
-     "valor": 50
-    },
-    {
-     "nome": "Higor Matheus Santos Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Isabelly Rayssa Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Isla De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Izabella Alessandra Gomes Alves Da Silvsiatuação:",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Cleiton Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Arthur Da Silva Pereira",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Gabriel De Oliveira Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Vitor Pereira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Juan Carlos Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Lays Rayanne Da Silva Bispo",
-     "valor": 50
-    },
-    {
-     "nome": "Maria Ingred Carmo Do Monte",
-     "valor": 50
-    },
-    {
-     "nome": "Martha Vitoria Da Silva Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Mickael Antonio De Araujo Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Nicollas Caua Mario Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Rayane De Jesus Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Renata Eduarda Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Renata Silva De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Rikelmy Lima Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Sabrina Kelly Pedrosa Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Tanielma Oliveira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Thananne Giselle Gomes E Silva Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Thaysa Fernanda De Lima Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Vitoria Gabriele Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Weslley Daniel De Lima Souza",
      "valor": 50
     }
    ]
@@ -30208,44 +29416,6 @@
      "nome": "E-mail do setor (projetos@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Alan Klebson Do Monte Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Anderson Luiz Peixoto Da Silveira Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Andre Augusto Souza De Lira",
-     "valor": 50
-    },
-    {
-     "nome": "Emanuel Alves Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jairo Rodrigues Silva Neto",
-     "valor": 50
-    },
-    {
-     "nome": "Jessica Samara Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Luan Vinicius Neves De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Andre Da Silva Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Vinicius Gomes Farao",
-     "valor": 50
-    }
    ]
   },
   "suporte_orbix": {
@@ -30256,40 +29426,6 @@
     },
     {
      "nome": "Equipe de Monitoramento - Gabriel Medeiros",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Arthur Jefferson De Melo Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Everson Bruno Lorena Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Vitor Gomes De Moura",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Eduardo Do Nascimento Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Paulo Henrique Silva Dos Anjos",
-     "valor": 50
-    },
-    {
-     "nome": "Taciara Edla Teixeira Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Thaysla Silva Do Carmo",
-     "valor": 50
-    },
-    {
-     "nome": "Vyctor Emanuel Da Silva Batista",
      "valor": 50
     }
    ]
@@ -30308,76 +29444,12 @@
      "nome": "E-mail do setor (compras@dtel.psi.br)",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Bruno Douglas Alves Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Cleiton Carlos Da Silva Augusto",
-     "valor": 50
-    },
-    {
-     "nome": "Oliver Rhuan De Melo Gomes",
-     "valor": 50
-    },
-    {
-     "nome": "Pedro Gheorghe Da Silva Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Vinicius Santana De Lima Miranda",
-     "valor": 50
-    }
    ]
   },
   "fusao": {
    "Julho/2026": [
     {
      "nome": "JOSADARK JOSE DO NASCIMENTO",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Clecio Israel Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Roberto De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Cleiton Luciano Da Silva Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Danrley Do Nascimento Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Diego Gustavo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Gilberto Eugenio Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Eronildo De Melo Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Rogerio De Souza",
-     "valor": 50
-    },
-    {
-     "nome": "Luciano Manoel Do Nascimento",
-     "valor": 50
-    },
-    {
-     "nome": "Valdir Jose Feliciano",
      "valor": 50
     }
    ]
@@ -30388,164 +29460,12 @@
      "nome": "Carlos Fernando de Lima",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Anderson Farias Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Carlos Fernando De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Messias Lopes De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Renato Damasceno Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Alisson Belo Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Carlos Vinicius De Souza Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Daniel Antonio Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Daniel Jose Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Denilson Soares Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Edvaldo Da Silva Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Gabriel Gomes Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Guilherme Ferreira Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Gustavo De Jesus Alves Fideli",
-     "valor": 50
-    },
-    {
-     "nome": "Jorge Rodrigo Da Silva França",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Carlos De Lira Carneiro",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Edvaldo De Licera Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Laercio Joaquim Dos Santos Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Marinaldo Antonio De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Moises Da Rocha Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Nilton Jose Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Ricardo Euzebio Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Severino Da Silva Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Vagner Jose Da Silva Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Weverton De Santana Silva",
-     "valor": 50
-    }
    ]
   },
   "cobranca": {
    "Julho/2026": [
     {
      "nome": "Juliana da Silva Pereira",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Didier Panis Lopes Branco",
-     "valor": 50
-    },
-    {
-     "nome": "Fabiana Beserra De Brito Galvao",
-     "valor": 50
-    },
-    {
-     "nome": "Gerlania Maria Nilo Da Silva Lins",
-     "valor": 50
-    },
-    {
-     "nome": "Juliana Da Silva Pereira",
-     "valor": 50
-    },
-    {
-     "nome": "Klara Emeliny Cavalcanti De Medeiros",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Gabriel Tavares Gomes",
-     "valor": 50
-    },
-    {
-     "nome": "Marianny Vitória Silva De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Rafael De Lima Araujo",
-     "valor": 50
-    },
-    {
-     "nome": "Rute Mirelle Da Silva Lira",
-     "valor": 50
-    },
-    {
-     "nome": "Thais Dos Santos Tenorio",
-     "valor": 50
-    },
-    {
-     "nome": "Thamires Pontes De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Thaylane Silva Do Carmo",
-     "valor": 50
-    },
-    {
-     "nome": "Wandija Alesandra Da Silva Santos",
      "valor": 50
     }
    ]
@@ -30558,56 +29478,6 @@
     },
     {
      "nome": " Michelle Pacheco da Silva",
-     "valor": 50
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Amanda Camilla Silva Do Nascimento",
-     "valor": 50
-    },
-    {
-     "nome": "Adinair Batista De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Alida Aynara Conceicao Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Danielle Virgulino Costa",
-     "valor": 50
-    },
-    {
-     "nome": "Ehlaynne Mendes De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Eliane Lima Da Conceicao",
-     "valor": 50
-    },
-    {
-     "nome": "Esther Eduarda De Lima Vila Nova",
-     "valor": 50
-    },
-    {
-     "nome": "Fernanda Annielly De Lima Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Jadson Wenderson Da Silva Carvalho",
-     "valor": 50
-    },
-    {
-     "nome": "Mercia Damazo Vasconcelos",
-     "valor": 50
-    },
-    {
-     "nome": "Michelle Pacheco Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Mirthiz Cristina Lima Silva",
      "valor": 50
     }
    ]
@@ -30626,24 +29496,6 @@
      "nome": "Andreza Luana Barbosa da Silva",
      "valor": 50
     }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Alexandre Costa Laurindo",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Adilson Almeida Barros",
-     "valor": 50
-    },
-    {
-     "nome": "Marcos Ferreira Dos Reis Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Severino Jose De Almeida Alcoforado",
-     "valor": 50
-    }
    ]
   },
   "diretoria_operacional": {
@@ -30655,16 +29507,6 @@
     {
      "nome": "DEBORA CARLA DOS SANTOS SILVA",
      "valor": 90
-    }
-   ],
-   "Agosto/2026": [
-    {
-     "nome": "Debora Carla Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Severino Dionisio De Lima Junior",
-     "valor": 50
     }
    ]
   },
@@ -30678,414 +29520,76 @@
      "nome": "Gabriela da Silva Alves",
      "valor": 50
     }
-   ],
+   ]
+  },
+  "configuracao": {
    "Agosto/2026": [
     {
-     "nome": "Gabriela Da Silva Alves",
+     "nome": "Allan Gabriel Pinto Da Silva Rego",
      "valor": 50
     },
     {
-     "nome": "Liryel Camilly Santana Da Silva Carvalho",
+     "nome": "Artur Mauricio Amaro Goncalves Da Silva",
+     "valor": 50
+    },
+    {
+     "nome": "Douglas Soares Da Silva",
+     "valor": 50
+    },
+    {
+     "nome": "Isaias De Freitas Barbosa Junior",
+     "valor": 50
+    },
+    {
+     "nome": "Joao Paulo Antonio De Carvalho",
+     "valor": 50
+    },
+    {
+     "nome": "Kaua Santana De Almeida",
+     "valor": 50
+    },
+    {
+     "nome": "Lucas Roberto Queiroz Oliveira",
+     "valor": 50
+    },
+    {
+     "nome": "Lucas Vinicius De Lima Silva",
+     "valor": 50
+    },
+    {
+     "nome": "Sergio Dyjean Guimaraes Ferreira",
+     "valor": 50
+    },
+    {
+     "nome": "Wallisson Dhonatan Alves Dos Santos",
      "valor": 50
     }
    ]
   },
-  "comercial_corporativo": {
+  "dev": {
    "Agosto/2026": [
     {
-     "nome": "Adelmir Coelho Filho",
+     "nome": "Antonio Roberto Dias Frutuoso Junior",
      "valor": 50
     },
     {
-     "nome": "Anddre Henrique Araujo Dos Santos",
+     "nome": "Arthur Joaquim Santos Do Nascimento",
      "valor": 50
     },
     {
-     "nome": "Andrea Raphaelle Alexandre Dos Santossi Teu Asçiãlov:A",
+     "nome": "Bruno Santos Da Silva",
      "valor": 50
     },
     {
-     "nome": "Anna Leticia Andrade Galvao De Franca",
+     "nome": "Luiz Eduardo Pereira De Lima",
      "valor": 50
     },
     {
-     "nome": "Bartolomeu Domingos De Melo",
+     "nome": "Renan Alcantara Ribeiro",
      "valor": 50
     },
     {
-     "nome": "Elton Carlos Avelino Calado",
-     "valor": 50
-    },
-    {
-     "nome": "Hortencia Camila Da Silva Franca",
-     "valor": 50
-    },
-    {
-     "nome": "Jorge Terto De Holanda Cavalcanti",
-     "valor": 50
-    },
-    {
-     "nome": "Luiz Mario Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Paulo De Tarso Pereira De Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Pedro Antonio Grego Lins",
-     "valor": 50
-    },
-    {
-     "nome": "Victor Gabriel França Bernardes",
-     "valor": 50
-    }
-   ]
-  },
-  "manutencao_predial": {
-   "Agosto/2026": [
-    {
-     "nome": "Aluisio Mendes Da Silva Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Andersson De Melo Macena",
-     "valor": 50
-    },
-    {
-     "nome": "Arthur Da Silva Farias",
-     "valor": 50
-    },
-    {
-     "nome": "Claudio De Melo Amorim",
-     "valor": 50
-    },
-    {
-     "nome": "Eliel Francisco De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Francisco Sergio De Barros",
-     "valor": 50
-    },
-    {
-     "nome": "Glauco Matheus Da Cruz Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jaciel Severino Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jailton Adolfo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Adelson Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Mabson Robson Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Otoniel Da Silva Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Severino Antonio Francisco Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Tiago Roberto Da Silva Soares",
-     "valor": 50
-    },
-    {
-     "nome": "Wellington Fernando De Lima",
-     "valor": 50
-    }
-   ]
-  },
-  "obras": {
-   "Agosto/2026": [
-    {
-     "nome": "Marcondes Jose Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Afonso Felipe Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Antonio Ricardo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Cicero Gomes Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Cleiton Lima Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Dayvid Pedro Pereira Dos Reis",
-     "valor": 50
-    },
-    {
-     "nome": "Erivan Manoel De Moura Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Gabriel Ramon Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Gesimiel Gomes Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Isael De Jesus Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Carlos Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Joao Ricardo Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose De Arimatea Fernandes",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Jackson Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Willams Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Josenildo Da Silva Alves",
-     "valor": 50
-    },
-    {
-     "nome": "Josue Goncalves De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Kaua Deyvid Do Nascimento Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Leonardo Vinicius De Santana Arcoverde",
-     "valor": 50
-    },
-    {
-     "nome": "Luiz Pedro Dos Reis",
-     "valor": 50
-    },
-    {
-     "nome": "Romero Jose Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Ruy Honorato De Santana",
-     "valor": 50
-    },
-    {
-     "nome": "Severino De Souza Silva",
-     "valor": 50
-    },
-    {
-     "nome": "William Da Silva Andrade",
-     "valor": 50
-    }
-   ]
-  },
-  "suporte_da_central": {
-   "Agosto/2026": [
-    {
-     "nome": "Ana Caroline Ketilyn Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Adriana De Moura Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Alisson Santino De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Arthur Leonardo De Souza Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Cassio Marques Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Darlan Henrique Estevao De Lima",
-     "valor": 50
-    },
-    {
-     "nome": "Davi Joao Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "David Philippe De Oliveira Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Dayvid Santos Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Diego Filipe Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Edilson Soares Bulhoes",
-     "valor": 50
-    },
-    {
-     "nome": "Edja Kelly Gomes De Melo",
-     "valor": 50
-    },
-    {
-     "nome": "Eliaquim Davi Dos Santos Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Elizama Gomes De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Evellyn Rayssa Lima De Sousa",
-     "valor": 50
-    },
-    {
-     "nome": "Gabriel Jose Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Gabriele Cicera Pereira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Jose Luiz Augusto Da Silva Neto",
-     "valor": 50
-    },
-    {
-     "nome": "Ketima De Freitas Albuquerque",
-     "valor": 50
-    },
-    {
-     "nome": "Leonardo Lira Moscoso Da Veiga Pessoa",
-     "valor": 50
-    },
-    {
-     "nome": "Lisangela Rosa De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Vinicius Sousa De Araujo",
-     "valor": 50
-    },
-    {
-     "nome": "Luiz Gabriel De Souza Barbosa Nascimenstitouação:",
-     "valor": 50
-    },
-    {
-     "nome": "Luiz Simeone Carneiro Correa",
-     "valor": 50
-    },
-    {
-     "nome": "Marcelo Henrique Gomes Ramos",
-     "valor": 50
-    },
-    {
-     "nome": "Matheus Filipe Lira Ferreira",
-     "valor": 50
-    },
-    {
-     "nome": "Miecia Oliveira Da Silva Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Nathalia Gomes Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Rafaela Irineu Dos Santos",
-     "valor": 50
-    },
-    {
-     "nome": "Sandoval Vitor De Albuquerque E Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Thamyris Meirelly Silva Da Luz",
-     "valor": 50
-    },
-    {
-     "nome": "Washington Albuquerque Pessoa Junior",
-     "valor": 50
-    },
-    {
-     "nome": "Yuri Dos Santos Arruda",
-     "valor": 50
-    }
-   ]
-  },
-  "televendas": {
-   "Agosto/2026": [
-    {
-     "nome": "Aline Sandrelly Da Silva Falcao",
-     "valor": 50
-    },
-    {
-     "nome": "Carla Patricia Do Nascimento Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Danubia Ferreira Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Dayane Adrielly Da Silva Nascimento",
-     "valor": 50
-    },
-    {
-     "nome": "Kayne Karolayne Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Lucas Andre De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Maelson Wesley De Santana Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Maiara Da Silva Batista",
-     "valor": 50
-    },
-    {
-     "nome": "Tarsis Haniel Lima Da Silva",
-     "valor": 50
-    },
-    {
-     "nome": "Tharcila Daiana Ferreira De Oliveira",
-     "valor": 50
-    },
-    {
-     "nome": "Thayze Emanoelle Rosendo Da Silva",
+     "nome": "Bruno Santos Da Silva",
      "valor": 50
     }
    ]
@@ -31215,39 +29719,31 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Alan Klebson Do Monte Silva",
+     "nome": "Cryslaine Fonseca Rosal",
+     "valor": 60
+    },
+    {
+     "nome": "ALAN KLEBSON DO MONTE SILVA",
      "valor": 30
     },
     {
-     "nome": "Anderson Luiz Peixoto Da Silveira Junior",
+     "nome": "Leonardo Vinicius de Santana Arcoverde",
      "valor": 30
     },
     {
-     "nome": "Andre Augusto Souza De Lira",
+     "nome": "JAIRO RODRIGUES SILVA NETO",
      "valor": 30
     },
     {
-     "nome": "Emanuel Alves Da Silva",
+     "nome": "Anderson Luiz Peixoto da Silveira Junior",
      "valor": 30
     },
     {
-     "nome": "Jairo Rodrigues Silva Neto",
+     "nome": "Andre Augusto Souza de Lira",
      "valor": 30
     },
     {
-     "nome": "Jessica Samara Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Luan Vinicius Neves De Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Lucas Andre Da Silva Alves",
-     "valor": 30
-    },
-    {
-     "nome": "Lucas Vinicius Gomes Farao",
+     "nome": "Lucas Andre da Silva Alves",
      "valor": 30
     }
    ]
@@ -31285,23 +29781,11 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Bruno Douglas Alves Da Silva",
+     "nome": "Bruno Douglas Alves da Silva",
      "valor": 30
     },
     {
-     "nome": "Cleiton Carlos Da Silva Augusto",
-     "valor": 30
-    },
-    {
-     "nome": "Oliver Rhuan De Melo Gomes",
-     "valor": 30
-    },
-    {
-     "nome": "Pedro Gheorghe Da Silva Santana",
-     "valor": 30
-    },
-    {
-     "nome": "Vinicius Santana De Lima Miranda",
+     "nome": "OLIVER RHUAN DE MELO GOMES",
      "valor": 30
     }
    ]
@@ -31435,55 +29919,35 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Thays Freitas De Souza",
+     "nome": "KARINA NEVES DE SOUZA DAMASCENA",
      "valor": 30
     },
     {
-     "nome": "Auanny Rayssa Ferreira Lira",
+     "nome": "YASMIM XIMENES OLIVEIRA",
      "valor": 30
     },
     {
-     "nome": "Bianca Eloiza Macena De Almeida",
+     "nome": "Wesley Júnior da Silva Ferreira",
      "valor": 30
     },
     {
-     "nome": "Davi Ferreira Da Silva",
+     "nome": "JEFFERSON DA SILVA ARRUDA",
      "valor": 30
     },
     {
-     "nome": "David Arthur Cavalcante Da Silva",
+     "nome": "MICHELLE KAREN DE OLIVEIRA",
      "valor": 30
     },
     {
-     "nome": "Edmilson Jeronimo De Oliveira Filho",
+     "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Emilly Lopes Alves",
+     "nome": "Denysson da Silva Bezerra",
      "valor": 30
     },
     {
-     "nome": "Jefferson Da Silva Arruda",
-     "valor": 30
-    },
-    {
-     "nome": "Jose Niverton Farias De Amorim",
-     "valor": 30
-    },
-    {
-     "nome": "Ketillyn Vitoria De Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Mauricio De Alcantara Maciel Filho",
-     "valor": 30
-    },
-    {
-     "nome": "Maykon Alves De Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Michelle Karen De Oliveira",
+     "nome": "MAURÍCIO DE ALCÂNTARA MACIEL FILHO",
      "valor": 30
     },
     {
@@ -31491,15 +29955,7 @@
      "valor": 30
     },
     {
-     "nome": "Suelen Raiane Da Silva Ferreira",
-     "valor": 30
-    },
-    {
-     "nome": "Wesley Junior Da Silva Ferreira",
-     "valor": 30
-    },
-    {
-     "nome": "Yasmim Ximenes Oliveira",
+     "nome": "DAVI FERREIRA DA SILVA",
      "valor": 30
     }
    ]
@@ -31597,67 +30053,31 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Allan Dos Santos E Silva",
+     "nome": "ednaldoj",
      "valor": 30
     },
     {
-     "nome": "Anderson Da Silva Lima",
+     "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
      "valor": 30
     },
     {
-     "nome": "Antonio Nascimento De Melo",
+     "nome": "JOSÉ ALVES DE OLIVEIRA NETO",
      "valor": 30
     },
     {
-     "nome": "Armando Jose Barbosa",
+     "nome": "CLOVIS MENDES DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Hiago Victor Da Silva Oliveira",
+     "nome": "Armando José Barbosa",
      "valor": 30
     },
     {
-     "nome": "Jonathan Bernardo Dos Santos Silva",
+     "nome": "Neilson Alexandre da Silva",
      "valor": 30
     },
     {
-     "nome": "Jose Alves De Oliveira Neto",
-     "valor": 30
-    },
-    {
-     "nome": "Jose Edivaldo De Oliveira Junior",
-     "valor": 30
-    },
-    {
-     "nome": "Josenildo Luiz Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Kaio Eduardo Vicente De Lima",
-     "valor": 30
-    },
-    {
-     "nome": "Luan Kelvyn Barros Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Neilson Alexandre Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Pedro Vitor Dos Santos Mendes",
-     "valor": 30
-    },
-    {
-     "nome": "Victor Hugo Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Victor Luis Phillipe De Lima",
-     "valor": 30
-    },
-    {
-     "nome": "Elias Jose De Freitas",
+     "nome": "Demetrius Ribeiro de Aquino",
      "valor": 30
     }
    ]
@@ -31707,15 +30127,15 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Jefferson Patrick Barreto Tavares",
+     "nome": "ORLANDO SOARES ALVES",
      "valor": 30
     },
     {
-     "nome": "Orlando Soares Alves",
+     "nome": "JEFFERSON PATRICK BARRETO TAVARES",
      "valor": 30
     },
     {
-     "nome": "Rafael Marinho Macedo",
+     "nome": "Emanoel Rodolfo da Silva",
      "valor": 30
     }
    ]
@@ -31753,35 +30173,11 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Ana Paula Tavares Silva De Souza",
+     "nome": "ALEX OLIVEIRA SOARES DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Anelise Leticia Ribeiro Xavier",
-     "valor": 30
-    },
-    {
-     "nome": "Anna Mary Barbosa Pimentel",
-     "valor": 30
-    },
-    {
-     "nome": "Jaciane Gomes Do Carmo",
-     "valor": 30
-    },
-    {
-     "nome": "Jeisa Bianca Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Joao Vitor De Araujo Bezerra",
-     "valor": 30
-    },
-    {
-     "nome": "Maria Eduarda Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Wagna De Freitas Santos Santana",
+     "nome": "ANNA MARY BARBOSA PIMENTEL",
      "valor": 30
     }
    ]
@@ -31879,63 +30275,31 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Aluisio Mendes Da Silva Junior",
+     "nome": "CLAUDIO DE MELO AMORIM",
      "valor": 30
     },
     {
-     "nome": "Andersson De Melo Macena",
+     "nome": "MABSON ROBSON DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Arthur Da Silva Farias",
+     "nome": "WELLINGTON FERNANDO DE LIMA",
      "valor": 30
     },
     {
-     "nome": "Claudio De Melo Amorim",
+     "nome": "Otoniel da Silva Oliveira",
      "valor": 30
     },
     {
-     "nome": "Eliel Francisco De Lima",
+     "nome": "Eliel Francisco de Lima",
      "valor": 30
     },
     {
-     "nome": "Francisco Sergio De Barros",
-     "valor": 30
-    },
-    {
-     "nome": "Glauco Matheus Da Cruz Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Jaciel Severino Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Jailton Adolfo Da Silva",
+     "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
      "valor": 30
     },
     {
      "nome": "Jose Adelson Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Mabson Robson Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Otoniel Da Silva Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Severino Antonio Francisco Junior",
-     "valor": 30
-    },
-    {
-     "nome": "Tiago Roberto Da Silva Soares",
-     "valor": 30
-    },
-    {
-     "nome": "Wellington Fernando De Lima",
      "valor": 30
     }
    ]
@@ -31961,72 +30325,8 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Amanda Soares De Farias",
-     "valor": 30
-    },
-    {
-     "nome": "Arlen Duarte Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Bruna Heloysa De Almeida Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Celio Marcio Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Everton Ezequiel De Lima Almeida",
-     "valor": 30
-    },
-    {
-     "nome": "Gabriel Bernardes Agostinho Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Hugo Esteves Martins De Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Iris Beatriz Silveira Marques",
-     "valor": 30
-    },
-    {
-     "nome": "Joao Victor Mendes De Andrade Lima",
-     "valor": 30
-    },
-    {
-     "nome": "Kayron Fillipe Sales Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Kelly Sabrina Nunes Duarte",
-     "valor": 30
-    },
-    {
-     "nome": "Lindivania Silva De Lucena",
-     "valor": 30
-    },
-    {
-     "nome": "Lucas Kaua Silva Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Mariana Maria Cancio",
-     "valor": 30
-    },
-    {
-     "nome": "Matheus Vinicius De Melo Dias Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Milena Soares Da Costa",
-     "valor": 30
-    },
-    {
-     "nome": "Vikione Stephany Maria Batista Da Silva",
-     "valor": 30
+     "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+     "valor": 60
     }
    ]
   },
@@ -32051,28 +30351,8 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Daniela Olindina Rodrigues Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Daniele Pedrozo Falcao Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Luiz Otavio Dos Santos Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Maryanalia Carmo Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Raquel Jedidja De Souza Gomes",
-     "valor": 30
-    },
-    {
-     "nome": "Ruthe Grazielly Da Silva Freitas",
-     "valor": 30
+     "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
+     "valor": 60
     }
    ]
   },
@@ -32145,31 +30425,23 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Allyson Guilherme Dos Santos Cavalcanstitueação:",
+     "nome": "THIAGO CAMPELO DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Filipe Da Silva Gonçalves",
+     "nome": "Filipe da Silva Goncalves",
      "valor": 30
     },
     {
-     "nome": "Marcos Antonio Da Silva Sobrinho",
+     "nome": "Thiago Luiz da Silva Mota",
      "valor": 30
     },
     {
-     "nome": "Thiago Campelo Da Silva",
+     "nome": "Wayne Palmeira de Castro Junior",
      "valor": 30
     },
     {
-     "nome": "Thiago Luiz Da Silva Mota",
-     "valor": 30
-    },
-    {
-     "nome": "Wayne Palmeira De Castro Junior",
-     "valor": 30
-    },
-    {
-     "nome": "Willams Barbosa Da Silva",
+     "nome": "Eduardo Vilaça Oliveira",
      "valor": 30
     }
    ]
@@ -32219,47 +30491,15 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Andreza Luana Barbosa Da Silva",
+     "nome": "DAYANE STEFANNI CLIMACO DE SANTANA",
+     "valor": 60
+    },
+    {
+     "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
      "valor": 30
     },
     {
-     "nome": "Clara Vitoria De Souza Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Cleonildo Antonio Dos Santos Neto",
-     "valor": 30
-    },
-    {
-     "nome": "Dayane Stefanni Climaco De Santana",
-     "valor": 30
-    },
-    {
-     "nome": "Dayse Kassia Da Silva Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Giovana Lais Silva Dos Anjos",
-     "valor": 30
-    },
-    {
-     "nome": "Leticia Ribeiro Gomes Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Luis Henrique Pereira Branco",
-     "valor": 30
-    },
-    {
-     "nome": "Michel Gleydson Da Silva Melo",
-     "valor": 30
-    },
-    {
-     "nome": "Thiago De Andrade Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Yasmim Camilly De Barros Lira",
+     "nome": "Andreza Luana Barbosa da Silva",
      "valor": 30
     }
    ]
@@ -32309,27 +30549,15 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Camila Virgulino Costa",
+     "nome": "OSMAIRE BATISTA DE LIMA",
      "valor": 30
     },
     {
-     "nome": "Darllan Dos Santos Lima",
+     "nome": "CAMILA VIRGULINO COSTA",
      "valor": 30
     },
     {
-     "nome": "Isla Mirelly Da Silva Antonio",
-     "valor": 30
-    },
-    {
-     "nome": "Jose Thiago Oliveira Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Lucas Alexandre Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Osmaire Batista De Lima",
+     "nome": "Willams Maciel Silva",
      "valor": 30
     }
    ]
@@ -32355,40 +30583,8 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Carla Julianny De Oliveira Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Carlos Alexandre Gomes De Moura",
-     "valor": 30
-    },
-    {
-     "nome": "Edenize Alves Ximenes",
-     "valor": 30
-    },
-    {
-     "nome": "Giovanna Eduarda Rodrigues Do Carmo",
-     "valor": 30
-    },
-    {
-     "nome": "Jonas Soares De Santana",
-     "valor": 30
-    },
-    {
-     "nome": "Robson Da Silva Batista Costa",
-     "valor": 30
-    },
-    {
-     "nome": "Samylla Gomes Freitas",
-     "valor": 30
-    },
-    {
-     "nome": "Tamires Do Nascimento Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Vitoria Fernanda Nascimento Silva",
-     "valor": 30
+     "nome": "CARLOS ALEXANDRE GOMES DE MOURA",
+     "valor": 60
     }
    ]
   },
@@ -32413,23 +30609,7 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Claudia Soares Dos Santos Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Conceicao Jaciara Casado De Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Djanete Soares Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Emanoel Rodolfo Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Nailza Moreira Da Silva",
+     "nome": "Chip do setor CAC (uso da equipe)",
      "valor": 30
     }
    ]
@@ -32491,35 +30671,15 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Anderson Felipe Varejao De Castro",
+     "nome": "Anna Karoline Barbosa Pimentel de Oliveira",
      "valor": 30
     },
     {
-     "nome": "Anna Karoline Barbosa Pimentel De Olivseitiuraação:",
+     "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
      "valor": 30
     },
     {
-     "nome": "Erinaldo Lopes Da Costa",
-     "valor": 30
-    },
-    {
-     "nome": "Isabelle Dias Abraão De Souza",
-     "valor": 30
-    },
-    {
-     "nome": "Jefferson Dos Santos Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Klinsmann David Amaral Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Mateus Gomes De Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Nayara Ferreira Da Silva",
+     "nome": "Erinaldo Lopes da Costa",
      "valor": 30
     }
    ]
@@ -32557,15 +30717,11 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Isla Rafaelle Lessa De Andrade",
+     "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
      "valor": 30
     },
     {
-     "nome": "Maria Clara Da Costa Alves",
-     "valor": 30
-    },
-    {
-     "nome": "Rafael Da Silva Gabriel",
+     "nome": "Rafael da Silva Gabriel",
      "valor": 30
     }
    ]
@@ -32731,27 +30887,27 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Andre Luiz Do Nascimento Alves",
+     "nome": "Gabriele Cícera Pereira da Silva",
      "valor": 30
     },
     {
-     "nome": "Fabiana Valeria Da Silva",
+     "nome": "WELLYSON THOMAS DOS SANTOS",
      "valor": 30
     },
     {
-     "nome": "Letícia De França Lima",
+     "nome": "LETICIA DE FRANÇA LIMA",
      "valor": 30
     },
     {
-     "nome": "Maria Amanda Da Silva Lima",
+     "nome": "Mauricio Pedro de Oliveira Junior",
      "valor": 30
     },
     {
-     "nome": "Maria Eduarda Conceicao Da Silva",
+     "nome": "Maria Eduarda Conceicao da Silva",
      "valor": 30
     },
     {
-     "nome": "Mauricio Pedro De Oliveira Junior",
+     "nome": "Willames Artur da Conceicao Silva",
      "valor": 30
     },
     {
@@ -32759,19 +30915,23 @@
      "valor": 30
     },
     {
-     "nome": "Tiago Lyra Da Mota Silva",
+     "nome": "Maria Amanda da Silva Lima",
      "valor": 30
     },
     {
-     "nome": "Wellyson Thomas Dos Santos",
+     "nome": "Andre Luiz do Nascimento Alves",
      "valor": 30
     },
     {
-     "nome": "Willames Artur Da Conceicao Silva",
+     "nome": "Fabiana Valeria da Silva",
      "valor": 30
     },
     {
-     "nome": "Willyane Milena Dos Santos Aquino",
+     "nome": "Willyane Milena dos Santos Aquino",
+     "valor": 30
+    },
+    {
+     "nome": "Tiago Lyra da Mota Silva",
      "valor": 30
     }
    ]
@@ -32809,11 +30969,11 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Mikaelle Maria De Souza Silva",
+     "nome": "MIKAELLE MARIA DE SOUZA SILVA",
      "valor": 30
     },
     {
-     "nome": "Sammuel Deyvson Da Silva Santos",
+     "nome": "Joelmyr Fabio Lins",
      "valor": 30
     }
    ]
@@ -32883,99 +31043,23 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Marcondes Jose Da Silva",
+     "nome": "DAYVID PEDRO PEREIRA DOS REIS",
      "valor": 30
     },
     {
-     "nome": "Afonso Felipe Da Silva",
+     "nome": "MARCONDES JOSÉ DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Antonio Ricardo Da Silva",
+     "nome": "AFONSO FELIPE DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Cicero Gomes Dos Santos",
+     "nome": "DANIEL ANTÔNIO DA SILVA",
      "valor": 30
     },
     {
-     "nome": "Cleiton Lima Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Dayvid Pedro Pereira Dos Reis",
-     "valor": 30
-    },
-    {
-     "nome": "Erivan Manoel De Moura Santana",
-     "valor": 30
-    },
-    {
-     "nome": "Gabriel Ramon Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Gesimiel Gomes Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Isael De Jesus Alves",
-     "valor": 30
-    },
-    {
-     "nome": "Joao Carlos Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Joao Ricardo Da Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Jose De Arimatea Fernandes",
-     "valor": 30
-    },
-    {
-     "nome": "Jose Jackson Dos Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Jose Willams Dos Santos Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Josenildo Da Silva Alves",
-     "valor": 30
-    },
-    {
-     "nome": "Josue Goncalves De Oliveira",
-     "valor": 30
-    },
-    {
-     "nome": "Kaua Deyvid Do Nascimento Santos",
-     "valor": 30
-    },
-    {
-     "nome": "Leonardo Vinicius De Santana Arcoverde",
-     "valor": 30
-    },
-    {
-     "nome": "Luiz Pedro Dos Reis",
-     "valor": 30
-    },
-    {
-     "nome": "Romero Jose Dos Santos Silva",
-     "valor": 30
-    },
-    {
-     "nome": "Ruy Honorato De Santana",
-     "valor": 30
-    },
-    {
-     "nome": "Severino De Souza Silva",
-     "valor": 30
-    },
-    {
-     "nome": "William Da Silva Andrade",
+     "nome": "GESIMIEL GOMES DA SILVA",
      "valor": 30
     }
    ]
@@ -33021,11 +31105,7 @@
    ],
    "Agosto/2026": [
     {
-     "nome": "Gabriela Da Silva Alves",
-     "valor": 30
-    },
-    {
-     "nome": "Liryel Camilly Santana Da Silva Carvalho",
+     "nome": "Liryel Camilly Santana da Silva Carvalho",
      "valor": 30
     }
    ]
