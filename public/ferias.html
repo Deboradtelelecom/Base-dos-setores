@@ -116,7 +116,7 @@
         <span class="chart-titulo">Top 10 Equipes com Mais Pessoas em Férias</span>
       </div>
       <p class="chart-nota">Número de lançamentos de férias por equipe (uma pessoa pode aparecer mais de uma vez se tirou férias em mais de um mês). Reflete o filtro de Competência/Busca acima.</p>
-      <div class="chart-wrap"><canvas id="chartTopEquipes"></canvas></div>
+      <div class="chart-wrap" style="height:520px;"><canvas id="chartTopEquipes"></canvas></div>
     </div>
 
     <div class="section-card">
@@ -293,8 +293,7 @@ function renderTudo() {
         <td class="cargo">${r.cargo || '—'}</td>
         <td>${r.empresa ? `<span class="empresa-tag">${r.empresa}</span>` : '—'}</td>
         <td>${r.mes || ''}</td>
-        <td><span class="situacao-tag">${r.situacao || ''}</span></td>
-        <td class="periodo">${r.periodo || '—'}</td>
+        <td class="periodo">${r.periodo || 'Férias'}</td>
         <td class="periodo">${r.diasFerias != null ? fmtBRL(r.diasFerias) : '—'}</td>
         <td class="periodo">${r.tercoConstitucional != null ? fmtBRL(r.tercoConstitucional) : '—'}</td>
         <td class="periodo">${r.abonoPecuniario != null ? fmtBRL(r.abonoPecuniario) : '—'}</td>
@@ -320,7 +319,7 @@ function renderTudo() {
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>Situação</th><th>Período</th><th>Dias de Férias</th><th>1/3 Constitucional</th><th>Abono Pecuniário</th><th>Valor de Férias</th><th>Desc. INSS</th><th>Desc. IRRF</th><th>Outros Desc.</th><th>Total Descontos</th></tr></thead>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>Mês</th><th>Período</th><th>Dias de Férias</th><th>1/3 Constitucional</th><th>Abono Pecuniário</th><th>Valor de Férias</th><th>Desc. INSS</th><th>Desc. IRRF</th><th>Outros Desc.</th><th>Total Descontos</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -422,7 +421,7 @@ function renderChartTopEquipes(porEquipe) {
     data: {
       labels: top.map((t) => t.equipe),
       datasets: [
-        { label: 'Pessoas em férias', data: top.map((t) => t.total), backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 32 },
+        { label: 'Pessoas em férias', data: top.map((t) => t.total), backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 40, categoryPercentage: 0.8, barPercentage: 0.85 },
       ],
     },
     plugins: [rotuloBarraHorizontalPlugin],
@@ -512,9 +511,9 @@ function baixarExcelPorGestorMes() {
 // situacao, periodo, valorFerias, descontoInss, descontoIrrf, descontoOutros,
 // descontosFerias}.
 function montarLinhasExcel(registros) {
-  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'Situação', 'Período', 'Dias de Férias', '1/3 Constitucional', 'Abono Pecuniário', 'Valor de Férias', 'Desconto INSS', 'Desconto IRRF', 'Outros Descontos', 'Total Descontos'];
+  const cab = ['Equipe/Gestor', 'Colaborador', 'Cargo', 'Empresa', 'Mês', 'Período', 'Dias de Férias', '1/3 Constitucional', 'Abono Pecuniário', 'Valor de Férias', 'Desconto INSS', 'Desconto IRRF', 'Outros Descontos', 'Total Descontos'];
   const linhas = registros.map(r => [
-    r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.mes || '', r.situacao || '', r.periodo || '',
+    r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.mes || '', r.periodo || 'Férias',
     r.diasFerias != null ? r.diasFerias : '',
     r.tercoConstitucional != null ? r.tercoConstitucional : '',
     r.abonoPecuniario != null ? r.abonoPecuniario : '',
