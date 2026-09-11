@@ -29531,6 +29531,78 @@
           "valor": 50
         }
       ]
+    },
+    "configuracao": {
+      "Julho/2026": [
+        {
+          "nome": "ISAIAS DE FREITAS BARBOSA JUNIOR",
+          "valor": 50
+        },
+        {
+          "nome": "JOÃO PAULO ANTONIO DE CARVALHO",
+          "valor": 50
+        },
+        {
+          "nome": "KAIO MATHEUS FERREIRA DE ASSIS",
+          "valor": 50
+        },
+        {
+          "nome": "Ayrton da Silva Lima",
+          "valor": 50
+        },
+        {
+          "nome": "ALAN GABRIEL BRITO ALVES",
+          "valor": 50
+        },
+        {
+          "nome": "Henrique tasende",
+          "valor": 50
+        },
+        {
+          "nome": "RAIANE SAMARA DA SILVA SANTOS",
+          "valor": 50
+        },
+        {
+          "nome": "Douglas Soares",
+          "valor": 50
+        }
+      ]
+    },
+    "desenvolvimento": {
+      "Julho/2026": [
+        {
+          "nome": "LUIZ EDUARDO PEREIRA DE LIMA",
+          "valor": 50
+        },
+        {
+          "nome": "Antonio Roberto Dias Frutuoso Junior",
+          "valor": 50
+        },
+        {
+          "nome": "Bruno Santos da Silva",
+          "valor": 50
+        },
+        {
+          "nome": "Equipe de Desenvolvimento ",
+          "valor": 10
+        },
+        {
+          "nome": "Relacionamento DTEL - CONTA DE SERVIÇO",
+          "valor": 10
+        },
+        {
+          "nome": "RENAN ALCANTARA RIBEIRO",
+          "valor": 10
+        }
+      ]
+    },
+    "televendas": {
+      "Julho/2026": [
+        {
+          "nome": "Supervisão Televendas",
+          "valor": 50
+        }
+      ]
     }
   },
   "impressoras": {
