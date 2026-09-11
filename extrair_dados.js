@@ -549,12 +549,22 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
   return false;
 }
 
+// Setores que a Débora pediu para NÃO cobrar da H&A no Reembolso Geral
+// (11/09/2026) — contrato específico dessa empresa não inclui esses setores
+// administrativos. Aplica-se só à empresa 'H&A' (case sensitive, como vem na
+// planilha); as demais empresas continuam vendo todos os setores normalmente.
+const SETORES_EXCLUIDOS_HA = new Set([
+  'Diretoria Adm', 'Diretoria Operacional', 'CAC', 'Jurídico', 'Controladoria',
+  'Contabilidade', 'Financeiro', 'DP', 'RH', 'Estoque', 'Logistica', 'Compras', 'TIC',
+]);
+
 function extrairReembolsoGeral(ws, nomesSetoresReais) {
   const linhas = XLSX.utils.sheet_to_json(ws, { header: 1, range: 4, defval: null });
   const registros = [];
   for (const r of linhas) {
     const [mes, setor, descricao, empresa, quantidade, valorUnitario, valorTotal, observacao] = r;
     if (!mes) continue;
+    if (empresa === 'H&A' && SETORES_EXCLUIDOS_HA.has(setor)) continue;
     registros.push({
       mes: String(mes),
       setor: setor || '',
