@@ -31466,6 +31466,12 @@
           "nome": "Maryanalia Carmo da Silva",
           "valor": 90
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Luiz Otávio dos Santos Souza",
+          "valor": 90
+        }
       ]
     },
     "televendas": {
@@ -31494,6 +31500,12 @@
           "nome": "Luan Vinicius Neves de Souza",
           "valor": 136
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Emanuel Alves da Silva",
+          "valor": 90
+        }
       ]
     },
     "logistica": {
@@ -31501,6 +31513,12 @@
         {
           "nome": "Luan Kelvyn Barros da Silva",
           "valor": 136
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Victor Luís Phillipe de Lima",
+          "valor": 90
         }
       ]
     },
@@ -31524,6 +31542,16 @@
         },
         {
           "nome": "Lucas Kauã Silva Dos Santos",
+          "valor": 90
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bruna Heloysa de Almeida Souza",
+          "valor": 90
+        },
+        {
+          "nome": "João Victor Mendes de Andrade Lima",
           "valor": 90
         }
       ]
@@ -31622,6 +31650,40 @@
           "nome": "Leonardo Alves Bezerra Sandres",
           "valor": 90
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Victor Gabriel França Bernardes",
+          "valor": 90
+        }
+      ]
+    },
+    "dp": {
+      "Agosto/2026": [
+        {
+          "nome": "Samylla Gomes Freitas",
+          "valor": 90
+        },
+        {
+          "nome": "Vitória Fernanda Nascimento Silva",
+          "valor": 90
+        }
+      ]
+    },
+    "qualidade": {
+      "Agosto/2026": [
+        {
+          "nome": "Giovana Laís Silva dos Anjos",
+          "valor": 90
+        },
+        {
+          "nome": "Leticia Ribeiro Gomes da Silva",
+          "valor": 90
+        },
+        {
+          "nome": "Thiago de Andrade Silva",
+          "valor": 90
+        }
       ]
     }
   },
@@ -31659,6 +31721,34 @@
         {
           "nome": "Maria Jose Gomes de Moura",
           "valor": 122.5
+        }
+      ]
+    },
+    "dp": {
+      "Agosto/2026": [
+        {
+          "nome": "Tamires do Nascimento Oliveira",
+          "valor": 68
+        },
+        {
+          "nome": "Giovanna Eduarda Rodrigues do Carmo",
+          "valor": 68
+        },
+        {
+          "nome": "Carla Julianny de Oliveira Santos",
+          "valor": 136
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Agosto/2026": [
+        {
+          "nome": "Anderson Varejão",
+          "valor": 136
+        },
+        {
+          "nome": "Mateus Gomes de Oliveira",
+          "valor": 68
         }
       ]
     }
