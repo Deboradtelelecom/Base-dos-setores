@@ -12,7 +12,7 @@ const SECTOR_ICONS = {
   noc: '🛰️', rh: '👥', dp: '🗂️', gestao_de_atendimento: '💬', cac: '📞',
   financeiro: '💰', nrc: '📋', cobranca: '💳', retencao: '🎯', contabilidade: '🗒️',
   controladoria: '📊', diretoria_operacional: '🧭', compras: '🛒', seguranca_do_trabalho: '🦺',
-  engenharia: '🏗️', obras: '🧱', manutencao_predial: '🔧', logistica: '🚚', oficina: '🔩',
+  engenharia: '🏗️', projetista: '📐', obras: '🧱', manutencao_predial: '🔧', logistica: '🚚', oficina: '🔩',
   estoque: '📦', televendas: '☎️', suporte_orbix: '🛠️', suporte_da_central: '🖥️',
   comercial_corporativo: '🤝', administrativo: '🗃️',
   qualidade: '✅', juridico: '⚖️', marketing: '📣', tic: '🖧', coe: '🧩', fique_movel: '📱',
