@@ -31586,6 +31586,24 @@
           "nome": "Emilly Lopes Alves",
           "valor": 90
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Auanny Rayssa Ferreira Lira",
+          "valor": 90
+        },
+        {
+          "nome": "Bianca Eloiza Macena de Almeida",
+          "valor": 90
+        },
+        {
+          "nome": "Ketillyn Vitória de Oliveira",
+          "valor": 90
+        },
+        {
+          "nome": "Suélen Raiane da Silva Ferreira",
+          "valor": 90
+        }
       ]
     },
     "suporte_da_central": {
@@ -31749,6 +31767,18 @@
         {
           "nome": "Mateus Gomes de Oliveira",
           "valor": 68
+        }
+      ]
+    },
+    "suporte_da_central": {
+      "Agosto/2026": [
+        {
+          "nome": "Ana Caroline Ketilyn da Silva",
+          "valor": 136
+        },
+        {
+          "nome": "Edja Kelly Gomes de Melo",
+          "valor": 136
         }
       ]
     }
