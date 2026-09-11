@@ -59,7 +59,15 @@
   tbody td.empresa-tag-cell { white-space:nowrap; }
   .empresa-tag { display:inline-block; font-size:10.5px; font-weight:700; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 8px; border-radius:999px; white-space:nowrap; }
   tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  tbody td.val.val-negativo { color:#f87171; }
   tbody td.obs { color:var(--slate-500); font-size:11.5px; max-width:280px; }
+  .categoria-tag { display:inline-block; font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.03em; padding:1px 7px; border-radius:999px; white-space:nowrap; }
+  .categoria-tag.direto { color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); }
+  .categoria-tag.indireto { color:var(--warn); background:rgba(245,158,11,0.12); border:1px solid rgba(245,158,11,.3); }
+
+  .grupo-header .dir { display:flex; align-items:center; gap:10px; }
+  .btn-exportar-empresa { display:inline-flex; align-items:center; gap:4px; background:transparent; border:1px solid var(--border); color:var(--slate-500); font-size:10px; font-weight:700; font-family:var(--mono); border-radius:7px; padding:4px 8px; cursor:pointer; transition:border-color .15s, color .15s; }
+  .btn-exportar-empresa:hover { border-color:var(--blue-accent); color:var(--blue-accent); }
 
   .chart-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
   .chart-titulo { font-size:14px; font-weight:800; color:#fff; }
@@ -243,12 +251,20 @@ function renderTudo() {
     if (busca && !(r.descricao || '').toLowerCase().includes(busca) && !(r.observacao || '').toLowerCase().includes(busca)) return false;
     return true;
   });
-  ULTIMO_FILTRADOS = filtrados;
+
+  // A linha "Reembolso por receita recebida" (categoriaCusto === 'receita') é
+  // receita da Dtel, não despesa — por pedido da Débora (09/2026) ela só
+  // aparece no gráfico "Reembolso por Receita Recebida" abaixo (que usa
+  // `filtrados`, sem esse corte). Em todo o resto da tela — tabela, cards de
+  // total, gráfico Direto x Indireto e exportação — ela é excluída, para não
+  // entrar como se fosse despesa.
+  const filtradosDespesa = filtrados.filter(r => r.categoriaCusto !== 'receita');
+  ULTIMO_FILTRADOS = filtradosDespesa;
 
   // Cards de totais
-  const totalGeral = filtrados.reduce((s, r) => s + (r.valorTotal || 0), 0);
-  const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
-  const setoresEnvolvidos = new Set(filtrados.map(r => r.setor).filter(Boolean));
+  const totalGeral = filtradosDespesa.reduce((s, r) => s + (r.valorTotal || 0), 0);
+  const empresasEnvolvidas = new Set(filtradosDespesa.map(r => r.empresa).filter(Boolean));
+  const setoresEnvolvidos = new Set(filtradosDespesa.map(r => r.setor).filter(Boolean));
   document.getElementById('totaisCards').innerHTML = `
     <div class="total-card"><div class="lbl">Total no filtro</div><div class="val">${fmtBRL(totalGeral)}</div></div>
     <div class="total-card"><div class="lbl">Registros</div><div class="val">${filtrados.length}</div></div>
@@ -257,9 +273,11 @@ function renderTudo() {
   `;
 
   // Agrupa por empresa — dentro de cada empresa, as descrições dos custos
-  // ficam empilhadas uma abaixo da outra (ordenadas por setor e descrição).
+  // ficam empilhadas uma abaixo da outra (ordenadas por setor e descrição,
+  // com os valores negativos — devoluções/créditos — deslocados para o fim
+  // da lista, destacados em vermelho, a pedido da Débora).
   const porEmpresa = {};
-  filtrados.forEach(r => {
+  filtradosDespesa.forEach(r => {
     const k = r.empresa || '(sem empresa)';
     if (!porEmpresa[k]) porEmpresa[k] = [];
     porEmpresa[k].push(r);
@@ -272,13 +290,17 @@ function renderTudo() {
   // apresentação, os dados continuam intactos por trás (na planilha/JSON),
   // então voltam a aparecer sozinhos se ganharem valor real num mês futuro.
   const empresasComItens = empresasOrdenadas
-    .map((empresa) => ({
-      empresa,
-      itens: porEmpresa[empresa]
+    .map((empresa) => {
+      const ordenados = porEmpresa[empresa]
         .filter((r) => (parseFloat(r.valorTotal) || 0) !== 0)
         .slice()
-        .sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR')),
-    }))
+        .sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
+      // Positivos primeiro (na ordem por setor/descrição de sempre), negativos
+      // (devoluções/créditos) no fim do grupo.
+      const positivos = ordenados.filter((r) => (r.valorTotal || 0) >= 0);
+      const negativos = ordenados.filter((r) => (r.valorTotal || 0) < 0);
+      return { empresa, itens: positivos.concat(negativos) };
+    })
     .filter((g) => g.itens.length > 0);
 
   document.getElementById('vazioMsg').style.display = empresasComItens.length ? 'none' : 'block';
@@ -286,17 +308,23 @@ function renderTudo() {
   gruposEl.innerHTML = empresasComItens.map(({ empresa, itens }) => {
     const totalEmpresa = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
     const aberto = !!GRUPOS_ABERTOS[empresa];
-    const linhas = itens.map(r => `
+    const linhas = itens.map(r => {
+      const negativo = (r.valorTotal || 0) < 0;
+      const categoriaLabel = r.categoriaCusto === 'direto' ? 'Direto' : (r.categoriaCusto === 'indireto' ? 'Indireto' : '—');
+      const categoriaClasse = r.categoriaCusto === 'direto' ? 'direto' : (r.categoriaCusto === 'indireto' ? 'indireto' : '');
+      return `
       <tr>
         <td>${r.mes || ''}</td>
         <td class="empresa-tag-cell">${r.setor || '—'}</td>
         <td>${r.descricao || ''}</td>
+        <td>${categoriaClasse ? `<span class="categoria-tag ${categoriaClasse}">${categoriaLabel}</span>` : '—'}</td>
         <td class="val">${r.quantidade ? String(Math.round(r.quantidade)) : '—'}</td>
         <td class="val">${fmtBRL(r.valorUnitario)}</td>
-        <td class="val">${fmtBRL(r.valorTotal)}</td>
+        <td class="val${negativo ? ' val-negativo' : ''}">${fmtBRL(r.valorTotal)}</td>
         <td class="obs">${r.observacao || ''}</td>
       </tr>
-    `).join('');
+    `;
+    }).join('');
     return `
       <div class="grupo-setor">
         <div class="grupo-header" data-setor-toggle>
@@ -305,11 +333,14 @@ function renderTudo() {
             <span class="grupo-nome">${empresa}</span>
             <span class="grupo-count">${itens.length} registro${itens.length === 1 ? '' : 's'}</span>
           </div>
-          <span class="grupo-total">${fmtBRL(totalEmpresa)}</span>
+          <div class="dir">
+            <button class="btn-exportar-empresa" type="button" data-exportar-empresa="${encodeURIComponent(empresa)}">⬇ Excel</button>
+            <span class="grupo-total">${fmtBRL(totalEmpresa)}</span>
+          </div>
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Mês</th><th>Setor</th><th>Descrição do Custo</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
+            <thead><tr><th>Mês</th><th>Setor</th><th>Descrição do Custo</th><th>Direto/Indireto</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -327,7 +358,16 @@ function renderTudo() {
     el.addEventListener('click', () => toggleGrupo(nomesEmpresasRenderizadas[i]));
   });
 
-  renderChartDiretoIndireto(filtrados);
+  // Botão "Baixar Excel" de cada empresa — para (a linha inteira do cabeçalho
+  // não deve alternar aberto/fechado quando o clique for no botão).
+  gruposEl.querySelectorAll('[data-exportar-empresa]').forEach((btn) => {
+    btn.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      exportarExcelEmpresa(decodeURIComponent(btn.getAttribute('data-exportar-empresa')));
+    });
+  });
+
+  renderChartDiretoIndireto(filtradosDespesa);
   renderChartReceita7pct(filtrados);
 }
 
@@ -341,8 +381,10 @@ function renderChartDiretoIndireto(filtrados) {
   filtrados.forEach((r) => {
     const empresa = r.empresa || '(sem empresa)';
     if (!porEmpresa[empresa]) porEmpresa[empresa] = { direto: 0, indireto: 0 };
+    // 'receita' já vem excluído (filtradosDespesa), mas o filtro fica aqui
+    // também como segunda trava — nunca cair em "indireto" por engano.
     if (r.categoriaCusto === 'direto') porEmpresa[empresa].direto += (r.valorTotal || 0);
-    else porEmpresa[empresa].indireto += (r.valorTotal || 0);
+    else if (r.categoriaCusto === 'indireto') porEmpresa[empresa].indireto += (r.valorTotal || 0);
   });
   const empresas = Object.keys(porEmpresa)
     .filter((e) => porEmpresa[e].direto !== 0 || porEmpresa[e].indireto !== 0)
@@ -389,15 +431,18 @@ function renderChartDiretoIndireto(filtrados) {
 // Competência/Setor/Empresa/Busca já aplicados (mesmo array usado na tabela
 // e no gráfico), e só os itens com valor lançado (mesma supressão de itens
 // zerados já usada na apresentação).
-function exportarExcel() {
-  const btn = document.getElementById('btnExportar');
+// Gera e baixa o .xlsx a partir de uma lista de registros já filtrada —
+// usado tanto pelo botão geral (exportarExcel) quanto pelo botão de cada
+// empresa (exportarExcelEmpresa). rótuloTotal identifica a linha de total no
+// fim da planilha; nomeArquivo já vem sem a extensão .xlsx.
+function gerarESalvarExcel(itensBrutos, nomeArquivo, rotuloTotal, btn) {
   if (typeof XLSX === 'undefined') {
     alert('Não foi possível carregar a biblioteca de exportação (sem conexão com a internet?). Tente novamente.');
     return;
   }
-  const itens = (ULTIMO_FILTRADOS || []).filter((r) => (parseFloat(r.valorTotal) || 0) !== 0);
+  const itens = (itensBrutos || []).filter((r) => (parseFloat(r.valorTotal) || 0) !== 0);
   if (!itens.length) {
-    alert('Nenhum registro para exportar com os filtros atuais.');
+    alert('Nenhum registro para exportar.');
     return;
   }
 
@@ -413,6 +458,7 @@ function exportarExcel() {
       'Empresa': r.empresa || '',
       'Setor': r.setor || '',
       'Descrição do Custo': r.descricao || '',
+      'Direto/Indireto': r.categoriaCusto === 'direto' ? 'Direto' : (r.categoriaCusto === 'indireto' ? 'Indireto' : ''),
       'Qtd': r.quantidade || '',
       'Valor Unitário': Number(r.valorUnitario) || 0,
       'Valor Total': Number(r.valorTotal) || 0,
@@ -420,13 +466,23 @@ function exportarExcel() {
     }));
 
   const totalGeral = linhas.reduce((s, r) => s + r['Valor Total'], 0);
-  linhas.push({ 'Mês': '', 'Empresa': '', 'Setor': '', 'Descrição do Custo': '', 'Qtd': '', 'Valor Unitário': '', 'Valor Total': totalGeral, 'Observação': 'TOTAL GERAL DO FILTRO' });
+  linhas.push({ 'Mês': '', 'Empresa': '', 'Setor': '', 'Descrição do Custo': '', 'Direto/Indireto': '', 'Qtd': '', 'Valor Unitário': '', 'Valor Total': totalGeral, 'Observação': rotuloTotal });
 
   const ws = XLSX.utils.json_to_sheet(linhas);
-  ws['!cols'] = [{ wch: 12 }, { wch: 20 }, { wch: 18 }, { wch: 46 }, { wch: 8 }, { wch: 14 }, { wch: 14 }, { wch: 34 }];
+  ws['!cols'] = [{ wch: 12 }, { wch: 20 }, { wch: 18 }, { wch: 46 }, { wch: 13 }, { wch: 8 }, { wch: 14 }, { wch: 14 }, { wch: 34 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Reembolso Geral');
 
+  if (btn) { btn.disabled = true; }
+  try {
+    XLSX.writeFile(wb, nomeArquivo + '.xlsx');
+  } finally {
+    if (btn) { btn.disabled = false; }
+  }
+}
+
+function exportarExcel() {
+  const btn = document.getElementById('btnExportar');
   const mes = document.getElementById('fMes').value;
   const setor = document.getElementById('fSetor').value;
   const empresa = document.getElementById('fEmpresa').value;
@@ -434,14 +490,21 @@ function exportarExcel() {
   if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
   if (setor) partesNome.push(setor.replace(/[^\w-]+/g, '_'));
   if (empresa) partesNome.push(empresa.replace(/[^\w-]+/g, '_'));
-  const nomeArquivo = partesNome.join('_') + '.xlsx';
 
-  if (btn) { btn.disabled = true; btn.textContent = 'Gerando...'; }
-  try {
-    XLSX.writeFile(wb, nomeArquivo);
-  } finally {
-    if (btn) { btn.disabled = false; btn.textContent = '⬇ Baixar em Excel'; }
-  }
+  if (btn) btn.textContent = 'Gerando...';
+  gerarESalvarExcel(ULTIMO_FILTRADOS, partesNome.join('_'), 'TOTAL GERAL DO FILTRO', btn);
+  if (btn) btn.textContent = '⬇ Baixar em Excel';
+}
+
+// Botão "⬇ Excel" de cada empresa, dentro do grupo — exporta só os itens
+// daquela empresa (já com os mesmos filtros de Competência/Setor/Busca da
+// tela e sem a linha de receita, igual à tabela).
+function exportarExcelEmpresa(empresa) {
+  const itensEmpresa = (ULTIMO_FILTRADOS || []).filter((r) => (r.empresa || '(sem empresa)') === empresa);
+  const mes = document.getElementById('fMes').value;
+  const partesNome = ['Reembolso_Geral', empresa.replace(/[^\w-]+/g, '_')];
+  if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
+  gerarESalvarExcel(itensEmpresa, partesNome.join('_'), `TOTAL — ${empresa}`, null);
 }
 
 // Gráfico "Reembolso por Receita Recebida — Taxa de Administração (7%)" —
