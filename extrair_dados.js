@@ -534,6 +534,7 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
   if (setor === 'Instalação') return true;
   if (setor === 'Frota') return true; // todas as 6 subcategorias (confirmado 31/08/2026)
   if (setor === 'Manutenção Predial') return true;
+  if (setor === 'Comercial Corporativo') return true; // setor inteiro é direto (confirmado 14/09/2026)
   if (setor === 'Engenharia' && (desc === 'Uso mútuo de Postes' || /^manuten[çc][ãa]o predial$/i.test(desc))) return true;
   // RH, DP e Segurança do Trabalho: "Custo do departamento de X" é a
   // cobrança genérica do setor — INDIRETO (mudou em 14/09/2026, antes era
@@ -549,6 +550,7 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
     if (/^vendas da equipe/i.test(desc)) return true; // vendas entre equipes/empresas
     if (/^custo do setor de vendas corporativo$/i.test(desc)) return true;
     if (/consultas e an[aá]lises de cr[eé]dito/i.test(desc)) return true;
+    if (/^despesa do coordenador tiago/i.test(desc)) return true; // confirmado 14/09/2026
   }
   // "Custo do gestor Michelangelo" já cai dentro de Instalação (linha
   // "Gestão Regional MICHELANGELO"), sem precisar de regra própria.
