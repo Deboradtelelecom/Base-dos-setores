@@ -552,6 +552,7 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
     if (/^custo do setor de vendas corporativo$/i.test(desc)) return true;
     if (/consultas e an[aá]lises de cr[eé]dito/i.test(desc)) return true;
     if (/^despesa do coordenador tiago/i.test(desc)) return true; // confirmado 14/09/2026
+    if (/^despesa do coordenador tarc[ií]zio/i.test(desc)) return true; // confirmado 14/09/2026
   }
   // "Custo do gestor Michelangelo" já cai dentro de Instalação (linha
   // "Gestão Regional MICHELANGELO"), sem precisar de regra própria.
