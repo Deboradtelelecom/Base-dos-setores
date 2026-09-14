@@ -541,6 +541,7 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
   // exceção e entrava como direto). Só "Equipamentos de segurança" (EPI)
   // continua direto, por ser um item de outra natureza.
   if (setor === 'Segurança do Trabalho' && /^equipamentos de seguran[çc]a$/i.test(desc)) return true;
+  if (/fardamento/i.test(desc)) return true; // fardamento é direto, em qualquer setor (confirmado 14/09/2026)
   if (setor === 'Configuração') return true;
   if (setor === 'COE') return true;
   if (setor === 'Licitação') return true; // mensalidades/impostos de licitações recebidas pela H&A; repete todo mês e pode aparecer com saldo negativo em outras empresas (confirmado 11/09/2026)
