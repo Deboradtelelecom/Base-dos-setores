@@ -509,6 +509,12 @@ function extrairEstado(pastaDados) {
 // coordenador/van do Comercial, Km rodado/Serviços prestados de Segurança do
 // Trabalho etc.) é INDIRETO — confirmado explicitamente por ela, inclusive
 // para os itens que ela citou por nome como devendo continuar indiretos.
+// Regra geral reforçada em 14/09/2026: cobrança administrativa do PRÓPRIO
+// setor ("Custo do departamento de X") é sempre INDIRETO — inclusive RH, DP
+// e Segurança do Trabalho, que antes eram exceção e passaram a ser
+// indiretos também. Só ficam DIRETO os itens "de outra natureza" citados
+// por ela por nome (fardamentos, manutenção predial, uso mútuo de postes,
+// vendas do site Mundiale etc.) — não a cobrança genérica do setor.
 // "Reembolso por receita recebida" (Administrativo) é a taxa de administração
 // de 6% + 1% de uso de marca (7% sobre a receita da empresa licenciada) —
 // entrada de RECEITA para a Dtel, não um custo. Débora pediu (04/09/2026)
@@ -529,9 +535,11 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
   if (setor === 'Frota') return true; // todas as 6 subcategorias (confirmado 31/08/2026)
   if (setor === 'Manutenção Predial') return true;
   if (setor === 'Engenharia' && (desc === 'Uso mútuo de Postes' || /^manuten[çc][ãa]o predial$/i.test(desc))) return true;
-  if (setor === 'DP' && /^custo do departamento de dp$/i.test(desc)) return true;
-  if (setor === 'RH' && /^custo do departamento de rh$/i.test(desc)) return true; // não inclui Fardamentos/Treinamentos
-  if (setor === 'Segurança do Trabalho' && (/^custo do departamento de seguran[çc]a do trabalho$/i.test(desc) || /^equipamentos de seguran[çc]a$/i.test(desc))) return true;
+  // RH, DP e Segurança do Trabalho: "Custo do departamento de X" é a
+  // cobrança genérica do setor — INDIRETO (mudou em 14/09/2026, antes era
+  // exceção e entrava como direto). Só "Equipamentos de segurança" (EPI)
+  // continua direto, por ser um item de outra natureza.
+  if (setor === 'Segurança do Trabalho' && /^equipamentos de seguran[çc]a$/i.test(desc)) return true;
   if (setor === 'Configuração') return true;
   if (setor === 'COE') return true;
   if (setor === 'Licitação') return true; // mensalidades/impostos de licitações recebidas pela H&A; repete todo mês e pode aparecer com saldo negativo em outras empresas (confirmado 11/09/2026)
