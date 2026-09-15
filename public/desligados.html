@@ -156,6 +156,14 @@ let CHART_DESLIGAMENTOS_MES = null;
 let CHART_TIPO_RESCISAO = null;
 const ORDEM_MESES = ['12/2025','01/2026','02/2026','03/2026','04/2026','05/2026','06/2026','07/2026','08/2026'];
 
+// Valores da rescisão — fonte: Base_Rescisões_2026.xlsx, incluídos a pedido
+// da Débora (15/09/2026). totalBruto/totalDescontos/liquido aparecem na
+// tabela e nos totais; salarioBase/inss/irrf/consignado só entram no Excel
+// exportado (composição completa), pra não sobrecarregar a tela.
+function fmtBRL(v) {
+  return (v || 0).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+}
+
 function popularSelect(id, valores, comTodos) {
   const sel = document.getElementById(id);
   const valorAnterior = sel.value;
@@ -221,10 +229,16 @@ function renderTudo() {
 
   const equipesEnvolvidas = new Set(filtrados.map(r => r.equipe));
   const empresasEnvolvidas = new Set(filtrados.map(r => r.empresa).filter(Boolean));
+  const totalBrutoFiltro = filtrados.reduce((acc, r) => acc + (r.totalBruto || 0), 0);
+  const totalDescontosFiltro = filtrados.reduce((acc, r) => acc + (r.totalDescontos || 0), 0);
+  const totalLiquidoFiltro = filtrados.reduce((acc, r) => acc + (r.liquido || 0), 0);
   document.getElementById('totaisCards').innerHTML = `
     <div class="total-card"><div class="lbl">Desligados no filtro</div><div class="val bad">${filtrados.length}</div></div>
     <div class="total-card"><div class="lbl">Equipes</div><div class="val">${equipesEnvolvidas.size}</div></div>
     <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
+    <div class="total-card"><div class="lbl">Total Bruto Rescisões</div><div class="val">${fmtBRL(totalBrutoFiltro)}</div></div>
+    <div class="total-card"><div class="lbl">Total Descontos</div><div class="val">${fmtBRL(totalDescontosFiltro)}</div></div>
+    <div class="total-card"><div class="lbl">Total Líquido Pago</div><div class="val bad">${fmtBRL(totalLiquidoFiltro)}</div></div>
   `;
 
   const porEquipe = {};
@@ -250,15 +264,19 @@ function renderTudo() {
         <td class="mono">${r.dataAfastamento || '—'}</td>
         <td class="mono">${r.competenciaAviso || '—'}</td>
         <td>${r.tipoRescisao ? `<span class="tipo-tag">${r.tipoRescisao}</span>` : '—'}</td>
+        <td class="mono">${fmtBRL(r.totalBruto)}</td>
+        <td class="mono">${fmtBRL(r.totalDescontos)}</td>
+        <td class="mono">${fmtBRL(r.liquido)}</td>
       </tr>
     `).join('');
+    const liquidoEquipe = itens.reduce((acc, r) => acc + (r.liquido || 0), 0);
     return `
       <div class="grupo-setor">
         <div class="grupo-header">
           <div class="esq" data-equipe-toggle>
             <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
             <span class="grupo-nome">${equipe}</span>
-            <span class="grupo-count">${itens.length} desligado${itens.length === 1 ? '' : 's'}</span>
+            <span class="grupo-count">${itens.length} desligado${itens.length === 1 ? '' : 's'} — ${fmtBRL(liquidoEquipe)} líquido</span>
           </div>
           <div style="display:flex; align-items:center; gap:12px;">
             <span class="grupo-total">${itens.length}</span>
@@ -267,7 +285,7 @@ function renderTudo() {
         </div>
         <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
           <table>
-            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>CPF</th><th>Admissão</th><th>Afastamento</th><th>Competência</th><th>Tipo Rescisão</th></tr></thead>
+            <thead><tr><th>Colaborador</th><th>Cargo</th><th>Empresa</th><th>CPF</th><th>Admissão</th><th>Afastamento</th><th>Competência</th><th>Tipo Rescisão</th><th>Total Bruto</th><th>Descontos</th><th>Líquido</th></tr></thead>
             <tbody>${linhas}</tbody>
           </table>
         </div>
@@ -402,10 +420,14 @@ function renderChartTipoRescisao(filtrados) {
 }
 
 function montarLinhasExcel(registros) {
-  const cab = ['Equipe', 'Colaborador', 'Cargo', 'Empresa', 'CPF', 'Admissão', 'Afastamento', 'Competência', 'Tipo Rescisão'];
+  const cab = [
+    'Equipe', 'Colaborador', 'Cargo', 'Empresa', 'CPF', 'Admissão', 'Afastamento', 'Competência', 'Tipo Rescisão',
+    'Salário Base', 'Total Bruto', 'Total Descontos', 'Líquido', 'INSS', 'IRRF', 'Consignado',
+  ];
   const linhas = registros.map(r => [
     r.equipe || '', r.nome || '', r.cargo || '', r.empresa || '', r.cpf || '', r.dataAdmissao || '',
     r.dataAfastamento || '', r.competenciaAviso || '', r.tipoRescisao || '',
+    r.salarioBase || 0, r.totalBruto || 0, r.totalDescontos || 0, r.liquido || 0, r.inss || 0, r.irrf || 0, r.consignado || 0,
   ]);
   return [cab, ...linhas];
 }
