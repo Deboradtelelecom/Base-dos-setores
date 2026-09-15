@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Reembolso Geral — Dtel Telecom</title>
+<title>Reembolso de Empresas Licenciadas — Dtel Telecom</title>
 <style>
   :root {
     --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
@@ -94,7 +94,7 @@
   <div class="header-row">
     <span class="icon">🔁</span>
     <div>
-      <h1>Reembolso Geral</h1>
+      <h1>Reembolso de Empresas Licenciadas</h1>
       <p>Custos consolidados de reembolso entre a Dtel e as empresas licenciadas — extraído da Base Geral 2026, aba "Reembolso Geral", organizado por Setor e Empresa.</p>
     </div>
   </div>
@@ -471,7 +471,7 @@ function gerarESalvarExcel(itensBrutos, nomeArquivo, rotuloTotal, btn) {
   const ws = XLSX.utils.json_to_sheet(linhas);
   ws['!cols'] = [{ wch: 12 }, { wch: 20 }, { wch: 18 }, { wch: 46 }, { wch: 13 }, { wch: 8 }, { wch: 14 }, { wch: 14 }, { wch: 34 }];
   const wb = XLSX.utils.book_new();
-  XLSX.utils.book_append_sheet(wb, ws, 'Reembolso Geral');
+  XLSX.utils.book_append_sheet(wb, ws, 'Reembolso Licenciadas');
 
   if (btn) { btn.disabled = true; }
   try {
@@ -486,7 +486,7 @@ function exportarExcel() {
   const mes = document.getElementById('fMes').value;
   const setor = document.getElementById('fSetor').value;
   const empresa = document.getElementById('fEmpresa').value;
-  const partesNome = ['Reembolso_Geral'];
+  const partesNome = ['Reembolso_Empresas_Licenciadas'];
   if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
   if (setor) partesNome.push(setor.replace(/[^\w-]+/g, '_'));
   if (empresa) partesNome.push(empresa.replace(/[^\w-]+/g, '_'));
@@ -502,7 +502,7 @@ function exportarExcel() {
 function exportarExcelEmpresa(empresa) {
   const itensEmpresa = (ULTIMO_FILTRADOS || []).filter((r) => (r.empresa || '(sem empresa)') === empresa);
   const mes = document.getElementById('fMes').value;
-  const partesNome = ['Reembolso_Geral', empresa.replace(/[^\w-]+/g, '_')];
+  const partesNome = ['Reembolso_Empresas_Licenciadas', empresa.replace(/[^\w-]+/g, '_')];
   if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
   gerarESalvarExcel(itensEmpresa, partesNome.join('_'), `TOTAL — ${empresa}`, null);
 }
