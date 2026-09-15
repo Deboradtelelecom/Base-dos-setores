@@ -105,6 +105,11 @@
   table.encargos-tabela td.tot, table.encargos-tabela th.tot { color:#fff; font-weight:700; }
   table.encargos-tabela tbody tr:last-child td { border-bottom:none; }
   table.encargos-tabela td.vazio { color:var(--slate-400); font-family:inherit; }
+  table.encargos-tabela tfoot td { text-align:right; padding:7px 8px; border-top:2px solid var(--border); color:#fff; font-weight:700; font-family:var(--mono); }
+  table.encargos-tabela tfoot td:first-child { text-align:left; font-family:inherit; text-transform:uppercase; font-size:9.5px; letter-spacing:.03em; color:var(--slate-400); }
+  .encargos-toolbar { display:flex; justify-content:flex-end; margin-bottom:6px; }
+  .btn-export-mini { display:flex; align-items:center; gap:5px; background:var(--bg-panel); border:1px solid var(--border); color:var(--slate-800); font-size:10.5px; font-weight:600; padding:5px 10px; border-radius:8px; cursor:pointer; }
+  .btn-export-mini:hover { border-color:#22c55e; background:rgba(34,197,94,0.08); }
 
   .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
   .erro-box { background:var(--crit-bg); border:1px solid var(--crit-border); color:var(--crit-text); padding:16px; border-radius:10px; font-size:13px; }
@@ -592,7 +597,7 @@ function renderTudo() {
           let corpoDetalhe;
           if (temAlgumEncargo) {
             const colunas = [
-              ["Custo Trabalhista Total", e => e && e.salarioBase],
+              ["Remuneração bruta sem encargos", e => e && e.salarioBase],
               ["1/12 Férias", e => e && e.umDozeAvosFerias],
               ["1/12 13º Sal.", e => e && e.umDozeAvosDecimoTerceiro],
               ["FGTS", e => e && e.fgts],
@@ -610,9 +615,18 @@ function renderTudo() {
               }).join("");
               return `<tr><td>${d.nome}</td>${celulas}<td class="tot">${fmtBRL(d.valor)}</td></tr>`;
             }).join("");
-            corpoDetalhe = `<div class="encargos-tabela-wrap"><table class="encargos-tabela">
+            // Total da coluna — soma cada coluna (remuneração bruta/"Custo
+            // Trabalhista Total", cada encargo, e o Custo Total final com
+            // encargos e tributos) somando só os lançamentos que têm valor.
+            const totaisColunas = colunas.map(([, get]) => it.detalhes.reduce((acc, d) => acc + (get(d.encargos) || 0), 0));
+            const totalGeralComEncargos = it.detalhes.reduce((acc, d) => acc + (d.valor || 0), 0);
+            const linhaTotal = `<tr><td>Total (${nPessoas} ${nPessoas > 1 ? rotuloPessoaPlural : rotuloPessoa})</td>${totaisColunas.map(v => `<td>${fmtBRL(v)}</td>`).join("")}<td class="tot">${fmtBRL(totalGeralComEncargos)}</td></tr>`;
+            const idExportEncargos = `encExport_${catName}_${it.item}_${Math.random().toString(36).slice(2)}`.replace(/[^a-zA-Z0-9_]/g, "_");
+            corpoDetalhe = `<div class="encargos-toolbar"><button class="btn-export-mini" data-export-encargos="${idExportEncargos}">⬇ Baixar Excel (com e sem encargos)</button></div>
+            <div class="encargos-tabela-wrap"><table class="encargos-tabela" id="${idExportEncargos}">
               <thead><tr><th>${rotuloPessoaHeader}</th>${colunas.map(([label]) => `<th>${label}</th>`).join("")}<th class="tot">Custo Total</th></tr></thead>
               <tbody>${linhasTabela}</tbody>
+              <tfoot>${linhaTotal}</tfoot>
             </table></div>`;
           } else if (rotuloPessoa === "item") {
             corpoDetalhe = detalhesAgrupados.map(d => `
@@ -742,6 +756,21 @@ function exportarPdf() {
 
 document.getElementById('btnExportarPlanilha').addEventListener('click', exportarPlanilha);
 document.getElementById('btnGerarPdf').addEventListener('click', exportarPdf);
+
+// Botão "Baixar Excel" de cada tabela de Folha/encargos (remuneração bruta
+// sem encargos + cada encargo + custo total com encargos e tributos), por
+// delegação de clique já que essas tabelas são montadas dinamicamente.
+document.addEventListener('click', (ev) => {
+  const btn = ev.target.closest('[data-export-encargos]');
+  if (!btn || typeof XLSX === 'undefined') return;
+  const tabela = document.getElementById(btn.getAttribute('data-export-encargos'));
+  if (!tabela) return;
+  const wb = XLSX.utils.book_new();
+  const ws = XLSX.utils.table_to_sheet(tabela);
+  XLSX.utils.book_append_sheet(wb, ws, 'Folha com e sem encargos');
+  const nomeSetor = SETOR ? nomeArquivoSeguro(SETOR.nome) : 'Setor';
+  XLSX.writeFile(wb, `Folha_Encargos_${nomeSetor}.xlsx`);
+});
 
 buscarDados();
 setInterval(() => buscarDados(false), 300000); // re-busca a cada 5 min, sem precisar recarregar a página
