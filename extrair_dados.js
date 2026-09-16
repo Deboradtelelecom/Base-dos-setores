@@ -218,10 +218,11 @@ function carregarDesligados(pastaDados) {
 // colaborador/equipe/empresa, mais um comparativo com o valor efetivamente
 // pago pela Dtel à plataforma do convênio (SAP). Fonte do desconto: coluna
 // "FARMACIA" da aba Detalhamento das Base_Despesa_Trabalhista_MMAAAA.xlsx —
-// essa coluna só existe a partir de Julho/2026 (Maio/Junho não têm essa
-// informação na folha, não é que o desconto não existisse). Fonte do
-// pagamento: Beneficio Farmacia SAP.xlsx (Maio a Setembro/2026, notas
-// canceladas já excluídas). Agrupado por EQUIPE (mesmo campo/convenção usado
+// a posição dessa coluna varia mês a mês, mas ela existe em todos os meses
+// de Maio a Agosto/2026. Fonte do pagamento: Beneficio Farmacia SAP.xlsx
+// (Maio a Agosto/2026, notas canceladas já excluídas — Setembro foi
+// removido por não ter desconto de folha correspondente ainda para
+// comparar). Agrupado por EQUIPE (mesmo campo/convenção usado
 // em Horas Extras/Férias/Colaboradores/Desligados). "DTEL" no comparativo já
 // soma Matriz + Filial + Goonet (mesma empresa, convenção do projeto); a
 // equipe "Instalação Marcos Bezerros" é tratada como "Planeta Net (MJ
