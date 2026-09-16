@@ -8,7 +8,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "31/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 1000,
+      "totalBruto": 1500,
+      "totalDescontos": 0,
+      "liquido": 1500,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Anderson Rafael Silva Freire",
@@ -18,7 +25,14 @@
       "dataAdmissao": "01/06/2023",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2776.86,
+      "totalBruto": 4150.45,
+      "totalDescontos": 632.87,
+      "liquido": 3517.58,
+      "inss": 4.05,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Anielly Dayanne Da Silva Siqueira",
@@ -28,7 +42,14 @@
       "dataAdmissao": "16/07/2024",
       "dataAfastamento": "06/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2111.16,
+      "totalBruto": 4710.45,
+      "totalDescontos": 2171.27,
+      "liquido": 2539.18,
+      "inss": 37.44,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Bianca Camylle Do Nascimento Barbosa",
@@ -38,7 +59,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 131.71,
+      "liquido": 3112.37,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Davi Aleixo Da Silva Barros",
@@ -48,7 +76,14 @@
       "dataAdmissao": "05/09/2024",
       "dataAfastamento": "13/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1905.25,
+      "totalBruto": 2761.41,
+      "totalDescontos": 1986.26,
+      "liquido": 775.15,
+      "inss": 3573.78,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Elias Jose Da Silva Junior",
@@ -58,7 +93,14 @@
       "dataAdmissao": "04/04/2023",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2736.16,
+      "totalBruto": 4494.93,
+      "totalDescontos": 90.49,
+      "liquido": 4404.44,
+      "inss": 4.05,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Emanuela Maria Dos Santos",
@@ -68,7 +110,14 @@
       "dataAdmissao": "01/06/2023",
       "dataAfastamento": "22/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1910.31,
+      "totalBruto": 9486.93,
+      "totalDescontos": 442.28,
+      "liquido": 9044.65,
+      "inss": 96.36,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Erika Lima Dos Santos",
@@ -78,7 +127,14 @@
       "dataAdmissao": "24/10/2025",
       "dataAfastamento": "08/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1621,
+      "totalBruto": 3062.6,
+      "totalDescontos": 1880.6,
+      "liquido": 1182,
+      "inss": 32.42,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Esmeraldo Jose Vercosa",
@@ -88,7 +144,14 @@
       "dataAdmissao": "22/10/2025",
       "dataAfastamento": "21/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 1000,
+      "totalBruto": 700,
+      "totalDescontos": 0,
+      "liquido": 700,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Luiz Augusto Da Silva Neto",
@@ -98,7 +161,14 @@
       "dataAdmissao": "22/10/2025",
       "dataAfastamento": "21/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 800,
+      "totalBruto": 560,
+      "totalDescontos": 0,
+      "liquido": 560,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Leticia Vitoria De Macena Silva",
@@ -108,7 +178,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "19/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 1000,
+      "totalBruto": 966.66,
+      "totalDescontos": 0,
+      "liquido": 966.66,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Maria Ingred Carmo Do Monte",
@@ -118,7 +195,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "31/12/2025",
       "competenciaAviso": "12/2025",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 560,
+      "totalBruto": 1222.23,
+      "totalDescontos": 0,
+      "liquido": 1222.23,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Maria Victorya Silva Nepomuceno",
@@ -128,7 +212,14 @@
       "dataAdmissao": "12/08/2024",
       "dataAfastamento": "29/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1621,
+      "totalBruto": 4652.56,
+      "totalDescontos": 2311.8,
+      "liquido": 2340.76,
+      "inss": 117.52,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Matheus Vinicius De Lima E Silva",
@@ -138,7 +229,14 @@
       "dataAdmissao": "20/05/2024",
       "dataAfastamento": "01/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1671,
+      "totalBruto": 5824.57,
+      "totalDescontos": 117.09,
+      "liquido": 5707.48,
+      "inss": 65.93,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Poliana Oliveira Da Silva",
@@ -148,7 +246,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "14/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1906.93,
+      "totalBruto": 1622.58,
+      "totalDescontos": 278.03,
+      "liquido": 1344.55,
+      "inss": 56.73,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Rayane De Jesus Silva",
@@ -158,7 +263,14 @@
       "dataAdmissao": "15/10/2025",
       "dataAfastamento": "31/12/2025",
       "competenciaAviso": "12/2025",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 800,
+      "totalBruto": 1333.33,
+      "totalDescontos": 0,
+      "liquido": 1333.33,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Renata Eduarda Dos Santos Silva",
@@ -168,7 +280,14 @@
       "dataAdmissao": "22/10/2025",
       "dataAfastamento": "21/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 1000,
+      "totalBruto": 700,
+      "totalDescontos": 0,
+      "liquido": 700,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Reynan Lucas De Lima Gomes",
@@ -178,7 +297,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "26/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1621,
+      "totalBruto": 1822.61,
+      "totalDescontos": 680.09,
+      "liquido": 1142.52,
+      "inss": 10.13,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Wagner De Melo Silva",
@@ -188,7 +314,14 @@
       "dataAdmissao": "03/04/2019",
       "dataAfastamento": "05/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2111.2,
+      "totalBruto": 2469.67,
+      "totalDescontos": 578.03,
+      "liquido": 1891.64,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Lançamento": [
@@ -200,7 +333,14 @@
       "dataAdmissao": "03/09/2025",
       "dataAfastamento": "30/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 4267.95,
+      "totalBruto": 11572.35,
+      "totalDescontos": 805.25,
+      "liquido": 10767.1,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Carlos Da Silva Santos",
@@ -210,7 +350,14 @@
       "dataAdmissao": "16/10/2023",
       "dataAfastamento": "08/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2829.52,
+      "totalBruto": 13622.17,
+      "totalDescontos": 967.86,
+      "liquido": 12654.31,
+      "inss": 65.79,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Rodolfo Lima De Miranda",
@@ -220,7 +367,14 @@
       "dataAdmissao": "16/03/2026",
       "dataAfastamento": "29/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 2766.89,
+      "totalBruto": 4806.3,
+      "totalDescontos": 3059.67,
+      "liquido": 1746.63,
+      "inss": 47.82,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Fusão": [
@@ -232,7 +386,14 @@
       "dataAdmissao": "08/07/2024",
       "dataAfastamento": "08/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2331.54,
+      "totalBruto": 11083.69,
+      "totalDescontos": 621.17,
+      "liquido": 10462.52,
+      "inss": 58.28,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Anderson Da Silva",
@@ -242,7 +403,14 @@
       "dataAdmissao": "08/07/2024",
       "dataAfastamento": "29/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3503.95,
+      "totalBruto": 15305.2,
+      "totalDescontos": 601.52,
+      "liquido": 14703.68,
+      "inss": 142.47,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Jose Julio": [
@@ -254,7 +422,14 @@
       "dataAdmissao": "01/08/2015",
       "dataAfastamento": "17/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2581.5,
+      "totalBruto": 10242.08,
+      "totalDescontos": 1089.02,
+      "liquido": 9153.06,
+      "inss": 142.94,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Joao Victor Vieira De Barros",
@@ -264,7 +439,14 @@
       "dataAdmissao": "11/05/2023",
       "dataAfastamento": "22/04/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2913.1,
+      "totalBruto": 6917.28,
+      "totalDescontos": 666.89,
+      "liquido": 6250.39,
+      "inss": 68.17,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Magniael Vicente Da Silva",
@@ -274,7 +456,14 @@
       "dataAdmissao": "28/06/2021",
       "dataAfastamento": "08/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2288.16,
+      "totalBruto": 9449.32,
+      "totalDescontos": 770.66,
+      "liquido": 8678.66,
+      "inss": 97.81,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Victor Vinicius De Franca Santana",
@@ -284,7 +473,14 @@
       "dataAdmissao": "08/11/2021",
       "dataAfastamento": "28/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2128.02,
+      "totalBruto": 10982.73,
+      "totalDescontos": 612.31,
+      "liquido": 10370.42,
+      "inss": 169,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Wilson Costa De Oliveira Junior",
@@ -294,7 +490,14 @@
       "dataAdmissao": "08/11/2021",
       "dataAfastamento": "07/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3250.04,
+      "totalBruto": 11094.03,
+      "totalDescontos": 474.88,
+      "liquido": 10619.15,
+      "inss": 80.15,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Obras": [
@@ -306,7 +509,14 @@
       "dataAdmissao": "05/09/2025",
       "dataAfastamento": "07/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2882.51,
+      "totalBruto": 9164.95,
+      "totalDescontos": 460.15,
+      "liquido": 8704.8,
+      "inss": 32.68,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Ivan Carlos Da Silva",
@@ -316,7 +526,14 @@
       "dataAdmissao": "05/09/2025",
       "dataAfastamento": "20/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3272.78,
+      "totalBruto": 8581.14,
+      "totalDescontos": 872.09,
+      "liquido": 7709.05,
+      "inss": 77.78,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Julio Manoel Dos Santos",
@@ -326,7 +543,14 @@
       "dataAdmissao": "20/11/2023",
       "dataAfastamento": "15/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3076.21,
+      "totalBruto": 8527.59,
+      "totalDescontos": 1058.81,
+      "liquido": 7468.78,
+      "inss": 103.05,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Vendas PAP Tarcizio": [
@@ -338,7 +562,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "30/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1731,
+      "totalBruto": 5482.36,
+      "totalDescontos": 408.33,
+      "liquido": 5074.03,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Cristiane Maria Dos Santos",
@@ -348,7 +579,14 @@
       "dataAdmissao": "17/04/2024",
       "dataAfastamento": "31/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1621,
+      "totalBruto": 6434.78,
+      "totalDescontos": 1017.1,
+      "liquido": 5417.68,
+      "inss": 243.14,
+      "irrf": 121.57,
+      "consignado": 0
     },
     {
       "nome": "Elaine Barbosa Silva",
@@ -358,7 +596,14 @@
       "dataAdmissao": "26/02/2026",
       "dataAfastamento": "25/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1901,
+      "totalBruto": 2310.74,
+      "totalDescontos": 280.33,
+      "liquido": 2030.41,
+      "inss": 93.2,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Joao Dionisio Martins Neto",
@@ -368,7 +613,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "06/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 2082.36,
+      "totalBruto": 1746.25,
+      "totalDescontos": 955.33,
+      "liquido": 790.92,
+      "inss": 23.07,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Gabriel Dos Santos Dias",
@@ -378,7 +630,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "28/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2346.85,
+      "totalBruto": 6240.42,
+      "totalDescontos": 3282.17,
+      "liquido": 2958.25,
+      "inss": 5909.76,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Julio Cesar Sales Da Silva",
@@ -388,7 +647,14 @@
       "dataAdmissao": "16/03/2026",
       "dataAfastamento": "10/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1711.79,
+      "totalBruto": 2165.1,
+      "totalDescontos": 1769.03,
+      "liquido": 396.07,
+      "inss": 40.13,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Lucas Abel Goulart",
@@ -398,7 +664,14 @@
       "dataAdmissao": "04/12/2025",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1920.9,
+      "totalBruto": 5846.94,
+      "totalDescontos": 109.54,
+      "liquido": 5737.4,
+      "inss": 3.92,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Marketing": [
@@ -410,7 +683,14 @@
       "dataAdmissao": "10/02/2026",
       "dataAfastamento": "30/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2196.81,
+      "totalBruto": 10069.14,
+      "totalDescontos": 515.56,
+      "liquido": 9553.58,
+      "inss": 344.1,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Roberto Barros": [
@@ -422,7 +702,14 @@
       "dataAdmissao": "24/11/2025",
       "dataAfastamento": "21/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2400.5,
+      "totalBruto": 3141.25,
+      "totalDescontos": 259.38,
+      "liquido": 2881.87,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Dayane Vanessa Da Silva Ataide",
@@ -432,7 +719,14 @@
       "dataAdmissao": "24/11/2025",
       "dataAfastamento": "21/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1992.06,
+      "totalBruto": 2846.64,
+      "totalDescontos": 237.76,
+      "liquido": 2608.88,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Michelangelo": [
@@ -444,7 +738,14 @@
       "dataAdmissao": "01/06/2026",
       "dataAfastamento": "29/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2397.25,
+      "totalBruto": 3948.88,
+      "totalDescontos": 427.01,
+      "liquido": 3521.87,
+      "inss": 225.6,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Alef Francisco Da Silva",
@@ -454,7 +755,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "23/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2604.21,
+      "totalBruto": 4385.61,
+      "totalDescontos": 3555.1,
+      "liquido": 830.51,
+      "inss": 2536.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Camila Celia Rocha Oliveira",
@@ -464,7 +772,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "20/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2162,
+      "totalBruto": 5177.69,
+      "totalDescontos": 239.65,
+      "liquido": 4938.04,
+      "inss": 140.03,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Carla Fernanda De Lima",
@@ -474,7 +789,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "05/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1792.07,
+      "totalBruto": 1469.14,
+      "totalDescontos": 209.92,
+      "liquido": 1259.22,
+      "inss": 70.54,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Carlos Roberto De Lima",
@@ -484,7 +806,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1956.85,
+      "totalBruto": 4073.37,
+      "totalDescontos": 916.02,
+      "liquido": 3157.35,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Celio Jose Nunes Santiago",
@@ -494,7 +823,14 @@
       "dataAdmissao": "01/11/2013",
       "dataAfastamento": "15/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3413.25,
+      "totalBruto": 14565.05,
+      "totalDescontos": 1130.4,
+      "liquido": 13434.65,
+      "inss": 154.87,
+      "irrf": 188.78,
+      "consignado": 0
     },
     {
       "nome": "Denise Kelline Maria De Santana",
@@ -504,7 +840,14 @@
       "dataAdmissao": "01/09/2025",
       "dataAfastamento": "12/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3675.88,
+      "totalBruto": 8918.86,
+      "totalDescontos": 533.35,
+      "liquido": 8385.51,
+      "inss": 114.41,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Edivaldo Santos De Lima",
@@ -514,7 +857,14 @@
       "dataAdmissao": "01/06/2026",
       "dataAfastamento": "16/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 2599.65,
+      "totalBruto": 2361.82,
+      "totalDescontos": 2040.21,
+      "liquido": 321.61,
+      "inss": 101.31,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Fabio Barbosa Da Silva",
@@ -524,7 +874,14 @@
       "dataAdmissao": "04/10/2023",
       "dataAfastamento": "16/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2698.55,
+      "totalBruto": 5532.17,
+      "totalDescontos": 3672.96,
+      "liquido": 1859.21,
+      "inss": 5954.58,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Flaviano Francisco Da Silva",
@@ -534,7 +891,14 @@
       "dataAdmissao": "01/07/2020",
       "dataAfastamento": "13/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2726.8,
+      "totalBruto": 10888.37,
+      "totalDescontos": 1399.59,
+      "liquido": 9488.78,
+      "inss": 99.35,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Gleison Gleidson Da Silva",
@@ -544,7 +908,14 @@
       "dataAdmissao": "03/11/2022",
       "dataAfastamento": "15/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2055.02,
+      "totalBruto": 5728.64,
+      "totalDescontos": 981.73,
+      "liquido": 4746.91,
+      "inss": 72.94,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Gleybson Felipe Souza De Oliveira",
@@ -554,7 +925,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "05/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2317.65,
+      "totalBruto": 1441.28,
+      "totalDescontos": 118.55,
+      "liquido": 1322.73,
+      "inss": 56.73,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Hugo Florencio De Almeida",
@@ -564,7 +942,14 @@
       "dataAdmissao": "20/11/2020",
       "dataAfastamento": "08/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 4762.65,
+      "totalBruto": 8222.85,
+      "totalDescontos": 7053.23,
+      "liquido": 1169.62,
+      "inss": 6406.2,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Iranilson Alves Ferreira",
@@ -574,7 +959,14 @@
       "dataAdmissao": "22/11/2021",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2770.31,
+      "totalBruto": 9369.97,
+      "totalDescontos": 454.29,
+      "liquido": 8915.68,
+      "inss": 86.96,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Ismael Santana De Araujo",
@@ -584,7 +976,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "05/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2639.38,
+      "totalBruto": 1739.95,
+      "totalDescontos": 119.86,
+      "liquido": 1620.09,
+      "inss": 74.44,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Carlos Dos Santos",
@@ -594,7 +993,14 @@
       "dataAdmissao": "14/07/2020",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2868.21,
+      "totalBruto": 10732.68,
+      "totalDescontos": 397.49,
+      "liquido": 10335.19,
+      "inss": 40.52,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Luan Lucas Rodrigues Da Silva",
@@ -604,7 +1010,14 @@
       "dataAdmissao": "01/04/2024",
       "dataAfastamento": "02/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2936.46,
+      "totalBruto": 7217.6,
+      "totalDescontos": 3457.03,
+      "liquido": 3760.57,
+      "inss": 50.41,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Marcio Da Silva Galdino",
@@ -614,7 +1027,14 @@
       "dataAdmissao": "21/08/2023",
       "dataAfastamento": "07/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 2722.42,
+      "totalBruto": 9717.32,
+      "totalDescontos": 2412.49,
+      "liquido": 7304.83,
+      "inss": 109.71,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Paulo Henrique Fortunato Da Silva",
@@ -624,7 +1044,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2763.2,
+      "totalBruto": 8399.09,
+      "totalDescontos": 1022.94,
+      "liquido": 7376.15,
+      "inss": 40.52,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Rafael Sanzio Da Silva Barreto",
@@ -634,7 +1061,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "05/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2183.31,
+      "totalBruto": 7636.3,
+      "totalDescontos": 817.34,
+      "liquido": 6818.96,
+      "inss": 63.86,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Relrisson Rodrigues De Oliveira",
@@ -644,7 +1078,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "20/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2675.66,
+      "totalBruto": 8058.12,
+      "totalDescontos": 3784.87,
+      "liquido": 4273.25,
+      "inss": 196.46,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Renan Rafael Do Nascimento",
@@ -654,7 +1095,14 @@
       "dataAdmissao": "08/10/2020",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2691.15,
+      "totalBruto": 11049.31,
+      "totalDescontos": 1461.53,
+      "liquido": 9587.78,
+      "inss": 83.73,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Roberia Maria Da Silva Oliveira",
@@ -664,7 +1112,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "05/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1793.73,
+      "totalBruto": 2078.32,
+      "totalDescontos": 554.58,
+      "liquido": 1523.74,
+      "inss": 116.2,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Sergio Ricardo Pereira De Assuncao",
@@ -674,7 +1129,14 @@
       "dataAdmissao": "15/06/2026",
       "dataAfastamento": "29/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1350.83,
+      "totalBruto": 3184.08,
+      "totalDescontos": 272.69,
+      "liquido": 2911.39,
+      "inss": 188.49,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Severino Manoel Da Silva",
@@ -684,7 +1146,14 @@
       "dataAdmissao": "11/05/2023",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1625.99,
+      "totalBruto": 7351.1,
+      "totalDescontos": 884.9,
+      "liquido": 6466.2,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Thaynara Souza Barbosa",
@@ -694,7 +1163,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "28/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2077.43,
+      "totalBruto": 4458.58,
+      "totalDescontos": 399.5,
+      "liquido": 4059.08,
+      "inss": 196.29,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Thiago Ferreira De Lima",
@@ -704,7 +1180,14 @@
       "dataAdmissao": "07/04/2025",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1831,
+      "totalBruto": 5424.6,
+      "totalDescontos": 69.98,
+      "liquido": 5354.62,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Vitoria Leticia Da Paz Clemente",
@@ -714,7 +1197,14 @@
       "dataAdmissao": "24/11/2025",
       "dataAfastamento": "04/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1989,
+      "totalBruto": 4143.75,
+      "totalDescontos": 197.4,
+      "liquido": 3946.35,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Vivianne Cristina Alves De Amorim",
@@ -724,7 +1214,14 @@
       "dataAdmissao": "04/08/2025",
       "dataAfastamento": "04/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1937.25,
+      "totalBruto": 4767.36,
+      "totalDescontos": 90.02,
+      "liquido": 4677.34,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Wellianno Guimaraes Estima",
@@ -734,7 +1231,14 @@
       "dataAdmissao": "16/03/2026",
       "dataAfastamento": "29/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 810.5,
+      "totalBruto": 2017.25,
+      "totalDescontos": 190.38,
+      "liquido": 1826.87,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Vendas Corporativo": [
@@ -746,7 +1250,14 @@
       "dataAdmissao": "19/12/2024",
       "dataAfastamento": "13/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 5896.6,
+      "totalBruto": 8277.18,
+      "totalDescontos": 1372.28,
+      "liquido": 6904.9,
+      "inss": 85.01,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Gustavo Bernardo Da Silva",
@@ -756,7 +1267,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 221.61,
+      "liquido": 3022.47,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Gabriel Soares": [
@@ -768,7 +1286,14 @@
       "dataAdmissao": "16/03/2026",
       "dataAfastamento": "13/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2771.99,
+      "totalBruto": 3773.76,
+      "totalDescontos": 330.51,
+      "liquido": 3443.25,
+      "inss": 185.18,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Paulo Sergio Da Silva Nascimento",
@@ -778,7 +1303,14 @@
       "dataAdmissao": "06/07/2026",
       "dataAfastamento": "19/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1837.13,
+      "totalBruto": 2872.68,
+      "totalDescontos": 738.87,
+      "liquido": 2133.81,
+      "inss": 181.53,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Marcos Litoral": [
@@ -790,7 +1322,14 @@
       "dataAdmissao": "02/01/2023",
       "dataAfastamento": "05/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2188.16,
+      "totalBruto": 7127.4,
+      "totalDescontos": 426.36,
+      "liquido": 6701.04,
+      "inss": 59.33,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Gileade Alberlando Jose Da Cunha Silva",
@@ -800,7 +1339,14 @@
       "dataAdmissao": "02/01/2023",
       "dataAfastamento": "21/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 5130.47,
+      "totalBruto": 10295.9,
+      "totalDescontos": 2146.9,
+      "liquido": 8149,
+      "inss": 179,
+      "irrf": 179.39,
+      "consignado": 0
     },
     {
       "nome": "Jose Robson Da Silva",
@@ -810,7 +1356,14 @@
       "dataAdmissao": "11/05/2026",
       "dataAfastamento": "08/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 4152.28,
+      "totalBruto": 3036.99,
+      "totalDescontos": 420.43,
+      "liquido": 2616.56,
+      "inss": 94.9,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Luis Carlos Da Silva",
@@ -820,7 +1373,14 @@
       "dataAdmissao": "02/03/2026",
       "dataAfastamento": "20/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 2356.09,
+      "totalBruto": 2504.25,
+      "totalDescontos": 1796.47,
+      "liquido": 707.78,
+      "inss": 30.12,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Luis Carlos Rodrigues Da Silva Junior",
@@ -830,7 +1390,14 @@
       "dataAdmissao": "04/07/2022",
       "dataAfastamento": "24/02/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 3132.41,
+      "totalBruto": 6274.05,
+      "totalDescontos": 1827.92,
+      "liquido": 4446.13,
+      "inss": 39.15,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Marcelo Da Silva Campos",
@@ -840,7 +1407,14 @@
       "dataAdmissao": "07/07/2025",
       "dataAfastamento": "02/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Com Justa Causa"
+      "tipoRescisao": "Com Justa Causa",
+      "salarioBase": 2107.3,
+      "totalBruto": 713.11,
+      "totalDescontos": 463.74,
+      "liquido": 249.37,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Marcos Bezerros": [
@@ -852,7 +1426,14 @@
       "dataAdmissao": "01/02/2023",
       "dataAfastamento": "05/05/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 4311.6,
+      "totalBruto": 15065.51,
+      "totalDescontos": 1517.79,
+      "liquido": 13547.72,
+      "inss": 124.75,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Engenharia": [
@@ -864,7 +1445,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 122.71,
+      "liquido": 3121.37,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Lucas Bonifacio": [
@@ -876,7 +1464,14 @@
       "dataAdmissao": "07/04/2025",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2003,
+      "totalBruto": 6529.84,
+      "totalDescontos": 2024.54,
+      "liquido": 4505.3,
+      "inss": 52.53,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Alexandre Do Amor Divino Souza",
@@ -886,7 +1481,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "30/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2991.04,
+      "totalBruto": 7158.13,
+      "totalDescontos": 4300.48,
+      "liquido": 2857.65,
+      "inss": 802.7,
+      "irrf": 401.35,
+      "consignado": 2568.73
     },
     {
       "nome": "Djalma Da Silva Ferreira Junior",
@@ -896,7 +1498,14 @@
       "dataAdmissao": "12/01/2026",
       "dataAfastamento": "25/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1956.85,
+      "totalBruto": 3373.81,
+      "totalDescontos": 406.31,
+      "liquido": 2967.5,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Everton Mateus De Souza Sercundo",
@@ -906,7 +1515,14 @@
       "dataAdmissao": "12/01/2026",
       "dataAfastamento": "02/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2481.88,
+      "totalBruto": 3405.82,
+      "totalDescontos": 2544.21,
+      "liquido": 861.61,
+      "inss": 50.19,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jadson Alves Da Silveira",
@@ -916,7 +1532,14 @@
       "dataAdmissao": "02/12/2024",
       "dataAfastamento": "27/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 4695.77,
+      "totalBruto": 4658.87,
+      "totalDescontos": 3353.01,
+      "liquido": 1305.86,
+      "inss": 107.34,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jaqueline Barbosa De Melo",
@@ -926,7 +1549,14 @@
       "dataAdmissao": "01/06/2026",
       "dataAfastamento": "15/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1621,
+      "totalBruto": 2041.87,
+      "totalDescontos": 162.94,
+      "liquido": 1878.93,
+      "inss": 105.86,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Joao Lucas Araujo Tenorio Da Silva",
@@ -936,7 +1566,14 @@
       "dataAdmissao": "12/01/2026",
       "dataAfastamento": "06/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2269.25,
+      "totalBruto": 2370.28,
+      "totalDescontos": 2299.2,
+      "liquido": 71.08,
+      "inss": 4280.36,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Josivaldo Ferreira Da Silva",
@@ -946,7 +1583,14 @@
       "dataAdmissao": "17/03/2025",
       "dataAfastamento": "26/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 3305.25,
+      "totalBruto": 6188.19,
+      "totalDescontos": 3497.8,
+      "liquido": 2690.39,
+      "inss": 224.56,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Roberta Vitoria Silva Botelho",
@@ -956,7 +1600,14 @@
       "dataAdmissao": "16/06/2025",
       "dataAfastamento": "01/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1981.74,
+      "totalBruto": 4569.39,
+      "totalDescontos": 634.56,
+      "liquido": 3934.83,
+      "inss": 44.49,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Samuel Feijo De Melo Junior",
@@ -966,7 +1617,14 @@
       "dataAdmissao": "11/05/2026",
       "dataAfastamento": "27/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1621,
+      "totalBruto": 1042.03,
+      "totalDescontos": 967.01,
+      "liquido": 75.02,
+      "inss": 54.51,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Trade Connect": [
@@ -978,7 +1636,14 @@
       "dataAdmissao": "11/08/2025",
       "dataAfastamento": "10/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Estágio"
+      "tipoRescisao": "Estágio",
+      "salarioBase": 800,
+      "totalBruto": 266.67,
+      "totalDescontos": 0,
+      "liquido": 266.67,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Cozinha": [
@@ -990,7 +1655,14 @@
       "dataAdmissao": "18/05/2026",
       "dataAfastamento": "13/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1947.53,
+      "totalBruto": 2729.49,
+      "totalDescontos": 372.16,
+      "liquido": 2357.33,
+      "inss": 95.89,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Mariano Camelo Filho",
@@ -1000,7 +1672,14 @@
       "dataAdmissao": "05/02/2026",
       "dataAfastamento": "13/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2021.57,
+      "totalBruto": 9143.17,
+      "totalDescontos": 474.69,
+      "liquido": 8668.48,
+      "inss": 77.87,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Vendas PAP Elthon": [
@@ -1012,7 +1691,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "16/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1824.72,
+      "totalBruto": 2568.76,
+      "totalDescontos": 1490.09,
+      "liquido": 1078.67,
+      "inss": 145.04,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Crisllainy Maria Do Monte Souza",
@@ -1022,7 +1708,14 @@
       "dataAdmissao": "04/08/2025",
       "dataAfastamento": "18/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2260,
+      "totalBruto": 4306.46,
+      "totalDescontos": 2202.32,
+      "liquido": 2104.14,
+      "inss": 158.05,
+      "irrf": 15.19,
+      "consignado": 0
     },
     {
       "nome": "Evellyn Soares Da Silva",
@@ -1032,7 +1725,14 @@
       "dataAdmissao": "15/06/2026",
       "dataAfastamento": "17/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1621,
+      "totalBruto": 1321.92,
+      "totalDescontos": 829.92,
+      "liquido": 492,
+      "inss": 57.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Grazielly Karla Ferreira Da Silva",
@@ -1042,7 +1742,14 @@
       "dataAdmissao": "15/06/2026",
       "dataAfastamento": "31/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 864.53,
+      "totalBruto": 3480.66,
+      "totalDescontos": 181.28,
+      "liquido": 3299.38,
+      "inss": 121.57,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Ivoleda Marinho Dos Santos",
@@ -1052,7 +1759,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "08/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1788.5,
+      "totalBruto": 1613.12,
+      "totalDescontos": 1595.11,
+      "liquido": 18.01,
+      "inss": 39.02,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jaqueline Da Silva Lourenço",
@@ -1062,7 +1776,14 @@
       "dataAdmissao": "01/06/2026",
       "dataAfastamento": "05/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1621,
+      "totalBruto": 1134.7,
+      "totalDescontos": 1100.93,
+      "liquido": 33.77,
+      "inss": 20.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Allan Da Silva Ribeiro",
@@ -1072,7 +1793,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "28/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1831,
+      "totalBruto": 9443.18,
+      "totalDescontos": 435.66,
+      "liquido": 9007.52,
+      "inss": 254.47,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Lais Mavila Da Silva Pereira",
@@ -1082,7 +1810,14 @@
       "dataAdmissao": "01/06/2026",
       "dataAfastamento": "31/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1621,
+      "totalBruto": 4883.85,
+      "totalDescontos": 375.21,
+      "liquido": 4508.64,
+      "inss": 304.98,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Lucas Da Silva Soares",
@@ -1092,7 +1827,14 @@
       "dataAdmissao": "24/11/2025",
       "dataAfastamento": "01/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1621,
+      "totalBruto": 3881.25,
+      "totalDescontos": 406.9,
+      "liquido": 3474.35,
+      "inss": 287.67,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Matheus Florencio Da Silva",
@@ -1102,7 +1844,14 @@
       "dataAdmissao": "07/07/2025",
       "dataAfastamento": "12/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1856.75,
+      "totalBruto": 3421.78,
+      "totalDescontos": 2048.34,
+      "liquido": 1373.44,
+      "inss": 3768.5,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Myllenna Kelly De Santana Amorim",
@@ -1112,7 +1861,14 @@
       "dataAdmissao": "04/08/2025",
       "dataAfastamento": "01/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2480.85,
+      "totalBruto": 6426.23,
+      "totalDescontos": 195.19,
+      "liquido": 6231.04,
+      "inss": 61.79,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Configuração": [
@@ -1124,7 +1880,14 @@
       "dataAdmissao": "19/11/2020",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2938.74,
+      "totalBruto": 9263.93,
+      "totalDescontos": 383.57,
+      "liquido": 8880.36,
+      "inss": 22.97,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "TIC": [
@@ -1136,7 +1899,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 131.71,
+      "liquido": 3112.37,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Matheus Da Silva Alves",
@@ -1146,7 +1916,14 @@
       "dataAdmissao": "09/01/2023",
       "dataAfastamento": "01/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2340.13,
+      "totalBruto": 5639.95,
+      "totalDescontos": 2543.32,
+      "liquido": 3096.63,
+      "inss": 75,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Manutenção Predial": [
@@ -1158,7 +1935,14 @@
       "dataAdmissao": "03/02/2025",
       "dataAfastamento": "11/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2853.22,
+      "totalBruto": 11797.14,
+      "totalDescontos": 698.58,
+      "liquido": 11098.56,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Andre Vicente Ferreira",
@@ -1168,7 +1952,14 @@
       "dataAdmissao": "11/03/2024",
       "dataAfastamento": "02/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3586.29,
+      "totalBruto": 20901.67,
+      "totalDescontos": 2380.3,
+      "liquido": 18521.37,
+      "inss": 99.25,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Francisco De Assis Junior",
@@ -1178,7 +1969,14 @@
       "dataAdmissao": "23/03/2026",
       "dataAfastamento": "25/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2600,
+      "totalBruto": 5011.15,
+      "totalDescontos": 3056.31,
+      "liquido": 1954.84,
+      "inss": 368.59,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Gestão de Atendimento": [
@@ -1190,7 +1988,14 @@
       "dataAdmissao": "25/11/2020",
       "dataAfastamento": "15/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 3762.56,
+      "totalBruto": 3930.16,
+      "totalDescontos": 2990.2,
+      "liquido": 939.96,
+      "inss": 5219.28,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Financeiro": [
@@ -1202,7 +2007,14 @@
       "dataAdmissao": "07/10/2024",
       "dataAfastamento": "27/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2026.2,
+      "totalBruto": 4132.29,
+      "totalDescontos": 2326.03,
+      "liquido": 1806.26,
+      "inss": 4169.06,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Seg. Trabalho": [
@@ -1214,7 +2026,14 @@
       "dataAdmissao": "23/07/2025",
       "dataAfastamento": "08/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 572.86,
+      "totalBruto": 5340.29,
+      "totalDescontos": 103.33,
+      "liquido": 5236.96,
+      "inss": 32.42,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Rodrigo Antonio De Oliveira",
@@ -1224,7 +2043,14 @@
       "dataAdmissao": "22/04/2026",
       "dataAfastamento": "31/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 3317.84,
+      "totalBruto": 5747.14,
+      "totalDescontos": 1372.16,
+      "liquido": 4374.98,
+      "inss": 220.28,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Sanderley Felix Da Silva",
@@ -1234,7 +2060,14 @@
       "dataAdmissao": "26/10/2023",
       "dataAfastamento": "08/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 4612.15,
+      "totalBruto": 9789.49,
+      "totalDescontos": 4261.67,
+      "liquido": 5527.82,
+      "inss": 7672.34,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Estoque": [
@@ -1246,7 +2079,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 131.71,
+      "liquido": 3112.37,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "COE": [
@@ -1258,7 +2098,14 @@
       "dataAdmissao": "12/06/2023",
       "dataAfastamento": "05/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2259.17,
+      "totalBruto": 9158.97,
+      "totalDescontos": 415.38,
+      "liquido": 8743.59,
+      "inss": 42.14,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Marcia Maria Silva Da Costa",
@@ -1268,7 +2115,14 @@
       "dataAdmissao": "04/10/2021",
       "dataAfastamento": "06/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 4467.9,
+      "totalBruto": 10964.38,
+      "totalDescontos": 2209.22,
+      "liquido": 8755.16,
+      "inss": 12.56,
+      "irrf": 0,
+      "consignado": 1788.33
     },
     {
       "nome": "Marcos Igor De Arruda Barros",
@@ -1278,7 +2132,14 @@
       "dataAdmissao": "02/05/2022",
       "dataAfastamento": "25/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2484.7,
+      "totalBruto": 9316.66,
+      "totalDescontos": 2486.31,
+      "liquido": 6830.35,
+      "inss": 183.77,
+      "irrf": 0,
+      "consignado": 2105.99
     },
     {
       "nome": "Radames Josuel Rodrigues Dos Santos Junior",
@@ -1288,7 +2149,14 @@
       "dataAdmissao": "03/10/2022",
       "dataAfastamento": "20/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3066.81,
+      "totalBruto": 13414.84,
+      "totalDescontos": 367.05,
+      "liquido": 13047.79,
+      "inss": 132.61,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Paulo Cesar": [
@@ -1300,7 +2168,14 @@
       "dataAdmissao": "15/12/2022",
       "dataAfastamento": "25/03/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3265.39,
+      "totalBruto": 9514.09,
+      "totalDescontos": 1547.52,
+      "liquido": 7966.57,
+      "inss": 60.86,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Weber Franklin De Carvalho",
@@ -1310,7 +2185,14 @@
       "dataAdmissao": "08/04/2024",
       "dataAfastamento": "04/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3960.48,
+      "totalBruto": 10232.1,
+      "totalDescontos": 2646.31,
+      "liquido": 7585.79,
+      "inss": 69.77,
+      "irrf": 0,
+      "consignado": 2286
     },
     {
       "nome": "Pedro Victor Luz Nascimento",
@@ -1320,7 +2202,14 @@
       "dataAdmissao": "17/05/2021",
       "dataAfastamento": "29/03/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2343.76,
+      "totalBruto": 8320.5,
+      "totalDescontos": 1170.88,
+      "liquido": 7149.62,
+      "inss": 43.59,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Vinicius Gomes Da Silva Paz",
@@ -1330,7 +2219,14 @@
       "dataAdmissao": "07/08/2023",
       "dataAfastamento": "18/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 723.53,
+      "totalBruto": 6411.65,
+      "totalDescontos": 3558.73,
+      "liquido": 2852.92,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Itinerante": [
@@ -1342,7 +2238,14 @@
       "dataAdmissao": "11/05/2023",
       "dataAfastamento": "05/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3358.36,
+      "totalBruto": 9603.65,
+      "totalDescontos": 930.95,
+      "liquido": 8672.7,
+      "inss": 80.61,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Compras": [
@@ -1354,7 +2257,14 @@
       "dataAdmissao": "15/04/2025",
       "dataAfastamento": "06/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1069.48,
+      "totalBruto": 1907.24,
+      "totalDescontos": 215.48,
+      "liquido": 1691.76,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Litoral Net": [
@@ -1366,7 +2276,14 @@
       "dataAdmissao": "18/06/2021",
       "dataAfastamento": "17/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 4096.5,
+      "totalBruto": 18915.02,
+      "totalDescontos": 2379.56,
+      "liquido": 16535.46,
+      "inss": 192.75,
+      "irrf": 0,
+      "consignado": 1050.15
     },
     {
       "nome": "Kerollayne Roberta Do Nascimento",
@@ -1376,7 +2293,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "02/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2058.05,
+      "totalBruto": 1827.38,
+      "totalDescontos": 143.15,
+      "liquido": 1684.23,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Solon Severo De Araujo Filho",
@@ -1386,7 +2310,14 @@
       "dataAdmissao": "02/01/2023",
       "dataAfastamento": "04/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2853.88,
+      "totalBruto": 6792.04,
+      "totalDescontos": 1489.47,
+      "liquido": 5302.57,
+      "inss": 71.79,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Wagner Wictor Ribeiro Araujo",
@@ -1396,7 +2327,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "07/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2914.65,
+      "totalBruto": 2227.04,
+      "totalDescontos": 1143.88,
+      "liquido": 1083.16,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Contabilidade": [
@@ -1408,7 +2346,14 @@
       "dataAdmissao": "08/04/2025",
       "dataAfastamento": "26/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1069.48,
+      "totalBruto": 3244.08,
+      "totalDescontos": 131.71,
+      "liquido": 3112.37,
+      "inss": 69.51,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Vitor Lins": [
@@ -1420,7 +2365,14 @@
       "dataAdmissao": "21/07/2025",
       "dataAfastamento": "22/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2692.25,
+      "totalBruto": 7390.17,
+      "totalDescontos": 684.58,
+      "liquido": 6705.59,
+      "inss": 210.08,
+      "irrf": 0,
+      "consignado": 258.08
     }
   ],
   "NOC": [
@@ -1432,7 +2384,14 @@
       "dataAdmissao": "25/03/2024",
       "dataAfastamento": "06/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 7675.43,
+      "totalBruto": 22010.65,
+      "totalDescontos": 2231.46,
+      "liquido": 19779.19,
+      "inss": 136.96,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Vendas PAP Tiago": [
@@ -1444,7 +2403,14 @@
       "dataAdmissao": "06/04/2026",
       "dataAfastamento": "04/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2706.85,
+      "totalBruto": 1520.58,
+      "totalDescontos": 125.56,
+      "liquido": 1395.02,
+      "inss": 19.56,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Allef Pablo Santos De Lima",
@@ -1454,7 +2420,14 @@
       "dataAdmissao": "06/04/2026",
       "dataAfastamento": "14/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1633,
+      "totalBruto": 3885.35,
+      "totalDescontos": 159.45,
+      "liquido": 3725.9,
+      "inss": 74.73,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Anderson Da Silva Lopes",
@@ -1464,7 +2437,14 @@
       "dataAdmissao": "15/09/2025",
       "dataAfastamento": "11/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2081,
+      "totalBruto": 3099.94,
+      "totalDescontos": 2291.4,
+      "liquido": 808.54,
+      "inss": 2121.49,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Anderson Vieira Da Silva",
@@ -1474,7 +2454,14 @@
       "dataAdmissao": "02/03/2026",
       "dataAfastamento": "30/05/2026",
       "competenciaAviso": "05/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2181.93,
+      "totalBruto": 3664,
+      "totalDescontos": 240.56,
+      "liquido": 3423.44,
+      "inss": 151.79,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Andrews Kaik Araujo Caravaggio",
@@ -1484,7 +2471,14 @@
       "dataAdmissao": "12/01/2026",
       "dataAfastamento": "01/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1955,
+      "totalBruto": 5208.08,
+      "totalDescontos": 130.06,
+      "liquido": 5078.02,
+      "inss": 44.57,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Aryelle Lima De Oliveira",
@@ -1494,7 +2488,14 @@
       "dataAdmissao": "17/03/2025",
       "dataAfastamento": "19/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1621,
+      "totalBruto": 6033.07,
+      "totalDescontos": 1290.58,
+      "liquido": 4742.49,
+      "inss": 153.98,
+      "irrf": 76.99,
+      "consignado": 0
     },
     {
       "nome": "David Lima Dos Santos Costa",
@@ -1504,7 +2505,14 @@
       "dataAdmissao": "04/12/2025",
       "dataAfastamento": "03/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1621,
+      "totalBruto": 972.6,
+      "totalDescontos": 131.07,
+      "liquido": 841.53,
+      "inss": 20.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Elaine Cristina Dos Santos",
@@ -1514,7 +2522,14 @@
       "dataAdmissao": "18/08/2025",
       "dataAfastamento": "22/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2031,
+      "totalBruto": 5422.37,
+      "totalDescontos": 2729.23,
+      "liquido": 2693.14,
+      "inss": 123.87,
+      "irrf": 0,
+      "consignado": 147.81
     },
     {
       "nome": "Fabiana Da Silva Antunes",
@@ -1524,7 +2539,14 @@
       "dataAdmissao": "15/09/2025",
       "dataAfastamento": "22/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1861,
+      "totalBruto": 5255.61,
+      "totalDescontos": 2764.32,
+      "liquido": 2491.29,
+      "inss": 145.66,
+      "irrf": 0,
+      "consignado": 220.5
     },
     {
       "nome": "Fabio Giorgio Dos Santos",
@@ -1534,7 +2556,14 @@
       "dataAdmissao": "04/12/2025",
       "dataAfastamento": "03/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2535.49,
+      "totalBruto": 2011.33,
+      "totalDescontos": 339.36,
+      "liquido": 1671.97,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Gustavo Henrique Santana De Melo",
@@ -1544,7 +2573,14 @@
       "dataAdmissao": "01/09/2025",
       "dataAfastamento": "15/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1871,
+      "totalBruto": 5936.65,
+      "totalDescontos": 190.4,
+      "liquido": 5746.25,
+      "inss": 74.66,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Randson Dos Santos",
@@ -1554,7 +2590,14 @@
       "dataAdmissao": "04/12/2025",
       "dataAfastamento": "03/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2711.24,
+      "totalBruto": 1632.25,
+      "totalDescontos": 872.57,
+      "liquido": 759.68,
+      "inss": 32.14,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Katherine Silva De Andrade",
@@ -1564,7 +2607,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "28/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2706.85,
+      "totalBruto": 7177.56,
+      "totalDescontos": 324.21,
+      "liquido": 6853.35,
+      "inss": 149.05,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Lais Silva Dos Santos",
@@ -1574,7 +2624,14 @@
       "dataAdmissao": "16/01/2024",
       "dataAfastamento": "23/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1621,
+      "totalBruto": 1971.39,
+      "totalDescontos": 1919.61,
+      "liquido": 51.78,
+      "inss": 3277.84,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Leilane Karine Cavalcante Lima",
@@ -1584,7 +2641,14 @@
       "dataAdmissao": "04/12/2025",
       "dataAfastamento": "03/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1621,
+      "totalBruto": 972.6,
+      "totalDescontos": 461.71,
+      "liquido": 510.89,
+      "inss": 24.3,
+      "irrf": 12.15,
+      "consignado": 0
     },
     {
       "nome": "Lenini Da Silva Matos",
@@ -1594,7 +2658,14 @@
       "dataAdmissao": "20/09/2024",
       "dataAfastamento": "10/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Com Justa Causa"
+      "tipoRescisao": "Com Justa Causa",
+      "salarioBase": 1946.99,
+      "totalBruto": 773.22,
+      "totalDescontos": 376.11,
+      "liquido": 397.11,
+      "inss": 57.99,
+      "irrf": 0,
+      "consignado": 250.33
     },
     {
       "nome": "Maria Gilmara Barbosa De Oliveira",
@@ -1604,7 +2675,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "15/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2000.5,
+      "totalBruto": 4459.74,
+      "totalDescontos": 2091.1,
+      "liquido": 2368.64,
+      "inss": 113.48,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Maria Tais Tavares De Amorim",
@@ -1614,7 +2692,14 @@
       "dataAdmissao": "16/03/2026",
       "dataAfastamento": "13/06/2026",
       "competenciaAviso": "06/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1627,
+      "totalBruto": 1487.08,
+      "totalDescontos": 199.13,
+      "liquido": 1287.95,
+      "inss": 40.52,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Mikaella Oliveira Da Silva",
@@ -1624,7 +2709,14 @@
       "dataAdmissao": "06/07/2026",
       "dataAfastamento": "23/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1621,
+      "totalBruto": 1287.79,
+      "totalDescontos": 970.27,
+      "liquido": 317.52,
+      "inss": 72.94,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Millena Amanda Da Silva Oliveira",
@@ -1634,7 +2726,14 @@
       "dataAdmissao": "06/07/2026",
       "dataAfastamento": "19/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1404.86,
+      "totalBruto": 1519.69,
+      "totalDescontos": 204.39,
+      "liquido": 1315.3,
+      "inss": 76.99,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Neilton Candido Da Cunha",
@@ -1644,7 +2743,14 @@
       "dataAdmissao": "02/03/2026",
       "dataAfastamento": "15/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 1566.97,
+      "totalBruto": 1365.37,
+      "totalDescontos": 131.06,
+      "liquido": 1234.31,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Renan Vasconcelos Silva",
@@ -1654,7 +2760,14 @@
       "dataAdmissao": "11/05/2026",
       "dataAfastamento": "28/07/2026",
       "competenciaAviso": "07/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1621,
+      "totalBruto": 2925.7,
+      "totalDescontos": 203.73,
+      "liquido": 2721.97,
+      "inss": 127.14,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Willian": [
@@ -1666,7 +2779,14 @@
       "dataAdmissao": "04/07/2023",
       "dataAfastamento": "05/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 3069.55,
+      "totalBruto": 7497.16,
+      "totalDescontos": 2205.24,
+      "liquido": 5291.92,
+      "inss": 59.67,
+      "irrf": 0,
+      "consignado": 1763.16
     },
     {
       "nome": "Mikael Pereira De Melo",
@@ -1676,7 +2796,14 @@
       "dataAdmissao": "07/05/2024",
       "dataAfastamento": "24/08/2026",
       "competenciaAviso": "08/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 4728.32,
+      "totalBruto": 10983.85,
+      "totalDescontos": 2494.06,
+      "liquido": 8489.79,
+      "inss": 167.48,
+      "irrf": 0,
+      "consignado": 1885.79
     },
     {
       "nome": "Romulo Jefferson Cavalcanti Torres",
@@ -1686,7 +2813,14 @@
       "dataAdmissao": "04/07/2022",
       "dataAfastamento": "02/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2715.13,
+      "totalBruto": 7721.12,
+      "totalDescontos": 1058.17,
+      "liquido": 6662.95,
+      "inss": 33.93,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Instalação Alagoas": [
@@ -1698,7 +2832,14 @@
       "dataAdmissao": "02/06/2025",
       "dataAfastamento": "09/03/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2718.65,
+      "totalBruto": 4476.28,
+      "totalDescontos": 3267.66,
+      "liquido": 1208.62,
+      "inss": 2924.48,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Maria Jose Curvelo De Melo",
@@ -1708,7 +2849,14 @@
       "dataAdmissao": "01/02/2022",
       "dataAfastamento": "18/04/2026",
       "competenciaAviso": "03/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2157.78,
+      "totalBruto": 6738.26,
+      "totalDescontos": 226.6,
+      "liquido": 6511.66,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Equipe Não Identificada": [
@@ -1720,7 +2868,14 @@
       "dataAdmissao": "17/05/2021",
       "dataAfastamento": "06/01/2026",
       "competenciaAviso": "12/2025",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2287.32,
+      "totalBruto": 2473.55,
+      "totalDescontos": 623.1,
+      "liquido": 1850.45,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Edinalva Maria Da Silva",
@@ -1730,7 +2885,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "15/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 1767,
+      "totalBruto": 1594.01,
+      "totalDescontos": 143.85,
+      "liquido": 1450.16,
+      "inss": 10.13,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Hendril Matheus Santos Figueredo",
@@ -1740,7 +2902,14 @@
       "dataAdmissao": "02/02/2026",
       "dataAfastamento": "05/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 1842.5,
+      "totalBruto": 2136.1,
+      "totalDescontos": 957.96,
+      "liquido": 1178.14,
+      "inss": 21.64,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Hilton Teixeira Da Silva",
@@ -1750,7 +2919,14 @@
       "dataAdmissao": "06/04/2026",
       "dataAfastamento": "23/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Rescisão Indireta"
+      "tipoRescisao": "Rescisão Indireta",
+      "salarioBase": 2251.67,
+      "totalBruto": 1939.21,
+      "totalDescontos": 1241.25,
+      "liquido": 697.96,
+      "inss": 225.2,
+      "irrf": 112.6,
+      "consignado": 0
     },
     {
       "nome": "Igor Fellipe Dos Santos",
@@ -1760,7 +2936,14 @@
       "dataAdmissao": "01/12/2025",
       "dataAfastamento": "28/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Demissão"
+      "tipoRescisao": "Ped. Demissão",
+      "salarioBase": 2107.3,
+      "totalBruto": 3364.4,
+      "totalDescontos": 441.97,
+      "liquido": 2922.43,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jeferson Da Silva Barbosa",
@@ -1770,7 +2953,14 @@
       "dataAdmissao": "23/02/2026",
       "dataAfastamento": "27/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1621,
+      "totalBruto": 1350.84,
+      "totalDescontos": 20.26,
+      "liquido": 1330.58,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Jose Galdino De Melo Filho",
@@ -1780,7 +2970,14 @@
       "dataAdmissao": "20/01/2022",
       "dataAfastamento": "06/04/2026",
       "competenciaAviso": "04/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 3377.88,
+      "totalBruto": 9336.55,
+      "totalDescontos": 4303.17,
+      "liquido": 5033.38,
+      "inss": 6265.18,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Rosangela Da Costa Souza",
@@ -1790,7 +2987,14 @@
       "dataAdmissao": "04/04/2019",
       "dataAfastamento": "07/03/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2893.19,
+      "totalBruto": 6936.39,
+      "totalDescontos": 313.26,
+      "liquido": 6623.13,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Thiago Guilherme Torres De Vasconcelos",
@@ -1800,7 +3004,14 @@
       "dataAdmissao": "01/04/2015",
       "dataAfastamento": "02/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2021.95,
+      "totalBruto": 7528.36,
+      "totalDescontos": 823.57,
+      "liquido": 6704.79,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     }
   ],
   "Vendas Pap Cezar": [
@@ -1812,7 +3023,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1847,
+      "totalBruto": 4722.74,
+      "totalDescontos": 320.91,
+      "liquido": 4401.83,
+      "inss": 20.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Beatriz Vitoria Gomes Da Silva",
@@ -1822,7 +3040,14 @@
       "dataAdmissao": "15/10/2025",
       "dataAfastamento": "05/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1740.99,
+      "totalBruto": 3492.88,
+      "totalDescontos": 486.2,
+      "liquido": 3006.68,
+      "inss": 21.76,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Camilly Vitoria Soares Dos Santos",
@@ -1832,7 +3057,14 @@
       "dataAdmissao": "07/10/2024",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1597,
+      "totalBruto": 7083.69,
+      "totalDescontos": 2932,
+      "liquido": 4151.69,
+      "inss": 236.54,
+      "irrf": 118.27,
+      "consignado": 0
     },
     {
       "nome": "Cezar Luiz De Andrade Melo",
@@ -1842,7 +3074,14 @@
       "dataAdmissao": "10/03/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 8769.43,
+      "totalBruto": 26665.03,
+      "totalDescontos": 3162.32,
+      "liquido": 23502.71,
+      "inss": 65.27,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Cristina Ramos Da Silva",
@@ -1852,7 +3091,14 @@
       "dataAdmissao": "19/12/2022",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1850.96,
+      "totalBruto": 7123.3,
+      "totalDescontos": 2258.85,
+      "liquido": 4864.45,
+      "inss": 232.48,
+      "irrf": 116.24,
+      "consignado": 0
     },
     {
       "nome": "Edilson Olimpio De Moraes",
@@ -1862,7 +3108,14 @@
       "dataAdmissao": "12/01/2026",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1621,
+      "totalBruto": 2026.13,
+      "totalDescontos": 175.1,
+      "liquido": 1851.03,
+      "inss": 10.13,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Evilyn Maiara Da Silva Martins",
@@ -1872,7 +3125,14 @@
       "dataAdmissao": "21/07/2025",
       "dataAfastamento": "05/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1773,
+      "totalBruto": 3947.58,
+      "totalDescontos": 444.42,
+      "liquido": 3503.16,
+      "inss": 0,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Larissa Reis Bezerra",
@@ -1882,7 +3142,14 @@
       "dataAdmissao": "04/08/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1747,
+      "totalBruto": 5225.87,
+      "totalDescontos": 1769.57,
+      "liquido": 3456.3,
+      "inss": 20.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Maria Eloiza Alves Da Silva",
@@ -1892,7 +3159,14 @@
       "dataAdmissao": "22/04/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1597,
+      "totalBruto": 5374.16,
+      "totalDescontos": 2543.83,
+      "liquido": 2830.33,
+      "inss": 235.04,
+      "irrf": 117.52,
+      "consignado": 0
     },
     {
       "nome": "Moises Magalhaes Conceicao Junior",
@@ -1902,7 +3176,14 @@
       "dataAdmissao": "10/11/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Rescisão por Acordo"
+      "tipoRescisao": "Rescisão por Acordo",
+      "salarioBase": 1597,
+      "totalBruto": 2553.39,
+      "totalDescontos": 200.79,
+      "liquido": 2352.6,
+      "inss": 10.13,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Natalyanne Gomes De Souza Lima",
@@ -1912,7 +3193,14 @@
       "dataAdmissao": "15/10/2025",
       "dataAfastamento": "05/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1747,
+      "totalBruto": 3302.28,
+      "totalDescontos": 698.6,
+      "liquido": 2603.68,
+      "inss": 21.83,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Tatiany Maria Ferreira Santana",
@@ -1922,7 +3210,14 @@
       "dataAdmissao": "13/10/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 2374.5,
+      "totalBruto": 5266.56,
+      "totalDescontos": 340.53,
+      "liquido": 4926.03,
+      "inss": 20.26,
+      "irrf": 0,
+      "consignado": 0
     },
     {
       "nome": "Thamala Maria De Santana Gonçalves",
@@ -1932,7 +3227,14 @@
       "dataAdmissao": "19/05/2025",
       "dataAfastamento": "29/01/2026",
       "competenciaAviso": "01/2026",
-      "tipoRescisao": "Sem Justa Causa"
+      "tipoRescisao": "Sem Justa Causa",
+      "salarioBase": 1597,
+      "totalBruto": 4988.68,
+      "totalDescontos": 1446.47,
+      "liquido": 3542.21,
+      "inss": 194.52,
+      "irrf": 97.26,
+      "consignado": 0
     }
   ],
   "Vendas Pap Pedro": [
@@ -1944,7 +3246,14 @@
       "dataAdmissao": "21/11/2024",
       "dataAfastamento": "10/02/2026",
       "competenciaAviso": "02/2026",
-      "tipoRescisao": "Ped. Empregado"
+      "tipoRescisao": "Ped. Empregado",
+      "salarioBase": 2103.38,
+      "totalBruto": 2596.22,
+      "totalDescontos": 2573.71,
+      "liquido": 22.51,
+      "inss": 4486.16,
+      "irrf": 0,
+      "consignado": 0
     }
   ]
 }

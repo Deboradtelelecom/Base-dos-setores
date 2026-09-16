@@ -1,0 +1,262 @@
+{
+  "Maio/2026": [
+    {
+      "empresa": "DMAIS",
+      "pagoSap": 3874.15,
+      "descontadoFolha": 4855.87,
+      "diferenca": -981.72
+    },
+    {
+      "empresa": "DTEL",
+      "pagoSap": 24132.74,
+      "descontadoFolha": 15489.67,
+      "diferenca": 8643.07
+    },
+    {
+      "empresa": "DX2",
+      "pagoSap": 196.41,
+      "descontadoFolha": 252.01,
+      "diferenca": -55.6
+    },
+    {
+      "empresa": "Orbix",
+      "pagoSap": 5395.57,
+      "descontadoFolha": 4223.98,
+      "diferenca": 1171.59
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "pagoSap": null,
+      "descontadoFolha": 1524.74,
+      "diferenca": -1524.74
+    },
+    {
+      "empresa": "Soares & Lins",
+      "pagoSap": 1123.22,
+      "descontadoFolha": 1099.81,
+      "diferenca": 23.41
+    },
+    {
+      "empresa": "Soares & Silva",
+      "pagoSap": 618.14,
+      "descontadoFolha": 3713.2,
+      "diferenca": -3095.06
+    },
+    {
+      "empresa": "Speed Line",
+      "pagoSap": null,
+      "descontadoFolha": 4524.52,
+      "diferenca": -4524.52
+    },
+    {
+      "empresa": "Voicenet",
+      "pagoSap": 1162.38,
+      "descontadoFolha": 992.01,
+      "diferenca": 170.37
+    },
+    {
+      "empresa": "Solon Araújo",
+      "pagoSap": 1555.58,
+      "descontadoFolha": 1744.29,
+      "diferenca": -188.71
+    }
+  ],
+  "Junho/2026": [
+    {
+      "empresa": "DMAIS",
+      "pagoSap": 3786.35,
+      "descontadoFolha": 5044.59,
+      "diferenca": -1258.24
+    },
+    {
+      "empresa": "DTEL",
+      "pagoSap": 23923.44,
+      "descontadoFolha": 15845.04,
+      "diferenca": 8078.4
+    },
+    {
+      "empresa": "DX2",
+      "pagoSap": 281.91,
+      "descontadoFolha": 95.84,
+      "diferenca": 186.07
+    },
+    {
+      "empresa": "Orbix",
+      "pagoSap": 4848.57,
+      "descontadoFolha": 4043.83,
+      "diferenca": 804.74
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "pagoSap": 838.41,
+      "descontadoFolha": 1510.13,
+      "diferenca": -671.72
+    },
+    {
+      "empresa": "Soares & Lins",
+      "pagoSap": 1129.71,
+      "descontadoFolha": 921.78,
+      "diferenca": 207.93
+    },
+    {
+      "empresa": "Soares & Silva",
+      "pagoSap": 1644.28,
+      "descontadoFolha": 3865.79,
+      "diferenca": -2221.51
+    },
+    {
+      "empresa": "Speed Line",
+      "pagoSap": null,
+      "descontadoFolha": 4219.34,
+      "diferenca": -4219.34
+    },
+    {
+      "empresa": "Voicenet",
+      "pagoSap": 340.05,
+      "descontadoFolha": 287.93,
+      "diferenca": 52.12
+    },
+    {
+      "empresa": "Solon Araújo",
+      "pagoSap": 1274.42,
+      "descontadoFolha": 490.76,
+      "diferenca": 783.66
+    }
+  ],
+  "Julho/2026": [
+    {
+      "empresa": "DMAIS",
+      "pagoSap": 2844.7,
+      "descontadoFolha": 1256.68,
+      "diferenca": 1588.02
+    },
+    {
+      "empresa": "DTEL",
+      "pagoSap": 23471.83,
+      "descontadoFolha": 24500.11,
+      "diferenca": -1028.28
+    },
+    {
+      "empresa": "DX2",
+      "pagoSap": 125.74,
+      "descontadoFolha": 226.4,
+      "diferenca": -100.66
+    },
+    {
+      "empresa": "Orbix",
+      "pagoSap": 4770.09,
+      "descontadoFolha": 540.22,
+      "diferenca": 4229.87
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "pagoSap": 939.39,
+      "descontadoFolha": 0.0,
+      "diferenca": 939.39
+    },
+    {
+      "empresa": "Soares & Lins",
+      "pagoSap": 951.68,
+      "descontadoFolha": 674.09,
+      "diferenca": 277.59
+    },
+    {
+      "empresa": "Soares & Silva",
+      "pagoSap": 1264.98,
+      "descontadoFolha": 3183.67,
+      "diferenca": -1918.69
+    },
+    {
+      "empresa": "Solon Araújo",
+      "pagoSap": 520.66,
+      "descontadoFolha": 738.05,
+      "diferenca": -217.39
+    },
+    {
+      "empresa": "Souza & Silva",
+      "pagoSap": null,
+      "descontadoFolha": 0.0,
+      "diferenca": 0
+    },
+    {
+      "empresa": "Speed Line",
+      "pagoSap": null,
+      "descontadoFolha": 522.35,
+      "diferenca": -522.35
+    },
+    {
+      "empresa": "Voicenet",
+      "pagoSap": 317.83,
+      "descontadoFolha": 220.85,
+      "diferenca": 96.98
+    }
+  ],
+  "Agosto/2026": [
+    {
+      "empresa": "DMAIS",
+      "pagoSap": 3538.0,
+      "descontadoFolha": 0.0,
+      "diferenca": 3538.0
+    },
+    {
+      "empresa": "DTEL",
+      "pagoSap": 22420.59,
+      "descontadoFolha": 26407.06,
+      "diferenca": -3986.47
+    },
+    {
+      "empresa": "DX2",
+      "pagoSap": 256.3,
+      "descontadoFolha": 0.0,
+      "diferenca": 256.3
+    },
+    {
+      "empresa": "Orbix",
+      "pagoSap": 4290.01,
+      "descontadoFolha": 829.36,
+      "diferenca": 3460.65
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "pagoSap": 1048.12,
+      "descontadoFolha": 748.36,
+      "diferenca": 299.76
+    },
+    {
+      "empresa": "Soares & Lins",
+      "pagoSap": 703.99,
+      "descontadoFolha": 777.52,
+      "diferenca": -73.53
+    },
+    {
+      "empresa": "Soares & Silva",
+      "pagoSap": 1414.48,
+      "descontadoFolha": 2615.11,
+      "diferenca": -1200.63
+    },
+    {
+      "empresa": "Solon Araújo",
+      "pagoSap": 767.95,
+      "descontadoFolha": 1117.47,
+      "diferenca": -349.52
+    },
+    {
+      "empresa": "Souza & Silva",
+      "pagoSap": null,
+      "descontadoFolha": 0.0,
+      "diferenca": 0
+    },
+    {
+      "empresa": "Speed Line",
+      "pagoSap": null,
+      "descontadoFolha": 0.0,
+      "diferenca": 0
+    },
+    {
+      "empresa": "Voicenet",
+      "pagoSap": 250.75,
+      "descontadoFolha": 226.25,
+      "diferenca": 24.5
+    }
+  ]
+}

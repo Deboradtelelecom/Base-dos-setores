@@ -1,0 +1,3710 @@
+{
+  "Relacionamento": {
+    "Julho/2026": [
+      {
+        "nome": "Amanda Camilla Silva Do Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DMAIS",
+        "valorDescontado": 348.45
+      },
+      {
+        "nome": "Anielly Dayanne Da Silva Siqueira",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 124.89
+      },
+      {
+        "nome": "Arthur Jefferson De Melo Santana",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 432.86
+      },
+      {
+        "nome": "Arthur Leonardo De Souza Melo",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 226.81
+      },
+      {
+        "nome": "Dayane Adrielly Da Silva Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 73.5
+      },
+      {
+        "nome": "Diego Filipe Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 248.78
+      },
+      {
+        "nome": "Elizama Gomes De Santana Silva",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 230.02
+      },
+      {
+        "nome": "Gerlania Maria Nilo Da Silva Lins",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 469.57
+      },
+      {
+        "nome": "Jose Eduardo Do Nascimento Santos",
+        "cargo": "Operador Suporte Orbix Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 182.72
+      },
+      {
+        "nome": "Ketima De Freitas Albuquerque",
+        "cargo": "Operador De Telemarketing Técnico Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 245.35
+      },
+      {
+        "nome": "Lisangela Rosa De Santana Silva",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 171.68
+      },
+      {
+        "nome": "Matheus Filipe Lira Ferreira",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 77.08
+      },
+      {
+        "nome": "Miecia Oliveira Da Silva Santos",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 373.69
+      },
+      {
+        "nome": "Nathalia Gomes Da Silva",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 217.04
+      },
+      {
+        "nome": "Paulo Henrique Silva Dos Anjos",
+        "cargo": "Operador De Telemarketing Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 45.24
+      },
+      {
+        "nome": "Rafaela Irineu Dos Santos",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 50.33
+      },
+      {
+        "nome": "Tharcila Daiana Ferreira De Oliveira",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 252.18
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Amanda Camilla Silva Do Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 230.95
+      },
+      {
+        "nome": "Arthur Jefferson De Melo Santana",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 489.58
+      },
+      {
+        "nome": "Arthur Leonardo De Souza Melo",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 306.48
+      },
+      {
+        "nome": "Dayane Adrielly Da Silva Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 73.5
+      },
+      {
+        "nome": "Diego Filipe Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 297.12
+      },
+      {
+        "nome": "Elizama Gomes De Santana Silva",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 123.97
+      },
+      {
+        "nome": "Emanueli Mariany Dos Santos Vicente",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 13.7
+      },
+      {
+        "nome": "Gerlania Maria Nilo Da Silva Lins",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 178.69
+      },
+      {
+        "nome": "Ketima De Freitas Albuquerque",
+        "cargo": "Operador De Telemarketing Técnico Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 256.66
+      },
+      {
+        "nome": "Lisangela Rosa De Santana Silva",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 131.99
+      },
+      {
+        "nome": "Matheus Filipe Lira Ferreira",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 52.19
+      },
+      {
+        "nome": "Miecia Oliveira Da Silva Santos",
+        "cargo": "Operador De Telemarketing Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 320.96
+      },
+      {
+        "nome": "Nathalia Gomes Da Silva",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 320.88
+      },
+      {
+        "nome": "Paulo Henrique Silva Dos Anjos",
+        "cargo": "Operador De Suporte Orbix Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 34.6
+      },
+      {
+        "nome": "Rafaela Irineu Dos Santos",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 50.33
+      },
+      {
+        "nome": "Tharcila Daiana Ferreira De Oliveira",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 225.51
+      },
+      {
+        "nome": "Vitoria Gabriele Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 161.67
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Amanda Camilla Silva Do Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DMAIS",
+        "valorDescontado": 404.92
+      },
+      {
+        "nome": "Anielly Dayanne Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 140.24
+      },
+      {
+        "nome": "Vitoria Gabriele Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 108.29
+      },
+      {
+        "nome": "Anderson Rafael Silva Freire",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 180.31
+      },
+      {
+        "nome": "Arthur Leonardo De Souza Melo",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 439.58
+      },
+      {
+        "nome": "Diego Filipe Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 230.29
+      },
+      {
+        "nome": "Elizama Gomes De Santana Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 284.76
+      },
+      {
+        "nome": "Gerlania Maria Nilo Da Silva Lins",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 433.89
+      },
+      {
+        "nome": "Jose Eduardo Do Nascimento Santos",
+        "cargo": "Operador Suporte Orbix Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 33.27
+      },
+      {
+        "nome": "Ketima De Freitas Albuquerque",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 225.21
+      },
+      {
+        "nome": "Lisangela Rosa De Santana Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 241.0
+      },
+      {
+        "nome": "Matheus Filipe Lira Ferreira",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 137.88
+      },
+      {
+        "nome": "Miecia Oliveira Da Silva Santos",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 130.04
+      },
+      {
+        "nome": "Nathalia Gomes Da Silva Barros",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 279.6
+      },
+      {
+        "nome": "Sostenes Matheus Lima E Silva",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 224.06
+      },
+      {
+        "nome": "Tharcila Daiana Ferreira De Oliveira",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 246.36
+      },
+      {
+        "nome": "Arthur Jefferson De Melo Santana",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "GOONET",
+        "valorDescontado": 435.62
+      },
+      {
+        "nome": "Nicollas Caua Mario Da Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "SPEED",
+        "valorDescontado": 231.14
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Amanda Camilla Silva Do Nascimento",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DMAIS",
+        "valorDescontado": 313.71
+      },
+      {
+        "nome": "Anielly Dayanne Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 271.7
+      },
+      {
+        "nome": "Vitoria Gabriele Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 105.22
+      },
+      {
+        "nome": "Anderson Rafael Silva Freire",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 287.54
+      },
+      {
+        "nome": "Arthur Leonardo De Souza Melo",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 54.1
+      },
+      {
+        "nome": "Diego Filipe Da Silva",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 317.18
+      },
+      {
+        "nome": "Elizama Gomes De Santana Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 292.02
+      },
+      {
+        "nome": "Emanueli Mariany Dos Santos Vicente",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 29.99
+      },
+      {
+        "nome": "Gerlania Maria Nilo Da Silva Lins",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 468.3
+      },
+      {
+        "nome": "Jose Eduardo Do Nascimento Santos",
+        "cargo": "Operador Suporte Orbix Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 128.05
+      },
+      {
+        "nome": "Ketima De Freitas Albuquerque",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 264.71
+      },
+      {
+        "nome": "Lisangela Rosa De Santana Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 226.66
+      },
+      {
+        "nome": "Matheus Filipe Lira Ferreira",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 135.2
+      },
+      {
+        "nome": "Miecia Oliveira Da Silva Santos",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 395.85
+      },
+      {
+        "nome": "Nathalia Gomes Da Silva Barros",
+        "cargo": "Backoffice Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 253.11
+      },
+      {
+        "nome": "Tharcila Daiana Ferreira De Oliveira",
+        "cargo": "Operador De Telemarketing Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 300.32
+      },
+      {
+        "nome": "Arthur Jefferson De Melo Santana",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "GOONET",
+        "valorDescontado": 456.13
+      },
+      {
+        "nome": "Nicollas Caua Mario Da Silva",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "SPEED",
+        "valorDescontado": 126.21
+      }
+    ]
+  },
+  "Lançamento": {
+    "Julho/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DMAIS",
+        "valorDescontado": 316.87
+      },
+      {
+        "nome": "Carlos Fernando De Lima",
+        "cargo": "Supervisor De Lancamento Junior",
+        "empresa": "DMAIS",
+        "valorDescontado": 158.01
+      },
+      {
+        "nome": "Renato Damasceno Da Silva",
+        "cargo": "Tecnico De Lancamento Junior",
+        "empresa": "DMAIS",
+        "valorDescontado": 387.03
+      },
+      {
+        "nome": "Jose Carlos De Lira Carneiro",
+        "cargo": "Tecnico De Lancamento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 472.33
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 175.29
+      },
+      {
+        "nome": "Carlos Fernando De Lima",
+        "cargo": "Supervisor De Lançamento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 271.78
+      },
+      {
+        "nome": "Jose Carlos De Lira Carneiro",
+        "cargo": "Tecnico De Lancamento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 494.28
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Técnico De Lançamento Pleno",
+        "empresa": "DMAIS",
+        "valorDescontado": 394.59
+      },
+      {
+        "nome": "Carlos Fernando De Lima",
+        "cargo": "Supervisor De Lançamento Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 283.88
+      },
+      {
+        "nome": "Jose Carlos De Lira Carneiro",
+        "cargo": "Técnico De Lançamento Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 344.8
+      },
+      {
+        "nome": "Renato Damasceno Da Silva",
+        "cargo": "Técnico De Lançamento Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 268.73
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Anderson Farias Da Silva",
+        "cargo": "Técnico De Lançamento Sênior",
+        "empresa": "DMAIS",
+        "valorDescontado": 283.84
+      },
+      {
+        "nome": "Carlos Fernando De Lima",
+        "cargo": "Supervisor De Lançamento Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 372.98
+      },
+      {
+        "nome": "Jose Carlos De Lira Carneiro",
+        "cargo": "Técnico De Lançamento Pleno",
+        "empresa": "DMAIS",
+        "valorDescontado": 402.12
+      },
+      {
+        "nome": "Renato Damasceno Da Silva",
+        "cargo": "Técnico De Lançamento Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 83.07
+      }
+    ]
+  },
+  "Fusão": {
+    "Julho/2026": [
+      {
+        "nome": "Clecio Israel Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 46.32
+      },
+      {
+        "nome": "Danrley Do Nascimento Silva",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 37.32
+      },
+      {
+        "nome": "Diego Gustavo Da Silva",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 421.64
+      },
+      {
+        "nome": "Jose Rogerio De Souza",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 365.81
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Clecio Israel Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "valorDescontado": 156.15
+      },
+      {
+        "nome": "Cleiton Luciano Da Silva Santos",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 121.99
+      },
+      {
+        "nome": "Danrley Do Nascimento Silva",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 27.49
+      },
+      {
+        "nome": "Diego Gustavo Da Silva",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 485.73
+      },
+      {
+        "nome": "Jose Rogerio De Souza",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 499.62
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Clecio Israel Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 181.37
+      },
+      {
+        "nome": "Diego Gustavo Da Silva",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DMAIS",
+        "valorDescontado": 420.24
+      },
+      {
+        "nome": "Jose Anderson Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 476.38
+      },
+      {
+        "nome": "Jose Rogerio De Souza",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 499.93
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Clecio Israel Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 108.31
+      },
+      {
+        "nome": "Diego Gustavo Da Silva",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "DMAIS",
+        "valorDescontado": 850.43
+      },
+      {
+        "nome": "Jose Anderson Da Silva",
+        "cargo": "Tecnico Em Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 387.05
+      },
+      {
+        "nome": "Jose Rogerio De Souza",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 499.76
+      }
+    ]
+  },
+  "Instalação Lucas Bonifacio": {
+    "Julho/2026": [
+      {
+        "nome": "Alana Carla Pereira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 316.89
+      },
+      {
+        "nome": "Alessandro Jose Santos De Almeida",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 190.17
+      },
+      {
+        "nome": "Edvaldo Jose Benedito Junior",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 327.88
+      },
+      {
+        "nome": "Erick Wagner Francisco De Melo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 326.3
+      },
+      {
+        "nome": "Ginolia Cabral De Barros Neta Gomes",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "DTEL",
+        "valorDescontado": 186.35
+      },
+      {
+        "nome": "Jessica Alves De Oliveira",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 458.99
+      },
+      {
+        "nome": "Jose Jailson Pereira Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 479.51
+      },
+      {
+        "nome": "Leonardo Bonifacio Silva De Almeida",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 283.72
+      },
+      {
+        "nome": "Leonardo Xavier Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 214.2
+      },
+      {
+        "nome": "Marcio Almeida Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais",
+        "empresa": "DTEL",
+        "valorDescontado": 132.35
+      },
+      {
+        "nome": "Nedson Cirilo Targino Gomes",
+        "cargo": "Executivo De Contas",
+        "empresa": "DTEL",
+        "valorDescontado": 12.0
+      },
+      {
+        "nome": "Raquel Santana Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 277.26
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "valorDescontado": 90.34
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "Speed Line",
+        "valorDescontado": 463.45
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Alessandro Jose Santos De Almeida",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 195.61
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 102.96
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "valorDescontado": 25.99
+      },
+      {
+        "nome": "Danyelle Pereira De Araujo Souza",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 220.0
+      },
+      {
+        "nome": "Edvaldo Jose Benedito Junior",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 255.86
+      },
+      {
+        "nome": "Erick Wagner Francisco De Melo",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 229.35
+      },
+      {
+        "nome": "Ginolia Cabral De Barros Neta Gomes",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "DTEL",
+        "valorDescontado": 339.48
+      },
+      {
+        "nome": "Jessica Alves De Oliveira",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 318.6
+      },
+      {
+        "nome": "Jose Jailson Pereira Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 465.74
+      },
+      {
+        "nome": "Leonardo Bonifacio Silva De Almeida",
+        "cargo": "Supervisor Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 200.41
+      },
+      {
+        "nome": "Leonardo Xavier Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 96.83
+      },
+      {
+        "nome": "Marcio Almeida Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais",
+        "empresa": "DTEL",
+        "valorDescontado": 231.51
+      },
+      {
+        "nome": "Raquel Santana Da Silva",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 120.78
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Danyelle Pereira De Araujo Souza",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 234.2
+      },
+      {
+        "nome": "Ginolia Cabral De Barros Neta Gomes",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "DTEL",
+        "valorDescontado": 169.79
+      },
+      {
+        "nome": "Jessica Alves De Oliveira",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 296.56
+      },
+      {
+        "nome": "Leonardo Bonifacio Silva De Almeida",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 214.82
+      },
+      {
+        "nome": "Leonardo Xavier Santos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "valorDescontado": 22.29
+      },
+      {
+        "nome": "Marcio Almeida Da Silva",
+        "cargo": "Auxiliar De Limpeza",
+        "empresa": "DTEL",
+        "valorDescontado": 345.25
+      },
+      {
+        "nome": "Raquel Santana Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 445.98
+      },
+      {
+        "nome": "Stephanie Macedo Do Nascimento De Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 460.41
+      },
+      {
+        "nome": "Alessandro Jose Santos De Almeida",
+        "cargo": "Instalador Reparador",
+        "empresa": "GOONET",
+        "valorDescontado": 110.79
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendimento",
+        "empresa": "GOONET",
+        "valorDescontado": 41.25
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 491.95
+      },
+      {
+        "nome": "Carlos Alexandre Souza De Oliveira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 479.75
+      },
+      {
+        "nome": "Erick Wagner Francisco De Melo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 238.26
+      },
+      {
+        "nome": "Jose Jailson Pereira Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 221.46
+      },
+      {
+        "nome": "Rodrigo Fernandes Rodrigues",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 24.98
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Ginolia Cabral De Barros Neta Gomes",
+        "cargo": "Backoffice Administrativo Regional",
+        "empresa": "DTEL",
+        "valorDescontado": 370.63
+      },
+      {
+        "nome": "Jessica Alves De Oliveira",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 392.16
+      },
+      {
+        "nome": "Leonardo Bonifacio Silva De Almeida",
+        "cargo": "Supervisor Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 255.98
+      },
+      {
+        "nome": "Leonardo Xavier Santos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "valorDescontado": 99.05
+      },
+      {
+        "nome": "Marcio Almeida Da Silva",
+        "cargo": "Auxiliar De Serviços Gerais.",
+        "empresa": "DTEL",
+        "valorDescontado": 444.55
+      },
+      {
+        "nome": "Stephanie Macedo Do Nascimento De Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 182.72
+      },
+      {
+        "nome": "Alessandro Jose Santos De Almeida",
+        "cargo": "Instalador Reparador",
+        "empresa": "GOONET",
+        "valorDescontado": 138.13
+      },
+      {
+        "nome": "Amanda Almeida Dantas",
+        "cargo": "Assistente Administrativo De Atendimento",
+        "empresa": "GOONET",
+        "valorDescontado": 70.46
+      },
+      {
+        "nome": "Alisson Barros Ferreira Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 498.22
+      },
+      {
+        "nome": "Erick Wagner Francisco De Melo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 405.96
+      },
+      {
+        "nome": "Jose Jailson Pereira Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 37.79
+      }
+    ]
+  },
+  "Vendas Corporativo": {
+    "Julho/2026": [
+      {
+        "nome": "Anna Leticia Andrade Galvao De Franca",
+        "cargo": "Assistente Administrativo Comercial",
+        "empresa": "DTEL",
+        "valorDescontado": 41.99
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Anna Leticia Andrade Galvao De Franca",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 180.82
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Anna Leticia Andrade Galvao De Franca",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 444.69
+      }
+    ]
+  },
+  "Gestão de Atendimento": {
+    "Julho/2026": [
+      {
+        "nome": "Arlen Duarte Dos Santos",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 130.37
+      },
+      {
+        "nome": "Fiamma Acsa De Siqueira Araujo",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 48.17
+      },
+      {
+        "nome": "Gabriela Da Silva Alves",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 146.54
+      },
+      {
+        "nome": "Iris Beatriz Silveira Marques",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 63.31
+      },
+      {
+        "nome": "Kelly Sabrina Nunes Duarte",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 132.44
+      },
+      {
+        "nome": "Lindivania Silva De Lucena",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "valorDescontado": 186.66
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Arlen Duarte Dos Santos",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 81.39
+      },
+      {
+        "nome": "Fiamma Acsa De Siqueira Araujo",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 96.24
+      },
+      {
+        "nome": "Gabriela Da Silva Alves",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 180.42
+      },
+      {
+        "nome": "Iris Beatriz Silveira Marques",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 106.72
+      },
+      {
+        "nome": "Kelly Sabrina Nunes Duarte",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DTEL",
+        "valorDescontado": 151.05
+      },
+      {
+        "nome": "Lindivania Silva De Lucena",
+        "cargo": "Assistente Administrativo De Atendiment",
+        "empresa": "DTEL",
+        "valorDescontado": 256.9
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Kelly Sabrina Nunes Duarte",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DMAIS",
+        "valorDescontado": 397.0
+      },
+      {
+        "nome": "Gabriela Da Silva Alves",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 229.87
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Kelly Sabrina Nunes Duarte",
+        "cargo": "Operador De Telemarketing",
+        "empresa": "DMAIS",
+        "valorDescontado": 37.16
+      },
+      {
+        "nome": "Arlen Duarte Dos Santos",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 33.13
+      },
+      {
+        "nome": "Fiamma Acsa De Siqueira Araujo",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 62.98
+      },
+      {
+        "nome": "Gabriela Da Silva Alves",
+        "cargo": "Assistente Administrativo Cac Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 170.6
+      },
+      {
+        "nome": "Iris Beatriz Silveira Marques",
+        "cargo": "Backoffice De Atendimento Junior",
+        "empresa": "GOONET",
+        "valorDescontado": 62.89
+      },
+      {
+        "nome": "Lindivania Silva De Lucena",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 100.63
+      }
+    ]
+  },
+  "Instalação Paulo Cesar": {
+    "Julho/2026": [
+      {
+        "nome": "Arthur Salgado Barbosa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 349.68
+      },
+      {
+        "nome": "Eraldo Jose Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 76.37
+      },
+      {
+        "nome": "Gabriel Feitoza De Souza",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 56.66
+      },
+      {
+        "nome": "Gilson Alfredo Teixeira Branco",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 249.45
+      },
+      {
+        "nome": "Maria Jocilene Regina Balbino",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 355.07
+      },
+      {
+        "nome": "Pablo Vinicius Luz Nascimento",
+        "cargo": "Auxiliar Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "valorDescontado": 77.17
+      },
+      {
+        "nome": "Renan Pierre Santos Tomaz",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 169.04
+      },
+      {
+        "nome": "Tiago Da Silva Miranda",
+        "cargo": "Instalador Reparador Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 210.64
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Orbix",
+        "valorDescontado": 29.16
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "Orbix",
+        "valorDescontado": 219.62
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Arthur Salgado Barbosa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 497.8
+      },
+      {
+        "nome": "Eraldo Jose Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 90.88
+      },
+      {
+        "nome": "Gabriel Feitoza De Souza",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 100.92
+      },
+      {
+        "nome": "Gilson Alfredo Teixeira Branco",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 301.37
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 62.72
+      },
+      {
+        "nome": "Maria Jocilene Regina Balbino",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 291.23
+      },
+      {
+        "nome": "Maria Silvania Oliveira Da Silva",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 442.45
+      },
+      {
+        "nome": "Pablo Vinicius Luz Nascimento",
+        "cargo": "Auxiliar Tecnico Em Fibra",
+        "empresa": "DTEL",
+        "valorDescontado": 107.95
+      },
+      {
+        "nome": "Renan Pierre Santos Tomaz",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 229.26
+      },
+      {
+        "nome": "Tiago Da Silva Miranda",
+        "cargo": "Instalador Reparador Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 256.29
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "Orbix",
+        "valorDescontado": 371.41
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Pablo Vinicius Luz Nascimento",
+        "cargo": "Auxiliar De Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 269.31
+      },
+      {
+        "nome": "Maria Jocilene Regina Balbino",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "GOONET",
+        "valorDescontado": 269.92
+      },
+      {
+        "nome": "Eraldo Jose Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 33.94
+      },
+      {
+        "nome": "Gilson Alfredo Teixeira Branco",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 201.45
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 58.42
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 103.81
+      },
+      {
+        "nome": "Renan Pierre Santos Tomaz",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 180.25
+      },
+      {
+        "nome": "Tiago Da Silva Miranda",
+        "cargo": "Instalador Reparador Sênior",
+        "empresa": "ORBIX",
+        "valorDescontado": 341.57
+      },
+      {
+        "nome": "Arthur Salgado Barbosa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 483.42
+      },
+      {
+        "nome": "Julio Cesar De Santana Vasconcelos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 250.33
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Pablo Vinicius Luz Nascimento",
+        "cargo": "Auxiliar De Fibra",
+        "empresa": "DMAIS",
+        "valorDescontado": 110.56
+      },
+      {
+        "nome": "Bruno Ferreira Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "GOONET",
+        "valorDescontado": 498.55
+      },
+      {
+        "nome": "Maria Jocilene Regina Balbino",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "GOONET",
+        "valorDescontado": 223.47
+      },
+      {
+        "nome": "Eraldo Jose Da Silva Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 59.56
+      },
+      {
+        "nome": "Gilson Alfredo Teixeira Branco",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 231.68
+      },
+      {
+        "nome": "Jefferson Germano Da Silva Ribeiro",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 29.16
+      },
+      {
+        "nome": "Jose Weber Franklin De Carvalho",
+        "cargo": "Tecnico Em Fibra Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 264.94
+      },
+      {
+        "nome": "Kevenn Renan De Souza Nascimento",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 150.34
+      },
+      {
+        "nome": "Tiago Da Silva Miranda",
+        "cargo": "Instalador Reparador Sênior",
+        "empresa": "ORBIX",
+        "valorDescontado": 348.97
+      },
+      {
+        "nome": "Arthur Salgado Barbosa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 499.9
+      }
+    ]
+  },
+  "Instalação Michelangelo": {
+    "Julho/2026": [
+      {
+        "nome": "Aryson Silva Do Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 167.2
+      },
+      {
+        "nome": "Carlos Roberto Bandeira De Carvalho Snietutaoção:",
+        "cargo": "Instalador Reparador Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 40.05
+      },
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Sênior",
+        "empresa": "DTEL",
+        "valorDescontado": 286.07
+      },
+      {
+        "nome": "Eduardo Henrique Albuquerque Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 454.03
+      },
+      {
+        "nome": "Flavio Jose Dos Santos Junior",
+        "cargo": "Supervisor Técnico Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 221.41
+      },
+      {
+        "nome": "Gerson De Souza Leao Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 105.5
+      },
+      {
+        "nome": "Katielle Marques De Lira",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 141.19
+      },
+      {
+        "nome": "Luis Carlos Barbosa Ferreira",
+        "cargo": "Tecnico Eletronico Em Manutencao",
+        "empresa": "DTEL",
+        "valorDescontado": 132.99
+      },
+      {
+        "nome": "Luiz Henrique Cardin Bezerra Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 318.89
+      },
+      {
+        "nome": "Marilia Gabriela Alves De Alustau",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 492.91
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 494.85
+      },
+      {
+        "nome": "Rafael Sanzio Da Silva Barreto",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 375.28
+      },
+      {
+        "nome": "Silmara Camila Ramos Cabral",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 13.48
+      },
+      {
+        "nome": "Eziel Alves De Melo Dos Santos",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 356.34
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "valorDescontado": 220.85
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Aryson Silva Do Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 180.91
+      },
+      {
+        "nome": "Carlos Roberto Bandeira De Carvalho Nseittuoação:",
+        "cargo": "Instalador Reparador Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 227.25
+      },
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Sênior",
+        "empresa": "DTEL",
+        "valorDescontado": 210.49
+      },
+      {
+        "nome": "Eduardo Henrique Albuquerque Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 100.09
+      },
+      {
+        "nome": "Flavio Jose Dos Santos Junior",
+        "cargo": "Supervisor Técnico Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 248.78
+      },
+      {
+        "nome": "Gerson De Souza Leao Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 307.06
+      },
+      {
+        "nome": "Katielle Marques De Lira",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 314.7
+      },
+      {
+        "nome": "Luiz Henrique Cardin Bezerra Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 379.98
+      },
+      {
+        "nome": "Marilia Gabriela Alves De Alustau",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 496.31
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 474.11
+      },
+      {
+        "nome": "Sydney Ferreira Da Costa",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 269.21
+      },
+      {
+        "nome": "Thiago Jose Da Silva",
+        "cargo": "Supervisor",
+        "empresa": "DTEL",
+        "valorDescontado": 399.73
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "Voicenet",
+        "valorDescontado": 226.25
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Danrley Do Nascimento Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 116.44
+      },
+      {
+        "nome": "Flavio Jose Dos Santos Junior",
+        "cargo": "Supervisor Tecnico Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 241.28
+      },
+      {
+        "nome": "Aryson Silva Do Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 151.12
+      },
+      {
+        "nome": "Carlos Roberto Bandeira De Carvalho Neto",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 63.08
+      },
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 130.52
+      },
+      {
+        "nome": "Eduardo Henrique Albuquerque Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 464.77
+      },
+      {
+        "nome": "Gerson De Souza Leao Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 285.63
+      },
+      {
+        "nome": "Gleison Gleidson Da Silva",
+        "cargo": "Auxiliar De Estoque Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 225.58
+      },
+      {
+        "nome": "Luis Carlos Barbosa Ferreira",
+        "cargo": "Tecnico Eletronica De Manutençao",
+        "empresa": "DTEL",
+        "valorDescontado": 101.13
+      },
+      {
+        "nome": "Luiz Henrique Cardin Bezerra Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 312.91
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 438.48
+      },
+      {
+        "nome": "Eziel Alves De Melo Dos Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "GOONET",
+        "valorDescontado": 181.22
+      },
+      {
+        "nome": "Marilia Gabriela Alves De Alustau",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 497.73
+      },
+      {
+        "nome": "Rafael Sanzio Da Silva Barreto",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 214.05
+      },
+      {
+        "nome": "Alison Renan Alves De Azeredo Coutinho",
+        "cargo": "Executivo De Contas",
+        "empresa": "SPEED",
+        "valorDescontado": 127.66
+      },
+      {
+        "nome": "Katielle Marques De Lira",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 499.51
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "VOICENET",
+        "valorDescontado": 992.01
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Danrley Do Nascimento Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 142.71
+      },
+      {
+        "nome": "Flavio Jose Dos Santos Junior",
+        "cargo": "Supervisor Tecnico Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 206.93
+      },
+      {
+        "nome": "Aryson Silva Do Nascimento",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 151.01
+      },
+      {
+        "nome": "Carlos Roberto Bandeira De Carvalho Neto",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 144.45
+      },
+      {
+        "nome": "Clovis Mendes Da Silva",
+        "cargo": "Motorista Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 108.37
+      },
+      {
+        "nome": "Eduardo Henrique Albuquerque Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 427.63
+      },
+      {
+        "nome": "Gerson De Souza Leao Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 179.71
+      },
+      {
+        "nome": "Gleison Gleidson Da Silva",
+        "cargo": "Auxiliar De Estoque Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 197.7
+      },
+      {
+        "nome": "Luis Carlos Barbosa Ferreira",
+        "cargo": "Tecnico Eletronica De Manutençao",
+        "empresa": "DTEL",
+        "valorDescontado": 255.17
+      },
+      {
+        "nome": "Luiz Henrique Cardin Bezerra Junior",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 497.18
+      },
+      {
+        "nome": "Pedro Vitor Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 484.45
+      },
+      {
+        "nome": "Ruan Jose Da Silva",
+        "cargo": "Estoquista Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 190.96
+      },
+      {
+        "nome": "Eziel Alves De Melo Dos Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "GOONET",
+        "valorDescontado": 200.78
+      },
+      {
+        "nome": "Marilia Gabriela Alves De Alustau",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 472.98
+      },
+      {
+        "nome": "Rafael Sanzio Da Silva Barreto",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 250.0
+      },
+      {
+        "nome": "Katielle Marques De Lira",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 499.68
+      },
+      {
+        "nome": "Sydney Ferreira Da Costa",
+        "cargo": "Instalador Reparador",
+        "empresa": "SPEED",
+        "valorDescontado": 294.15
+      },
+      {
+        "nome": "Julio Cesar Santos De Lira",
+        "cargo": "Instalador Reparador",
+        "empresa": "VOICENET",
+        "valorDescontado": 287.93
+      }
+    ]
+  },
+  "Instalação Litoral Net": {
+    "Julho/2026": [
+      {
+        "nome": "Bruno Ferreira Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 498.38
+      },
+      {
+        "nome": "Lenilda Maria Vicente Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "Solon Araújo",
+        "valorDescontado": 213.79
+      },
+      {
+        "nome": "Lucas Monteiro Nascimento",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Solon Araújo",
+        "valorDescontado": 346.32
+      },
+      {
+        "nome": "Victor Rafael Dos Santos Ferreira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Solon Araújo",
+        "valorDescontado": 177.94
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Bruno Ferreira Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Solon Araújo",
+        "valorDescontado": 496.95
+      },
+      {
+        "nome": "Lenilda Maria Vicente Da Silva",
+        "cargo": null,
+        "empresa": "Solon Araújo",
+        "valorDescontado": 382.13
+      },
+      {
+        "nome": "Lucas Monteiro Nascimento",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Solon Araújo",
+        "valorDescontado": 238.39
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Bruno Ferreira Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 499.77
+      },
+      {
+        "nome": "Lenilda Maria Vicente Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 289.38
+      },
+      {
+        "nome": "Lucas Monteiro Nascimento",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 455.63
+      },
+      {
+        "nome": "Solon Severo De Araujo Filho",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 329.28
+      },
+      {
+        "nome": "Victor Rafael Dos Santos Ferreira",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 170.23
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Lucas Monteiro Nascimento",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "LITORAL NET",
+        "valorDescontado": 490.76
+      }
+    ]
+  },
+  "RH": {
+    "Julho/2026": [
+      {
+        "nome": "Camila Virgulino Costa",
+        "cargo": "Assistente Administrativo De Rh Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 166.42
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Camila Virgulino Costa",
+        "cargo": "Assistente Administrativo De Rh Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 73.97
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Camila Virgulino Costa",
+        "cargo": "Assistente Administrativo De Rh Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 136.32
+      },
+      {
+        "nome": "Osmaire Batista De Lima",
+        "cargo": "Gerente De Gente E Gestão Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 101.67
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Camila Virgulino Costa",
+        "cargo": "Assistente Administrativo De Rh Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 77.99
+      }
+    ]
+  },
+  "Vendas PAP Elthon": {
+    "Julho/2026": [
+      {
+        "nome": "Clecia Maria Alves",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 349.63
+      },
+      {
+        "nome": "David Bezerra Vicente",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 219.88
+      },
+      {
+        "nome": "Deise Bezerra Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 312.53
+      },
+      {
+        "nome": "Edilene De Oliveira E Silva Lima",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 197.65
+      },
+      {
+        "nome": "Everlandia Batista De Sousa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 462.81
+      },
+      {
+        "nome": "Fernanda Eduarda Dos Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "valorDescontado": 254.4
+      },
+      {
+        "nome": "Jessica Paula Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 368.75
+      },
+      {
+        "nome": "Kassia Barbosa Miranda",
+        "cargo": "Vendedor Externo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 228.04
+      },
+      {
+        "nome": "Lilia Vitoria Dos Santos Simplicio Cordseitiuraoção:",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 144.55
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Alvaro Henrique De Sousa",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "valorDescontado": 375.97
+      },
+      {
+        "nome": "Clecia Maria Alves",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 367.74
+      },
+      {
+        "nome": "David Bezerra Vicente",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 374.53
+      },
+      {
+        "nome": "Deise Bezerra Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 244.12
+      },
+      {
+        "nome": "Edilene De Oliveira E Silva Lima",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 246.49
+      },
+      {
+        "nome": "Everlandia Batista De Sousa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 405.41
+      },
+      {
+        "nome": "Fernanda Eduarda Dos Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "valorDescontado": 243.46
+      },
+      {
+        "nome": "Jessica Paula Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 453.19
+      },
+      {
+        "nome": "Kassia Barbosa Miranda",
+        "cargo": "Vendedor Externo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 431.1
+      },
+      {
+        "nome": "Lilia Vitoria Dos Santos Simplicio Cordseitiuraoção:",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 90.33
+      },
+      {
+        "nome": "Michelle Silva Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 261.19
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Fernanda Eduarda Dos Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "valorDescontado": 248.62
+      },
+      {
+        "nome": "Alvaro Henrique De Sousa",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "GOONET",
+        "valorDescontado": 196.02
+      },
+      {
+        "nome": "Clecia Maria Alves",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 405.51
+      },
+      {
+        "nome": "Michelle Silva Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 343.13
+      },
+      {
+        "nome": "Deise Bezerra Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 178.13
+      },
+      {
+        "nome": "Edilene De Oliveira E Silva Lima",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 324.05
+      },
+      {
+        "nome": "Everlandia Batista De Sousa",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 309.41
+      },
+      {
+        "nome": "Jessica Paula Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 499.1
+      },
+      {
+        "nome": "Cintia França Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "SPEED",
+        "valorDescontado": 33.99
+      },
+      {
+        "nome": "Lilia Vitoria Dos Santos Simplicio Cordeiro",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "SPEED",
+        "valorDescontado": 125.83
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Fernanda Eduarda Dos Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "DTEL",
+        "valorDescontado": 236.94
+      },
+      {
+        "nome": "Alvaro Henrique De Sousa",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "GOONET",
+        "valorDescontado": 286.67
+      },
+      {
+        "nome": "Clecia Maria Alves",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 388.96
+      },
+      {
+        "nome": "David Bezerra Vicente",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 143.21
+      },
+      {
+        "nome": "Michelle Silva Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 78.53
+      },
+      {
+        "nome": "Deise Bezerra Da Costa",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 143.24
+      },
+      {
+        "nome": "Edilene De Oliveira E Silva Lima",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 207.4
+      },
+      {
+        "nome": "Everlandia Batista De Sousa",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 317.89
+      },
+      {
+        "nome": "Jessica Paula Da Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "PLANETA NET",
+        "valorDescontado": 490.97
+      },
+      {
+        "nome": "Kassia Barbosa Miranda",
+        "cargo": "Vendedor Externo Junior",
+        "empresa": "SPEED",
+        "valorDescontado": 166.39
+      },
+      {
+        "nome": "Lilia Vitoria Dos Santos Simplicio Cordeiro",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "SPEED",
+        "valorDescontado": 125.84
+      }
+    ]
+  },
+  "Instalação Jose Julio": {
+    "Julho/2026": [
+      {
+        "nome": "Cleibson Luciano Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 488.91
+      },
+      {
+        "nome": "Cleiton Luciano Da Silva Santos",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 181.05
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Cleibson Luciano Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 496.25
+      },
+      {
+        "nome": "Moises Alexandre Andre De Oliveira Silsviatuação:",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 59.05
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Cleibson Luciano Da Silva Santos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "ORBIX",
+        "valorDescontado": 499.26
+      },
+      {
+        "nome": "Cleiton Luciano Da Silva Santos",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "ORBIX",
+        "valorDescontado": 270.0
+      },
+      {
+        "nome": "Erick Roberio Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 120.44
+      },
+      {
+        "nome": "Moises Alexandre Andre De Oliveira Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "ORBIX",
+        "valorDescontado": 193.45
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Edijane Welrica Da Silva Santos",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DMAIS",
+        "valorDescontado": 596.6
+      },
+      {
+        "nome": "Cleibson Luciano Da Silva Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "ORBIX",
+        "valorDescontado": 488.2
+      },
+      {
+        "nome": "Cleiton Luciano Da Silva Santos",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "ORBIX",
+        "valorDescontado": 416.25
+      },
+      {
+        "nome": "Moises Alexandre Andre De Oliveira Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 174.16
+      }
+    ]
+  },
+  "Qualidade": {
+    "Julho/2026": [
+      {
+        "nome": "Dayse Kassia Da Silva Oliveira",
+        "cargo": "Assistente De Qualidade",
+        "empresa": "DTEL",
+        "valorDescontado": 30.55
+      },
+      {
+        "nome": "Yasmim Camilly De Barros Lira",
+        "cargo": "Analista De Qualidade Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 94.79
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Yasmim Camilly De Barros Lira",
+        "cargo": "Analista De Qualidade Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 185.6
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Dayse Kassia Da Silva Oliveira",
+        "cargo": "Assistente De Qualidade",
+        "empresa": "DTEL",
+        "valorDescontado": 124.19
+      },
+      {
+        "nome": "Yasmim Camilly De Barros Lira",
+        "cargo": "Analista De Qualidade Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 116.89
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Dayse Kassia Da Silva Oliveira",
+        "cargo": "Assistente De Qualidade",
+        "empresa": "DTEL",
+        "valorDescontado": 30.53
+      },
+      {
+        "nome": "Yasmim Camilly De Barros Lira",
+        "cargo": "Analista De Qualidade Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 144.14
+      }
+    ]
+  },
+  "Diretoria": {
+    "Julho/2026": [
+      {
+        "nome": "Debora Carla Dos Santos Silva",
+        "cargo": "Assistente Executivo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 200.82
+      },
+      {
+        "nome": "Sostenes Matheus Lima E Silva",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 353.25
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Debora Carla Dos Santos Silva",
+        "cargo": "Assistente Executivo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 111.6
+      },
+      {
+        "nome": "Sostenes Matheus Lima E Silva",
+        "cargo": "Assistente Executivo",
+        "empresa": "DTEL",
+        "valorDescontado": 357.8
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Debora Carla Dos Santos Silva",
+        "cargo": "Assistente Executivo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 172.57
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Debora Carla Dos Santos Silva",
+        "cargo": "Assistente Executivo Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 130.47
+      },
+      {
+        "nome": "Sostenes Matheus Lima E Silva",
+        "cargo": "Operador Suporte Orbix Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 327.01
+      }
+    ]
+  },
+  "Configuração": {
+    "Julho/2026": [
+      {
+        "nome": "Douglas Soares Da Silva",
+        "cargo": "Supervisor De Suporte Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 102.33
+      },
+      {
+        "nome": "Isaias De Freitas Barbosa Junior",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 171.98
+      },
+      {
+        "nome": "Sergio Dyjean Guimaraes Ferreira",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 214.17
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Douglas Soares Da Silva",
+        "cargo": "Supervisor De Suporte Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 240.09
+      },
+      {
+        "nome": "Isaias De Freitas Barbosa Junior",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 99.89
+      },
+      {
+        "nome": "Sergio Dyjean Guimaraes Ferreira",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 83.99
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Douglas Soares Da Silva",
+        "cargo": "Supervisor De Suporte Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 27.57
+      },
+      {
+        "nome": "Isaias De Freitas Barbosa Junior",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 263.84
+      },
+      {
+        "nome": "Sergio Dyjean Guimaraes Ferreira",
+        "cargo": "Operador De Redes Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 492.33
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Douglas Soares Da Silva",
+        "cargo": "Supervisor De Suporte Técnico",
+        "empresa": "DTEL",
+        "valorDescontado": 116.47
+      },
+      {
+        "nome": "Isaias De Freitas Barbosa Junior",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 244.93
+      }
+    ]
+  },
+  "Manutenção Predial": {
+    "Julho/2026": [
+      {
+        "nome": "Eliel Francisco De Lima",
+        "cargo": "Técnico De Manutenção Predial Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 488.41
+      },
+      {
+        "nome": "Francisco Sergio De Barros",
+        "cargo": "Técnico De Manutenção Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 275.33
+      },
+      {
+        "nome": "Jailton Adolfo Da Silva",
+        "cargo": "Auxiliar De Manutencao Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 189.7
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Eliel Francisco De Lima",
+        "cargo": "Técnico De Manutenção Predial Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 495.88
+      },
+      {
+        "nome": "Francisco Sergio De Barros",
+        "cargo": "Técnico De Manutenção Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 386.24
+      },
+      {
+        "nome": "Jailton Adolfo Da Silva",
+        "cargo": "Auxiliar De Manutencao Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 160.38
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Jailton Adolfo Da Silva",
+        "cargo": "Auxiliar De Manutenção Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 127.54
+      },
+      {
+        "nome": "Eliel Francisco De Lima",
+        "cargo": "Tecnico De Manutenção Predial Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 494.91
+      },
+      {
+        "nome": "Francisco Sergio De Barros",
+        "cargo": "Auxiliar De Manutenção Predial",
+        "empresa": "ORBIX",
+        "valorDescontado": 332.18
+      },
+      {
+        "nome": "Otoniel Da Silva Oliveira",
+        "cargo": "Tecnico De Refrigeração Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 189.12
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jailton Adolfo Da Silva",
+        "cargo": "Auxiliar De Manutenção Predial",
+        "empresa": "DTEL",
+        "valorDescontado": 141.13
+      },
+      {
+        "nome": "Eliel Francisco De Lima",
+        "cargo": "Tecnico De Manutenção Predial Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 492.0
+      },
+      {
+        "nome": "Francisco Sergio De Barros",
+        "cargo": "Tecnico De Manutenção Predial",
+        "empresa": "ORBIX",
+        "valorDescontado": 171.62
+      },
+      {
+        "nome": "Otoniel Da Silva Oliveira",
+        "cargo": "Tecnico De Refrigeração Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 126.74
+      }
+    ]
+  },
+  "Estrutura": {
+    "Julho/2026": [
+      {
+        "nome": "Gabriel Medeiros De Moura",
+        "cargo": "Coordenador Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 95.75
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Gabriel Medeiros De Moura",
+        "cargo": "Coordenador Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 126.85
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Gabriel Medeiros De Moura",
+        "cargo": "Coordenador Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 68.18
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Gabriel Medeiros De Moura",
+        "cargo": "Coordenador Tecnico",
+        "empresa": "DTEL",
+        "valorDescontado": 33.28
+      }
+    ]
+  },
+  "Obras": {
+    "Julho/2026": [
+      {
+        "nome": "Gabriel Ramon Da Silva",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 186.96
+      },
+      {
+        "nome": "Joao Carlos Da Silva",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 134.09
+      },
+      {
+        "nome": "Romero Jose Dos Santos Silva",
+        "cargo": "Pedreiro Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 182.2
+      },
+      {
+        "nome": "Ruy Honorato De Santana",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 221.76
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Gabriel Ramon Da Silva",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 227.16
+      },
+      {
+        "nome": "Joao Carlos Da Silva",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 85.5
+      },
+      {
+        "nome": "Romero Jose Dos Santos Silva",
+        "cargo": "Pedreiro Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 140.6
+      },
+      {
+        "nome": "Ruy Honorato De Santana",
+        "cargo": "Ajudante De Obras",
+        "empresa": "DTEL",
+        "valorDescontado": 236.08
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Ruy Honorato De Santana",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "ORBIX",
+        "valorDescontado": 204.61
+      },
+      {
+        "nome": "Gabriel Ramon Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 100.12
+      },
+      {
+        "nome": "Joao Carlos Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 174.41
+      },
+      {
+        "nome": "Julio Manoel Dos Santos",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 155.53
+      },
+      {
+        "nome": "Romero Jose Dos Santos Silva",
+        "cargo": "Pedreiro Júnior",
+        "empresa": "SPEED",
+        "valorDescontado": 164.63
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Ruy Honorato De Santana",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "ORBIX",
+        "valorDescontado": 208.82
+      },
+      {
+        "nome": "Gabriel Ramon Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 137.97
+      },
+      {
+        "nome": "Joao Carlos Da Silva",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 70.73
+      },
+      {
+        "nome": "Julio Manoel Dos Santos",
+        "cargo": "Ajudante De Pedreiro",
+        "empresa": "SPEED",
+        "valorDescontado": 296.71
+      },
+      {
+        "nome": "Romero Jose Dos Santos Silva",
+        "cargo": "Pedreiro Júnior",
+        "empresa": "SPEED",
+        "valorDescontado": 190.95
+      }
+    ]
+  },
+  "Instalação Marcos Litoral": {
+    "Julho/2026": [
+      {
+        "nome": "Georgea Amanda Ferreira Da Rocha Olisvietuiraçaão:",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 108.97
+      },
+      {
+        "nome": "Jamerson Vercosa Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL",
+        "valorDescontado": 208.41
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Georgea Amanda Ferreira Da Rocha Olivseitiuraação:",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 286.98
+      },
+      {
+        "nome": "Nathalia Daniele Dos Santos Oliveira",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 237.77
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Georgea Amanda Ferreira Da Rocha Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 195.8
+      },
+      {
+        "nome": "Emmanoel Matias Dos Anjos",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL FILIAL ALAGOAS",
+        "valorDescontado": 61.03
+      },
+      {
+        "nome": "Jamerson Vercosa Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL FILIAL ALAGOAS",
+        "valorDescontado": 133.04
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Georgea Amanda Ferreira Da Rocha Oliveira",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 51.57
+      },
+      {
+        "nome": "Jamerson Vercosa Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "DTEL FILIAL ALAGOAS",
+        "valorDescontado": 109.15
+      }
+    ]
+  },
+  "Itinerante": {
+    "Julho/2026": [
+      {
+        "nome": "Helder Vasconcelos Soares Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 157.47
+      },
+      {
+        "nome": "Julio Cesar De Santana Vasconcelos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 190.45
+      },
+      {
+        "nome": "Matheus Nogueira Lins De Souza Ferraz",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 484.26
+      },
+      {
+        "nome": "Jose Fabio Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Orbix",
+        "valorDescontado": 291.44
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Helder Vasconcelos Soares Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 199.1
+      },
+      {
+        "nome": "Jose Fabio Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 494.26
+      },
+      {
+        "nome": "Julio Cesar De Santana Vasconcelos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 253.79
+      },
+      {
+        "nome": "Matheus Nogueira Lins De Souza Ferraz",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 294.67
+      },
+      {
+        "nome": "Ailton Cupertino De Almeida Filho",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "Orbix",
+        "valorDescontado": 457.95
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Ailton Cupertino De Almeida Filho",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 484.87
+      },
+      {
+        "nome": "Helder Vasconcelos Soares Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 229.94
+      },
+      {
+        "nome": "Jose Fabio Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 285.76
+      },
+      {
+        "nome": "Matheus Nogueira Lins De Souza Ferraz",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SPEED",
+        "valorDescontado": 498.89
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jurice Borges Dos Santos Junior",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 65.93
+      },
+      {
+        "nome": "Ailton Cupertino De Almeida Filho",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 435.92
+      },
+      {
+        "nome": "Helder Vasconcelos Soares Da Silva",
+        "cargo": "Instalador Reparador Pleno",
+        "empresa": "ORBIX",
+        "valorDescontado": 33.95
+      },
+      {
+        "nome": "Jose Fabio Da Silva",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "ORBIX",
+        "valorDescontado": 411.52
+      },
+      {
+        "nome": "Julio Cesar De Santana Vasconcelos",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 284.43
+      },
+      {
+        "nome": "Matheus Nogueira Lins De Souza Ferraz",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SPEED",
+        "valorDescontado": 452.12
+      }
+    ]
+  },
+  "Financeiro": {
+    "Julho/2026": [
+      {
+        "nome": "Jaciane Gomes Do Carmo",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "valorDescontado": 31.0
+      },
+      {
+        "nome": "Jeisa Bianca Da Silva",
+        "cargo": "Auxiliar Administrativo Financeiro",
+        "empresa": "DTEL",
+        "valorDescontado": 45.0
+      },
+      {
+        "nome": "Maria Eduarda Dos Santos",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "valorDescontado": 148.53
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jaciane Gomes Do Carmo",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "valorDescontado": 31.0
+      },
+      {
+        "nome": "Jeisa Bianca Da Silva",
+        "cargo": "Auxiliar Administrativo Financeiro",
+        "empresa": "DTEL",
+        "valorDescontado": 45.0
+      },
+      {
+        "nome": "Maria Eduarda Dos Santos",
+        "cargo": "Assistente Administrativo Financeiro Jun",
+        "empresa": "DTEL",
+        "valorDescontado": 114.15
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Anna Mary Barbosa Pimentel",
+        "cargo": "Supervisor Financeiro",
+        "empresa": "DTEL",
+        "valorDescontado": 111.02
+      },
+      {
+        "nome": "Jaciane Gomes Do Carmo",
+        "cargo": "Assistente Administrativo Financeiro Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 143.41
+      },
+      {
+        "nome": "Jeisa Bianca Da Silva",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 75.99
+      },
+      {
+        "nome": "Maria Eduarda Dos Santos",
+        "cargo": "Assistente Administrativo Financeiro Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 106.72
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jeisa Bianca Da Silva",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 120.99
+      },
+      {
+        "nome": "Maria Eduarda Dos Santos",
+        "cargo": "Assistente Administrativo Financeiro Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 143.02
+      }
+    ]
+  },
+  "Logistica": {
+    "Julho/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logistica Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 154.62
+      },
+      {
+        "nome": "Kaio Eduardo Vicente De Lima",
+        "cargo": "Auxiliar De Logistica",
+        "empresa": "DTEL",
+        "valorDescontado": 79.41
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logistica Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 130.11
+      },
+      {
+        "nome": "Kaio Eduardo Vicente De Lima",
+        "cargo": "Auxiliar De Logistica",
+        "empresa": "DTEL",
+        "valorDescontado": 23.08
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logística Júnior",
+        "empresa": "DTEL",
+        "valorDescontado": 274.63
+      },
+      {
+        "nome": "Kaio Eduardo Vicente De Lima",
+        "cargo": "Auxiliar De Logistica",
+        "empresa": "DTEL",
+        "valorDescontado": 78.03
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Jonathan Bernardo Dos Santos Silva",
+        "cargo": "Assistente De Logística Sênior",
+        "empresa": "DTEL",
+        "valorDescontado": 266.73
+      }
+    ]
+  },
+  "Estoque": {
+    "Julho/2026": [
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 81.85
+      },
+      {
+        "nome": "Valderez Caetano De Souza",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 204.67
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 45.89
+      },
+      {
+        "nome": "Valderez Caetano De Souza",
+        "cargo": "Tecnico De Lancamento Senior",
+        "empresa": "DTEL",
+        "valorDescontado": 219.05
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Valderez Caetano De Souza",
+        "cargo": "Técnico De Lançamento Sênior",
+        "empresa": "DMAIS",
+        "valorDescontado": 148.87
+      },
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 66.87
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Valderez Caetano De Souza",
+        "cargo": "Técnico De Lançamento Sênior",
+        "empresa": "DMAIS",
+        "valorDescontado": 159.6
+      },
+      {
+        "nome": "Jonathas Jose Da Silva",
+        "cargo": "Estoquista Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 66.88
+      }
+    ]
+  },
+  "Instalação Marcos Bezerros": {
+    "Julho/2026": [
+      {
+        "nome": "Jose Geyvisson Silva De Oliveira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 238.34
+      },
+      {
+        "nome": "Matheus Marinho Xavier Diniz",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 492.7
+      },
+      {
+        "nome": "Roberval De Santana Silva",
+        "cargo": "Tecnico Em Fibra Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 56.47
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Jose Geyvisson Silva De Oliveira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Planeta Net (MJ Ventura)",
+        "valorDescontado": 249.01
+      },
+      {
+        "nome": "Matheus Marinho Xavier Diniz",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "Planeta Net (MJ Ventura)",
+        "valorDescontado": 499.35
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Roberval De Santana Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 16.39
+      },
+      {
+        "nome": "Henrique Do Nascimento Tasende.",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 94.15
+      },
+      {
+        "nome": "Matheus Marinho Xavier Diniz",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 500.0
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Roberval De Santana Silva",
+        "cargo": "Tecnico Em Fibra Júnior",
+        "empresa": "DMAIS",
+        "valorDescontado": 57.87
+      },
+      {
+        "nome": "Henrique Do Nascimento Tasende.",
+        "cargo": "Operador De Redes Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 98.05
+      },
+      {
+        "nome": "Jose Geyvisson Silva De Oliveira",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DTEL",
+        "valorDescontado": 161.81
+      },
+      {
+        "nome": "Matheus Marinho Xavier Diniz",
+        "cargo": "Auxiliar Administrativo De Atendimento",
+        "empresa": "DTEL",
+        "valorDescontado": 498.15
+      }
+    ]
+  },
+  "Engenharia": {
+    "Julho/2026": [
+      {
+        "nome": "Lucas Vinicius Gomes Farao",
+        "cargo": "Auxiliar Administrativo Engenharia",
+        "empresa": "DTEL",
+        "valorDescontado": 145.02
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Lucas Vinicius Gomes Farao",
+        "cargo": "Auxiliar Administrativo Engenharia",
+        "empresa": "DTEL",
+        "valorDescontado": 431.44
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Lucas Vinicius Gomes Farao",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 460.0
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Lucas Vinicius Gomes Farao",
+        "cargo": "Auxiliar Administrativo",
+        "empresa": "DTEL",
+        "valorDescontado": 493.13
+      }
+    ]
+  },
+  "Vendas PAP Tarcizio": {
+    "Julho/2026": [
+      {
+        "nome": "Mariana Ferreira Viana Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 493.96
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Mariana Ferreira Viana Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "DTEL",
+        "valorDescontado": 491.51
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Mariana Ferreira Viana Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 477.06
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Mariana Ferreira Viana Silva",
+        "cargo": "Vendedor Externo",
+        "empresa": "GOONET",
+        "valorDescontado": 499.87
+      }
+    ]
+  },
+  "Marketing": {
+    "Julho/2026": [
+      {
+        "nome": "Michelle Karen De Oliveira",
+        "cargo": "Social Mídia Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 189.57
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Michelle Karen De Oliveira",
+        "cargo": "Social Mídia Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 201.82
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Michelle Karen De Oliveira",
+        "cargo": "Social Media Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 194.68
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Michelle Karen De Oliveira",
+        "cargo": "Social Media Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 194.74
+      }
+    ]
+  },
+  "Instalação Vitor Lins": {
+    "Julho/2026": [
+      {
+        "nome": "Sandra Vieira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "DTEL",
+        "valorDescontado": 265.77
+      },
+      {
+        "nome": "Edilson Candido Dos Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Lins",
+        "valorDescontado": 176.99
+      },
+      {
+        "nome": "Jose Antulins Nascimento De Figueredo",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Lins",
+        "valorDescontado": 251.76
+      },
+      {
+        "nome": "Luana Luizy Batista Do Nascimento",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "Soares & Lins",
+        "valorDescontado": 245.34
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Sandra Vieira De Melo",
+        "cargo": null,
+        "empresa": "DTEL",
+        "valorDescontado": 333.41
+      },
+      {
+        "nome": "Edilson Candido Dos Santos",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Lins",
+        "valorDescontado": 274.57
+      },
+      {
+        "nome": "Jose Antulins Nascimento De Figueredo",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Lins",
+        "valorDescontado": 287.26
+      },
+      {
+        "nome": "Luana Luizy Batista Do Nascimento",
+        "cargo": null,
+        "empresa": "Soares & Lins",
+        "valorDescontado": 215.69
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Sandra Vieira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "GOONET",
+        "valorDescontado": 213.43
+      },
+      {
+        "nome": "Edilson Candido Dos Santos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 327.33
+      },
+      {
+        "nome": "Jose Antulins Nascimento De Figueredo",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 304.21
+      },
+      {
+        "nome": "Luana Luizy Batista Do Nascimento",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 273.22
+      },
+      {
+        "nome": "Thiago Vinicius Dos Santos Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 195.05
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Sandra Vieira De Melo",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "GOONET",
+        "valorDescontado": 127.86
+      },
+      {
+        "nome": "Edilson Candido Dos Santos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 331.01
+      },
+      {
+        "nome": "Jose Antulins Nascimento De Figueredo",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 287.99
+      },
+      {
+        "nome": "Luana Luizy Batista Do Nascimento",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "SOARES & LINS",
+        "valorDescontado": 302.78
+      }
+    ]
+  },
+  "Instalação Willian": {
+    "Julho/2026": [
+      {
+        "nome": "Ewerton Suevanyo Santos De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "valorDescontado": 226.4
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Ewerton Suevanyo Santos De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "valorDescontado": 173.96
+      },
+      {
+        "nome": "Ingrid Rayane Xavier Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento",
+        "empresa": "DX2",
+        "valorDescontado": 78.05
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Ewerton Suevanyo Santos De Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "DX2",
+        "valorDescontado": 95.84
+      }
+    ]
+  },
+  "Vendas PAP Tiago": {
+    "Julho/2026": [
+      {
+        "nome": "Carlos Alberto Da Silva Nascimento",
+        "cargo": "Vendedor Externo",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 485.86
+      },
+      {
+        "nome": "Jefferson De Freitas Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 18.27
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Carlos Alberto Da Silva Nascimento",
+        "cargo": "Vendedor Externo",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 358.65
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Carlos Alberto Da Silva Nascimento",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 447.28
+      },
+      {
+        "nome": "Elaine Cristina Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 236.87
+      },
+      {
+        "nome": "Fabiana Da Silva Antunes",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 209.2
+      },
+      {
+        "nome": "Jefferson De Freitas Santos",
+        "cargo": "Supervisor De Vendas",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 71.06
+      },
+      {
+        "nome": "Lenini Da Silva Matos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 472.03
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Carlos Alberto Da Silva Nascimento",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 352.55
+      },
+      {
+        "nome": "Elaine Cristina Dos Santos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 392.14
+      },
+      {
+        "nome": "Fabiana Da Silva Antunes",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 289.93
+      },
+      {
+        "nome": "Lenini Da Silva Matos",
+        "cargo": "Vendedor Externo",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 363.93
+      }
+    ]
+  },
+  "Instalação Alagoas": {
+    "Julho/2026": [
+      {
+        "nome": "Edivan Barros Perciano Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 227.87
+      },
+      {
+        "nome": "Erinaldo Dos Santos Filho",
+        "cargo": "Auxiliar Técnico Em Fibra",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 475.08
+      },
+      {
+        "nome": "Flavia Janielle Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 494.27
+      },
+      {
+        "nome": "Isaias Feitosa Vieira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 283.36
+      },
+      {
+        "nome": "Jose Icaro Francisco Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 201.94
+      },
+      {
+        "nome": "Melquizedeque Ferreira Da Costa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 497.02
+      },
+      {
+        "nome": "Viviane Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 500.0
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Edivan Barros Perciano Melo",
+        "cargo": "Instalador Reparador",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 52.87
+      },
+      {
+        "nome": "Erinaldo Dos Santos Filho",
+        "cargo": "Auxiliar Técnico Em Fibra",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 492.83
+      },
+      {
+        "nome": "Flavia Janielle Da Silva",
+        "cargo": null,
+        "empresa": "Soares & Silva",
+        "valorDescontado": 141.63
+      },
+      {
+        "nome": "Isaias Feitosa Vieira",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 445.91
+      },
+      {
+        "nome": "Jose Icaro Francisco Da Silva",
+        "cargo": "Instalador Reparador Junior",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 195.72
+      },
+      {
+        "nome": "Melquizedeque Ferreira Da Costa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Soares & Silva",
+        "valorDescontado": 467.87
+      },
+      {
+        "nome": "Viviane Da Silva",
+        "cargo": null,
+        "empresa": "Soares & Silva",
+        "valorDescontado": 459.63
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Edivan Barros Perciano Melo",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 442.21
+      },
+      {
+        "nome": "Erinaldo Dos Santos Filho",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 499.98
+      },
+      {
+        "nome": "Flavia Janielle Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 204.13
+      },
+      {
+        "nome": "Isaias Feitosa Vieira",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 155.97
+      },
+      {
+        "nome": "Melquizedeque Ferreira Da Costa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 488.02
+      },
+      {
+        "nome": "Viviane Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 486.45
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Erinaldo Dos Santos Filho",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 488.61
+      },
+      {
+        "nome": "Flavia Janielle Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Junior",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 385.65
+      },
+      {
+        "nome": "Isaias Feitosa Vieira",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 420.5
+      },
+      {
+        "nome": "Jose Icaro Francisco Da Silva",
+        "cargo": "Instalador Reparador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 182.09
+      },
+      {
+        "nome": "Melquizedeque Ferreira Da Costa",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 490.39
+      },
+      {
+        "nome": "Viviane Da Silva",
+        "cargo": "Assistente Administrativo De Atendimento Pleno",
+        "empresa": "SOARES & SILVA MACEIO",
+        "valorDescontado": 500.0
+      }
+    ]
+  },
+  "Instalação Helder": {
+    "Julho/2026": [
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "Speed Line",
+        "valorDescontado": 58.9
+      }
+    ],
+    "Agosto/2026": [
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "DTEL",
+        "valorDescontado": 153.52
+      }
+    ],
+    "Maio/2026": [
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 222.66
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Luiz Fernando Pergentino Da Silva",
+        "cargo": "Auxiliar De Instalador",
+        "empresa": "SPEED",
+        "valorDescontado": 132.29
+      }
+    ]
+  },
+  "Trade Connect": {
+    "Agosto/2026": [
+      {
+        "nome": "Cyro Sunsethe De Melo Ribeiro",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "DTEL",
+        "valorDescontado": 193.61
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Cyro Sunsethe De Melo Ribeiro",
+        "cargo": "Vendedor Externo Pleno",
+        "empresa": "GOONET",
+        "valorDescontado": 197.36
+      }
+    ]
+  },
+  "Cozinha": {
+    "Maio/2026": [
+      {
+        "nome": "Severino Jose De Almeida Alcoforado",
+        "cargo": "Cozinheiro",
+        "empresa": "DMAIS",
+        "valorDescontado": 48.97
+      }
+    ],
+    "Junho/2026": [
+      {
+        "nome": "Severino Jose De Almeida Alcoforado",
+        "cargo": "Cozinheiro",
+        "empresa": "DMAIS",
+        "valorDescontado": 54.97
+      }
+    ]
+  },
+  "Instalação Roberto Barros": {
+    "Maio/2026": [
+      {
+        "nome": "Walker Jackson Silva Dos Anjos",
+        "cargo": "Instalador Reparador Jr",
+        "empresa": "DMAIS",
+        "valorDescontado": 94.24
+      }
+    ]
+  },
+  "Departamento Pessoal": {
+    "Maio/2026": [
+      {
+        "nome": "Edenize Alves Ximenes",
+        "cargo": "Auxiliar De Dp",
+        "empresa": "DTEL",
+        "valorDescontado": 83.44
+      }
+    ]
+  }
+}
