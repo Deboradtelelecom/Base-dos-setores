@@ -23230,6 +23230,24 @@
           "nome": "EDNALDO DE NOBAIA ACIOLI JUNIOR",
           "valor": 3130.91
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 25116.19
+        },
+        {
+          "nome": "JOSE ALVES DE OLIVEIRA NETO",
+          "valor": 8734.11
+        },
+        {
+          "nome": "ARMANDO JOSE BARBOSA",
+          "valor": 3396.62
+        },
+        {
+          "nome": "DEMETRIUS RIBEIRO DE AQUINO",
+          "valor": 1944.7
+        }
       ]
     },
     "manutencao_predial": {
@@ -23310,6 +23328,36 @@
           "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
           "valor": 0
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JOSE ADELSON DOS SANTOS",
+          "valor": 2311.42
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA",
+          "valor": 1148.77
+        },
+        {
+          "nome": "JACIEL SEVERINO DA SILVA",
+          "valor": 2966.71
+        },
+        {
+          "nome": "ARTHUR DA SILVA FARIAS",
+          "valor": 1178.83
+        },
+        {
+          "nome": "OTONIEL DA SILVA OLIVEIRA",
+          "valor": 2647.83
+        },
+        {
+          "nome": "CLAUDIO DE MELO AMORIM",
+          "valor": 1369.77
+        },
+        {
+          "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
+          "valor": 0.0
+        }
       ]
     },
     "obras": {
@@ -23378,6 +23426,28 @@
           "nome": "MARCONDES JOSE DA SILVA",
           "valor": 205.5
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "DAYVID PEDRO PEREIRA DOS REIS",
+          "valor": 3422.95
+        },
+        {
+          "nome": "CICERO GOMES DOS SANTOS",
+          "valor": 1823.3
+        },
+        {
+          "nome": "ROMERO JOSE DOS SANTOS SILVA",
+          "valor": 1403.25
+        },
+        {
+          "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 4906.57
+        },
+        {
+          "nome": "MARCONDES JOSE DA SILVA",
+          "valor": 205.5
+        }
       ]
     },
     "marketing": {
@@ -23397,6 +23467,12 @@
         {
           "nome": "VINICIUS FREIRE VERCOSA DA SILVA",
           "valor": 1223.23
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "VINICIUS FREIRE VERCOSA DA SILVA",
+          "valor": 1514.08
         }
       ]
     },
@@ -23454,6 +23530,28 @@
           "nome": "ERINALDO LOPES DA COSTA",
           "valor": 827.2
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JEFFERSON DOS SANTOS SILVA",
+          "valor": 828.9
+        },
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 965.73
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJAO DE CASTRO",
+          "valor": 510.49
+        },
+        {
+          "nome": "RODRIGO ANTONIO DE OLIVEIRA",
+          "valor": 1048.45
+        },
+        {
+          "nome": "ERINALDO LOPES DA COSTA",
+          "valor": 822.0
+        }
       ]
     },
     "engenharia": {
@@ -23510,6 +23608,24 @@
           "nome": "ALAN KLEBSON DO MONTE SILVA",
           "valor": 1540.06
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 193.32
+        },
+        {
+          "nome": "ANDERSON LUIZ PEIXOTO DA SILVEIRA JUNIOR",
+          "valor": 615.1
+        },
+        {
+          "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
+          "valor": 3646.46
+        },
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 409.36
+        }
       ]
     },
     "noc": {
@@ -23530,6 +23646,12 @@
           "nome": "RAFAEL MARINHO MACEDO",
           "valor": 1999.61
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "RAFAEL MARINHO MACEDO",
+          "valor": 1882.43
+        }
       ]
     },
     "juridico": {
@@ -23544,6 +23666,12 @@
           "nome": "JOELMYR FABIO LINS DA SILVA",
           "valor": 1878.14
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JOELMYR FABIO LINS DA SILVA",
+          "valor": 1280.1
+        }
       ]
     },
     "controladoria": {
@@ -23552,6 +23680,12 @@
           "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
           "valor": 1837.24
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
+          "valor": 1581.98
+        }
       ]
     },
     "compras": {
@@ -23559,6 +23693,12 @@
         {
           "nome": "BRUNO DOUGLAS ALVES DA SILVA",
           "valor": 811.2
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "BRUNO DOUGLAS ALVES DA SILVA",
+          "valor": 0.0
         }
       ]
     },
@@ -23615,6 +23755,24 @@
         {
           "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
           "valor": 300.89
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "CARLOS FERNANDO DE LIMA",
+          "valor": 4058.63
+        },
+        {
+          "nome": "DANIEL JOSE DOS SANTOS",
+          "valor": 4421.48
+        },
+        {
+          "nome": "SEVERINO DA SILVA SANTOS",
+          "valor": 3462.45
+        },
+        {
+          "nome": "CARLOS VINICIUS DE SOUZA FERREIRA",
+          "valor": 238.94
         }
       ]
     },
@@ -23692,6 +23850,32 @@
           "nome": "JOSADARK JOSE DO NASCIMENTO",
           "valor": 694.04
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "VALDIR JOSE FELICIANO",
+          "valor": 3260.66
+        },
+        {
+          "nome": "DIEGO GUSTAVO DA SILVA",
+          "valor": 3272.69
+        },
+        {
+          "nome": "CLEITON LUCIANO DA SILVA SANTOS",
+          "valor": 3914.1
+        },
+        {
+          "nome": "JOSE ROBERTO DE SANTANA SILVA",
+          "valor": 3134.62
+        },
+        {
+          "nome": "JOSE ERONILDO DE MELO SILVA",
+          "valor": 2644.91
+        },
+        {
+          "nome": "JOSADARK JOSE DO NASCIMENTO",
+          "valor": 3535.13
+        }
       ]
     },
     "comercial_corporativo": {
@@ -23717,6 +23901,20 @@
         {
           "nome": "Adelmir Coelho Filho",
           "valor": 898.19
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "LUIZ MARIO DOS SANTOS",
+          "valor": 1827.15
+        },
+        {
+          "nome": "PAULO DE TARSO PEREIRA DE MELO",
+          "valor": 1150.0
+        },
+        {
+          "nome": "ADELMIR COELHO FILHO",
+          "valor": 1018.38
         }
       ]
     }
@@ -25052,6 +25250,12 @@
           "nome": "Pilha Palito",
           "quantidade": 2
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Resma",
+          "quantidade": 1.0
+        }
       ]
     },
     "nrc": {
@@ -25404,6 +25608,20 @@
           "nome": "Durex Largo",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Durex Largo",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Grampo",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Pilha Palito",
+          "quantidade": 8.0
+        }
       ]
     },
     "noc": {
@@ -25425,6 +25643,16 @@
         {
           "nome": "Resma",
           "quantidade": 1
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Pilha Aa",
+          "quantidade": 4.0
+        },
+        {
+          "nome": "Pilha Palito",
+          "quantidade": 4.0
         }
       ]
     },
@@ -25476,6 +25704,12 @@
           "nome": "Resma",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Marca Texto",
+          "quantidade": 1.0
+        }
       ]
     },
     "diretoria_operacional": {
@@ -25483,6 +25717,16 @@
         {
           "nome": "Post-It",
           "quantidade": 2
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Pilha Aa",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Pilha Palito",
+          "quantidade": 1.0
         }
       ]
     },
@@ -25591,6 +25835,54 @@
           "quantidade": 1
         }
       ]
+    },
+    "comercial_corporativo": {
+      "Agosto/2026": [
+        {
+          "nome": "Pilha Palito",
+          "quantidade": 2.0
+        }
+      ]
+    },
+    "qualidade": {
+      "Agosto/2026": [
+        {
+          "nome": "Organizador De Documentos",
+          "quantidade": 1.0
+        }
+      ]
+    },
+    "rh": {
+      "Agosto/2026": [
+        {
+          "nome": "Pilha Palito",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Post It",
+          "quantidade": 1.0
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Agosto/2026": [
+        {
+          "nome": "Grampo",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Marca Texto",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Resma",
+          "quantidade": 4.0
+        },
+        {
+          "nome": "caneta",
+          "quantidade": 2.0
+        }
+      ]
     }
   },
   "materiais_coletivo": {
@@ -25635,6 +25927,24 @@
         {
           "nome": "Sabonete Líquido",
           "quantidade": 1
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 25.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 13.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 7.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 1.0
         }
       ]
     },
@@ -27704,6 +28014,36 @@
           "nome": "Sabonete Líquido",
           "quantidade": 2
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 56.0
+        },
+        {
+          "nome": "Bolsa M",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Detergente",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 22.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 19.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Álcool",
+          "quantidade": 1.0
+        }
       ]
     },
     "gestao_de_atendimento": {
@@ -28018,6 +28358,20 @@
           "nome": "Álcool",
           "quantidade": 12
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Baygon Inseticida",
+          "quantidade": 36.0
+        },
+        {
+          "nome": "Bom Ar",
+          "quantidade": 3.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 40.0
+        }
       ]
     },
     "oficina": {
@@ -28140,6 +28494,24 @@
           "nome": "Papel Toalha",
           "quantidade": 10
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 36.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 17.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 7.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 1.0
+        }
       ]
     },
     "diretoria_adm": {
@@ -28258,6 +28630,32 @@
           "nome": "Sabonete Líquido",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Adoçante",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Bolsa G",
+          "quantidade": 26.0
+        },
+        {
+          "nome": "Bolsa M",
+          "quantidade": 4.0
+        },
+        {
+          "nome": "Detergente",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 6.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 6.0
+        }
       ]
     },
     "contabilidade": {
@@ -28295,6 +28693,36 @@
         {
           "nome": "Papel Toalha",
           "quantidade": 9
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 19.0
+        },
+        {
+          "nome": "Bolsa M",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Bom Ar",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Detergente",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 15.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 10.0
+        },
+        {
+          "nome": "Sabão Líquido",
+          "quantidade": 1.0
         }
       ]
     },
@@ -28400,6 +28828,32 @@
           "nome": "Sabonete Líquido",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 54.0
+        },
+        {
+          "nome": "Bolsa M",
+          "quantidade": 20.0
+        },
+        {
+          "nome": "Copo De Água",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 37.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 24.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 1.0
+        }
       ]
     },
     "noc": {
@@ -28477,6 +28931,44 @@
         {
           "nome": "Café Em Pó",
           "quantidade": 1
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Açúcar",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Biscoito",
+          "quantidade": 4.0
+        },
+        {
+          "nome": "Bolacha",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Bolsa G",
+          "quantidade": 37.0
+        },
+        {
+          "nome": "Café Em Pó",
+          "quantidade": 6.0
+        },
+        {
+          "nome": "Filtro De Café",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 12.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 9.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 1.0
         }
       ]
     },
@@ -28560,6 +29052,48 @@
           "nome": "Água Sanitária",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Biscoito",
+          "quantidade": 6.0
+        },
+        {
+          "nome": "Bolacha",
+          "quantidade": 3.0
+        },
+        {
+          "nome": "Bolsa G",
+          "quantidade": 42.0
+        },
+        {
+          "nome": "Detergente",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Esponja",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 25.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 21.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Veja Multi-Uso",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Água Sanitária",
+          "quantidade": 1.0
+        }
       ]
     },
     "diretoria_operacional": {
@@ -28613,6 +29147,24 @@
         {
           "nome": "Álcool",
           "quantidade": 1
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bolsa G",
+          "quantidade": 48.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 5.0
+        },
+        {
+          "nome": "Pastilha Sanitária",
+          "quantidade": 2.0
         }
       ]
     },
@@ -28680,6 +29232,28 @@
           "nome": "Álcool",
           "quantidade": 1
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Açúcar",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Biscoito",
+          "quantidade": 1.0
+        },
+        {
+          "nome": "Desinfetante",
+          "quantidade": 2.0
+        },
+        {
+          "nome": "Papel Higiênico",
+          "quantidade": 12.0
+        },
+        {
+          "nome": "Papel Toalha",
+          "quantidade": 5.0
+        }
       ]
     },
     "controladoria": {
@@ -28734,6 +29308,16 @@
           "nome": "Mikaelle Maria de Souza Silva",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "MIKAELLE MARIA DE SOUZA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "SAMMUEL DEYVSON DA SILVA SANTOS",
+          "valor": 50.0
+        }
       ]
     },
     "gestao_de_atendimento": {
@@ -28762,6 +29346,48 @@
           "nome": "Deygena Rosa de Lima",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "NAILZA MOREIRA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
+          "valor": 50.0
+        },
+        {
+          "nome": "GABRIELA DA SILVA ALVES",
+          "valor": 50.0
+        },
+        {
+          "nome": "GABRIEL BERNARDES AGOSTINHO DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+          "valor": 50.0
+        },
+        {
+          "nome": "KELLY SABRINA NUNES DUARTE",
+          "valor": 50.0
+        },
+        {
+          "nome": "ARLEN DUARTE DOS SANTOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "IRIS BEATRIZ SILVEIRA MARQUES",
+          "valor": 50.0
+        },
+        {
+          "nome": "KAYRÔN FILLIPE SALES DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "EVERTON EZEQUIEL DE LIMA ALMEIDA",
+          "valor": 50.0
+        }
       ]
     },
     "logistica": {
@@ -28777,6 +29403,12 @@
         {
           "nome": "E-mail do setor (frota@dtel.psi.br)",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ALLAN DOS SANTOS E SILVA",
+          "valor": 50.0
         }
       ]
     },
@@ -28809,6 +29441,36 @@
         {
           "nome": "LUIS HENRIQUE PEREIRA BRANCO",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "CLEONILDO ANTONIO DOS SANTOS NETO",
+          "valor": 50.0
+        },
+        {
+          "nome": "DAYANE STEFANNI CLIMACO DE SANTANA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MICHEL GLEYDSON DA SILVA MELO",
+          "valor": 50.0
+        },
+        {
+          "nome": "CLARA VITÓRIA DE SOUZA SANTOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANDREZA LUANA BARBOSA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "DAYSE KÁSSIA DA SILVA OLIVEIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUIS HENRIQUE PEREIRA BRANCO",
+          "valor": 50.0
         }
       ]
     },
@@ -28845,6 +29507,24 @@
         {
           "nome": "E-mail do setor (apagar@dtel.psi.br)",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ANELISE LETICIA RIBEIRO XAVIER",
+          "valor": 50.0
+        },
+        {
+          "nome": "JACIANE GOMES DO CARMO",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANNA MARY BARBOSA PIMENTEL",
+          "valor": 50.0
+        },
+        {
+          "nome": "JEISA BIANCA DA SILVA",
+          "valor": 50.0
         }
       ]
     },
@@ -28898,6 +29578,32 @@
           "nome": "E-mail do setor — CD 01 (cd01vsa@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA",
+          "valor": 50.0
+        },
+        {
+          "nome": "DAYVISSON GUILHERME DE SANTANA FARIAS",
+          "valor": 50.0
+        },
+        {
+          "nome": "FABIO DANIEL DA SILVA",
+          "valor": 10.0
+        },
+        {
+          "nome": "TIAGO DE LIMA SENA",
+          "valor": 10.0
+        },
+        {
+          "nome": "KLAYTON RODRIGO DE FREITAS SILVA",
+          "valor": 10.0
+        },
+        {
+          "nome": "DANILO FERNANDO DA SILVA LIMA",
+          "valor": 10.0
+        }
       ]
     },
     "noc": {
@@ -28926,6 +29632,20 @@
           "nome": "E-mail do setor (noc@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "EMANOEL RODOLFO DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "JEFFERSON PATRICK BARRETO TAVARES",
+          "valor": 50.0
+        },
+        {
+          "nome": "RAFAEL MARINHO MACEDO",
+          "valor": 50.0
+        }
       ]
     },
     "rh": {
@@ -28953,6 +29673,20 @@
         {
           "nome": "E-mail do setor (vagas@dtel.psi.br)",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "CAMILA VIRGULINO COSTA",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUCAS ALEXANDRE DOS SANTOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "ISLA MIRELLY DA SILVA ANTÔNIO",
+          "valor": 50.0
         }
       ]
     },
@@ -29054,6 +29788,44 @@
           "nome": "Thiago Campelo da Silva ",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "FILIPE DA SILVA GONÇALVES",
+          "valor": 90.0
+        },
+        {
+          "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
+          "valor": 50.0
+        },
+        {
+          "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
+          "valor": 90.0
+        },
+        {
+          "nome": "THIAGO LUIZ DA SILVA MOTA",
+          "valor": 90.0
+        },
+        {
+          "nome": "MATHEUS DA SILVA ALVES",
+          "valor": 90.0
+        },
+        {
+          "nome": "JOSÉ KAYO MATHEUS FERREIRA E SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
+          "valor": 50.0
+        },
+        {
+          "nome": "THIAGO CAMPELO DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MARCOS ANTÔNIO DA SILVA SOBRINHO",
+          "valor": 50.0
+        }
       ]
     },
     "cac": {
@@ -29142,6 +29914,16 @@
           "nome": "Rafael da Silva Gabriel",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
+          "valor": 90.0
+        },
+        {
+          "nome": "RAFAEL DA SILVA GABRIEL",
+          "valor": 50.0
+        }
       ]
     },
     "coe": {
@@ -29178,6 +29960,28 @@
           "nome": "Eduarda Yasmim Silva Medeiros",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "WILLYANE MILENA DOS SANTOS AQUINO",
+          "valor": 50.0
+        },
+        {
+          "nome": "FABIANA VALERIA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "TIAGO LYRA DA MOTA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MAURICIO PEDRO DE OLIVEIRA JUNIOR",
+          "valor": 50.0
+        },
+        {
+          "nome": "THULIO FERREIRA ANDRADE SILVA",
+          "valor": 50.0
+        }
       ]
     },
     "contabilidade": {
@@ -29210,6 +30014,16 @@
           "nome": "E-mail do setor (fiscal@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "RAQUEL JEDIDJA DE SOUZA GOMES",
+          "valor": 50.0
+        },
+        {
+          "nome": "RUTHE GRAZIELLY DA SILVA FREITAS",
+          "valor": 50.0
+        }
       ]
     },
     "dp": {
@@ -29241,6 +30055,32 @@
         {
           "nome": "GIOVANNA EDUARDA RODRIGUES DO CARMO",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JONAS SOARES DE SANTANA",
+          "valor": 50.0
+        },
+        {
+          "nome": "ROBSON DA SILVA BATISTA COSTA",
+          "valor": 50.0
+        },
+        {
+          "nome": "TAMIRES DO NASCIMENTO OLIVEIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "EDENIZE ALVES XIMENES",
+          "valor": 50.0
+        },
+        {
+          "nome": "CARLA JULIANNY DE OLIVEIRA SANTOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "GIOVANNA EDUARDA RODRIGUES DO CARMO",
+          "valor": 50.0
         }
       ]
     },
@@ -29306,6 +30146,56 @@
           "nome": "E-mail do setor (mkt@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "MICHELLE KAREN DE OLIVEIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "YASMIM XIMENES OLIVEIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "THAYS FREITAS DE SOUZA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MAYKON ALVES DE OLIVEIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOSÉ NIVERTON FARIAS DE AMORIM",
+          "valor": 50.0
+        },
+        {
+          "nome": "WESLEY JÚNIOR DA SILVA FERREIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "STIVINY JORGE SILVA DOS SANTOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "MAURÍCIO DE ALCÂNTARA MACIEL FILHO",
+          "valor": 50.0
+        },
+        {
+          "nome": "JEFFERSON DA SILVA ARRUDA",
+          "valor": 50.0
+        },
+        {
+          "nome": "DAVI FERREIRA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "EMILLY LOPES ALVES",
+          "valor": 10.0
+        },
+        {
+          "nome": "EDMILSON JERÔNIMO DE OLIVEIRA FILHO",
+          "valor": 50.0
+        }
       ]
     },
     "seguranca_do_trabalho": {
@@ -29333,6 +30223,32 @@
         {
           "nome": "Mateus Gomes de Oliveira",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JEFFERSON DOS SANTOS SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "ERINALDO LOPES DA COSTA",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
+          "valor": 50.0
+        },
+        {
+          "nome": "NAYARA FERREIRA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MATEUS GOMES DE OLIVEIRA",
+          "valor": 50.0
         }
       ]
     },
@@ -29365,6 +30281,28 @@
         {
           "nome": "Weslley Daniel de Lima Souza",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "TANIELMA OLIVEIRA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "ELAYNE FERREIRA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "AYRTON DA SILVA LIMA",
+          "valor": 50.0
+        },
+        {
+          "nome": "MICKAEL ANTÔNIO DE ARAÚJO SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOSE GABRIEL DE OLIVEIRA SILVA",
+          "valor": 50.0
         }
       ]
     },
@@ -29426,6 +30364,36 @@
           "nome": "E-mail do setor (projetos@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
+          "valor": 50.0
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 50.0
+        },
+        {
+          "nome": "JESSICA SAMARA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUCAS VINÍCIUS GOMES FARAÓ",
+          "valor": 10.0
+        },
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 50.0
+        },
+        {
+          "nome": "LUAN VINÍCIUS NEVES DE SOUZA",
+          "valor": 50.0
+        }
       ]
     },
     "suporte_orbix": {
@@ -29437,6 +30405,16 @@
         {
           "nome": "Equipe de Monitoramento - Gabriel Medeiros",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "EVERSON BRUNO LORENA DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "SOSTENES MATHEUS LIMA E SILVA",
+          "valor": 50.0
         }
       ]
     },
@@ -29454,6 +30432,16 @@
           "nome": "E-mail do setor (compras@dtel.psi.br)",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "BRUNO DOUGLAS ALVES DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "OLIVER RHUAN DE MELO GOMES",
+          "valor": 50.0
+        }
       ]
     },
     "fusao": {
@@ -29461,6 +30449,12 @@
         {
           "nome": "JOSADARK JOSE DO NASCIMENTO",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JOSADARK JOSE DO NASCIMENTO",
+          "valor": 50.0
         }
       ]
     },
@@ -29478,6 +30472,12 @@
           "nome": "Juliana da Silva Pereira",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JULIANA DA SILVA PEREIRA",
+          "valor": 50.0
+        }
       ]
     },
     "retencao": {
@@ -29490,6 +30490,16 @@
           "nome": " Michelle Pacheco da Silva",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "JADSON WENDERSON DA SILVA CARVALHO",
+          "valor": 50.0
+        },
+        {
+          "nome": "MICHELLE PACHECO DA SILVA",
+          "valor": 50.0
+        }
       ]
     },
     "controladoria": {
@@ -29497,6 +30507,12 @@
         {
           "nome": "Douglas de Carvalho Nogueira",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "DOUGLAS DE CARVALHO NOGUEIRA",
+          "valor": 50.0
         }
       ]
     },
@@ -29566,6 +30582,20 @@
           "nome": "Douglas Soares",
           "valor": 50
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ISAIAS DE FREITAS BARBOSA JUNIOR",
+          "valor": 50.0
+        },
+        {
+          "nome": "JOÃO PAULO ANTONIO DE CARVALHO",
+          "valor": 50.0
+        },
+        {
+          "nome": "KAIO MATHEUS FERREIRA DE ASSIS",
+          "valor": 50.0
+        }
       ]
     },
     "desenvolvimento": {
@@ -29594,6 +30624,24 @@
           "nome": "RENAN ALCANTARA RIBEIRO",
           "valor": 10
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "LUIZ EDUARDO PEREIRA DE LIMA",
+          "valor": 50.0
+        },
+        {
+          "nome": "ANTONIO ROBERTO DIAS FRUTUOSO JUNIOR",
+          "valor": 50.0
+        },
+        {
+          "nome": "BRUNO SANTOS DA SILVA",
+          "valor": 50.0
+        },
+        {
+          "nome": "RENAN ALCANTARA RIBEIRO",
+          "valor": 10.0
+        }
       ]
     },
     "televendas": {
@@ -29601,6 +30649,26 @@
         {
           "nome": "Supervisão Televendas",
           "valor": 50
+        }
+      ]
+    },
+    "comercial_corporativo": {
+      "Agosto/2026": [
+        {
+          "nome": "JORGE TERTO DE HOLANDA CAVALCANTI",
+          "valor": 50.0
+        },
+        {
+          "nome": "PAULO DE TARSO PEREIRA DE MELO",
+          "valor": 50.0
+        },
+        {
+          "nome": "PEDRO ANTONIO GREGO LINS",
+          "valor": 50.0
+        },
+        {
+          "nome": "ELTON CARLOS AVELINO CALADO",
+          "valor": 50.0
         }
       ]
     }
