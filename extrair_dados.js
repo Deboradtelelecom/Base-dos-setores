@@ -213,6 +213,56 @@ function carregarDesligados(pastaDados) {
   return {};
 }
 
+// "Farmácia" — quadro à parte (16/09/2026), pedido da Débora: valores
+// descontados de farmácia dos colaboradores em folha, separado por
+// colaborador/equipe/empresa, mais um comparativo com o valor efetivamente
+// pago pela Dtel à plataforma do convênio (SAP). Fonte do desconto: coluna
+// "FARMACIA" da aba Detalhamento das Base_Despesa_Trabalhista_MMAAAA.xlsx —
+// essa coluna só existe a partir de Julho/2026 (Maio/Junho não têm essa
+// informação na folha, não é que o desconto não existisse). Fonte do
+// pagamento: Beneficio Farmacia SAP.xlsx (Maio a Setembro/2026, notas
+// canceladas já excluídas). Agrupado por EQUIPE (mesmo campo/convenção usado
+// em Horas Extras/Férias/Colaboradores/Desligados). "DTEL" no comparativo já
+// soma Matriz + Filial + Goonet (mesma empresa, convenção do projeto); a
+// equipe "Instalação Marcos Bezerros" é tratada como "Planeta Net (MJ
+// Ventura)" — confirmado pela Débora que é a mesma empresa da linha "MJ
+// VENTURA" do SAP. Arquivos gerados por script (não editáveis à mão) — para
+// atualizar, reprocessar as Base_Despesa_Trabalhista do mês e a planilha do
+// SAP.
+function carregarFarmacia(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'farmacia.json'),
+    path.join(pastaDados, 'farmacia.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
+function carregarFarmaciaSapComparativo(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'farmacia_sap_comparativo.json'),
+    path.join(pastaDados, 'farmacia_sap_comparativo.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
 function extrairEstado(pastaDados) {
   const caminho = encontrarArquivoBase(pastaDados);
   if (!caminho) {
@@ -479,9 +529,11 @@ function extrairEstado(pastaDados) {
   const horasExtras = carregarHorasExtras(pastaDados);
   const ferias = carregarFerias(pastaDados);
   const colaboradores = carregarColaboradores(pastaDados);
+  const farmacia = carregarFarmacia(pastaDados);
+  const farmaciaSapComparativo = carregarFarmaciaSapComparativo(pastaDados);
   const desligados = carregarDesligados(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, farmacia, farmaciaSapComparativo, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso

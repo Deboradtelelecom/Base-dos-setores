@@ -228,6 +228,25 @@ app.get('/api/desligados', async (req, res) => {
   }
 });
 
+// Quadro "Farmácia" — desconto de farmácia em folha por colaborador/equipe/
+// empresa (Base_Despesa_Trabalhista_MMAAAA.xlsx, coluna FARMACIA, só a partir
+// de Julho/2026) e o comparativo com o valor pago ao convênio via SAP
+// (Beneficio Farmacia SAP.xlsx, Maio a Setembro/2026). Devolve o objeto
+// completo; a página faz os filtros (Mês/Equipe/Empresa/Busca) no navegador.
+app.get('/api/farmacia', async (req, res) => {
+  try {
+    const { estado, erro } = await getEstado();
+    res.json({
+      equipes: estado.farmacia || {},
+      comparativoSap: estado.farmaciaSapComparativo || {},
+      arquivoUsado: estado.arquivoUsado,
+      avisoCache: erro || null,
+    });
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -272,6 +291,10 @@ app.get('/colaboradores', (req, res) => {
 
 app.get('/desligados', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'desligados.html'));
+});
+
+app.get('/farmacia', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'farmacia.html'));
 });
 
 app.get('/', (req, res) => {
