@@ -4,61 +4,128 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Plataforma de Rateio de Custos — Dtel Telecom</title>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
 <style>
   :root {
-    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --bg-sidebar: #0a0d18; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
     --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
-    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12); --blue-glow: rgba(79,156,249,0.45);
+    --gold: #f5b642;
     --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+    --sidebar-w: 252px;
   }
   * { box-sizing:border-box; }
-  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); }
-  main { max-width:900px; margin:0 auto; padding:40px 24px 60px; }
-  .topo { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; }
-  h1 { font-size:22px; font-weight:800; color:#fff; margin:0 0 6px; }
-  p.sub { font-size:13px; color:var(--slate-500); margin:0 0 26px; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  .app { display:flex; min-height:100vh; }
+
+  /* ---------- Sidebar ---------- */
+  .sidebar { width:var(--sidebar-w); flex-shrink:0; background:var(--bg-sidebar); border-right:1px solid var(--border); position:fixed; top:0; left:0; bottom:0; overflow-y:auto; padding:20px 14px 24px; }
+  .sidebar-brand { display:flex; align-items:center; gap:10px; padding:6px 8px 18px; }
+  .sidebar-brand .logo-ico { width:34px; height:34px; border-radius:10px; background:var(--blue-soft); border:1px solid rgba(79,156,249,.35); display:flex; align-items:center; justify-content:center; color:var(--blue-accent); flex-shrink:0; }
+  .sidebar-brand .txt h1 { font-size:13px; font-weight:800; color:#fff; margin:0; line-height:1.25; }
+  .sidebar-brand .txt p { font-size:10.5px; color:var(--slate-500); margin:2px 0 0; }
+
+  .nav-section-label { font-size:10px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; color:var(--slate-400); padding:14px 10px 6px; }
+  .nav-item { display:flex; align-items:center; gap:10px; width:100%; text-align:left; background:none; border:none; color:var(--slate-700); font-size:12.5px; font-weight:600; padding:9px 10px; border-radius:9px; cursor:pointer; margin-bottom:2px; transition:background .15s, color .15s, box-shadow .15s; font-family:inherit; }
+  .nav-item svg { width:16px; height:16px; flex-shrink:0; color:var(--slate-500); transition:color .15s; }
+  .nav-item .lbl { flex:1; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .nav-item .count { font-size:10px; color:var(--slate-500); font-family:var(--mono); background:rgba(255,255,255,0.04); border-radius:999px; padding:1px 6px; }
+  .nav-item:hover { background:rgba(255,255,255,0.045); color:#fff; }
+  .nav-item:hover svg { color:var(--blue-accent); }
+  .nav-item.ativo { background:var(--blue-soft); color:#fff; box-shadow:0 0 0 1px rgba(79,156,249,.45), 0 0 14px rgba(79,156,249,.25); }
+  .nav-item.ativo svg { color:var(--blue-accent); }
+  .nav-item.ativo .count { background:rgba(79,156,249,.2); color:var(--blue-accent); }
+
+  .nav-fav-item { padding-right:6px; }
+  .nav-fav-item .star-remove { width:13px; height:13px; color:var(--gold); flex-shrink:0; }
+  .nav-favoritos-vazio { font-size:11px; color:var(--slate-500); padding:2px 10px 10px; line-height:1.5; }
+  .nav-divider { height:1px; background:var(--border-soft); margin:14px 6px; }
+
+  /* ---------- Main ---------- */
+  main { flex:1; margin-left:var(--sidebar-w); max-width:1180px; padding:32px 32px 60px; }
+  .topo { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:4px; }
+  h2.titulo-categoria { font-size:21px; font-weight:800; color:#fff; margin:0 0 4px; display:flex; align-items:center; gap:10px; }
+  h2.titulo-categoria svg { width:22px; height:22px; color:var(--blue-accent); }
+  p.sub { font-size:13px; color:var(--slate-500); margin:0 0 22px; }
   a.atalho-resumo { display:flex; align-items:center; gap:6px; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:9px 14px; text-decoration:none; color:var(--slate-800); font-size:12.5px; font-weight:700; white-space:nowrap; transition:border-color .15s, background .15s; }
   a.atalho-resumo:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
-  .status { font-size:11px; font-family:var(--mono); color:var(--slate-500); margin-bottom:20px; }
+  a.atalho-resumo svg { width:14px; height:14px; }
+  .status { font-size:11px; font-family:var(--mono); color:var(--slate-500); margin-bottom:18px; }
   .contador { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
-  .categoria-titulo { font-size:12px; font-weight:800; letter-spacing:.04em; text-transform:uppercase; color:var(--slate-500); margin:22px 0 10px; }
-  .categoria-titulo:first-of-type { margin-top:0; }
-  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(210px,1fr)); gap:12px; }
-  a.card { display:flex; align-items:center; gap:10px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; text-decoration:none; color:var(--slate-800); transition:border-color .15s, background .15s; }
-  a.card:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
-  a.card .icon { font-size:20px; }
-  a.card .nome { font-size:13px; font-weight:700; }
-  .erro { color:#f87171; font-size:12.5px; }
-  .busca-wrap { position:relative; margin-bottom:14px; }
-  .busca-wrap .lupa { position:absolute; left:14px; top:50%; transform:translateY(-50%); font-size:14px; color:var(--slate-500); pointer-events:none; }
-  #busca { width:100%; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:11px 14px 11px 38px; font-size:13.5px; color:var(--slate-800); outline:none; transition:border-color .15s; }
-  #busca:focus { border-color:var(--blue-accent); }
+
+  .busca-wrap { position:relative; margin-bottom:20px; max-width:420px; }
+  .busca-wrap svg.lupa { position:absolute; left:13px; top:50%; transform:translateY(-50%); width:15px; height:15px; color:var(--slate-500); pointer-events:none; }
+  #busca { width:100%; background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:11px 14px 11px 38px; font-size:13.5px; color:var(--slate-800); outline:none; transition:border-color .15s, box-shadow .15s; font-family:inherit; }
+  #busca:focus { border-color:var(--blue-accent); box-shadow:0 0 0 3px var(--blue-soft); }
   #busca::placeholder { color:var(--slate-400); }
-  .sem-resultado { color:var(--slate-500); font-size:12.5px; padding:6px 2px; }
+
+  .categoria-bloco { margin-bottom:28px; }
+  .categoria-titulo { font-size:11.5px; font-weight:800; letter-spacing:.05em; text-transform:uppercase; color:var(--slate-500); margin:0 0 10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(216px,1fr)); gap:12px; }
+
+  a.card { position:relative; display:flex; align-items:center; gap:12px; background:var(--bg-panel); border:1px solid var(--border); border-radius:13px; padding:15px 16px; text-decoration:none; color:var(--slate-800); transition:border-color .15s, box-shadow .15s, background .15s, transform .1s; }
+  a.card:hover, a.card:focus-visible { border-color:var(--blue-accent); background:rgba(79,156,249,0.07); box-shadow:0 0 0 1px rgba(79,156,249,.5), 0 0 18px var(--blue-glow); transform:translateY(-1px); }
+  a.card.favoritado { border-color:rgba(245,182,66,.35); }
+  a.card .icon-wrap { width:38px; height:38px; border-radius:10px; background:rgba(79,156,249,0.1); border:1px solid rgba(79,156,249,.25); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  a.card .icon-wrap svg { width:19px; height:19px; color:var(--blue-accent); }
+  a.card .nome { font-size:13px; font-weight:700; line-height:1.3; padding-right:16px; }
+  .btn-star { position:absolute; top:9px; right:9px; width:24px; height:24px; border-radius:7px; background:transparent; border:none; display:flex; align-items:center; justify-content:center; cursor:pointer; color:var(--slate-500); transition:background .15s, color .15s; }
+  .btn-star:hover { background:rgba(245,182,66,0.12); color:var(--gold); }
+  .btn-star svg { width:15px; height:15px; }
+  .btn-star.ativo svg { fill:var(--gold); color:var(--gold); }
+
+  .erro { color:#f87171; font-size:12.5px; }
+  .sem-resultado { color:var(--slate-500); font-size:12.5px; padding:16px 2px; }
+
+  @media (max-width: 860px) {
+    .sidebar { position:static; width:100%; height:auto; border-right:none; border-bottom:1px solid var(--border); }
+    .app { flex-direction:column; }
+    main { margin-left:0; padding:24px 18px 48px; }
+  }
 </style>
 </head>
 <body>
-<main>
-  <div class="topo">
-    <div>
-      <h1>Plataforma de Rateio de Custos</h1>
-      <p class="sub">Dtel Telecom — escolha o setor para ver o detalhamento de custos.</p>
+<div class="app">
+  <aside class="sidebar">
+    <div class="sidebar-brand">
+      <span class="logo-ico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></span>
+      <div class="txt">
+        <h1>Rateio de Custos</h1>
+        <p>Dtel Telecom</p>
+      </div>
     </div>
-    <a class="atalho-resumo" href="/resumo"><span>📋</span><span>Resumo dos Setores</span></a>
-  </div>
-  <div class="status" id="status">Carregando lista de setores…</div>
-  <div class="busca-wrap">
-    <span class="lupa">🔎</span>
-    <input type="text" id="busca" placeholder="Buscar setor…" autocomplete="off">
-  </div>
-  <div class="contador" id="contador"></div>
-  <div id="conteudo"></div>
-</main>
+
+    <div id="navFavoritos"></div>
+
+    <div class="nav-divider"></div>
+    <div class="nav-section-label">Setores</div>
+    <div id="navCategorias"></div>
+  </aside>
+
+  <main>
+    <div class="topo">
+      <div>
+        <h2 class="titulo-categoria" id="tituloCategoria">Todos os setores</h2>
+        <p class="sub" id="subCategoria">Dtel Telecom — escolha o setor para ver o detalhamento de custos.</p>
+      </div>
+      <a class="atalho-resumo" href="/resumo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11H3v10h6V11Z"/><path d="M15 3H9v18h6V3Z"/><path d="M21 15h-6v6h6v-6Z"/></svg><span>Resumo dos Setores</span></a>
+    </div>
+    <div class="status" id="status">Carregando lista de setores…</div>
+    <div class="busca-wrap">
+      <svg class="lupa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      <input type="text" id="busca" placeholder="Buscar setor…" autocomplete="off">
+    </div>
+    <div class="contador" id="contador"></div>
+    <div id="conteudo"></div>
+  </main>
+</div>
 <script>
 // Endereço do servidor local — usado sempre, mesmo se este arquivo for
 // aberto direto da pasta (duplo-clique), não só quando servido pela rota /.
 const API_BASE = '';
 let TODOS_ITENS = [];
+let CATEGORIA_ATIVA = 'Todos';
+const CHAVE_FAVORITOS = 'rateio_favoritos_v1';
 
 // Remove acentos e caixa para permitir buscar "atendimento" e achar
 // "Atendimento" mesmo digitando sem acento/maiúscula.
@@ -66,77 +133,220 @@ function normalizar(txt) {
   return (txt || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 }
 
-// Agrupamento visual por categoria, só pra facilitar a leitura da lista —
-// não muda nenhum link nem nenhum dado, é puramente de organização da tela.
-// Dentro de cada categoria os cards continuam em ordem alfabética.
-const ORDEM_CATEGORIAS = ['Comercial e Atendimento', 'Operações e Suporte Técnico', 'Administrativo e Financeiro', 'Visão Geral'];
+function lerFavoritos() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(CHAVE_FAVORITOS) || '[]'));
+  } catch (e) {
+    return new Set();
+  }
+}
+function salvarFavoritos(set) {
+  try {
+    localStorage.setItem(CHAVE_FAVORITOS, JSON.stringify([...set]));
+  } catch (e) { /* navegador sem localStorage disponível — favoritos não persistem, sem quebrar a tela */ }
+}
+let FAVORITOS = lerFavoritos();
 
-function renderConteudo(itens) {
+function toggleFavorito(href, ev) {
+  ev.preventDefault();
+  ev.stopPropagation();
+  if (FAVORITOS.has(href)) FAVORITOS.delete(href); else FAVORITOS.add(href);
+  salvarFavoritos(FAVORITOS);
+  renderNavFavoritos();
+  renderConteudoAtual();
+}
+
+// Agrupamento visual por categoria — não muda nenhum link nem nenhum dado,
+// é puramente de organização/navegação da tela.
+const ORDEM_CATEGORIAS = ['Comercial e Atendimento', 'Operações e Suporte Técnico', 'Administrativo e Financeiro', 'Visão Geral'];
+const ICONE_CATEGORIA = {
+  'Comercial e Atendimento': 'headset',
+  'Operações e Suporte Técnico': 'wrench',
+  'Administrativo e Financeiro': 'landmark',
+  'Visão Geral': 'layout-dashboard',
+  'Todos': 'layout-grid',
+};
+
+// Ícones (Lucide) por slug de setor — biblioteca única, mesmo traço/paleta em
+// todos os cards, em vez da mistura de emojis "3D" que tinha antes. Cobre
+// todos os slugs conhecidos hoje; qualquer setor novo cai no fallback por
+// palavra-chave do nome logo abaixo, e só na ausência de qualquer pista usa
+// o ícone genérico — nunca fica sem ícone / com bullet solto.
+const ICONE_POR_SLUG = {
+  cac: 'headset', comercial_corporativo: 'briefcase-business', gestao_de_atendimento: 'headset',
+  backoffice_comercial_varejo: 'store', marketing: 'megaphone', fique_movel: 'smartphone',
+  coe: 'radio-tower', compras: 'shopping-cart', estoque: 'package', logistica: 'truck',
+  noc: 'server-cog', oficina: 'wrench', qualidade: 'badge-check', seguranca_do_trabalho: 'hard-hat',
+  tic: 'network', administrativo: 'building-2', contabilidade: 'calculator', controladoria: 'scale',
+  dp: 'folder-cog', diretoria_adm: 'briefcase', diretoria_operacional: 'briefcase',
+  financeiro: 'landmark', juridico: 'gavel', rh: 'users', configuracao: 'settings', dev: 'code-2',
+  engenharia: 'hard-hat', projetista: 'ruler', obras: 'hammer', manutencao_predial: 'wrench',
+  cozinha: 'utensils', lancamento: 'rocket', fusao: 'git-merge', servicos_gerais: 'sparkles',
+  nrc: 'phone-call', cobranca: 'receipt', retencao: 'life-buoy', televendas: 'phone-outgoing',
+  suporte_da_central: 'headset', suporte_orbix: 'headset',
+};
+const ICONE_ESPECIAIS = {
+  'Central de Relacionamento': 'repeat', 'Engenharia': 'hard-hat', 'Gestão de Atendimento': 'headset',
+  'Comercial Varejo': 'shopping-bag', 'Resumo dos Setores': 'clipboard-list',
+  'Reembolso de Empresas Licenciadas': 'repeat-2', 'Horas Extras': 'clock', 'Férias': 'palmtree',
+  'Colaboradores': 'user-round', 'Desligados': 'user-round-x', 'Farmácia': 'pill',
+};
+// Fallback por palavra-chave no nome — pega setor novo que não esteja em
+// nenhum dos dois mapas acima sem nunca deixar ícone genérico à toa.
+const ICONE_PALAVRA_CHAVE = [
+  [/config/i, 'settings'], [/desenvolv|^dev\b/i, 'code-2'], [/financ/i, 'landmark'],
+  [/juríd|juridic/i, 'gavel'], [/contabil/i, 'calculator'], [/control/i, 'scale'],
+  [/pessoal|\bdp\b/i, 'folder-cog'], [/\brh\b|recursos human/i, 'users'], [/seguran/i, 'hard-hat'],
+  [/log[ií]stic/i, 'truck'], [/estoque/i, 'package'], [/compra/i, 'shopping-cart'],
+  [/qualidade/i, 'badge-check'], [/tic\b|tecnologia/i, 'network'], [/noc/i, 'server-cog'],
+  [/oficina/i, 'wrench'], [/marketing/i, 'megaphone'], [/vendas|comercial/i, 'briefcase-business'],
+  [/atendimento/i, 'headset'], [/varejo|loja/i, 'store'], [/diretoria/i, 'briefcase'],
+];
+const ICONE_PADRAO = 'layout-grid';
+
+function iconeSvg(nomeIcone) {
+  const attrs = window.lucide && window.lucide.icons && window.lucide.icons[toPascal(nomeIcone)] ? nomeIcone : ICONE_PADRAO;
+  return `<i data-lucide="${attrs}"></i>`;
+}
+function toPascal(kebab) {
+  return kebab.split('-').map(s => s.charAt(0).toUpperCase() + s.slice(1)).join('');
+}
+function resolverIcone(item) {
+  if (ICONE_ESPECIAIS[item.nome]) return ICONE_ESPECIAIS[item.nome];
+  if (item.slug && ICONE_POR_SLUG[item.slug]) return ICONE_POR_SLUG[item.slug];
+  for (const [regex, icone] of ICONE_PALAVRA_CHAVE) {
+    if (regex.test(item.nome)) return icone;
+  }
+  return ICONE_PADRAO;
+}
+
+const CATEGORIA_POR_SLUG = {
+  cac: 'Comercial e Atendimento', comercial_corporativo: 'Comercial e Atendimento',
+  gestao_de_atendimento: 'Comercial e Atendimento', backoffice_comercial_varejo: 'Comercial e Atendimento',
+  marketing: 'Comercial e Atendimento', fique_movel: 'Comercial e Atendimento',
+
+  coe: 'Operações e Suporte Técnico', compras: 'Operações e Suporte Técnico', estoque: 'Operações e Suporte Técnico',
+  logistica: 'Operações e Suporte Técnico', noc: 'Operações e Suporte Técnico', oficina: 'Operações e Suporte Técnico',
+  qualidade: 'Operações e Suporte Técnico', seguranca_do_trabalho: 'Operações e Suporte Técnico', tic: 'Operações e Suporte Técnico',
+
+  administrativo: 'Administrativo e Financeiro', contabilidade: 'Administrativo e Financeiro',
+  controladoria: 'Administrativo e Financeiro', dp: 'Administrativo e Financeiro',
+  diretoria_adm: 'Administrativo e Financeiro', diretoria_operacional: 'Administrativo e Financeiro',
+  financeiro: 'Administrativo e Financeiro', juridico: 'Administrativo e Financeiro', rh: 'Administrativo e Financeiro',
+  configuracao: 'Administrativo e Financeiro', dev: 'Administrativo e Financeiro',
+};
+
+function cardHtml(item) {
+  const favoritado = FAVORITOS.has(item.href);
+  return `
+    <a class="card ${favoritado ? 'favoritado' : ''}" href="${item.href}">
+      <span class="icon-wrap">${iconeSvg(resolverIcone(item))}</span>
+      <span class="nome">${item.nome}</span>
+      <button class="btn-star ${favoritado ? 'ativo' : ''}" title="${favoritado ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}" onclick="toggleFavorito('${item.href}', event)">
+        <svg viewBox="0 0 24 24" fill="${favoritado ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </button>
+    </a>`;
+}
+
+function itensDaCategoriaAtiva(baseItens) {
+  if (CATEGORIA_ATIVA === 'Todos') return baseItens;
+  if (CATEGORIA_ATIVA === '__favoritos__') return baseItens.filter((s) => FAVORITOS.has(s.href));
+  return baseItens.filter((s) => s.categoria === CATEGORIA_ATIVA);
+}
+
+function renderConteudo(termoBusca) {
+  const t = normalizar((termoBusca || '').trim());
+  let itens = itensDaCategoriaAtiva(TODOS_ITENS);
+  if (t) itens = itens.filter((s) => normalizar(s.nome).includes(t));
+
   const conteudo = document.getElementById('conteudo');
   conteudo.innerHTML = '';
   document.getElementById('contador').textContent = itens.length === 1 ? '1 setor' : itens.length + ' setores';
+
   if (itens.length === 0) {
     conteudo.innerHTML = '<div class="sem-resultado">Nenhum setor encontrado.</div>';
     return;
   }
-  ORDEM_CATEGORIAS.forEach((categoria) => {
-    const doGrupo = itens.filter((s) => s.categoria === categoria);
-    if (doGrupo.length === 0) return;
-    const titulo = document.createElement('div');
-    titulo.className = 'categoria-titulo';
-    titulo.textContent = categoria;
-    conteudo.appendChild(titulo);
+
+  if (CATEGORIA_ATIVA === 'Todos') {
+    ORDEM_CATEGORIAS.forEach((categoria) => {
+      const doGrupo = itens.filter((s) => s.categoria === categoria);
+      if (doGrupo.length === 0) return;
+      const bloco = document.createElement('div');
+      bloco.className = 'categoria-bloco';
+      bloco.innerHTML = `<div class="categoria-titulo">${categoria}</div><div class="grid">${doGrupo.map(cardHtml).join('')}</div>`;
+      conteudo.appendChild(bloco);
+    });
+  } else {
     const grid = document.createElement('div');
     grid.className = 'grid';
-    doGrupo.forEach((s) => {
-      const a = document.createElement('a');
-      a.className = 'card';
-      a.href = s.href;
-      a.innerHTML = `<span class="icon">${s.icone}</span><span class="nome">${s.nome}</span>`;
-      grid.appendChild(a);
-    });
+    grid.innerHTML = itens.map(cardHtml).join('');
     conteudo.appendChild(grid);
+  }
+
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function renderConteudoAtual() {
+  renderConteudo(document.getElementById('busca').value);
+}
+
+function selecionarCategoria(categoria) {
+  CATEGORIA_ATIVA = categoria;
+  const titulo = document.getElementById('tituloCategoria');
+  const sub = document.getElementById('subCategoria');
+  if (categoria === 'Todos') {
+    titulo.innerHTML = 'Todos os setores';
+    sub.textContent = 'Dtel Telecom — escolha o setor para ver o detalhamento de custos.';
+  } else if (categoria === '__favoritos__') {
+    titulo.innerHTML = 'Favoritos';
+    sub.textContent = 'Setores marcados com estrela para acesso rápido.';
+  } else {
+    titulo.textContent = categoria;
+    sub.textContent = 'Dtel Telecom — setores de ' + categoria + '.';
+  }
+  renderNavCategorias();
+  renderConteudoAtual();
+}
+
+function renderNavCategorias() {
+  const el = document.getElementById('navCategorias');
+  const contagem = {};
+  ORDEM_CATEGORIAS.forEach((c) => { contagem[c] = TODOS_ITENS.filter((s) => s.categoria === c).length; });
+  let html = `
+    <button class="nav-item ${CATEGORIA_ATIVA === 'Todos' ? 'ativo' : ''}" onclick="selecionarCategoria('Todos')">
+      <i data-lucide="${ICONE_CATEGORIA['Todos']}"></i><span class="lbl">Todos os setores</span><span class="count">${TODOS_ITENS.length}</span>
+    </button>`;
+  ORDEM_CATEGORIAS.forEach((categoria) => {
+    html += `
+      <button class="nav-item ${CATEGORIA_ATIVA === categoria ? 'ativo' : ''}" onclick="selecionarCategoria('${categoria}')">
+        <i data-lucide="${ICONE_CATEGORIA[categoria]}"></i><span class="lbl">${categoria}</span><span class="count">${contagem[categoria] || 0}</span>
+      </button>`;
   });
+  el.innerHTML = html;
+  if (window.lucide) window.lucide.createIcons();
 }
 
-function filtrar(termo) {
-  const t = normalizar(termo.trim());
-  if (!t) return renderConteudo(TODOS_ITENS);
-  renderConteudo(TODOS_ITENS.filter((s) => normalizar(s.nome).includes(t)));
+function renderNavFavoritos() {
+  const el = document.getElementById('navFavoritos');
+  const favoritosItens = TODOS_ITENS.filter((s) => FAVORITOS.has(s.href));
+  let html = `<div class="nav-section-label">Favoritos</div>`;
+  if (favoritosItens.length === 0) {
+    html += `<div class="nav-favoritos-vazio">Clique na estrela de um setor para fixar aqui.</div>`;
+  } else {
+    html += `<button class="nav-item ${CATEGORIA_ATIVA === '__favoritos__' ? 'ativo' : ''}" onclick="selecionarCategoria('__favoritos__')" style="margin-bottom:6px;">
+      <i data-lucide="star"></i><span class="lbl">Ver todos</span><span class="count">${favoritosItens.length}</span>
+    </button>`;
+    favoritosItens.slice(0, 6).forEach((item) => {
+      html += `<a class="nav-item nav-fav-item" href="${item.href}" style="text-decoration:none; display:flex;">
+        <i data-lucide="${resolverIcone(item)}"></i><span class="lbl">${item.nome}</span>
+        <svg class="star-remove" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      </a>`;
+    });
+  }
+  el.innerHTML = html;
+  if (window.lucide) window.lucide.createIcons();
 }
-
-// Categoria de cada setor — mapeamento manual (por slug ou nome dos itens
-// especiais), pensado pro contexto de negócio da Dtel: quem atende
-// cliente/vende de um lado, quem executa operação/suporte técnico do outro,
-// e quem é estrutura administrativa/financeira interna.
-const CATEGORIA_POR_SLUG = {
-  cac: 'Comercial e Atendimento',
-  comercial_corporativo: 'Comercial e Atendimento',
-  gestao_de_atendimento: 'Comercial e Atendimento',
-  backoffice_comercial_varejo: 'Comercial e Atendimento',
-  marketing: 'Comercial e Atendimento',
-  fique_movel: 'Comercial e Atendimento',
-
-  coe: 'Operações e Suporte Técnico',
-  compras: 'Operações e Suporte Técnico',
-  estoque: 'Operações e Suporte Técnico',
-  logistica: 'Operações e Suporte Técnico',
-  noc: 'Operações e Suporte Técnico',
-  oficina: 'Operações e Suporte Técnico',
-  qualidade: 'Operações e Suporte Técnico',
-  seguranca_do_trabalho: 'Operações e Suporte Técnico',
-  tic: 'Operações e Suporte Técnico',
-
-  administrativo: 'Administrativo e Financeiro',
-  contabilidade: 'Administrativo e Financeiro',
-  controladoria: 'Administrativo e Financeiro',
-  dp: 'Administrativo e Financeiro',
-  diretoria_adm: 'Administrativo e Financeiro',
-  diretoria_operacional: 'Administrativo e Financeiro',
-  financeiro: 'Administrativo e Financeiro',
-  juridico: 'Administrativo e Financeiro',
-  rh: 'Administrativo e Financeiro',
-};
 
 async function carregar() {
   const statusEl = document.getElementById('status');
@@ -157,37 +367,35 @@ async function carregar() {
       'gestao_de_atendimento', 'cac', 'backoffice_comercial_varejo',
     ]);
 
-    // "Resumo dos Setores" e "Comercial Varejo" não são um setor individual
-    // (são visões diferentes: uma agregada, outra por equipe de vendas em vez
-    // de setor) — mas a Débora prefere ver todos juntos, em ordem alfabética
-    // dentro de cada categoria, em vez de destacados à parte.
     const itens = data.setores
       .filter((s) => !SLUGS_AGRUPADOS.has(s.slug))
       .map((s) => ({
-        nome: s.nome, icone: s.icone, href: API_BASE + '/setor/' + s.slug,
+        nome: s.nome, slug: s.slug, href: API_BASE + '/setor/' + s.slug,
         categoria: CATEGORIA_POR_SLUG[s.slug] || 'Administrativo e Financeiro',
       }));
-    itens.push({ nome: 'Central de Relacionamento', icone: '🔄', href: API_BASE + '/central-relacionamento', categoria: 'Comercial e Atendimento' });
-    itens.push({ nome: 'Engenharia', icone: '🏗️', href: API_BASE + '/engenharia-grupo', categoria: 'Operações e Suporte Técnico' });
-    itens.push({ nome: 'Gestão de Atendimento', icone: '🎧', href: API_BASE + '/gestao-atendimento', categoria: 'Comercial e Atendimento' });
-    itens.push({ nome: 'Comercial Varejo', icone: '🛍️', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
-    itens.push({ nome: 'Resumo dos Setores', icone: '📋', href: API_BASE + '/resumo', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Reembolso de Empresas Licenciadas', icone: '🔁', href: API_BASE + '/reembolso-geral', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Horas Extras', icone: '⏱️', href: API_BASE + '/horas-extras', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Férias', icone: '🏖️', href: API_BASE + '/ferias', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Colaboradores', icone: '🧑‍💼', href: API_BASE + '/colaboradores', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Desligados', icone: '🔴', href: API_BASE + '/desligados', categoria: 'Visão Geral' });
-    itens.push({ nome: 'Farmácia', icone: '💊', href: API_BASE + '/farmacia', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Central de Relacionamento', href: API_BASE + '/central-relacionamento', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Engenharia', href: API_BASE + '/engenharia-grupo', categoria: 'Operações e Suporte Técnico' });
+    itens.push({ nome: 'Gestão de Atendimento', href: API_BASE + '/gestao-atendimento', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Comercial Varejo', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
+    itens.push({ nome: 'Resumo dos Setores', href: API_BASE + '/resumo', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Reembolso de Empresas Licenciadas', href: API_BASE + '/reembolso-geral', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Horas Extras', href: API_BASE + '/horas-extras', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Férias', href: API_BASE + '/ferias', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Colaboradores', href: API_BASE + '/colaboradores', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Desligados', href: API_BASE + '/desligados', categoria: 'Visão Geral' });
+    itens.push({ nome: 'Farmácia', href: API_BASE + '/farmacia', categoria: 'Visão Geral' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
     TODOS_ITENS = itens;
-    filtrar(document.getElementById('busca').value);
+    renderNavFavoritos();
+    renderNavCategorias();
+    renderConteudoAtual();
   } catch (e) {
     statusEl.innerHTML = '<span class="erro">Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')</span>';
   }
 }
 
-document.getElementById('busca').addEventListener('input', (e) => filtrar(e.target.value));
+document.getElementById('busca').addEventListener('input', (e) => renderConteudo(e.target.value));
 carregar();
 </script>
 </body>
