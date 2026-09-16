@@ -262,9 +262,12 @@ function renderComparativo() {
   wrap.innerHTML = meses.map((mes) => {
     const linhas = COMPARATIVO[mes];
     const linhasHtml = linhas.map(l => {
-      const semValor = l.pagoSap === null && l.descontadoFolha === null;
-      const bateCerto = !semValor && l.diferenca !== null && Math.abs(l.diferenca) < 0.01;
-      const diffClass = semValor ? '' : (bateCerto ? 'match' : (l.diferenca === null ? '' : (l.diferenca > 0 ? 'pos' : (l.diferenca < 0 ? 'neg' : 'match'))));
+      // Só dá pra comparar de verdade quando os dois lados têm valor. Se
+      // faltar um dos dois (null), fica neutro/branco — não é nem "bateu"
+      // nem "faltou", é "não tem o que comparar ainda".
+      const semComparacao = l.pagoSap === null || l.descontadoFolha === null;
+      const bateCerto = !semComparacao && Math.abs(l.diferenca) < 0.01;
+      const diffClass = semComparacao ? '' : (bateCerto ? 'match' : (l.diferenca < 0 ? 'neg' : 'pos'));
       const classePago = l.pagoSap === null ? '' : diffClass;
       const classeDesc = l.descontadoFolha === null ? '' : diffClass;
       return `
