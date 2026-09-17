@@ -1,0 +1,354 @@
+{
+  "Maio/2026": [
+    {
+      "empresa": "DMAIS",
+      "ctTotal": 298307.08,
+      "totalEncargos": 116737.5,
+      "custoTotal": 473048.74,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "DTEL",
+      "ctTotal": 1417585.93,
+      "totalEncargos": 553593.59,
+      "custoTotal": 2246821.23,
+      "pctRemuneracaoBruta": 63.09,
+      "pctEncargosTributos": 24.64
+    },
+    {
+      "empresa": "DX2",
+      "ctTotal": 86183.61,
+      "totalEncargos": 33726.52,
+      "custoTotal": 136668.05,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Orbix",
+      "ctTotal": 341181.9,
+      "totalEncargos": 133515.85,
+      "custoTotal": 541038.68,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "ctTotal": 235493.21,
+      "totalEncargos": 92156.34,
+      "custoTotal": 373439.9,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Soares & Lins",
+      "ctTotal": 33251.95,
+      "totalEncargos": 13012.6,
+      "custoTotal": 52730.21,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Soares & Silva",
+      "ctTotal": 117000.06,
+      "totalEncargos": 45786.02,
+      "custoTotal": 185536.09,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Solon Araújo",
+      "ctTotal": 124303.23,
+      "totalEncargos": 48644.0,
+      "custoTotal": 197117.31,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Souza & Silva",
+      "ctTotal": 42494.74,
+      "totalEncargos": 16629.61,
+      "custoTotal": 67387.21,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Speed Line",
+      "ctTotal": 188441.56,
+      "totalEncargos": 73743.46,
+      "custoTotal": 298826.44,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Voicenet",
+      "ctTotal": 52205.16,
+      "totalEncargos": 20429.62,
+      "custoTotal": 82785.79,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    }
+  ],
+  "Junho/2026": [
+    {
+      "empresa": "DMAIS",
+      "ctTotal": 338389.28,
+      "totalEncargos": 132423.01,
+      "custoTotal": 536610.2,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "DTEL",
+      "ctTotal": 1705132.35,
+      "totalEncargos": 667146.79,
+      "custoTotal": 2703832.65,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.67
+    },
+    {
+      "empresa": "DX2",
+      "ctTotal": 99587.71,
+      "totalEncargos": 38971.99,
+      "custoTotal": 157923.98,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Orbix",
+      "ctTotal": 402886.97,
+      "totalEncargos": 157663.1,
+      "custoTotal": 638889.2,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "ctTotal": 211544.46,
+      "totalEncargos": 82784.4,
+      "custoTotal": 335462.5,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Soares & Lins",
+      "ctTotal": 31342.16,
+      "totalEncargos": 12265.23,
+      "custoTotal": 49701.7,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Soares & Silva",
+      "ctTotal": 133726.83,
+      "totalEncargos": 52331.77,
+      "custoTotal": 212061.03,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Solon Araújo",
+      "ctTotal": 135773.28,
+      "totalEncargos": 53132.61,
+      "custoTotal": 215306.25,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Souza & Silva",
+      "ctTotal": 49005.95,
+      "totalEncargos": 19177.66,
+      "custoTotal": 77712.54,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Speed Line",
+      "ctTotal": 245240.53,
+      "totalEncargos": 95970.79,
+      "custoTotal": 388896.98,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Voicenet",
+      "ctTotal": 55047.47,
+      "totalEncargos": 21541.91,
+      "custoTotal": 87293.05,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    }
+  ],
+  "Julho/2026": [
+    {
+      "empresa": "DMAIS",
+      "ctTotal": 85321.21,
+      "totalEncargos": 33389.03,
+      "custoTotal": 127379.8,
+      "pctRemuneracaoBruta": 66.98,
+      "pctEncargosTributos": 26.21
+    },
+    {
+      "empresa": "DTEL",
+      "ctTotal": 2581479.25,
+      "totalEncargos": 1009035.03,
+      "custoTotal": 4072684.58,
+      "pctRemuneracaoBruta": 63.39,
+      "pctEncargosTributos": 24.78
+    },
+    {
+      "empresa": "DX2",
+      "ctTotal": 86765.48,
+      "totalEncargos": 33954.22,
+      "custoTotal": 136309.51,
+      "pctRemuneracaoBruta": 63.65,
+      "pctEncargosTributos": 24.91
+    },
+    {
+      "empresa": "Orbix",
+      "ctTotal": 102998.15,
+      "totalEncargos": 40306.61,
+      "custoTotal": 154917.0,
+      "pctRemuneracaoBruta": 66.49,
+      "pctEncargosTributos": 26.02
+    },
+    {
+      "empresa": "Planeta Net (MJ Ventura)",
+      "ctTotal": 1870.64,
+      "totalEncargos": 732.04,
+      "custoTotal": 2966.42,
+      "pctRemuneracaoBruta": 63.06,
+      "pctEncargosTributos": 24.68
+    },
+    {
+      "empresa": "Soares & Lins",
+      "ctTotal": 31832.47,
+      "totalEncargos": 12457.11,
+      "custoTotal": 49990.37,
+      "pctRemuneracaoBruta": 63.68,
+      "pctEncargosTributos": 24.92
+    },
+    {
+      "empresa": "Soares & Silva",
+      "ctTotal": 136171.76,
+      "totalEncargos": 53288.55,
+      "custoTotal": 214643.87,
+      "pctRemuneracaoBruta": 63.44,
+      "pctEncargosTributos": 24.83
+    },
+    {
+      "empresa": "Solon Araújo",
+      "ctTotal": 140888.06,
+      "totalEncargos": 55134.19,
+      "custoTotal": 221708.97,
+      "pctRemuneracaoBruta": 63.55,
+      "pctEncargosTributos": 24.87
+    },
+    {
+      "empresa": "Souza & Silva",
+      "ctTotal": 47413.72,
+      "totalEncargos": 18554.57,
+      "custoTotal": 74721.28,
+      "pctRemuneracaoBruta": 63.45,
+      "pctEncargosTributos": 24.83
+    },
+    {
+      "empresa": "Speed Line",
+      "ctTotal": 28188.34,
+      "totalEncargos": 11031.04,
+      "custoTotal": 42127.88,
+      "pctRemuneracaoBruta": 66.91,
+      "pctEncargosTributos": 26.18
+    },
+    {
+      "empresa": "Voicenet",
+      "ctTotal": 60820.06,
+      "totalEncargos": 23800.92,
+      "custoTotal": 95999.45,
+      "pctRemuneracaoBruta": 63.35,
+      "pctEncargosTributos": 24.79
+    }
+  ],
+  "Agosto/2026": [
+    {
+      "empresa": "DMAIS",
+      "ctTotal": 11692.0,
+      "totalEncargos": 4575.47,
+      "custoTotal": 18033.67,
+      "pctRemuneracaoBruta": 64.83,
+      "pctEncargosTributos": 25.37
+    },
+    {
+      "empresa": "DTEL",
+      "ctTotal": 3118444.57,
+      "totalEncargos": 1218357.17,
+      "custoTotal": 4914597.53,
+      "pctRemuneracaoBruta": 63.45,
+      "pctEncargosTributos": 24.79
+    },
+    {
+      "empresa": "DX2",
+      "ctTotal": 91124.09,
+      "totalEncargos": 35659.89,
+      "custoTotal": 142868.66,
+      "pctRemuneracaoBruta": 63.78,
+      "pctEncargosTributos": 24.96
+    },
+    {
+      "empresa": "Orbix",
+      "ctTotal": 16483.34,
+      "totalEncargos": 6450.48,
+      "custoTotal": 25094.22,
+      "pctRemuneracaoBruta": 65.69,
+      "pctEncargosTributos": 25.71
+    },
+    {
+      "empresa": "Soares & Lins",
+      "ctTotal": 31806.38,
+      "totalEncargos": 12446.9,
+      "custoTotal": 49658.45,
+      "pctRemuneracaoBruta": 64.05,
+      "pctEncargosTributos": 25.07
+    },
+    {
+      "empresa": "Soares & Silva",
+      "ctTotal": 154736.6,
+      "totalEncargos": 60553.59,
+      "custoTotal": 243127.24,
+      "pctRemuneracaoBruta": 63.64,
+      "pctEncargosTributos": 24.91
+    },
+    {
+      "empresa": "Solon Araújo",
+      "ctTotal": 144692.18,
+      "totalEncargos": 56622.87,
+      "custoTotal": 227806.27,
+      "pctRemuneracaoBruta": 63.52,
+      "pctEncargosTributos": 24.86
+    },
+    {
+      "empresa": "Souza & Silva",
+      "ctTotal": 48277.66,
+      "totalEncargos": 18892.66,
+      "custoTotal": 75518.11,
+      "pctRemuneracaoBruta": 63.93,
+      "pctEncargosTributos": 25.02
+    },
+    {
+      "empresa": "Speed Line",
+      "ctTotal": 13555.76,
+      "totalEncargos": 5304.82,
+      "custoTotal": 21207.06,
+      "pctRemuneracaoBruta": 63.92,
+      "pctEncargosTributos": 25.01
+    },
+    {
+      "empresa": "Voicenet",
+      "ctTotal": 71681.16,
+      "totalEncargos": 28051.23,
+      "custoTotal": 112428.54,
+      "pctRemuneracaoBruta": 63.76,
+      "pctEncargosTributos": 24.95
+    }
+  ]
+}

@@ -53,7 +53,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="period-row" style="margin-top:0; justify-content:flex-end;">
     <span class="status-txt" id="statusTxt">—</span>
   </div>
@@ -89,6 +89,19 @@
       </table>
     </div>
 
+    <div class="section-card">
+      <h3>% de Encargos e Tributos da Folha, por Empresa</h3>
+      <p class="subtle">Da Remuneração Bruta (CT Total) até o Custo Total de cada colaborador incluído no Custo Trabalhista do mês: qual fatia é salário e qual fatia é FGTS + INSS Patronal + RAT/GILRAT + Terceiros + Provisão de Multa Rescisória. As duas colunas somam 100%.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Empresa</th><th style="text-align:right;">Remuneração Bruta (R$)</th><th style="text-align:right;">Encargos e Tributos (R$)</th><th style="text-align:right;">Custo Total (R$)</th><th style="text-align:right;">% Remuneração Bruta</th><th style="text-align:right;">% Encargos e Tributos</th>
+          </tr>
+        </thead>
+        <tbody id="encargosBody"></tbody>
+      </table>
+    </div>
+
     <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos — quando a planilha for atualizada, este painel reflete os números novos sozinho, sem precisar recarregar a página manualmente. Painel apenas demonstrativo — a edição dos valores continua sendo feita na planilha original.</p>
   </div>
 </main>
@@ -96,6 +109,10 @@
 const API_BASE = '';
 let DADOS = null;
 let MESES_DISPONIVEIS = [];
+
+function fmtPct(n) {
+  return (n === null || n === undefined) ? '—' : n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + '%';
+}
 
 function fmtBRL(n) {
   return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -118,6 +135,19 @@ function renderTudo() {
     body.appendChild(tr);
   });
   document.getElementById("totalGeralFooter").textContent = fmtBRL(totalGeral);
+
+  const encargosBody = document.getElementById("encargosBody");
+  encargosBody.innerHTML = "";
+  const linhasEncargos = (DADOS.encargosFolhaPercentual && DADOS.encargosFolhaPercentual[mes]) || [];
+  if (!linhasEncargos.length) {
+    encargosBody.innerHTML = '<tr><td colspan="6" style="color:var(--slate-500);">Sem dado de encargos pra esse mês.</td></tr>';
+  } else {
+    linhasEncargos.forEach((l) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td class="nome">${l.empresa}</td><td class="val">${fmtBRL(l.ctTotal)}</td><td class="val">${fmtBRL(l.totalEncargos)}</td><td class="val">${fmtBRL(l.custoTotal)}</td><td class="val">${fmtPct(l.pctRemuneracaoBruta)}</td><td class="val">${fmtPct(l.pctEncargosTributos)}</td>`;
+      encargosBody.appendChild(tr);
+    });
+  }
 }
 
 async function buscarDados() {

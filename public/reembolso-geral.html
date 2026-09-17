@@ -86,7 +86,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="period-row">
     <button class="btn-exportar" id="btnExportar" onclick="exportarExcel()">⬇ Baixar em Excel</button>
     <span class="status-txt" id="statusTxt">—</span>

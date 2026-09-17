@@ -128,7 +128,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="period-row" style="margin-top:0; justify-content:flex-end; align-items:center; gap:20px;">
     <span class="top-stat">Custo Unitário do Setor: <span class="top-stat-value">R$ <span id="setorCustoUnitario">0,00</span></span> <span class="unidade">/ un</span></span>
     <span class="status-txt" id="statusTxt">—</span>

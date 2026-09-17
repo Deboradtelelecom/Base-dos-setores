@@ -264,6 +264,41 @@ function carregarFarmaciaSapComparativo(pastaDados) {
   return {};
 }
 
+// "% de Encargos e Tributos da Folha" — quadro à parte (17/09/2026), pedido
+// da Débora: para cada empresa e mês, a fatia do Custo Total que é
+// Remuneração Bruta (CT TOTAL ÷ CUSTO TOTAL) e a fatia que é Encargos e
+// Tributos (TOTAL ENCARGOS ÷ CUSTO TOTAL — FGTS + INSS Patronal + RAT/GILRAT
+// + Terceiros + Provisão de Multa Rescisória), as duas somando 100%. Fonte:
+// aba "Custo Trabalhista" das Base_Despesa_Trabalhista_MMAAAA.xlsx (Maio a
+// Agosto/2026), só linhas com "INCLUI CT?" = SIM. Nomes de empresa
+// normalizados para a mesma convenção já usada no comparativo de Farmácia
+// (Goonet e "DTEL Filial Alagoas" somados em "DTEL"; "Litoral Net" = "Solon
+// Araújo", confirmado pela Débora; "Planeta Net"/"MJ Ventura" = "Planeta Net
+// (MJ Ventura)"; "Speed" = "Speed Line"). Duas variações de nome em
+// Maio/Junho/2026 foram mapeadas por aproximação, sem confirmação explícita
+// da Débora — "Soares & Silva Maceió" → "Soares & Silva" (provável filial,
+// mesma linha de raciocínio já usada pra essa empresa no projeto) e "Souza e
+// Oliveira" → "Souza & Silva" (nome mais antigo da mesma empresa?) — avisar
+// se algum dia bater alguma divergência de valor pra confirmar com ela.
+// Arquivo gerado por script (não editável à mão) — para atualizar,
+// reprocessar as Base_Despesa_Trabalhista do mês.
+function carregarEncargosFolhaPercentual(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'encargos_folha_percentual.json'),
+    path.join(pastaDados, 'encargos_folha_percentual.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
 function extrairEstado(pastaDados) {
   const caminho = encontrarArquivoBase(pastaDados);
   if (!caminho) {
@@ -533,8 +568,9 @@ function extrairEstado(pastaDados) {
   const farmacia = carregarFarmacia(pastaDados);
   const farmaciaSapComparativo = carregarFarmaciaSapComparativo(pastaDados);
   const desligados = carregarDesligados(pastaDados);
+  const encargosFolhaPercentual = carregarEncargosFolhaPercentual(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, farmacia, farmaciaSapComparativo, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, farmacia, farmaciaSapComparativo, encargosFolhaPercentual, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso

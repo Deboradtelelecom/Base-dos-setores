@@ -32,6 +32,7 @@
 
   table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:640px; }
   thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  thead th.val { text-align:right; }
   tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
   tbody td.val { text-align:right; font-weight:700; color:#fff; font-family:var(--mono); white-space:nowrap; }
   tbody td.pos { color:var(--warn); }
@@ -48,7 +49,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="period-row">
     <span class="status-txt" id="statusTxt">—</span>
   </div>
@@ -69,7 +70,7 @@
         <button class="btn-excel-mini" onclick="baixarExcelComparativo()">⬇ Excel</button>
       </div>
       <p class="section-nota">
-        "Pago SAP" = valor da nota/boleto do benefício saúde farmácia, lançado no SAP por empresa/mês (fonte: Beneficio Farmacia SAP.xlsx; notas canceladas já excluídas). "Descontado em Folha" = soma do desconto FARMACIA na folha de pagamento daquele mês/empresa. A coluna FARMACIA só existe na folha a partir de <strong>Julho/2026</strong> — Maio e Junho/2026 aparecem só com o lado do SAP preenchido (não significa que não houve desconto, é que a folha desses meses não tem essa informação). "DTEL" aqui já soma Matriz + Filial + Goonet (mesma empresa, convenção do projeto). A linha "Planeta Net (MJ Ventura)" é a equipe Instalação Marcos Bezerros, identificada pela Débora como a mesma "MJ Ventura" do SAP. Empresas licenciadas com desconto na folha mas sem nota correspondente no SAP (DX2, Soares e Lins, Soares e Silva, Solon Araújo, Souza e Silva, Voicenet, Speed Line) aparecem com "Pago SAP" em branco — não há pagamento registrado nessa planilha do SAP para elas.
+        "Pago SAP" = valor da nota/boleto do benefício saúde farmácia pago no SAP no <strong>mês anterior</strong> ao mês exibido — ex.: um pagamento lançado em Abril/2026 aparece aqui na linha de Maio/2026, comparado com o desconto da folha de Maio (fonte: Beneficio Farmacia SAP.xlsx; notas canceladas já excluídas). "Descontado em Folha" = soma do desconto FARMACIA na folha de pagamento daquele mesmo mês/empresa exibido na linha. A coluna FARMACIA só existe na folha a partir de <strong>Julho/2026</strong> — Maio e Junho/2026 aparecem só com o lado do SAP preenchido (não significa que não houve desconto, é que a folha desses meses não tem essa informação). "DTEL" aqui já soma Matriz + Filial + Goonet (mesma empresa, convenção do projeto). A linha "Planeta Net (MJ Ventura)" é a equipe Instalação Marcos Bezerros, identificada pela Débora como a mesma "MJ Ventura" do SAP. Empresas licenciadas com desconto na folha mas sem nota correspondente no SAP (DX2, Soares e Lins, Soares e Silva, Solon Araújo, Souza e Silva, Voicenet, Speed Line) aparecem com "Pago SAP" em branco — não há pagamento registrado nessa planilha do SAP para elas.
       </p>
       <div id="comparativoWrap"></div>
     </div>
@@ -116,7 +117,7 @@ function renderComparativo() {
         <div style="font-size:12.5px; font-weight:800; color:#fff; margin-bottom:8px; padding-left:10px;">${mes}</div>
         <div style="overflow-x:auto;">
           <table>
-            <thead><tr><th>Empresa</th><th>Pago SAP</th><th>Descontado em Folha</th><th>Diferença (Pago − Descontado)</th></tr></thead>
+            <thead><tr><th>Empresa</th><th class="val">Pago SAP</th><th class="val">Descontado em Folha</th><th class="val">Diferença (Pago − Descontado)</th></tr></thead>
             <tbody>${linhasHtml}</tbody>
           </table>
         </div>

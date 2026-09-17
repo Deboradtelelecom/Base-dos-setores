@@ -125,7 +125,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="setor-nav" id="setorNav" style="display:none;">
     <button id="btnSetorAnterior" title="Setor anterior">
       <svg class="seta" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"></path></svg>

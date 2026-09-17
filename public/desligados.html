@@ -80,7 +80,7 @@
 </head>
 <body>
 <main>
-  <a class="voltar" href="/">&larr; Todos os setores</a>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
   <div class="period-row">
     <span class="status-txt" id="statusTxt">—</span>
     <a class="link-relacionado" href="/colaboradores">🟢 Ver Colaboradores Ativos &rarr;</a>

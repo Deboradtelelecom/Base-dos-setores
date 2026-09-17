@@ -115,6 +115,7 @@ app.get('/api/resumo-setores', async (req, res) => {
     res.json({
       setores: lista,
       mesesDisponiveis: estado.mesesDisponiveis,
+      encargosFolhaPercentual: estado.encargosFolhaPercentual || {},
       arquivoUsado: estado.arquivoUsado,
       avisoCache: erro || null,
     });
