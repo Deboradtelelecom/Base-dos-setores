@@ -9147,264 +9147,128 @@
     "gestao_de_atendimento": {
       "Maio/2026": [
         {
-          "nome": "Iris Beatriz Silveira Marques (Backoffice De Atendimento Junior)",
-          "valor": 4728.31,
-          "encargos": {
-            "salarioBase": 2981.7,
-            "umDozeAvosFerias": 331.3,
-            "umDozeAvosDecimoTerceiro": 248.47,
-            "fgts": 238.54,
-            "inssPatronal": 596.34,
-            "ratGilrat": 59.63,
-            "terceiros": 172.94,
-            "provisaoMultaRescisoria": 99.39,
-            "totalEncargos": 1166.84,
-            "custoTotal": 4728.31
-          }
+          "nome": "Amanda Soares De Farias",
+          "valor": 3773.64
         },
         {
-          "nome": "Arlen Duarte Dos Santos (Backoffice De Atendimento Junior)",
-          "valor": 4902.75,
-          "encargos": {
-            "salarioBase": 3091.7,
-            "umDozeAvosFerias": 343.52,
-            "umDozeAvosDecimoTerceiro": 257.64,
-            "fgts": 247.34,
-            "inssPatronal": 618.34,
-            "ratGilrat": 61.83,
-            "terceiros": 179.32,
-            "provisaoMultaRescisoria": 103.06,
-            "totalEncargos": 1209.89,
-            "custoTotal": 4902.75
-          }
+          "nome": "Arlen Duarte Dos Santos",
+          "valor": 4902.75
         },
         {
-          "nome": "Kayron Fillipe Sales Da Silva (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Everton Ezequiel De Lima Almeida",
+          "valor": 1631.79
         },
         {
-          "nome": "Everton Ezequiel De Lima Almeida (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Gabriel Bernardes Agostinho Da Silva",
+          "valor": 3878.3
         },
         {
-          "nome": "Deygena Rosa De Lima (Backoffice Junior)",
-          "valor": 2867.45,
-          "encargos": {
-            "salarioBase": 1808.23,
-            "umDozeAvosFerias": 200.91,
-            "umDozeAvosDecimoTerceiro": 150.69,
-            "fgts": 144.66,
-            "inssPatronal": 361.65,
-            "ratGilrat": 36.16,
-            "terceiros": 104.88,
-            "provisaoMultaRescisoria": 60.27,
-            "totalEncargos": 707.62,
-            "custoTotal": 2867.45
-          }
+          "nome": "Hugo Esteves Martins De Souza",
+          "valor": 1785.11
+        },
+        {
+          "nome": "Kayron Fillipe Sales Da Silva",
+          "valor": 1631.79
+        },
+        {
+          "nome": "Iris Beatriz Silveira Marques",
+          "valor": 4728.31
+        },
+        {
+          "nome": "Lindivania Silva De Lucena",
+          "valor": 3913.15
+        },
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 4108.04
         }
       ],
       "Junho/2026": [
         {
-          "nome": "Iris Beatriz Silveira Marques (Backoffice De Atendimento Junior)",
-          "valor": 6342.76,
-          "encargos": {
-            "salarioBase": 3999.78,
-            "umDozeAvosFerias": 444.42,
-            "umDozeAvosDecimoTerceiro": 333.32,
-            "fgts": 319.98,
-            "inssPatronal": 799.96,
-            "ratGilrat": 80,
-            "terceiros": 231.99,
-            "provisaoMultaRescisoria": 133.33,
-            "totalEncargos": 1565.25,
-            "custoTotal": 6342.76
-          }
+          "nome": "Amanda Soares De Farias",
+          "valor": 3436.46
         },
         {
-          "nome": "Arlen Duarte Dos Santos (Backoffice De Atendimento Junior)",
-          "valor": 5227.9,
-          "encargos": {
-            "salarioBase": 3296.74,
-            "umDozeAvosFerias": 366.3,
-            "umDozeAvosDecimoTerceiro": 274.73,
-            "fgts": 263.74,
-            "inssPatronal": 659.35,
-            "ratGilrat": 65.93,
-            "terceiros": 191.21,
-            "provisaoMultaRescisoria": 109.89,
-            "totalEncargos": 1290.13,
-            "custoTotal": 5227.9
-          }
+          "nome": "Arlen Duarte Dos Santos",
+          "valor": 5227.9
         },
         {
-          "nome": "Kayron Fillipe Sales Da Silva (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Everton Ezequiel De Lima Almeida",
+          "valor": 3447.91
         },
         {
-          "nome": "Everton Ezequiel De Lima Almeida (Backoffice De Atendimento)",
-          "valor": 3447.91,
-          "encargos": {
-            "salarioBase": 2174.27,
-            "umDozeAvosFerias": 241.59,
-            "umDozeAvosDecimoTerceiro": 181.19,
-            "fgts": 173.94,
-            "inssPatronal": 434.85,
-            "ratGilrat": 43.49,
-            "terceiros": 126.11,
-            "provisaoMultaRescisoria": 72.48,
-            "totalEncargos": 850.86,
-            "custoTotal": 3447.91
-          }
+          "nome": "Gabriel Bernardes Agostinho Da Silva",
+          "valor": 4136.74
         },
         {
-          "nome": "Deygena Rosa De Lima (Backoffice Junior)",
-          "valor": 3184.85,
-          "encargos": {
-            "salarioBase": 2008.39,
-            "umDozeAvosFerias": 223.15,
-            "umDozeAvosDecimoTerceiro": 167.37,
-            "fgts": 160.67,
-            "inssPatronal": 401.68,
-            "ratGilrat": 40.17,
-            "terceiros": 116.49,
-            "provisaoMultaRescisoria": 66.95,
-            "totalEncargos": 785.95,
-            "custoTotal": 3184.85
-          }
+          "nome": "Hugo Esteves Martins De Souza",
+          "valor": 3308.06
+        },
+        {
+          "nome": "Kayron Fillipe Sales Da Silva",
+          "valor": 1631.79
+        },
+        {
+          "nome": "Iris Beatriz Silveira Marques",
+          "valor": 6342.76
+        },
+        {
+          "nome": "Lindivania Silva De Lucena",
+          "valor": 3361.27
+        },
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 4061.41
         }
       ],
       "Julho/2026": [
         {
-          "nome": "Iris Beatriz Silveira Marques (Backoffice De Atendimento Junior)",
-          "valor": 4791.74,
-          "encargos": {
-            "salarioBase": 3021.7,
-            "umDozeAvosFerias": 335.74,
-            "umDozeAvosDecimoTerceiro": 251.81,
-            "fgts": 241.74,
-            "inssPatronal": 604.34,
-            "ratGilrat": 60.43,
-            "terceiros": 175.26,
-            "provisaoMultaRescisoria": 100.72,
-            "totalEncargos": 1182.49,
-            "custoTotal": 4791.74
-          }
+          "nome": "Amanda Soares De Farias",
+          "valor": 3906.77
         },
         {
-          "nome": "Arlen Duarte Dos Santos (Backoffice De Atendimento Junior)",
-          "valor": 7109.14,
-          "encargos": {
-            "salarioBase": 4483.06,
-            "umDozeAvosFerias": 498.12,
-            "umDozeAvosDecimoTerceiro": 373.59,
-            "fgts": 358.64,
-            "inssPatronal": 896.61,
-            "ratGilrat": 89.66,
-            "terceiros": 260.02,
-            "provisaoMultaRescisoria": 149.44,
-            "totalEncargos": 1754.37,
-            "custoTotal": 7109.14
-          }
+          "nome": "Arlen Duarte Dos Santos",
+          "valor": 6691.36
         },
         {
-          "nome": "Kayron Fillipe Sales Da Silva (Auxiliar Administrativo ( Jovem Aprendiz)",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Celio Marcio Da Silva",
+          "valor": 1606.58
         },
         {
-          "nome": "Lucas Kaua Silva Dos Santos (Auxiliar Administrativo ( Jovem Aprendiz)",
-          "valor": 1278.16,
-          "encargos": {
-            "salarioBase": 837.71,
-            "umDozeAvosFerias": 93.08,
-            "umDozeAvosDecimoTerceiro": 69.81,
-            "fgts": 16.75,
-            "inssPatronal": 167.54,
-            "ratGilrat": 16.75,
-            "terceiros": 48.59,
-            "provisaoMultaRescisoria": 27.92,
-            "totalEncargos": 277.56,
-            "custoTotal": 1278.16
-          }
+          "nome": "Everton Ezequiel De Lima Almeida",
+          "valor": 3454.25
         },
         {
-          "nome": "Everton Ezequiel De Lima Almeida (Backoffice De Atendimento)",
-          "valor": 3454.25,
-          "encargos": {
-            "salarioBase": 2178.27,
-            "umDozeAvosFerias": 242.03,
-            "umDozeAvosDecimoTerceiro": 181.52,
-            "fgts": 174.26,
-            "inssPatronal": 435.65,
-            "ratGilrat": 43.57,
-            "terceiros": 126.34,
-            "provisaoMultaRescisoria": 72.61,
-            "totalEncargos": 852.43,
-            "custoTotal": 3454.25
-          }
+          "nome": "Gabriel Bernardes Agostinho Da Silva",
+          "valor": 4098.11
         },
         {
-          "nome": "Deygena Rosa De Lima (Backoffice Junior)",
-          "valor": 4223.16,
-          "encargos": {
-            "salarioBase": 2663.15,
-            "umDozeAvosFerias": 295.91,
-            "umDozeAvosDecimoTerceiro": 221.93,
-            "fgts": 213.05,
-            "inssPatronal": 532.63,
-            "ratGilrat": 53.26,
-            "terceiros": 154.46,
-            "provisaoMultaRescisoria": 88.77,
-            "totalEncargos": 1042.18,
-            "custoTotal": 4223.16
-          }
+          "nome": "Hugo Esteves Martins De Souza",
+          "valor": 3448.46
+        },
+        {
+          "nome": "Iris Beatriz Silveira Marques",
+          "valor": 4791.74
+        },
+        {
+          "nome": "Kayron Fillipe Sales Da Silva",
+          "valor": 1631.79
+        },
+        {
+          "nome": "Lindivania Silva De Lucena",
+          "valor": 3157.19
+        },
+        {
+          "nome": "Lucas Kaua Silva Dos Santos",
+          "valor": 1278.16
+        },
+        {
+          "nome": "Matheus Vinicius De Melo Dias Silva",
+          "valor": 1278.17
+        },
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 4005.25
         }
       ],
       "Agosto/2026": [
@@ -9569,22 +9433,6 @@
           }
         },
         {
-          "nome": "Kelly Sabrina Nunes Duarte (Operador De Telemarketing)",
-          "valor": 2946.44,
-          "encargos": {
-            "salarioBase": 1858.04,
-            "umDozeAvosFerias": 206.45,
-            "umDozeAvosDecimoTerceiro": 154.84,
-            "fgts": 148.64,
-            "inssPatronal": 371.61,
-            "ratGilrat": 37.16,
-            "terceiros": 107.77,
-            "provisaoMultaRescisoria": 61.93,
-            "totalEncargos": 727.11,
-            "custoTotal": 2946.44
-          }
-        },
-        {
           "nome": "Lindivania Silva De Lucena (Assistente Administrativo De Atendiment)",
           "valor": 3781.76,
           "encargos": {
@@ -9617,22 +9465,6 @@
           }
         },
         {
-          "nome": "Mariana Maria Cancio (Auxiliar Administrativo Atendimento)",
-          "valor": 1913.0,
-          "encargos": {
-            "salarioBase": 1206.35,
-            "umDozeAvosFerias": 134.04,
-            "umDozeAvosDecimoTerceiro": 100.53,
-            "fgts": 96.51,
-            "inssPatronal": 241.27,
-            "ratGilrat": 24.13,
-            "terceiros": 69.97,
-            "provisaoMultaRescisoria": 40.21,
-            "totalEncargos": 472.08,
-            "custoTotal": 1913.0
-          }
-        },
-        {
           "nome": "Matheus Vinicius De Melo Dias Silva (Auxiliar Administrativo ( Jovem Aprendiz))",
           "valor": 1742.94,
           "encargos": {
@@ -9649,36 +9481,8 @@
           }
         },
         {
-          "nome": "Milena Soares Da Costa (Auxiliar Administrativo Atendimento)",
-          "valor": 1913.0,
-          "encargos": {
-            "salarioBase": 1206.35,
-            "umDozeAvosFerias": 134.04,
-            "umDozeAvosDecimoTerceiro": 100.53,
-            "fgts": 96.51,
-            "inssPatronal": 241.27,
-            "ratGilrat": 24.13,
-            "terceiros": 69.97,
-            "provisaoMultaRescisoria": 40.21,
-            "totalEncargos": 472.08,
-            "custoTotal": 1913.0
-          }
-        },
-        {
-          "nome": "Vikione Stephany Maria Batista Da Silva (Auxiliar Administrativo Atendimento)",
-          "valor": 5043.77,
-          "encargos": {
-            "salarioBase": 3180.63,
-            "umDozeAvosFerias": 353.4,
-            "umDozeAvosDecimoTerceiro": 265.05,
-            "fgts": 254.45,
-            "inssPatronal": 636.13,
-            "ratGilrat": 63.61,
-            "terceiros": 184.48,
-            "provisaoMultaRescisoria": 106.02,
-            "totalEncargos": 1244.69,
-            "custoTotal": 5043.77
-          }
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 5093.74
         }
       ]
     },
@@ -12911,6 +12715,10 @@
             "totalEncargos": 1580.6,
             "custoTotal": 6115.42
           }
+        },
+        {
+          "nome": "Alex de Oliveira Soares da Silva (Gerente Financeiro Senior) — valor de referência informal, fora do cálculo oficial de encargos",
+          "valor": 11277.96
         }
       ]
     },
@@ -14713,648 +14521,216 @@
     "estoque": {
       "Maio/2026": [
         {
-          "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA (Coordenador De Estoque Pleno)",
-          "valor": 7992.32,
-          "encargos": {
-            "salarioBase": 5040,
-            "umDozeAvosFerias": 560,
-            "umDozeAvosDecimoTerceiro": 420,
-            "fgts": 403.2,
-            "inssPatronal": 1008,
-            "ratGilrat": 100.8,
-            "terceiros": 292.32,
-            "provisaoMultaRescisoria": 168,
-            "totalEncargos": 1972.32,
-            "custoTotal": 7992.32
-          }
+          "nome": "Dayvisson Guilherme De Santana Farias (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 5074.49
         },
         {
-          "nome": "FABIO DANIEL DA SILVA (Estoquista Senior)",
-          "valor": 5959.35,
-          "encargos": {
-            "salarioBase": 3758,
-            "umDozeAvosFerias": 417.56,
-            "umDozeAvosDecimoTerceiro": 313.17,
-            "fgts": 300.64,
-            "inssPatronal": 751.6,
-            "ratGilrat": 75.16,
-            "terceiros": 217.96,
-            "provisaoMultaRescisoria": 125.27,
-            "totalEncargos": 1470.63,
-            "custoTotal": 5959.35
-          }
+          "nome": "Valderez Caetano De Souza (Técnico De Lançamento Sênior)",
+          "valor": 4967.08
         },
         {
-          "nome": "TIAGO DE LIMA SENA (Estoquista Pleno)",
-          "valor": 5177.04,
-          "encargos": {
-            "salarioBase": 3264.67,
-            "umDozeAvosFerias": 362.74,
-            "umDozeAvosDecimoTerceiro": 272.06,
-            "fgts": 261.17,
-            "inssPatronal": 652.93,
-            "ratGilrat": 65.29,
-            "terceiros": 189.35,
-            "provisaoMultaRescisoria": 108.82,
-            "totalEncargos": 1277.57,
-            "custoTotal": 5177.04
-          }
+          "nome": "Anderson Gabriel De Oliveira Andrade (Auxiliar Administrativo (Jovem Aprendiz))",
+          "valor": 1631.79
         },
         {
-          "nome": "JOSE HELMITON GOMES DE LIMA (Tecnico Eletronica De Manutençao Pleno)",
-          "valor": 5074.49,
-          "encargos": {
-            "salarioBase": 3200,
-            "umDozeAvosFerias": 355.56,
-            "umDozeAvosDecimoTerceiro": 266.67,
-            "fgts": 256,
-            "inssPatronal": 640,
-            "ratGilrat": 64,
-            "terceiros": 185.6,
-            "provisaoMultaRescisoria": 106.67,
-            "totalEncargos": 1252.27,
-            "custoTotal": 5074.49
-          }
+          "nome": "Andre Antonio Ferreira (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 0.0
         },
         {
-          "nome": "JONATHAS JOSE DA SILVA (Estoquista Pleno)",
-          "valor": 4699.34,
-          "encargos": {
-            "salarioBase": 2963.43,
-            "umDozeAvosFerias": 329.27,
-            "umDozeAvosDecimoTerceiro": 246.95,
-            "fgts": 237.07,
-            "inssPatronal": 592.69,
-            "ratGilrat": 59.27,
-            "terceiros": 171.88,
-            "provisaoMultaRescisoria": 98.78,
-            "totalEncargos": 1159.69,
-            "custoTotal": 4699.34
-          }
+          "nome": "Bruno Rafael Menezes Da Silva (Tecnico Eletronico De Manutençao Junior)",
+          "valor": 4414.87
         },
         {
-          "nome": "JOSE GEOVANE SANTOS SILVA (Estoquista Pleno)",
-          "valor": 4573.45,
-          "encargos": {
-            "salarioBase": 2884.04,
-            "umDozeAvosFerias": 320.45,
-            "umDozeAvosDecimoTerceiro": 240.34,
-            "fgts": 230.72,
-            "inssPatronal": 576.81,
-            "ratGilrat": 57.68,
-            "terceiros": 167.27,
-            "provisaoMultaRescisoria": 96.13,
-            "totalEncargos": 1128.62,
-            "custoTotal": 4573.45
-          }
+          "nome": "Caua Victor Do Nascimento (Auxiliar Administrativo (Jovem Aprendiz))",
+          "valor": 1631.79
         },
         {
-          "nome": "BRUNO RAFAEL MENEZES DA SILVA (Tecnico Eletronico De Manutençao Junior)",
-          "valor": 4414.87,
-          "encargos": {
-            "salarioBase": 2784.04,
-            "umDozeAvosFerias": 309.34,
-            "umDozeAvosDecimoTerceiro": 232,
-            "fgts": 222.72,
-            "inssPatronal": 556.81,
-            "ratGilrat": 55.68,
-            "terceiros": 161.47,
-            "provisaoMultaRescisoria": 92.8,
-            "totalEncargos": 1089.49,
-            "custoTotal": 4414.87
-          }
+          "nome": "Danilo Pedro Pereira Dos Reis (Estoquista Junior)",
+          "valor": 0.0
         },
         {
-          "nome": "RONILSON LUIZ DO NASCIMENTO (Tecnico Eletronico De Manutençao Junior)",
-          "valor": 4414.87,
-          "encargos": {
-            "salarioBase": 2784.04,
-            "umDozeAvosFerias": 309.34,
-            "umDozeAvosDecimoTerceiro": 232,
-            "fgts": 222.72,
-            "inssPatronal": 556.81,
-            "ratGilrat": 55.68,
-            "terceiros": 161.47,
-            "provisaoMultaRescisoria": 92.8,
-            "totalEncargos": 1089.49,
-            "custoTotal": 4414.87
-          }
+          "nome": "Fabio Daniel Da Silva (Estoquista Senior)",
+          "valor": 5959.35
         },
         {
-          "nome": "KLAYTON RODRIGO DE FREITAS SILVA (Estoquista Junior)",
-          "valor": 4279.47,
-          "encargos": {
-            "salarioBase": 2698.66,
-            "umDozeAvosFerias": 299.85,
-            "umDozeAvosDecimoTerceiro": 224.89,
-            "fgts": 215.89,
-            "inssPatronal": 539.73,
-            "ratGilrat": 53.97,
-            "terceiros": 156.52,
-            "provisaoMultaRescisoria": 89.96,
-            "totalEncargos": 1056.07,
-            "custoTotal": 4279.47
-          }
+          "nome": "Jonatha Rafael Figueredo De Sousa (Coordenador De Estoque Pleno)",
+          "valor": 7992.32
         },
         {
-          "nome": "JOSE DANILO GOMES RIBEIRO (Estoquista Junior)",
-          "valor": 4189.78,
-          "encargos": {
-            "salarioBase": 2642.1,
-            "umDozeAvosFerias": 293.57,
-            "umDozeAvosDecimoTerceiro": 220.17,
-            "fgts": 211.37,
-            "inssPatronal": 528.42,
-            "ratGilrat": 52.84,
-            "terceiros": 153.24,
-            "provisaoMultaRescisoria": 88.07,
-            "totalEncargos": 1033.94,
-            "custoTotal": 4189.78
-          }
+          "nome": "Jonathas Jose Da Silva (Estoquista Pleno)",
+          "valor": 4699.34
         },
         {
-          "nome": "ANDERSON GABRIEL DE OLIVEIRA ANDRADE (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Jose Danilo Gomes Ribeiro (Estoquista Junior)",
+          "valor": 4189.78
         },
         {
-          "nome": "CAUA VICTOR DO NASCIMENTO (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Jose Geovane Santos Silva (Estoquista Pleno)",
+          "valor": 4573.45
+        },
+        {
+          "nome": "Jose Helmiton Gomes De Lima (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 5074.49
+        },
+        {
+          "nome": "Klayton Rodrigo De Freitas Silva (Estoquista Junior)",
+          "valor": 4279.47
+        },
+        {
+          "nome": "Ronilson Luiz Do Nascimento (Tecnico Eletronico De Manutençao Junior)",
+          "valor": 4414.87
+        },
+        {
+          "nome": "Tiago De Lima Sena (Estoquista Pleno)",
+          "valor": 5177.04
+        },
+        {
+          "nome": "Willams Baggio Da Silva (Estoquista)",
+          "valor": 2471.37
+        },
+        {
+          "nome": "Danilo Fernando Da Silva Lima (Estoquista Junior)",
+          "valor": 4608.1
         }
       ],
       "Junho/2026": [
         {
-          "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA (Coordenador De Estoque Pleno)",
-          "valor": 7992.32,
-          "encargos": {
-            "salarioBase": 5040,
-            "umDozeAvosFerias": 560,
-            "umDozeAvosDecimoTerceiro": 420,
-            "fgts": 403.2,
-            "inssPatronal": 1008,
-            "ratGilrat": 100.8,
-            "terceiros": 292.32,
-            "provisaoMultaRescisoria": 168,
-            "totalEncargos": 1972.32,
-            "custoTotal": 7992.32
-          }
+          "nome": "Dayvisson Guilherme De Santana Farias (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 5324.99
         },
         {
-          "nome": "TIAGO DE LIMA SENA (Estoquista Pleno)",
-          "valor": 6230.51,
-          "encargos": {
-            "salarioBase": 3929,
-            "umDozeAvosFerias": 436.56,
-            "umDozeAvosDecimoTerceiro": 327.42,
-            "fgts": 314.32,
-            "inssPatronal": 785.8,
-            "ratGilrat": 78.58,
-            "terceiros": 227.88,
-            "provisaoMultaRescisoria": 130.97,
-            "totalEncargos": 1537.55,
-            "custoTotal": 6230.51
-          }
+          "nome": "Valderez Caetano De Souza (Técnico De Lançamento Sênior)",
+          "valor": 5054.27
         },
         {
-          "nome": "FABIO DANIEL DA SILVA (Estoquista Senior)",
-          "valor": 5754.14,
-          "encargos": {
-            "salarioBase": 3628.59,
-            "umDozeAvosFerias": 403.18,
-            "umDozeAvosDecimoTerceiro": 302.38,
-            "fgts": 290.29,
-            "inssPatronal": 725.72,
-            "ratGilrat": 72.57,
-            "terceiros": 210.46,
-            "provisaoMultaRescisoria": 120.95,
-            "totalEncargos": 1419.99,
-            "custoTotal": 5754.14
-          }
+          "nome": "Anderson Gabriel De Oliveira Andrade (Auxiliar Administrativo (Jovem Aprendiz))",
+          "valor": 0.0
         },
         {
-          "nome": "BRUNO RAFAEL MENEZES DA SILVA (Tecnico Eletronico De Manutençao Junior)",
-          "valor": 5632.87,
-          "encargos": {
-            "salarioBase": 3552.12,
-            "umDozeAvosFerias": 394.68,
-            "umDozeAvosDecimoTerceiro": 296.01,
-            "fgts": 284.17,
-            "inssPatronal": 710.42,
-            "ratGilrat": 71.04,
-            "terceiros": 206.02,
-            "provisaoMultaRescisoria": 118.4,
-            "totalEncargos": 1390.06,
-            "custoTotal": 5632.87
-          }
+          "nome": "Andre Antonio Ferreira (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 5059.9
         },
         {
-          "nome": "JOSE HELMITON GOMES DE LIMA (Tecnico Eletronica De Manutençao Pleno)",
-          "valor": 5322.76,
-          "encargos": {
-            "salarioBase": 3356.56,
-            "umDozeAvosFerias": 372.95,
-            "umDozeAvosDecimoTerceiro": 279.71,
-            "fgts": 268.52,
-            "inssPatronal": 671.31,
-            "ratGilrat": 67.13,
-            "terceiros": 194.68,
-            "provisaoMultaRescisoria": 111.89,
-            "totalEncargos": 1313.53,
-            "custoTotal": 5322.76
-          }
+          "nome": "Bruno Rafael Menezes Da Silva (Tecnico Eletronico De Manutençao Junior)",
+          "valor": 5632.87
         },
         {
-          "nome": "ANDRE ANTONIO FERREIRA (Tecnico Eletronica De Manutençao Pleno)",
-          "valor": 5059.9,
-          "encargos": {
-            "salarioBase": 3190.8,
-            "umDozeAvosFerias": 354.53,
-            "umDozeAvosDecimoTerceiro": 265.9,
-            "fgts": 255.26,
-            "inssPatronal": 638.16,
-            "ratGilrat": 63.82,
-            "terceiros": 185.07,
-            "provisaoMultaRescisoria": 106.36,
-            "totalEncargos": 1248.67,
-            "custoTotal": 5059.9
-          }
+          "nome": "Caua Victor Do Nascimento (Auxiliar Administrativo (Jovem Aprendiz))",
+          "valor": 1631.79
         },
         {
-          "nome": "JOSE GEOVANE SANTOS SILVA (Estoquista Pleno)",
-          "valor": 4807.57,
-          "encargos": {
-            "salarioBase": 3031.68,
-            "umDozeAvosFerias": 336.85,
-            "umDozeAvosDecimoTerceiro": 252.64,
-            "fgts": 242.53,
-            "inssPatronal": 606.34,
-            "ratGilrat": 60.63,
-            "terceiros": 175.84,
-            "provisaoMultaRescisoria": 101.06,
-            "totalEncargos": 1186.4,
-            "custoTotal": 4807.57
-          }
+          "nome": "Danilo Pedro Pereira Dos Reis (Estoquista Junior)",
+          "valor": 4005.09
         },
         {
-          "nome": "RONILSON LUIZ DO NASCIMENTO (Tecnico Eletronico De Manutençao Junior)",
-          "valor": 4628.08,
-          "encargos": {
-            "salarioBase": 2918.49,
-            "umDozeAvosFerias": 324.28,
-            "umDozeAvosDecimoTerceiro": 243.21,
-            "fgts": 233.48,
-            "inssPatronal": 583.7,
-            "ratGilrat": 58.37,
-            "terceiros": 169.27,
-            "provisaoMultaRescisoria": 97.28,
-            "totalEncargos": 1142.1,
-            "custoTotal": 4628.08
-          }
+          "nome": "Fabio Daniel Da Silva (Estoquista Senior)",
+          "valor": 5754.14
         },
         {
-          "nome": "KLAYTON RODRIGO DE FREITAS SILVA (Estoquista Junior)",
-          "valor": 4546.75,
-          "encargos": {
-            "salarioBase": 2867.21,
-            "umDozeAvosFerias": 318.58,
-            "umDozeAvosDecimoTerceiro": 238.93,
-            "fgts": 229.38,
-            "inssPatronal": 573.44,
-            "ratGilrat": 57.34,
-            "terceiros": 166.3,
-            "provisaoMultaRescisoria": 95.57,
-            "totalEncargos": 1122.03,
-            "custoTotal": 4546.75
-          }
+          "nome": "Jonatha Rafael Figueredo De Sousa (Coordenador De Estoque Pleno)",
+          "valor": 7992.32
         },
         {
-          "nome": "JONATHAS JOSE DA SILVA (Estoquista Pleno)",
-          "valor": 4491.7,
-          "encargos": {
-            "salarioBase": 2832.49,
-            "umDozeAvosFerias": 314.72,
-            "umDozeAvosDecimoTerceiro": 236.04,
-            "fgts": 226.6,
-            "inssPatronal": 566.5,
-            "ratGilrat": 56.65,
-            "terceiros": 164.28,
-            "provisaoMultaRescisoria": 94.42,
-            "totalEncargos": 1108.45,
-            "custoTotal": 4491.7
-          }
+          "nome": "Jonathas Jose Da Silva (Estoquista Pleno)",
+          "valor": 4491.7
         },
         {
-          "nome": "DANILO PEDRO PEREIRA DOS REIS (Estoquista Junior)",
-          "valor": 4005.09,
-          "encargos": {
-            "salarioBase": 2525.63,
-            "umDozeAvosFerias": 280.63,
-            "umDozeAvosDecimoTerceiro": 210.47,
-            "fgts": 202.05,
-            "inssPatronal": 505.13,
-            "ratGilrat": 50.51,
-            "terceiros": 146.49,
-            "provisaoMultaRescisoria": 84.19,
-            "totalEncargos": 988.36,
-            "custoTotal": 4005.09
-          }
+          "nome": "Jose Geovane Santos Silva (Estoquista Pleno)",
+          "valor": 4807.57
         },
         {
-          "nome": "CAUA VICTOR DO NASCIMENTO (Auxiliar Administrativo (Jovem Aprendiz))",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Jose Helmiton Gomes De Lima (Tecnico Eletronica De Manutençao Pleno)",
+          "valor": 5322.76
+        },
+        {
+          "nome": "Klayton Rodrigo De Freitas Silva (Estoquista Junior)",
+          "valor": 4546.75
+        },
+        {
+          "nome": "Ronilson Luiz Do Nascimento (Tecnico Eletronico De Manutençao Junior)",
+          "valor": 4628.08
+        },
+        {
+          "nome": "Tiago De Lima Sena (Estoquista Pleno)",
+          "valor": 6230.51
+        },
+        {
+          "nome": "Willams Baggio Da Silva (Estoquista)",
+          "valor": 3154.51
+        },
+        {
+          "nome": "Danilo Fernando Da Silva Lima (Estoquista Junior)",
+          "valor": 3854.44
         }
       ],
       "Julho/2026": [
         {
-          "nome": "JOSE HELMITON GOMES DE LIMA (Tecnico Eletronico Em Manutenção Pleno)",
-          "valor": 9105.49,
-          "encargos": {
-            "salarioBase": 5741.97,
-            "umDozeAvosFerias": 638,
-            "umDozeAvosDecimoTerceiro": 478.5,
-            "fgts": 459.36,
-            "inssPatronal": 1148.39,
-            "ratGilrat": 114.84,
-            "terceiros": 333.03,
-            "provisaoMultaRescisoria": 191.4,
-            "totalEncargos": 2247.02,
-            "custoTotal": 9105.49
-          }
+          "nome": "Andre Antonio Ferreira (Tecnico Eletronico Em Manutenção Pleno)",
+          "valor": 5233.07
         },
         {
-          "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA (Coordenador De Estoque Pleno)",
-          "valor": 7992.32,
-          "encargos": {
-            "salarioBase": 5040,
-            "umDozeAvosFerias": 560,
-            "umDozeAvosDecimoTerceiro": 420,
-            "fgts": 403.2,
-            "inssPatronal": 1008,
-            "ratGilrat": 100.8,
-            "terceiros": 292.32,
-            "provisaoMultaRescisoria": 168,
-            "totalEncargos": 1972.32,
-            "custoTotal": 7992.32
-          }
+          "nome": "Bruno Rafael Menezes Da Silva (Tecnico Eletronico Em Manutencao Junior)",
+          "valor": 4414.87
         },
         {
-          "nome": "JONATHAS JOSE DA SILVA (Estoquista Pleno)",
-          "valor": 7864.52,
-          "encargos": {
-            "salarioBase": 4959.41,
-            "umDozeAvosFerias": 551.05,
-            "umDozeAvosDecimoTerceiro": 413.28,
-            "fgts": 396.75,
-            "inssPatronal": 991.88,
-            "ratGilrat": 99.19,
-            "terceiros": 287.65,
-            "provisaoMultaRescisoria": 165.31,
-            "totalEncargos": 1940.78,
-            "custoTotal": 7864.52
-          }
+          "nome": "Caua Victor De Nascimento (Auxiliar Administrativo ( Jovem Aprendiz)",
+          "valor": 1631.79
         },
         {
-          "nome": "FABIO DANIEL DA SILVA (Estoquista Senior)",
-          "valor": 5311.28,
-          "encargos": {
-            "salarioBase": 3349.32,
-            "umDozeAvosFerias": 372.15,
-            "umDozeAvosDecimoTerceiro": 279.11,
-            "fgts": 267.95,
-            "inssPatronal": 669.86,
-            "ratGilrat": 66.99,
-            "terceiros": 194.26,
-            "provisaoMultaRescisoria": 111.64,
-            "totalEncargos": 1310.7,
-            "custoTotal": 5311.28
-          }
+          "nome": "Danilo Fernando Da Silva Lima (Estoquista Junior)",
+          "valor": 3897.52
         },
         {
-          "nome": "ANDRE ANTONIO FERREIRA (Tecnico Eletronico Em Manutenção Pleno)",
-          "valor": 5233.07,
-          "encargos": {
-            "salarioBase": 3300,
-            "umDozeAvosFerias": 366.67,
-            "umDozeAvosDecimoTerceiro": 275,
-            "fgts": 264,
-            "inssPatronal": 660,
-            "ratGilrat": 66,
-            "terceiros": 191.4,
-            "provisaoMultaRescisoria": 110,
-            "totalEncargos": 1291.4,
-            "custoTotal": 5233.07
-          }
+          "nome": "Danilo Pedro Pereira Dos Reis (Estoquista Junior)",
+          "valor": 4005.09
         },
         {
-          "nome": "DAYVISSON GUILHERME DE SANTANA FARIAS (Tecnico Eletronica De Manutencao Pleno)",
-          "valor": 5233.07,
-          "encargos": {
-            "salarioBase": 3300,
-            "umDozeAvosFerias": 366.67,
-            "umDozeAvosDecimoTerceiro": 275,
-            "fgts": 264,
-            "inssPatronal": 660,
-            "ratGilrat": 66,
-            "terceiros": 191.4,
-            "provisaoMultaRescisoria": 110,
-            "totalEncargos": 1291.4,
-            "custoTotal": 5233.07
-          }
+          "nome": "Dayvisson Guilherme De Santana Farias (Tecnico Eletronica De Manutencao Pleno)",
+          "valor": 5233.07
         },
         {
-          "nome": "VALDEREZ CAETANO DE SOUZA (Tecnico De Lancamento Senior)",
-          "valor": 5170.49,
-          "encargos": {
-            "salarioBase": 3260.54,
-            "umDozeAvosFerias": 362.28,
-            "umDozeAvosDecimoTerceiro": 271.71,
-            "fgts": 260.84,
-            "inssPatronal": 652.11,
-            "ratGilrat": 65.21,
-            "terceiros": 189.11,
-            "provisaoMultaRescisoria": 108.68,
-            "totalEncargos": 1275.96,
-            "custoTotal": 5170.49
-          }
+          "nome": "Emerson De Oliveira Santos (Auxiliar Administrativo ( Jovem Aprendiz)",
+          "valor": 1278.16
         },
         {
-          "nome": "TIAGO DE LIMA SENA (Estoquista Pleno)",
-          "valor": 5076.47,
-          "encargos": {
-            "salarioBase": 3201.25,
-            "umDozeAvosFerias": 355.69,
-            "umDozeAvosDecimoTerceiro": 266.77,
-            "fgts": 256.1,
-            "inssPatronal": 640.25,
-            "ratGilrat": 64.03,
-            "terceiros": 185.67,
-            "provisaoMultaRescisoria": 106.71,
-            "totalEncargos": 1252.76,
-            "custoTotal": 5076.47
-          }
+          "nome": "Fabio Daniel Da Silva (Estoquista Senior)",
+          "valor": 5311.28
         },
         {
-          "nome": "RONILSON LUIZ DO NASCIMENTO (Tecnico Eletronico Em Manutencao Junior)",
-          "valor": 4712.33,
-          "encargos": {
-            "salarioBase": 2971.62,
-            "umDozeAvosFerias": 330.18,
-            "umDozeAvosDecimoTerceiro": 247.63,
-            "fgts": 237.73,
-            "inssPatronal": 594.32,
-            "ratGilrat": 59.43,
-            "terceiros": 172.35,
-            "provisaoMultaRescisoria": 99.05,
-            "totalEncargos": 1162.89,
-            "custoTotal": 4712.33
-          }
+          "nome": "Jonatha Rafael Figueredo De Sousa (Coordenador De Estoque Pleno)",
+          "valor": 7992.32
         },
         {
-          "nome": "JOSE GEOVANE SANTOS SILVA (Estoquista Pleno)",
-          "valor": 4606.11,
-          "encargos": {
-            "salarioBase": 2904.64,
-            "umDozeAvosFerias": 322.74,
-            "umDozeAvosDecimoTerceiro": 242.05,
-            "fgts": 232.37,
-            "inssPatronal": 580.93,
-            "ratGilrat": 58.09,
-            "terceiros": 168.47,
-            "provisaoMultaRescisoria": 96.82,
-            "totalEncargos": 1136.68,
-            "custoTotal": 4606.11
-          }
+          "nome": "Jonathas Jose Da Silva (Estoquista Pleno)",
+          "valor": 7526.78
         },
         {
-          "nome": "KLAYTON RODRIGO DE FREITAS SILVA (Estoquista Junior)",
-          "valor": 4548.77,
-          "encargos": {
-            "salarioBase": 2868.48,
-            "umDozeAvosFerias": 318.72,
-            "umDozeAvosDecimoTerceiro": 239.04,
-            "fgts": 229.48,
-            "inssPatronal": 573.7,
-            "ratGilrat": 57.37,
-            "terceiros": 166.37,
-            "provisaoMultaRescisoria": 95.62,
-            "totalEncargos": 1122.53,
-            "custoTotal": 4548.77
-          }
+          "nome": "Jose Geovane Santos Silva (Estoquista Pleno)",
+          "valor": 4606.11
         },
         {
-          "nome": "BRUNO RAFAEL MENEZES DA SILVA (Tecnico Eletronico Em Manutencao Junior)",
-          "valor": 4414.87,
-          "encargos": {
-            "salarioBase": 2784.04,
-            "umDozeAvosFerias": 309.34,
-            "umDozeAvosDecimoTerceiro": 232,
-            "fgts": 222.72,
-            "inssPatronal": 556.81,
-            "ratGilrat": 55.68,
-            "terceiros": 161.47,
-            "provisaoMultaRescisoria": 92.8,
-            "totalEncargos": 1089.49,
-            "custoTotal": 4414.87
-          }
+          "nome": "Jose Helmiton Gomes De Lima (Tecnico Eletronico Em Manutenção Pleno)",
+          "valor": 8714.46
         },
         {
-          "nome": "DANILO PEDRO PEREIRA DOS REIS (Estoquista Junior)",
-          "valor": 4005.09,
-          "encargos": {
-            "salarioBase": 2525.63,
-            "umDozeAvosFerias": 280.63,
-            "umDozeAvosDecimoTerceiro": 210.47,
-            "fgts": 202.05,
-            "inssPatronal": 505.13,
-            "ratGilrat": 50.51,
-            "terceiros": 146.49,
-            "provisaoMultaRescisoria": 84.19,
-            "totalEncargos": 988.36,
-            "custoTotal": 4005.09
-          }
+          "nome": "Klayton Rodrigo De Freitas Silva (Estoquista Junior)",
+          "valor": 4548.77
         },
         {
-          "nome": "DANILO FERNANDO DA SILVA LIMA (Estoquista Junior)",
-          "valor": 3897.52,
-          "encargos": {
-            "salarioBase": 2457.8,
-            "umDozeAvosFerias": 273.09,
-            "umDozeAvosDecimoTerceiro": 204.82,
-            "fgts": 196.62,
-            "inssPatronal": 491.56,
-            "ratGilrat": 49.16,
-            "terceiros": 142.55,
-            "provisaoMultaRescisoria": 81.93,
-            "totalEncargos": 961.82,
-            "custoTotal": 3897.52
-          }
+          "nome": "Ronilson Luiz Do Nascimento (Tecnico Eletronico Em Manutencao Junior)",
+          "valor": 4712.33
         },
         {
-          "nome": "CAUA VICTOR DE NASCIMENTO (Auxiliar Administrativo ( Jovem Aprendiz)",
-          "valor": 1631.79,
-          "encargos": {
-            "salarioBase": 1069.48,
-            "umDozeAvosFerias": 118.83,
-            "umDozeAvosDecimoTerceiro": 89.12,
-            "fgts": 21.39,
-            "inssPatronal": 213.9,
-            "ratGilrat": 21.39,
-            "terceiros": 62.03,
-            "provisaoMultaRescisoria": 35.65,
-            "totalEncargos": 354.35,
-            "custoTotal": 1631.79
-          }
+          "nome": "Tiago De Lima Sena (Estoquista Pleno)",
+          "valor": 5076.47
         },
         {
-          "nome": "EMERSON DE OLIVEIRA SANTOS (Auxiliar Administrativo ( Jovem Aprendiz)",
-          "valor": 1278.16,
-          "encargos": {
-            "salarioBase": 837.71,
-            "umDozeAvosFerias": 93.08,
-            "umDozeAvosDecimoTerceiro": 69.81,
-            "fgts": 16.75,
-            "inssPatronal": 167.54,
-            "ratGilrat": 16.75,
-            "terceiros": 48.59,
-            "provisaoMultaRescisoria": 27.92,
-            "totalEncargos": 277.56,
-            "custoTotal": 1278.16
-          }
+          "nome": "Valderez Caetano De Souza (Tecnico De Lancamento Senior)",
+          "valor": 5170.49
+        },
+        {
+          "nome": "Willams Baggio Da Silva (Estoquista)",
+          "valor": 3154.51
         }
       ],
       "Agosto/2026": [
@@ -16981,10 +16357,6 @@
             "totalEncargos": 354.35,
             "custoTotal": 1631.79
           }
-        },
-        {
-          "nome": "Joelmyr Fabio Lins Da Silva (Consultoria Juridica)",
-          "valor": 7500
         }
       ],
       "Junho/2026": [
@@ -17019,10 +16391,6 @@
             "totalEncargos": 748.76,
             "custoTotal": 3034.16
           }
-        },
-        {
-          "nome": "Joelmyr Fabio Lins Da Silva (Consultoria Juridica)",
-          "valor": 7500
         }
       ],
       "Julho/2026": [
@@ -17057,10 +16425,6 @@
             "totalEncargos": 748.76,
             "custoTotal": 3034.16
           }
-        },
-        {
-          "nome": "Joelmyr Fabio Lins Da Silva (Consultoria Juridica)",
-          "valor": 7500
         }
       ],
       "Agosto/2026": [
@@ -22787,6 +22151,50 @@
         {
           "nome": "Bruno Santos Da Silva (Desenvolvedor Junior)",
           "valor": 817.06
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "Arthur Joaquim Santos do Nascimento (Desenvolvedor)",
+          "valor": 3096.5
+        },
+        {
+          "nome": "Renan Alcantara Ribeiro (Desenvolvedor)",
+          "valor": 2785.62
+        },
+        {
+          "nome": "Antonio Roberto Dias Frutuoso Junior (Desenvolvedor Júnior)",
+          "valor": 4235.49
+        },
+        {
+          "nome": "Bruno Santos da Silva (Desenvolvedor Júnior)",
+          "valor": 4335.1
+        },
+        {
+          "nome": "Luiz Eduardo Pereira de Lima (Desenvolvedor Júnior)",
+          "valor": 3899.87
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Arthur Joaquim Santos do Nascimento (Desenvolvedor Júnior)",
+          "valor": 4310.17
+        },
+        {
+          "nome": "Renan Alcantara Ribeiro (Desenvolvedor)",
+          "valor": 3081.02
+        },
+        {
+          "nome": "Antonio Roberto Dias Frutuoso Junior (Desenvolvedor Júnior)",
+          "valor": 4638.47
+        },
+        {
+          "nome": "Bruno Santos da Silva (Desenvolvedor Júnior)",
+          "valor": 4310.17
+        },
+        {
+          "nome": "Luiz Eduardo Pereira de Lima (Desenvolvedor Júnior)",
+          "valor": 4293.11
         }
       ]
     },
@@ -29317,6 +28725,10 @@
         {
           "nome": "SAMMUEL DEYVSON DA SILVA SANTOS",
           "valor": 50.0
+        },
+        {
+          "nome": "Joelmyr Fabio",
+          "valor": 50
         }
       ]
     },
@@ -30444,24 +29856,44 @@
         }
       ]
     },
-    "fusao": {
+    "lancamento": {
       "Julho/2026": [
         {
-          "nome": "JOSADARK JOSE DO NASCIMENTO",
+          "nome": "Carlos Fernando de Lima",
+          "valor": 50
+        },
+        {
+          "nome": "Josadark José do Nascimento",
+          "valor": 50
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "Carlos Fernando de Lima",
+          "valor": 50
+        },
+        {
+          "nome": "Josadark José do Nascimento",
+          "valor": 50
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Carlos Fernando de Lima",
+          "valor": 50
+        },
+        {
+          "nome": "Josadark José do Nascimento",
           "valor": 50
         }
       ],
       "Agosto/2026": [
         {
-          "nome": "JOSADARK JOSE DO NASCIMENTO",
-          "valor": 50.0
-        }
-      ]
-    },
-    "lancamento": {
-      "Julho/2026": [
-        {
           "nome": "Carlos Fernando de Lima",
+          "valor": 50
+        },
+        {
+          "nome": "Josadark José do Nascimento",
           "valor": 50
         }
       ]
@@ -30701,6 +30133,22 @@
           "valor": 250
         }
       ]
+    },
+    "marketing": {
+      "Agosto/2026": [
+        {
+          "nome": "Impressora (unidade 1)",
+          "valor": 128.68
+        }
+      ]
+    },
+    "noc": {
+      "Agosto/2026": [
+        {
+          "nome": "Impressora (unidade 1)",
+          "valor": 200
+        }
+      ]
     }
   },
   "chip_movel": {
@@ -30914,6 +30362,48 @@
         }
       ],
       "Julho/2026": [
+        {
+          "nome": "KARINA NEVES DE SOUZA DAMASCENA",
+          "valor": 30
+        },
+        {
+          "nome": "YASMIM XIMENES OLIVEIRA",
+          "valor": 30
+        },
+        {
+          "nome": "Wesley Júnior da Silva Ferreira",
+          "valor": 30
+        },
+        {
+          "nome": "JEFFERSON DA SILVA ARRUDA",
+          "valor": 30
+        },
+        {
+          "nome": "MICHELLE KAREN DE OLIVEIRA",
+          "valor": 30
+        },
+        {
+          "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "Denysson da Silva Bezerra",
+          "valor": 30
+        },
+        {
+          "nome": "MAURÍCIO DE ALCÂNTARA MACIEL FILHO",
+          "valor": 30
+        },
+        {
+          "nome": "Stiviny Jorge Silva Dos Santos",
+          "valor": 30
+        },
+        {
+          "nome": "DAVI FERREIRA DA SILVA",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
         {
           "nome": "KARINA NEVES DE SOUZA DAMASCENA",
           "valor": 30
@@ -31186,6 +30676,36 @@
         }
       ],
       "Julho/2026": [
+        {
+          "nome": "CLAUDIO DE MELO AMORIM",
+          "valor": 30
+        },
+        {
+          "nome": "MABSON ROBSON DA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "WELLINGTON FERNANDO DE LIMA",
+          "valor": 30
+        },
+        {
+          "nome": "Otoniel da Silva Oliveira",
+          "valor": 30
+        },
+        {
+          "nome": "Eliel Francisco de Lima",
+          "valor": 30
+        },
+        {
+          "nome": "GLAUCO MATHEUS DA CRUZ SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "Jose Adelson Dos Santos",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
         {
           "nome": "CLAUDIO DE MELO AMORIM",
           "valor": 30
