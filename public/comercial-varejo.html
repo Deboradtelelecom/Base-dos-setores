@@ -58,6 +58,7 @@
   .sem-custo { color:var(--warn); font-style:italic; }
   .origem-real { color:var(--good); }
   .origem-estimado { color:var(--warn); }
+  .origem-informativo { color:var(--slate-500); }
   tfoot td { padding:12px 10px 0 0; font-weight:800; color:#fff; border-top:2px solid var(--border); font-family:var(--mono); }
 
   .detalhe-linha { display:none; }
@@ -94,12 +95,21 @@
   .tend-series-path.dim { opacity:0.22; }
   .tend-series-path.hover { stroke-width:3; opacity:1; }
   .tend-marker { transition:r .12s; }
-  .tend-direct-label { font-size:10.5px; font-weight:700; font-family:var(--mono); dominant-baseline:middle; paint-order:stroke; stroke:var(--bg-panel); stroke-width:3; transition:opacity .12s; }
+  .tend-data-label { fill:var(--slate-500); font-size:9.5px; font-weight:600; font-family:var(--mono); paint-order:stroke; stroke:var(--bg-panel); stroke-width:3; transition:opacity .12s; }
+  .tend-data-label.dim { opacity:0.22; }
+  .tend-direct-label { font-size:10.5px; font-weight:700; font-family:var(--mono); dominant-baseline:middle; paint-order:stroke; stroke:var(--bg-panel); stroke-width:3; transition:opacity .12s; cursor:pointer; }
   .tend-direct-label.dim { opacity:0.22; }
   .tend-legend { display:flex; flex-wrap:wrap; gap:6px 14px; margin-top:14px; padding-top:12px; border-top:1px solid var(--border-soft); }
   .tend-legend-item { display:flex; align-items:center; gap:6px; font-size:11.5px; color:var(--slate-700); cursor:pointer; user-select:none; }
   .tend-legend-item.dim { color:var(--slate-500); opacity:0.5; }
   .tend-legend-dot { width:9px; height:9px; border-radius:50%; flex-shrink:0; }
+  .tend-selecao-resumo { display:none; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px 16px; background:var(--bg-app); border:1px solid var(--border); border-radius:10px; padding:10px 14px; margin-bottom:14px; }
+  .tend-selecao-resumo.aberto { display:flex; }
+  .tend-selecao-resumo .info { display:flex; align-items:center; gap:8px; font-size:12.5px; color:var(--slate-700); flex-wrap:wrap; }
+  .tend-selecao-resumo .info b { color:#fff; }
+  .tend-selecao-resumo .valor { font-family:var(--mono); font-weight:700; color:#fff; font-size:14.5px; }
+  .tend-selecao-resumo .fechar { cursor:pointer; color:var(--slate-500); font-size:11px; font-weight:700; font-family:var(--mono); border:1px solid var(--border); border-radius:7px; padding:4px 9px; background:transparent; white-space:nowrap; }
+  .tend-selecao-resumo .fechar:hover { color:var(--slate-800); border-color:rgba(255,255,255,0.2); }
   .tend-tooltip { position:absolute; pointer-events:none; background:#050710; border:1px solid var(--border); border-radius:8px; padding:7px 10px; font-size:11.5px; font-family:var(--mono); color:#fff; white-space:nowrap; opacity:0; transform:translate(-50%,-115%); transition:opacity .1s; z-index:5; box-shadow:0 6px 18px rgba(0,0,0,.4); }
   .tend-tooltip.show { opacity:1; }
   .tend-tooltip .tt-mes { color:var(--slate-500); font-size:10px; text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px; }
@@ -138,10 +148,11 @@
       <div class="card-header-row">
         <div>
           <h3>Evolução do Custo por Coordenador</h3>
-          <p class="subtle">Custo Total de cada Coordenador/Equipe (somado em todas as empresas que atende), mês a mês. Clique num nome na legenda para destacar só aquela equipe. Passe o mouse sobre um ponto para ver o valor exato.</p>
+          <p class="subtle">Custo Total de cada Coordenador/Equipe (somado em todas as empresas que atende), mês a mês. Clique num nome (na legenda, na linha ou no rótulo) para abrir só os custos daquela equipe — a seleção sincroniza com as tabelas abaixo e mostra o valor no mês selecionado em "Competência". Passe o mouse sobre um ponto para ver o valor exato daquele mês.</p>
         </div>
         <button class="toggle-tabela-btn" id="btnToggleTabelaTend" onclick="toggleTabelaTendencia()">Ver como tabela</button>
       </div>
+      <div class="tend-selecao-resumo" id="tendSelecaoResumo"></div>
       <div class="tendencia-chart-wrap" id="tendenciaChartWrap">
         <svg class="tendencia-svg" id="tendenciaSvg" viewBox="0 0 860 320" preserveAspectRatio="xMidYMid meet"></svg>
         <div class="tend-tooltip" id="tendTooltip"></div>
@@ -249,7 +260,7 @@ function renderTendencia() {
   }
 
   const W = 860, H = 320;
-  const padL = 56, padR = 16, padT = 16, padB = 34;
+  const padL = 16, padR = 16, padT = 16, padB = 34;
   const plotW = W - padL - padR, plotH = H - padT - padB;
 
   const todosValores = series.flatMap(s => s.valores).filter(v => v !== null);
@@ -266,13 +277,12 @@ function renderTendencia() {
 
   let svgHtml = '';
 
-  // Gridlines horizontais + rótulos do eixo Y (4 faixas)
+  // Gridlines horizontais como referência visual, sem números no eixo — o
+  // valor de cada ponto é lido diretamente no rótulo de dado, não no eixo.
   const NY = 4;
   for (let i = 0; i <= NY; i++) {
-    const v = (niceMax / NY) * i;
-    const yy = y(v);
+    const yy = y((niceMax / NY) * i);
     svgHtml += `<line class="tend-grid-line" x1="${padL}" y1="${yy}" x2="${W - padR}" y2="${yy}" />`;
-    svgHtml += `<text class="tend-axis-label" x="${padL - 8}" y="${yy + 3}" text-anchor="end">${fmtBRLCompacto(v)}</text>`;
   }
 
   // Rótulos do eixo X (meses)
@@ -280,8 +290,11 @@ function renderTendencia() {
     svgHtml += `<text class="tend-axis-label" x="${x(i)}" y="${H - 10}" text-anchor="middle">${m}</text>`;
   });
 
-  // Uma linha por coordenador, com marcadores; o rótulo direto no fim de cada
-  // linha é desenhado depois, com as posições já sem sobreposição (ver abaixo).
+  // Uma linha por coordenador, com marcadores. O rótulo de fim de linha (nome
+  // do coordenador + valor do último mês) é desenhado depois, já com as
+  // posições resolvidas para não sobrepor (ver mais abaixo). Rotular só o
+  // ponto final evita poluir o gráfico com um número em cada marcador — o
+  // valor exato de qualquer outro ponto aparece ao passar o mouse (tooltip).
   const rotulosFinais = [];
   series.forEach(s => {
     const cor = tendCorDoCoordenador(s.coordenador, ordem);
@@ -299,29 +312,31 @@ function renderTendencia() {
     });
 
     svgHtml += `<path class="tend-series-path" data-coord="${s.coordenador}" stroke="${cor}" d="${d.trim()}"
-      onmouseenter="tendDestacar('${s.coordenador}')" onmouseleave="tendDestacar(null)"></path>`;
+      onmouseenter="tendDestacar('${s.coordenador}')" onmouseleave="tendAoSairHover()" onclick="tendAlternarDestaque('${s.coordenador}')"></path>`;
 
     pontosValidos.forEach(([px, py, i, v]) => {
       svgHtml += `<circle class="tend-marker" data-coord="${s.coordenador}" cx="${px}" cy="${py}" r="3.5" fill="${cor}"
-        stroke="var(--bg-panel)" stroke-width="1.5"
+        stroke="var(--bg-panel)" stroke-width="1.5" style="cursor:pointer;"
         onmouseenter="tendMostrarTooltip(event,'${s.coordenador}','${meses[i]}',${v})"
-        onmouseleave="tendEsconderTooltip()"></circle>`;
+        onmouseleave="tendEsconderTooltip()" onclick="tendAlternarDestaque('${s.coordenador}')"></circle>`;
     });
 
     const ultimo = pontosValidos[pontosValidos.length - 1];
-    rotulosFinais.push({ coordenador: s.coordenador, x: ultimo[0] + 8, y: ultimo[1], cor });
+    rotulosFinais.push({ coordenador: s.coordenador, x: ultimo[0] + 8, y: ultimo[1], cor, valor: ultimo[3] });
   });
 
-  // Evita rótulos de fim de linha sobrepostos: afasta verticalmente qualquer
-  // par mais perto que a altura de uma linha de texto, de cima para baixo.
-  const MIN_DIST = 13;
+  // Evita rótulos de fim de linha (nome do coordenador) sobrepostos: afasta
+  // verticalmente qualquer par mais perto que a altura de duas linhas de texto
+  // (agora o rótulo tem duas linhas: nome + valor).
+  const MIN_DIST = 24;
   rotulosFinais.sort((a, b) => a.y - b.y);
   for (let i = 1; i < rotulosFinais.length; i++) {
     const prev = rotulosFinais[i - 1], cur = rotulosFinais[i];
     if (cur.y - prev.y < MIN_DIST) cur.y = prev.y + MIN_DIST;
   }
   rotulosFinais.forEach(r => {
-    svgHtml += `<text class="tend-direct-label" data-coord="${r.coordenador}" x="${r.x}" y="${r.y}" fill="${r.cor}">${r.coordenador}</text>`;
+    svgHtml += `<text class="tend-direct-label" data-coord="${r.coordenador}" x="${r.x}" y="${r.y - 6}" fill="${r.cor}" onclick="tendAlternarDestaque('${r.coordenador}')">${r.coordenador}</text>`;
+    svgHtml += `<text class="tend-data-label" data-coord="${r.coordenador}" x="${r.x}" y="${r.y + 8}">${fmtBRLCompacto(r.valor)}</text>`;
   });
 
   svg.innerHTML = svgHtml;
@@ -355,12 +370,51 @@ function tendMostrarTooltip(evt, coordenador, mes, valor) {
 }
 function tendEsconderTooltip() {
   document.getElementById('tendTooltip').classList.remove('show');
-  if (!TEND_DESTAQUE) tendDestacar(null);
+  tendAoSairHover();
+}
+function tendAoSairHover() {
+  // Ao tirar o mouse de cima de uma linha/ponto, volta pro estado de destaque
+  // que estiver ativo por clique (ou "tudo normal", se nenhum estiver selecionado)
+  // — em vez de simplesmente apagar a seleção clicada.
+  tendDestacar(TEND_DESTAQUE);
 }
 
+// Clicar num nome (legenda, linha ou rótulo do gráfico de tendência) seleciona
+// aquele coordenador/equipe em TODA a página: destaca a linha dele no gráfico,
+// abre só os custos dele em "Composição das Equipes" e em "Custo, Vendas e
+// Receita" (fechando os demais), e mostra o valor do custo no mês que estiver
+// selecionado em "Competência". Clicar de novo no mesmo nome limpa a seleção.
 function tendAlternarDestaque(coordenador) {
   TEND_DESTAQUE = (TEND_DESTAQUE === coordenador) ? null : coordenador;
+  aplicarSelecaoCoordenador();
+}
+
+function aplicarSelecaoCoordenador() {
+  const mes = document.getElementById('seletor-competencia').value;
   tendDestacar(TEND_DESTAQUE);
+  abrirComposicaoPara(TEND_DESTAQUE);
+  abrirResumoPara(TEND_DESTAQUE, mes);
+  renderTendResumoSelecionado(mes);
+}
+
+function slugifyId(s) {
+  return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-zA-Z0-9]+/g, '-').toLowerCase();
+}
+
+function renderTendResumoSelecionado(mes) {
+  const box = document.getElementById('tendSelecaoResumo');
+  if (!TEND_DESTAQUE) { box.classList.remove('aberto'); box.innerHTML = ''; return; }
+  const ordem = DADOS.equipes.map(eq => eq.coordenador);
+  const cor = tendCorDoCoordenador(TEND_DESTAQUE, ordem);
+  const linha = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === TEND_DESTAQUE && x.mes === mes);
+  const custoTxt = !linha
+    ? 'sem dado neste mês'
+    : (linha.custoTotal === null ? 'sem custo atribuído' : fmtBRL(linha.custoTotal));
+  box.classList.add('aberto');
+  box.innerHTML = `
+    <span class="info"><span class="tend-legend-dot" style="background:${cor};"></span>Custo de <b>${TEND_DESTAQUE}</b> em <b>${mes}</b>: <span class="valor">${custoTxt}</span></span>
+    <span class="fechar" onclick="tendAlternarDestaque('${TEND_DESTAQUE}')">Limpar seleção ✕</span>
+  `;
 }
 
 function tendDestacar(coordenador) {
@@ -375,6 +429,10 @@ function tendDestacar(coordenador) {
     el.classList.toggle('dim', !!ativo && !meu);
   });
   document.querySelectorAll('.tend-legend-item').forEach(el => {
+    const meu = el.getAttribute('data-coord') === ativo;
+    el.classList.toggle('dim', !!ativo && !meu);
+  });
+  document.querySelectorAll('.tend-data-label').forEach(el => {
     const meu = el.getAttribute('data-coord') === ativo;
     el.classList.toggle('dim', !!ativo && !meu);
   });
@@ -406,12 +464,12 @@ function toggleTabelaTendencia() {
 function renderEquipes() {
   const body = document.getElementById('equipesBody');
   body.innerHTML = '';
-  DADOS.equipes.forEach((eq, idx) => {
-    const rowId = 'equipe-det-' + idx;
+  DADOS.equipes.forEach((eq) => {
+    const rowId = 'equipe-det-' + slugifyId(eq.coordenador);
     const tags = eq.empresas.map(e => `<span class="empresa-tag">${e.empresa}</span>`).join('');
     const tr = document.createElement('tr');
     tr.className = 'equipe-clicavel';
-    tr.onclick = () => toggleEquipeNomes(rowId, eq);
+    tr.onclick = () => tendAlternarDestaque(eq.coordenador);
     tr.innerHTML = `
       <td><span class="seta" id="seta-${rowId}">▶</span></td>
       <td class="nome">${eq.coordenador}</td>
@@ -427,14 +485,7 @@ function renderEquipes() {
   });
 }
 
-function toggleEquipeNomes(rowId, eq) {
-  const linha = document.getElementById(rowId);
-  const seta = document.getElementById('seta-' + rowId);
-  const abrindo = !linha.classList.contains('aberto');
-  linha.classList.toggle('aberto');
-  seta.classList.toggle('aberto');
-  if (!abrindo) return;
-  const wrap = document.getElementById('wrap-' + rowId);
+function renderNomesEquipeWrap(wrap, eq) {
   if (!eq.nomes || !eq.nomes.length) {
     wrap.innerHTML = '<div class="item-detalhe"><span class="desc">Sem lista de nomes disponível para esta equipe ainda.</span></div>';
     return;
@@ -453,6 +504,25 @@ function toggleEquipeNomes(rowId, eq) {
   }).join('');
 }
 
+// Abre (e renderiza) só a linha de "Composição das Equipes" do coordenador
+// selecionado no gráfico de tendência, fechando qualquer outra que estivesse
+// aberta — mantém essa tabela sincronizada com a seleção do gráfico.
+function abrirComposicaoPara(coordenador) {
+  document.querySelectorAll('#equipesBody .detalhe-linha.aberto').forEach(tr => tr.classList.remove('aberto'));
+  document.querySelectorAll('#equipesBody .seta.aberto').forEach(s => s.classList.remove('aberto'));
+  if (!coordenador) return;
+  const eq = DADOS.equipes.find(e => e.coordenador === coordenador);
+  if (!eq) return;
+  const rowId = 'equipe-det-' + slugifyId(coordenador);
+  const linha = document.getElementById(rowId);
+  const seta = document.getElementById('seta-' + rowId);
+  const wrap = document.getElementById('wrap-' + rowId);
+  if (!linha || !wrap) return;
+  linha.classList.add('aberto');
+  if (seta) seta.classList.add('aberto');
+  renderNomesEquipeWrap(wrap, eq);
+}
+
 function renderResumoEEquipeCusto(mes) {
   const body = document.getElementById('resumoBody');
   body.innerHTML = '';
@@ -461,7 +531,7 @@ function renderResumoEEquipeCusto(mes) {
   let idx = 0;
   linhas.forEach((l) => {
     idx++;
-    const rowId = 'det-' + idx;
+    const rowId = 'det-' + slugifyId(l.coordenador);
     const totalVU = l.vendas + l.upgrade;
     const custoPorVenda = (l.custoTotal !== null && totalVU > 0) ? l.custoTotal / totalVU : null;
     const custoTxt = l.custoTotal === null
@@ -472,7 +542,7 @@ function renderResumoEEquipeCusto(mes) {
       : `<span class="custo-venda-tag">${fmtBRL(custoPorVenda)}</span>`;
     const tr = document.createElement('tr');
     tr.className = 'equipe-clicavel';
-    tr.onclick = () => toggleDetalhe(rowId, l.coordenador, l.empresa, mes);
+    tr.onclick = () => tendAlternarDestaque(l.coordenador);
     tr.innerHTML = `
       <td class="nome"><span class="seta" id="seta-${rowId}">▶</span>${l.coordenador}</td>
       <td><span class="empresa-tag">${l.empresa}</span></td>
@@ -498,14 +568,26 @@ function renderResumoEEquipeCusto(mes) {
   document.getElementById('totalReceitaFooter').textContent = fmtBRL(totRT);
 }
 
-function toggleDetalhe(rowId, coordenador, empresa, mes) {
+// Abre (e renderiza) só a linha de "Custo, Vendas e Receita" do coordenador
+// selecionado no gráfico de tendência, no mês atualmente escolhido em
+// "Competência" — fechando qualquer outra que estivesse aberta.
+function abrirResumoPara(coordenador, mes) {
+  document.querySelectorAll('#resumoBody .detalhe-linha.aberto').forEach(tr => tr.classList.remove('aberto'));
+  document.querySelectorAll('#resumoBody .seta.aberto').forEach(s => s.classList.remove('aberto'));
+  if (!coordenador) return;
+  const linhaResumo = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === coordenador && x.mes === mes);
+  if (!linhaResumo) return;
+  const rowId = 'det-' + slugifyId(coordenador);
   const linha = document.getElementById(rowId);
   const seta = document.getElementById('seta-' + rowId);
-  const abrindo = !linha.classList.contains('aberto');
-  linha.classList.toggle('aberto');
-  seta.classList.toggle('aberto');
-  if (!abrindo) return;
   const wrap = document.getElementById('wrap-' + rowId);
+  if (!linha || !wrap) return;
+  linha.classList.add('aberto');
+  if (seta) seta.classList.add('aberto');
+  renderDetalheWrap(wrap, rowId, coordenador, mes);
+}
+
+function renderDetalheWrap(wrap, rowId, coordenador, mes) {
   const linhaResumo = DADOS.resumoEquipeEmpresa.find(x => x.coordenador === coordenador && x.mes === mes);
   const itens = DADOS.custosDiretos.filter(c => c.coordenador === coordenador && c.mes === mes);
 
@@ -513,6 +595,17 @@ function toggleDetalhe(rowId, coordenador, empresa, mes) {
   if (linhaResumo) {
     html += `<div class="item-detalhe"><span class="desc">Receita de Vendas</span><span class="valor">${fmtBRL(linhaResumo.receitaVendas)}</span></div>`;
     html += `<div class="item-detalhe"><span class="desc">Receita de Upgrade</span><span class="valor">${fmtBRL(linhaResumo.receitaUpgrade)}</span></div>`;
+  }
+
+  // Vendas/receita informativas por empresa (quando há uma fonte específica
+  // confirmada, ex.: H&A do Tiago de Araújo) — nunca é custo, só mostra de
+  // qual empresa vieram as vendas dentro do total do coordenador acima.
+  const vendasPorEmpresa = ((DADOS.vendasInformativasPorEmpresa || {})[coordenador] || {})[mes] || [];
+  if (vendasPorEmpresa.length) {
+    html += vendasPorEmpresa.map(v => `<div class="item-detalhe">
+        <span class="desc"><span class="empresa-tag">${v.empresa}</span> vendas/receita<span class="origem origem-informativo">informativo, não é custo — ${v.fonte}</span></span>
+        <span class="valor">${fmtNum(v.vendas)} vendas${v.upgrade ? ' + ' + fmtNum(v.upgrade) + ' upgrade' : ''} — ${fmtBRL(v.receitaVendas + v.receitaUpgrade)}</span>
+      </div>`).join('');
   }
 
   // Agrupa os itens de custo por empresa — cada empresa vira sua própria
@@ -590,6 +683,10 @@ function renderTudo() {
   renderTendencia();
   renderEquipes();
   renderResumoEEquipeCusto(mes);
+  // Reaplica a seleção de coordenador (se houver) depois de tudo redesenhado —
+  // mantém o gráfico de tendência, as duas tabelas e o resumo de custo
+  // sincronizados entre si e com o mês escolhido em "Competência".
+  aplicarSelecaoCoordenador();
 }
 
 async function buscarDados() {

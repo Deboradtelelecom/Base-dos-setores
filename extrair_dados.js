@@ -98,13 +98,14 @@ function carregarDetalhesColaborador(pastaDados) {
           fardamento_devolucao: dados.fardamento_devolucao || {},
           equipe_pap_nomes: dados.equipe_pap_nomes || {},
           combustivel_equipe_varejo: dados.combustivel_equipe_varejo || {},
+          vendas_informativas_por_empresa: dados.vendas_informativas_por_empresa || {},
         };
       } catch (e) {
-        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {} };
+        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
       }
     }
   }
-  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {} };
+  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
 }
 
 // "Horas Extras" — quadro à parte (04/09/2026), pedido da Débora: "todos os
@@ -786,11 +787,23 @@ function extrairComercialVarejo(ws, detalhesColaborador) {
     equipesPorCoordenador[c.coordenador].totalAtivos += c.totalAtivos;
   });
 
+  // Vendas/receita informativas por empresa (dentro do "Todas as empresas" de
+  // resumoEquipeEmpresa), só para os casos em que a Débora confirmou um
+  // número real e isolado por empresa (ex.: H&A da equipe do Tiago de
+  // Araújo, Agosto/2026 — 28 vendas, R$2.557,20, extraído de
+  // "comissao-analitico jul26.xlsx", mês anterior). NUNCA usada como custo —
+  // é só para exibir a composição por empresa dentro do detalhamento do
+  // coordenador, sem entrar em nenhum SUMIFS/RESUMO REEMBOLSO. Ausente para
+  // qualquer coordenador/mês/empresa sem essa fonte específica confirmada —
+  // não inventa um "resto" só pra fechar a conta.
+  const vendasInformativasPorEmpresa = (detalhesColaborador && detalhesColaborador.vendas_informativas_por_empresa) || {};
+
   return {
     equipes: Object.values(equipesPorCoordenador),
     custosDiretos,
     subtotalCustos,
     resumoEquipeEmpresa,
+    vendasInformativasPorEmpresa,
   };
 }
 
