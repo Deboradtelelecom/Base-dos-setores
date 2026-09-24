@@ -248,6 +248,23 @@ function carregarFarmacia(pastaDados) {
   return {};
 }
 
+function carregarAfastados(pastaDados) {
+  const candidatosPaths = [
+    path.join(__dirname, 'afastados.json'),
+    path.join(pastaDados, 'afastados.json'),
+  ];
+  for (const p of candidatosPaths) {
+    if (fs.existsSync(p)) {
+      try {
+        return JSON.parse(fs.readFileSync(p, 'utf-8'));
+      } catch (e) {
+        return {};
+      }
+    }
+  }
+  return {};
+}
+
 function carregarFarmaciaSapComparativo(pastaDados) {
   const candidatosPaths = [
     path.join(__dirname, 'farmacia_sap_comparativo.json'),
@@ -403,6 +420,14 @@ function extrairEstado(pastaDados) {
     // linha zerada mantida na planilha (não quebra referências de outra aba),
     // mas escondida do site pra não mostrar R$ 0 sem sentido pro gestor.
     if (/^dynamics \(f001796\)$/i.test(String(descricao || '').trim()) && !(Number(quantidade) > 0)) {
+      return;
+    }
+    // "E-mail do departamento" no Comercial Corporativo era um item duplicado
+    // de "Licença de e-mail corporativo" (mesmo valor, mesmo mês, R$50 —
+    // pedido da Débora, 23/09/2026). Mesmo tratamento: linha zerada mantida
+    // na planilha (não quebra referências de outra aba), mas escondida do
+    // site pra não mostrar duas linhas de e-mail duplicadas.
+    if (/^e-mail do departamento$/i.test(String(descricao || '').trim()) && !(Number(quantidade) > 0)) {
       return;
     }
     mesesSet.add(mes);
@@ -568,10 +593,11 @@ function extrairEstado(pastaDados) {
   const colaboradores = carregarColaboradores(pastaDados);
   const farmacia = carregarFarmacia(pastaDados);
   const farmaciaSapComparativo = carregarFarmaciaSapComparativo(pastaDados);
+  const afastados = carregarAfastados(pastaDados);
   const desligados = carregarDesligados(pastaDados);
   const encargosFolhaPercentual = carregarEncargosFolhaPercentual(pastaDados);
 
-  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, farmacia, farmaciaSapComparativo, encargosFolhaPercentual, arquivoUsado: path.basename(caminho) };
+  return { STATE_REAL, mesesDisponiveis, rateioConsolidado, comercialVarejo, reembolsoGeral, horasExtras, ferias, colaboradores, desligados, farmacia, farmaciaSapComparativo, afastados, encargosFolhaPercentual, arquivoUsado: path.basename(caminho) };
 }
 
 // Aba "REEMBOLSO GERAL" — extraída da Base Geral 2026.xlsx (aba Reembolso
@@ -643,6 +669,7 @@ function classificarCustoDireto(setorBruto, descricaoBruta) {
     if (/consultas e an[aá]lises de cr[eé]dito/i.test(desc)) return true;
     if (/^despesa do coordenador tiago/i.test(desc)) return true; // confirmado 14/09/2026
     if (/^despesa do coordenador tarc[ií]zio/i.test(desc)) return true; // confirmado 14/09/2026
+    if (/^comiss[ãa]o de manuten[çc][ãa]o da totum$/i.test(desc)) return true; // confirmado 23/09/2026 — Débora pediu pra virar direto, todos os meses/empresas (H&A e Voicenet)
   }
   // "Custo do gestor Michelangelo" já cai dentro de Instalação (linha
   // "Gestão Regional MICHELANGELO"), sem precisar de regra própria.

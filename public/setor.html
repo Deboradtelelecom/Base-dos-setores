@@ -606,6 +606,8 @@ function renderTudo() {
               ["Terceiros", e => e && e.terceiros],
               ["Prov. Multa Rescis.", e => e && e.provisaoMultaRescisoria],
               ["Total Encargos", e => e && e.totalEncargos],
+              ["Benefícios", e => e && e.beneficiosPagos],
+              ["Desconto (VA + VT)", e => e && e.desconto],
             ];
             const linhasTabela = it.detalhes.map(d => {
               const e = d.encargos;

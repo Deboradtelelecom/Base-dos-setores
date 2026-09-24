@@ -79,6 +79,22 @@
   .chart-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
   .chart-wrap { position:relative; height:340px; }
 
+  .setor-subgrupo { margin:0 0 10px 18px; border-left:2px solid var(--border-soft); padding-left:14px; }
+  .setor-subgrupo:last-child { margin-bottom:0; }
+  .setor-subheader { display:flex; align-items:center; justify-content:space-between; padding:9px 0; cursor:pointer; }
+  .setor-subheader:hover { opacity:.85; }
+  .setor-subheader .esq { display:flex; align-items:center; gap:9px; }
+  .setor-nome { font-size:13px; font-weight:700; color:var(--slate-800); }
+  .setor-count { font-size:10.5px; color:var(--slate-500); font-family:var(--mono); }
+  .setor-total { font-weight:700; color:#fff; font-family:var(--mono); font-size:12.5px; }
+  .setor-corpo { display:none; padding:2px 0 12px; }
+  .setor-corpo.aberto { display:block; }
+  .tendencia-mensal { display:flex; flex-wrap:wrap; gap:8px; margin:0 0 12px; }
+  .tendencia-item { background:var(--bg-app); border:1px solid var(--border); border-radius:8px; padding:6px 10px; min-width:100px; cursor:pointer; transition:border-color .12s, background .12s; }
+  .tendencia-item:hover { border-color:var(--blue-accent); background:rgba(79,156,249,0.06); }
+  .tendencia-item .mes { font-size:9.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; font-family:var(--mono); }
+  .tendencia-item .valor { font-size:12px; font-weight:700; color:var(--slate-800); font-family:var(--mono); margin-top:2px; }
+  .tendencia-item.mes-atual { border-color:var(--blue-accent); }
   .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
   .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
   .vazio { color:var(--slate-500); font-size:12.5px; padding:16px 0; text-align:center; }
@@ -95,7 +111,7 @@
     <span class="icon">🔁</span>
     <div>
       <h1>Reembolso de Empresas Licenciadas</h1>
-      <p>Custos consolidados de reembolso entre a Dtel e as empresas licenciadas — extraído da Base Geral 2026, aba "Reembolso Geral", organizado por Setor e Empresa.</p>
+      <p>Custos consolidados de reembolso entre a Dtel e as empresas licenciadas — dados gravados na própria Base_Rateio_Custos_DTEL.xlsx (aba REEMBOLSO GERAL, que é o que esta tela lê), organizado por Setor e Empresa. Os valores foram originalmente extraídos da Base Geral 2026.xlsx e copiados para cá — a partir daí, a atualização é feita direto aqui.</p>
     </div>
   </div>
 
@@ -106,10 +122,6 @@
       <div class="filtro">
         <span class="filtro-label">Competência</span>
         <select id="fMes" onchange="renderTudo()"></select>
-      </div>
-      <div class="filtro">
-        <span class="filtro-label">Setor</span>
-        <select id="fSetor" onchange="renderTudo()"></select>
       </div>
       <div class="filtro">
         <span class="filtro-label">Empresa</span>
@@ -125,21 +137,43 @@
 
     <div class="section-card">
       <div class="chart-header">
-        <span class="chart-titulo">Custos Diretos x Indiretos por Empresa</span>
+        <span class="chart-titulo">Demonstrativo — Quanto a Dtel gastou x quanto recuperou das licenciadas</span>
+      </div>
+      <p class="chart-nota">Gasto: soma de todas as despesas do período (todas as empresas, DTEL incluída — não inclui a linha de receita da Taxa de Administração de 7%, que é receita, não despesa). Recuperado: parte desse gasto que foi efetivamente cobrada das empresas licenciadas (todas as empresas, exceto DTEL — a Dtel é a fornecedora dos serviços, não paga reembolso a si mesma). A diferença é o custo que a Dtel absorve com seu próprio uso. Reflete os filtros de Competência/Empresa/Busca acima.</p>
+      <div class="totais-cards" id="demonstrativoCards"></div>
+      <div class="chart-wrap" style="height:260px;"><canvas id="chartDemonstrativo"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Custos Diretos x Indiretos por Empresa Licenciada</span>
+        <span class="chart-legenda">
+          <span class="leg-item"><span class="leg-dot direto"></span>Direto</span>
+          <span class="leg-item"><span class="leg-dot indireto"></span>Indireto</span>
+          <span class="leg-item" id="totalDiretoIndireto" style="color:#fff; font-weight:800;"></span>
+        </span>
+      </div>
+      <p class="chart-nota">Só as empresas licenciadas (DTEL fica de fora — tem gráfico próprio logo abaixo, para não confundir com a taxa de 7% que só as licenciadas pagam). Direto: Instalação, Frota, Uso mútuo de Postes, DP/RH/Segurança do Trabalho (por funcionário), Configuração, C.O.E., Vendas entre equipes/setor de vendas, Consultas de crédito, E-mail Dtel, Equipamentos de Segurança, Vendas do site Mundiale, Manutenção predial. O restante (Licitação, Fardamentos, Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade, Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento, Jurídico, Logística, NOC, Relacionamento, despesas de consultor/coordenador do Comercial, entre outros) entra como indireto. Não inclui a taxa de administração (Reembolso por receita recebida), que tem gráfico próprio abaixo. Reflete os filtros de Competência/Empresa/Busca acima.</p>
+      <div class="chart-wrap"><canvas id="chartDiretoIndireto"></canvas></div>
+    </div>
+
+    <div class="section-card">
+      <div class="chart-header">
+        <span class="chart-titulo">Custos Diretos x Indiretos — Dtel (uso próprio)</span>
         <span class="chart-legenda">
           <span class="leg-item"><span class="leg-dot direto"></span>Direto</span>
           <span class="leg-item"><span class="leg-dot indireto"></span>Indireto</span>
         </span>
       </div>
-      <p class="chart-nota">Direto: Instalação, Frota, Uso mútuo de Postes, DP/RH/Segurança do Trabalho (por funcionário), Configuração, C.O.E., Vendas entre equipes/setor de vendas, Consultas de crédito, E-mail Dtel, Equipamentos de Segurança, Vendas do site Mundiale, Manutenção predial. O restante (Licitação, Fardamentos, Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade, Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento, Jurídico, Logística, NOC, Relacionamento, despesas de consultor/coordenador do Comercial, entre outros) entra como indireto. Não inclui a taxa de administração (Reembolso por receita recebida), que tem gráfico próprio abaixo. Reflete os filtros de Competência/Setor/Busca acima.</p>
-      <div class="chart-wrap"><canvas id="chartDiretoIndireto"></canvas></div>
+      <p class="chart-nota">Só a Dtel — separado do gráfico das licenciadas acima para não misturar os dois: a Dtel não paga taxa de administração de 7% (ela é a fornecedora dos serviços, não uma licenciada), então não faz sentido comparar seu custo lado a lado com quem paga essa taxa. É o quanto a Dtel absorve do próprio uso dos setores compartilhados. Reflete os filtros de Competência/Busca acima.</p>
+      <div class="chart-wrap" style="height:220px;"><canvas id="chartDtel"></canvas></div>
     </div>
 
     <div class="section-card" id="cardReceita7pct" style="display:none;">
       <div class="chart-header">
         <span class="chart-titulo">Reembolso por Receita Recebida — Taxa de Administração (7%)</span>
       </div>
-      <p class="chart-nota">Taxa de administração de 6% + 1% de utilização da marca (7% sobre a receita recebida por cada empresa licenciada), lançada no setor Administrativo. É uma receita da Dtel — separada do gráfico de Custos Diretos x Indiretos acima para não misturar receita com despesa. Fonte: Base Geral 2026.xlsx. Reflete o filtro de Competência/Empresa/Busca acima.</p>
+      <p class="chart-nota">Taxa de administração de 6% + 1% de utilização da marca (7% sobre a receita recebida por cada empresa licenciada), lançada no setor Administrativo. É uma receita da Dtel — separada do gráfico de Custos Diretos x Indiretos acima para não misturar receita com despesa. Valor originalmente extraído da Base Geral 2026.xlsx e já gravado na aba REEMBOLSO GERAL desta planilha (Base_Rateio_Custos_DTEL.xlsx) — é daqui que o gráfico lê, o site não acessa a Base Geral 2026.xlsx. Reflete o filtro de Competência/Empresa/Busca acima.</p>
       <div class="chart-wrap"><canvas id="chartReceita7pct"></canvas></div>
     </div>
 
@@ -148,7 +182,7 @@
       <div class="vazio" id="vazioMsg" style="display:none;">Nenhum registro encontrado para esse filtro.</div>
     </div>
 
-    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Fonte original: Base Geral 2026.xlsx (aba Reembolso Geral) — esta tela é só de consulta; a edição continua sendo feita na planilha original. Os registros são separados por empresa (clique no nome de uma empresa para abrir/fechar o detalhamento) e, dentro de cada empresa, as descrições dos custos ficam empilhadas por setor.</p>
+    <p class="footer-note">Dados reais, lidos direto do servidor local a cada 60 segundos, da aba REEMBOLSO GERAL da Base_Rateio_Custos_DTEL.xlsx (pasta "dados-mensais") — é esse arquivo que esta tela lê e onde qualquer edição deve ser feita. A Base Geral 2026.xlsx só foi a origem dos números na extração inicial (não é lida pelo site). Esta tela é só de consulta. Os registros são separados por empresa (clique no nome de uma empresa para abrir/fechar o detalhamento) e, dentro de cada empresa, por setor — com a tendência mês a mês de cada setor.</p>
   </div>
 </main>
 <script src="/chartjs_extracted.js"></script>
@@ -157,8 +191,11 @@
 const API_BASE = '';
 let REGISTROS = [];
 let GRUPOS_ABERTOS = {};
+let SETORES_ABERTOS = {};
 let CHART_DIRETO_INDIRETO = null;
 let CHART_RECEITA_7PCT = null;
+let CHART_DEMONSTRATIVO = null;
+let CHART_DTEL = null;
 let ULTIMO_FILTRADOS = [];
 
 // Rótulo de dados para o gráfico de barras agrupadas (Direto/Indireto por
@@ -238,15 +275,18 @@ function toggleGrupo(setor) {
   renderTudo();
 }
 
+function toggleSetor(chave) {
+  SETORES_ABERTOS[chave] = SETORES_ABERTOS[chave] === false ? true : false;
+  renderTudo();
+}
+
 function renderTudo() {
   const mes = document.getElementById('fMes').value;
-  const setorFiltro = document.getElementById('fSetor').value;
   const empresaFiltro = document.getElementById('fEmpresa').value;
   const busca = document.getElementById('fBusca').value.trim().toLowerCase();
 
   let filtrados = REGISTROS.filter(r => {
     if (mes && r.mes !== mes) return false;
-    if (setorFiltro && r.setor !== setorFiltro) return false;
     if (empresaFiltro && r.empresa !== empresaFiltro) return false;
     if (busca && !(r.descricao || '').toLowerCase().includes(busca) && !(r.observacao || '').toLowerCase().includes(busca)) return false;
     return true;
@@ -264,18 +304,39 @@ function renderTudo() {
   // Cards de totais
   const totalGeral = filtradosDespesa.reduce((s, r) => s + (r.valorTotal || 0), 0);
   const empresasEnvolvidas = new Set(filtradosDespesa.map(r => r.empresa).filter(Boolean));
-  const setoresEnvolvidos = new Set(filtradosDespesa.map(r => r.setor).filter(Boolean));
   document.getElementById('totaisCards').innerHTML = `
     <div class="total-card"><div class="lbl">Total no filtro</div><div class="val">${fmtBRL(totalGeral)}</div></div>
-    <div class="total-card"><div class="lbl">Registros</div><div class="val">${filtrados.length}</div></div>
-    <div class="total-card"><div class="lbl">Setores</div><div class="val">${setoresEnvolvidos.size}</div></div>
     <div class="total-card"><div class="lbl">Empresas</div><div class="val">${empresasEnvolvidas.size}</div></div>
   `;
 
-  // Agrupa por empresa — dentro de cada empresa, as descrições dos custos
-  // ficam empilhadas uma abaixo da outra (ordenadas por setor e descrição,
-  // com os valores negativos — devoluções/créditos — deslocados para o fim
-  // da lista, destacados em vermelho, a pedido da Débora).
+  // Demonstrativo — Gasto total x Recuperado das licenciadas. Usa
+  // filtradosDespesa (já sem a linha de receita de 7%, por pedido da
+  // Débora — o demonstrativo só deve refletir despesa do período, nunca a
+  // receita da taxa de administração). DTEL nunca entra como "recuperado":
+  // ela é a fornecedora dos serviços, não uma empresa que reembolsa a si
+  // mesma — o valor de DTEL fica só do lado do "gasto" (é o quanto a Dtel
+  // absorveu do próprio custo, sem repassar).
+  const gastoTotal = filtradosDespesa.reduce((s, r) => s + (r.valorTotal || 0), 0);
+  const recuperadoLicenciadas = filtradosDespesa
+    .filter(r => (r.empresa || '').trim().toUpperCase() !== 'DTEL')
+    .reduce((s, r) => s + (r.valorTotal || 0), 0);
+  const absorvidoDtel = gastoTotal - recuperadoLicenciadas;
+  const pctRecuperado = gastoTotal ? (recuperadoLicenciadas / gastoTotal) * 100 : 0;
+
+  document.getElementById('demonstrativoCards').innerHTML = `
+    <div class="total-card"><div class="lbl">Gasto total (despesas do período)</div><div class="val">${fmtBRL(gastoTotal)}</div></div>
+    <div class="total-card"><div class="lbl">Recuperado das licenciadas</div><div class="val" style="color:var(--good);">${fmtBRL(recuperadoLicenciadas)}</div></div>
+    <div class="total-card"><div class="lbl">Absorvido pela Dtel</div><div class="val" style="color:var(--warn);">${fmtBRL(absorvidoDtel)}</div></div>
+    <div class="total-card"><div class="lbl">% recuperado</div><div class="val">${pctRecuperado.toLocaleString('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}%</div></div>
+  `;
+
+  renderChartDemonstrativo(gastoTotal, recuperadoLicenciadas);
+
+  // Painel espelhado por empresa (22/09/2026, a pedido da Débora): ao abrir
+  // uma licenciada, ela vê tudo que deve organizado por Setor — e, dentro de
+  // cada Setor, a tendência mês a mês (todos os meses disponíveis, sem
+  // depender do filtro de Competência) mais o detalhamento igual ao das
+  // páginas de setor (Mês/Descrição/Qtd/Valor Unit./Total/Observação).
   const porEmpresa = {};
   filtradosDespesa.forEach(r => {
     const k = r.empresa || '(sem empresa)';
@@ -286,76 +347,144 @@ function renderTudo() {
 
   const gruposEl = document.getElementById('grupos');
 
+  // Base para a tendência mês a mês: mesmo universo de despesa (sem receita
+  // de 7%) e mesmo filtro de Busca, mas SEM o filtro de Competência — assim
+  // a tendência sempre mostra todos os meses disponíveis, independente do
+  // mês selecionado no topo.
+  const buscaAtual = document.getElementById('fBusca').value.trim().toLowerCase();
+  const baseTendencia = REGISTROS.filter(r => {
+    if (r.categoriaCusto === 'receita') return false;
+    if (buscaAtual && !(r.descricao || '').toLowerCase().includes(buscaAtual) && !(r.observacao || '').toLowerCase().includes(buscaAtual)) return false;
+    return true;
+  });
+  const todosOsMeses = [...new Set(REGISTROS.map(r => r.mes))].filter(Boolean);
+  const mesAtualFiltro = mes;
+
   // Itens sem valor lançado (Total = R$0,00) são suprimidos aqui — só na
   // apresentação, os dados continuam intactos por trás (na planilha/JSON),
   // então voltam a aparecer sozinhos se ganharem valor real num mês futuro.
   const empresasComItens = empresasOrdenadas
     .map((empresa) => {
-      const ordenados = porEmpresa[empresa]
-        .filter((r) => (parseFloat(r.valorTotal) || 0) !== 0)
-        .slice()
-        .sort((a, b) => (a.setor || '').localeCompare(b.setor || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
-      // Positivos primeiro (na ordem por setor/descrição de sempre), negativos
-      // (devoluções/créditos) no fim do grupo.
-      const positivos = ordenados.filter((r) => (r.valorTotal || 0) >= 0);
-      const negativos = ordenados.filter((r) => (r.valorTotal || 0) < 0);
-      return { empresa, itens: positivos.concat(negativos) };
+      const comValor = porEmpresa[empresa].filter((r) => (parseFloat(r.valorTotal) || 0) !== 0);
+      // Agrupa por Setor dentro da empresa.
+      const porSetor = {};
+      comValor.forEach((r) => {
+        const s = r.setor || '(sem setor)';
+        if (!porSetor[s]) porSetor[s] = [];
+        porSetor[s].push(r);
+      });
+      const setoresOrdenados = Object.keys(porSetor).sort((a, b) => a.localeCompare(b, 'pt-BR'));
+      const setores = setoresOrdenados.map((setor) => {
+        const ordenados = porSetor[setor]
+          .slice()
+          .sort((a, b) => (a.mes || '').localeCompare(b.mes || '', 'pt-BR') || (a.descricao || '').localeCompare(b.descricao || '', 'pt-BR'));
+        const positivos = ordenados.filter((r) => (r.valorTotal || 0) >= 0);
+        const negativos = ordenados.filter((r) => (r.valorTotal || 0) < 0);
+        const itens = positivos.concat(negativos);
+        const totalSetor = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
+        // Tendência mês a mês deste Setor, para esta empresa — independente
+        // do filtro de Competência.
+        const tendenciaPorMes = {};
+        baseTendencia
+          .filter((r) => (r.empresa || '(sem empresa)') === empresa && (r.setor || '(sem setor)') === setor)
+          .forEach((r) => { tendenciaPorMes[r.mes] = (tendenciaPorMes[r.mes] || 0) + (r.valorTotal || 0); });
+        return { setor, itens, totalSetor, tendenciaPorMes };
+      });
+      const totalEmpresa = comValor.reduce((s, r) => s + (r.valorTotal || 0), 0);
+      return { empresa, setores, totalEmpresa, totalItens: comValor.length };
     })
-    .filter((g) => g.itens.length > 0);
+    .filter((g) => g.totalItens > 0);
 
   document.getElementById('vazioMsg').style.display = empresasComItens.length ? 'none' : 'block';
 
-  gruposEl.innerHTML = empresasComItens.map(({ empresa, itens }) => {
-    const totalEmpresa = itens.reduce((s, r) => s + (r.valorTotal || 0), 0);
+  gruposEl.innerHTML = empresasComItens.map(({ empresa, setores, totalEmpresa, totalItens }) => {
     const aberto = !!GRUPOS_ABERTOS[empresa];
-    const linhas = itens.map(r => {
-      const negativo = (r.valorTotal || 0) < 0;
-      const categoriaLabel = r.categoriaCusto === 'direto' ? 'Direto' : (r.categoriaCusto === 'indireto' ? 'Indireto' : '—');
-      const categoriaClasse = r.categoriaCusto === 'direto' ? 'direto' : (r.categoriaCusto === 'indireto' ? 'indireto' : '');
+    const subgrupos = setores.map(({ setor, itens, totalSetor, tendenciaPorMes }) => {
+      const chaveSetor = empresa + '|||' + setor;
+      const setorAberto = SETORES_ABERTOS[chaveSetor] !== false; // aberto por padrão
+      const tendenciaHtml = todosOsMeses.map((m) => {
+        const v = tendenciaPorMes[m] || 0;
+        return `<div class="tendencia-item${m === mesAtualFiltro ? ' mes-atual' : ''}" data-selecionar-mes="${encodeURIComponent(m)}" title="Ver ${m}"><div class="mes">${m}</div><div class="valor">${fmtBRL(v)}</div></div>`;
+      }).join('');
+      const linhas = itens.map(r => {
+        const negativo = (r.valorTotal || 0) < 0;
+        const categoriaLabel = r.categoriaCusto === 'direto' ? 'Direto' : (r.categoriaCusto === 'indireto' ? 'Indireto' : '—');
+        const categoriaClasse = r.categoriaCusto === 'direto' ? 'direto' : (r.categoriaCusto === 'indireto' ? 'indireto' : '');
+        return `
+        <tr>
+          <td>${r.mes || ''}</td>
+          <td>${r.descricao || ''}</td>
+          <td>${categoriaClasse ? `<span class="categoria-tag ${categoriaClasse}">${categoriaLabel}</span>` : '—'}</td>
+          <td class="val">${r.quantidade ? String(Math.round(r.quantidade)) : '—'}</td>
+          <td class="val">${fmtBRL(r.valorUnitario)}</td>
+          <td class="val${negativo ? ' val-negativo' : ''}">${fmtBRL(r.valorTotal)}</td>
+          <td class="obs">${r.observacao || ''}</td>
+        </tr>
+      `;
+      }).join('');
       return `
-      <tr>
-        <td>${r.mes || ''}</td>
-        <td class="empresa-tag-cell">${r.setor || '—'}</td>
-        <td>${r.descricao || ''}</td>
-        <td>${categoriaClasse ? `<span class="categoria-tag ${categoriaClasse}">${categoriaLabel}</span>` : '—'}</td>
-        <td class="val">${r.quantidade ? String(Math.round(r.quantidade)) : '—'}</td>
-        <td class="val">${fmtBRL(r.valorUnitario)}</td>
-        <td class="val${negativo ? ' val-negativo' : ''}">${fmtBRL(r.valorTotal)}</td>
-        <td class="obs">${r.observacao || ''}</td>
-      </tr>
-    `;
+        <div class="setor-subgrupo">
+          <div class="setor-subheader" data-setor-toggle="${encodeURIComponent(chaveSetor)}">
+            <div class="esq">
+              <span class="seta ${setorAberto ? 'aberto' : ''}">▶</span>
+              <span class="setor-nome">${setor}</span>
+              <span class="setor-count">${itens.length} registro${itens.length === 1 ? '' : 's'} · no filtro atual</span>
+            </div>
+            <span class="setor-total">${fmtBRL(totalSetor)}</span>
+          </div>
+          <div class="setor-corpo ${setorAberto ? 'aberto' : ''}">
+            <div class="tendencia-mensal">${tendenciaHtml}</div>
+            <table>
+              <thead><tr><th>Mês</th><th>Descrição do Custo</th><th>Direto/Indireto</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
+              <tbody>${linhas}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
     }).join('');
     return `
       <div class="grupo-setor">
-        <div class="grupo-header" data-setor-toggle>
+        <div class="grupo-header" data-empresa-toggle>
           <div class="esq">
             <span class="seta ${aberto ? 'aberto' : ''}">▶</span>
             <span class="grupo-nome">${empresa}</span>
-            <span class="grupo-count">${itens.length} registro${itens.length === 1 ? '' : 's'}</span>
+            <span class="grupo-count">${totalItens} registro${totalItens === 1 ? '' : 's'} · ${setores.length} setor${setores.length === 1 ? '' : 'es'}</span>
           </div>
           <div class="dir">
             <button class="btn-exportar-empresa" type="button" data-exportar-empresa="${encodeURIComponent(empresa)}">⬇ Excel</button>
             <span class="grupo-total">${fmtBRL(totalEmpresa)}</span>
           </div>
         </div>
-        <div class="grupo-corpo ${aberto ? 'aberto' : ''}">
-          <table>
-            <thead><tr><th>Mês</th><th>Setor</th><th>Descrição do Custo</th><th>Direto/Indireto</th><th>Qtd</th><th>Valor Unit.</th><th>Total</th><th>Observação</th></tr></thead>
-            <tbody>${linhas}</tbody>
-          </table>
-        </div>
+        <div class="grupo-corpo ${aberto ? 'aberto' : ''}">${subgrupos}</div>
       </div>
     `;
   }).join('');
 
-  // Não usamos onclick inline com o nome da empresa interpolado (nomes com
-  // aspas/acentos podiam quebrar o atributo HTML e travar o clique) — em vez
-  // disso, guardamos o nome da empresa num array na mesma ordem dos elementos
-  // e escutamos o clique via addEventListener.
-  const headers = gruposEl.querySelectorAll('[data-setor-toggle]');
-  const nomesEmpresasRenderizadas = empresasComItens.map(g => g.empresa);
-  headers.forEach((el, i) => {
-    el.addEventListener('click', () => toggleGrupo(nomesEmpresasRenderizadas[i]));
+  // Não usamos onclick inline com o nome da empresa/setor interpolado (nomes
+  // com aspas/acentos podiam quebrar o atributo HTML e travar o clique) — em
+  // vez disso, o nome/chave vai em data-* (encodeURIComponent) e escutamos o
+  // clique via addEventListener.
+  gruposEl.querySelectorAll('[data-empresa-toggle]').forEach((el) => {
+    el.addEventListener('click', () => toggleGrupo(el.parentElement.querySelector('.grupo-nome').textContent));
+  });
+  // Clicar num mês da tendência mensal troca o filtro de Competência (fMes)
+  // pra aquele mês, em vez de precisar usar o seletor lá em cima.
+  gruposEl.querySelectorAll('[data-selecionar-mes]').forEach((el) => {
+    el.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      const m = decodeURIComponent(el.getAttribute('data-selecionar-mes'));
+      const sel = document.getElementById('fMes');
+      if (sel.value !== m) {
+        sel.value = m;
+        renderTudo();
+      }
+    });
+  });
+  gruposEl.querySelectorAll('[data-setor-toggle]').forEach((el) => {
+    el.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      toggleSetor(decodeURIComponent(el.getAttribute('data-setor-toggle')));
+    });
   });
 
   // Botão "Baixar Excel" de cada empresa — para (a linha inteira do cabeçalho
@@ -368,6 +497,7 @@ function renderTudo() {
   });
 
   renderChartDiretoIndireto(filtradosDespesa);
+  renderChartDtel(filtradosDespesa);
   renderChartReceita7pct(filtrados);
 }
 
@@ -380,6 +510,10 @@ function renderChartDiretoIndireto(filtrados) {
   const porEmpresa = {}; // empresa -> {direto, indireto}
   filtrados.forEach((r) => {
     const empresa = r.empresa || '(sem empresa)';
+    // A Dtel não entra neste gráfico — tem o dela próprio (renderChartDtel),
+    // separado a pedido da Débora (22/09/2026) para não misturar quem paga
+    // a taxa de administração de 7% (as licenciadas) com a própria Dtel.
+    if (empresa.trim().toUpperCase() === 'DTEL') return;
     if (!porEmpresa[empresa]) porEmpresa[empresa] = { direto: 0, indireto: 0 };
     // 'receita' já vem excluído (filtradosDespesa), mas o filtro fica aqui
     // também como segunda trava — nunca cair em "indireto" por engano.
@@ -389,6 +523,10 @@ function renderChartDiretoIndireto(filtrados) {
   const empresas = Object.keys(porEmpresa)
     .filter((e) => porEmpresa[e].direto !== 0 || porEmpresa[e].indireto !== 0)
     .sort((a, b) => a.localeCompare(b, 'pt-BR'));
+
+  const totalDireto = empresas.reduce((s, e) => s + porEmpresa[e].direto, 0);
+  const totalIndireto = empresas.reduce((s, e) => s + porEmpresa[e].indireto, 0);
+  document.getElementById('totalDiretoIndireto').textContent = 'Total: ' + fmtBRL(totalDireto + totalIndireto);
 
   const ctx = document.getElementById('chartDiretoIndireto').getContext('2d');
   const dadosDireto = empresas.map((e) => Number(porEmpresa[e].direto.toFixed(2)));
@@ -421,6 +559,48 @@ function renderChartDiretoIndireto(filtrados) {
         x: { ticks: { color: '#8291ab', font: { size: 11 } }, grid: { display: false } },
         // Eixo Y sem números (o valor já aparece como rótulo em cima de cada
         // barra) — a pedido da Débora (31/08/2026).
+        y: { display: false, grid: { display: false } },
+      },
+    },
+  });
+}
+
+// Gráfico "Custos Diretos x Indiretos — Dtel (uso próprio)" — separado do
+// gráfico das licenciadas (22/09/2026, a pedido da Débora): a Dtel não paga
+// a taxa de administração de 7%, então misturar ela no mesmo gráfico das
+// empresas que pagam essa taxa confundia a leitura. Usa uma única barra
+// (Direto/Indireto), com o mesmo filtro de Competência/Busca do resto da
+// tela (sem o filtro de Empresa, já que aqui só existe a Dtel).
+function renderChartDtel(filtrados) {
+  let direto = 0, indireto = 0;
+  filtrados.forEach((r) => {
+    if ((r.empresa || '').trim().toUpperCase() !== 'DTEL') return;
+    if (r.categoriaCusto === 'direto') direto += (r.valorTotal || 0);
+    else if (r.categoriaCusto === 'indireto') indireto += (r.valorTotal || 0);
+  });
+
+  const ctx = document.getElementById('chartDtel').getContext('2d');
+  if (CHART_DTEL) CHART_DTEL.destroy();
+  CHART_DTEL = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Dtel'],
+      datasets: [
+        { label: 'Direto', data: [Number(direto.toFixed(2))], backgroundColor: 'rgba(79,156,249,0.75)', borderRadius: 4, maxBarThickness: 60 },
+        { label: 'Indireto', data: [Number(indireto.toFixed(2))], backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 60 },
+      ],
+    },
+    plugins: [rotuloBarrasDiretoIndiretoPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { top: 22 } },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (ctxItem) => `${ctxItem.dataset.label}: ${fmtBRL(ctxItem.raw)}` } },
+      },
+      scales: {
+        x: { ticks: { color: '#8291ab', font: { size: 11.5, weight: '700' } }, grid: { display: false } },
         y: { display: false, grid: { display: false } },
       },
     },
@@ -484,11 +664,9 @@ function gerarESalvarExcel(itensBrutos, nomeArquivo, rotuloTotal, btn) {
 function exportarExcel() {
   const btn = document.getElementById('btnExportar');
   const mes = document.getElementById('fMes').value;
-  const setor = document.getElementById('fSetor').value;
   const empresa = document.getElementById('fEmpresa').value;
   const partesNome = ['Reembolso_Empresas_Licenciadas'];
   if (mes) partesNome.push(mes.replace(/[\/\s]+/g, '-'));
-  if (setor) partesNome.push(setor.replace(/[^\w-]+/g, '_'));
   if (empresa) partesNome.push(empresa.replace(/[^\w-]+/g, '_'));
 
   if (btn) btn.textContent = 'Gerando...';
@@ -567,6 +745,44 @@ function renderChartReceita7pct(filtrados) {
   });
 }
 
+// Gráfico do Demonstrativo — Gasto total x Recuperado das licenciadas, duas
+// barras simples (não por empresa/mês, só o total do filtro atual), pedido
+// da Débora (22/09/2026) para visualizar rápido quanto foi absorvido pela
+// Dtel x quanto foi de fato reembolsado pelas empresas licenciadas.
+function renderChartDemonstrativo(gastoTotal, recuperadoLicenciadas) {
+  const ctx = document.getElementById('chartDemonstrativo').getContext('2d');
+  if (CHART_DEMONSTRATIVO) CHART_DEMONSTRATIVO.destroy();
+  CHART_DEMONSTRATIVO = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: ['Gasto total', 'Recuperado das licenciadas'],
+      datasets: [
+        {
+          label: 'Valor',
+          data: [Number(gastoTotal.toFixed(2)), Number(recuperadoLicenciadas.toFixed(2))],
+          backgroundColor: ['rgba(79,156,249,0.75)', 'rgba(34,197,94,0.75)'],
+          borderRadius: 4,
+          maxBarThickness: 90,
+        },
+      ],
+    },
+    plugins: [rotuloBarraUnicaPlugin],
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      layout: { padding: { top: 22 } },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (ctxItem) => fmtBRL(ctxItem.raw) } },
+      },
+      scales: {
+        x: { ticks: { color: '#8291ab', font: { size: 11.5, weight: '700' } }, grid: { display: false } },
+        y: { display: false, grid: { display: false } },
+      },
+    },
+  });
+}
+
 async function buscarDados() {
   try {
     const resp = await fetch(API_BASE + '/api/reembolso-geral');
@@ -576,10 +792,8 @@ async function buscarDados() {
     document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
 
     const meses = [...new Set(REGISTROS.map(r => r.mes))];
-    const setores = [...new Set(REGISTROS.map(r => r.setor).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
     const empresas = [...new Set(REGISTROS.map(r => r.empresa).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'pt-BR'));
     popularSelect('fMes', meses, true);
-    popularSelect('fSetor', setores, true);
     popularSelect('fEmpresa', empresas, true);
     if (!document.getElementById('fMes').value && meses.length) {
       document.getElementById('fMes').value = meses[meses.length - 1];

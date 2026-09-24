@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Afastados — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e; --warn: #f59e0b; --bad: #f87171;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1180px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:760px; }
+
+  .period-row { display:flex; justify-content:space-between; align-items:center; margin:0 0 18px; gap:12px; flex-wrap:wrap; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+  select { background:var(--bg-panel); color:var(--slate-800); border:1px solid var(--border); border-radius:8px; padding:6px 10px; font-size:12px; font-family:inherit; }
+
+  .stats-row { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:12px; margin-bottom:18px; }
+  .stat-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .stat-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
+  .stat-card .num { font-size:20px; font-weight:800; color:#fff; font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 22px 22px; margin-bottom:18px; }
+  .section-header { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px; margin-bottom:6px; }
+  .section-titulo { font-size:14px; font-weight:800; color:#fff; }
+  .section-nota { font-size:11px; color:var(--slate-500); line-height:1.55; margin:0 0 14px; }
+
+  table { width:100%; border-collapse:collapse; font-size:12.5px; min-width:720px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  thead th.val { text-align:right; }
+  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
+  tbody td.val { text-align:right; font-weight:700; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  .empresa-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--blue-accent); background:var(--blue-soft); border:1px solid rgba(79,156,249,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
+  .sit-tag { display:inline-block; font-size:10px; font-weight:700; color:var(--warn); background:rgba(245,158,11,.1); border:1px solid rgba(245,158,11,.3); padding:1px 7px; border-radius:999px; white-space:nowrap; }
+
+  .btn-excel-mini { display:inline-flex; align-items:center; gap:4px; background:rgba(34,197,94,0.1); border:1px solid rgba(34,197,94,0.3); color:var(--good); font-size:10px; font-weight:700; border-radius:7px; padding:4px 9px; cursor:pointer; font-family:var(--mono); white-space:nowrap; }
+  .btn-excel-mini:hover { background:rgba(34,197,94,0.18); }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
+  <div class="period-row">
+    <div class="header-row" style="margin-bottom:0;">
+      <span class="icon">🏥</span>
+      <div>
+        <h1>Afastados — Benefícios Pagos</h1>
+        <p>Colaboradores afastados por doença, licença maternidade, aposentadoria por invalidez ou em férias cheia — não entram no Custo Total (salário), mas a empresa continua pagando Plano de Saúde e, quando aplicável, Vale Alimentação.</p>
+      </div>
+    </div>
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="stats-row" id="statsRow"></div>
+
+    <div class="section-card">
+      <div class="section-header">
+        <span class="section-titulo">Detalhamento por Mês</span>
+        <button class="btn-excel-mini" onclick="baixarExcel()">⬇ Excel</button>
+      </div>
+      <p class="section-nota">
+        Situações incluídas: Doença / INSS-Doença, Licença Maternidade, Aposentadoria por invalidez e Férias (cheia, sem dias trabalhados nesse mês). Colaboradores desligados/demitidos e sócios não entram — não são afastamento, são desligamento. Vale Alimentação = desconto de VA já registrado na folha ÷ 10% (mesma regra usada para colaboradores ativos). Plano de Saúde = R$208,10 fixo, aplicado quando a folha registra desconto de plano titular naquele mês. O setor de cada colaborador já aparece no detalhamento de folha da página do próprio setor — aqui a tabela fica só por mês, pra não repetir a mesma informação. Fonte: Base_Despesa_Trabalhista_MMAAAA.xlsx.
+      </p>
+      <div id="tabelasWrap"></div>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos. Esta tela é só de consulta.</p>
+  </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+const API_BASE = '';
+let EQUIPES = {}; // Setor -> Mes -> [ {nome,cargo,empresa,situacao,valorAlimentacaoPago,valorPlanoSaudePago,valorTotalBeneficios} ]
+const ORDEM_MESES = ['Maio/2026','Junho/2026','Julho/2026','Agosto/2026'];
+
+function fmtBRL(v) {
+  if (v === null || v === undefined) return '—';
+  return v.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+}
+
+function renderStats() {
+  let totalVA = 0, totalPlano = 0, totalGeral = 0, totalPessoas = 0;
+  Object.values(EQUIPES).forEach((porMes) => {
+    Object.values(porMes).forEach((linhas) => {
+      linhas.forEach((l) => {
+        totalVA += l.valorAlimentacaoPago || 0;
+        totalPlano += l.valorPlanoSaudePago || 0;
+        totalGeral += l.valorTotalBeneficios || 0;
+        totalPessoas += 1;
+      });
+    });
+  });
+  const statsRow = document.getElementById('statsRow');
+  statsRow.innerHTML = `
+    <div class="stat-card"><div class="lbl">Lançamentos (4 meses)</div><div class="num">${totalPessoas}</div></div>
+    <div class="stat-card"><div class="lbl">Vale Alimentação Pago</div><div class="num">${fmtBRL(totalVA)}</div></div>
+    <div class="stat-card"><div class="lbl">Plano de Saúde Pago</div><div class="num">${fmtBRL(totalPlano)}</div></div>
+    <div class="stat-card"><div class="lbl">Total Geral</div><div class="num">${fmtBRL(totalGeral)}</div></div>
+  `;
+}
+
+function renderTabelas() {
+  const wrap = document.getElementById('tabelasWrap');
+  // Achata Setor -> Mes -> [linhas] em uma unica lista por mes (com o Setor
+  // como coluna, nao como bloco separado) -- a quebra por setor ja aparece
+  // na pagina do proprio setor e so duplicava informacao aqui.
+  const porMes = {};
+  Object.keys(EQUIPES).forEach((setor) => {
+    Object.keys(EQUIPES[setor]).forEach((mes) => {
+      if (!porMes[mes]) porMes[mes] = [];
+      EQUIPES[setor][mes].forEach((l) => porMes[mes].push(Object.assign({ setor }, l)));
+    });
+  });
+
+  wrap.innerHTML = ORDEM_MESES.filter(m => porMes[m] && porMes[m].length).map((mes) => {
+    const linhas = porMes[mes].sort((a, b) => (a.nome || '').localeCompare(b.nome || ''));
+    const linhasHtml = linhas.map(l => `
+      <tr>
+        <td>${l.nome || '—'}</td>
+        <td>${l.setor || '—'}</td>
+        <td>${l.cargo || '—'}</td>
+        <td><span class="empresa-tag">${l.empresa || '—'}</span></td>
+        <td><span class="sit-tag">${l.situacao || '—'}</span></td>
+        <td class="val">${fmtBRL(l.valorAlimentacaoPago)}</td>
+        <td class="val">${fmtBRL(l.valorPlanoSaudePago)}</td>
+        <td class="val">${fmtBRL(l.valorTotalBeneficios)}</td>
+      </tr>
+    `).join('');
+    return `
+      <div style="margin-bottom:20px;">
+        <div style="font-size:12.5px; font-weight:800; color:var(--slate-500); margin-bottom:8px; padding-left:2px;">${mes}</div>
+        <div style="overflow-x:auto;">
+          <table>
+            <thead><tr><th>Colaborador</th><th>Setor</th><th>Cargo</th><th>Empresa</th><th>Situação</th><th class="val">Vale Alimentação</th><th class="val">Plano de Saúde</th><th class="val">Total</th></tr></thead>
+            <tbody>${linhasHtml}</tbody>
+          </table>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+function exportarXlsx(matriz, nomeArquivo, nomeAba) {
+  const ws = XLSX.utils.aoa_to_sheet(matriz);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, nomeAba || 'Dados');
+  XLSX.writeFile(wb, nomeArquivo);
+}
+
+function baixarExcel() {
+  const cab = ['Setor', 'Mês', 'Colaborador', 'Cargo', 'Empresa', 'Situação', 'Vale Alimentação Pago', 'Plano de Saúde Pago', 'Total Benefícios'];
+  const linhas = [];
+  Object.keys(EQUIPES).sort().forEach((setor) => {
+    ORDEM_MESES.forEach((mes) => {
+      (EQUIPES[setor][mes] || []).forEach((l) => {
+        linhas.push([setor, mes, l.nome, l.cargo, l.empresa, l.situacao, l.valorAlimentacaoPago, l.valorPlanoSaudePago, l.valorTotalBeneficios]);
+      });
+    });
+  });
+  exportarXlsx([cab, ...linhas], 'Afastados - Beneficios Pagos.xlsx', 'Afastados');
+}
+
+async function carregar() {
+  const statusEl = document.getElementById('statusTxt');
+  const erroBox = document.getElementById('erroBox');
+  const conteudo = document.getElementById('conteudo');
+  try {
+    const resp = await fetch(API_BASE + '/api/afastados');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao carregar afastados.');
+    EQUIPES = data.equipes || {};
+    statusEl.textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : 'Atualizado';
+
+    conteudo.style.display = 'block';
+    erroBox.style.display = 'none';
+    renderStats();
+    renderTabelas();
+  } catch (e) {
+    erroBox.style.display = 'block';
+    erroBox.textContent = 'Não foi possível carregar os dados: ' + e.message;
+    conteudo.style.display = 'none';
+    statusEl.textContent = 'Erro';
+  }
+}
+
+carregar();
+setInterval(carregar, 60000);
+</script>
+</body>
+</html>

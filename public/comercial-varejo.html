@@ -325,19 +325,9 @@ function renderTendencia() {
     rotulosFinais.push({ coordenador: s.coordenador, x: ultimo[0] + 8, y: ultimo[1], cor, valor: ultimo[3] });
   });
 
-  // Evita rótulos de fim de linha (nome do coordenador) sobrepostos: afasta
-  // verticalmente qualquer par mais perto que a altura de duas linhas de texto
-  // (agora o rótulo tem duas linhas: nome + valor).
-  const MIN_DIST = 24;
-  rotulosFinais.sort((a, b) => a.y - b.y);
-  for (let i = 1; i < rotulosFinais.length; i++) {
-    const prev = rotulosFinais[i - 1], cur = rotulosFinais[i];
-    if (cur.y - prev.y < MIN_DIST) cur.y = prev.y + MIN_DIST;
-  }
-  rotulosFinais.forEach(r => {
-    svgHtml += `<text class="tend-direct-label" data-coord="${r.coordenador}" x="${r.x}" y="${r.y - 6}" fill="${r.cor}" onclick="tendAlternarDestaque('${r.coordenador}')">${r.coordenador}</text>`;
-    svgHtml += `<text class="tend-data-label" data-coord="${r.coordenador}" x="${r.x}" y="${r.y + 8}">${fmtBRLCompacto(r.valor)}</text>`;
-  });
+  // Rótulos de fim de linha (nome + valor) removidos a pedido da Débora —
+  // ficavam ilegíveis/sobrepostos com muitos coordenadores. A identificação
+  // de cada linha fica só na legenda abaixo do gráfico (clicável, com cor).
 
   svg.innerHTML = svgHtml;
 
