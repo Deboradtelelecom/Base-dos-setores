@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custos Regionais — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --good: #22c55e; --warn: #f59e0b;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1280px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:760px; }
+  .filtros { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px; }
+  .filtros select, .filtros input { background:var(--bg-panel); color:var(--slate-800); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:12.5px; }
+  .filtros input { min-width:220px; }
+  .totais-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin-bottom:18px; }
+  .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
+  .total-card .val { font-size:17px; font-weight:800; color:#fff; font-family:var(--mono); }
+  .total-card .sub { font-size:11px; color:var(--slate-500); margin-top:4px; font-family:var(--mono); }
+  .grupo { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; margin-bottom:12px; overflow:hidden; }
+  .grupo-head { display:flex; justify-content:space-between; align-items:center; padding:14px 18px; cursor:pointer; gap:12px; flex-wrap:wrap; }
+  .grupo-head .nome { font-weight:800; color:#fff; font-size:14px; }
+  .grupo-head .meta { font-size:11px; color:var(--slate-500); font-family:var(--mono); margin-left:8px; }
+  .grupo-head .tot { font-family:var(--mono); font-weight:800; color:#fff; }
+  .grupo-body { display:none; padding:0 18px 16px; overflow-x:auto; }
+  .grupo.aberto .grupo-body { display:block; }
+  .seta { display:inline-block; transition:transform .15s; margin-right:6px; color:var(--slate-500); }
+  .grupo.aberto .seta { transform:rotate(90deg); }
+  table { width:100%; border-collapse:collapse; font-size:12.5px; }
+  thead th { text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:8px 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
+  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
+  td.desc { color:#fff; font-weight:600; }
+  td.val, th.val { text-align:right; font-family:var(--mono); white-space:nowrap; }
+  td.val { color:#fff; }
+  td.pend { color:var(--warn); font-size:11px; }
+  .tag { font-size:10px; font-weight:700; padding:2px 8px; border-radius:999px; border:1px solid; }
+  .tag.fixo { color:var(--blue-accent); border-color:rgba(79,156,249,.4); }
+  .tag.var { color:var(--warn); border-color:rgba(245,158,11,.4); }
+  tr.linha { cursor:pointer; }
+  tr.linha:hover td { background:rgba(255,255,255,0.02); }
+  tr.det td { background:#0a0d19; font-size:11.5px; color:var(--slate-500); }
+  .det-mes { display:inline-block; vertical-align:top; min-width:210px; margin:4px 18px 6px 0; }
+  .det-mes b { color:var(--slate-700); font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; }
+  .det-mes div { font-family:var(--mono); }
+  .qtd { display:block; font-size:10px; color:var(--slate-500); }
+  .tag.nova { color:var(--good); border-color:rgba(34,197,94,.4); margin-left:6px; }
+  .pend-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-top:18px; }
+  .pend-card h3 { font-size:12.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 10px; }
+  .pend-card details { margin-bottom:6px; font-size:12px; color:var(--slate-700); }
+  .pend-card summary { cursor:pointer; }
+  .pend-card ul { margin:6px 0 8px 18px; padding:0; color:var(--slate-500); font-size:11.5px; }
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
+  <div class="header-row">
+    <span class="icon">🗺️</span>
+    <div>
+      <h1>Custos Regionais</h1>
+      <p>Estrutura da planilha Custo regional (Base principal) da Dtel, com as descrições exatas por gestor, localidade e região. Itens de aluguel são fixos (valor repetido todo mês); os demais são variáveis e mudam mês a mês.</p>
+    </div>
+  </div>
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+  <div id="conteudo" style="display:none;">
+    <div class="filtros">
+      <select id="fRegiao"><option value="">Todas as regiões</option></select>
+      <select id="fGestor"><option value="">Todos os gestores</option></select>
+      <select id="fTipo"><option value="">Fixo e variável</option><option>Fixo</option><option>Variável</option></select>
+      <input id="fBusca" placeholder="Buscar localidade ou descrição…">
+    </div>
+    <div class="totais-cards" id="totaisCards"></div>
+    <div id="grupos"></div>
+    <div class="pend-card" id="pendCard" style="display:none;"><h3>Regras do preenchimento e pendências</h3><div id="regras" class="footer-note" style="margin:0 0 12px;"></div><div id="pendList"></div></div>
+    <p class="footer-note">"A preencher" = valor variável do mês sem fonte na pasta (você informa). R$ 0,00 = a fonte do mês existe e não tem lançamento para aquela linha. Clique numa linha para ver os colaboradores/itens que compõem o valor.</p>
+  </div>
+</main>
+<script>
+const API_BASE = '';
+let D = null; const abertos = new Set(); const abertasLinhas = new Set();
+const fmt = n => "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+
+function opcoes(id, vals) {
+  const el = document.getElementById(id);
+  [...new Set(vals)].filter(Boolean).sort((a,b)=>a.localeCompare(b,'pt-BR')).forEach(v => el.insertAdjacentHTML('beforeend', `<option>${esc(v)}</option>`));
+  el.onchange = render;
+}
+
+function filtradas() {
+  const r = fRegiao.value, g = fGestor.value, t = fTipo.value, b = norm(fBusca.value);
+  return D.linhas.filter(l => (!r || l.regiao === r) && (!g || l.gestor === g) && (!t || l.tipo === t) &&
+    (!b || norm(l.localidade + ' ' + l.descricao + ' ' + l.obs).includes(b)));
+}
+
+function render() {
+  const M = D.meses, L = filtradas();
+  const tot = M.map(m => L.reduce((s,l) => s + (l.valores[m] || 0), 0));
+  const pend = M.map(m => L.filter(l => l.valores[m] == null).length);
+  totaisCards.innerHTML = M.map((m,i) => `<div class="total-card"><div class="lbl">${m}</div><div class="val">${fmt(tot[i])}</div><div class="sub">${pend[i] ? pend[i] + ' itens a preencher' : 'completo'}</div></div>`).join('')
+    + `<div class="total-card"><div class="lbl">Total do período</div><div class="val" style="color:var(--good)">${fmt(tot.reduce((a,b)=>a+b,0))}</div><div class="sub">${L.length} linhas</div></div>`;
+
+  const porGestor = {};
+  L.forEach(l => (porGestor[l.gestor] = porGestor[l.gestor] || []).push(l));
+  grupos.innerHTML = Object.keys(porGestor).sort((a,b)=>a.localeCompare(b,'pt-BR')).map(g => {
+    const ls = porGestor[g];
+    const totG = ls.reduce((s,l) => s + M.reduce((a,m) => a + (l.valores[m] || 0), 0), 0);
+    const regs = [...new Set(ls.map(l => l.regiao))].join(', ');
+    const rows = ls.map(l => {
+      const det = l.detalhe || {}, qm = l.qtdMes || {};
+      const temDet = M.some(m => (det[m] || []).length);
+      const aberto = abertasLinhas.has(l.id);
+      const detHtml = temDet && aberto ? `<tr class="det"><td colspan="${6 + M.length}">${M.filter(m => (det[m] || []).length).map(m =>
+        `<div class="det-mes"><b>${m}</b>${det[m].map(i => `<div>${esc(i.nome)} — ${fmt(i.valor)}</div>`).join('')}</div>`).join('')}</td></tr>` : '';
+      return `<tr class="linha" data-id="${l.id}">
+      <td>${esc(l.localidade)}</td><td>${esc(l.regiao)}</td><td class="desc">${temDet ? (aberto ? '▾ ' : '▸ ') : ''}${esc(l.descricao)}${l.geradoAuto ? '<span class="tag nova">linha nova</span>' : ''}</td>
+      <td class="val">${esc(l.quantidade)}</td><td>${esc(l.obs)}</td>
+      <td><span class="tag ${l.tipo === 'Fixo' ? 'fixo' : 'var'}">${l.tipo}</span></td>
+      ${M.map(m => l.valores[m] == null ? '<td class="val pend">a preencher</td>' : `<td class="val">${fmt(l.valores[m])}${qm[m] ? `<span class="qtd">${qm[m]} colab./itens</span>` : ''}</td>`).join('')}
+    </tr>${detHtml}`; }).join('');
+    return `<div class="grupo ${abertos.has(g) ? 'aberto' : ''}" data-g="${esc(g)}">
+      <div class="grupo-head"><div><span class="seta">▶</span><span class="nome">${esc(g)}</span><span class="meta">${ls.length} linhas · ${esc(regs)}</span></div><span class="tot">${fmt(totG)}</span></div>
+      <div class="grupo-body"><table><thead><tr><th>Localidade</th><th>Região</th><th>Descrição</th><th class="val">Qtd / Colab.</th><th>Obs</th><th>Tipo</th>${M.map(m => `<th class="val">${m}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div>
+    </div>`;
+  }).join('');
+  document.querySelectorAll('tr.linha').forEach(tr => tr.onclick = () => {
+    const id = +tr.dataset.id; abertasLinhas.has(id) ? abertasLinhas.delete(id) : abertasLinhas.add(id); render();
+  });
+  const P = D.pendencias || {}, R = (D.preenchimento || {}).regras || [];
+  if (R.length || Object.keys(P).length) {
+    pendCard.style.display = '';
+    regras.innerHTML = R.map(r => '• ' + esc(r)).join('<br>') + (D.preenchimento && D.preenchimento.geradoEm ? '<br>Preenchido em ' + esc(D.preenchimento.geradoEm) : '');
+    pendList.innerHTML = Object.keys(P).map(k => `<details><summary>${esc(k)} (${P[k].length})</summary><ul>${P[k].map(x => `<li>${esc(x)}</li>`).join('')}</ul></details>`).join('');
+  }
+  document.querySelectorAll('.grupo-head').forEach(h => h.onclick = () => {
+    const el = h.parentElement, g = el.dataset.g;
+    el.classList.toggle('aberto'); el.classList.contains('aberto') ? abertos.add(g) : abertos.delete(g);
+  });
+}
+
+async function buscar() {
+  try {
+    const resp = await fetch(API_BASE + '/api/custos-regionais');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    const primeira = !D; D = data;
+    if (primeira) {
+      opcoes('fRegiao', D.linhas.map(l => l.regiao));
+      opcoes('fGestor', D.linhas.map(l => l.gestor));
+      fTipo.onchange = render; fBusca.oninput = render;
+    }
+    erroBox.style.display = 'none'; conteudo.style.display = '';
+    render();
+  } catch (e) {
+    erroBox.style.display = 'block';
+    erroBox.textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscar();
+setInterval(buscar, 300000);
+</script>
+</body>
+</html>

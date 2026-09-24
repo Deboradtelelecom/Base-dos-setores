@@ -248,6 +248,17 @@ app.get('/api/farmacia', async (req, res) => {
   }
 });
 
+// Quadro "Custos Regionais" — estrutura da planilha Custo regional (Base
+// principal), com as descrições exatas. Lido de custos_regionais.json.
+app.get('/api/custos-regionais', (req, res) => {
+  try {
+    // fonte: planilha editável dados-mensais/Custos_Regionais_DTEL.xlsx (fallback: custos_regionais.json)
+    res.json(require('./custos_regionais_xlsx').custosRegionais());
+  } catch (e) {
+    res.status(500).json({ erro: e.message });
+  }
+});
+
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
@@ -276,6 +287,10 @@ app.get('/gestao-atendimento', (req, res) => {
 
 app.get('/reembolso-geral', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'reembolso-geral.html'));
+});
+
+app.get('/custos-regionais', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'custos-regionais.html'));
 });
 
 app.get('/custos-dtel', (req, res) => {
