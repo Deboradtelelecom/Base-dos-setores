@@ -324,8 +324,14 @@ function renderTudo() {
   // cada Setor, a tendência mês a mês (todos os meses disponíveis, sem
   // depender do filtro de Competência) mais o detalhamento igual ao das
   // páginas de setor (Mês/Descrição/Qtd/Valor Unit./Total/Observação).
+  // A Dtel não entra neste painel agrupado por empresa — a pedido da Débora
+  // (24/09/2026): esta página é só para o que as empresas licenciadas devem
+  // reembolsar, a Dtel não reembolsa a si mesma. Os custos totais da Dtel por
+  // setor, nos 4 meses, agora têm página própria em "Custos da Dtel"
+  // (Relatórios e Indicadores).
   const porEmpresa = {};
   filtradosDespesa.forEach(r => {
+    if ((r.empresa || '').trim().toUpperCase() === 'DTEL') return;
     const k = r.empresa || '(sem empresa)';
     if (!porEmpresa[k]) porEmpresa[k] = [];
     porEmpresa[k].push(r);

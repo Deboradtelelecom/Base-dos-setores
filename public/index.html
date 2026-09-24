@@ -189,7 +189,7 @@ const ICONE_ESPECIAIS = {
   'Central de Relacionamento': 'repeat', 'Engenharia': 'hard-hat', 'Gestão de Atendimento': 'headset',
   'Comercial Varejo': 'shopping-bag', 'Resumo dos Setores': 'clipboard-list',
   'Reembolso de Empresas Licenciadas': 'repeat-2', 'Horas Extras': 'clock', 'Férias': 'palmtree',
-  'Colaboradores': 'user-round', 'Desligados': 'user-round-x', 'Farmácia': 'pill', 'Afastados': 'heart-pulse',
+  'Colaboradores': 'user-round', 'Desligados': 'user-round-x', 'Farmácia': 'pill',
 };
 // Fallback por palavra-chave no nome — pega setor novo que não esteja em
 // nenhum dos dois mapas acima sem nunca deixar ícone genérico à toa.
@@ -379,12 +379,12 @@ async function carregar() {
     itens.push({ nome: 'Comercial Varejo', href: API_BASE + '/comercial-varejo', categoria: 'Comercial e Atendimento' });
     itens.push({ nome: 'Resumo dos Setores', href: API_BASE + '/resumo', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Reembolso de Empresas Licenciadas', href: API_BASE + '/reembolso-geral', categoria: 'Relatórios e Indicadores' });
+    itens.push({ nome: 'Custos da Dtel', href: API_BASE + '/custos-dtel', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Horas Extras', href: API_BASE + '/horas-extras', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Férias', href: API_BASE + '/ferias', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Colaboradores', href: API_BASE + '/colaboradores', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Desligados', href: API_BASE + '/desligados', categoria: 'Relatórios e Indicadores' });
     itens.push({ nome: 'Farmácia', href: API_BASE + '/farmacia', categoria: 'Relatórios e Indicadores' });
-    itens.push({ nome: 'Afastados', href: API_BASE + '/afastados', categoria: 'Relatórios e Indicadores' });
     itens.sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
 
     TODOS_ITENS = itens;

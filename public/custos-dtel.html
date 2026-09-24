@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Custos da Dtel — Dtel Telecom</title>
+<style>
+  :root {
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
+    --blue-accent: #4f9cf9; --blue-soft: rgba(79,156,249,0.12);
+    --good: #22c55e;
+    --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
+  main { max-width:1100px; margin:0 auto; padding:32px 28px 60px; }
+  a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
+  a.voltar:hover { color:var(--blue-accent); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:680px; }
+
+  .period-row { display:flex; justify-content:flex-end; align-items:center; margin:18px 0; gap:12px; flex-wrap:wrap; }
+  .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
+
+  .totais-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:18px; }
+  .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
+  .total-card .val { font-size:18px; font-weight:800; color:#fff; font-family:var(--mono); }
+
+  .section-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:22px; margin-bottom:18px; }
+  .section-card h3 { font-size:12.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 4px; }
+  .section-card .subtle { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
+
+  table { width:100%; border-collapse:collapse; font-size:13px; }
+  thead th { text-align:left; font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:0 10px 10px 0; border-bottom:1px solid var(--border); }
+  tbody td { padding:9px 10px 9px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
+  tbody td.nome { color:#fff; font-weight:600; }
+  tbody td.icon { width:26px; font-size:15px; }
+  tbody td.val { text-align:right; font-weight:600; color:#fff; font-family:var(--mono); white-space:nowrap; }
+  tfoot td { padding:12px 10px 0 0; font-weight:800; color:#fff; border-top:2px solid var(--border); font-family:var(--mono); }
+  tfoot td.val { text-align:right; }
+
+  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="voltar" href="/" onclick="if (window.history.length > 1) { history.back(); return false; }">&larr; Todos os setores</a>
+  <div class="period-row" style="margin-top:0;">
+    <span class="status-txt" id="statusTxt">—</span>
+  </div>
+  <div class="header-row">
+    <span class="icon">🏢</span>
+    <div>
+      <h1>Custos da Dtel</h1>
+      <p>Custo total real de cada setor da Dtel, mês a mês — a mesma soma que já está na aba SETORES da planilha (nº de clientes/funcionários não entra aqui: é o custo integral que a Dtel absorve em cada setor, sem rateio). Não é o mesmo cálculo do Reembolso de Empresas Licenciadas, que mostra apenas a fatia de custo compartilhado que cada licenciada deve pagar.</p>
+    </div>
+  </div>
+
+  <div id="erroBox" style="display:none;" class="erro-box"></div>
+
+  <div id="conteudo" style="display:none;">
+    <div class="totais-cards" id="totaisCards"></div>
+
+    <div class="section-card">
+      <h3>Custo total por setor, por mês</h3>
+      <p class="subtle">Clique num setor para ver o detalhamento completo de custos daquele setor.</p>
+      <table>
+        <thead>
+          <tr id="cabecalhoMeses">
+            <th></th><th>Setor</th>
+          </tr>
+        </thead>
+        <tbody id="setoresBody"></tbody>
+        <tfoot><tr id="rodapeMeses"><td colspan="2">Total Geral</td></tr></tfoot>
+      </table>
+    </div>
+
+    <p class="footer-note">Dados reais, lidos diretamente do servidor local a cada 60 segundos — quando a planilha for atualizada, este painel reflete os números novos sozinho, sem precisar recarregar a página manualmente. Painel apenas demonstrativo — a edição dos valores continua sendo feita na planilha original (aba SETORES).</p>
+  </div>
+</main>
+<script>
+const API_BASE = '';
+let DADOS = null;
+let MESES_DISPONIVEIS = [];
+
+function fmtBRL(n) {
+  return "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+}
+
+function renderTudo() {
+  const cabecalho = document.getElementById('cabecalhoMeses');
+  cabecalho.innerHTML = '<th></th><th>Setor</th>' + MESES_DISPONIVEIS.map(m => `<th style="text-align:right;">${m}</th>`).join('') + '<th style="text-align:right;">Total (período)</th>';
+
+  const body = document.getElementById('setoresBody');
+  body.innerHTML = '';
+  const totaisPorMes = MESES_DISPONIVEIS.map(() => 0);
+  let totalGeralPeriodo = 0;
+
+  const setoresOrdenados = DADOS.setores.slice().sort((a, b) => a.nome.localeCompare(b.nome, 'pt-BR'));
+
+  setoresOrdenados.forEach((s) => {
+    let totalSetor = 0;
+    const celulas = MESES_DISPONIVEIS.map((m, i) => {
+      const h = s.historico.find(x => x.mes === m);
+      const total = h ? h.total : 0;
+      totaisPorMes[i] += total;
+      totalSetor += total;
+      return `<td class="val">${fmtBRL(total)}</td>`;
+    }).join('');
+    totalGeralPeriodo += totalSetor;
+    const tr = document.createElement('tr');
+    tr.className = 'item-clicavel';
+    tr.style.cursor = 'pointer';
+    tr.onclick = () => { window.location.href = API_BASE + '/setor/' + s.slug; };
+    tr.innerHTML = `<td class="icon">${s.icone}</td><td class="nome">${s.nome}</td>${celulas}<td class="val">${fmtBRL(totalSetor)}</td>`;
+    body.appendChild(tr);
+  });
+
+  const rodape = document.getElementById('rodapeMeses');
+  rodape.innerHTML = '<td colspan="2">Total Geral</td>' + totaisPorMes.map(t => `<td class="val">${fmtBRL(t)}</td>`).join('') + `<td class="val">${fmtBRL(totalGeralPeriodo)}</td>`;
+
+  const totaisCardsEl = document.getElementById('totaisCards');
+  totaisCardsEl.innerHTML = MESES_DISPONIVEIS.map((m, i) => `
+    <div class="total-card"><div class="lbl">${m}</div><div class="val">${fmtBRL(totaisPorMes[i])}</div></div>
+  `).join('') + `<div class="total-card"><div class="lbl">Total do período</div><div class="val" style="color:var(--good);">${fmtBRL(totalGeralPeriodo)}</div></div>`;
+}
+
+async function buscarDados() {
+  try {
+    const resp = await fetch(API_BASE + '/api/resumo-setores');
+    const data = await resp.json();
+    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    DADOS = data;
+    MESES_DISPONIVEIS = data.mesesDisponiveis;
+    document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
+
+    document.getElementById('erroBox').style.display = 'none';
+    document.getElementById('conteudo').style.display = '';
+    renderTudo();
+  } catch (e) {
+    document.getElementById('erroBox').style.display = 'block';
+    document.getElementById('erroBox').textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
+  }
+}
+buscarDados();
+setInterval(buscarDados, 300000); // re-busca a cada 5 min
+</script>
+</body>
+</html>

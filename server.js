@@ -234,23 +234,6 @@ app.get('/api/desligados', async (req, res) => {
 // de Julho/2026) e o comparativo com o valor pago ao convênio via SAP
 // (Beneficio Farmacia SAP.xlsx, Maio a Setembro/2026). Devolve o objeto
 // completo; a página faz os filtros (Mês/Equipe/Empresa/Busca) no navegador.
-// Quadro "Afastados - Benefícios" — colaboradores afastados por doença,
-// licença maternidade, aposentadoria por invalidez ou em ferias cheia, que
-// nao entram no Custo Total (salario) mas continuam recebendo Plano de
-// Saude e, quando aplicavel, Vale Alimentacao pagos pela empresa.
-app.get('/api/afastados', async (req, res) => {
-  try {
-    const { estado, erro } = await getEstado();
-    res.json({
-      equipes: estado.afastados || {},
-      arquivoUsado: estado.arquivoUsado,
-      avisoCache: erro || null,
-    });
-  } catch (e) {
-    res.status(500).json({ erro: e.message });
-  }
-});
-
 app.get('/api/farmacia', async (req, res) => {
   try {
     const { estado, erro } = await getEstado();
@@ -295,6 +278,10 @@ app.get('/reembolso-geral', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'reembolso-geral.html'));
 });
 
+app.get('/custos-dtel', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'custos-dtel.html'));
+});
+
 app.get('/horas-extras', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'horas-extras.html'));
 });
@@ -309,10 +296,6 @@ app.get('/colaboradores', (req, res) => {
 
 app.get('/desligados', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'desligados.html'));
-});
-
-app.get('/afastados', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'afastados.html'));
 });
 
 app.get('/farmacia', (req, res) => {
