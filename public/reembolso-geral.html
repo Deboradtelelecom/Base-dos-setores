@@ -153,20 +153,8 @@
           <span class="leg-item" id="totalDiretoIndireto" style="color:#fff; font-weight:800;"></span>
         </span>
       </div>
-      <p class="chart-nota">Só as empresas licenciadas (DTEL fica de fora — tem gráfico próprio logo abaixo, para não confundir com a taxa de 7% que só as licenciadas pagam). Direto: Instalação, Frota, Uso mútuo de Postes, DP/RH/Segurança do Trabalho (por funcionário), Configuração, C.O.E., Vendas entre equipes/setor de vendas, Consultas de crédito, E-mail Dtel, Equipamentos de Segurança, Vendas do site Mundiale, Manutenção predial. O restante (Licitação, Fardamentos, Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade, Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento, Jurídico, Logística, NOC, Relacionamento, despesas de consultor/coordenador do Comercial, entre outros) entra como indireto. Não inclui a taxa de administração (Reembolso por receita recebida), que tem gráfico próprio abaixo. Reflete os filtros de Competência/Empresa/Busca acima.</p>
+      <p class="chart-nota">Só as empresas licenciadas (DTEL fica de fora — todos os setores da Dtel são custo direto, sem distinção de indireto, então esse gráfico não se aplica a ela). Direto: Instalação, Frota, Uso mútuo de Postes, DP/RH/Segurança do Trabalho (por funcionário), Configuração, C.O.E., Vendas entre equipes/setor de vendas, Consultas de crédito, E-mail Dtel, Equipamentos de Segurança, Vendas do site Mundiale, Manutenção predial. O restante (Licitação, Fardamentos, Treinamentos, Diretorias, Atendimento, CAC, Compras, Contabilidade, Desenvolvimento, Estoque, Financeiro, Fique Móvel, Gestão de Atendimento, Jurídico, Logística, NOC, Relacionamento, despesas de consultor/coordenador do Comercial, entre outros) entra como indireto. Não inclui a taxa de administração (Reembolso por receita recebida), que tem gráfico próprio abaixo. Reflete os filtros de Competência/Empresa/Busca acima.</p>
       <div class="chart-wrap"><canvas id="chartDiretoIndireto"></canvas></div>
-    </div>
-
-    <div class="section-card">
-      <div class="chart-header">
-        <span class="chart-titulo">Custos Diretos x Indiretos — Dtel (uso próprio)</span>
-        <span class="chart-legenda">
-          <span class="leg-item"><span class="leg-dot direto"></span>Direto</span>
-          <span class="leg-item"><span class="leg-dot indireto"></span>Indireto</span>
-        </span>
-      </div>
-      <p class="chart-nota">Só a Dtel — separado do gráfico das licenciadas acima para não misturar os dois: a Dtel não paga taxa de administração de 7% (ela é a fornecedora dos serviços, não uma licenciada), então não faz sentido comparar seu custo lado a lado com quem paga essa taxa. É o quanto a Dtel absorve do próprio uso dos setores compartilhados. Reflete os filtros de Competência/Busca acima.</p>
-      <div class="chart-wrap" style="height:220px;"><canvas id="chartDtel"></canvas></div>
     </div>
 
     <div class="section-card" id="cardReceita7pct" style="display:none;">
@@ -195,7 +183,6 @@ let SETORES_ABERTOS = {};
 let CHART_DIRETO_INDIRETO = null;
 let CHART_RECEITA_7PCT = null;
 let CHART_DEMONSTRATIVO = null;
-let CHART_DTEL = null;
 let ULTIMO_FILTRADOS = [];
 
 // Rótulo de dados para o gráfico de barras agrupadas (Direto/Indireto por
@@ -497,7 +484,6 @@ function renderTudo() {
   });
 
   renderChartDiretoIndireto(filtradosDespesa);
-  renderChartDtel(filtradosDespesa);
   renderChartReceita7pct(filtrados);
 }
 
@@ -510,9 +496,11 @@ function renderChartDiretoIndireto(filtrados) {
   const porEmpresa = {}; // empresa -> {direto, indireto}
   filtrados.forEach((r) => {
     const empresa = r.empresa || '(sem empresa)';
-    // A Dtel não entra neste gráfico — tem o dela próprio (renderChartDtel),
-    // separado a pedido da Débora (22/09/2026) para não misturar quem paga
-    // a taxa de administração de 7% (as licenciadas) com a própria Dtel.
+    // A Dtel não entra neste gráfico — a pedido da Débora (24/09/2026), o
+    // gráfico Direto/Indireto exclusivo da Dtel foi removido (todos os
+    // setores da Dtel são custo direto, não há indireto, então a
+    // classificação não se aplicava a ela). A Dtel continua no gráfico
+    // "Demonstrativo — Quanto a Dtel gastou" acima.
     if (empresa.trim().toUpperCase() === 'DTEL') return;
     if (!porEmpresa[empresa]) porEmpresa[empresa] = { direto: 0, indireto: 0 };
     // 'receita' já vem excluído (filtradosDespesa), mas o filtro fica aqui
@@ -559,48 +547,6 @@ function renderChartDiretoIndireto(filtrados) {
         x: { ticks: { color: '#8291ab', font: { size: 11 } }, grid: { display: false } },
         // Eixo Y sem números (o valor já aparece como rótulo em cima de cada
         // barra) — a pedido da Débora (31/08/2026).
-        y: { display: false, grid: { display: false } },
-      },
-    },
-  });
-}
-
-// Gráfico "Custos Diretos x Indiretos — Dtel (uso próprio)" — separado do
-// gráfico das licenciadas (22/09/2026, a pedido da Débora): a Dtel não paga
-// a taxa de administração de 7%, então misturar ela no mesmo gráfico das
-// empresas que pagam essa taxa confundia a leitura. Usa uma única barra
-// (Direto/Indireto), com o mesmo filtro de Competência/Busca do resto da
-// tela (sem o filtro de Empresa, já que aqui só existe a Dtel).
-function renderChartDtel(filtrados) {
-  let direto = 0, indireto = 0;
-  filtrados.forEach((r) => {
-    if ((r.empresa || '').trim().toUpperCase() !== 'DTEL') return;
-    if (r.categoriaCusto === 'direto') direto += (r.valorTotal || 0);
-    else if (r.categoriaCusto === 'indireto') indireto += (r.valorTotal || 0);
-  });
-
-  const ctx = document.getElementById('chartDtel').getContext('2d');
-  if (CHART_DTEL) CHART_DTEL.destroy();
-  CHART_DTEL = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: ['Dtel'],
-      datasets: [
-        { label: 'Direto', data: [Number(direto.toFixed(2))], backgroundColor: 'rgba(79,156,249,0.75)', borderRadius: 4, maxBarThickness: 60 },
-        { label: 'Indireto', data: [Number(indireto.toFixed(2))], backgroundColor: 'rgba(245,158,11,0.75)', borderRadius: 4, maxBarThickness: 60 },
-      ],
-    },
-    plugins: [rotuloBarrasDiretoIndiretoPlugin],
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      layout: { padding: { top: 22 } },
-      plugins: {
-        legend: { display: false },
-        tooltip: { callbacks: { label: (ctxItem) => `${ctxItem.dataset.label}: ${fmtBRL(ctxItem.raw)}` } },
-      },
-      scales: {
-        x: { ticks: { color: '#8291ab', font: { size: 11.5, weight: '700' } }, grid: { display: false } },
         y: { display: false, grid: { display: false } },
       },
     },
