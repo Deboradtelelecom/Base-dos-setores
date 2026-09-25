@@ -43,7 +43,14 @@
   .period-selector select { background:var(--bg-app); border:1px solid var(--border); color:var(--slate-800); font-size:12px; font-weight:700; border-radius:7px; padding:5px 8px; font-family:var(--mono); cursor:pointer; outline:none; }
   .status-txt { font-size:11px; color:var(--slate-500); font-family:var(--mono); }
 
-  .kpi-grid { display:grid; grid-template-columns:1fr 2fr; gap:16px; margin-bottom:22px; }
+  .kpi-grid { display:grid; grid-template-columns:1fr 1fr 1.4fr; gap:16px; margin-bottom:22px; }
+  .cab-linha { display:flex; flex-wrap:wrap; align-items:center; gap:10px; margin-top:8px; }
+  .cab-linha .justificativa { margin-top:0; }
+  .consumo-grid { display:grid; grid-template-columns:1.7fr 1fr; gap:20px; align-items:start; }
+  @media (max-width:760px) { .consumo-grid { grid-template-columns:1fr; } }
+  tr.cat-row td { background:var(--blue-soft); font-weight:700; color:#fff; cursor:pointer; }
+  tr.cat-row td .cat-seta { display:inline-block; width:14px; color:var(--blue-accent); }
+  tr.cat-item.hidden, tr.detalhe-subrow.hidden-cat { display:none; }
   @media (max-width:760px) { .kpi-grid { grid-template-columns:1fr; } }
   .card { background:var(--bg-panel); border:1px solid var(--border); border-left:4px solid var(--blue-accent); border-radius:14px; padding:18px 20px; display:flex; flex-direction:column; justify-content:space-between; }
   .card.card-good { border-left-color:var(--good); }
@@ -64,7 +71,7 @@
   .section-card h3 { font-size:12.5px; font-weight:800; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 4px; }
   .section-card .subtle { font-size:12px; color:var(--slate-500); margin:0 0 14px; }
 
-  .two-col { display:grid; grid-template-columns:1.1fr 1fr; gap:16px; margin-bottom:18px; }
+  .two-col { display:grid; grid-template-columns:1.2fr 1fr; gap:16px; margin-bottom:18px; }
   @media (max-width:760px) { .two-col { grid-template-columns:1fr; } }
 
   .trend-row { display:flex; align-items:flex-end; gap:16px; height:110px; padding-top:8px; }
@@ -144,11 +151,10 @@
     <span class="icon" id="setorIcone">•</span>
     <div>
       <h1 id="setorNomeH1">Carregando…</h1>
-      <p>Detalhamento de custos, histórico e composição por categoria — dados reais da Dtel Telecom.</p>
     </div>
   </div>
-  <span class="criterio-tag" id="setorCriterioTag">Critério de rateio: —</span>
-  <p class="justificativa" id="setorJustificativa"></p>
+  <div class="cab-linha"><span class="criterio-tag" id="setorCriterioTag" style="margin-top:0">Critério de rateio: —</span>
+  <span class="justificativa" id="setorJustificativa"></span></div>
 
   <div id="erroBox" style="display:none;" class="erro-box"></div>
 
@@ -173,6 +179,12 @@
     <div class="kpi-grid">
       <div class="card">
         <div>
+          <p class="label">Total do mês</p>
+          <p class="value" id="setorTotalMes">R$ 0,00</p>
+        </div>
+      </div>
+      <div class="card">
+        <div>
           <p class="label">Custo Unitário do Setor</p>
           <p class="value">R$ <span id="setorCustoUnitario">0,00</span> <span class="unidade">/ un</span></p>
         </div>
@@ -190,28 +202,26 @@
     <div class="two-col">
       <div class="section-card" style="margin-bottom:0;">
         <h3>Consumo mensal x média</h3>
-        <p class="subtle">Custo total por mês comparado com a média do período. Clique numa barra para mudar o mês exibido.</p>
         <div id="acGrafico"></div>
-        <div id="acResumo" style="margin-top:10px"></div>
+        <div id="acResumo"></div>
       </div>
       <div class="section-card" style="margin-bottom:0;">
-        <h3>Composição por Categoria</h3>
-        <p class="subtle" id="setorCategoriasSubtitle">—</p>
-        <div style="height:230px; position:relative;"><canvas id="setorCategorias"></canvas></div>
+        <h3>Custo fixo x variável</h3>
+        <div id="acComposicao"></div>
       </div>
     </div>
 
     <div class="section-card">
       <h3 id="setorDetalheTitulo">Detalhamento dos custos do setor</h3>
-      <p class="subtle">Agrupado por categoria — todos os itens de cada categoria juntos, com um único subtotal por categoria.</p>
+      <p class="subtle">Clique na categoria para abrir ou fechar; itens com ▼ mostram os nomes.</p>
       <table>
         <thead>
           <tr>
-            <th>Categoria</th><th>Item de Custo</th><th style="text-align:right;">Qtd. / Valor Unit.</th><th style="text-align:right;">Total do Mês (R$)</th>
+            <th>Item de Custo</th><th style="text-align:right;">Qtd. / Valor Unit.</th><th style="text-align:right;">Total do Mês (R$)</th>
           </tr>
         </thead>
         <tbody id="setorItensBody"></tbody>
-        <tfoot><tr><td colspan="3">Total do Setor</td><td style="text-align:right;" id="setorTotalFooter">R$ 0</td></tr></tfoot>
+        <tfoot><tr><td colspan="2">Total do Setor</td><td style="text-align:right;" id="setorTotalFooter">R$ 0</td></tr></tfoot>
       </table>
     </div>
 
@@ -480,10 +490,14 @@ function analiseSetor(mes) {
     return f && f.quantidade > 1 ? f.quantidade : 0;
   });
   const o = { meses, curtos: meses.map(m => MESES_ABREV[m] || m.slice(0, 3)), totais, sel, drivers,
-              pessoas: pessoas.every(Boolean) ? pessoas : null, onPick: i => setMonth(meses[i]) };
+              pessoas: pessoas.every(Boolean) ? pessoas : null, onPick: i => setMonth(meses[i]), compacto: true };
   AnaliseCusto.tendencia(document.getElementById("acTend"), o);
   AnaliseCusto.grafico(document.getElementById("acGrafico"), o);
   AnaliseCusto.resumo(document.getElementById("acResumo"), o);
+  const somaCat = (m, re) => (((SETOR.porMes[m] || {}).itens) || []).filter(it => re.test(it.categoria || '')).reduce((a, it) => a + (parseFloat(it.total) || 0), 0);
+  if (AnaliseCusto.composicao && document.getElementById("acComposicao"))
+    AnaliseCusto.composicao(document.getElementById("acComposicao"), Object.assign({}, o, {
+      fixo: meses.map(m => somaCat(m, /fixo/i)), variavel: meses.map(m => somaCat(m, /vari/i)) }));
   const card = document.getElementById("setorTendenciaCard");
   const d = sel > 0 ? totais[sel] - totais[sel - 1] : 0;
   card.className = "card" + (sel > 0 && Math.abs(d) / (totais[sel - 1] || 1) >= 0.005 ? (d > 0 ? " card-crit" : " card-good") : "");
@@ -506,6 +520,7 @@ function renderTudo() {
   const status = setorStatus(mes);
   const st = STATUS_STYLE[status];
 
+  document.getElementById("setorTotalMes").textContent = fmtBRL(total);
   document.getElementById("setorCustoUnitario").textContent = fmtNum(setorCustoUnitario(mes), 2);
   const unidadeBase = (SETOR.criterioRateio || '').toLowerCase() === 'funcionários' ? 'colaboradores' : 'clientes';
   document.getElementById("setorCustoUnitarioFootnote").textContent = "ℹ️ Total do mês diluído por " + unidadeBase + " ativos.";
@@ -514,8 +529,7 @@ function renderTudo() {
 
 
 
-  document.getElementById("setorCategoriasSubtitle").textContent = "Comparativo entre os meses disponíveis.";
-  renderCategoriaChart("setorCategorias", SETOR.porMes);
+
 
   const body = document.getElementById("setorItensBody");
   body.innerHTML = "";
@@ -526,7 +540,7 @@ function renderTudo() {
   // meses — só na apresentação, a planilha original não muda).
   const itensComValor = pm.itens.filter((it) => (parseFloat(it.total) || 0) !== 0);
   if (!itensComValor.length) {
-    body.innerHTML = '<tr><td colspan="4" class="empty-msg">Sem custos lançados neste setor em ' + mes + '.</td></tr>';
+    body.innerHTML = '<tr><td colspan="3" class="empty-msg">Sem custos lançados neste setor em ' + mes + '.</td></tr>';
   } else {
     const porCategoria = new Map();
     itensComValor.forEach((it) => {
@@ -534,16 +548,30 @@ function renderTudo() {
       porCategoria.get(it.categoria).push(it);
     });
     let detalheIdx = 0;
+    let catIdx = 0;
     porCategoria.forEach((itensCat, catName) => {
       let catAcc = 0;
+      const cId = 'cat' + (catIdx++);
+      const trCat = document.createElement("tr");
+      trCat.className = "cat-row";
+      const catTotal = itensCat.reduce((a, it) => a + (parseFloat(it.total) || 0), 0);
+      trCat.innerHTML = `<td colspan="2"><span class="cat-seta">▾</span>${catName} <span style="font-weight:400;color:var(--slate-400)">(${itensCat.length} ${itensCat.length > 1 ? 'itens' : 'item'})</span></td><td class="val">${fmtBRL(catTotal)}</td>`;
+      trCat.addEventListener("click", () => {
+        const fechar = !trCat.classList.contains("fechada");
+        trCat.classList.toggle("fechada", fechar);
+        trCat.querySelector(".cat-seta").textContent = fechar ? "▸" : "▾";
+        body.querySelectorAll(`tr[data-cat="${cId}"]`).forEach(r => r.classList.toggle(r.classList.contains("detalhe-subrow") ? "hidden-cat" : "hidden", fechar));
+      });
+      body.appendChild(trCat);
       itensCat.forEach((it) => {
         catAcc += (parseFloat(it.total) || 0);
         const qtdTxt = it.quantidade ? `${fmtNum(it.quantidade,0)} × ${fmtBRL(it.valorUnitario)}` : "—";
         const temDetalhes = it.detalhes && it.detalhes.length > 0;
         const myIdx = detalheIdx++;
         const tr = document.createElement("tr");
-        if (temDetalhes) tr.className = "item-clicavel";
-        tr.innerHTML = `<td class="cat">${it.categoria}</td><td>${temDetalhes ? '<span class="detalhe-seta">▼</span> ' : ''}${it.item}</td><td class="ref">${qtdTxt}</td><td class="val">${fmtBRL(it.total)}</td>`;
+        tr.className = "cat-item" + (temDetalhes ? " item-clicavel" : "");
+        tr.dataset.cat = cId;
+        tr.innerHTML = `<td style="padding-left:24px">${temDetalhes ? '<span class="detalhe-seta">▼</span> ' : ''}${it.item}</td><td class="ref">${qtdTxt}</td><td class="val">${fmtBRL(it.total)}</td>`;
         if (temDetalhes) {
           tr.addEventListener("click", () => {
             const sub = document.getElementById(`detalhe-linha-${myIdx}`);
@@ -555,6 +583,7 @@ function renderTudo() {
           const trDet = document.createElement("tr");
           trDet.id = `detalhe-linha-${myIdx}`;
           trDet.className = "detalhe-subrow hidden";
+          trDet.dataset.cat = cId;
           const temAlgumEncargo = it.detalhes.some(d => d.encargos);
           // Quando o mesmo nome aparece mais de uma vez no detalhamento (ex.:
           // 2 lançamentos de fardamento pro mesmo colaborador no mesmo mês),
@@ -635,17 +664,14 @@ function renderTudo() {
                 <span class="detalhe-valor">${fmtBRL(d.valor)}</span>
               </div>`).join("");
           }
-          trDet.innerHTML = `<td colspan="4"><div class="detalhe-caixa">
+          trDet.innerHTML = `<td colspan="3"><div class="detalhe-caixa">
             <span class="detalhe-titulo">Composição analítica do lançamento (${nPessoas} ${nPessoas > 1 ? rotuloPessoaPlural : rotuloPessoa}):</span>
             ${corpoDetalhe}
           </div></td>`;
           body.appendChild(trDet);
         }
       });
-      const trSub = document.createElement("tr");
-      trSub.className = "subtotal-row";
-      trSub.innerHTML = `<td colspan="3">Subtotal — ${catName}</td><td class="val">${fmtBRL(catAcc)}</td>`;
-      body.appendChild(trSub);
+
     });
   }
   document.getElementById("setorTotalFooter").textContent = fmtBRL(total);

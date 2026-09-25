@@ -121,6 +121,13 @@
       kv += `<div><div class="k">Efeito quantidade</div><div class="v ${efQtd > 0 ? 'ac-up' : efQtd < 0 ? 'ac-down' : ''}">${sinal(efQtd)}${brlK(Math.abs(efQtd))}</div><div class="s">${P[j]} → ${P[i]} colaboradores</div></div>`;
       kv += `<div><div class="k">Efeito custo médio</div><div class="v ${efCusto > 0 ? 'ac-up' : efCusto < 0 ? 'ac-down' : ''}">${sinal(efCusto)}${brlK(Math.abs(efCusto))}</div><div class="s">mesmo quadro, custo diferente</div></div>`;
     }
+    if (o.compacto) {
+      // versão enxuta: variação + 1 linha curta com o que mais pesou
+      const x = princ && Math.abs(princ.d) <= Math.abs(d) * 1.0001 ? princ : (d > 0 ? altas : quedas)[0] || vs[0];
+      const linha = x ? `<div class="ac-lin" style="margin-top:6px">${d > 0 ? 'Mais pesou' : 'Mais caiu'}: <b>${esc(x.nome)}</b> <span class="${x.d > 0 ? 'ac-up' : 'ac-down'}">${sinal(x.d)}${brlK(Math.abs(x.d))}</span></div>` : '';
+      el.innerHTML = `<div class="ac-card"><div class="ac-head"><span class="ac-big ${cls}">${seta} ${fp(p)}</span><span class="ac-vs">vs. ${esc(curto(o, j))} · ${sinal(d)}${brlK(Math.abs(d))}</span></div>${linha}</div>`;
+      return;
+    }
     el.innerHTML = `<div class="ac-card">
       <div class="ac-head"><span class="ac-big ${cls}">${seta} ${fp(p)}</span><span class="ac-vs">vs. ${esc(o.meses[j])} · ${sinal(d)}${brl(Math.abs(d))}</span></div>
       ${causaTxt}
@@ -207,9 +214,59 @@
       return e && e.sub ? ` <span style="color:${C.muted}">— principalmente ${esc(e.sub)}</span>` : '';
     };
     const li = x => `<li><span class="${x.d > 0 ? 'ac-up' : 'ac-down'}" style="font-family:var(--mono,monospace);font-weight:700">${sinal(x.d)}${brlK(Math.abs(x.d))}</span> ${esc(x.nome)}${onde(x.nome, x.d)}</li>`;
+    if (o.compacto) {
+      // só os 3 itens que mais mexeram (altas e quedas juntas), sem repetir o total
+      const top = vs.slice(0, o.limTop || 3);
+      el.innerHTML = top.length ? `<div class="ac-res"><div class="ac-sub">${esc(o.tituloResumo || 'O que mais mudou')} vs. ${esc(curto(o, j))}</div><ul>${top.map(li).join('')}</ul></div>` : '';
+      return;
+    }
     el.innerHTML = `<div class="ac-res"><div class="ac-sub">${esc(o.tituloResumo || 'O que mudou')} em ${esc(o.meses[i])} (vs. ${esc(o.meses[j])}: ${sinal(d)}${brlK(Math.abs(d))})</div>
       <ul>${altas.map(li).join('')}${quedas.map(li).join('')}</ul></div>`;
   }
 
-  window.AnaliseCusto = { tendencia, grafico, ponte, resumo, brl, brlK };
+  // ---------------------------------------------------------------- custo fixo x variável por mês (duas linhas)
+  function composicao(el, o) {
+    css();
+    const F = o.fixo || [], V = o.variavel || [], n = o.meses.length;
+    const W = Math.max(280, el.clientWidth || 420), H = 250, pl = 10, pr = 70, pt = 22, pb = 26;
+    const max = Math.max(1, ...F, ...V) * 1.12;
+    const bw = (W - pl - pr) / n, xc = i => pl + bw * i + bw / 2, y = v => pt + (H - pt - pb) * (1 - (v || 0) / max);
+    const CF = '#3987e5', CV = '#d95926';
+    let s = `<svg class="ac-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="Custo fixo e variável por mês">`;
+    s += `<line x1="${pl}" x2="${W - pr}" y1="${H - pb}" y2="${H - pb}" stroke="${C.grid}"/>`;
+    if (o.sel >= 0) s += `<rect x="${pl + bw * o.sel}" y="${pt - 12}" width="${bw}" height="${H - pt - pb + 12}" fill="rgba(255,255,255,.035)" rx="6"/>`;
+    const linha = (arr, cor) => {
+      const pts = o.meses.map((_, i) => `${xc(i)},${y(arr[i])}`).join(' ');
+      let t = `<polyline points="${pts}" fill="none" stroke="${cor}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>`;
+      o.meses.forEach((_, i) => { const sel = i === o.sel; t += `<circle cx="${xc(i)}" cy="${y(arr[i])}" r="${sel ? 5.5 : 3.5}" fill="${sel ? cor : '#0c0f1d'}" stroke="${cor}" stroke-width="2"/>`; });
+      return t;
+    };
+    s += linha(F, CF) + linha(V, CV);
+    // rótulo direto no fim de cada linha (sem números por cima dos pontos)
+    let yF = y(F[n - 1]), yV = y(V[n - 1]);
+    if (Math.abs(yF - yV) < 14) { if (yF <= yV) yV = yF + 14; else yF = yV + 14; }
+    s += `<text x="${xc(n - 1) + 10}" y="${yF + 4}" font-size="11.5" font-weight="700" fill="${CF}" font-family="system-ui">Fixo</text>`;
+    s += `<text x="${xc(n - 1) + 10}" y="${yV + 4}" font-size="11.5" font-weight="700" fill="${CV}" font-family="system-ui">Variável</text>`;
+    o.meses.forEach((_, i) => {
+      const sel = i === o.sel;
+      s += `<g class="b" data-i="${i}"><rect x="${pl + bw * i}" y="0" width="${bw}" height="${H}" fill="transparent"/>`;
+      s += `<text x="${xc(i)}" y="${H - 8}" text-anchor="middle" font-size="11" fill="${sel ? C.ink : C.muted}" font-weight="${sel ? 700 : 400}" font-family="system-ui">${esc(curto(o, i))}</text></g>`;
+    });
+    s += '</svg>';
+    const i = o.sel, f = F[i] || 0, v = V[i] || 0, t = f + v || 1;
+    const pa = j => (j > 0 ? j - 1 : -1);
+    const dif = (arr) => { const j = pa(i); return j >= 0 ? ` <span style="color:${C.muted}">(${sinal(arr[i] - arr[j])}${brlK(Math.abs((arr[i] || 0) - (arr[j] || 0)))} vs. ${esc(curto(o, j))})</span>` : ''; };
+    s += `<div class="ac-res" style="margin-top:6px"><ul>
+      <li><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${CF};margin-right:6px;vertical-align:middle"></span>Custo fixo: <b style="color:${C.ink}">${brl(f)}</b> · ${((f / t) * 100).toFixed(0)}%${dif(F)}</li>
+      <li><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:${CV};margin-right:6px;vertical-align:middle"></span>Custo variável: <b style="color:${C.ink}">${brl(v)}</b> · ${((v / t) * 100).toFixed(0)}%${dif(V)}</li></ul></div>`;
+    el.innerHTML = s;
+    el.querySelectorAll('.b').forEach(g => {
+      const k = +g.dataset.i, ff = F[k] || 0, vv = V[k] || 0, tt = ff + vv || 1;
+      g.addEventListener('mousemove', ev => tip(`<b>${esc(o.meses[k])}</b><br>Fixo: ${brl(ff)} (${((ff / tt) * 100).toFixed(0)}%)<br>Variável: ${brl(vv)} (${((vv / tt) * 100).toFixed(0)}%)`, ev));
+      g.addEventListener('mouseleave', () => tip(null));
+      if (o.onPick) g.addEventListener('click', () => { tip(null); o.onPick(k); });
+    });
+  }
+
+  window.AnaliseCusto = { tendencia, grafico, ponte, resumo, composicao, brl, brlK };
 })();

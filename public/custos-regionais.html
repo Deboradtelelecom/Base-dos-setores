@@ -72,6 +72,10 @@
   .painel header p { margin:4px 0 0; font-size:12px; color:var(--slate-500); }
   .painel .corpo { overflow:auto; padding:8px 20px 24px; }
   .painel h4 { font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); margin:16px 0 6px; }
+  .painel h4.mes-cab { display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin:18px 0 6px; padding:8px 10px; border-radius:8px; background:#132640; border-left:3px solid #3987e5; text-transform:none; letter-spacing:0; position:sticky; top:0; z-index:1; }
+  .painel h4.mes-cab .mc-mes { color:#5aa9ff; font-weight:800; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; }
+  .painel h4.mes-cab .mc-val { color:#fff; font-family:var(--mono); font-weight:700; font-size:13px; margin-left:auto; }
+  .painel h4.mes-cab .mc-q { color:var(--slate-400); font-weight:600; font-size:11px; background:rgba(255,255,255,.05); padding:2px 8px; border-radius:999px; }
   .painel .it { display:flex; justify-content:space-between; gap:12px; font-size:12.5px; padding:5px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
   .painel .it b { font-family:var(--mono); font-weight:600; color:#fff; white-space:nowrap; }
   .fechar { background:none; border:none; color:var(--slate-500); font-size:20px; cursor:pointer; }
@@ -93,7 +97,7 @@
     <span class="icon">🗺️</span>
     <div>
       <h1>Custos Regionais</h1>
-      <p>Custo de cada gestor regional por cidade. Clique no gestor para abrir as cidades, na cidade para ver os itens e no item para ver quem ou o que compõe o valor.</p>
+      <p>Custo de cada gestor regional por cidade — clique no gestor, na cidade e no item para ver o detalhe.</p>
     </div>
   </div>
   <div id="erroBox" style="display:none;" class="erro-box"></div>
@@ -104,8 +108,8 @@
       <input id="fBusca" placeholder="Buscar cidade ou item (ex.: Gravatá, Energia, Folha)…">
     </div>
     <div class="analise">
-      <div class="an-box"><h3>Consumo mensal x média</h3><div id="anGrafico"></div><div id="anResumo" style="margin-top:10px"></div></div>
-      <div class="an-box"><h3>Tendência de custo</h3><div id="anTend"></div></div>
+      <div class="an-box"><h3>Consumo mensal x média</h3><div id="anGrafico"></div></div>
+      <div class="an-box"><h3>Tendência de custo</h3><div id="anTend"></div><div id="anResumo" style="margin-top:6px"></div></div>
     </div>
     <div class="tabela" id="tabela"></div>
     <div class="notas">
@@ -207,14 +211,14 @@ function analise(L) {
     const k = porGestor ? l.gestor : item;
     drivers[k] = drivers[k] || M.map(() => 0);
     const ke = porGestor ? l.gestor + '|' + item + '|' + locNome(l) : l.gestor + '|' + locNome(l) + '|' + item;
-    extra[ke] = extra[ke] || { nome: k, sub: porGestor ? item + ' · ' + locNome(l) : locNome(l), vals: M.map(() => 0) };
+    extra[ke] = extra[ke] || { nome: k, sub: porGestor ? item : locNome(l), vals: M.map(() => 0) };
     M.forEach((m, i) => { drivers[k][i] += l.valores[m] || 0; extra[ke].vals[i] += l.valores[m] || 0; });
   });
   const pessoas = M.map(m => L.filter(l => l.descricao === 'Folha Trabalhista').reduce((s, l) => s + ((l.qtdMes || {})[m] || 0), 0));
   const o = { meses: M.map(m => m.charAt(0) + m.slice(1).toLowerCase()), curtos: M.map(m => m.slice(0, 1) + m.slice(1, 3).toLowerCase()),
               totais, sel, drivers, pessoas: pessoas.some(Boolean) ? pessoas : null, extra: Object.values(extra),
               onPick: i => { fMes.value = M[i]; render(); },
-              tituloResumo: porGestor ? 'O que mudou por gestor' : 'O que mudou', limAltas: porGestor ? 20 : 3, limQuedas: porGestor ? 20 : 2 };
+              tituloResumo: porGestor ? 'Gestores que mais mudaram' : 'Itens que mais mudaram', compacto: true, limTop: porGestor ? 5 : 3 };
   AnaliseCusto.grafico(anGrafico, o);
   AnaliseCusto.tendencia(anTend, o);
   AnaliseCusto.resumo(anResumo, o);
@@ -229,7 +233,7 @@ function abrirItem(l) {
   const h = M.map(m => {
     const it = det[m] || [];
     const q = (l.qtdMes || {})[m];
-    return `<h4>${m} — ${l.valores[m] == null ? 'a preencher' : fmt(l.valores[m])}${q ? ' · ' + q + (l.descricao === 'Folha Trabalhista' || l.descricao.startsWith('Custo ') ? ' colaborador(es)' : ' item(ns)') : ''}</h4>` +
+    return `<h4 class="mes-cab"><span class="mc-mes">${m}</span><span class="mc-val">${l.valores[m] == null ? 'a preencher' : fmt(l.valores[m])}</span>${q ? '<span class="mc-q">' + q + (l.descricao === 'Folha Trabalhista' || l.descricao.startsWith('Custo ') ? ' colaborador(es)' : ' item(ns)') + '</span>' : ''}</h4>` +
       (it.length ? it.map(i => `<div class="it"><span>${esc(i.nome)}</span><b>${fmt(i.valor)}</b></div>`).join('')
                  : `<div class="it"><span style="color:var(--slate-400)">${l.valores[m] == null ? 'Sem fonte na pasta — pode digitar na planilha.' : 'Sem detalhamento.'}</span></div>`);
   }).join('');
