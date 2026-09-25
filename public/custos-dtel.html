@@ -57,7 +57,7 @@
     <span class="icon">🏢</span>
     <div>
       <h1>Custos da Dtel</h1>
-      <p>Custo total real de cada setor da Dtel, mês a mês — a mesma soma que já está na aba SETORES da planilha (nº de clientes/funcionários não entra aqui: é o custo integral que a Dtel absorve em cada setor, sem rateio). Não é o mesmo cálculo do Reembolso de Empresas Licenciadas, que mostra apenas a fatia de custo compartilhado que cada licenciada deve pagar.</p>
+      <p>Custo total real de cada setor da Dtel, mês a mês, mais a operação dos gestores regionais (card Custos Regionais, sem as linhas de DP/RH/Seg. Trabalho, que já estão nesses setores) — a mesma soma que já está na aba SETORES da planilha (nº de clientes/funcionários não entra aqui: é o custo integral que a Dtel absorve em cada setor, sem rateio). Não é o mesmo cálculo do Reembolso de Empresas Licenciadas, que mostra apenas a fatia de custo compartilhado que cada licenciada deve pagar.</p>
     </div>
   </div>
 
@@ -116,7 +116,7 @@ function renderTudo() {
     const tr = document.createElement('tr');
     tr.className = 'item-clicavel';
     tr.style.cursor = 'pointer';
-    tr.onclick = () => { window.location.href = API_BASE + '/setor/' + s.slug; };
+    tr.onclick = () => { window.location.href = API_BASE + (s.slug === '__regionais__' ? '/custos-regionais' : '/setor/' + s.slug); };
     tr.innerHTML = `<td class="icon">${s.icone}</td><td class="nome">${s.nome}</td>${celulas}<td class="val">${fmtBRL(totalSetor)}</td>`;
     body.appendChild(tr);
   });
@@ -137,6 +137,21 @@ async function buscarDados() {
     if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
     DADOS = data;
     MESES_DISPONIVEIS = data.mesesDisponiveis;
+    // Operação dos gestores regionais (card Custos Regionais). Não soma as linhas Custo DP/RH/Seg. Trabalho,
+    // que já estão dentro dos setores DP, RH e Segurança do Trabalho (senão contaria 2x).
+    try {
+      const rr = await fetch(API_BASE + '/api/custos-regionais');
+      if (rr.ok) {
+        const cr = await rr.json();
+        const fora = /^(custo dp|custo rh|custo seg\. trabalho)$/i;
+        const hist = MESES_DISPONIVEIS.map(m => {
+          const mk = (cr.meses || []).find(x => x.toUpperCase() === m.toUpperCase());
+          const total = mk ? cr.linhas.filter(l => !fora.test((l.descricao || '').trim())).reduce((s, l) => s + (l.valores[mk] || 0), 0) : 0;
+          return { mes: m, total };
+        });
+        DADOS.setores = DADOS.setores.filter(s => s.slug !== '__regionais__').concat([{ nome: 'Operação Regional (gestores regionais)', slug: '__regionais__', icone: '🗺️', historico: hist }]);
+      }
+    } catch (e) { /* sem card regional: segue só com os setores */ }
     document.getElementById('statusTxt').textContent = data.avisoCache ? ('Aviso: ' + data.avisoCache) : '';
 
     document.getElementById('erroBox').style.display = 'none';

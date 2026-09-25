@@ -262,6 +262,10 @@ app.get('/api/custos-regionais', (req, res) => {
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/setor/:slug', (req, res) => {
+  // Oficina é subsetor da Logística: as duas abrem juntas na página do grupo
+  if (req.params.slug === 'logistica' || req.params.slug === 'oficina') {
+    return res.redirect('/logistica-grupo?setor=' + req.params.slug);
+  }
   res.sendFile(path.join(__dirname, 'public', 'setor.html'));
 });
 
@@ -279,6 +283,10 @@ app.get('/central-relacionamento', (req, res) => {
 
 app.get('/engenharia-grupo', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'engenharia.html'));
+});
+
+app.get('/logistica-grupo', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'logistica.html'));
 });
 
 app.get('/gestao-atendimento', (req, res) => {

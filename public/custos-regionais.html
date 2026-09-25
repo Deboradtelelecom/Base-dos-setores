@@ -6,62 +6,84 @@
 <title>Custos Regionais — Dtel Telecom</title>
 <style>
   :root {
-    --bg-app: #070a13; --bg-panel: #0c0f1d; --border: #1b2333; --border-soft: rgba(255,255,255,0.08);
-    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc; --slate-800: #e2e8f0;
-    --blue-accent: #4f9cf9; --good: #22c55e; --warn: #f59e0b;
+    --bg-app: #070a13; --bg-panel: #0c0f1d; --bg-sub: #0a0d19; --border: #1b2333; --border-soft: rgba(255,255,255,0.06);
+    --slate-400: #64748b; --slate-500: #8291ab; --slate-700: #c3ccdc;
+    --blue: #4f9cf9; --good: #22c55e; --warn: #f59e0b;
     --mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   }
   * { box-sizing:border-box; }
-  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:var(--slate-800); -webkit-font-smoothing:antialiased; }
-  main { max-width:1280px; margin:0 auto; padding:32px 28px 60px; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background:var(--bg-app); color:#e2e8f0; -webkit-font-smoothing:antialiased; }
+  main { max-width:1180px; margin:0 auto; padding:32px 28px 60px; }
   a.voltar { display:inline-block; margin-bottom:14px; font-size:11.5px; color:var(--slate-500); text-decoration:none; font-family:var(--mono); }
-  a.voltar:hover { color:var(--blue-accent); }
-  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; }
-  .header-row .icon { font-size:26px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:52px; height:52px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  a.voltar:hover { color:var(--blue); }
+  .header-row { display:flex; align-items:center; gap:14px; margin-bottom:22px; }
+  .header-row .icon { font-size:24px; background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; width:48px; height:48px; display:flex; align-items:center; justify-content:center; }
   .header-row h1 { font-size:22px; font-weight:800; color:#fff; margin:0; }
-  .header-row p { font-size:12.5px; color:var(--slate-500); margin:2px 0 0; max-width:760px; }
-  .filtros { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:16px; }
-  .filtros select, .filtros input { background:var(--bg-panel); color:var(--slate-800); border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:12.5px; }
-  .filtros input { min-width:220px; }
-  .totais-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); gap:10px; margin-bottom:18px; }
-  .total-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
-  .total-card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; margin-bottom:6px; }
-  .total-card .val { font-size:17px; font-weight:800; color:#fff; font-family:var(--mono); }
-  .total-card .sub { font-size:11px; color:var(--slate-500); margin-top:4px; font-family:var(--mono); }
-  .grupo { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; margin-bottom:12px; overflow:hidden; }
-  .grupo-head { display:flex; justify-content:space-between; align-items:center; padding:14px 18px; cursor:pointer; gap:12px; flex-wrap:wrap; }
-  .grupo-head .nome { font-weight:800; color:#fff; font-size:14px; }
-  .grupo-head .meta { font-size:11px; color:var(--slate-500); font-family:var(--mono); margin-left:8px; }
-  .grupo-head .tot { font-family:var(--mono); font-weight:800; color:#fff; }
-  .grupo-body { display:none; padding:0 18px 16px; overflow-x:auto; }
-  .grupo.aberto .grupo-body { display:block; }
-  .seta { display:inline-block; transition:transform .15s; margin-right:6px; color:var(--slate-500); }
-  .grupo.aberto .seta { transform:rotate(90deg); }
-  table { width:100%; border-collapse:collapse; font-size:12.5px; }
-  thead th { text-align:left; font-size:10px; text-transform:uppercase; letter-spacing:.05em; color:var(--slate-400); font-weight:700; padding:8px 10px 8px 0; border-bottom:1px solid var(--border); white-space:nowrap; }
-  tbody td { padding:8px 10px 8px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); vertical-align:top; }
-  td.desc { color:#fff; font-weight:600; }
-  td.val, th.val { text-align:right; font-family:var(--mono); white-space:nowrap; }
-  td.val { color:#fff; }
-  td.pend { color:var(--warn); font-size:11px; }
-  .tag { font-size:10px; font-weight:700; padding:2px 8px; border-radius:999px; border:1px solid; }
-  .tag.fixo { color:var(--blue-accent); border-color:rgba(79,156,249,.4); }
-  .tag.var { color:var(--warn); border-color:rgba(245,158,11,.4); }
-  tr.linha { cursor:pointer; }
-  tr.linha:hover td { background:rgba(255,255,255,0.02); }
-  tr.det td { background:#0a0d19; font-size:11.5px; color:var(--slate-500); }
-  .det-mes { display:inline-block; vertical-align:top; min-width:210px; margin:4px 18px 6px 0; }
-  .det-mes b { color:var(--slate-700); font-size:10.5px; text-transform:uppercase; letter-spacing:.04em; }
-  .det-mes div { font-family:var(--mono); }
-  .qtd { display:block; font-size:10px; color:var(--slate-500); }
-  .tag.nova { color:var(--good); border-color:rgba(34,197,94,.4); margin-left:6px; }
-  .pend-card { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-top:18px; }
-  .pend-card h3 { font-size:12.5px; text-transform:uppercase; letter-spacing:.04em; color:var(--slate-700); margin:0 0 10px; }
-  .pend-card details { margin-bottom:6px; font-size:12px; color:var(--slate-700); }
-  .pend-card summary { cursor:pointer; }
-  .pend-card ul { margin:6px 0 8px 18px; padding:0; color:var(--slate-500); font-size:11.5px; }
-  .footer-note { font-size:11px; color:var(--slate-500); margin-top:24px; line-height:1.6; }
+  .header-row p { font-size:12.5px; color:var(--slate-500); margin:3px 0 0; }
+  .resumo { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:14px; }
+  .kpi { background:var(--bg-panel); border:1px solid var(--border); border-radius:10px; padding:8px 14px; display:flex; gap:10px; align-items:baseline; }
+  .kpi .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); font-weight:700; }
+  .kpi .val { font-size:15px; font-weight:800; color:#fff; font-family:var(--mono); }
+  .kpi.total .val { color:var(--good); }
+  .resumo select { background:var(--bg-panel); color:#fff; border:1px solid var(--blue); border-radius:10px; padding:9px 12px; font-size:13px; font-weight:700; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:20px; }
+  .card { background:var(--bg-panel); border:1px solid var(--border); border-radius:12px; padding:14px 16px; }
+  .card .lbl { font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); font-weight:700; }
+  .card .val { font-size:18px; font-weight:800; color:#fff; font-family:var(--mono); margin-top:6px; }
+  .card.total .val { color:var(--good); }
+  .barra { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:12px; }
+  .barra select, .barra input { background:var(--bg-panel); color:#e2e8f0; border:1px solid var(--border); border-radius:8px; padding:8px 10px; font-size:12.5px; }
+  .barra input[type=text], .barra input:not([type]) { flex:1; min-width:200px; }
+  .barra label { font-size:12px; color:var(--slate-500); display:flex; gap:6px; align-items:center; cursor:pointer; }
+  .tabela { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; overflow:hidden; }
+  .linha { display:grid; grid-template-columns: 1fr 64px repeat(var(--nm), 118px) 130px; align-items:center; padding:0 16px; min-height:40px; border-bottom:1px solid var(--border-soft); font-size:13px; }
+  .linha .v { text-align:right; font-family:var(--mono); color:var(--slate-700); white-space:nowrap; font-size:12.5px; }
+  .linha .q { text-align:right; font-family:var(--mono); color:var(--slate-500); font-size:12px; }
+  .linha .v.tot { color:#fff; font-weight:700; }
+  .linha .v.vazio { color:#3b465c; }
+  .cab { background:#0e1324; min-height:36px; font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); font-weight:700; }
+  .cab .v { color:var(--slate-400); font-size:10.5px; }
+  .nome { display:flex; align-items:center; gap:8px; min-width:0; }
+  .nome span.t { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .seta { color:var(--slate-500); font-size:10px; width:12px; transition:transform .15s; flex-shrink:0; }
+  .aberto > .linha .seta { transform:rotate(90deg); }
+  .clic { cursor:pointer; }
+  .clic:hover { background:rgba(255,255,255,0.025); }
+  .g > .linha { font-weight:700; color:#fff; min-height:46px; }
+  .loc > .linha { padding-left:40px; color:var(--slate-700); background:var(--bg-sub); }
+  .linha.item { padding-left:66px; background:#080b16; color:var(--slate-500); font-size:12.5px; }
+  .filhos { display:none; }
+  .aberto > .filhos { display:block; }
+  .tag { font-size:9.5px; font-weight:700; padding:1px 7px; border-radius:999px; border:1px solid; margin-left:4px; flex-shrink:0; }
+  .tag.nova { color:var(--good); border-color:rgba(34,197,94,.35); }
+  .tag.man { color:#f4a582; border-color:rgba(244,165,130,.4); }
+  .ponto { width:6px; height:6px; border-radius:50%; background:var(--warn); display:inline-block; flex-shrink:0; }
+  .rodape { background:#0e1324; font-weight:800; color:#fff; min-height:44px; border-bottom:none; }
+  .rodape .v { color:#fff; font-weight:800; }
+  .sub { font-size:11px; color:var(--slate-400); font-weight:400; }
+  .notas { display:flex; gap:18px; flex-wrap:wrap; font-size:11.5px; color:var(--slate-500); margin:14px 2px 0; align-items:center; }
+  .btn { background:transparent; border:1px solid var(--border); color:var(--slate-700); border-radius:8px; padding:7px 12px; font-size:12px; cursor:pointer; }
+  .btn:hover { border-color:var(--blue); color:#fff; }
+  .painel-fundo { position:fixed; inset:0; background:rgba(0,0,0,.55); display:none; z-index:10; }
+  .painel { position:fixed; top:0; right:0; bottom:0; width:min(520px,100%); background:var(--bg-panel); border-left:1px solid var(--border); z-index:11; transform:translateX(100%); transition:transform .2s; display:flex; flex-direction:column; }
+  .painel.on { transform:none; }
+  .painel header { padding:18px 20px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; gap:10px; }
+  .painel header h3 { margin:0; font-size:15px; color:#fff; }
+  .painel header p { margin:4px 0 0; font-size:12px; color:var(--slate-500); }
+  .painel .corpo { overflow:auto; padding:8px 20px 24px; }
+  .painel h4 { font-size:10.5px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); margin:16px 0 6px; }
+  .painel .it { display:flex; justify-content:space-between; gap:12px; font-size:12.5px; padding:5px 0; border-bottom:1px solid var(--border-soft); color:var(--slate-700); }
+  .painel .it b { font-family:var(--mono); font-weight:600; color:#fff; white-space:nowrap; }
+  .fechar { background:none; border:none; color:var(--slate-500); font-size:20px; cursor:pointer; }
+  .pend-k { font-size:12.5px; color:#fff; margin:16px 0 4px; }
+  .pend-i { font-size:12px; color:var(--slate-500); padding:3px 0 3px 10px; border-left:2px solid var(--border); }
+  .analise { display:grid; grid-template-columns: 1.2fr 1fr; gap:12px; margin-bottom:14px; }
+  .an-box { background:var(--bg-panel); border:1px solid var(--border); border-radius:14px; padding:16px 18px; min-width:0; }
+  .an-box h3 { margin:0 0 10px; font-size:11px; text-transform:uppercase; letter-spacing:.06em; color:var(--slate-400); font-weight:700; }
+  .an-full { grid-column:1 / -1; }
+  @media (max-width:900px){ .analise{ grid-template-columns:1fr; } }
   .erro-box { background:rgba(239,68,68,0.12); border:1px solid rgba(239,68,68,0.35); color:#f87171; padding:16px; border-radius:10px; font-size:13px; }
+  @media (max-width:900px){ .linha{ grid-template-columns: 1fr 52px repeat(var(--nm), 92px) 104px; font-size:12px; } main{ padding:20px 12px; } .tabela{ overflow-x:auto; } .tabela > div { min-width:720px; } }
 </style>
 </head>
 <body>
@@ -71,107 +93,176 @@
     <span class="icon">🗺️</span>
     <div>
       <h1>Custos Regionais</h1>
-      <p>Estrutura da planilha Custo regional (Base principal) da Dtel, com as descrições exatas por gestor, localidade e região. Itens de aluguel são fixos (valor repetido todo mês); os demais são variáveis e mudam mês a mês.</p>
+      <p>Custo de cada gestor regional por cidade. Clique no gestor para abrir as cidades, na cidade para ver os itens e no item para ver quem ou o que compõe o valor.</p>
     </div>
   </div>
   <div id="erroBox" style="display:none;" class="erro-box"></div>
   <div id="conteudo" style="display:none;">
-    <div class="filtros">
-      <select id="fRegiao"><option value="">Todas as regiões</option></select>
+    <div class="resumo"><select id="fMes"></select><div id="cards" style="display:contents"></div></div>
+    <div class="barra">
       <select id="fGestor"><option value="">Todos os gestores</option></select>
-      <select id="fTipo"><option value="">Fixo e variável</option><option>Fixo</option><option>Variável</option></select>
-      <input id="fBusca" placeholder="Buscar localidade ou descrição…">
+      <input id="fBusca" placeholder="Buscar cidade ou item (ex.: Gravatá, Energia, Folha)…">
     </div>
-    <div class="totais-cards" id="totaisCards"></div>
-    <div id="grupos"></div>
-    <div class="pend-card" id="pendCard" style="display:none;"><h3>Regras do preenchimento e pendências</h3><div id="regras" class="footer-note" style="margin:0 0 12px;"></div><div id="pendList"></div></div>
-    <p class="footer-note">"A preencher" = valor variável do mês sem fonte na pasta (você informa). R$ 0,00 = a fonte do mês existe e não tem lançamento para aquela linha. Clique numa linha para ver os colaboradores/itens que compõem o valor.</p>
+    <div class="analise">
+      <div class="an-box"><h3>Consumo mensal x média</h3><div id="anGrafico"></div><div id="anResumo" style="margin-top:10px"></div></div>
+      <div class="an-box"><h3>Tendência de custo</h3><div id="anTend"></div></div>
+    </div>
+    <div class="tabela" id="tabela"></div>
+    <div class="notas">
+      <span><span class="ponto"></span> item com mês a preencher</span>
+      <span><span class="tag nova" style="margin:0">nova</span> linha criada no preenchimento</span>
+      <span><span class="tag man" style="margin:0">manual</span> valor digitado na planilha</span>
+      <span style="flex:1"></span>
+      <button class="btn" id="btnPend">Pendências</button>
+      <button class="btn" id="btnRegras">Regras</button>
+    </div>
   </div>
 </main>
+<div class="painel-fundo" id="fundo"></div>
+<aside class="painel" id="painel"><header><div><h3 id="pTit"></h3><p id="pSub"></p></div><button class="fechar" id="pFechar">×</button></header><div class="corpo" id="pCorpo"></div></aside>
+<script src="/analise-custo.js"></script>
 <script>
 const API_BASE = '';
-let D = null; const abertos = new Set(); const abertasLinhas = new Set();
-const fmt = n => "R$ " + (n || 0).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+let D = null, M = [], MV = [];
+const abertos = new Set();
+const fmt = n => (n || 0).toLocaleString('pt-BR', { style:'currency', currency:'BRL' });
+const fmtC = n => n ? n.toLocaleString('pt-BR', { minimumFractionDigits:2, maximumFractionDigits:2 }) : '–';
 const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const norm = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+const soma = (ls, m) => ls.reduce((s, l) => s + (l.valores[m] || 0), 0);
+const naFolha = l => String(l.obs || '').startsWith('incluído na Folha');
+const temPend = l => l.tipo !== 'Fixo' && !naFolha(l) && M.some(m => l.valores[m] == null);
+const painelEl = document.getElementById('painel');
 
-function opcoes(id, vals) {
-  const el = document.getElementById(id);
-  [...new Set(vals)].filter(Boolean).sort((a,b)=>a.localeCompare(b,'pt-BR')).forEach(v => el.insertAdjacentHTML('beforeend', `<option>${esc(v)}</option>`));
-  el.onchange = render;
+const mRef = () => fMes.value || M[M.length - 1];
+const colab = ls => ls.filter(l => l.descricao === 'Folha Trabalhista').reduce((s, l) => s + ((l.qtdMes || {})[mRef()] || 0), 0);
+const qCel = n => `<div class="q">${n ? n : ''}</div>`;
+function celulas(ls) {
+  const t = MV.map(m => soma(ls, m));
+  return t.map(v => `<div class="v ${v ? '' : 'vazio'}">${fmtC(v)}</div>`).join('') +
+         `<div class="v tot">${fmtC(M.reduce((a, m) => a + soma(ls, m), 0))}</div>`;
 }
-
+function locNome(l) {
+  if (l.localidade !== 'Despesa Operacional') return l.localidade;
+  return l.outrasOperacoes ? 'Outras operações (BKO, estoque, serviços gerais)' : 'Operação técnica';
+}
 function filtradas() {
-  const r = fRegiao.value, g = fGestor.value, t = fTipo.value, b = norm(fBusca.value);
-  return D.linhas.filter(l => (!r || l.regiao === r) && (!g || l.gestor === g) && (!t || l.tipo === t) &&
-    (!b || norm(l.localidade + ' ' + l.descricao + ' ' + l.obs).includes(b)));
+  const g = fGestor.value, b = norm(fBusca.value);
+  return D.linhas.filter(l => !naFolha(l) && M.some(m => l.valores[m] !== 0) && (!g || l.gestor === g) &&
+    (!b || norm(l.localidade + ' ' + l.descricao + ' ' + locNome(l)).includes(b)));
 }
+const ordemLoc = n => n.startsWith('Operação') ? 0 : n.startsWith('Outras') ? 1 : 2;
 
 function render() {
-  const M = D.meses, L = filtradas();
-  const tot = M.map(m => L.reduce((s,l) => s + (l.valores[m] || 0), 0));
-  const pend = M.map(m => L.filter(l => l.valores[m] == null).length);
-  totaisCards.innerHTML = M.map((m,i) => `<div class="total-card"><div class="lbl">${m}</div><div class="val">${fmt(tot[i])}</div><div class="sub">${pend[i] ? pend[i] + ' itens a preencher' : 'completo'}</div></div>`).join('')
-    + `<div class="total-card"><div class="lbl">Total do período</div><div class="val" style="color:var(--good)">${fmt(tot.reduce((a,b)=>a+b,0))}</div><div class="sub">${L.length} linhas</div></div>`;
+  const L = filtradas();
+  MV = fMes.value ? [fMes.value] : M;
+  const totP = M.reduce((a, m) => a + soma(L, m), 0);
+  cards.innerHTML = (fMes.value ? `<div class="kpi"><span class="lbl">${fMes.value}</span><span class="val">${fmt(soma(L, fMes.value))}</span></div>` : '') +
+    `<div class="kpi total"><span class="lbl">Total ${M[0].split('/')[0].slice(0,3).toLowerCase()}–${M[M.length-1].split('/')[0].slice(0,3).toLowerCase()}/${M[M.length-1].split('/')[1]}</span><span class="val">${fmt(totP)}</span></div>`;
+  const grid = `style="--nm:${MV.length}"`;
+  const porG = {};
+  L.forEach(l => (porG[l.gestor] = porG[l.gestor] || []).push(l));
+  const tot = ls => M.reduce((s, m) => s + soma(ls, m), 0);
+  const gs = Object.keys(porG).sort((a, b) => tot(porG[b]) - tot(porG[a]));
+  const busca = !!fBusca.value;
+  let h = `<div><div class="linha cab" ${grid}><div>Gestor / cidade / item</div><div class="q" title="colaboradores no mês selecionado">Colab.</div>${MV.map(m => `<div class="v">${m.split('/')[0].slice(0, 3)}/${m.split('/')[1].slice(2)}</div>`).join('')}<div class="v">Total período</div></div>`;
+  gs.forEach(g => {
+    const ls = porG[g], porLoc = {};
+    ls.forEach(l => { const k = locNome(l); (porLoc[k] = porLoc[k] || []).push(l); });
+    const locs = Object.keys(porLoc).sort((a, b) => ordemLoc(a) - ordemLoc(b) || tot(porLoc[b]) - tot(porLoc[a]));
+    const kg = 'g:' + g, ab = busca || abertos.has(kg);
+    h += `<div class="g ${ab ? 'aberto' : ''}"><div class="linha clic" ${grid} data-k="${esc(kg)}"><div class="nome"><span class="seta">▶</span><span class="t">${esc(g)}</span></div>${qCel(colab(ls))}${celulas(ls)}</div><div class="filhos">`;
+    locs.forEach(loc => {
+      const ll = porLoc[loc], kl = kg + '|' + loc, al = !!fBusca.value || abertos.has(kl);
+      h += `<div class="loc ${al ? 'aberto' : ''}"><div class="linha clic" ${grid} data-k="${esc(kl)}"><div class="nome"><span class="seta">▶</span><span class="t">${esc(loc)}</span>${ll.some(temPend) ? '<span class="ponto" title="tem mês a preencher"></span>' : ''}</div>${qCel(colab(ll))}${celulas(ll)}</div><div class="filhos">`;
+      ll.slice().sort((a, b) => tot([b]) - tot([a])).forEach(l => {
+        const man = l.linhaManual || Object.values(l.manual || {}).some(Boolean);
+        h += `<div class="linha item clic" ${grid} data-id="${esc(l.id)}"><div class="nome"><span class="t" title="${esc(l.obs)}">${esc(l.descricao)}</span>${temPend(l) ? '<span class="ponto"></span>' : ''}${l.geradoAuto ? '<span class="tag nova">nova</span>' : ''}${man ? '<span class="tag man">manual</span>' : ''}</div>${qCel((l.qtdMes || {})[mRef()])}` +
+             MV.map(m => l.valores[m] == null ? `<div class="v vazio">·</div>` : `<div class="v ${l.valores[m] ? '' : 'vazio'}">${fmtC(l.valores[m])}</div>`).join('') +
+             `<div class="v tot">${fmtC(tot([l]))}</div></div>`;
+      });
+      h += `</div></div>`;
+    });
+    h += `</div></div>`;
+  });
+  h += `<div class="linha rodape" ${grid}><div>Total${fGestor.value || busca ? ' (filtro)' : ''}</div>${qCel(colab(L))}${celulas(L)}</div></div>`;
+  analise(L);
+  tabela.innerHTML = gs.length ? h : '<div style="padding:24px;color:var(--slate-500);font-size:13px">Nada encontrado com esse filtro.</div>';
+  tabela.querySelectorAll('[data-k]').forEach(el => el.onclick = () => {
+    const k = el.dataset.k; abertos.has(k) ? abertos.delete(k) : abertos.add(k);
+    el.parentElement.classList.toggle('aberto');
+  });
+  tabela.querySelectorAll('[data-id]').forEach(el => el.onclick = () => abrirItem(D.linhas.find(l => String(l.id) === el.dataset.id)));
+}
 
-  const porGestor = {};
-  L.forEach(l => (porGestor[l.gestor] = porGestor[l.gestor] || []).push(l));
-  grupos.innerHTML = Object.keys(porGestor).sort((a,b)=>a.localeCompare(b,'pt-BR')).map(g => {
-    const ls = porGestor[g];
-    const totG = ls.reduce((s,l) => s + M.reduce((a,m) => a + (l.valores[m] || 0), 0), 0);
-    const regs = [...new Set(ls.map(l => l.regiao))].join(', ');
-    const rows = ls.map(l => {
-      const det = l.detalhe || {}, qm = l.qtdMes || {};
-      const temDet = M.some(m => (det[m] || []).length);
-      const aberto = abertasLinhas.has(l.id);
-      const detHtml = temDet && aberto ? `<tr class="det"><td colspan="${6 + M.length}">${M.filter(m => (det[m] || []).length).map(m =>
-        `<div class="det-mes"><b>${m}</b>${det[m].map(i => `<div>${esc(i.nome)} — ${fmt(i.valor)}</div>`).join('')}</div>`).join('')}</td></tr>` : '';
-      return `<tr class="linha" data-id="${l.id}">
-      <td>${esc(l.localidade)}</td><td>${esc(l.regiao)}</td><td class="desc">${temDet ? (aberto ? '▾ ' : '▸ ') : ''}${esc(l.descricao)}${l.geradoAuto ? '<span class="tag nova">linha nova</span>' : ''}</td>
-      <td class="val">${esc(l.quantidade)}</td><td>${esc(l.obs)}</td>
-      <td><span class="tag ${l.tipo === 'Fixo' ? 'fixo' : 'var'}">${l.tipo}</span></td>
-      ${M.map(m => l.valores[m] == null ? '<td class="val pend">a preencher</td>' : `<td class="val">${fmt(l.valores[m])}${qm[m] ? `<span class="qtd">${qm[m]} colab./itens</span>` : ''}</td>`).join('')}
-    </tr>${detHtml}`; }).join('');
-    return `<div class="grupo ${abertos.has(g) ? 'aberto' : ''}" data-g="${esc(g)}">
-      <div class="grupo-head"><div><span class="seta">▶</span><span class="nome">${esc(g)}</span><span class="meta">${ls.length} linhas · ${esc(regs)}</span></div><span class="tot">${fmt(totG)}</span></div>
-      <div class="grupo-body"><table><thead><tr><th>Localidade</th><th>Região</th><th>Descrição</th><th class="val">Qtd / Colab.</th><th>Obs</th><th>Tipo</th>${M.map(m => `<th class="val">${m}</th>`).join('')}</tr></thead><tbody>${rows}</tbody></table></div>
-    </div>`;
+function analise(L) {
+  if (!window.AnaliseCusto) return;
+  const sel = fMes.value ? M.indexOf(fMes.value) : M.length - 1;
+  const totais = M.map(m => soma(L, m));
+  // Todos os gestores: o que mudou por GESTOR (e o item/local que puxou). Um gestor escolhido: por item (e o local).
+  const porGestor = !fGestor.value;
+  const drivers = {}, extra = {};
+  L.forEach(l => {
+    const item = l.descricao.trim();
+    const k = porGestor ? l.gestor : item;
+    drivers[k] = drivers[k] || M.map(() => 0);
+    const ke = porGestor ? l.gestor + '|' + item + '|' + locNome(l) : l.gestor + '|' + locNome(l) + '|' + item;
+    extra[ke] = extra[ke] || { nome: k, sub: porGestor ? item + ' · ' + locNome(l) : locNome(l), vals: M.map(() => 0) };
+    M.forEach((m, i) => { drivers[k][i] += l.valores[m] || 0; extra[ke].vals[i] += l.valores[m] || 0; });
+  });
+  const pessoas = M.map(m => L.filter(l => l.descricao === 'Folha Trabalhista').reduce((s, l) => s + ((l.qtdMes || {})[m] || 0), 0));
+  const o = { meses: M.map(m => m.charAt(0) + m.slice(1).toLowerCase()), curtos: M.map(m => m.slice(0, 1) + m.slice(1, 3).toLowerCase()),
+              totais, sel, drivers, pessoas: pessoas.some(Boolean) ? pessoas : null, extra: Object.values(extra),
+              onPick: i => { fMes.value = M[i]; render(); },
+              tituloResumo: porGestor ? 'O que mudou por gestor' : 'O que mudou', limAltas: porGestor ? 20 : 3, limQuedas: porGestor ? 20 : 2 };
+  AnaliseCusto.grafico(anGrafico, o);
+  AnaliseCusto.tendencia(anTend, o);
+  AnaliseCusto.resumo(anResumo, o);
+}
+function painel(tit, sub, html) {
+  pTit.textContent = tit; pSub.textContent = sub; pCorpo.innerHTML = html;
+  painelEl.classList.add('on'); fundo.style.display = 'block';
+}
+function fechar() { painelEl.classList.remove('on'); fundo.style.display = 'none'; }
+function abrirItem(l) {
+  const det = l.detalhe || {};
+  const h = M.map(m => {
+    const it = det[m] || [];
+    const q = (l.qtdMes || {})[m];
+    return `<h4>${m} — ${l.valores[m] == null ? 'a preencher' : fmt(l.valores[m])}${q ? ' · ' + q + (l.descricao === 'Folha Trabalhista' || l.descricao.startsWith('Custo ') ? ' colaborador(es)' : ' item(ns)') : ''}</h4>` +
+      (it.length ? it.map(i => `<div class="it"><span>${esc(i.nome)}</span><b>${fmt(i.valor)}</b></div>`).join('')
+                 : `<div class="it"><span style="color:var(--slate-400)">${l.valores[m] == null ? 'Sem fonte na pasta — pode digitar na planilha.' : 'Sem detalhamento.'}</span></div>`);
   }).join('');
-  document.querySelectorAll('tr.linha').forEach(tr => tr.onclick = () => {
-    const id = +tr.dataset.id; abertasLinhas.has(id) ? abertasLinhas.delete(id) : abertasLinhas.add(id); render();
-  });
-  const P = D.pendencias || {}, R = (D.preenchimento || {}).regras || [];
-  if (R.length || Object.keys(P).length) {
-    pendCard.style.display = '';
-    regras.innerHTML = R.map(r => '• ' + esc(r)).join('<br>') + (D.preenchimento && D.preenchimento.geradoEm ? '<br>Preenchido em ' + esc(D.preenchimento.geradoEm) : '');
-    pendList.innerHTML = Object.keys(P).map(k => `<details><summary>${esc(k)} (${P[k].length})</summary><ul>${P[k].map(x => `<li>${esc(x)}</li>`).join('')}</ul></details>`).join('');
-  }
-  document.querySelectorAll('.grupo-head').forEach(h => h.onclick = () => {
-    const el = h.parentElement, g = el.dataset.g;
-    el.classList.toggle('aberto'); el.classList.contains('aberto') ? abertos.add(g) : abertos.delete(g);
-  });
+  painel(l.descricao, [l.gestor, locNome(l), l.regiao, l.obs].filter(Boolean).join(' · '), h);
 }
 
 async function buscar() {
   try {
-    const resp = await fetch(API_BASE + '/api/custos-regionais');
-    const data = await resp.json();
-    if (!resp.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
-    const primeira = !D; D = data;
-    if (primeira) {
-      opcoes('fRegiao', D.linhas.map(l => l.regiao));
-      opcoes('fGestor', D.linhas.map(l => l.gestor));
-      fTipo.onchange = render; fBusca.oninput = render;
+    const r = await fetch(API_BASE + '/api/custos-regionais'); const data = await r.json();
+    if (!r.ok) throw new Error(data.erro || 'Erro ao buscar dados.');
+    const primeira = !D; D = data; M = data.meses;
+    if (primeira || fMes.options.length !== M.length + 1) {
+      const sel = fMes.value;
+      fMes.innerHTML = M.slice().reverse().map(m => `<option value="${m}">${m.charAt(0) + m.slice(1).toLowerCase()}</option>`).join('') + '<option value="">Todos os meses lado a lado</option>';
+      fMes.value = primeira ? M[M.length - 1] : sel;
+      fMes.onchange = render;
     }
-    erroBox.style.display = 'none'; conteudo.style.display = '';
-    render();
+    if (primeira) {
+      [...new Set(D.linhas.map(l => l.gestor))].sort((a, b) => a.localeCompare(b, 'pt-BR')).forEach(g => fGestor.insertAdjacentHTML('beforeend', `<option>${esc(g)}</option>`));
+      fGestor.onchange = render; fBusca.oninput = render; 
+      pFechar.onclick = fechar; fundo.onclick = fechar;
+      btnPend.onclick = () => { const P = D.pendencias || {}; painel('Pendências', 'O que ficou de fora e precisa de confirmação',
+        Object.keys(P).map(k => `<div class="pend-k">${esc(k)} (${P[k].length})</div>` + P[k].map(x => `<div class="pend-i">${esc(x)}</div>`).join('')).join('') || 'Nenhuma pendência.'); };
+      btnRegras.onclick = () => painel('Regras do preenchimento', D.fonte || '', ((D.preenchimento || {}).regras || []).map(x => `<div class="pend-i" style="margin:6px 0">${esc(x)}</div>`).join(''));
+    }
+    erroBox.style.display = 'none'; conteudo.style.display = ''; render();
   } catch (e) {
     erroBox.style.display = 'block';
     erroBox.textContent = 'Não foi possível conectar ao servidor local. Dê duplo-clique em "2_Ligar_Plataforma.bat" e tente de novo. (' + e.message + ')';
   }
 }
 buscar();
-setInterval(buscar, 300000);
+setInterval(() => { if (!painelEl.classList.contains('on')) buscar(); }, 300000);
 </script>
 </body>
 </html>

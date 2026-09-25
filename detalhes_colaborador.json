@@ -73,6 +73,24 @@
             "beneficiosPagos": 734.1,
             "desconto": 52.6
           }
+        },
+        {
+          "nome": "RAFAEL MARINHO MACEDO (Gerente De Redes)",
+          "valor": 21425.82,
+          "encargos": {
+            "salarioBase": 13066.55,
+            "umDozeAvosFerias": 1451.84,
+            "umDozeAvosDecimoTerceiro": 1088.88,
+            "fgts": 1045.32,
+            "inssPatronal": 2613.31,
+            "ratGilrat": 261.33,
+            "terceiros": 757.86,
+            "provisaoMultaRescisoria": 435.55,
+            "totalEncargos": 5113.38,
+            "custoTotal": 21425.82,
+            "beneficiosPagos": 760.4,
+            "desconto": 55.23
+          }
         }
       ],
       "Junho/2026": [
@@ -312,6 +330,24 @@
             "custoTotal": 13009.72,
             "beneficiosPagos": 784.8,
             "desconto": 57.67
+          }
+        },
+        {
+          "nome": "Emanoel Rodolfo Da Silva (Analista De Rede E Comunicacao De Dados)",
+          "valor": 7721.05,
+          "encargos": {
+            "salarioBase": 4394.85,
+            "umDozeAvosFerias": 488.32,
+            "umDozeAvosDecimoTerceiro": 366.24,
+            "fgts": 351.59,
+            "inssPatronal": 878.97,
+            "ratGilrat": 87.9,
+            "terceiros": 254.9,
+            "provisaoMultaRescisoria": 146.5,
+            "totalEncargos": 1719.85,
+            "custoTotal": 7721.05,
+            "beneficiosPagos": 812.2,
+            "desconto": 60.41
           }
         }
       ]
@@ -920,6 +956,42 @@
             "custoTotal": 13312.9,
             "beneficiosPagos": 798,
             "desconto": 58.99
+          }
+        },
+        {
+          "nome": "GABRIEL RAMON DA SILVA (Ajudante De Pedreiro)",
+          "valor": 8166.93,
+          "encargos": {
+            "salarioBase": 4869.62,
+            "umDozeAvosFerias": 541.07,
+            "umDozeAvosDecimoTerceiro": 405.8,
+            "fgts": 389.57,
+            "inssPatronal": 973.92,
+            "ratGilrat": 97.39,
+            "terceiros": 282.44,
+            "provisaoMultaRescisoria": 162.32,
+            "totalEncargos": 1905.64,
+            "custoTotal": 8166.93,
+            "beneficiosPagos": 471.1,
+            "desconto": 26.3
+          }
+        },
+        {
+          "nome": "JOAO CARLOS DA SILVA (Ajudante De Pedreiro)",
+          "valor": 6479.34,
+          "encargos": {
+            "salarioBase": 3835.15,
+            "umDozeAvosFerias": 426.13,
+            "umDozeAvosDecimoTerceiro": 319.6,
+            "fgts": 306.81,
+            "inssPatronal": 767.03,
+            "ratGilrat": 76.7,
+            "terceiros": 222.44,
+            "provisaoMultaRescisoria": 127.84,
+            "totalEncargos": 1500.82,
+            "custoTotal": 6479.34,
+            "beneficiosPagos": 418.7,
+            "desconto": 21.06
           }
         }
       ],
@@ -3096,6 +3168,24 @@
             "custoTotal": 2313.49,
             "beneficiosPagos": 0,
             "desconto": 0
+          }
+        },
+        {
+          "nome": "ARTHUR LEONARDO DE SOUZA MELO (Operador De Telemarketing)",
+          "valor": 4426.8,
+          "encargos": {
+            "salarioBase": 2716.3,
+            "umDozeAvosFerias": 301.81,
+            "umDozeAvosDecimoTerceiro": 226.36,
+            "fgts": 217.3,
+            "inssPatronal": 543.26,
+            "ratGilrat": 54.33,
+            "terceiros": 157.55,
+            "provisaoMultaRescisoria": 90.54,
+            "totalEncargos": 1062.98,
+            "custoTotal": 4426.8,
+            "beneficiosPagos": 132.6,
+            "desconto": 13.26
           }
         }
       ],
@@ -5889,24 +5979,6 @@
           }
         },
         {
-          "nome": "Demetrius Ribeiro De Aquino (Ger. Regional Logístico Pleno)",
-          "valor": 13224.21,
-          "encargos": {
-            "salarioBase": 7894.57,
-            "umDozeAvosFerias": 877.17,
-            "umDozeAvosDecimoTerceiro": 657.88,
-            "fgts": 631.57,
-            "inssPatronal": 1578.91,
-            "ratGilrat": 157.89,
-            "terceiros": 457.89,
-            "provisaoMultaRescisoria": 263.15,
-            "totalEncargos": 3089.41,
-            "custoTotal": 13224.21,
-            "beneficiosPagos": 760.4,
-            "desconto": 55.23
-          }
-        },
-        {
           "nome": "Jonathan Bernardo Dos Santos Silva (Assistente De Logística Júnior)",
           "valor": 3963.68,
           "encargos": {
@@ -6049,6 +6121,42 @@
             "beneficiosPagos": 105.4,
             "desconto": 10.54
           }
+        },
+        {
+          "nome": "JOSENILDO LUIZ DOS SANTOS (Servente De Obra)",
+          "valor": 6423.18,
+          "encargos": {
+            "salarioBase": 3784.92,
+            "umDozeAvosFerias": 420.55,
+            "umDozeAvosDecimoTerceiro": 315.41,
+            "fgts": 302.79,
+            "inssPatronal": 756.98,
+            "ratGilrat": 75.7,
+            "terceiros": 219.53,
+            "provisaoMultaRescisoria": 126.16,
+            "totalEncargos": 1481.17,
+            "custoTotal": 6423.18,
+            "beneficiosPagos": 444.8,
+            "desconto": 23.67
+          }
+        },
+        {
+          "nome": "NEILSON ALEXANDRE DA SILVA (Motorista Junior)",
+          "valor": 7173.2,
+          "encargos": {
+            "salarioBase": 4163.91,
+            "umDozeAvosFerias": 462.66,
+            "umDozeAvosDecimoTerceiro": 346.99,
+            "fgts": 333.11,
+            "inssPatronal": 832.78,
+            "ratGilrat": 83.28,
+            "terceiros": 241.51,
+            "provisaoMultaRescisoria": 138.8,
+            "totalEncargos": 1629.48,
+            "custoTotal": 7173.2,
+            "beneficiosPagos": 610.4,
+            "desconto": 40.23
+          }
         }
       ],
       "Junho/2026": [
@@ -6122,24 +6230,6 @@
             "custoTotal": 8871.93,
             "beneficiosPagos": 760.4,
             "desconto": 55.23
-          }
-        },
-        {
-          "nome": "Demetrius Ribeiro De Aquino (Ger. Regional Logístico Pleno)",
-          "valor": 17747.64,
-          "encargos": {
-            "salarioBase": 10798.32,
-            "umDozeAvosFerias": 1199.81,
-            "umDozeAvosDecimoTerceiro": 899.86,
-            "fgts": 863.87,
-            "inssPatronal": 2159.66,
-            "ratGilrat": 215.97,
-            "terceiros": 626.3,
-            "provisaoMultaRescisoria": 359.94,
-            "totalEncargos": 4225.74,
-            "custoTotal": 17747.64,
-            "beneficiosPagos": 670.1,
-            "desconto": 46.2
           }
         },
         {
@@ -6394,24 +6484,6 @@
             "custoTotal": 8792.64,
             "beneficiosPagos": 760.4,
             "desconto": 55.23
-          }
-        },
-        {
-          "nome": "Demetrius Ribeiro De Aquino (Gerente Logistico Pleno)",
-          "valor": 14610.9,
-          "encargos": {
-            "salarioBase": 8794.57,
-            "umDozeAvosFerias": 977.17,
-            "umDozeAvosDecimoTerceiro": 732.88,
-            "fgts": 703.57,
-            "inssPatronal": 1758.91,
-            "ratGilrat": 175.89,
-            "terceiros": 510.09,
-            "provisaoMultaRescisoria": 293.15,
-            "totalEncargos": 3441.61,
-            "custoTotal": 14610.9,
-            "beneficiosPagos": 715.4,
-            "desconto": 50.73
           }
         },
         {
@@ -6864,24 +6936,6 @@
             "custoTotal": 1003.15,
             "beneficiosPagos": 253.9,
             "desconto": 25.39
-          }
-        },
-        {
-          "nome": "Elias Jose De Freitas (Chefe De Oficina)",
-          "valor": 13158.61,
-          "encargos": {
-            "salarioBase": 8166.66,
-            "umDozeAvosFerias": 907.41,
-            "umDozeAvosDecimoTerceiro": 680.55,
-            "fgts": 653.33,
-            "inssPatronal": 1633.33,
-            "ratGilrat": 163.33,
-            "terceiros": 473.67,
-            "provisaoMultaRescisoria": 272.22,
-            "totalEncargos": 3195.89,
-            "custoTotal": 13158.61,
-            "beneficiosPagos": 208.1,
-            "desconto": 0
           }
         }
       ]
@@ -10305,24 +10359,6 @@
           }
         },
         {
-          "nome": "DJANETE SOARES DA SILVA PEREIRA (Auxiliar Administrativo)",
-          "valor": 3275.72,
-          "encargos": {
-            "salarioBase": 1621,
-            "umDozeAvosFerias": 180.11,
-            "umDozeAvosDecimoTerceiro": 135.08,
-            "fgts": 129.68,
-            "inssPatronal": 324.2,
-            "ratGilrat": 32.42,
-            "terceiros": 94.02,
-            "provisaoMultaRescisoria": 54.03,
-            "totalEncargos": 634.35,
-            "custoTotal": 3275.72,
-            "beneficiosPagos": 760.4,
-            "desconto": 55.23
-          }
-        },
-        {
           "nome": "EVERTON EZEQUIEL DE LIMA ALMEIDA (Auxiliar Administrativo (Jovem Aprendiz))",
           "valor": 1830.69,
           "encargos": {
@@ -10413,24 +10449,6 @@
           }
         },
         {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA (Supervisor Administrativo De Atendimento Júnior)",
-          "valor": 6889.03,
-          "encargos": {
-            "salarioBase": 3914.5,
-            "umDozeAvosFerias": 434.94,
-            "umDozeAvosDecimoTerceiro": 326.21,
-            "fgts": 313.16,
-            "inssPatronal": 782.9,
-            "ratGilrat": 78.29,
-            "terceiros": 227.04,
-            "provisaoMultaRescisoria": 130.48,
-            "totalEncargos": 1531.87,
-            "custoTotal": 6889.03,
-            "beneficiosPagos": 734.1,
-            "desconto": 52.6
-          }
-        },
-        {
           "nome": "IRIS BEATRIZ SILVEIRA MARQUES (Backoffice De Atendimento Junior)",
           "valor": 5249.05,
           "encargos": {
@@ -10502,24 +10520,6 @@
             "custoTotal": 5748.64,
             "beneficiosPagos": 578.6,
             "desconto": 57.86
-          }
-        },
-        {
-          "nome": "DJANETE SOARES DA SILVA PEREIRA (Auxiliar Administrativo)",
-          "valor": 3275.72,
-          "encargos": {
-            "salarioBase": 1621,
-            "umDozeAvosFerias": 180.11,
-            "umDozeAvosDecimoTerceiro": 135.08,
-            "fgts": 129.68,
-            "inssPatronal": 324.2,
-            "ratGilrat": 32.42,
-            "terceiros": 94.02,
-            "provisaoMultaRescisoria": 54.03,
-            "totalEncargos": 634.35,
-            "custoTotal": 3275.72,
-            "beneficiosPagos": 760.4,
-            "desconto": 55.23
           }
         },
         {
@@ -10613,24 +10613,6 @@
           }
         },
         {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA (Supervisor Administrativo De Atendimento Júnior)",
-          "valor": 7245.55,
-          "encargos": {
-            "salarioBase": 4109.47,
-            "umDozeAvosFerias": 456.61,
-            "umDozeAvosDecimoTerceiro": 342.46,
-            "fgts": 328.76,
-            "inssPatronal": 821.89,
-            "ratGilrat": 82.19,
-            "terceiros": 238.35,
-            "provisaoMultaRescisoria": 136.98,
-            "totalEncargos": 1608.17,
-            "custoTotal": 7245.55,
-            "beneficiosPagos": 786.7,
-            "desconto": 57.86
-          }
-        },
-        {
           "nome": "IRIS BEATRIZ SILVEIRA MARQUES (Backoffice De Atendimento Junior)",
           "valor": 6745.15,
           "encargos": {
@@ -10646,24 +10628,6 @@
             "custoTotal": 6745.15,
             "beneficiosPagos": 447.1,
             "desconto": 44.71
-          }
-        },
-        {
-          "nome": "THATYANNE WALESKA RAMOS (Auxiliar Administrativo De Atendimento)",
-          "valor": 2313.23,
-          "encargos": {
-            "salarioBase": 1294.55,
-            "umDozeAvosFerias": 143.84,
-            "umDozeAvosDecimoTerceiro": 107.88,
-            "fgts": 103.56,
-            "inssPatronal": 258.91,
-            "ratGilrat": 25.89,
-            "terceiros": 75.08,
-            "provisaoMultaRescisoria": 43.15,
-            "totalEncargos": 506.6,
-            "custoTotal": 2313.23,
-            "beneficiosPagos": 289.3,
-            "desconto": 28.93
           }
         },
         {
@@ -10864,42 +10828,6 @@
             "custoTotal": 1278.16,
             "beneficiosPagos": 0,
             "desconto": 0
-          }
-        },
-        {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA (Supervisor Administrativo De Atendimento Junior)",
-          "valor": 6448.59,
-          "encargos": {
-            "salarioBase": 3767.99,
-            "umDozeAvosFerias": 418.67,
-            "umDozeAvosDecimoTerceiro": 314.0,
-            "fgts": 301.44,
-            "inssPatronal": 753.6,
-            "ratGilrat": 75.36,
-            "terceiros": 218.54,
-            "provisaoMultaRescisoria": 125.6,
-            "totalEncargos": 1474.54,
-            "custoTotal": 6448.59,
-            "beneficiosPagos": 526,
-            "desconto": 52.6
-          }
-        },
-        {
-          "nome": "THATYANNE WALESKA RAMOS (Auxiliar Administrativo Atendimento)",
-          "valor": 3813.12,
-          "encargos": {
-            "salarioBase": 2046.34,
-            "umDozeAvosFerias": 227.37,
-            "umDozeAvosDecimoTerceiro": 170.53,
-            "fgts": 163.71,
-            "inssPatronal": 409.27,
-            "ratGilrat": 40.93,
-            "terceiros": 118.69,
-            "provisaoMultaRescisoria": 68.21,
-            "totalEncargos": 800.8,
-            "custoTotal": 3813.12,
-            "beneficiosPagos": 631.2,
-            "desconto": 63.12
           }
         }
       ],
@@ -11136,24 +11064,6 @@
             "custoTotal": 1981.8,
             "beneficiosPagos": 265.4,
             "desconto": 26.54
-          }
-        },
-        {
-          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
-          "valor": 7132.99,
-          "encargos": {
-            "salarioBase": 4404.57,
-            "umDozeAvosFerias": 489.4,
-            "umDozeAvosDecimoTerceiro": 367.05,
-            "fgts": 352.37,
-            "inssPatronal": 880.91,
-            "ratGilrat": 88.09,
-            "terceiros": 255.47,
-            "provisaoMultaRescisoria": 146.82,
-            "totalEncargos": 1723.66,
-            "custoTotal": 7132.99,
-            "beneficiosPagos": 164.8,
-            "desconto": 16.48
           }
         }
       ]
@@ -18185,24 +18095,6 @@
           }
         },
         {
-          "nome": "SOSTENES MATHEUS LIMA E SILVA (Operador Suporte Orbix Junior)",
-          "valor": 3583.53,
-          "encargos": {
-            "salarioBase": 1976.19,
-            "umDozeAvosFerias": 219.58,
-            "umDozeAvosDecimoTerceiro": 164.68,
-            "fgts": 158.1,
-            "inssPatronal": 395.24,
-            "ratGilrat": 39.52,
-            "terceiros": 114.62,
-            "provisaoMultaRescisoria": 65.87,
-            "totalEncargos": 773.35,
-            "custoTotal": 3583.53,
-            "beneficiosPagos": 499.7,
-            "desconto": 49.97
-          }
-        },
-        {
           "nome": "ARTHUR JEFFERSON DE MELO SANTANA (Operador Suporte Orbix Junior)",
           "valor": 3578.48,
           "encargos": {
@@ -20012,6 +19904,24 @@
             "custoTotal": 4428.4,
             "beneficiosPagos": 670.6,
             "desconto": 46.25
+          }
+        },
+        {
+          "nome": "MARCOS IGOR DE ARRUDA BARROS (Despachante Jr)",
+          "valor": 6738.3,
+          "encargos": {
+            "salarioBase": 4142.51,
+            "umDozeAvosFerias": 460.28,
+            "umDozeAvosDecimoTerceiro": 345.21,
+            "fgts": 331.4,
+            "inssPatronal": 828.5,
+            "ratGilrat": 82.85,
+            "terceiros": 240.27,
+            "provisaoMultaRescisoria": 138.08,
+            "totalEncargos": 1621.1,
+            "custoTotal": 6738.3,
+            "beneficiosPagos": 188.0,
+            "desconto": 18.8
           }
         }
       ],
@@ -22357,6 +22267,24 @@
             "beneficiosPagos": 734.1,
             "desconto": 52.6
           }
+        },
+        {
+          "nome": "DAYANE STEFANNI CLIMACO DE SANTANA (Supervisor De Qualidade)",
+          "valor": 7821.44,
+          "encargos": {
+            "salarioBase": 4696.53,
+            "umDozeAvosFerias": 521.84,
+            "umDozeAvosDecimoTerceiro": 391.38,
+            "fgts": 375.72,
+            "inssPatronal": 939.31,
+            "ratGilrat": 93.93,
+            "terceiros": 272.4,
+            "provisaoMultaRescisoria": 156.55,
+            "totalEncargos": 1837.91,
+            "custoTotal": 7821.44,
+            "beneficiosPagos": 392.2,
+            "desconto": 18.41
+          }
         }
       ],
       "Junho/2026": [
@@ -22634,24 +22562,6 @@
         }
       ],
       "Agosto/2026": [
-        {
-          "nome": "Andreza Luana Barbosa Da Silva (Nutricionista)",
-          "valor": 9947.14,
-          "encargos": {
-            "salarioBase": 5783.03,
-            "umDozeAvosFerias": 642.56,
-            "umDozeAvosDecimoTerceiro": 481.92,
-            "fgts": 462.64,
-            "inssPatronal": 1156.61,
-            "ratGilrat": 115.66,
-            "terceiros": 335.42,
-            "provisaoMultaRescisoria": 192.77,
-            "totalEncargos": 2263.09,
-            "custoTotal": 9947.14,
-            "beneficiosPagos": 839.7,
-            "desconto": 63.16
-          }
-        },
         {
           "nome": "Clara Vitoria De Souza Santos (Analista De Qualidade)",
           "valor": 3835.1,
@@ -23699,24 +23609,6 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "Claudia Soares Dos Santos Silva (Assistente Administrativo Cac Junior)",
-          "valor": 4960.04,
-          "encargos": {
-            "salarioBase": 2802.06,
-            "umDozeAvosFerias": 150.3,
-            "umDozeAvosDecimoTerceiro": 233.5,
-            "fgts": 224.16,
-            "inssPatronal": 560.41,
-            "ratGilrat": 56.04,
-            "terceiros": 162.52,
-            "provisaoMultaRescisoria": 93.4,
-            "totalEncargos": 1096.54,
-            "custoTotal": 4960.04,
-            "beneficiosPagos": 729.8,
-            "desconto": 52.17
-          }
-        },
-        {
           "nome": "Conceicao Jaciara Casado De Souza (Assistente Administrativo Cac Junior)",
           "valor": 4316.73,
           "encargos": {
@@ -23732,42 +23624,6 @@
             "custoTotal": 4316.73,
             "beneficiosPagos": 839.7,
             "desconto": 63.16
-          }
-        },
-        {
-          "nome": "Djanete Soares Da Silva (Assistente Administrativo Cac)",
-          "valor": 3203.2,
-          "encargos": {
-            "salarioBase": 1692.65,
-            "umDozeAvosFerias": 188.07,
-            "umDozeAvosDecimoTerceiro": 141.05,
-            "fgts": 135.41,
-            "inssPatronal": 338.53,
-            "ratGilrat": 33.85,
-            "terceiros": 98.17,
-            "provisaoMultaRescisoria": 56.42,
-            "totalEncargos": 662.39,
-            "custoTotal": 3203.2,
-            "beneficiosPagos": 576.7,
-            "desconto": 57.67
-          }
-        },
-        {
-          "nome": "Emanoel Rodolfo Da Silva (Analista De Rede E Comunicacao De Dados)",
-          "valor": 7721.05,
-          "encargos": {
-            "salarioBase": 4394.85,
-            "umDozeAvosFerias": 488.32,
-            "umDozeAvosDecimoTerceiro": 366.24,
-            "fgts": 351.59,
-            "inssPatronal": 878.97,
-            "ratGilrat": 87.9,
-            "terceiros": 254.9,
-            "provisaoMultaRescisoria": 146.5,
-            "totalEncargos": 1719.85,
-            "custoTotal": 7721.05,
-            "beneficiosPagos": 812.2,
-            "desconto": 60.41
           }
         },
         {
@@ -23847,8 +23703,8 @@
           }
         },
         {
-          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal, fora do cálculo oficial de encargos",
-          "valor": 0,
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal (não registrado)",
+          "valor": 21537.07,
           "encargos": {
             "salarioBase": 0,
             "umDozeAvosFerias": 0,
@@ -23903,8 +23759,8 @@
           }
         },
         {
-          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal, fora do cálculo oficial de encargos",
-          "valor": 0,
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal (não registrado)",
+          "valor": 21537.07,
           "encargos": {
             "salarioBase": 0,
             "umDozeAvosFerias": 0,
@@ -23959,7 +23815,7 @@
           }
         },
         {
-          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal, fora do cálculo oficial de encargos",
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal (não registrado)",
           "valor": 21040
         }
       ],
@@ -23999,6 +23855,10 @@
             "beneficiosPagos": 604.1,
             "desconto": 60.41
           }
+        },
+        {
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA (Gerente Administrativo Pleno 2) — valor de referência informal (não registrado)",
+          "valor": 21040
         }
       ]
     },
@@ -25181,6 +25041,24 @@
             "beneficiosPagos": 301.6,
             "desconto": 30.16
           }
+        },
+        {
+          "nome": "Elias Jose De Freitas (Chefe De Oficina)",
+          "valor": 13158.61,
+          "encargos": {
+            "salarioBase": 8166.66,
+            "umDozeAvosFerias": 907.41,
+            "umDozeAvosDecimoTerceiro": 680.55,
+            "fgts": 653.33,
+            "inssPatronal": 1633.33,
+            "ratGilrat": 163.33,
+            "terceiros": 473.67,
+            "provisaoMultaRescisoria": 272.22,
+            "totalEncargos": 3195.89,
+            "custoTotal": 13158.61,
+            "beneficiosPagos": 208.1,
+            "desconto": 0
+          }
         }
       ]
     },
@@ -25659,6 +25537,60 @@
             "beneficiosPagos": 867.1,
             "desconto": 65.9
           }
+        },
+        {
+          "nome": "Claudia Soares Dos Santos Silva (Assistente Administrativo Cac Junior)",
+          "valor": 4960.04,
+          "encargos": {
+            "salarioBase": 2802.06,
+            "umDozeAvosFerias": 150.3,
+            "umDozeAvosDecimoTerceiro": 233.5,
+            "fgts": 224.16,
+            "inssPatronal": 560.41,
+            "ratGilrat": 56.04,
+            "terceiros": 162.52,
+            "provisaoMultaRescisoria": 93.4,
+            "totalEncargos": 1096.54,
+            "custoTotal": 4960.04,
+            "beneficiosPagos": 729.8,
+            "desconto": 52.17
+          }
+        },
+        {
+          "nome": "Andreza Luana Barbosa Da Silva (Nutricionista)",
+          "valor": 9947.14,
+          "encargos": {
+            "salarioBase": 5783.03,
+            "umDozeAvosFerias": 642.56,
+            "umDozeAvosDecimoTerceiro": 481.92,
+            "fgts": 462.64,
+            "inssPatronal": 1156.61,
+            "ratGilrat": 115.66,
+            "terceiros": 335.42,
+            "provisaoMultaRescisoria": 192.77,
+            "totalEncargos": 2263.09,
+            "custoTotal": 9947.14,
+            "beneficiosPagos": 839.7,
+            "desconto": 63.16
+          }
+        },
+        {
+          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
+          "valor": 6689.4,
+          "encargos": {
+            "salarioBase": 3713.13,
+            "umDozeAvosFerias": 412.57,
+            "umDozeAvosDecimoTerceiro": 309.43,
+            "fgts": 297.05,
+            "inssPatronal": 742.63,
+            "ratGilrat": 74.26,
+            "terceiros": 215.36,
+            "provisaoMultaRescisoria": 123.77,
+            "totalEncargos": 1453.07,
+            "custoTotal": 6689.4,
+            "beneficiosPagos": 867.1,
+            "desconto": 65.9
+          }
         }
       ]
     },
@@ -25885,6 +25817,24 @@
             "beneficiosPagos": 786.7,
             "desconto": 57.86
           }
+        },
+        {
+          "nome": "MARLUCE MARIA DE OLIVEIRA (Auxiliar De Serviços Gerais Junior)",
+          "valor": 4006.99,
+          "encargos": {
+            "salarioBase": 2201.56,
+            "umDozeAvosFerias": 244.62,
+            "umDozeAvosDecimoTerceiro": 183.46,
+            "fgts": 176.12,
+            "inssPatronal": 440.31,
+            "ratGilrat": 44.03,
+            "terceiros": 127.69,
+            "provisaoMultaRescisoria": 73.39,
+            "totalEncargos": 861.54,
+            "custoTotal": 4006.99,
+            "beneficiosPagos": 550.0,
+            "desconto": 34.19
+          }
         }
       ],
       "Junho/2026": [
@@ -26091,24 +26041,6 @@
           }
         },
         {
-          "nome": "Maria Jose Da Silva (Auxiliar De Serviços Gerais Pleno)",
-          "valor": 6689.4,
-          "encargos": {
-            "salarioBase": 3713.13,
-            "umDozeAvosFerias": 412.57,
-            "umDozeAvosDecimoTerceiro": 309.43,
-            "fgts": 297.05,
-            "inssPatronal": 742.63,
-            "ratGilrat": 74.26,
-            "terceiros": 215.36,
-            "provisaoMultaRescisoria": 123.77,
-            "totalEncargos": 1453.07,
-            "custoTotal": 6689.4,
-            "beneficiosPagos": 867.1,
-            "desconto": 65.9
-          }
-        },
-        {
           "nome": "Maria Jose Gomes De Moura (Auxiliar De Serviços Gerais Junior)",
           "valor": 6113.04,
           "encargos": {
@@ -26221,24 +26153,6 @@
           }
         },
         {
-          "nome": "Bruno Santos Da Silva (Desenvolvedor)",
-          "valor": 817.06,
-          "encargos": {
-            "salarioBase": 515.24,
-            "umDozeAvosFerias": 57.25,
-            "umDozeAvosDecimoTerceiro": 42.94,
-            "fgts": 41.22,
-            "inssPatronal": 103.05,
-            "ratGilrat": 10.3,
-            "terceiros": 29.88,
-            "provisaoMultaRescisoria": 17.17,
-            "totalEncargos": 201.63,
-            "custoTotal": 817.06,
-            "beneficiosPagos": 0,
-            "desconto": 0
-          }
-        },
-        {
           "nome": "Luiz Eduardo Pereira De Lima (Desenvolvedor Junior)",
           "valor": 5276.49,
           "encargos": {
@@ -26276,20 +26190,20 @@
         },
         {
           "nome": "Bruno Santos Da Silva (Desenvolvedor Junior)",
-          "valor": 817.06,
+          "valor": 5793.1,
           "encargos": {
-            "salarioBase": 515.24,
-            "umDozeAvosFerias": 57.25,
-            "umDozeAvosDecimoTerceiro": 42.94,
-            "fgts": 41.22,
-            "inssPatronal": 103.05,
-            "ratGilrat": 10.3,
-            "terceiros": 29.88,
-            "provisaoMultaRescisoria": 17.17,
-            "totalEncargos": 201.63,
-            "custoTotal": 817.06,
-            "beneficiosPagos": 0,
-            "desconto": 0
+            "salarioBase": 3357.07,
+            "umDozeAvosFerias": 373.01,
+            "umDozeAvosDecimoTerceiro": 279.76,
+            "fgts": 268.57,
+            "inssPatronal": 671.41,
+            "ratGilrat": 67.14,
+            "terceiros": 194.71,
+            "provisaoMultaRescisoria": 111.9,
+            "totalEncargos": 1313.73,
+            "custoTotal": 5793.1,
+            "beneficiosPagos": 521.7,
+            "desconto": 52.17
           }
         }
       ],
@@ -27011,6 +26925,188 @@
             "desconto": 55.23
           }
         }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "ARTUR MAURICIO AMARO GONCALVES DA SILVA (Operador De Telemarketing Júnior)",
+          "valor": 3989.66,
+          "encargos": {
+            "salarioBase": 2236.5,
+            "umDozeAvosFerias": 248.5,
+            "umDozeAvosDecimoTerceiro": 186.37,
+            "fgts": 178.92,
+            "inssPatronal": 447.3,
+            "ratGilrat": 44.73,
+            "terceiros": 129.72,
+            "provisaoMultaRescisoria": 74.55,
+            "totalEncargos": 875.22,
+            "custoTotal": 3989.66,
+            "beneficiosPagos": 492.3,
+            "desconto": 49.23
+          }
+        },
+        {
+          "nome": "ALLAN GABRIEL PINTO DA SILVA RÊGO (Operador De Redes Junior)",
+          "valor": 4759.93,
+          "encargos": {
+            "salarioBase": 2739.26,
+            "umDozeAvosFerias": 304.36,
+            "umDozeAvosDecimoTerceiro": 228.27,
+            "fgts": 219.14,
+            "inssPatronal": 547.85,
+            "ratGilrat": 54.79,
+            "terceiros": 158.88,
+            "provisaoMultaRescisoria": 91.31,
+            "totalEncargos": 1071.96,
+            "custoTotal": 4759.93,
+            "beneficiosPagos": 462.3,
+            "desconto": 46.23
+          }
+        },
+        {
+          "nome": "DOUGLAS SOARES DA SILVA (Supervisor De Suporte Técnico)",
+          "valor": 9112.6,
+          "encargos": {
+            "salarioBase": 5301.77,
+            "umDozeAvosFerias": 589.09,
+            "umDozeAvosDecimoTerceiro": 441.81,
+            "fgts": 424.14,
+            "inssPatronal": 1060.35,
+            "ratGilrat": 106.04,
+            "terceiros": 307.5,
+            "provisaoMultaRescisoria": 176.73,
+            "totalEncargos": 2074.76,
+            "custoTotal": 9112.6,
+            "beneficiosPagos": 760.4,
+            "desconto": 55.23
+          }
+        },
+        {
+          "nome": "ISAIAS DE FREITAS BARBOSA JUNIOR (Operador De Redes Pleno)",
+          "valor": 5106.94,
+          "encargos": {
+            "salarioBase": 2920.62,
+            "umDozeAvosFerias": 324.51,
+            "umDozeAvosDecimoTerceiro": 243.38,
+            "fgts": 233.65,
+            "inssPatronal": 584.12,
+            "ratGilrat": 58.41,
+            "terceiros": 169.4,
+            "provisaoMultaRescisoria": 97.35,
+            "totalEncargos": 1142.94,
+            "custoTotal": 5106.94,
+            "beneficiosPagos": 505.2,
+            "desconto": 29.71
+          }
+        },
+        {
+          "nome": "JOAO PAULO ANTONIO DE CARVALHO (Operador De Redes Pleno)",
+          "valor": 5040.27,
+          "encargos": {
+            "salarioBase": 2733.74,
+            "umDozeAvosFerias": 303.75,
+            "umDozeAvosDecimoTerceiro": 227.81,
+            "fgts": 218.7,
+            "inssPatronal": 546.75,
+            "ratGilrat": 54.67,
+            "terceiros": 158.56,
+            "provisaoMultaRescisoria": 91.12,
+            "totalEncargos": 1069.8,
+            "custoTotal": 5040.27,
+            "beneficiosPagos": 760.4,
+            "desconto": 55.23
+          }
+        },
+        {
+          "nome": "KAIO MATHEUS FERREIRA DE ASSIS (Operador De Redes Pleno)",
+          "valor": 4739.97,
+          "encargos": {
+            "salarioBase": 2674.16,
+            "umDozeAvosFerias": 297.13,
+            "umDozeAvosDecimoTerceiro": 222.85,
+            "fgts": 213.93,
+            "inssPatronal": 534.83,
+            "ratGilrat": 53.48,
+            "terceiros": 155.1,
+            "provisaoMultaRescisoria": 89.14,
+            "totalEncargos": 1046.49,
+            "custoTotal": 4739.97,
+            "beneficiosPagos": 531.7,
+            "desconto": 32.36
+          }
+        },
+        {
+          "nome": "LUCAS VINICIUS DE LIMA SILVA (Operador De Redes Junior)",
+          "valor": 3885.89,
+          "encargos": {
+            "salarioBase": 2290.24,
+            "umDozeAvosFerias": 254.47,
+            "umDozeAvosDecimoTerceiro": 190.85,
+            "fgts": 183.22,
+            "inssPatronal": 458.05,
+            "ratGilrat": 45.8,
+            "terceiros": 132.83,
+            "provisaoMultaRescisoria": 76.34,
+            "totalEncargos": 896.25,
+            "custoTotal": 3885.89,
+            "beneficiosPagos": 282.3,
+            "desconto": 28.23
+          }
+        },
+        {
+          "nome": "SERGIO DYJEAN GUIMARAES FERREIRA (Operador De Redes Junior)",
+          "valor": 5077.6,
+          "encargos": {
+            "salarioBase": 2873.58,
+            "umDozeAvosFerias": 319.29,
+            "umDozeAvosDecimoTerceiro": 239.47,
+            "fgts": 229.89,
+            "inssPatronal": 574.72,
+            "ratGilrat": 57.47,
+            "terceiros": 166.67,
+            "provisaoMultaRescisoria": 95.79,
+            "totalEncargos": 1124.53,
+            "custoTotal": 5077.6,
+            "beneficiosPagos": 578.6,
+            "desconto": 57.86
+          }
+        },
+        {
+          "nome": "WALLISSON DHONATAN ALVES DOS SANTOS (Auxiliar Administrativo (Jovem Aprendiz))",
+          "valor": 1817.19,
+          "encargos": {
+            "salarioBase": 1069.48,
+            "umDozeAvosFerias": 118.83,
+            "umDozeAvosDecimoTerceiro": 89.12,
+            "fgts": 21.39,
+            "inssPatronal": 213.9,
+            "ratGilrat": 21.39,
+            "terceiros": 62.03,
+            "provisaoMultaRescisoria": 35.65,
+            "totalEncargos": 354.35,
+            "custoTotal": 1817.19,
+            "beneficiosPagos": 206.0,
+            "desconto": 20.6
+          }
+        },
+        {
+          "nome": "LUCAS ROBERTO QUEIROS OLIVEIRA (Operador De Redes Junior)",
+          "valor": 4883.62,
+          "encargos": {
+            "salarioBase": 2751.25,
+            "umDozeAvosFerias": 305.69,
+            "umDozeAvosDecimoTerceiro": 229.27,
+            "fgts": 220.1,
+            "inssPatronal": 550.25,
+            "ratGilrat": 55.03,
+            "terceiros": 159.57,
+            "provisaoMultaRescisoria": 91.71,
+            "totalEncargos": 1076.66,
+            "custoTotal": 4883.62,
+            "beneficiosPagos": 578.6,
+            "desconto": 57.86
+          }
+        }
       ]
     },
     "projetista": {
@@ -27049,6 +27145,24 @@
             "custoTotal": 10904.79,
             "beneficiosPagos": 771.7,
             "desconto": 56.36
+          }
+        },
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA (Projetista Pleno)",
+          "valor": 14969.02,
+          "encargos": {
+            "salarioBase": 9003.37,
+            "umDozeAvosFerias": 1000.37,
+            "umDozeAvosDecimoTerceiro": 750.28,
+            "fgts": 720.27,
+            "inssPatronal": 1800.67,
+            "ratGilrat": 180.07,
+            "terceiros": 522.2,
+            "provisaoMultaRescisoria": 300.11,
+            "totalEncargos": 3523.32,
+            "custoTotal": 14969.02,
+            "beneficiosPagos": 745.4,
+            "desconto": 53.73
           }
         }
       ],
@@ -33497,15 +33611,23 @@
       "Julho/2026": [
         {
           "nome": "Joelmyr Fabio",
-          "valor": 50
+          "valor": 50,
+          "email": "joelmyr@dtel.psi.br"
         },
         {
           "nome": "Mikaelle Maria de Souza Silva",
-          "valor": 50
+          "valor": 50,
+          "email": "mikaelle.silva@dtel.com.br"
         },
         {
           "nome": "Sammuel Deyvson da Silva Santos",
-          "valor": 50
+          "valor": 50,
+          "email": "sammuel.santos@dtel.com.br"
+        },
+        {
+          "nome": "RHUAN GABRIEL CAVALCANTE FELIX",
+          "valor": 50,
+          "email": "rhuan.felix@dtelisp.com.br"
         }
       ],
       "Maio/2026": [
@@ -33530,40 +33652,68 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "MIKAELLE MARIA DE SOUZA SILVA",
-          "valor": 50.0
-        },
-        {
-          "nome": "SAMMUEL DEYVSON DA SILVA SANTOS",
-          "valor": 50.0
-        },
-        {
           "nome": "Joelmyr Fabio",
-          "valor": 50
+          "valor": 50,
+          "email": "joelmyr@dtel.psi.br"
+        },
+        {
+          "nome": "Mikaelle Maria de Souza Silva",
+          "valor": 50,
+          "email": "mikaelle.silva@dtel.com.br"
+        },
+        {
+          "nome": "Sammuel Deyvson da Silva Santos",
+          "valor": 50,
+          "email": "sammuel.santos@dtel.com.br"
+        },
+        {
+          "nome": "RHUAN GABRIEL CAVALCANTE FELIX",
+          "valor": 50,
+          "email": "rhuan.felix@dtelisp.com.br"
         }
       ]
     },
     "gestao_de_atendimento": {
       "Julho/2026": [
         {
+          "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
+          "valor": 50,
+          "email": "fiamma.araujo@dtel.psi.br"
+        },
+        {
+          "nome": "GABRIEL BERNARDES AGOSTINHO DA SILVA",
+          "valor": 50,
+          "email": "gabriel.bernardes@dtel.psi.br"
+        },
+        {
+          "nome": "ARLEN DUARTE DOS SANTOS",
+          "valor": 50,
+          "email": "arlen.santos@dtel.com.br"
+        },
+        {
           "nome": "Iris Beatriz Silveira Marques",
-          "valor": 50
+          "valor": 50,
+          "email": "iris.marques@dtel.com.br"
         },
         {
-          "nome": "Arlen Duarte dos Santos",
-          "valor": 50
+          "nome": "Marcia Mychelle da Silva Bezerra",
+          "valor": 50,
+          "email": "marcia.bezerra@dtel.com.br"
         },
         {
-          "nome": "Kayron Fillipe Sales da Silva",
-          "valor": 50
-        },
-        {
-          "nome": "Lucas Kaua Silva dos Santos",
-          "valor": 50
+          "nome": "Kayrôn Fillipe Sales da Silva",
+          "valor": 50,
+          "email": "kayron.silva@dtel.com.br"
         },
         {
           "nome": "Everton Ezequiel de Lima Almeida",
-          "valor": 50
+          "valor": 50,
+          "email": "everton.almeida@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz Gestão Atendimento",
+          "valor": 50,
+          "email": "aprendizatendimento@dtel.com.br"
         },
         {
           "nome": "Deygena Rosa de Lima",
@@ -33572,44 +33722,68 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "NAILZA MOREIRA DA SILVA",
-          "valor": 50.0
-        },
-        {
           "nome": "FIAMMA ACSA DE SIQUEIRA ARAUJO",
-          "valor": 50.0
-        },
-        {
-          "nome": "GABRIELA DA SILVA ALVES",
-          "valor": 50.0
+          "valor": 50,
+          "email": "fiamma.araujo@dtel.psi.br"
         },
         {
           "nome": "GABRIEL BERNARDES AGOSTINHO DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "gabriel.bernardes@dtel.psi.br"
+        },
+        {
+          "nome": "ARLEN DUARTE DOS SANTOS",
+          "valor": 50,
+          "email": "arlen.santos@dtel.com.br"
+        },
+        {
+          "nome": "Iris Beatriz Silveira Marques",
+          "valor": 50,
+          "email": "iris.marques@dtel.com.br"
+        },
+        {
+          "nome": "Marcia Mychelle da Silva Bezerra",
+          "valor": 50,
+          "email": "marcia.bezerra@dtel.com.br"
+        },
+        {
+          "nome": "Kayrôn Fillipe Sales da Silva",
+          "valor": 50,
+          "email": "kayron.silva@dtel.com.br"
+        },
+        {
+          "nome": "Everton Ezequiel de Lima Almeida",
+          "valor": 50,
+          "email": "everton.almeida@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz Gestão Atendimento",
+          "valor": 50,
+          "email": "aprendizatendimento@dtel.com.br"
         },
         {
           "nome": "RENATA THAYSA DOS SANTOS CUNHA",
           "valor": 50.0
+        }
+      ],
+      "Maio/2026": [
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 50
         },
         {
-          "nome": "KELLY SABRINA NUNES DUARTE",
-          "valor": 50.0
+          "nome": "Gabriel Bernardes Agostinho da Silva",
+          "valor": 50
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "valor": 50
         },
         {
-          "nome": "ARLEN DUARTE DOS SANTOS",
-          "valor": 50.0
-        },
-        {
-          "nome": "IRIS BEATRIZ SILVEIRA MARQUES",
-          "valor": 50.0
-        },
-        {
-          "nome": "KAYRÔN FILLIPE SALES DA SILVA",
-          "valor": 50.0
-        },
-        {
-          "nome": "EVERTON EZEQUIEL DE LIMA ALMEIDA",
-          "valor": 50.0
+          "nome": "Gabriel Bernardes Agostinho da Silva",
+          "valor": 50
         }
       ]
     },
@@ -33617,11 +33791,23 @@
       "Julho/2026": [
         {
           "nome": "ALLAN DOS SANTOS E SILVA",
-          "valor": 50
+          "valor": 50,
+          "email": "allan@dtel.psi.br"
         },
         {
-          "nome": "Demetrius Ribeiro de Aquino",
-          "valor": 50
+          "nome": "Demetrius Ribeiro",
+          "valor": 50,
+          "email": "demetrius@dtel.psi.br"
+        },
+        {
+          "nome": "frota",
+          "valor": 50,
+          "email": "frota@dtel.psi.br"
+        },
+        {
+          "nome": "JONATHAN DA SILVA SANTOS",
+          "valor": 50,
+          "email": "jonathan@dtel.psi.br"
         },
         {
           "nome": "E-mail do setor (frota@dtel.psi.br)",
@@ -33631,7 +33817,28 @@
       "Agosto/2026": [
         {
           "nome": "ALLAN DOS SANTOS E SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "allan@dtel.psi.br"
+        },
+        {
+          "nome": "Demetrius Ribeiro",
+          "valor": 50,
+          "email": "demetrius@dtel.psi.br"
+        },
+        {
+          "nome": "frota",
+          "valor": 50,
+          "email": "frota@dtel.psi.br"
+        },
+        {
+          "nome": "JONATHAN DA SILVA SANTOS",
+          "valor": 50,
+          "email": "jonathan@dtel.psi.br"
+        },
+        {
+          "nome": "DEMETRIUS RIBEIRO",
+          "valor": 50,
+          "email": "frota@dtel.com.br"
         }
       ]
     },
@@ -33669,31 +33876,58 @@
       "Agosto/2026": [
         {
           "nome": "CLEONILDO ANTONIO DOS SANTOS NETO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "cleonildo.neto@dtel.psi.br"
         },
         {
           "nome": "DAYANE STEFANNI CLIMACO DE SANTANA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "dayane.stefanni@dtel.psi.br"
         },
         {
           "nome": "MICHEL GLEYDSON DA SILVA MELO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "michel.gleydson@dtel.psi.br"
         },
         {
-          "nome": "CLARA VITÓRIA DE SOUZA SANTOS",
-          "valor": 50.0
+          "nome": "Clara Vitória de Souza Santos",
+          "valor": 50,
+          "email": "clara.santos@dtel.com.br"
         },
         {
-          "nome": "ANDREZA LUANA BARBOSA DA SILVA",
-          "valor": 50.0
+          "nome": "Yasmim Camilly de Barros",
+          "valor": 50,
+          "email": "yasmim.barros@dtel.com.br"
         },
         {
-          "nome": "DAYSE KÁSSIA DA SILVA OLIVEIRA",
-          "valor": 50.0
+          "nome": "Dayse Kássia da Silva Oliveira",
+          "valor": 50,
+          "email": "dayse.oliveira@dtel.com.br"
         },
         {
           "nome": "LUIS HENRIQUE PEREIRA BRANCO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "luisbranco@dtel.com.br"
+        },
+        {
+          "nome": "Email usado para automação do Asana pela qualidade",
+          "valor": 50,
+          "email": "workflow.asana@dtel.psi.br"
+        },
+        {
+          "nome": "Michelle Pacheco da Silva",
+          "valor": 50,
+          "email": "michelle.silva@dtel.com.br"
+        },
+        {
+          "nome": "CARLOS DANIEL ALBUQUERQUE DOS SANTOS",
+          "valor": 50,
+          "email": "carlos.daniel@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz SGQ",
+          "valor": 50,
+          "email": "jovem.aprendizsgq@dtelisp.com.br"
         }
       ]
     },
@@ -33735,19 +33969,63 @@
       "Agosto/2026": [
         {
           "nome": "ANELISE LETICIA RIBEIRO XAVIER",
-          "valor": 50.0
+          "valor": 50,
+          "email": "anelise@dtel.psi.br"
+        },
+        {
+          "nome": "Eduarda Santos",
+          "valor": 50,
+          "email": "eduarda@dtel.psi.br"
         },
         {
           "nome": "JACIANE GOMES DO CARMO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "jaciane@dtel.psi.br"
+        },
+        {
+          "nome": "Alex Oliveira",
+          "valor": 50,
+          "email": "alex@dtel.psi.br"
+        },
+        {
+          "nome": "Pag Seguro",
+          "valor": 50,
+          "email": "pagseguro@dtel.psi.br"
+        },
+        {
+          "nome": "apagar",
+          "valor": 50,
+          "email": "apagar@dtel.psi.br"
         },
         {
           "nome": "ANNA MARY BARBOSA PIMENTEL",
-          "valor": 50.0
+          "valor": 50,
+          "email": "mary@dtel.psi.br"
+        },
+        {
+          "nome": "Ana Paulo Tavares Silva de Souza",
+          "valor": 50,
+          "email": "ana.souza@dtel.psi.br"
+        },
+        {
+          "nome": "Chave PIX DTEL TELCOM",
+          "valor": 50,
+          "email": "pixdtel@dtel.com.br"
+        },
+        {
+          "nome": "Wadson genuino Machado da Silva",
+          "valor": 50,
+          "email": "wadson.genuino@dtel.com.br\n"
         },
         {
           "nome": "JEISA BIANCA DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "jeisa.silva@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz - Financeira",
+          "valor": 50,
+          "email": "financeiro@dtel.com.br"
         }
       ]
     },
@@ -33755,77 +34033,134 @@
       "Julho/2026": [
         {
           "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA",
-          "valor": 50
+          "valor": 50,
+          "email": "jonatha@dtel.psi.br"
+        },
+        {
+          "nome": "CD 02",
+          "valor": 50,
+          "email": "cd02@dtel.psi.br"
+        },
+        {
+          "nome": "CD 01",
+          "valor": 50,
+          "email": "cd01vsa@dtel.psi.br"
         },
         {
           "nome": "DAYVISSON GUILHERME DE SANTANA FARIAS",
-          "valor": 50
+          "valor": 50,
+          "email": "dayvisson.farias@dtel.psi.br"
+        },
+        {
+          "nome": "Estoque ALEL",
+          "valor": 50,
+          "email": "estoque.alel@dtel.com.br"
         },
         {
           "nome": "Fabio Daniel da Silva",
-          "valor": 10
+          "valor": 50,
+          "email": "fabio.silva@dtelisp.com.br"
         },
         {
-          "nome": "Jose Geovane Santos Silva",
-          "valor": 10
+          "nome": "JOSE GEOVANNE SANTOS SILVA",
+          "valor": 50,
+          "email": "jose.geovanne@dtelisp.com.br"
         },
         {
           "nome": "JOSE DANILO GOMES RIBEIRO",
-          "valor": 10
+          "valor": 50,
+          "email": "jose.danilo@dtelisp.com.br"
         },
         {
-          "nome": "Jonathas Jose da Silva",
-          "valor": 10
+          "nome": "JONATHA JOSE DA SILVA",
+          "valor": 50,
+          "email": "jonatha.jose@dtelisp.com.br"
         },
         {
           "nome": "DANIEL VICTOR CAVALCANTE DE LIMA",
-          "valor": 10
+          "valor": 50,
+          "email": "daniel.lima@dtelisp.com.br"
         },
         {
           "nome": "Tiago de Lima Sena",
-          "valor": 10
+          "valor": 50,
+          "email": "tiago.sena@dtelisp.com.br"
         },
         {
           "nome": "Klayton Rodrigo de Freitas Silva",
-          "valor": 10
+          "valor": 50,
+          "email": "klayton.silva@dtelisp.com.br"
         },
         {
           "nome": "Danilo Fernando da Silva Lima",
-          "valor": 10
+          "valor": 50,
+          "email": "danilo.lima@dtelisp.com.br"
         },
         {
           "nome": "E-mail do setor — CD 02 (cd02@dtel.psi.br)",
-          "valor": 50
-        },
-        {
-          "nome": "E-mail do setor — CD 01 (cd01vsa@dtel.psi.br)",
           "valor": 50
         }
       ],
       "Agosto/2026": [
         {
           "nome": "JONATHA RAFAEL FIGUEREDO DE SOUSA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "jonatha@dtel.psi.br"
+        },
+        {
+          "nome": "CD 02",
+          "valor": 50,
+          "email": "cd02@dtel.psi.br"
+        },
+        {
+          "nome": "CD 01",
+          "valor": 50,
+          "email": "cd01vsa@dtel.psi.br"
         },
         {
           "nome": "DAYVISSON GUILHERME DE SANTANA FARIAS",
-          "valor": 50.0
+          "valor": 50,
+          "email": "dayvisson.farias@dtel.psi.br"
         },
         {
-          "nome": "FABIO DANIEL DA SILVA",
-          "valor": 10.0
+          "nome": "Estoque ALEL",
+          "valor": 50,
+          "email": "estoque.alel@dtel.com.br"
         },
         {
-          "nome": "TIAGO DE LIMA SENA",
-          "valor": 10.0
+          "nome": "Fabio Daniel da Silva",
+          "valor": 50,
+          "email": "fabio.silva@dtelisp.com.br"
         },
         {
-          "nome": "KLAYTON RODRIGO DE FREITAS SILVA",
-          "valor": 10.0
+          "nome": "JOSE GEOVANNE SANTOS SILVA",
+          "valor": 50,
+          "email": "jose.geovanne@dtelisp.com.br"
         },
         {
-          "nome": "DANILO FERNANDO DA SILVA LIMA",
-          "valor": 10.0
+          "nome": "JOSE DANILO GOMES RIBEIRO",
+          "valor": 50,
+          "email": "jose.danilo@dtelisp.com.br"
+        },
+        {
+          "nome": "JONATHA JOSE DA SILVA",
+          "valor": 50,
+          "email": "jonatha.jose@dtelisp.com.br"
+        },
+        {
+          "nome": "Tiago de Lima Sena",
+          "valor": 50,
+          "email": "tiago.sena@dtelisp.com.br"
+        },
+        {
+          "nome": "Klayton Rodrigo de Freitas Silva",
+          "valor": 50,
+          "email": "klayton.silva@dtelisp.com.br"
+        },
+        {
+          "nome": "Danilo Fernando da Silva Lima",
+          "valor": 50,
+          "email": "danilo.lima@dtelisp.com.br"
         }
       ]
     },
@@ -33833,23 +34168,43 @@
       "Julho/2026": [
         {
           "nome": "EMANOEL RODOLFO DA SILVA",
-          "valor": 50
+          "valor": 50,
+          "email": "emanoel@dtel.psi.br"
+        },
+        {
+          "nome": "equipetic@dtel.com.br",
+          "valor": 50,
+          "email": "rhaldney@dtel.psi.br"
         },
         {
           "nome": "JEFFERSON PATRICK BARRETO TAVARES",
-          "valor": 50
+          "valor": 50,
+          "email": "jefferson@dtel.psi.br"
         },
         {
-          "nome": "Orlando Soares Alves",
-          "valor": 50
+          "nome": "Orlando Soares",
+          "valor": 50,
+          "email": "orlando@dtel.psi.br"
+        },
+        {
+          "nome": "NOC",
+          "valor": 50,
+          "email": "noc@dtel.psi.br"
         },
         {
           "nome": "Rafael Marinho Macedo",
-          "valor": 50
+          "valor": 50,
+          "email": "rafael.macedo@dtel.psi.br"
+        },
+        {
+          "nome": "Para uso em PPT",
+          "valor": 50,
+          "email": "ix-pe@dtel.psi.br"
         },
         {
           "nome": "DYEGO ALMEIDA TELINO",
-          "valor": 50
+          "valor": 50,
+          "email": "dyego.telino@dtel.com.br"
         },
         {
           "nome": "E-mail do setor (noc@dtel.psi.br)",
@@ -33859,39 +34214,77 @@
       "Agosto/2026": [
         {
           "nome": "EMANOEL RODOLFO DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "emanoel@dtel.psi.br"
+        },
+        {
+          "nome": "equipetic@dtel.com.br",
+          "valor": 50,
+          "email": "rhaldney@dtel.psi.br"
         },
         {
           "nome": "JEFFERSON PATRICK BARRETO TAVARES",
-          "valor": 50.0
+          "valor": 50,
+          "email": "jefferson@dtel.psi.br"
         },
         {
-          "nome": "RAFAEL MARINHO MACEDO",
-          "valor": 50.0
+          "nome": "Orlando Soares",
+          "valor": 50,
+          "email": "orlando@dtel.psi.br"
+        },
+        {
+          "nome": "NOC",
+          "valor": 50,
+          "email": "noc@dtel.psi.br"
+        },
+        {
+          "nome": "Rafael Marinho Macedo",
+          "valor": 50,
+          "email": "rafael.macedo@dtel.psi.br"
+        },
+        {
+          "nome": "Para uso em PPT",
+          "valor": 50,
+          "email": "ix-pe@dtel.psi.br"
         }
       ]
     },
     "rh": {
       "Julho/2026": [
         {
-          "nome": "Osmaire Batista de Lima",
-          "valor": 50
+          "nome": "Osmaire Batista",
+          "valor": 50,
+          "email": "osmaire.batista@dtel.psi.br"
         },
         {
           "nome": "CAMILA VIRGULINO COSTA",
-          "valor": 50
+          "valor": 50,
+          "email": "camila.costa@dtel.psi.br"
+        },
+        {
+          "nome": "vagas",
+          "valor": 50,
+          "email": "vagas@dtel.psi.br"
         },
         {
           "nome": "Lucas Alexandre dos Santos",
-          "valor": 50
+          "valor": 50,
+          "email": "lucas.santos@dtel.com.br"
         },
         {
           "nome": "ISLA MIRELLY DA SILVA ANTÔNIO",
-          "valor": 50
+          "valor": 50,
+          "email": "isla.antonio@dtel.com.br"
         },
         {
           "nome": "Willames Maciel Silva",
-          "valor": 50
+          "valor": 50,
+          "email": "willames.silva@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz RH",
+          "valor": 50,
+          "email": "jovem.aprendizrh@dtelisp.com.br"
         },
         {
           "nome": "E-mail do setor (vagas@dtel.psi.br)",
@@ -33900,16 +34293,34 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "CAMILA VIRGULINO COSTA",
-          "valor": 50.0
+          "nome": "Osmaire Batista",
+          "valor": 50,
+          "email": "osmaire.batista@dtel.psi.br"
         },
         {
-          "nome": "LUCAS ALEXANDRE DOS SANTOS",
-          "valor": 50.0
+          "nome": "CAMILA VIRGULINO COSTA",
+          "valor": 50,
+          "email": "camila.costa@dtel.psi.br"
+        },
+        {
+          "nome": "vagas",
+          "valor": 50,
+          "email": "vagas@dtel.psi.br"
+        },
+        {
+          "nome": "Lucas Alexandre dos Santos",
+          "valor": 50,
+          "email": "lucas.santos@dtel.com.br"
         },
         {
           "nome": "ISLA MIRELLY DA SILVA ANTÔNIO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "isla.antonio@dtel.com.br"
+        },
+        {
+          "nome": "Jovem Aprendiz RH",
+          "valor": 50,
+          "email": "jovem.aprendizrh@dtelisp.com.br"
         }
       ]
     },
@@ -34015,39 +34426,63 @@
       "Agosto/2026": [
         {
           "nome": "FILIPE DA SILVA GONÇALVES",
-          "valor": 90.0
+          "valor": 50,
+          "email": "filipe.silva@dteltelecom.psi.br"
+        },
+        {
+          "nome": "Dispositivos",
+          "valor": 50,
+          "email": "dispositivos@dtel.psi.br\\dtel.com.br"
         },
         {
           "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
-          "valor": 50.0
+          "valor": 50,
+          "email": "wayne@dtel.psi.br"
         },
         {
           "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
-          "valor": 90.0
+          "valor": 50,
+          "email": "wayne@dteltelecom.psi.br"
         },
         {
           "nome": "THIAGO LUIZ DA SILVA MOTA",
-          "valor": 90.0
+          "valor": 50,
+          "email": "thiago@dteltelecom.psi.br"
         },
         {
-          "nome": "MATHEUS DA SILVA ALVES",
-          "valor": 90.0
+          "nome": "Matheus da Silva Alves",
+          "valor": 50,
+          "email": "matheus.alves@dteltelecom.psi.br"
         },
         {
-          "nome": "JOSÉ KAYO MATHEUS FERREIRA E SILVA",
-          "valor": 50.0
+          "nome": "WILLIAMS BARBOSA DA SILVA",
+          "valor": 50,
+          "email": "willams.barbosa@dteltelecom.psi.br"
+        },
+        {
+          "nome": "José Kayo Matheus Ferreira e Silva",
+          "valor": 50,
+          "email": "kayo.silva@dtel.com.br"
         },
         {
           "nome": "WAYNE PALMEIRA DE CASTRO JUNIOR",
-          "valor": 50.0
+          "valor": 50,
+          "email": "wayne@fiquemovel.com.br"
         },
         {
-          "nome": "THIAGO CAMPELO DA SILVA",
-          "valor": 50.0
+          "nome": "Thiago Campelo da Silva",
+          "valor": 50,
+          "email": "thiago.campelo@dtel.com.br"
         },
         {
-          "nome": "MARCOS ANTÔNIO DA SILVA SOBRINHO",
-          "valor": 50.0
+          "nome": "Marcos Antônio da Silva Sobrinho",
+          "valor": 50,
+          "email": "marcos.sobrinho@dtel.com.br"
+        },
+        {
+          "nome": "Allyson Guilherme dos Santos Cavalcante",
+          "valor": 50,
+          "email": "allyson.cavalcante@dtel.com.br"
         }
       ]
     },
@@ -34055,10 +34490,16 @@
       "Julho/2026": [
         {
           "nome": "NAILZA MOREIRA DA SILVA",
-          "valor": 50
+          "valor": 50,
+          "email": "nailza@dtel.psi.br"
         },
         {
           "nome": "KELLY SABRINA NUNES DUARTE",
+          "valor": 50,
+          "email": "kelly.duarte@dtel.com.br"
+        },
+        {
+          "nome": "Conceicao Jaciara Casado de Souza",
           "valor": 50
         }
       ],
@@ -34068,11 +34509,7 @@
           "valor": 50
         },
         {
-          "nome": "Fiamma Acsa de Siqueira Araujo",
-          "valor": 50
-        },
-        {
-          "nome": "Gabriel Bernardes Agostinho da Silva",
+          "nome": "Conceicao Jaciara Casado de Souza",
           "valor": 50
         }
       ],
@@ -34082,11 +34519,23 @@
           "valor": 50
         },
         {
-          "nome": "Fiamma Acsa de Siqueira Araujo",
+          "nome": "Conceicao Jaciara Casado de Souza",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "NAILZA MOREIRA DA SILVA",
+          "valor": 50,
+          "email": "nailza@dtel.psi.br"
         },
         {
-          "nome": "Gabriel Bernardes Agostinho da Silva",
+          "nome": "KELLY SABRINA NUNES DUARTE",
+          "valor": 50,
+          "email": "kelly.duarte@dtel.com.br"
+        },
+        {
+          "nome": "Conceicao Jaciara Casado de Souza",
           "valor": 50
         }
       ]
@@ -34094,12 +34543,36 @@
     "diretoria_adm": {
       "Julho/2026": [
         {
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA",
+          "valor": 50,
+          "email": "alef@dtel.psi.br"
+        },
+        {
           "nome": "Almir Soares de Oliveira",
-          "valor": 50
+          "valor": 50,
+          "email": "almir.oliveira@dtel.com.br"
         },
         {
           "nome": "Sostenes Matheus Lima e Silva",
-          "valor": 50
+          "valor": 50,
+          "email": "sostenes.matheus@dtel.com.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ALEF OLIVEIRA SOARES DA SILVA",
+          "valor": 50,
+          "email": "alef@dtel.psi.br"
+        },
+        {
+          "nome": "Almir Soares de Oliveira",
+          "valor": 50,
+          "email": "almir.oliveira@dtel.com.br"
+        },
+        {
+          "nome": "Sostenes Matheus Lima e Silva",
+          "valor": 50,
+          "email": "sostenes.matheus@dtel.com.br"
         }
       ]
     },
@@ -34187,43 +34660,82 @@
       "Agosto/2026": [
         {
           "nome": "WILLYANE MILENA DOS SANTOS AQUINO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "willyane@dtel.psi.br"
         },
         {
           "nome": "FABIANA VALERIA DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "fabiana@dtel.psi.br"
         },
         {
           "nome": "TIAGO LYRA DA MOTA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "tiago.silva@dtel.psi.br"
+        },
+        {
+          "nome": "ANDRE do Call Center",
+          "valor": 50,
+          "email": "andre@dtel.psi.br"
         },
         {
           "nome": "MAURICIO PEDRO DE OLIVEIRA JUNIOR",
-          "valor": 50.0
+          "valor": 50,
+          "email": "mauriciojr@dtel.psi.br"
         },
         {
-          "nome": "THULIO FERREIRA ANDRADE SILVA",
-          "valor": 50.0
+          "nome": "Thulio Ferreira Andrade Silva",
+          "valor": 50,
+          "email": "thulio.silva@dtel.psi.br"
+        },
+        {
+          "nome": "Eduarda Yasmim Silva Medeiros",
+          "valor": 50,
+          "email": "eduarda.medeiros@dtel.com.br"
         }
       ]
     },
     "contabilidade": {
       "Julho/2026": [
         {
-          "nome": "Daniele Pedrozo Falcao da Silva",
-          "valor": 50
+          "nome": "Daniele Pedroso Falcão",
+          "valor": 50,
+          "email": "danielefalcao@dtel.psi.br"
         },
         {
-          "nome": "Daniela Olindina Rodrigues da Silva",
-          "valor": 50
+          "nome": "Daniela Olindina",
+          "valor": 50,
+          "email": "daniela.cont@dtel.psi.br"
+        },
+        {
+          "nome": "Contabilidade",
+          "valor": 50,
+          "email": "contabilidade@dtel.psi.br"
+        },
+        {
+          "nome": "fiscal",
+          "valor": 50,
+          "email": "fiscal@dtel.psi.br"
+        },
+        {
+          "nome": "Licitações TOTUM",
+          "valor": 50,
+          "email": "licitacoesgov@dtel.com.br"
         },
         {
           "nome": "Raquel Jedidja de Souza Gomes",
-          "valor": 50
+          "valor": 50,
+          "email": "raquel.gomes@dtel.com.br"
+        },
+        {
+          "nome": "Douglas de Carvalho Nogueira",
+          "valor": 50,
+          "email": "douglas.nogueira@dtel.com.br"
         },
         {
           "nome": "RUTHE GRAZIELLY DA SILVA FREITAS",
-          "valor": 50
+          "valor": 50,
+          "email": "ruthe.freitas@dtel.com.br"
         },
         {
           "nome": "Wadson Genuino Machado da Silva",
@@ -34232,20 +34744,48 @@
         {
           "nome": "E-mail do setor (contabilidade@dtel.psi.br)",
           "valor": 50
-        },
-        {
-          "nome": "E-mail do setor (fiscal@dtel.psi.br)",
-          "valor": 50
         }
       ],
       "Agosto/2026": [
         {
-          "nome": "RAQUEL JEDIDJA DE SOUZA GOMES",
-          "valor": 50.0
+          "nome": "Daniele Pedroso Falcão",
+          "valor": 50,
+          "email": "danielefalcao@dtel.psi.br"
+        },
+        {
+          "nome": "Daniela Olindina",
+          "valor": 50,
+          "email": "daniela.cont@dtel.psi.br"
+        },
+        {
+          "nome": "Contabilidade",
+          "valor": 50,
+          "email": "contabilidade@dtel.psi.br"
+        },
+        {
+          "nome": "fiscal",
+          "valor": 50,
+          "email": "fiscal@dtel.psi.br"
+        },
+        {
+          "nome": "Licitações TOTUM",
+          "valor": 50,
+          "email": "licitacoesgov@dtel.com.br"
+        },
+        {
+          "nome": "Raquel Jedidja de Souza Gomes",
+          "valor": 50,
+          "email": "raquel.gomes@dtel.com.br"
+        },
+        {
+          "nome": "Douglas de Carvalho Nogueira",
+          "valor": 50,
+          "email": "douglas.nogueira@dtel.com.br"
         },
         {
           "nome": "RUTHE GRAZIELLY DA SILVA FREITAS",
-          "valor": 50.0
+          "valor": 50,
+          "email": "ruthe.freitas@dtel.com.br"
         }
       ]
     },
@@ -34425,53 +34965,90 @@
       "Julho/2026": [
         {
           "nome": "JEFFERSON DOS SANTOS SILVA",
-          "valor": 50
+          "valor": 50,
+          "email": "jefferson.silva@dtel.psi.br"
         },
         {
           "nome": "ERINALDO LOPES DA COSTA",
-          "valor": 50
+          "valor": 50,
+          "email": "erinaldo.costa@dtel.psi.br"
+        },
+        {
+          "nome": "Anna kalorine Barbosa",
+          "valor": 50,
+          "email": "anna.karoline@dtel.com.br"
+        },
+        {
+          "nome": "Luis Alexandre de Lima Passos",
+          "valor": 50,
+          "email": "luis.passos@dtel.com.br"
         },
         {
           "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
-          "valor": 50
+          "valor": 50,
+          "email": "anderson.castro@dtel.com.br"
+        },
+        {
+          "nome": "Jovens Aprendizes - Segurança do Trabalho",
+          "valor": 50,
+          "email": "aprendizsesmt@dtel.com.br"
         },
         {
           "nome": "Nayara Ferreira da Silva",
-          "valor": 50
+          "valor": 50,
+          "email": "nayara.silva@dtel.com.br"
         },
         {
           "nome": "Rodrigo Antônio de Oliveira",
-          "valor": 50
+          "valor": 50,
+          "email": "rodrigo.oliveira@dtel.com.br"
         },
         {
           "nome": "Mateus Gomes de Oliveira",
-          "valor": 50
+          "valor": 50,
+          "email": "mateus.oliveira@dtel.com.br"
         }
       ],
       "Agosto/2026": [
         {
           "nome": "JEFFERSON DOS SANTOS SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "jefferson.silva@dtel.psi.br"
         },
         {
           "nome": "ERINALDO LOPES DA COSTA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "erinaldo.costa@dtel.psi.br"
         },
         {
-          "nome": "LUIS ALEXANDRE DE LIMA PASSOS",
-          "valor": 50.0
+          "nome": "Anna kalorine Barbosa",
+          "valor": 50,
+          "email": "anna.karoline@dtel.com.br"
+        },
+        {
+          "nome": "Luis Alexandre de Lima Passos",
+          "valor": 50,
+          "email": "luis.passos@dtel.com.br"
         },
         {
           "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
-          "valor": 50.0
+          "valor": 50,
+          "email": "anderson.castro@dtel.com.br"
         },
         {
-          "nome": "NAYARA FERREIRA DA SILVA",
-          "valor": 50.0
+          "nome": "Jovens Aprendizes - Segurança do Trabalho",
+          "valor": 50,
+          "email": "aprendizsesmt@dtel.com.br"
         },
         {
-          "nome": "MATEUS GOMES DE OLIVEIRA",
-          "valor": 50.0
+          "nome": "Nayara Ferreira da Silva",
+          "valor": 50,
+          "email": "nayara.silva@dtel.com.br"
+        },
+        {
+          "nome": "Mateus Gomes de Oliveira",
+          "valor": 50,
+          "email": "mateus.oliveira@dtel.com.br"
         }
       ]
     },
@@ -34508,23 +35085,37 @@
       ],
       "Agosto/2026": [
         {
+          "nome": "RENATA SILVA DE SANTANA",
+          "valor": 50,
+          "email": "renata.santana@dtel.psi.br"
+        },
+        {
           "nome": "TANIELMA OLIVEIRA DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "tanielma@dtel.psi.br"
         },
         {
           "nome": "ELAYNE FERREIRA DA SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "elayne.ferreira@dtel.psi.br"
+        },
+        {
+          "nome": "Mickael Antônio de Araújo Silva",
+          "valor": 50,
+          "email": "mickael.silva@dtel.com.br"
+        },
+        {
+          "nome": "Jose Gabriel de Oliveira Silva",
+          "valor": 50,
+          "email": "jose.silva@dtel.com.br"
+        },
+        {
+          "nome": "Weslley Daniel de Lima Souza",
+          "valor": 50,
+          "email": "weslley.souza@dtel.com.br"
         },
         {
           "nome": "AYRTON DA SILVA LIMA",
-          "valor": 50.0
-        },
-        {
-          "nome": "MICKAEL ANTÔNIO DE ARAÚJO SILVA",
-          "valor": 50.0
-        },
-        {
-          "nome": "JOSE GABRIEL DE OLIVEIRA SILVA",
           "valor": 50.0
         }
       ]
@@ -34536,15 +35127,7 @@
           "valor": 50
         },
         {
-          "nome": "ALAN KLEBSON DO MONTE SILVA",
-          "valor": 50
-        },
-        {
           "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
-          "valor": 50
-        },
-        {
-          "nome": "JAIRO RODRIGUES SILVA NETO",
           "valor": 50
         },
         {
@@ -34553,10 +35136,6 @@
         },
         {
           "nome": "Jessica Samara da silva",
-          "valor": 50
-        },
-        {
-          "nome": "Anderson Luiz Peixoto da Silveira Junior",
           "valor": 50
         },
         {
@@ -34590,15 +35169,7 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "ALAN KLEBSON DO MONTE SILVA",
-          "valor": 50.0
-        },
-        {
           "nome": "ANDRE AUGUSTO SOUZA DE LIRA",
-          "valor": 50.0
-        },
-        {
-          "nome": "JAIRO RODRIGUES SILVA NETO",
           "valor": 50.0
         },
         {
@@ -34610,10 +35181,6 @@
           "valor": 10.0
         },
         {
-          "nome": "LUCAS ANDRE DA SILVA ALVES",
-          "valor": 50.0
-        },
-        {
           "nome": "LUAN VINÍCIUS NEVES DE SOUZA",
           "valor": 50.0
         }
@@ -34623,7 +35190,8 @@
       "Julho/2026": [
         {
           "nome": "EVERSON BRUNO LORENA DA SILVA",
-          "valor": 50
+          "valor": 50,
+          "email": "everson@dtel.psi.br"
         },
         {
           "nome": "Equipe de Monitoramento - Gabriel Medeiros",
@@ -34633,11 +35201,8 @@
       "Agosto/2026": [
         {
           "nome": "EVERSON BRUNO LORENA DA SILVA",
-          "valor": 50.0
-        },
-        {
-          "nome": "SOSTENES MATHEUS LIMA E SILVA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "everson@dtel.psi.br"
         }
       ]
     },
@@ -34658,12 +35223,19 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "BRUNO DOUGLAS ALVES DA SILVA",
-          "valor": 50.0
+          "nome": "dtel",
+          "valor": 50,
+          "email": "compras@dtel.psi.br"
         },
         {
-          "nome": "OLIVER RHUAN DE MELO GOMES",
-          "valor": 50.0
+          "nome": "BRUNO DOUGLAS ALVES DA SILVA",
+          "valor": 50,
+          "email": "bruno.silva@dtel.psi.br"
+        },
+        {
+          "nome": "Oliver Rhuan de Melo Gomes",
+          "valor": 50,
+          "email": "oliver.gomes@dtel.com.br"
         }
       ]
     },
@@ -34718,8 +35290,9 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "JULIANA DA SILVA PEREIRA",
-          "valor": 50.0
+          "nome": "Juliana da Silva Pereira",
+          "valor": 50,
+          "email": "juliana.pereira@dtel.com.br"
         }
       ]
     },
@@ -34763,31 +35336,67 @@
       "Julho/2026": [
         {
           "nome": "Andreza Luana Barbosa da Silva",
-          "valor": 50
+          "valor": 50,
+          "email": "andreza.silva@dtel.com.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 50,
+          "email": "andreza.silva@dtel.com.br"
         }
       ]
     },
     "diretoria_operacional": {
       "Julho/2026": [
         {
-          "nome": "SEVERINO DIONISIO DE LIMA JUNIOR",
-          "valor": 10
+          "nome": "DEBORA CARLA DOS SANTOS SILVA",
+          "valor": 50,
+          "email": "debora@dteltelecom.psi.br"
         },
         {
+          "nome": "Severino Dionisio de Lima Junior",
+          "valor": 50,
+          "email": "dionisio@dtel.psi.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
           "nome": "DEBORA CARLA DOS SANTOS SILVA",
-          "valor": 90
+          "valor": 50,
+          "email": "debora@dteltelecom.psi.br"
+        },
+        {
+          "nome": "Severino Dionisio de Lima Junior",
+          "valor": 50,
+          "email": "dionisio@dtel.psi.br"
         }
       ]
     },
     "backoffice_comercial_varejo": {
       "Julho/2026": [
         {
-          "nome": "Liryel Camilly Santana da Silva Carvalho",
-          "valor": 50
+          "nome": "GABRIELA DA SILVA ALVES",
+          "valor": 50,
+          "email": "gabriela.silva@dtel.com.br"
         },
         {
-          "nome": "Gabriela da Silva Alves",
-          "valor": 50
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 50,
+          "email": "liryel.carvalho@dtel.com.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "GABRIELA DA SILVA ALVES",
+          "valor": 50,
+          "email": "gabriela.silva@dtel.com.br"
+        },
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 50,
+          "email": "liryel.carvalho@dtel.com.br"
         }
       ]
     },
@@ -34871,19 +35480,38 @@
       "Agosto/2026": [
         {
           "nome": "LUIZ EDUARDO PEREIRA DE LIMA",
-          "valor": 50.0
+          "valor": 50,
+          "email": "luiz.lima@dtel.com.br"
         },
         {
-          "nome": "ANTONIO ROBERTO DIAS FRUTUOSO JUNIOR",
-          "valor": 50.0
+          "nome": "Antonio Roberto Dias Frutuoso Junior",
+          "valor": 50,
+          "email": "antonio.junior@dtel.com.br"
         },
         {
-          "nome": "BRUNO SANTOS DA SILVA",
-          "valor": 50.0
+          "nome": "Bruno Santos da Silva",
+          "valor": 50,
+          "email": "bruno.santos@dtel.com.br"
+        },
+        {
+          "nome": "ARTHUR JOAQUIM SANTOS",
+          "valor": 50,
+          "email": "arthur.santos@dtelisp.com.br"
+        },
+        {
+          "nome": "Equipe de Desenvolvimento",
+          "valor": 50,
+          "email": "dev@dtelisp.com.br"
+        },
+        {
+          "nome": "Relacionamento DTEL - CONTA DE SERVIÇO",
+          "valor": 50,
+          "email": "relacionamento@dtelisp.com.br"
         },
         {
           "nome": "RENAN ALCANTARA RIBEIRO",
-          "valor": 10.0
+          "valor": 50,
+          "email": "renan.ribeiro@dtelisp.com.br"
         }
       ]
     },
@@ -34892,6 +35520,18 @@
         {
           "nome": "Supervisão Televendas",
           "valor": 50
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "LUCAS ANDRE DA SILVA ALVES",
+          "valor": 50,
+          "email": "lucas.alves@dtel.com.br"
+        },
+        {
+          "nome": "Supervisão Televendas",
+          "valor": 50,
+          "email": "supervisaotelevendas@dtel.com.br"
         }
       ]
     },
@@ -35064,6 +35704,61 @@
           "valor": 50.0
         }
       ]
+    },
+    "projetista": {
+      "Julho/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 50,
+          "email": "alan@dtel.psi.br"
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 50,
+          "email": "jairo@dtel.psi.br"
+        },
+        {
+          "nome": "ANDERSON PEIXOTO",
+          "valor": 50,
+          "email": "anderson.peixoto@dtel.com.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 50,
+          "email": "alan@dtel.psi.br"
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 50,
+          "email": "jairo@dtel.psi.br"
+        },
+        {
+          "nome": "ANDERSON PEIXOTO",
+          "valor": 50,
+          "email": "anderson.peixoto@dtel.com.br"
+        }
+      ]
+    },
+    "oficina": {
+      "Julho/2026": [
+        {
+          "nome": "Ednaldo Nobaia Aciole Junior",
+          "valor": 50,
+          "email": "ednaldo.nobaia@dtel.com.br"
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Ednaldo Nobaia Aciole Junior",
+          "valor": 50,
+          "email": "ednaldo.nobaia@dtel.com.br"
+        }
+      ]
+    },
+    "servicos_gerais": {
+      "Agosto/2026": []
     }
   },
   "impressoras": {
@@ -35150,22 +35845,6 @@
           "valor": 60
         },
         {
-          "nome": "ALAN KLEBSON DO MONTE SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "Leonardo Vinicius de Santana Arcoverde",
-          "valor": 30
-        },
-        {
-          "nome": "JAIRO RODRIGUES SILVA NETO",
-          "valor": 30
-        },
-        {
-          "nome": "Anderson Luiz Peixoto da Silveira Junior",
-          "valor": 30
-        },
-        {
           "nome": "Andre Augusto Souza de Lira",
           "valor": 30
         },
@@ -35180,19 +35859,7 @@
           "valor": 60
         },
         {
-          "nome": "ALAN KLEBSON DO MONTE SILVA",
-          "valor": 30
-        },
-        {
           "nome": "Leonardo Vinicius de Santana Arcoverde",
-          "valor": 30
-        },
-        {
-          "nome": "JAIRO RODRIGUES SILVA NETO",
-          "valor": 30
-        },
-        {
-          "nome": "Anderson Luiz Peixoto da Silveira Junior",
           "valor": 30
         },
         {
@@ -35201,6 +35868,20 @@
         },
         {
           "nome": "Lucas Andre da Silva Alves",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Cryslaine Fonseca Rosal",
+          "valor": 60
+        },
+        {
+          "nome": "Leonardo Vinicius de Santana Arcoverde",
+          "valor": 30
+        },
+        {
+          "nome": "Andre Augusto Souza de Lira",
           "valor": 30
         }
       ]
@@ -35235,14 +35916,20 @@
           "nome": "OLIVER RHUAN DE MELO GOMES",
           "valor": 30
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Bruno Douglas Alves da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "OLIVER RHUAN DE MELO GOMES",
+          "valor": 30
+        }
       ]
     },
     "marketing": {
       "Maio/2026": [
-        {
-          "nome": "KARINA NEVES DE SOUZA DAMASCENA",
-          "valor": 30
-        },
         {
           "nome": "YASMIM XIMENES OLIVEIRA",
           "valor": 30
@@ -35261,10 +35948,6 @@
         },
         {
           "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "Denysson da Silva Bezerra",
           "valor": 30
         },
         {
@@ -35282,10 +35965,6 @@
       ],
       "Junho/2026": [
         {
-          "nome": "KARINA NEVES DE SOUZA DAMASCENA",
-          "valor": 30
-        },
-        {
           "nome": "YASMIM XIMENES OLIVEIRA",
           "valor": 30
         },
@@ -35303,10 +35982,6 @@
         },
         {
           "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "Denysson da Silva Bezerra",
           "valor": 30
         },
         {
@@ -35324,10 +35999,6 @@
       ],
       "Julho/2026": [
         {
-          "nome": "KARINA NEVES DE SOUZA DAMASCENA",
-          "valor": 30
-        },
-        {
           "nome": "YASMIM XIMENES OLIVEIRA",
           "valor": 30
         },
@@ -35341,14 +36012,6 @@
         },
         {
           "nome": "MICHELLE KAREN DE OLIVEIRA",
-          "valor": 30
-        },
-        {
-          "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "Denysson da Silva Bezerra",
           "valor": 30
         },
         {
@@ -35366,10 +36029,6 @@
       ],
       "Agosto/2026": [
         {
-          "nome": "KARINA NEVES DE SOUZA DAMASCENA",
-          "valor": 30
-        },
-        {
           "nome": "YASMIM XIMENES OLIVEIRA",
           "valor": 30
         },
@@ -35383,14 +36042,6 @@
         },
         {
           "nome": "MICHELLE KAREN DE OLIVEIRA",
-          "valor": 30
-        },
-        {
-          "nome": "VINICIUS FREIRE VERÇOSA DA SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "Denysson da Silva Bezerra",
           "valor": 30
         },
         {
@@ -35497,6 +36148,36 @@
           "nome": "Demetrius Ribeiro de Aquino",
           "valor": 30
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ednaldoj",
+          "valor": 30
+        },
+        {
+          "nome": "JOSE EDIVALDO DE OLIVEIRA JUNIOR",
+          "valor": 30
+        },
+        {
+          "nome": "JOSÉ ALVES DE OLIVEIRA NETO",
+          "valor": 30
+        },
+        {
+          "nome": "CLOVIS MENDES DA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "Armando José Barbosa",
+          "valor": 30
+        },
+        {
+          "nome": "Neilson Alexandre da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Demetrius Ribeiro de Aquino",
+          "valor": 30
+        }
       ]
     },
     "noc": {
@@ -35541,14 +36222,24 @@
           "nome": "Emanoel Rodolfo da Silva",
           "valor": 30
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ORLANDO SOARES ALVES",
+          "valor": 30
+        },
+        {
+          "nome": "JEFFERSON PATRICK BARRETO TAVARES",
+          "valor": 30
+        },
+        {
+          "nome": "Emanoel Rodolfo da Silva",
+          "valor": 30
+        }
       ]
     },
     "financeiro": {
       "Maio/2026": [
-        {
-          "nome": "Alef Oliveira Soares da Silva",
-          "valor": 30
-        },
         {
           "nome": "ANNA MARY BARBOSA PIMENTEL",
           "valor": 30
@@ -35556,7 +36247,13 @@
       ],
       "Junho/2026": [
         {
-          "nome": "Alef Oliveira Soares da Silva",
+          "nome": "ANNA MARY BARBOSA PIMENTEL",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "ALEX OLIVEIRA SOARES DA SILVA",
           "valor": 30
         },
         {
@@ -35564,7 +36261,7 @@
           "valor": 30
         }
       ],
-      "Julho/2026": [
+      "Agosto/2026": [
         {
           "nome": "ALEX OLIVEIRA SOARES DA SILVA",
           "valor": 30
@@ -35715,6 +36412,12 @@
           "nome": "RENATA THAYSA DOS SANTOS CUNHA",
           "valor": 60
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "RENATA THAYSA DOS SANTOS CUNHA",
+          "valor": 60
+        }
       ]
     },
     "contabilidade": {
@@ -35735,14 +36438,16 @@
           "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
           "valor": 60
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "DANIELA OLINDINA RODRIGUES DA SILVA",
+          "valor": 60
+        }
       ]
     },
     "tic": {
       "Maio/2026": [
-        {
-          "nome": "THIAGO CAMPELO DA SILVA",
-          "valor": 30
-        },
         {
           "nome": "Filipe da Silva Goncalves",
           "valor": 30
@@ -35753,10 +36458,6 @@
         },
         {
           "nome": "Wayne Palmeira de Castro Junior",
-          "valor": 30
-        },
-        {
-          "nome": "Eduardo Vilaça Oliveira",
           "valor": 30
         }
       ],
@@ -35776,10 +36477,6 @@
         {
           "nome": "Wayne Palmeira de Castro Junior",
           "valor": 30
-        },
-        {
-          "nome": "Eduardo Vilaça Oliveira",
-          "valor": 30
         }
       ],
       "Julho/2026": [
@@ -35798,9 +36495,23 @@
         {
           "nome": "Wayne Palmeira de Castro Junior",
           "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "THIAGO CAMPELO DA SILVA",
+          "valor": 30
         },
         {
-          "nome": "Eduardo Vilaça Oliveira",
+          "nome": "Filipe da Silva Goncalves",
+          "valor": 30
+        },
+        {
+          "nome": "Thiago Luiz da Silva Mota",
+          "valor": 30
+        },
+        {
+          "nome": "Wayne Palmeira de Castro Junior",
           "valor": 30
         }
       ]
@@ -35814,10 +36525,6 @@
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
           "valor": 30
-        },
-        {
-          "nome": "Andreza Luana Barbosa da Silva",
-          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -35827,10 +36534,6 @@
         },
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
-          "valor": 30
-        },
-        {
-          "nome": "Andreza Luana Barbosa da Silva",
           "valor": 30
         }
       ],
@@ -35842,9 +36545,15 @@
         {
           "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
           "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "DAYANE STEFANNI CLIMACO DE SANTANA",
+          "valor": 60
         },
         {
-          "nome": "Andreza Luana Barbosa da Silva",
+          "nome": "CLEONILDO ANTÔNIO DOS SANTOS NETO",
           "valor": 30
         }
       ]
@@ -35858,10 +36567,6 @@
         {
           "nome": "CAMILA VIRGULINO COSTA",
           "valor": 30
-        },
-        {
-          "nome": "Willams Maciel Silva",
-          "valor": 30
         }
       ],
       "Junho/2026": [
@@ -35871,10 +36576,6 @@
         },
         {
           "nome": "CAMILA VIRGULINO COSTA",
-          "valor": 30
-        },
-        {
-          "nome": "Willams Maciel Silva",
           "valor": 30
         }
       ],
@@ -35886,9 +36587,15 @@
         {
           "nome": "CAMILA VIRGULINO COSTA",
           "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "OSMAIRE BATISTA DE LIMA",
+          "valor": 30
         },
         {
-          "nome": "Willams Maciel Silva",
+          "nome": "CAMILA VIRGULINO COSTA",
           "valor": 30
         }
       ]
@@ -35911,6 +36618,12 @@
           "nome": "CARLOS ALEXANDRE GOMES DE MOURA",
           "valor": 60
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "CARLOS ALEXANDRE GOMES DE MOURA",
+          "valor": 60
+        }
       ]
     },
     "cac": {
@@ -35927,6 +36640,12 @@
         }
       ],
       "Julho/2026": [
+        {
+          "nome": "Chip do setor CAC (uso da equipe)",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
         {
           "nome": "Chip do setor CAC (uso da equipe)",
           "valor": 30
@@ -35987,6 +36706,20 @@
           "nome": "Erinaldo Lopes da Costa",
           "valor": 30
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Anna Karoline Barbosa Pimentel de Oliveira",
+          "valor": 30
+        },
+        {
+          "nome": "ANDERSON FELIPE VAREJÃO DE CASTRO",
+          "valor": 30
+        },
+        {
+          "nome": "Erinaldo Lopes da Costa",
+          "valor": 30
+        }
       ]
     },
     "fique_movel": {
@@ -36011,6 +36744,16 @@
         }
       ],
       "Julho/2026": [
+        {
+          "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
+          "valor": 30
+        },
+        {
+          "nome": "Rafael da Silva Gabriel",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
         {
           "nome": "ISLA RAFAELLE LESSA DE ANDRADE",
           "valor": 30
@@ -36074,10 +36817,6 @@
       ],
       "Junho/2026": [
         {
-          "nome": "Gabriele Cícera Pereira da Silva",
-          "valor": 30
-        },
-        {
           "nome": "WELLYSON THOMAS DOS SANTOS",
           "valor": 30
         },
@@ -36177,6 +36916,56 @@
         },
         {
           "nome": "Marcos Igor de Arruda Barros",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Gabriele Cícera Pereira da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "WELLYSON THOMAS DOS SANTOS",
+          "valor": 30
+        },
+        {
+          "nome": "LETICIA DE FRANÇA LIMA",
+          "valor": 30
+        },
+        {
+          "nome": "Mauricio Pedro de Oliveira Junior",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Eduarda Conceicao da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willames Artur da Conceicao Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Thulio Ferreira Andrade Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Maria Amanda da Silva Lima",
+          "valor": 30
+        },
+        {
+          "nome": "Andre Luiz do Nascimento Alves",
+          "valor": 30
+        },
+        {
+          "nome": "Fabiana Valeria da Silva",
+          "valor": 30
+        },
+        {
+          "nome": "Willyane Milena dos Santos Aquino",
+          "valor": 30
+        },
+        {
+          "nome": "Tiago Lyra da Mota Silva",
           "valor": 30
         }
       ]
@@ -36211,6 +37000,16 @@
           "nome": "Joelmyr Fabio Lins",
           "valor": 30
         }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "MIKAELLE MARIA DE SOUZA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "Joelmyr Fabio Lins",
+          "valor": 30
+        }
       ]
     },
     "obras": {
@@ -36221,10 +37020,6 @@
         },
         {
           "nome": "AFONSO FELIPE DA SILVA",
-          "valor": 30
-        },
-        {
-          "nome": "DANIEL ANTÔNIO DA SILVA",
           "valor": 30
         },
         {
@@ -36246,6 +37041,28 @@
           "valor": 30
         },
         {
+          "nome": "GESIMIEL GOMES DA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "Leonardo Vinicius de Santana Arcoverde",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "DAYVID PEDRO PEREIRA DOS REIS",
+          "valor": 30
+        },
+        {
+          "nome": "MARCONDES JOSÉ DA SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "AFONSO FELIPE DA SILVA",
+          "valor": 30
+        },
+        {
           "nome": "DANIEL ANTÔNIO DA SILVA",
           "valor": 30
         },
@@ -36254,7 +37071,7 @@
           "valor": 30
         }
       ],
-      "Julho/2026": [
+      "Agosto/2026": [
         {
           "nome": "DAYVID PEDRO PEREIRA DOS REIS",
           "valor": 30
@@ -36311,6 +37128,12 @@
         }
       ],
       "Julho/2026": [
+        {
+          "nome": "Liryel Camilly Santana da Silva Carvalho",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
         {
           "nome": "Liryel Camilly Santana da Silva Carvalho",
           "valor": 30
@@ -36484,6 +37307,120 @@
         {
           "nome": "VICTOR GABRIEL FRANÇA BERNARDES",
           "valor": 30.0
+        }
+      ]
+    },
+    "cozinha": {
+      "Maio/2026": [
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Andreza Luana Barbosa da Silva",
+          "valor": 30
+        }
+      ]
+    },
+    "lancamento": {
+      "Maio/2026": [
+        {
+          "nome": "DANIEL ANTÔNIO DA SILVA",
+          "valor": 30
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "DANIEL ANTÔNIO DA SILVA",
+          "valor": 30
+        }
+      ]
+    },
+    "projetista": {
+      "Junho/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 30
+        },
+        {
+          "nome": "Anderson Luiz Peixoto da Silveira Junior",
+          "valor": 30
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 30
+        },
+        {
+          "nome": "Anderson Luiz Peixoto da Silveira Junior",
+          "valor": 30
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "ALAN KLEBSON DO MONTE SILVA",
+          "valor": 30
+        },
+        {
+          "nome": "JAIRO RODRIGUES SILVA NETO",
+          "valor": 30
+        },
+        {
+          "nome": "Anderson Luiz Peixoto da Silveira Junior",
+          "valor": 30
+        }
+      ]
+    },
+    "suporte_da_central": {
+      "Junho/2026": [
+        {
+          "nome": "Gabriele Cícera Pereira da Silva",
+          "valor": 30
+        }
+      ]
+    },
+    "diretoria_adm": {
+      "Maio/2026": [
+        {
+          "nome": "Alef Oliveira Soares da Silva",
+          "valor": 30
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Alef Oliveira Soares da Silva",
+          "valor": 30
+        }
+      ]
+    },
+    "televendas": {
+      "Agosto/2026": [
+        {
+          "nome": "Lucas Andre da Silva Alves",
+          "valor": 30
         }
       ]
     }
@@ -37582,5 +38519,225 @@
         "valor": 819.89
       }
     ]
+  },
+  "rescisoes": {
+    "configuracao": {
+      "Julho/2026": [
+        {
+          "nome": "Kaio Matheus Ferreira de Assis",
+          "valor": 8880.36
+        }
+      ]
+    },
+    "cozinha": {
+      "Julho/2026": [
+        {
+          "nome": "Ednilson Jose da Silva",
+          "valor": 2357.33
+        },
+        {
+          "nome": "Jose Mariano Camelo Filho",
+          "valor": 8668.48
+        }
+      ]
+    },
+    "engenharia": {
+      "Junho/2026": [
+        {
+          "nome": "Murilo Medeiros Lima",
+          "valor": 3121.37
+        }
+      ]
+    },
+    "marketing": {
+      "Julho/2026": [
+        {
+          "nome": "Vinicius Freire Vercosa da Silva",
+          "valor": 9553.58
+        }
+      ]
+    },
+    "noc": {
+      "Agosto/2026": [
+        {
+          "nome": "Dyego Almeida Telino",
+          "valor": 19779.19
+        }
+      ]
+    },
+    "nrc": {
+      "Julho/2026": [
+        {
+          "nome": "Elias Jose da Silva Junior",
+          "valor": 4404.44
+        },
+        {
+          "nome": "Erika Lima dos Santos",
+          "valor": 1182
+        },
+        {
+          "nome": "Aline Gabriela da Silva",
+          "valor": 1500
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Bianca Camylle do Nascimento Barbosa",
+          "valor": 3112.37
+        }
+      ]
+    },
+    "obras": {
+      "Julho/2026": [
+        {
+          "nome": "Gabriel de Souza Silva",
+          "valor": 8704.8
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Julio Manoel dos Santos",
+          "valor": 7468.78
+        }
+      ]
+    },
+    "retencao": {
+      "Julho/2026": [
+        {
+          "nome": "Poliana Oliveira da Silva",
+          "valor": 1344.55
+        },
+        {
+          "nome": "Emanuela Maria dos Santos",
+          "valor": 9044.65
+        }
+      ]
+    },
+    "seguranca_do_trabalho": {
+      "Julho/2026": [
+        {
+          "nome": "Mateus Gomes de Oliveira",
+          "valor": 5236.96
+        }
+      ],
+      "Agosto/2026": [
+        {
+          "nome": "Rodrigo Antonio de Oliveira",
+          "valor": 4374.98
+        }
+      ]
+    },
+    "suporte_da_central": {
+      "Julho/2026": [
+        {
+          "nome": "Anderson Rafael Silva Freire",
+          "valor": 3517.58
+        }
+      ],
+      "Junho/2026": [
+        {
+          "nome": "Matheus Vinicius de Lima e Silva",
+          "valor": 5707.48
+        }
+      ]
+    },
+    "televendas": {
+      "Julho/2026": [
+        {
+          "nome": "Lucas Abel Goulart",
+          "valor": 5737.4
+        }
+      ]
+    },
+    "cobranca": {
+      "Junho/2026": [
+        {
+          "nome": "Maria Victorya Silva Nepomuceno",
+          "valor": 2340.76
+        }
+      ]
+    },
+    "comercial_corporativo": {
+      "Junho/2026": [
+        {
+          "nome": "Gustavo Bernardo da Silva",
+          "valor": 3022.47
+        }
+      ]
+    },
+    "contabilidade": {
+      "Junho/2026": [
+        {
+          "nome": "Ingred Francielly Gomes da Silva",
+          "valor": 3112.37
+        }
+      ]
+    },
+    "estoque": {
+      "Junho/2026": [
+        {
+          "nome": "Anderson Gabriel de Oliveira Andrade",
+          "valor": 3112.37
+        }
+      ]
+    },
+    "tic": {
+      "Junho/2026": [
+        {
+          "nome": "Matheus da Silva Alves",
+          "valor": 3096.63
+        },
+        {
+          "nome": "Jose Kayo Matheus Ferreira e Silva",
+          "valor": 3112.37
+        }
+      ]
+    },
+    "lancamento": {
+      "Maio/2026": [
+        {
+          "nome": "Rodolfo Lima de Miranda",
+          "valor": 1746.63
+        }
+      ]
+    },
+    "manutencao_predial": {
+      "Maio/2026": [
+        {
+          "nome": "Francisco de Assis Junior",
+          "valor": 1954.84
+        }
+      ]
+    },
+    "coe": {
+      "Agosto/2026": [
+        {
+          "nome": "Daiane Rodrigues de Assis",
+          "valor": 8743.59
+        },
+        {
+          "nome": "Marcia Maria Silva da Costa",
+          "valor": 8755.16
+        },
+        {
+          "nome": "Marcos Igor de Arruda Barros",
+          "valor": 6830.35
+        }
+      ],
+      "Julho/2026": [
+        {
+          "nome": "Radames Josuel Rodrigues dos Santos Junior",
+          "valor": 13047.79
+        }
+      ]
+    },
+    "fusao": {
+      "Julho/2026": [
+        {
+          "nome": "Jose Anderson da Silva",
+          "valor": 14703.68
+        }
+      ]
+    }
   }
 }

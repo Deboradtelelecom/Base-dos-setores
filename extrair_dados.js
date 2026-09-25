@@ -93,6 +93,7 @@ function carregarDetalhesColaborador(pastaDados) {
           email_corporativo: dados.email_corporativo || {},
           impressoras: dados.impressoras || {},
           chip_movel: dados.chip_movel || {},
+          rescisoes: dados.rescisoes || {},
           fardamento_novo: dados.fardamento_novo || {},
           fardamento_substituicao: dados.fardamento_substituicao || {},
           fardamento_devolucao: dados.fardamento_devolucao || {},
@@ -101,11 +102,11 @@ function carregarDetalhesColaborador(pastaDados) {
           vendas_informativas_por_empresa: dados.vendas_informativas_por_empresa || {},
         };
       } catch (e) {
-        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
+        return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, rescisoes: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
       }
     }
   }
-  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
+  return { folha_de_pagamento: {}, exames_medicos: {}, combustivel: {}, epi: {}, materiais_escritorio: {}, materiais_coletivo: {}, email_corporativo: {}, impressoras: {}, chip_movel: {}, rescisoes: {}, fardamento_novo: {}, fardamento_substituicao: {}, fardamento_devolucao: {}, equipe_pap_nomes: {}, combustivel_equipe_varejo: {}, vendas_informativas_por_empresa: {} };
 }
 
 // "Horas Extras" — quadro à parte (04/09/2026), pedido da Débora: "todos os
@@ -502,6 +503,14 @@ function extrairEstado(pastaDados) {
       detalhesColaborador.chip_movel[chave][mes].length
     ) {
       detalhes = detalhesColaborador.chip_movel[chave][mes];
+    } else if (
+      /rescis/i.test(nomeItemLimpo) &&
+      Number(quantidade) > 0 &&
+      (detalhesColaborador.rescisoes || {})[chave] &&
+      detalhesColaborador.rescisoes[chave][mes] &&
+      detalhesColaborador.rescisoes[chave][mes].length
+    ) {
+      detalhes = detalhesColaborador.rescisoes[chave][mes];
     } else if (
       /(fardamento novo|novo fardamento)/i.test(nomeItemLimpo) &&
       detalhesColaborador.fardamento_novo[chave] &&
